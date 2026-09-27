@@ -28,7 +28,7 @@ export function renderQuizCard(container, card) {
           </button>`).join("")}
       </div>
       <div class="quiz-explain" id="explain" hidden>${escapeHtml(card.erklaerung ?? "")}</div>
-      <div style="margin-top:18px" hidden id="next-wrap">
+      <div class="next-wrap" hidden id="next-wrap">
         <button type="button" class="btn btn-primary" id="next">Weiter</button>
       </div>
     </div>`;

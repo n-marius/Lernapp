@@ -131,14 +131,10 @@ async function showUserPick() {
       </header>
       <div class="users">
         <button class="user-card" data-user="marius">
-          <span class="user-dot"></span>
           <span class="user-name">Marius</span>
-          <span class="user-sub">Erstes Staatsexamen</span>
         </button>
         <button class="user-card" data-user="agnessa">
-          <span class="user-dot"></span>
           <span class="user-name">Agnessa</span>
-          <span class="user-sub">Erstes Staatsexamen</span>
         </button>
       </div>`,
   });

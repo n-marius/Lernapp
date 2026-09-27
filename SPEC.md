@@ -155,8 +155,9 @@ laufen lassen.
    Marius (blauer Farbakzent) oder Agnessa (pinker Farbakzent). Die Wahl wird
    lokal gespeichert und gilt bis zum nächsten Wechsel. Wechseln ist jederzeit
    über die Einstellungen möglich.
-2. **Moduswahl** (3 Kacheln): „Karteikarten“, „Frage-Antwort“, „Karten
-   anlegen“.
+2. **Moduswahl** (3 Kacheln, bei Marius 4): „Karteikarten“, „Frage-Antwort“,
+   „Karten anlegen“ und – nur wenn Marius der aktuell gewählte Nutzer ist –
+   „Flaggs beheben“ (siehe Abschnitt 5.4).
 3. **Rechtsgebiet wählen** (4 Zeilen): Zivilgericht, Strafrecht,
    Rechtsanwalt, Verwaltungsrecht. In den beiden Lernmodi sind
    Rechtsgebiete ohne Karten ausgegraut; im Modus „Karten anlegen“ sind immer
@@ -204,6 +205,54 @@ laufen lassen.
 - Neue Karten werden sofort synchronisiert (Abschnitt 8), damit sie auf dem
   Gerät des anderen Nutzers erscheinen.
 
+### 5.4 Karte melden
+
+- In beiden Lernmodi (Karteikarten und Frage-Antwort) gibt es in der
+  Kopfleiste einen kleinen, unauffälligen Flaggen-Knopf. Ein Klick öffnet
+  einen Dialog: eine Auswahl „Frage“ oder „Antwort“ (was genau nicht
+  stimmt), ein mehrzeiliges Textfeld für eine kurze Beschreibung, sowie
+  „Abbrechen“ und „Absenden“. „Absenden“ ist erst möglich, wenn eine
+  Beschreibung eingetragen wurde.
+- Beim Absenden wird eine Meldung gespeichert (siehe `flags` in Abschnitt 7)
+  und sofort synchronisiert, ein Hinweis „Danke, gemeldet.“ erscheint, und es
+  geht direkt mit der nächsten Karte der Warteschlange weiter. Die gemeldete
+  Karte gilt nicht als beantwortet – es findet kein Stufenwechsel statt.
+- Eine Karte mit mindestens einer offenen Meldung wird ab sofort für **beide**
+  Nutzer aus allen Kartenlisten ausgeblendet (Lernmodi, Rechtsgebiets- und
+  Stufenzählungen), bis die Meldung im Modus „Flaggs beheben“ bearbeitet
+  wurde. Das gilt unabhängig davon, wer die Karte gemeldet hat.
+
+### 5.5 Flaggs beheben (nur Marius)
+
+- Diese Kachel ist ausschließlich sichtbar und wählbar, wenn Marius der
+  aktuell gewählte Nutzer ist. Bei Agnessa fehlt sie auf dem
+  Moduswahl-Bildschirm vollständig.
+- Es gibt keinen Rechtsgebiets- oder Stufen-Zwischenschritt: Ein Klick auf die
+  Kachel führt direkt zu einer Übersicht, die alle offenen Meldungen
+  nacheinander als Warteschlange zeigt (Kopfzeile „Meldung X von Y“).
+- Zu jeder Meldung wird die vollständige Karte gezeigt (Frage, alle vier
+  Antworten mit der richtigen sichtbar hervorgehoben, Erklärung), dazu ein
+  kleiner Hinweis „Frage gemeldet“ oder „Antwort gemeldet“, die Notiz des
+  meldenden Nutzers im Klartext und ein kleiner Namens-Chip, wer gemeldet
+  hat.
+- Drei Aktionen stehen zur Wahl:
+  - **Löschen** – nach einer Ja/Nein-Rückfrage wird die Karte überall
+    ausgeblendet (siehe `cardEdits.deleted` in Abschnitt 7) und alle offenen
+    Meldungen dieser Karte gelten als erledigt. Das lässt sich nicht
+    rückgängig machen.
+  - **Überspringen** – nichts wird verändert, die Meldung bleibt offen und
+    taucht innerhalb derselben Sitzung erst wieder auf, wenn alle anderen
+    offenen Meldungen einmal gezeigt wurden (kommt „am Ende der Runde“
+    erneut).
+  - **Bearbeiten** – blendet an derselben Stelle ein vorausgefülltes
+    Formular ein (Frage, die vier Antworten – das erste Feld weiterhin
+    „Richtige Antwort“ – und Erklärung). „Speichern“ legt eine Korrektur an
+    (siehe `cardEdits` in Abschnitt 7), erledigt alle offenen Meldungen
+    dieser Karte und synchronisiert sofort; „Abbrechen“ kehrt unverändert zur
+    Kartenansicht zurück.
+- Sind keine offenen Meldungen mehr vorhanden, erscheint ein Hinweis „Keine
+  offenen Meldungen“ / „Alle gemeldeten Karten sind bearbeitet.“
+
 ## 6. Statistik
 
 - Pro Nutzer wird täglich gezählt, wie viele Karten bearbeitet wurden
@@ -232,6 +281,22 @@ laufen lassen.
 - `events` – bearbeitete Karten je Nutzer, für die Tagesstatistik,
   append-only: `{ id, user, ts, cardId, correct, mode }` (`mode` ist
   `"cards"` oder `"quiz"`).
+- `flags` – Meldungen zu Karten, Schlüssel `id` (uuid):
+  `{ id, cardId, field, note, flaggedBy, ts, status }`. `field` ist
+  `"frage"` oder `"antwort"` (was an der Karte nicht stimmt), `flaggedBy`
+  ist `"marius"` oder `"agnessa"`, `status` ist `"open"` oder `"resolved"`.
+  Jede Karte mit mindestens einer offenen Meldung wird für alle Nutzer aus
+  allen Kartenlisten ausgeblendet (siehe Abschnitt 5.4).
+- `cardEdits` – Korrekturen bzw. Löschungen einzelner Karten, Schlüssel
+  `cardId` (ein Eintrag je Karte, egal ob Grundbestand oder von einem Nutzer
+  angelegt): `{ cardId, ts, editedBy, deleted, frage?, antworten?, erklaerung? }`.
+  `deleted: true` blendet die Karte überall dauerhaft aus (Lernmodi,
+  Rechtsgebiets-/Stufenzählungen, Flag-Übersicht); ansonsten überschreiben
+  die vorhandenen Felder (`frage`, `antworten`, `erklaerung`) beim Anzeigen
+  die entsprechenden Felder der Basis-Karte.
+- `cardId` ist bei Karten aus dem Grundbestand ihr `id`-Feld, bei von Nutzern
+  angelegten Karten ihr `uuid`-Feld (beide Bezeichner sind bei neu
+  angelegten Karten identisch).
 
 „Zurücksetzen“ funktioniert wie im Referenzprojekt „ukr-app“ über eine
 Zeitgrenze statt über Löschen einzelner Einträge: `resetAt_<nutzer>` bzw.
@@ -254,6 +319,12 @@ Gist: `stats.json`.
   "users": {
     "marius":  { "resetAt": null, "levelsResetAt": null, "levels": { "<cardId>": { "stufe": 3, "ts": "…" } }, "events": [ { "id": "…", "ts": "…", "cardId": "…", "correct": true, "mode": "cards" } ] },
     "agnessa": { "…": "…" }
+  },
+  "flags": {
+    "<flag-id>": { "id": "…", "cardId": "…", "field": "frage", "note": "…", "flaggedBy": "agnessa", "ts": "…", "status": "open" }
+  },
+  "cardEdits": {
+    "<cardId>": { "cardId": "…", "ts": "…", "editedBy": "marius", "deleted": false, "frage": "…", "antworten": ["…", "…", "…", "…"], "erklaerung": "…" }
   }
 }
 ```
@@ -271,16 +342,25 @@ Gist: `stats.json`.
   und Gist gilt danach auf allen Geräten; Einträge mit `ts <= levelsResetAt`
   gelten beim Zusammenführen als zurückgesetzt (Stufe 1) und werden lokal
   entfernt.
+- `flags`: pro Meldung (`id`) gewinnt der Eintrag mit dem **späteren**
+  Zeitstempel – genau wie bei den Kartenstufen. Wird eine Meldung bearbeitet
+  oder die Karte gelöscht, bekommt sie einen neuen Zeitstempel und den Status
+  `"resolved"`, damit sich das gegenüber älteren, noch offenen Ständen auf
+  anderen Geräten korrekt durchsetzt.
+- `cardEdits`: pro Karte (`cardId`) gewinnt der Eintrag mit dem **späteren**
+  Zeitstempel.
 
 **Ablauf:** Die Synchronisierung läuft automatisch:
 
 1. beim Start der App,
-2. beim Öffnen eines Lernmodus (Karteikarten oder Frage-Antwort), damit der
-   Stand aktuell ist,
+2. beim Öffnen eines Lernmodus (Karteikarten oder Frage-Antwort) oder des
+   Modus „Flaggs beheben“, damit der Stand aktuell ist,
 3. nach jeder beantworteten Karte (in beiden Lernmodi),
-4. beim Verlassen eines Lernmodus,
+4. beim Verlassen eines Lernmodus oder von „Flaggs beheben“,
 5. beim Anlegen einer neuen Karte,
-6. bei Rückkehr der Internetverbindung (`online`-Ereignis).
+6. beim Melden einer Karte, sowie beim Löschen oder Bearbeiten einer Karte im
+   Modus „Flaggs beheben“,
+7. bei Rückkehr der Internetverbindung (`online`-Ereignis).
 
 Der Sync-Status (letzter Erfolg, Fehlermeldung) wird in den Einstellungen
 angezeigt. Ohne Internetverbindung wird lokal weitergearbeitet; die nächste
@@ -357,10 +437,9 @@ von echten Ereignissen einmalig anzuzeigen.
 
 ## 13. Offen (später zu klären)
 
-- Es gibt noch keine Möglichkeit, eine einmal angelegte Karte zu bearbeiten
-  oder zu löschen (weder im Grundbestand noch bei selbst angelegten Karten).
-  Sollte das gebraucht werden, wäre das eine bewusste Erweiterung des
-  Datenmodells (aktuell überall „append-only“ ausgelegt).
+- Eine Karte lässt sich nur über den Umweg einer Meldung bearbeiten oder
+  löschen (Abschnitt 5.4/5.5, nur für Marius). Eine direkte, unabhängig von
+  einer Meldung nutzbare Bearbeiten/Löschen-Funktion gibt es weiterhin nicht.
 - Automatisierte Tests im Browser (z. B. mit Playwright) konnten in der
   Umgebung, in der diese Version entstand, nicht ausgeführt werden, weil kein
   entsprechendes Werkzeug zur Verfügung stand. Geprüft wurde stattdessen über

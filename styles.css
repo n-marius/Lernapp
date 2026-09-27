@@ -569,7 +569,7 @@ button.row:active:not(:disabled), label.row:active { background: var(--surface-2
   font-weight: 500;
   letter-spacing: -0.01em;
 }
-.answers { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.answers { display: grid; grid-template-columns: 1fr; gap: 8px; }
 .answer {
   min-height: 60px;
   padding: 10px 14px 10px 12px;
@@ -609,13 +609,10 @@ button.row:active:not(:disabled), label.row:active { background: var(--surface-2
   margin: 16px 2px 0;
   padding-top: 14px;
   border-top: 1px solid var(--line);
-  max-height: 160px;
-  overflow-y: auto;
   font-size: 13.5px;
   line-height: 1.55;
   color: var(--ink-3);
 }
-.next-wrap { margin-top: 18px; }
 
 @media (max-width: 480px) {
   .bar-inner { height: 48px; }
@@ -626,9 +623,8 @@ button.row:active:not(:disabled), label.row:active { background: var(--surface-2
   .q-text { padding: 16px 16px 14px; margin-bottom: 12px; font-size: 18px; }
   .answers { gap: 6px; }
   .answer { min-height: 50px; padding: 8px 10px; font-size: 14.5px; }
-  .quiz-explain { margin-top: 12px; padding-top: 10px; max-height: 92px; font-size: 12.5px; }
-  .next-wrap { margin-top: 12px; }
-  .next-wrap .btn { height: 44px; }
+  .quiz-explain { margin-top: 12px; padding-top: 10px; font-size: 12.5px; }
+  .dock .btn-auto { height: 44px; padding: 0 16px; }
 }
 
 /* ---------- Karten anlegen ---------- */

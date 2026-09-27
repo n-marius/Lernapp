@@ -475,7 +475,8 @@ async function showQuizMode(gebiet, stufe) {
     dock: `
       <div class="dock-status">
         <span class="dock-text" id="progress"></span>
-      </div>`,
+      </div>
+      <button class="btn btn-primary btn-auto" id="next" disabled>Weiter</button>`,
   });
 
   on("#back", "click", async () => { await sync(); showStufePick("quiz", gebiet); });
@@ -485,6 +486,7 @@ async function showQuizMode(gebiet, stufe) {
   let skipCurrent = null;
   const stage = $("#stage");
   const progress = $("#progress");
+  const nextBtn = $("#next");
 
   on("#flag-btn", "click", () => {
     if (!currentCard) return;
@@ -500,20 +502,28 @@ async function showQuizMode(gebiet, stufe) {
           <p class="empty-sub">Alle Karten dieser Stufe sind für diesen Durchgang bearbeitet.</p>
         </div>`;
       progress.textContent = `${queue.length} von ${queue.length} bearbeitet`;
+      nextBtn.hidden = true;
       await sync();
       return;
     }
+    nextBtn.hidden = false;
+    nextBtn.disabled = true;
     progress.textContent = `${i} von ${queue.length} bearbeitet`;
     const card = queue[i];
     currentCard = card;
-    const outcome = await new Promise((resolve) => {
+    let outcome = null;
+    renderQuizCard(stage, card, {
+      onAnswered: (correct) => { outcome = { correct }; nextBtn.disabled = false; },
+    });
+    const result = await new Promise((resolve) => {
       skipCurrent = () => resolve({ flagged: true });
-      renderQuizCard(stage, card).then((correct) => resolve({ correct }));
+      nextBtn.onclick = () => { if (outcome) resolve(outcome); };
     });
     skipCurrent = null;
+    nextBtn.onclick = null;
     i++;
-    if (outcome.flagged) { step(); return; }
-    await answerCard("quiz", card, outcome.correct);
+    if (result.flagged) { step(); return; }
+    await answerCard("quiz", card, result.correct);
     step();
   }
   step();

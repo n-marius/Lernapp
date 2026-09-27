@@ -15,6 +15,13 @@ import {
   setLevel,
   getAllEvents,
   addEvent,
+  cardKey,
+  applyOverridesAndFilter,
+  overlayCardById,
+  getOpenFlags,
+  addFlag,
+  resolveOpenFlagsForCard,
+  setCardEdit,
 } from "./store.js";
 import { getSyncConfig, setSyncConfig, sync, resetStatsForUser, resetLevelsForUser } from "./sync.js";
 import { escapeHtml } from "./tokens.js";
@@ -52,6 +59,7 @@ const ICON = {
   quiz: svg(`<circle cx="12" cy="12" r="9"/><path d="M9.2 9.5a2.8 2.8 0 1 1 3.6 2.7c-.8.3-1.1.8-1.1 1.5"/><circle cx="12" cy="16.6" r="0.4" fill="currentColor"/>`),
   plus: svg(`<path d="M12 5v14M5 12h14"/>`),
   exit: svg(`<path d="M9 4H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h3M14 16l4-4-4-4M18 12H8"/>`),
+  flag: svg(`<path d="M6 21V4"/><path d="M6 4.5c1.4-1 3-1 4.5 0s3.1 1 4.5 0v9c-1.4 1-3 1-4.5 0s-3.1-1-4.5 0"/>`),
 };
 
 const root = document.getElementById("app");
@@ -89,9 +97,21 @@ const on = (sel, ev, fn) => $(sel)?.addEventListener(ev, fn);
 const backButton = (label = "Zurück") => `<button class="icon-btn" id="back" aria-label="${label}">${ICON.back}</button>`;
 const plural = (n, one, many) => `${n} ${n === 1 ? one : many}`;
 
-async function allCards() {
+// Basis-Kartenbestand ohne Korrekturen/Filterung (Grundbestand + selbst
+// angelegte Karten). Für die normale Anzeige/Zählung immer `allCards()`
+// verwenden; `allBaseCards()` wird nur für den Modus „Flaggs beheben"
+// gebraucht, der auch offen gemeldete Karten sehen muss.
+async function allBaseCards() {
   const userCards = await getAllUserCards();
   return allContentCards.concat(userCards);
+}
+
+// Wie `allBaseCards()`, aber mit angewendeten Korrekturen (cardEdits) und
+// ohne gelöschte oder offen gemeldete Karten – die Grundlage für alle
+// Kartenlisten in Karteikarten- und Frage-Antwort-Modus sowie die
+// Rechtsgebiets-/Stufenzählung (siehe store.applyOverridesAndFilter).
+async function allCards() {
+  return applyOverridesAndFilter(await allBaseCards());
 }
 
 async function levelsMap(user) {
@@ -136,6 +156,7 @@ async function showUserPick() {
 async function showModes() {
   const cards = await allCards();
   const total = cards.length;
+  const openFlags = currentUser === "marius" ? await getOpenFlags() : [];
 
   render("modes", {
     left: `<span class="user-chip" data-user="${currentUser}"><span class="user-dot-sm"></span>${USER_NAMEN[currentUser]}</span>`,
@@ -166,6 +187,13 @@ async function showModes() {
           <span class="mode-title">Karten anlegen</span>
           <span class="mode-text">Eigene Karten ergänzen</span>
         </button>
+        ${currentUser === "marius" ? `
+        <button class="mode" id="mode-flags">
+          <span class="mode-icon">${ICON.flag}</span>
+          ${ICON.arrow}
+          <span class="mode-title">Flaggs beheben</span>
+          <span class="mode-text">${openFlags.length === 0 ? "Keine offenen Meldungen" : plural(openFlags.length, "offene Meldung", "offene Meldungen")}</span>
+        </button>` : ""}
       </div>`,
   });
 
@@ -174,6 +202,7 @@ async function showModes() {
   on("#mode-cards", "click", () => showGebietPick("cards"));
   on("#mode-quiz", "click", () => showGebietPick("quiz"));
   on("#mode-create", "click", () => showGebietPick("create"));
+  on("#mode-flags", "click", () => showFlagReview());
 }
 
 // ---------- Rechtsgebiet ----------
@@ -268,10 +297,10 @@ async function showStufePick(mode, gebiet) {
 async function answerCard(mode, card, correct) {
   const now = new Date().toISOString();
   const newStufe = correct ? Math.min(5, (await currentStufeOf(card)) + 1) : 1;
-  await setLevel(currentUser, card.id, newStufe, now);
+  await setLevel(currentUser, cardKey(card), newStufe, now);
 
   const todayBefore = countToday(await getAllEvents(currentUser));
-  await addEvent({ id: crypto.randomUUID(), user: currentUser, ts: now, cardId: card.id, correct, mode });
+  await addEvent({ id: crypto.randomUUID(), user: currentUser, ts: now, cardId: cardKey(card), correct, mode });
   sync();
 
   if (currentUser === "agnessa") {
@@ -293,7 +322,7 @@ function shouldTriggerStreak(streak) {
 
 async function currentStufeOf(card) {
   const levels = await levelsMap(currentUser);
-  return levels.get(card.id)?.stufe ?? 1;
+  return levels.get(cardKey(card))?.stufe ?? 1;
 }
 
 function showMotivOverlay() {
@@ -308,6 +337,70 @@ function showMotivOverlay() {
   setTimeout(close, 1800);
 }
 
+// ---------- Karte melden (Flag-Dialog, beide Lernmodi) ----------
+
+// Zeigt den Melde-Dialog für `card`. Löst mit `true`, wenn tatsächlich eine
+// Meldung abgeschickt wurde (die Karte soll dann aus der laufenden
+// Warteschlange verschwinden), sonst mit `false` (Abbrechen).
+function flagDialog(card) {
+  return new Promise((resolve) => {
+    let field = "frage";
+    const el = document.createElement("div");
+    el.className = "backdrop";
+    el.innerHTML = `
+      <div class="dialog" role="alertdialog" aria-modal="true">
+        <h3>Karte melden</h3>
+        <p>Was ist an dieser Karte falsch oder unklar?</p>
+        <div class="seg" id="flag-seg">
+          <button type="button" data-field="frage" class="is-active">Frage</button>
+          <button type="button" data-field="antwort">Antwort</button>
+        </div>
+        <label class="field-box" style="margin-top:14px">
+          <span class="field-box-label">Kurze Beschreibung</span>
+          <textarea id="flag-note" rows="3" placeholder="Was genau ist falsch oder unklar?"></textarea>
+        </label>
+        <div class="dialog-actions" style="margin-top:18px">
+          <button class="btn btn-secondary" data-answer="cancel">Abbrechen</button>
+          <button class="btn btn-primary" id="flag-submit" disabled>Absenden</button>
+        </div>
+      </div>`;
+    document.body.appendChild(el);
+
+    const segButtons = [...el.querySelectorAll("#flag-seg button")];
+    for (const b of segButtons) {
+      b.addEventListener("click", () => {
+        field = b.dataset.field;
+        for (const x of segButtons) x.classList.toggle("is-active", x === b);
+      });
+    }
+
+    const note = el.querySelector("#flag-note");
+    const submit = el.querySelector("#flag-submit");
+    note.addEventListener("input", () => { submit.disabled = note.value.trim().length === 0; });
+
+    const close = (result) => { el.remove(); resolve(result); };
+    el.addEventListener("click", (e) => { if (e.target === el) close(false); });
+    el.querySelector('[data-answer="cancel"]').addEventListener("click", () => close(false));
+    submit.addEventListener("click", async () => {
+      if (submit.disabled) return;
+      submit.disabled = true;
+      await addFlag({
+        id: crypto.randomUUID(),
+        cardId: cardKey(card),
+        field,
+        note: note.value.trim(),
+        flaggedBy: currentUser,
+        ts: new Date().toISOString(),
+        status: "open",
+      });
+      sync();
+      toast("Danke, gemeldet.");
+      close(true);
+    });
+    note.focus();
+  });
+}
+
 // ---------- Karteikarten-Modus ----------
 
 async function showFlashcardMode(gebiet, stufe) {
@@ -320,7 +413,7 @@ async function showFlashcardMode(gebiet, stufe) {
 
   render("flashcards", {
     left: backButton("Modus verlassen"),
-    right: `<span class="bar-crumb"><b>Stufe ${stufe}</b> · ${GEBIET_NAMEN[gebiet]}</span>`,
+    right: `<button class="icon-btn" id="flag-btn" aria-label="Karte melden">${ICON.flag}</button><span class="bar-crumb"><b>Stufe ${stufe}</b> · ${GEBIET_NAMEN[gebiet]}</span>`,
     body: `<div id="stage"></div>`,
     dock: `
       <div class="dock-status">
@@ -331,11 +424,19 @@ async function showFlashcardMode(gebiet, stufe) {
   on("#back", "click", async () => { await sync(); showStufePick("cards", gebiet); });
 
   let i = 0;
+  let currentCard = null;
+  let skipCurrent = null;
   const stage = $("#stage");
   const progress = $("#progress");
 
+  on("#flag-btn", "click", () => {
+    if (!currentCard) return;
+    flagDialog(currentCard).then((flagged) => { if (flagged) skipCurrent?.(); });
+  });
+
   async function step() {
     if (i >= queue.length) {
+      currentCard = null;
       stage.innerHTML = `
         <div class="empty">
           <p class="empty-title">Stufe abgeschlossen</p>
@@ -347,9 +448,15 @@ async function showFlashcardMode(gebiet, stufe) {
     }
     progress.textContent = `${i} von ${queue.length} bearbeitet`;
     const card = queue[i];
-    const correct = await renderFlashcard(stage, card);
-    await answerCard("cards", card, correct);
+    currentCard = card;
+    const outcome = await new Promise((resolve) => {
+      skipCurrent = () => resolve({ flagged: true });
+      renderFlashcard(stage, card).then((correct) => resolve({ correct }));
+    });
+    skipCurrent = null;
     i++;
+    if (outcome.flagged) { step(); return; }
+    await answerCard("cards", card, outcome.correct);
     step();
   }
   step();
@@ -367,7 +474,7 @@ async function showQuizMode(gebiet, stufe) {
 
   render("quiz-mode", {
     left: backButton("Modus verlassen"),
-    right: `<span class="bar-crumb"><b>Stufe ${stufe}</b> · ${GEBIET_NAMEN[gebiet]}</span>`,
+    right: `<button class="icon-btn" id="flag-btn" aria-label="Karte melden">${ICON.flag}</button><span class="bar-crumb"><b>Stufe ${stufe}</b> · ${GEBIET_NAMEN[gebiet]}</span>`,
     body: `<div id="stage"></div>`,
     dock: `
       <div class="dock-status">
@@ -378,11 +485,19 @@ async function showQuizMode(gebiet, stufe) {
   on("#back", "click", async () => { await sync(); showStufePick("quiz", gebiet); });
 
   let i = 0;
+  let currentCard = null;
+  let skipCurrent = null;
   const stage = $("#stage");
   const progress = $("#progress");
 
+  on("#flag-btn", "click", () => {
+    if (!currentCard) return;
+    flagDialog(currentCard).then((flagged) => { if (flagged) skipCurrent?.(); });
+  });
+
   async function step() {
     if (i >= queue.length) {
+      currentCard = null;
       stage.innerHTML = `
         <div class="empty">
           <p class="empty-title">Stufe abgeschlossen</p>
@@ -394,9 +509,15 @@ async function showQuizMode(gebiet, stufe) {
     }
     progress.textContent = `${i} von ${queue.length} bearbeitet`;
     const card = queue[i];
-    const correct = await renderQuizCard(stage, card);
-    await answerCard("quiz", card, correct);
+    currentCard = card;
+    const outcome = await new Promise((resolve) => {
+      skipCurrent = () => resolve({ flagged: true });
+      renderQuizCard(stage, card).then((correct) => resolve({ correct }));
+    });
+    skipCurrent = null;
     i++;
+    if (outcome.flagged) { step(); return; }
+    await answerCard("quiz", card, outcome.correct);
     step();
   }
   step();
@@ -454,8 +575,10 @@ async function showCreate(gebiet) {
       toast("Bitte Frage und alle vier Antworten ausfüllen");
       return;
     }
+    const uuid = crypto.randomUUID();
     const card = {
-      uuid: crypto.randomUUID(),
+      uuid,
+      id: uuid,
       gebiet,
       frage,
       antworten: [a0, a1, a2, a3],
@@ -474,6 +597,190 @@ async function showCreate(gebiet) {
     $("#f-erklaerung").value = "";
     $("#f-frage").focus();
   });
+}
+
+// ---------- Flaggs beheben (nur Marius) ----------
+
+const REVIEW_KEYS = ["A", "B", "C", "D"];
+
+function reportedChip(flag) {
+  return `<span class="user-chip">${flag.field === "frage" ? "Frage gemeldet" : "Antwort gemeldet"}</span>`;
+}
+
+function reporterChip(flag) {
+  const name = USER_NAMEN[flag.flaggedBy] ?? flag.flaggedBy;
+  return `<span class="user-chip" data-user="${flag.flaggedBy}"><span class="user-dot-sm"></span>${name}</span>`;
+}
+
+async function showFlagReview() {
+  await sync();
+
+  let flags = (await getOpenFlags()).sort((a, b) => (a.ts < b.ts ? -1 : a.ts > b.ts ? 1 : 0));
+  let idx = 0;
+
+  render("flag-review", {
+    left: backButton(),
+    body: `<div id="stage"></div>`,
+  });
+  on("#back", "click", async () => { await sync(); showModes(); });
+
+  const stage = $("#stage");
+
+  // Nach einer Löschung/Bearbeitung verschwinden alle offenen Meldungen
+  // dieser Karte aus der Liste; die Zeigerposition wird ggf. angepasst.
+  function removeCardFromQueue(cardId) {
+    flags = flags.filter((f) => f.cardId !== cardId);
+    if (idx >= flags.length) idx = 0;
+  }
+
+  async function renderCurrent() {
+    if (flags.length === 0) {
+      stage.innerHTML = `
+        <header class="page-head">
+          <p class="kicker">Marius</p>
+          <h1 class="page-title">Flaggs beheben</h1>
+        </header>
+        <div class="empty">
+          <p class="empty-title">Keine offenen Meldungen</p>
+          <p class="empty-sub">Alle gemeldeten Karten sind bearbeitet.</p>
+        </div>`;
+      return;
+    }
+    if (idx >= flags.length) idx = 0;
+    const flag = flags[idx];
+    const base = await allBaseCards();
+    const card = await overlayCardById(base, flag.cardId);
+    if (!card) {
+      // Karte existiert nicht mehr (sollte praktisch nicht vorkommen) – Meldung überspringen.
+      removeCardFromQueue(flag.cardId);
+      renderCurrent();
+      return;
+    }
+    renderCardView(flag, card);
+  }
+
+  function renderCardView(flag, card) {
+    stage.innerHTML = `
+      <header class="page-head">
+        <p class="kicker">Meldung <b>${idx + 1}</b> von ${flags.length}</p>
+        <h1 class="page-title">Flaggs beheben</h1>
+      </header>
+      <div class="flash-face flash-face-question" style="margin-bottom:14px">
+        <p class="flash-text">${escapeHtml(card.frage)}</p>
+      </div>
+      <div class="answers" style="margin-bottom:14px">
+        ${card.antworten.map((a, i) => `
+          <button type="button" class="answer${i === 0 ? " is-correct" : ""}" disabled>
+            <span class="answer-key">${REVIEW_KEYS[i]}</span>
+            <span>${escapeHtml(a)}</span>
+          </button>`).join("")}
+      </div>
+      ${card.erklaerung ? `<div class="flash-explain" style="margin-bottom:14px">${escapeHtml(card.erklaerung)}</div>` : ""}
+      <div style="display:flex; flex-wrap:wrap; gap:8px; margin-bottom:14px">
+        ${reportedChip(flag)}
+        ${reporterChip(flag)}
+      </div>
+      <p class="page-sub" style="margin-bottom:24px">${escapeHtml(flag.note)}</p>
+      <div style="display:flex; flex-direction:column; gap:10px">
+        <button class="btn btn-primary" id="edit-btn">Bearbeiten</button>
+        <button class="btn btn-secondary" id="skip-btn">Überspringen</button>
+        <button class="btn btn-danger" id="delete-btn">Löschen</button>
+      </div>`;
+
+    on("#skip-btn", "click", () => {
+      // Bleibt offen: wandert ans Ende der aktuellen Runde, taucht also
+      // erst wieder auf, wenn alle anderen offenen Meldungen gezeigt wurden.
+      const [f] = flags.splice(idx, 1);
+      flags.push(f);
+      if (idx >= flags.length) idx = 0;
+      renderCurrent();
+    });
+
+    on("#delete-btn", "click", () => {
+      confirmDialog({
+        title: "Karte löschen?",
+        text: "Die Karte wird überall ausgeblendet – in beiden Lernmodi, in den Zählungen und in der Flag-Übersicht. Das lässt sich nicht rückgängig machen.",
+        onYes: async () => {
+          const now = new Date().toISOString();
+          await setCardEdit({ cardId: flag.cardId, ts: now, editedBy: currentUser, deleted: true });
+          await resolveOpenFlagsForCard(flag.cardId, now);
+          sync();
+          toast("Karte gelöscht");
+          removeCardFromQueue(flag.cardId);
+          renderCurrent();
+        },
+      });
+    });
+
+    on("#edit-btn", "click", () => renderEditView(flag, card));
+  }
+
+  function renderEditView(flag, card) {
+    stage.innerHTML = `
+      <header class="page-head">
+        <p class="kicker">Meldung <b>${idx + 1}</b> von ${flags.length}</p>
+        <h1 class="page-title">Karte bearbeiten</h1>
+      </header>
+      <div class="form-group">
+        <label class="field-box">
+          <span class="field-box-label">Frage</span>
+          <textarea id="e-frage" rows="3">${escapeHtml(card.frage)}</textarea>
+        </label>
+        <label class="field-box field-box-correct">
+          <span class="field-box-label">Richtige Antwort</span>
+          <input id="e-a0" type="text" value="${escapeHtml(card.antworten[0])}">
+        </label>
+        <label class="field-box">
+          <span class="field-box-label">Falsche Antwort 1</span>
+          <input id="e-a1" type="text" value="${escapeHtml(card.antworten[1])}">
+        </label>
+        <label class="field-box">
+          <span class="field-box-label">Falsche Antwort 2</span>
+          <input id="e-a2" type="text" value="${escapeHtml(card.antworten[2])}">
+        </label>
+        <label class="field-box">
+          <span class="field-box-label">Falsche Antwort 3</span>
+          <input id="e-a3" type="text" value="${escapeHtml(card.antworten[3])}">
+        </label>
+        <label class="field-box">
+          <span class="field-box-label">Erklärung</span>
+          <textarea id="e-erklaerung" rows="3">${escapeHtml(card.erklaerung ?? "")}</textarea>
+        </label>
+        <button class="btn btn-primary" id="save-edit">Speichern</button>
+        <button class="btn btn-secondary" id="cancel-edit">Abbrechen</button>
+      </div>`;
+
+    on("#cancel-edit", "click", () => renderCardView(flag, card));
+    on("#save-edit", "click", async () => {
+      const frage = $("#e-frage").value.trim();
+      const a0 = $("#e-a0").value.trim();
+      const a1 = $("#e-a1").value.trim();
+      const a2 = $("#e-a2").value.trim();
+      const a3 = $("#e-a3").value.trim();
+      const erklaerung = $("#e-erklaerung").value.trim();
+      if (!frage || !a0 || !a1 || !a2 || !a3) {
+        toast("Bitte Frage und alle vier Antworten ausfüllen");
+        return;
+      }
+      const now = new Date().toISOString();
+      await setCardEdit({
+        cardId: flag.cardId,
+        ts: now,
+        editedBy: currentUser,
+        deleted: false,
+        frage,
+        antworten: [a0, a1, a2, a3],
+        erklaerung,
+      });
+      await resolveOpenFlagsForCard(flag.cardId, now);
+      sync();
+      toast("Karte gespeichert");
+      removeCardFromQueue(flag.cardId);
+      renderCurrent();
+    });
+  }
+
+  renderCurrent();
 }
 
 // ---------- Statistik ----------

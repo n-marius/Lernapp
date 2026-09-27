@@ -1,0 +1,13 @@
+{
+  "id": "zivilgericht-0003",
+  "gebiet": "zivilgericht",
+  "frage": "Welche Rechtsfolge hat die wirksame Anfechtung eines Vertrags wegen arglistiger Täuschung (§ 123 BGB)?",
+  "antworten": [
+    "Der Vertrag ist von Anfang an nichtig (§ 142 Abs. 1 BGB)",
+    "Der Vertrag wird erst mit Wirkung für die Zukunft beendet",
+    "Nur die einzelne Willenserklärung des Täuschenden wird unwirksam",
+    "Der Vertrag bleibt wirksam, es entsteht lediglich ein Schadensersatzanspruch"
+  ],
+  "erklaerung": "Nach § 142 Abs. 1 BGB gilt ein anfechtbares Rechtsgeschäft bei wirksamer Anfechtung als von Anfang an (ex tunc) nichtig. Bei der arglistigen Täuschung beträgt die Anfechtungsfrist gemäß § 124 BGB ein Jahr ab Entdeckung der Täuschung. Bereicherungsrechtlich ist die Rückabwicklung dann über §§ 812 ff. BGB vorzunehmen.",
+  "ts": "2026-01-12T09:00:00.000Z"
+}

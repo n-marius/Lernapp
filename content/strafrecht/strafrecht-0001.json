@@ -1,0 +1,13 @@
+{
+  "id": "strafrecht-0001",
+  "gebiet": "strafrecht",
+  "frage": "Was unterscheidet den Diebstahl (§ 242 StGB) von der Unterschlagung (§ 246 StGB) in objektiver Hinsicht?",
+  "antworten": [
+    "Der Diebstahl setzt eine Wegnahme voraus, die Unterschlagung erfasst auch bereits im Besitz des Täters befindliche Sachen",
+    "Die Unterschlagung erfordert stets Gewaltanwendung",
+    "Der Diebstahl setzt Zueignungsabsicht nicht voraus, die Unterschlagung schon",
+    "Beide Tatbestände unterscheiden sich nur in der Strafandrohung, nicht im objektiven Tatbestand"
+  ],
+  "erklaerung": "§ 242 StGB verlangt die Wegnahme einer fremden beweglichen Sache, also den Bruch fremden und die Begründung neuen (nicht notwendig tätereigenen) Gewahrsams. § 246 StGB erfasst demgegenüber die rechtswidrige Zueignung einer fremden beweglichen Sache, die sich bereits im Gewahrsam oder Besitz des Täters befindet, ohne dass es einer Wegnahme bedarf. § 246 StGB ist gegenüber § 242 StGB subsidiär (§ 246 Abs. 1 a.E. StGB).",
+  "ts": "2026-01-13T09:00:00.000Z"
+}

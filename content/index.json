@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "contentHash": "7762798103d87b2b",
+  "version": 2,
+  "contentHash": "6e30fdb167347d33",
   "cards": [
     {
       "id": "rechtsanwalt-0001",
@@ -29,6 +29,20 @@
       "erklaerung": "§ 43a Abs. 4 BRAO verbietet dem Rechtsanwalt, widerstreitende Interessen im gleichen Rechtsverhältnis zu vertreten. Ein Verstoß ist berufsrechtlich sanktionierbar und kann parallel den Straftatbestand des Parteiverrats (§ 356 StGB) erfüllen, wenn der Anwalt in derselben Rechtssache beiden Parteien pflichtwidrig dient.",
       "creator": null,
       "ts": "2026-01-17T09:00:00.000Z"
+    },
+    {
+      "id": "rechtsanwalt-0003",
+      "gebiet": "rechtsanwalt",
+      "frage": "Testkarte Anwaltsrecht: Was ist die richtige Antwort?",
+      "antworten": [
+        "Richtige Testantwort A",
+        "Falsche Testantwort B",
+        "Falsche Testantwort C",
+        "Falsche Testantwort D"
+      ],
+      "erklaerung": "Dies ist eine Testkarte ohne fachlichen Anspruch, nur zum Ausprobieren der App angelegt.",
+      "creator": null,
+      "ts": "2026-09-27T12:00:00.000Z"
     },
     {
       "id": "strafrecht-0001",
@@ -73,6 +87,20 @@
       "ts": "2026-01-15T09:00:00.000Z"
     },
     {
+      "id": "strafrecht-0004",
+      "gebiet": "strafrecht",
+      "frage": "Testkarte Strafrecht: Was ist die richtige Antwort?",
+      "antworten": [
+        "Richtige Testantwort A",
+        "Falsche Testantwort B",
+        "Falsche Testantwort C",
+        "Falsche Testantwort D"
+      ],
+      "erklaerung": "Dies ist eine Testkarte ohne fachlichen Anspruch, nur zum Ausprobieren der App angelegt.",
+      "creator": null,
+      "ts": "2026-09-27T12:00:00.000Z"
+    },
+    {
       "id": "verwaltungsrecht-0001",
       "gebiet": "verwaltungsrecht",
       "frage": "Unter welchen Voraussetzungen kann ein rechtswidriger, belastender Verwaltungsakt nach § 48 VwVfG zurückgenommen werden?",
@@ -99,6 +127,20 @@
       "erklaerung": "Begehrt der Kläger den Erlass eines abgelehnten oder unterlassenen begünstigenden Verwaltungsakts, ist die Verpflichtungsklage (§ 42 Abs. 1 Var. 2 VwGO) statthaft. Die Anfechtungsklage betrifft demgegenüber die Aufhebung eines belastenden Verwaltungsakts. Feststellungs- und Fortsetzungsfeststellungsklage sind gegenüber der Verpflichtungsklage subsidiär bzw. setzen einen anderen Streitgegenstand voraus.",
       "creator": null,
       "ts": "2026-01-19T09:00:00.000Z"
+    },
+    {
+      "id": "verwaltungsrecht-0003",
+      "gebiet": "verwaltungsrecht",
+      "frage": "Testkarte Verwaltungsrecht: Was ist die richtige Antwort?",
+      "antworten": [
+        "Richtige Testantwort A",
+        "Falsche Testantwort B",
+        "Falsche Testantwort C",
+        "Falsche Testantwort D"
+      ],
+      "erklaerung": "Dies ist eine Testkarte ohne fachlichen Anspruch, nur zum Ausprobieren der App angelegt.",
+      "creator": null,
+      "ts": "2026-09-27T12:00:00.000Z"
     },
     {
       "id": "zivilgericht-0001",
@@ -141,6 +183,20 @@
       "erklaerung": "Nach § 142 Abs. 1 BGB gilt ein anfechtbares Rechtsgeschäft bei wirksamer Anfechtung als von Anfang an (ex tunc) nichtig. Bei der arglistigen Täuschung beträgt die Anfechtungsfrist gemäß § 124 BGB ein Jahr ab Entdeckung der Täuschung. Bereicherungsrechtlich ist die Rückabwicklung dann über §§ 812 ff. BGB vorzunehmen.",
       "creator": null,
       "ts": "2026-01-12T09:00:00.000Z"
+    },
+    {
+      "id": "zivilgericht-0004",
+      "gebiet": "zivilgericht",
+      "frage": "Testkarte Zivilrecht: Was ist die richtige Antwort?",
+      "antworten": [
+        "Richtige Testantwort A",
+        "Falsche Testantwort B",
+        "Falsche Testantwort C",
+        "Falsche Testantwort D"
+      ],
+      "erklaerung": "Dies ist eine Testkarte ohne fachlichen Anspruch, nur zum Ausprobieren der App angelegt.",
+      "creator": null,
+      "ts": "2026-09-27T12:00:00.000Z"
     }
   ]
 }

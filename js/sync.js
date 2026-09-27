@@ -1,6 +1,7 @@
 // Gist-Sync (ein gemeinsames, privates Gist für beide Nutzer).
-// Vorbild: ukr-app js/sync.js, hier erweitert um mehrere Nutzer und um die
-// von den Nutzern selbst angelegten Karten.
+// Vorbild: ukr-app js/sync.js, hier erweitert um mehrere Nutzer, um die
+// von den Nutzern selbst angelegten Karten und um Meldungen/Korrekturen
+// (flags/cardEdits, siehe Flag-Feature in SPEC.md).
 //
 // Datei im Gist: stats.json
 // {
@@ -9,7 +10,9 @@
 //   "users": {
 //     "marius":  { "resetAt": null, "levelsResetAt": null, "levels": { "<cardId>": { "stufe": 1, "ts": "…" } }, "events": [ { id, ts, cardId, correct, mode } ] },
 //     "agnessa": { … }
-//   }
+//   },
+//   "flags": { "<flag-id>": { id, cardId, field, note, flaggedBy, ts, status } },
+//   "cardEdits": { "<cardId>": { cardId, ts, editedBy, deleted, frage?, antworten?, erklaerung? } }
 // }
 //
 // Merge-Regeln:
@@ -17,6 +20,8 @@
 //  - je Nutzer levels: pro Karte gewinnt der Eintrag mit dem späteren Zeitstempel (CRDT, kein Konflikt möglich).
 //  - je Nutzer events: Vereinigung nach id (append-only), Einträge <= resetAt werden verworfen.
 //  - je Nutzer resetAt / levelsResetAt: jeweils der spätere Wert aus lokal und Gist gilt auf allen Geräten.
+//  - flags: pro Meldung (id) gewinnt der Eintrag mit dem späteren Zeitstempel.
+//  - cardEdits: pro Karte (cardId) gewinnt der Eintrag mit dem späteren Zeitstempel.
 import {
   USERS,
   getSetting,
@@ -30,6 +35,10 @@ import {
   getAllEvents,
   mergeEvents,
   deleteEventsUpTo,
+  getAllFlags,
+  mergeFlags,
+  getAllCardEdits,
+  mergeCardEdits,
 } from "./store.js";
 
 const API = "https://api.github.com";
@@ -82,7 +91,7 @@ async function run() {
 
   try {
     let id = gistId;
-    let remote = { cards: [], users: {} };
+    let remote = { cards: [], users: {}, flags: {}, cardEdits: {} };
 
     if (id) {
       const res = await fetch(`${API}/gists/${encodeURIComponent(id)}`, { headers: headers(token), cache: "no-store" });
@@ -91,13 +100,27 @@ async function run() {
       const content = gist.files?.[FILE]?.content;
       if (content) {
         const parsed = JSON.parse(content);
-        remote = { cards: parsed.cards ?? [], users: parsed.users ?? {} };
+        remote = {
+          cards: parsed.cards ?? [],
+          users: parsed.users ?? {},
+          flags: parsed.flags ?? {},
+          cardEdits: parsed.cardEdits ?? {},
+        };
       }
     }
 
     // Karten: einfache Vereinigung nach uuid.
     const beforeCards = await getAllUserCards();
     await mergeUserCards(remote.cards);
+
+    // Meldungen und Korrekturen: pro Schlüssel gewinnt der spätere Zeitstempel.
+    const beforeFlags = await getAllFlags();
+    await mergeFlags(remote.flags);
+    const mergedFlags = await getAllFlags();
+
+    const beforeCardEdits = await getAllCardEdits();
+    await mergeCardEdits(remote.cardEdits);
+    const mergedCardEdits = await getAllCardEdits();
 
     let changed = false;
     const usersOut = {};
@@ -135,14 +158,20 @@ async function run() {
     const mergedCards = await getAllUserCards();
     if (mergedCards.length !== beforeCards.length) changed = true;
     if (mergedCards.length !== remote.cards.length) changed = true;
+    if (mergedFlags.length !== beforeFlags.length) changed = true;
+    if (mergedFlags.length !== Object.keys(remote.flags).length) changed = true;
+    if (mergedCardEdits.length !== beforeCardEdits.length) changed = true;
+    if (mergedCardEdits.length !== Object.keys(remote.cardEdits).length) changed = true;
 
     const needsWrite = !id || changed;
 
     if (needsWrite) {
+      const flagsOut = Object.fromEntries(mergedFlags.map((f) => [f.id, f]));
+      const cardEditsOut = Object.fromEntries(mergedCardEdits.map((e) => [e.cardId, e]));
       const body = {
         description: "Karteikarten Staatsexamen · Fortschritt und Karten",
         public: false,
-        files: { [FILE]: { content: JSON.stringify({ v: 1, cards: mergedCards, users: usersOut }, null, 2) } },
+        files: { [FILE]: { content: JSON.stringify({ v: 1, cards: mergedCards, users: usersOut, flags: flagsOut, cardEdits: cardEditsOut }, null, 2) } },
       };
       const res = await fetch(id ? `${API}/gists/${encodeURIComponent(id)}` : `${API}/gists`, {
         method: id ? "PATCH" : "POST",

@@ -1,17 +1,22 @@
 // Karteikarten-Modus: Anzeige einer Karte (Frage → Antwort → Erklärung → Bewertung)
 // und die Warteschlangen-Logik, die sich auch der Frage-Antwort-Modus teilt.
 import { escapeHtml } from "./tokens.js";
+import { cardKey } from "./store.js";
 
 // Baut die Warteschlange für ein Rechtsgebiet und eine Stufe: alle Karten,
 // die aktuell (für diesen Nutzer) in dieser Stufe stehen, aufsteigend nach dem
 // Zeitpunkt des letzten Stufenwechsels sortiert (zuletzt gewechselte Karten
 // stehen am Ende). Karten ohne eigenen Stufenwechsel gelten als Stufe 1 mit
 // ihrem Anlage-Zeitpunkt als Sortierschlüssel.
+//
+// `allCards` sollte bereits über store.applyOverridesAndFilter gelaufen sein
+// (Korrekturen angewendet, gelöschte und offen gemeldete Karten entfernt) –
+// diese Funktion dupliziert diese Logik nicht.
 export function buildQueue(allCards, gebiet, stufe, levelsByCard) {
   return allCards
     .filter((c) => c.gebiet === gebiet)
     .map((c) => {
-      const level = levelsByCard.get(c.id);
+      const level = levelsByCard.get(cardKey(c));
       return { card: c, stufe: level?.stufe ?? 1, ts: level?.ts ?? c.ts };
     })
     .filter((entry) => entry.stufe === stufe)
@@ -22,7 +27,7 @@ export function buildQueue(allCards, gebiet, stufe, levelsByCard) {
 export function countByStufe(allCards, gebiet, levelsByCard) {
   const counts = { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0 };
   for (const c of allCards.filter((c) => c.gebiet === gebiet)) {
-    const level = levelsByCard.get(c.id);
+    const level = levelsByCard.get(cardKey(c));
     const stufe = level?.stufe ?? 1;
     counts[stufe]++;
   }

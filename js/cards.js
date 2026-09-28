@@ -55,11 +55,12 @@ export function countByGebiet(allCards) {
 // 2. Zeit seit der letzten Bearbeitung (ebenfalls modusübergreifend, siehe
 //    oben): Bei tausenden Karten reicht die schiere Menge bereits für eine
 //    natürliche Verteilung (FIFO), daher bleibt das Gewicht zunächst niedrig
-//    und steigt erst über mehrere Tage spürbar an. Verwendet wird eine
+//    und steigt erst über mehrere Wochen spürbar an. Verwendet wird eine
 //    Weibull-Verteilung (in Zuverlässigkeits-/Wartungsmodellen der übliche
-//    Ansatz für „verzögert einsetzende, dann beschleunigende" Kurven):
-//    nach 1 Tag ca. 8 %, nach 3 Tagen ca. 37 %, nach 1 Woche ca. 88 % des
-//    vollen Gewichts.
+//    Ansatz für „verzögert einsetzende, dann beschleunigende" Kurven, die
+//    sich asymptotisch 100 % annähert, ohne je darüber hinauszugehen):
+//    nach 1 Tag ca. 7 %, nach 3 Tagen ca. 20 %, nach 1 Woche ca. 45 %, nach
+//    2 Wochen ca. 75 %, nach 1 Monat ca. 97 % des vollen Gewichts.
 // 3. Nie bearbeitete Karten bekommen einen festen Bonus, damit neue Karten
 //    zügig auftauchen, statt lange unten in der Warteschlange zu bleiben.
 // 4. Prio (siehe SPEC.md Abschnitt 5.1a): „hoch“ wird moderat auf-, „niedrig“
@@ -69,8 +70,8 @@ const AUTO_STUFE_WEIGHT = { 1: 81, 2: 27, 3: 9, 4: 3, 5: 1 };
 const AUTO_NEVER_SEEN_BONUS = 3;
 const AUTO_PRIO_WEIGHT = { hoch: 1.5, normal: 1, niedrig: 0.6 };
 const AUTO_RECENCY_FLOOR = 0.02;
-const AUTO_RECENCY_TAU_HOURS = 112.5; // Skalenparameter der Weibull-Kurve
-const AUTO_RECENCY_SHAPE = 1.8; // Formparameter: >1 = langsamer Start, dann Beschleunigung
+const AUTO_RECENCY_TAU_HOURS = 260; // Skalenparameter der Weibull-Kurve
+const AUTO_RECENCY_SHAPE = 1.25; // Formparameter: >1 = langsamer Start, dann Beschleunigung, hier flach auslaufend
 
 function autoRecencyWeight(hoursSince) {
   const x = Math.max(hoursSince, 0) / AUTO_RECENCY_TAU_HOURS;

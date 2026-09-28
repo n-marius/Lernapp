@@ -220,10 +220,13 @@ Vier Gewichtungsfaktoren:
    (praktisch FIFO). Das Gewicht muss deshalb nicht schnell ansteigen –
    verwendet wird eine Weibull-Kurve (in Zuverlässigkeitsmodellen der
    gängige Ansatz für „verzögert einsetzende, dann beschleunigende“
-   Zeitverläufe): nach 1 Tag ca. 8 %, nach 3 Tagen ca. 37 %, nach 1 Woche
-   ca. 88 % des vollen Gewichts. Direkt nach der Bearbeitung liegt das
-   Gewicht bei einem kleinen Sockelwert (2 %), damit eine gerade erst
-   beantwortete Karte praktisch nicht sofort wieder auftaucht.
+   Zeitverläufe, die sich 100 % nur annähert, ohne je darüber
+   hinauszugehen): nach 1 Tag ca. 7 %, nach 3 Tagen ca. 20 %, nach 1 Woche
+   ca. 45 %, nach 2 Wochen ca. 75 %, nach 1 Monat ca. 97 % des vollen
+   Gewichts – danach läuft die Kurve flach auf 100 % zu. Direkt nach der
+   Bearbeitung liegt das Gewicht bei einem kleinen Sockelwert (2 %), damit
+   eine gerade erst beantwortete Karte praktisch nicht sofort wieder
+   auftaucht.
 3. **Nie bearbeitete Karten** bekommen zusätzlich den dreifachen Bonus, damit
    neue Karten zügig einmal drankommen, statt lange unten anzustehen.
 4. **Prio:** Jede Karte hat eine Priorität `hoch`, `normal` oder `niedrig`
@@ -244,8 +247,8 @@ identisch zum manuellen Modus.
 
 **Prio-Symbol und persönliche Änderung:** In beiden Lernmodi (manuell und
 automatisch) zeigt ein kleines Symbol oben links im Fragefeld die aktuelle
-Prio der Karte (Dreieck aufwärts/akzentfarben = hoch, Strich = normal,
-Dreieck abwärts/gedämpft = niedrig). Antippen schaltet zur nächsten Prio
+Prio der Karte (Dreieck aufwärts/rot = hoch, Strich/grau = normal, Dreieck
+abwärts/blau = niedrig). Antippen schaltet zur nächsten Prio
 weiter (hoch → normal → niedrig → hoch). Diese Änderung ist **rein
 persönlich**: Sie wirkt sich nur auf die Gewichtung und Anzeige für den
 Nutzer aus, der sie vorgenommen hat, verändert also weder die Karte selbst
@@ -516,14 +519,15 @@ von echten Ereignissen einmalig anzuzeigen.
   Stufe innerhalb dieser einen Öffnung.
 - **Prio-Gewichte** (Abschnitt 5.1a) bewusst moderat gewählt (1,5 / 1 / 0,6),
   damit die Prio die stufenbasierte Grundlogik nur nachjustiert.
-- **Zeitkurve des Automatikmodus** (Weibull, Formparameter 1,8, Skala 112,5
-  Std.) wurde an drei vorgegebenen Anhaltspunkten ausgerichtet (1 Tag ≈ 5 %,
-  3 Tage ≈ 50 %, 1 Woche ≈ 80 %). Eine einzelne Kurve mit nur zwei freien
-  Parametern kann nicht alle drei Punkte exakt treffen; die gewählte Kurve
-  trifft den 1-Tage- und den 1-Wochen-Wert am genauesten (ca. 8 % bzw. 88 %)
-  und liegt beim 3-Tage-Wert mit ca. 37 % darunter. Bei Bedarf lässt sich das
-  in `js/cards.js` (`AUTO_RECENCY_TAU_HOURS`, `AUTO_RECENCY_SHAPE`) leicht
+- **Zeitkurve des Automatikmodus** (Weibull, Formparameter 1,25, Skala 260
+  Std.) auf Wunsch bewusst mit langem, flachem Auslauf: Sie nähert sich
+  100 % nur an, ohne je darüber hinauszugehen, und erreicht diesen Bereich
+  erst nach rund einem Monat (1 Tag ≈ 7 %, 3 Tage ≈ 20 %, 1 Woche ≈ 45 %,
+  2 Wochen ≈ 75 %, 1 Monat ≈ 97 %). Bei Bedarf lässt sich das in
+  `js/cards.js` (`AUTO_RECENCY_TAU_HOURS`, `AUTO_RECENCY_SHAPE`) leicht
   nachjustieren.
+- **Prio-Symbol-Farben:** hoch = rot, normal = grau, niedrig = blau (auf
+  Wunsch geändert; ursprünglich akzentfarben/grau/gedämpft).
 
 ## 13. Offen (später zu klären)
 

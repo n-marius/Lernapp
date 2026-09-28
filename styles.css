@@ -559,8 +559,8 @@ button.row:active:not(:disabled), label.row:active { background: var(--surface-2
 }
 .prio-btn svg { width: 15px; height: 15px; }
 .prio-btn:hover { background: var(--hover); }
-.prio-btn[data-prio="hoch"] { color: var(--accent); }
-.prio-btn[data-prio="niedrig"] { color: var(--ink-4); }
+.prio-btn[data-prio="hoch"] { color: var(--wrong); }
+.prio-btn[data-prio="niedrig"] { color: var(--accent); }
 
 .level-chip {
   display: inline-flex;

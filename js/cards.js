@@ -120,25 +120,43 @@ function creatorChip(card) {
   return `<span class="creator-chip" data-user="${card.creator}"><span class="user-dot-sm"></span>${name}</span>`;
 }
 
+function stufeLabel(stufe) {
+  return stufe ? `<span class="level-chip">Stufe ${stufe}</span>` : "";
+}
+
 // Rendert eine einzelne Karteikarte in `container` (Frage, dann nach Antippen
 // die Antwort + Erklärung). Die Falsch/Richtig-Knöpfe sitzen fest am unteren
 // Bildschirmrand (siehe js/app.js showFlashcardMode) und werden erst nach dem
 // Aufdecken aktiv – dafür meldet diese Funktion das Aufdecken über `onRevealed`.
 // `prio` ist die aktuell für den Nutzer geltende Priorität (siehe
 // store.effectivePrio); ein Antippen des Symbols meldet die neue Priorität
-// über `onPrioChange` zurück, ohne die Karte neu aufzubauen.
-export function renderFlashcard(container, card, { onRevealed, prio = "normal", onPrioChange } = {}) {
+// über `onPrioChange` zurück, ohne die Karte neu aufzubauen. `stufe` (nur im
+// Automatikmodus gesetzt) zeigt die aktuelle Stufe klein über dem
+// Prio-Symbol. `revealed: true` (Rückschau auf die letzte Karte, siehe
+// js/app.js „Zurück") zeigt Antwort und Erklärung sofort, ohne Antipp-Schritt
+// und ohne `onRevealed` auszulösen.
+export function renderFlashcard(container, card, { onRevealed, prio = "normal", onPrioChange, stufe, revealed = false } = {}) {
+  const meta = `<div class="card-meta-col">${stufeLabel(stufe)}<span class="card-meta">${creatorChip(card)}${prioChip(prio)}</span></div>`;
+  const answerFace = `
+      <div class="flash-face">
+        <div>
+          <p class="flash-text">${escapeHtml(card.antworten[0])}</p>
+          ${card.erklaerung ? `<div class="flash-explain">${escapeHtml(card.erklaerung)}</div>` : ""}
+        </div>
+      </div>`;
+
   container.innerHTML = `
     <div class="flash">
       <div class="flash-face flash-face-question">
         <div class="flash-q">
-          <span class="card-meta">${creatorChip(card)}${prioChip(prio)}</span>
+          ${meta}
           <p class="flash-text">${escapeHtml(card.frage)}</p>
         </div>
       </div>
+      ${revealed ? answerFace : `
       <button type="button" class="flash-face is-waiting" id="reveal">
         <p class="flash-answer-wait">Antippen, um die Antwort zu zeigen</p>
-      </button>
+      </button>`}
     </div>`;
 
   const prioBtn = container.querySelector(".prio-btn");
@@ -149,15 +167,11 @@ export function renderFlashcard(container, card, { onRevealed, prio = "normal", 
     onPrioChange?.(next);
   });
 
+  if (revealed) return;
+
   const reveal = container.querySelector("#reveal");
   reveal.addEventListener("click", () => {
-    reveal.outerHTML = `
-      <div class="flash-face">
-        <div>
-          <p class="flash-text">${escapeHtml(card.antworten[0])}</p>
-          ${card.erklaerung ? `<div class="flash-explain">${escapeHtml(card.erklaerung)}</div>` : ""}
-        </div>
-      </div>`;
+    reveal.outerHTML = answerFace;
     onRevealed?.();
   }, { once: true });
 }

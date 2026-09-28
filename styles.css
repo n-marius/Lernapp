@@ -275,7 +275,8 @@ button:disabled { cursor: default; }
   transition: border-color 0.15s ease, color 0.15s ease;
 }
 .pill-btn svg { width: 13px; height: 13px; }
-.pill-btn:hover { color: var(--ink); border-color: var(--ink-3); }
+.pill-btn:hover:not(:disabled) { color: var(--ink); border-color: var(--ink-3); }
+.pill-btn:disabled { opacity: 0.4; }
 
 .btn {
   width: 100%;
@@ -600,12 +601,18 @@ button.row:active:not(:disabled), label.row:active { background: var(--surface-2
   color: var(--ink-3);
 }
 
-.card-meta {
+.card-meta-col {
   float: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+  margin: 2px -4px 6px 14px;
+}
+.card-meta {
   display: flex;
   align-items: center;
   gap: 6px;
-  margin: 2px -4px 6px 14px;
 }
 .creator-chip {
   display: inline-flex;
@@ -633,13 +640,12 @@ button.row:active:not(:disabled), label.row:active { background: var(--surface-2
 .level-chip {
   display: inline-flex;
   align-items: center;
-  height: 24px;
-  padding: 0 10px;
-  border-radius: 999px;
-  border: 1px solid var(--line-2);
-  font-size: 12px;
-  font-weight: 620;
-  color: var(--ink-2);
+  height: 15px;
+  padding: 0 2px;
+  font-size: 10px;
+  font-weight: 650;
+  letter-spacing: 0.02em;
+  color: var(--ink-3);
   font-variant-numeric: tabular-nums;
 }
 
@@ -730,7 +736,7 @@ button.row:active:not(:disabled), label.row:active { background: var(--surface-2
   .dock { padding: 8px 0 calc(8px + env(safe-area-inset-bottom)); }
   .q { padding: 2px 0 4px; }
   .q-text { padding: 18px 16px 16px; margin-bottom: 12px; font-size: 18px; }
-  .q-text .card-meta { margin: 2px -2px 6px 12px; }
+  .q-text .card-meta-col { margin: 2px -2px 6px 12px; }
   .answers { --answers-gap: 6px; }
   .answer { min-height: 50px; padding: 8px 10px; font-size: 14.5px; }
   .quiz-explain { padding: 9px 10px 11px; font-size: 12.5px; }

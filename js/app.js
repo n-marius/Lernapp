@@ -1,7 +1,7 @@
 // Routing und Bildschirme. Vorbild: ukr-app js/app.js (gleicher Rahmen aus
 // Kopfleiste/Seite/Dock, gleiche Hilfsfunktionen für Dialog und Hinweis).
 import { renderFlashcard, buildQueue, countByStufe, countByGebiet, pickWeightedCard, filterByPrio } from "./cards.js";
-import { renderQuizCard } from "./quiz.js";
+import { renderQuizCard, renderQuizCardReview } from "./quiz.js";
 import { renderStats, countToday } from "./stats.js";
 import {
   USERS,
@@ -74,24 +74,31 @@ const ICON = {
 // Untere Leiste der Lernmodi. „Falsch“ und „Richtig“ teilen sich die Breite
 // je zur Hälfte; der „Direkt in Stufe 4“-Knopf nimmt seinen Platz nur von
 // „Richtig“ bzw. „Weiter“, die Trennung Falsch/Richtig bleibt in der Mitte.
+// `dock-review` (anfangs ausgeblendet) zeigt beim Zurückschauen auf die
+// letzte Karte nur einen einzelnen „Weiter“-Knopf, siehe showFlashcardMode
+// & Co. – die eigentlichen Bewertungsknöpfe bleiben dabei unangetastet im
+// DOM (nur versteckt), damit ihre Klick-Verdrahtung erhalten bleibt.
 const FAST_BTN = `<button type="button" class="btn btn-fasttrack" id="fasttrack" disabled aria-label="Direkt in Stufe 4 (schon sicher gekonnt)" title="Direkt in Stufe 4">${ICON.up}</button>`;
+const REVIEW_ROW = `<div class="dock-row" id="dock-review" hidden><button type="button" class="btn btn-primary btn-fill" id="review-next">Weiter</button></div>`;
 const DOCK_CARDS = `
   <div class="dock-col">
-    <div class="dock-row dock-row-split">
+    <div class="dock-row dock-row-split" id="dock-normal">
       <button type="button" class="btn btn-wrong" id="wrong" disabled>Falsch</button>
       <div class="dock-pair">
         <button type="button" class="btn btn-correct btn-fill" id="richtig" disabled>Richtig</button>
         ${FAST_BTN}
       </div>
     </div>
+    ${REVIEW_ROW}
     <span class="dock-progress" id="progress"></span>
   </div>`;
 const DOCK_QUIZ = `
   <div class="dock-col">
-    <div class="dock-row">
+    <div class="dock-row" id="dock-normal">
       <button type="button" class="btn btn-primary btn-fill" id="next" disabled>Weiter</button>
       ${FAST_BTN}
     </div>
+    ${REVIEW_ROW}
     <span class="dock-progress" id="progress"></span>
   </div>`;
 
@@ -521,7 +528,7 @@ async function showFlashcardMode(gebiet, stufe, allowedPrios = new Set(PRIOS)) {
 
   render("flashcards", {
     left: backButton("Modus verlassen"),
-    right: `<button class="icon-btn" id="flag-btn" aria-label="Karte melden">${ICON.flag}</button><span class="bar-crumb"><b>Stufe ${stufe}</b> · ${GEBIET_NAMEN[gebiet]}</span>`,
+    right: `<button class="pill-btn" id="prev-btn" disabled>Zurück</button><button class="icon-btn" id="flag-btn" aria-label="Karte melden">${ICON.flag}</button><span class="bar-crumb"><b>Stufe ${stufe}</b> · ${GEBIET_NAMEN[gebiet]}</span>`,
     body: `<div id="stage"></div>`,
     dock: DOCK_CARDS,
   });
@@ -530,56 +537,94 @@ async function showFlashcardMode(gebiet, stufe, allowedPrios = new Set(PRIOS)) {
 
   let i = 0;
   let currentCard = null;
+  let lastAnswered = null; // { card } – letzte tatsächlich bewertete Karte, für „Zurück"
+  let reviewing = false;
   let skipCurrent = null;
   const stage = $("#stage");
   const progress = $("#progress");
-  const dockRow = $(".dock-row");
+  const dockNormal = $("#dock-normal");
+  const dockReview = $("#dock-review");
+  const reviewNextBtn = $("#review-next");
+  const prevBtn = $("#prev-btn");
   const wrongBtn = $("#wrong");
   const richtigBtn = $("#richtig");
   const fastBtn = $("#fasttrack");
 
-  on("#flag-btn", "click", () => {
-    if (!currentCard) return;
-    flagDialog(currentCard).then((flagged) => { if (flagged) skipCurrent?.(); });
-  });
-
-  async function step() {
-    if (i >= queue.length) {
-      currentCard = null;
-      stage.innerHTML = `
-        <div class="empty">
-          <p class="empty-title">Stufe abgeschlossen</p>
-          <p class="empty-sub">Alle Karten dieser Stufe sind für diesen Durchgang bearbeitet.</p>
-        </div>`;
-      progress.textContent = `${queue.length} von ${queue.length} bearbeitet`;
-      dockRow.hidden = true;
-      await sync();
-      return;
-    }
-    dockRow.hidden = false;
+  // Zeigt `card` unbeantwortet an und wartet auf Falsch/Richtig/Stufe-4 – die
+  // eigentliche Klick-Verdrahtung der Knöpfe liegt unten (einmalig), diese
+  // Funktion setzt nur den Anzeigezustand zurück (auch nach einer Rückschau).
+  function armCard(card) {
     wrongBtn.disabled = true;
     richtigBtn.disabled = true;
     fastBtn.disabled = true;
-    progress.textContent = `${i} von ${queue.length} bearbeitet`;
-    const card = queue[i];
-    currentCard = card;
     renderFlashcard(stage, card, {
       onRevealed: () => { wrongBtn.disabled = false; richtigBtn.disabled = false; fastBtn.disabled = false; },
       prio: effectivePrio(card, prios),
       onPrioChange: (prio) => changePrio(prios, card, prio),
     });
+  }
+
+  function showEmptyState() {
+    stage.innerHTML = `
+      <div class="empty">
+        <p class="empty-title">Stufe abgeschlossen</p>
+        <p class="empty-sub">Alle Karten dieser Stufe sind für diesen Durchgang bearbeitet.</p>
+      </div>`;
+    dockNormal.hidden = true;
+  }
+
+  on("#flag-btn", "click", () => {
+    const target = reviewing ? lastAnswered?.card : currentCard;
+    if (!target) return;
+    flagDialog(target).then((flagged) => { if (flagged && !reviewing) skipCurrent?.(); });
+  });
+
+  prevBtn.addEventListener("click", () => {
+    if (!lastAnswered || reviewing) return;
+    reviewing = true;
+    dockNormal.hidden = true;
+    dockReview.hidden = false;
+    renderFlashcard(stage, lastAnswered.card, {
+      revealed: true,
+      prio: effectivePrio(lastAnswered.card, prios),
+      onPrioChange: (prio) => changePrio(prios, lastAnswered.card, prio),
+    });
+  });
+
+  reviewNextBtn.addEventListener("click", () => {
+    reviewing = false;
+    dockReview.hidden = true;
+    if (currentCard) { dockNormal.hidden = false; armCard(currentCard); }
+    else showEmptyState();
+  });
+
+  let resolveStep = null;
+  wrongBtn.onclick = () => { if (!wrongBtn.disabled && resolveStep) resolveStep({ correct: false }); };
+  richtigBtn.onclick = () => { if (!richtigBtn.disabled && resolveStep) resolveStep({ correct: true }); };
+  fastBtn.onclick = () => { if (!fastBtn.disabled && resolveStep) resolveStep({ fastTrack: true }); };
+
+  async function step() {
+    if (i >= queue.length) {
+      currentCard = null;
+      showEmptyState();
+      progress.textContent = `${queue.length} von ${queue.length} bearbeitet`;
+      await sync();
+      return;
+    }
+    dockNormal.hidden = false;
+    progress.textContent = `${i} von ${queue.length} bearbeitet`;
+    const card = queue[i];
+    currentCard = card;
+    armCard(card);
     const result = await new Promise((resolve) => {
       skipCurrent = () => resolve({ flagged: true });
-      wrongBtn.onclick = () => { if (!wrongBtn.disabled) resolve({ correct: false }); };
-      richtigBtn.onclick = () => { if (!richtigBtn.disabled) resolve({ correct: true }); };
-      fastBtn.onclick = () => { if (!fastBtn.disabled) resolve({ fastTrack: true }); };
+      resolveStep = resolve;
     });
-    skipCurrent = null;
-    wrongBtn.onclick = null;
-    richtigBtn.onclick = null;
-    fastBtn.onclick = null;
+    resolveStep = null;
     i++;
     if (result.flagged) { step(); return; }
+    lastAnswered = { card };
+    prevBtn.disabled = false;
     if (result.fastTrack) { await answerCard("cards", card, true, 4); step(); return; }
     await answerCard("cards", card, result.correct);
     step();
@@ -601,7 +646,7 @@ async function showQuizMode(gebiet, stufe, allowedPrios = new Set(PRIOS)) {
 
   render("quiz-mode", {
     left: backButton("Modus verlassen"),
-    right: `<button class="icon-btn" id="flag-btn" aria-label="Karte melden">${ICON.flag}</button><span class="bar-crumb"><b>Stufe ${stufe}</b> · ${GEBIET_NAMEN[gebiet]}</span>`,
+    right: `<button class="pill-btn" id="prev-btn" disabled>Zurück</button><button class="icon-btn" id="flag-btn" aria-label="Karte melden">${ICON.flag}</button><span class="bar-crumb"><b>Stufe ${stufe}</b> · ${GEBIET_NAMEN[gebiet]}</span>`,
     body: `<div id="stage"></div>`,
     dock: DOCK_QUIZ,
   });
@@ -610,53 +655,103 @@ async function showQuizMode(gebiet, stufe, allowedPrios = new Set(PRIOS)) {
 
   let i = 0;
   let currentCard = null;
+  let lastAnswered = null; // { card, chosenIndex, order } – für „Zurück"
+  let reviewing = false;
   let skipCurrent = null;
+  let outcome = null;
+  let quizController = null;
   const stage = $("#stage");
   const progress = $("#progress");
-  const dockRow = $(".dock-row");
+  const dockNormal = $("#dock-normal");
+  const dockReview = $("#dock-review");
+  const reviewNextBtn = $("#review-next");
+  const prevBtn = $("#prev-btn");
   const nextBtn = $("#next");
   const fastBtn = $("#fasttrack");
 
+  // Zeigt `card` unbeantwortet an. „Weiter" heißt anfangs „Auflösen" und ist
+  // von Anfang an anklickbar (siehe nextBtn.onclick) – erst nach einer Wahl
+  // (oder dem Auflösen) wird daraus wieder „Weiter" zum eigentlichen Fortfahren.
+  function armCard(card) {
+    outcome = null;
+    nextBtn.disabled = false;
+    nextBtn.textContent = "Auflösen";
+    fastBtn.disabled = true;
+    quizController = renderQuizCard(stage, card, {
+      onAnswered: (result) => {
+        outcome = result;
+        nextBtn.textContent = "Weiter";
+        fastBtn.disabled = !result.correct;
+      },
+      prio: effectivePrio(card, prios),
+      onPrioChange: (prio) => changePrio(prios, card, prio),
+    });
+  }
+
+  function showEmptyState() {
+    stage.innerHTML = `
+      <div class="empty">
+        <p class="empty-title">Stufe abgeschlossen</p>
+        <p class="empty-sub">Alle Karten dieser Stufe sind für diesen Durchgang bearbeitet.</p>
+      </div>`;
+    dockNormal.hidden = true;
+  }
+
   on("#flag-btn", "click", () => {
-    if (!currentCard) return;
-    flagDialog(currentCard).then((flagged) => { if (flagged) skipCurrent?.(); });
+    const target = reviewing ? lastAnswered?.card : currentCard;
+    if (!target) return;
+    flagDialog(target).then((flagged) => { if (flagged && !reviewing) skipCurrent?.(); });
   });
+
+  prevBtn.addEventListener("click", () => {
+    if (!lastAnswered || reviewing) return;
+    reviewing = true;
+    dockNormal.hidden = true;
+    dockReview.hidden = false;
+    renderQuizCardReview(stage, lastAnswered.card, {
+      chosenIndex: lastAnswered.chosenIndex,
+      order: lastAnswered.order,
+      prio: effectivePrio(lastAnswered.card, prios),
+      onPrioChange: (prio) => changePrio(prios, lastAnswered.card, prio),
+    });
+  });
+
+  reviewNextBtn.addEventListener("click", () => {
+    reviewing = false;
+    dockReview.hidden = true;
+    if (currentCard) { dockNormal.hidden = false; armCard(currentCard); }
+    else showEmptyState();
+  });
+
+  let resolveStep = null;
+  nextBtn.onclick = () => {
+    if (!outcome) { quizController?.giveUp(); return; }
+    if (resolveStep) resolveStep(outcome);
+  };
+  fastBtn.onclick = () => { if (!fastBtn.disabled && resolveStep) resolveStep({ fastTrack: true }); };
 
   async function step() {
     if (i >= queue.length) {
       currentCard = null;
-      stage.innerHTML = `
-        <div class="empty">
-          <p class="empty-title">Stufe abgeschlossen</p>
-          <p class="empty-sub">Alle Karten dieser Stufe sind für diesen Durchgang bearbeitet.</p>
-        </div>`;
+      showEmptyState();
       progress.textContent = `${queue.length} von ${queue.length} bearbeitet`;
-      dockRow.hidden = true;
       await sync();
       return;
     }
-    dockRow.hidden = false;
-    nextBtn.disabled = true;
-    fastBtn.disabled = true;
+    dockNormal.hidden = false;
     progress.textContent = `${i} von ${queue.length} bearbeitet`;
     const card = queue[i];
     currentCard = card;
-    let outcome = null;
-    renderQuizCard(stage, card, {
-      onAnswered: (correct) => { outcome = { correct }; nextBtn.disabled = false; fastBtn.disabled = false; },
-      prio: effectivePrio(card, prios),
-      onPrioChange: (prio) => changePrio(prios, card, prio),
-    });
+    armCard(card);
     const result = await new Promise((resolve) => {
       skipCurrent = () => resolve({ flagged: true });
-      nextBtn.onclick = () => { if (outcome) resolve(outcome); };
-      fastBtn.onclick = () => { if (!fastBtn.disabled) resolve({ fastTrack: true }); };
+      resolveStep = resolve;
     });
-    skipCurrent = null;
-    nextBtn.onclick = null;
-    fastBtn.onclick = null;
+    resolveStep = null;
     i++;
     if (result.flagged) { step(); return; }
+    lastAnswered = { card, chosenIndex: result.chosenIndex, order: result.order };
+    prevBtn.disabled = false;
     if (result.fastTrack) { await answerCard("quiz", card, true, 4); step(); return; }
     await answerCard("quiz", card, result.correct);
     step();
@@ -681,7 +776,7 @@ async function showAutoMode(mode, gebiet, allowedPrios = new Set(PRIOS)) {
 
   render(`${mode}-auto`, {
     left: backButton("Modus verlassen"),
-    right: `<button class="icon-btn" id="flag-btn" aria-label="Karte melden">${ICON.flag}</button><span class="bar-crumb"><b>Automatisch</b> · ${GEBIET_NAMEN[gebiet]}</span>`,
+    right: `<button class="pill-btn" id="prev-btn" disabled>Zurück</button><button class="icon-btn" id="flag-btn" aria-label="Karte melden">${ICON.flag}</button><span class="bar-crumb"><b>Automatisch</b> · ${GEBIET_NAMEN[gebiet]}</span>`,
     body: `<div id="stage"></div>`,
     dock: mode === "cards" ? DOCK_CARDS : DOCK_QUIZ,
   });
@@ -697,77 +792,139 @@ async function showAutoMode(mode, gebiet, allowedPrios = new Set(PRIOS)) {
   let answered = 0;
   let currentCard = null;
   let lastKey = null;
+  let lastAnswered = null; // { card, stufe, chosenIndex, order } – für „Zurück"
+  let reviewing = false;
   let skipCurrent = null;
+  let curLevels = null;
+  let curPrios = null;
   const stage = $("#stage");
   const progress = $("#progress");
+  const dockNormal = $("#dock-normal");
+  const dockReview = $("#dock-review");
+  const reviewNextBtn = $("#review-next");
+  const prevBtn = $("#prev-btn");
 
-  on("#flag-btn", "click", () => {
-    if (!currentCard) return;
-    flagDialog(currentCard).then((flagged) => { if (flagged) skipCurrent?.(); });
-  });
+  const wrongBtn = mode === "cards" ? $("#wrong") : null;
+  const richtigBtn = mode === "cards" ? $("#richtig") : null;
+  const nextBtn = mode === "quiz" ? $("#next") : null;
+  const fastBtn = $("#fasttrack");
 
-  async function step() {
-    if (pool.length === 0) {
-      currentCard = null;
-      stage.innerHTML = `
-        <div class="empty">
-          <p class="empty-title">Keine Karten verfügbar</p>
-          <p class="empty-sub">In diesem Rechtsgebiet gibt es aktuell keine Karten.</p>
-        </div>`;
-      progress.textContent = `${answered} bearbeitet`;
-      return;
-    }
-    progress.textContent = `${answered} bearbeitet`;
-    const levels = await levelsMap(currentUser);
-    const prios = await priosMap(currentUser);
-    const pendingId = await getSetting(pendingKey, null);
-    const card = (pendingId && pool.find((c) => cardKey(c) === pendingId)) || pickWeightedCard(pool, levels, prios, lastKey);
-    await setSetting(pendingKey, cardKey(card));
-    currentCard = card;
-    lastKey = cardKey(card);
+  let outcome = null;
+  let quizController = null;
+  let resolveStep = null;
 
-    let result;
+  function stufeOf(card) {
+    return curLevels?.get(cardKey(card))?.stufe ?? 1;
+  }
+
+  function armCard(card) {
     if (mode === "cards") {
-      const wrongBtn = $("#wrong");
-      const richtigBtn = $("#richtig");
-      const fastBtn = $("#fasttrack");
       wrongBtn.disabled = true;
       richtigBtn.disabled = true;
       fastBtn.disabled = true;
       renderFlashcard(stage, card, {
         onRevealed: () => { wrongBtn.disabled = false; richtigBtn.disabled = false; fastBtn.disabled = false; },
-        prio: effectivePrio(card, prios),
-        onPrioChange: (prio) => changePrio(prios, card, prio),
+        prio: effectivePrio(card, curPrios),
+        onPrioChange: (prio) => changePrio(curPrios, card, prio),
+        stufe: stufeOf(card),
       });
-      result = await new Promise((resolve) => {
-        skipCurrent = () => resolve({ flagged: true });
-        wrongBtn.onclick = () => { if (!wrongBtn.disabled) resolve({ correct: false }); };
-        richtigBtn.onclick = () => { if (!richtigBtn.disabled) resolve({ correct: true }); };
-        fastBtn.onclick = () => { if (!fastBtn.disabled) resolve({ fastTrack: true }); };
-      });
-      wrongBtn.onclick = null;
-      richtigBtn.onclick = null;
-      fastBtn.onclick = null;
     } else {
-      const nextBtn = $("#next");
-      const fastBtn = $("#fasttrack");
-      nextBtn.disabled = true;
+      outcome = null;
+      nextBtn.disabled = false;
+      nextBtn.textContent = "Auflösen";
       fastBtn.disabled = true;
-      let outcome = null;
-      renderQuizCard(stage, card, {
-        onAnswered: (correct) => { outcome = { correct }; nextBtn.disabled = false; fastBtn.disabled = false; },
-        prio: effectivePrio(card, prios),
-        onPrioChange: (prio) => changePrio(prios, card, prio),
+      quizController = renderQuizCard(stage, card, {
+        onAnswered: (result) => {
+          outcome = result;
+          nextBtn.textContent = "Weiter";
+          fastBtn.disabled = !result.correct;
+        },
+        prio: effectivePrio(card, curPrios),
+        onPrioChange: (prio) => changePrio(curPrios, card, prio),
+        stufe: stufeOf(card),
       });
-      result = await new Promise((resolve) => {
-        skipCurrent = () => resolve({ flagged: true });
-        nextBtn.onclick = () => { if (outcome) resolve(outcome); };
-        fastBtn.onclick = () => { if (!fastBtn.disabled) resolve({ fastTrack: true }); };
-      });
-      nextBtn.onclick = null;
-      fastBtn.onclick = null;
     }
-    skipCurrent = null;
+  }
+
+  function showEmptyState() {
+    stage.innerHTML = `
+      <div class="empty">
+        <p class="empty-title">Keine Karten verfügbar</p>
+        <p class="empty-sub">In diesem Rechtsgebiet gibt es aktuell keine Karten.</p>
+      </div>`;
+    dockNormal.hidden = true;
+  }
+
+  on("#flag-btn", "click", () => {
+    const target = reviewing ? lastAnswered?.card : currentCard;
+    if (!target) return;
+    flagDialog(target).then((flagged) => { if (flagged && !reviewing) skipCurrent?.(); });
+  });
+
+  prevBtn.addEventListener("click", () => {
+    if (!lastAnswered || reviewing) return;
+    reviewing = true;
+    dockNormal.hidden = true;
+    dockReview.hidden = false;
+    if (mode === "cards") {
+      renderFlashcard(stage, lastAnswered.card, {
+        revealed: true,
+        prio: effectivePrio(lastAnswered.card, curPrios),
+        onPrioChange: (prio) => changePrio(curPrios, lastAnswered.card, prio),
+        stufe: lastAnswered.stufe,
+      });
+    } else {
+      renderQuizCardReview(stage, lastAnswered.card, {
+        chosenIndex: lastAnswered.chosenIndex,
+        order: lastAnswered.order,
+        prio: effectivePrio(lastAnswered.card, curPrios),
+        onPrioChange: (prio) => changePrio(curPrios, lastAnswered.card, prio),
+      });
+    }
+  });
+
+  reviewNextBtn.addEventListener("click", () => {
+    reviewing = false;
+    dockReview.hidden = true;
+    if (currentCard) { dockNormal.hidden = false; armCard(currentCard); }
+    else showEmptyState();
+  });
+
+  if (mode === "cards") {
+    wrongBtn.onclick = () => { if (!wrongBtn.disabled && resolveStep) resolveStep({ correct: false }); };
+    richtigBtn.onclick = () => { if (!richtigBtn.disabled && resolveStep) resolveStep({ correct: true }); };
+  } else {
+    nextBtn.onclick = () => {
+      if (!outcome) { quizController?.giveUp(); return; }
+      if (resolveStep) resolveStep(outcome);
+    };
+  }
+  fastBtn.onclick = () => { if (!fastBtn.disabled && resolveStep) resolveStep({ fastTrack: true }); };
+
+  async function step() {
+    if (pool.length === 0) {
+      currentCard = null;
+      showEmptyState();
+      progress.textContent = `${answered} bearbeitet`;
+      return;
+    }
+    dockNormal.hidden = false;
+    progress.textContent = `${answered} bearbeitet`;
+    curLevels = await levelsMap(currentUser);
+    curPrios = await priosMap(currentUser);
+    const pendingId = await getSetting(pendingKey, null);
+    const card = (pendingId && pool.find((c) => cardKey(c) === pendingId)) || pickWeightedCard(pool, curLevels, curPrios, lastKey);
+    await setSetting(pendingKey, cardKey(card));
+    currentCard = card;
+    lastKey = cardKey(card);
+    const stufe = stufeOf(card);
+    armCard(card);
+
+    const result = await new Promise((resolve) => {
+      skipCurrent = () => resolve({ flagged: true });
+      resolveStep = resolve;
+    });
+    resolveStep = null;
     await setSetting(pendingKey, null);
     if (result.flagged) {
       const idx = pool.findIndex((c) => cardKey(c) === lastKey);
@@ -775,6 +932,8 @@ async function showAutoMode(mode, gebiet, allowedPrios = new Set(PRIOS)) {
       step();
       return;
     }
+    lastAnswered = { card, stufe, chosenIndex: result.chosenIndex ?? null, order: result.order ?? null };
+    prevBtn.disabled = false;
     answered++;
     if (result.fastTrack) { await answerCard(mode, card, true, 4); step(); return; }
     await answerCard(mode, card, result.correct);

@@ -276,6 +276,11 @@ nach tatsächlicher Bearbeitung folgt wieder eine neu gezogene Karte. Diese
 Merkfunktion ist rein lokal (Einstellung `autoPending_<nutzer>_<modus>_<gebiet>`,
 nicht Teil der Synchronisierung).
 
+**Stufenanzeige (nur Automatikmodus):** Da im Automatikmodus – anders als im
+manuellen Modus, wo die Stufe bereits durch die vorherige Stufenwahl feststeht
+– die Stufe der gezogenen Karte sonst nicht ersichtlich wäre, steht sie hier
+klein und unauffällig über dem Prio-Symbol („Stufe 3“, `.level-chip`).
+
 **Prio-Symbol und persönliche Änderung:** In beiden Lernmodi (manuell und
 automatisch) zeigt ein kompaktes Symbol (24 px, ohne Text) **oben rechts**
 im Fragefeld (vom Fragetext umflossen, neben einem etwaigen Ersteller-Chip)
@@ -302,12 +307,35 @@ gespeicherte Übersteuerung, siehe Abschnitt 7 und 8).
   (steht also ggf. zwischen den Antworten) und bildet mit ihr optisch eine
   Einheit (gleicher grüner Rand, gleiche Füllung). Sie ist höhenbegrenzt
   (160 px) und wird bei langem Text innerhalb des Felds gescrollt. Der
-  „Weiter“-Button sitzt **fest in der unteren Leiste über die volle
-  Breite** und ist ausgegraut, bis eine Antwort gewählt wurde. Rechts daneben
-  (auf seine Kosten) derselbe blaue „Direkt in Stufe 4“-Knopf wie im
-  Karteikarten-Modus (Abschnitt 5.1), gleichzeitig mit „Weiter“ aktiv;
-  darunter klein der Fortschritt.
+  Knopf in der unteren Leiste (volle Breite) heißt, solange noch keine
+  Antwort gewählt wurde, **„Auflösen“** und ist von Anfang an anklickbar:
+  ein Klick behandelt die Frage wie falsch beantwortet (keine Antwort wird
+  als gewählt/falsch markiert, aber die richtige Antwort wird grün und die
+  Erklärung erscheint), danach wird aus dem Knopf **„Weiter“**, um zur
+  nächsten Karte zu gehen. Rechts daneben (auf seine Kosten) derselbe blaue
+  „Direkt in Stufe 4“-Knopf wie im Karteikarten-Modus (Abschnitt 5.1) –
+  anders als dort wird er hier aber **nur bei richtiger Antwort** anklickbar
+  (inklusive Darstellung), da eine falsch beantwortete oder aufgelöste Frage
+  nicht „schon sicher gekonnt“ ist; darunter klein der Fortschritt.
 - Auch hier: Ersteller-Chip, falls vorhanden. Stufenwechsel wie in 5.1.
+
+### 5.6 Zurück zur letzten Karte
+
+In allen drei Lernabläufen (Karteikarten manuell/automatisch,
+Frage-Antwort manuell/automatisch) kann man sich die zuletzt bearbeitete
+Karte noch einmal ansehen. Dazu sitzt zwischen dem „<“ (Modus verlassen) und
+dem Flag-Symbol ein kleiner Knopf „Zurück“, der erst aktiv wird, sobald eine
+Karte tatsächlich bearbeitet wurde (Falsch/Richtig/Weiter/Stufe-4-Knopf –
+bloßes Anzeigen zählt wie gehabt nicht, Abschnitt 5.1a).
+
+Ein Klick zeigt die letzte Karte genau in dem Zustand, in dem sie bewertet
+wurde (bei Frage-Antwort inklusive der ursprünglichen Zufallsreihenfolge der
+Antworten und der damals gewählten bzw. aufgelösten Antwort). Die
+Bewertung selbst (Falsch/Richtig bzw. die gewählte Antwort) lässt sich dabei
+**nicht** mehr ändern – die Antwortflächen sind gesperrt. Änderbar bleiben
+nur die Prio und das Setzen eines Flags. Die untere Leiste zeigt in dieser
+Rückschau ausschließlich einen einzelnen „Weiter“-Knopf, der zur gerade
+aktuellen (noch offenen bzw. zuletzt gezogenen) Karte zurückführt.
 
 ### 5.3 Karten anlegen
 

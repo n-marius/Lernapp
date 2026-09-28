@@ -193,14 +193,16 @@ laufen lassen.
   die Erklärung. Die Erklärung hat keine eigene Höhenbegrenzung mehr – bei
   sehr langem Text scrollt einfach die ganze Seite.
 - Die Schaltflächen „Falsch“ (rot, links) und „Richtig“ (grün, rechts) sitzen
-  **fest in der unteren Leiste** (wie der „Weiter“-Button im
-  Frage-Antwort-Modus) und sind ausgegraut, bis die Antwort aufgedeckt wurde.
-  Ein Klick löst den Stufenwechsel aus (Abschnitt 4) und zeigt die nächste
-  Karte. Rechts daneben sitzt ein quadratischer, blauer Knopf mit Pfeil nach
-  oben („Direkt in Stufe 4“) für Karten, die man schon sicher kann – er wird
+  **fest in der unteren Leiste** und teilen sich dort die volle
+  Bildschirmbreite (je links/rechts der Mitte), sind ausgegraut, bis die
+  Antwort aufgedeckt wurde. Ein Klick löst den Stufenwechsel aus
+  (Abschnitt 4) und zeigt die nächste Karte. Rechts daneben (auf deren
+  Kosten) sitzt ein kleiner, quadratischer, blauer Knopf mit Pfeil nach oben
+  („Direkt in Stufe 4“) für Karten, die man schon sicher kann – er wird
   gleichzeitig mit Falsch/Richtig aktiv und zählt wie eine richtige Antwort
   für Statistik und Motivations-Einblendungen, setzt die Stufe aber ohne
-  Umweg über die übrigen Stufen direkt auf 4.
+  Umweg über die übrigen Stufen direkt auf 4. Darunter, deutlich kleiner und
+  unauffällig in der Ecke, steht der Fortschritt („x von y bearbeitet“).
 - Wurde die Karte von einem Nutzer angelegt (nicht Grundbestand), erscheint
   oben rechts im Fragefeld ein kleiner, unauffälliger Chip mit dem Namen des
   Erstellers.
@@ -277,10 +279,11 @@ gespeicherte Übersteuerung, siehe Abschnitt 7 und 8).
   falsch, wird zusätzlich die richtige Antwort grün hervorgehoben.
 - Darunter klappt die Erklärung bildschirmbreit aus (keine eigene
   Höhenbegrenzung mehr – bei sehr langem Text scrollt die Seite). Der
-  „Weiter“-Button sitzt **fest in der unteren Leiste** und ist ausgegraut,
-  bis eine Antwort gewählt wurde. Rechts daneben derselbe blaue
-  „Direkt in Stufe 4“-Knopf wie im Karteikarten-Modus (Abschnitt 5.1),
-  gleichzeitig mit „Weiter“ aktiv.
+  „Weiter“-Button sitzt **fest in der unteren Leiste über die volle
+  Breite** und ist ausgegraut, bis eine Antwort gewählt wurde. Rechts daneben
+  (auf seine Kosten) derselbe blaue „Direkt in Stufe 4“-Knopf wie im
+  Karteikarten-Modus (Abschnitt 5.1), gleichzeitig mit „Weiter“ aktiv;
+  darunter klein der Fortschritt.
 - Auch hier: Ersteller-Chip, falls vorhanden. Stufenwechsel wie in 5.1.
 
 ### 5.3 Karten anlegen
@@ -406,12 +409,13 @@ Wie im Referenzprojekt „ukr-app“: ein privates (secret) GitHub-Gist, das
 beide Nutzer über denselben Token und dieselbe Gist-ID verbinden. Datei im
 Gist: `stats.json`.
 
-**Token-Pflicht beim ersten Öffnen:** Ist noch kein Token hinterlegt (leeres
-`gistToken`), blendet die App direkt nach dem Start einen nicht
-wegklickbaren Dialog ein, der Token und optional Gist-ID abfragt. Erst nach
-dem Speichern geht es weiter. Das verhindert, dass versehentlich ohne
-Synchronisierung gelernt wird. Danach läuft alles wie gewohnt über die
-Einstellungen weiter.
+**Hinweis beim ersten Öffnen:** Ist noch kein Token hinterlegt (leeres
+`gistToken`), blendet die App direkt nach dem Start einen Dialog ein, der
+Token und optional Gist-ID abfragt – als Erinnerung, damit nicht versehentlich
+ohne Synchronisierung gelernt wird. Der Dialog lässt sich über „Später“ oder
+Tippen daneben schließen, ohne etwas einzugeben (die Einrichtung geht
+jederzeit über die Einstellungen nach). Nach dem Speichern geht es
+synchronisiert weiter.
 
 ```json
 {

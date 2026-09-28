@@ -498,13 +498,13 @@ async function showFlashcardMode(gebiet, stufe, allowedPrios = new Set(PRIOS)) {
     right: `<button class="icon-btn" id="flag-btn" aria-label="Karte melden">${ICON.flag}</button><span class="bar-crumb"><b>Stufe ${stufe}</b> · ${GEBIET_NAMEN[gebiet]}</span>`,
     body: `<div id="stage"></div>`,
     dock: `
-      <div class="dock-status">
-        <span class="dock-text" id="progress"></span>
-      </div>
-      <div class="dock-actions">
-        <button type="button" class="btn btn-wrong btn-auto" id="wrong" disabled>Falsch</button>
-        <button type="button" class="btn btn-correct btn-auto" id="richtig" disabled>Richtig</button>
-        <button type="button" class="btn btn-fasttrack" id="fasttrack" disabled aria-label="Direkt in Stufe 4 (schon sicher gekonnt)">${ICON.up}</button>
+      <div class="dock-col">
+        <div class="dock-row">
+          <button type="button" class="btn btn-wrong btn-fill" id="wrong" disabled>Falsch</button>
+          <button type="button" class="btn btn-correct btn-fill" id="richtig" disabled>Richtig</button>
+          <button type="button" class="btn btn-fasttrack" id="fasttrack" disabled aria-label="Direkt in Stufe 4 (schon sicher gekonnt)">${ICON.up}</button>
+        </div>
+        <span class="dock-progress" id="progress"></span>
       </div>`,
   });
 
@@ -515,7 +515,7 @@ async function showFlashcardMode(gebiet, stufe, allowedPrios = new Set(PRIOS)) {
   let skipCurrent = null;
   const stage = $("#stage");
   const progress = $("#progress");
-  const dockActions = $(".dock-actions");
+  const dockRow = $(".dock-row");
   const wrongBtn = $("#wrong");
   const richtigBtn = $("#richtig");
   const fastBtn = $("#fasttrack");
@@ -534,11 +534,11 @@ async function showFlashcardMode(gebiet, stufe, allowedPrios = new Set(PRIOS)) {
           <p class="empty-sub">Alle Karten dieser Stufe sind für diesen Durchgang bearbeitet.</p>
         </div>`;
       progress.textContent = `${queue.length} von ${queue.length} bearbeitet`;
-      dockActions.hidden = true;
+      dockRow.hidden = true;
       await sync();
       return;
     }
-    dockActions.hidden = false;
+    dockRow.hidden = false;
     wrongBtn.disabled = true;
     richtigBtn.disabled = true;
     fastBtn.disabled = true;
@@ -586,11 +586,13 @@ async function showQuizMode(gebiet, stufe, allowedPrios = new Set(PRIOS)) {
     right: `<button class="icon-btn" id="flag-btn" aria-label="Karte melden">${ICON.flag}</button><span class="bar-crumb"><b>Stufe ${stufe}</b> · ${GEBIET_NAMEN[gebiet]}</span>`,
     body: `<div id="stage"></div>`,
     dock: `
-      <div class="dock-status">
-        <span class="dock-text" id="progress"></span>
-      </div>
-      <button class="btn btn-primary btn-auto" id="next" disabled>Weiter</button>
-      <button type="button" class="btn btn-fasttrack" id="fasttrack" disabled aria-label="Direkt in Stufe 4 (schon sicher gekonnt)">${ICON.up}</button>`,
+      <div class="dock-col">
+        <div class="dock-row">
+          <button class="btn btn-primary btn-fill" id="next" disabled>Weiter</button>
+          <button type="button" class="btn btn-fasttrack" id="fasttrack" disabled aria-label="Direkt in Stufe 4 (schon sicher gekonnt)">${ICON.up}</button>
+        </div>
+        <span class="dock-progress" id="progress"></span>
+      </div>`,
   });
 
   on("#back", "click", async () => { await sync(); showStufePick("quiz", gebiet, allowedPrios); });
@@ -600,6 +602,7 @@ async function showQuizMode(gebiet, stufe, allowedPrios = new Set(PRIOS)) {
   let skipCurrent = null;
   const stage = $("#stage");
   const progress = $("#progress");
+  const dockRow = $(".dock-row");
   const nextBtn = $("#next");
   const fastBtn = $("#fasttrack");
 
@@ -617,13 +620,11 @@ async function showQuizMode(gebiet, stufe, allowedPrios = new Set(PRIOS)) {
           <p class="empty-sub">Alle Karten dieser Stufe sind für diesen Durchgang bearbeitet.</p>
         </div>`;
       progress.textContent = `${queue.length} von ${queue.length} bearbeitet`;
-      nextBtn.hidden = true;
-      fastBtn.hidden = true;
+      dockRow.hidden = true;
       await sync();
       return;
     }
-    nextBtn.hidden = false;
-    fastBtn.hidden = false;
+    dockRow.hidden = false;
     nextBtn.disabled = true;
     fastBtn.disabled = true;
     progress.textContent = `${i} von ${queue.length} bearbeitet`;
@@ -674,16 +675,22 @@ async function showAutoMode(mode, gebiet, allowedPrios = new Set(PRIOS)) {
     dock:
       mode === "cards"
         ? `
-      <div class="dock-status"><span class="dock-text" id="progress"></span></div>
-      <div class="dock-actions">
-        <button type="button" class="btn btn-wrong btn-auto" id="wrong" disabled>Falsch</button>
-        <button type="button" class="btn btn-correct btn-auto" id="richtig" disabled>Richtig</button>
-        <button type="button" class="btn btn-fasttrack" id="fasttrack" disabled aria-label="Direkt in Stufe 4 (schon sicher gekonnt)">${ICON.up}</button>
+      <div class="dock-col">
+        <div class="dock-row">
+          <button type="button" class="btn btn-wrong btn-fill" id="wrong" disabled>Falsch</button>
+          <button type="button" class="btn btn-correct btn-fill" id="richtig" disabled>Richtig</button>
+          <button type="button" class="btn btn-fasttrack" id="fasttrack" disabled aria-label="Direkt in Stufe 4 (schon sicher gekonnt)">${ICON.up}</button>
+        </div>
+        <span class="dock-progress" id="progress"></span>
       </div>`
         : `
-      <div class="dock-status"><span class="dock-text" id="progress"></span></div>
-      <button class="btn btn-primary btn-auto" id="next" disabled>Weiter</button>
-      <button type="button" class="btn btn-fasttrack" id="fasttrack" disabled aria-label="Direkt in Stufe 4 (schon sicher gekonnt)">${ICON.up}</button>`,
+      <div class="dock-col">
+        <div class="dock-row">
+          <button class="btn btn-primary btn-fill" id="next" disabled>Weiter</button>
+          <button type="button" class="btn btn-fasttrack" id="fasttrack" disabled aria-label="Direkt in Stufe 4 (schon sicher gekonnt)">${ICON.up}</button>
+        </div>
+        <span class="dock-progress" id="progress"></span>
+      </div>`,
   });
 
   on("#back", "click", async () => { await sync(); showGebietPick(`${mode}-auto`); });
@@ -1176,7 +1183,7 @@ function requireTokenDialog() {
     el.innerHTML = `
       <div class="dialog" role="alertdialog" aria-modal="true">
         <h3>GitHub-Token hinterlegen</h3>
-        <p>Ohne Token wird nicht synchronisiert – dein Fortschritt bliebe allein auf diesem Gerät. Bitte einmal einrichten, bevor es losgeht.</p>
+        <p>Ohne Token wird nicht synchronisiert – dein Fortschritt bliebe allein auf diesem Gerät. Am besten gleich einrichten, bevor es losgeht (geht auch später jederzeit über die Einstellungen).</p>
         <label class="field">
           <span class="field-label">GitHub-Token</span>
           <input id="req-token" type="password" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="github_pat_…">
@@ -1185,21 +1192,26 @@ function requireTokenDialog() {
           <span class="field-label">Gist-ID (nur auf weiteren Geräten nötig)</span>
           <input id="req-gist" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Auf dem ersten Gerät leer lassen">
         </label>
-        <div class="settings-actions"><button class="btn btn-primary" id="req-save" disabled>Speichern und weiter</button></div>
+        <div class="dialog-actions" style="margin-top:18px">
+          <button class="btn btn-secondary" data-answer="later">Später</button>
+          <button class="btn btn-primary" id="req-save" disabled>Speichern</button>
+        </div>
       </div>`;
     document.body.appendChild(el);
     const tokenInput = el.querySelector("#req-token");
     const saveBtn = el.querySelector("#req-save");
+    const close = () => { el.remove(); resolve(); };
     tokenInput.addEventListener("input", () => { saveBtn.disabled = !tokenInput.value.trim(); });
     tokenInput.focus();
+    el.addEventListener("click", (e) => { if (e.target === el) close(); });
+    el.querySelector('[data-answer="later"]').addEventListener("click", close);
     saveBtn.addEventListener("click", async () => {
       const token = tokenInput.value.trim();
       if (!token) return;
       saveBtn.disabled = true;
       saveBtn.textContent = "Speichere …";
       await setSyncConfig({ token, gistId: el.querySelector("#req-gist").value.trim() });
-      el.remove();
-      resolve();
+      close();
     });
   });
 }

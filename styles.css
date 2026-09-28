@@ -208,8 +208,9 @@ button:disabled { cursor: default; }
   align-items: center;
   gap: 16px;
 }
-.dock-status { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 7px; }
-.dock-text { font-size: 13.5px; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.dock-col { display: flex; flex-direction: column; gap: 8px; width: 100%; }
+.dock-row { display: flex; gap: 8px; }
+.dock-progress { font-size: 12px; color: var(--ink-3); font-variant-numeric: tabular-nums; }
 
 @keyframes enter {
   from { opacity: 0; transform: translateY(5px); }
@@ -292,8 +293,7 @@ button:disabled { cursor: default; }
 .btn-correct { background: var(--correct); color: #fff; }
 .btn-wrong { background: var(--wrong); color: #fff; }
 .btn-correct:disabled, .btn-wrong:disabled { background: var(--btn-disabled); color: var(--btn-disabled-fg); }
-.dock-actions { display: flex; gap: 8px; }
-.btn-auto { width: auto; }
+.btn-fill { flex: 1; width: auto; }
 .btn-fasttrack {
   width: 50px;
   flex-shrink: 0;
@@ -303,7 +303,6 @@ button:disabled { cursor: default; }
 }
 .btn-fasttrack svg { width: 18px; height: 18px; }
 .btn-fasttrack:disabled { background: var(--btn-disabled); color: var(--btn-disabled-fg); }
-.btn-half { width: 100%; }
 
 .seg {
   display: flex;
@@ -693,8 +692,9 @@ button.row:active:not(:disabled), label.row:active { background: var(--surface-2
   .answers { gap: 6px; }
   .answer { min-height: 50px; padding: 8px 10px; font-size: 14.5px; }
   .quiz-explain { margin-top: 12px; padding-top: 10px; font-size: 12.5px; }
-  .dock .btn-auto { height: 44px; padding: 0 16px; }
+  .dock .btn-fill { height: 44px; }
   .dock .btn-fasttrack { height: 44px; width: 44px; }
+  .dock-progress { font-size: 11px; }
 }
 
 /* ---------- Karten anlegen ---------- */

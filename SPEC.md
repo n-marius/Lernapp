@@ -158,39 +158,84 @@ laufen lassen.
 2. **Moduswahl** (3 Kacheln, bei Marius 4): „Karteikarten“, „Frage-Antwort“,
    „Karten anlegen“ und – nur wenn Marius der aktuell gewählte Nutzer ist –
    „Flaggs beheben“ (siehe Abschnitt 5.4).
-3. **Rechtsgebiet wählen** (4 Zeilen): Zivilgericht, Strafrecht,
+3. **Nur nach „Karteikarten“ oder „Frage-Antwort“:** Manuell oder Automatisch
+   wählen (siehe Abschnitt 5.1a). „Karten anlegen“ und „Flaggs beheben“
+   überspringen diesen Schritt.
+4. **Rechtsgebiet wählen** (4 Zeilen): Zivilgericht, Strafrecht,
    Rechtsanwalt, Verwaltungsrecht. In den beiden Lernmodi sind
    Rechtsgebiete ohne Karten ausgegraut; im Modus „Karten anlegen“ sind immer
    alle vier wählbar (die Wahl bestimmt nur das Rechtsgebiet der neuen
    Karte).
-4. **Nur in den Lernmodi:** Stufe wählen (1–5, ausgegraut ohne Karten).
-5. Danach beginnt der jeweilige Modus (siehe 5.1–5.3).
+5. **Nur im manuellen Lernmodus:** Stufe wählen (1–5, ausgegraut ohne
+   Karten). Der Automatikmodus überspringt diesen Schritt – er zieht Karten
+   aus allen Stufen des Rechtsgebiets zugleich (Abschnitt 5.1a).
+6. Danach beginnt der jeweilige Modus (siehe 5.1–5.3).
 
 ### 5.1 Karteikarten-Modus
 
 - Oberes Feld zeigt nur die Frage.
 - Unteres Feld ist zunächst ein Platzhalter („Antippen, um die Antwort zu
-  zeigen“). Nach Antippen erscheint die richtige Antwort in derselben
-  Schriftgröße wie die Frage, darunter abgesetzt und kleiner die Erklärung
-  (mit `max-height` und `overflow-y: auto`, damit lange Erklärungen scrollen
-  statt die Seite zu sprengen).
-- Danach erscheinen zwei Schaltflächen: links „Falsch“ (rot), rechts
-  „Richtig“ (grün). Ein Klick löst den Stufenwechsel aus (Abschnitt 4) und
-  zeigt die nächste Karte der Warteschlange.
+  zeigen“). Nach Antippen erscheint die richtige Antwort in derselben, etwas
+  kleineren Schriftgröße wie die Frage (19 px statt vorher 21 px, damit auf
+  schmalen Bildschirmen mehr Platz bleibt), darunter abgesetzt und kleiner
+  die Erklärung. Die Erklärung hat keine eigene Höhenbegrenzung mehr – bei
+  sehr langem Text scrollt einfach die ganze Seite.
+- Die Schaltflächen „Falsch“ (rot, links) und „Richtig“ (grün, rechts) sitzen
+  **fest in der unteren Leiste** (wie der „Weiter“-Button im
+  Frage-Antwort-Modus) und sind ausgegraut, bis die Antwort aufgedeckt wurde.
+  Ein Klick löst den Stufenwechsel aus (Abschnitt 4) und zeigt die nächste
+  Karte.
 - Wurde die Karte von einem Nutzer angelegt (nicht Grundbestand), erscheint
   oben rechts im Fragefeld ein kleiner, unauffälliger Chip mit dem Namen des
   Erstellers.
-- Ist die Warteschlange leer, erscheint ein Hinweis „Stufe abgeschlossen“.
+- Ist die Warteschlange leer (manueller Modus), erscheint ein Hinweis „Stufe
+  abgeschlossen“.
+
+### 5.1a Automatikmodus: verteilte Wiederholung
+
+Der Automatikmodus (wählbar sowohl für Karteikarten als auch für
+Frage-Antwort) zeigt keine feste Liste, sondern zieht bei jeder Karte neu
+gewichtet aus **allen** Karten des gewählten Rechtsgebiets – unabhängig von
+der Stufe. Das ist ein vereinfachter, aber an anerkannten Lernkartei-Systemen
+(z. B. Anki) orientierter Algorithmus: mehrere unabhängige Gewichte werden
+miteinander multipliziert, statt eine einzelne komplizierte Formel zu bauen.
+Implementiert in `js/cards.js` (`pickWeightedCard`).
+
+Drei Gewichtungsfaktoren:
+
+1. **Stufe:** Jede Stufe wiegt nur noch ein Drittel der vorherigen Stufe
+   (Faktor 3 pro Stufe: 81 – 27 – 9 – 3 – 1 für Stufe 1–5). Eine Karte in
+   Stufe 5 hat also nur 1/81 des Gewichts einer Karte in Stufe 1 und kommt
+   dementsprechend selten dran, ohne komplett zu verschwinden.
+2. **Zeit seit der letzten Bearbeitung:** Startet bei einem kleinen
+   Sockelwert (5 % des vollen Gewichts) direkt nach der Bearbeitung, damit
+   eine gerade erst beantwortete Karte nicht sofort wieder auftaucht, und
+   nähert sich mit einer Halbwertszeit von 24 Stunden dem vollen Gewicht an
+   (nach rund 24 Std. ca. 65 %, nach 2–3 Tagen praktisch 100 %). Das ist das
+   in Lernkarteien übliche Modell „je länger her, desto fälliger“.
+3. **Nie bearbeitete Karten** bekommen zusätzlich den dreifachen Bonus, damit
+   neue Karten zügig einmal drankommen, statt lange unten anzustehen.
+
+Die drei Faktoren werden multipliziert; aus den entstehenden Gewichten wird
+per Zufall gezogen (höheres Gewicht = höhere Wahrscheinlichkeit, nicht
+Garantie). Dieselbe Karte wird nie zweimal direkt hintereinander gezogen,
+solange das Rechtsgebiet mehr als eine Karte enthält. Der Automatikmodus hat
+kein festes Ende („Stufe abgeschlossen“ gibt es hier nicht) – er läuft, bis
+über „Modus verlassen“ zurückgegangen wird. Stufenwechsel, Statistik,
+Melden-Funktion und die Motivations-Einblendungen für Agnessa funktionieren
+identisch zum manuellen Modus.
 
 ### 5.2 Frage-Antwort-Modus
 
-- Zeigt Frage und vier gemischte Antwortmöglichkeiten (A–D-Raster), davon
-  eine richtig.
+- Zeigt Frage und darunter die vier Antwortmöglichkeiten **einzeln in voller
+  Breite untereinander** (A–D), davon eine richtig.
 - Klick auf eine Antwort: sofortige Rückmeldung. Die gewählte Antwort wird
   bei richtiger Wahl grün, bei falscher Wahl rot markiert; ist die Wahl
   falsch, wird zusätzlich die richtige Antwort grün hervorgehoben.
-- Darunter klappt die Erklärung aus, danach folgt ein „Weiter“-Button zur
-  nächsten Karte in derselben Warteschlange wie im Karteikarten-Modus.
+- Darunter klappt die Erklärung bildschirmbreit aus (keine eigene
+  Höhenbegrenzung mehr – bei sehr langem Text scrollt die Seite). Der
+  „Weiter“-Button sitzt **fest in der unteren Leiste** und ist ausgegraut,
+  bis eine Antwort gewählt wurde.
 - Auch hier: Ersteller-Chip, falls vorhanden. Stufenwechsel wie in 5.1.
 
 ### 5.3 Karten anlegen

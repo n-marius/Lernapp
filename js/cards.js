@@ -40,6 +40,53 @@ export function countByGebiet(allCards) {
   return counts;
 }
 
+// ---------- Automatikmodus: gewichtete Wiederholung ----------
+//
+// Statt einer festen Stufe zieht der Automatikmodus bei jeder Karte neu aus
+// dem gesamten Rechtsgebiet – gewichtet nach drei Faktoren, die miteinander
+// multipliziert werden (üblicher Ansatz bei Lernkarteien wie Anki: mehrere
+// unabhängige Gewichte kombinieren statt eine einzelne Formel zu erfinden):
+//
+// 1. Stufe: jede Stufe wiegt nur noch ein Drittel der vorherigen (Faktor 3),
+//    sodass Stufe 5 nur 1/81 des Gewichts von Stufe 1 hat – „kaum noch dran“.
+// 2. Zeit seit der letzten Bearbeitung: wächst von einem kleinen Sockelwert
+//    (eine gerade erst beantwortete Karte soll nicht sofort wiederkommen)
+//    über etwa 24 Stunden auf annähernd das volle Gewicht zu (exponentielle
+//    Sättigung – das übliche Modell für „je länger her, desto fälliger").
+// 3. Nie bearbeitete Karten bekommen einen festen Bonus, damit neue Karten
+//    zügig auftauchen, statt lange unten in der Warteschlange zu bleiben.
+const AUTO_STUFE_WEIGHT = { 1: 81, 2: 27, 3: 9, 4: 3, 5: 1 };
+const AUTO_NEVER_SEEN_BONUS = 3;
+const AUTO_RECENCY_FLOOR = 0.05;
+const AUTO_RECENCY_HALFLIFE_HOURS = 24;
+
+function autoCardWeight(card, levelsByCard, now) {
+  const level = levelsByCard.get(cardKey(card));
+  const stufe = level?.stufe ?? 1;
+  const stufeWeight = AUTO_STUFE_WEIGHT[stufe] ?? 1;
+  if (!level?.ts) return stufeWeight * AUTO_NEVER_SEEN_BONUS;
+  const hoursSince = (now - new Date(level.ts).getTime()) / 3_600_000;
+  const recency = AUTO_RECENCY_FLOOR + (1 - AUTO_RECENCY_FLOOR) * (1 - Math.exp(-hoursSince / AUTO_RECENCY_HALFLIFE_HOURS));
+  return stufeWeight * recency;
+}
+
+// Zieht eine Karte gewichtet zufällig aus `pool`. `excludeKey` (die zuletzt
+// gezogene Karte) wird ausgeschlossen, solange noch andere Karten übrig sind,
+// damit dieselbe Karte nicht zweimal hintereinander erscheint.
+export function pickWeightedCard(pool, levelsByCard, excludeKey) {
+  const candidates = pool.length > 1 ? pool.filter((c) => cardKey(c) !== excludeKey) : pool;
+  const now = Date.now();
+  const weights = candidates.map((c) => autoCardWeight(c, levelsByCard, now));
+  const total = weights.reduce((a, b) => a + b, 0);
+  if (total <= 0) return candidates[Math.floor(Math.random() * candidates.length)];
+  let r = Math.random() * total;
+  for (let i = 0; i < candidates.length; i++) {
+    r -= weights[i];
+    if (r <= 0) return candidates[i];
+  }
+  return candidates[candidates.length - 1];
+}
+
 function creatorChip(card) {
   if (!card.creator) return "";
   const name = card.creator === "marius" ? "Marius" : "Agnessa";

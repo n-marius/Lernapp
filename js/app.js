@@ -1,6 +1,6 @@
 // Routing und Bildschirme. Vorbild: ukr-app js/app.js (gleicher Rahmen aus
 // Kopfleiste/Seite/Dock, gleiche Hilfsfunktionen für Dialog und Hinweis).
-import { renderFlashcard, buildQueue, countByStufe, countByGebiet } from "./cards.js";
+import { renderFlashcard, buildQueue, countByStufe, countByGebiet, pickWeightedCard } from "./cards.js";
 import { renderQuizCard } from "./quiz.js";
 import { renderStats, countToday } from "./stats.js";
 import {
@@ -60,6 +60,8 @@ const ICON = {
   plus: svg(`<path d="M12 5v14M5 12h14"/>`),
   exit: svg(`<path d="M9 4H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h3M14 16l4-4-4-4M18 12H8"/>`),
   flag: svg(`<path d="M6 21V4"/><path d="M6 4.5c1.4-1 3-1 4.5 0s3.1 1 4.5 0v9c-1.4 1-3 1-4.5 0s-3.1-1-4.5 0"/>`),
+  hand: svg(`<path d="M6 4h6M6 8h9M6 12h7"/><circle cx="18" cy="16" r="1" fill="currentColor" stroke="none"/><circle cx="18" cy="16" r="4"/>`),
+  auto: svg(`<path d="M12 4v3M12 17v3M4 12h3M17 12h3"/><circle cx="12" cy="12" r="4.5"/>`),
 };
 
 const root = document.getElementById("app");
@@ -195,13 +197,47 @@ async function showModes() {
 
   on("#to-stats", "click", showStats);
   on("#to-settings", "click", showSettings);
-  on("#mode-cards", "click", () => showGebietPick("cards"));
-  on("#mode-quiz", "click", () => showGebietPick("quiz"));
+  on("#mode-cards", "click", () => showAutoManualPick("cards"));
+  on("#mode-quiz", "click", () => showAutoManualPick("quiz"));
   on("#mode-create", "click", () => showGebietPick("create"));
   on("#mode-flags", "click", () => showFlagReview());
 }
 
+// ---------- Manuell oder Automatisch ----------
+
+async function showAutoManualPick(mode) {
+  render("auto-manual", {
+    left: backButton(),
+    body: `
+      <header class="page-head">
+        <p class="kicker">${modeLabel(mode)}</p>
+        <h1 class="page-title">Wie möchtest du üben?</h1>
+      </header>
+      <div class="modes">
+        <button class="mode" id="pick-manuell">
+          <span class="mode-icon">${ICON.hand}</span>
+          ${ICON.arrow}
+          <span class="mode-title">Manuell</span>
+          <span class="mode-text">Rechtsgebiet und Stufe selbst wählen</span>
+        </button>
+        <button class="mode" id="pick-automatisch">
+          <span class="mode-icon">${ICON.auto}</span>
+          ${ICON.arrow}
+          <span class="mode-title">Automatisch</span>
+          <span class="mode-text">Karten eines Rechtsgebiets in sinnvoller Reihenfolge</span>
+        </button>
+      </div>`,
+  });
+
+  on("#back", "click", showModes);
+  on("#pick-manuell", "click", () => showGebietPick(mode));
+  on("#pick-automatisch", "click", () => showGebietPick(`${mode}-auto`));
+}
+
 // ---------- Rechtsgebiet ----------
+
+function isAutoMode(mode) { return mode.endsWith("-auto"); }
+function baseMode(mode) { return mode.replace("-auto", ""); }
 
 async function showGebietPick(mode) {
   const cards = await allCards();
@@ -225,16 +261,17 @@ async function showGebietPick(mode) {
     left: backButton(),
     body: `
       <header class="page-head">
-        <p class="kicker">${modeLabel(mode)}</p>
+        <p class="kicker">${modeLabel(mode)}${isAutoMode(mode) ? " · Automatisch" : ""}</p>
         <h1 class="page-title">${title}</h1>
       </header>
       <div class="group">${rows}</div>`,
   });
 
-  on("#back", "click", showModes);
+  on("#back", "click", () => (mode === "create" ? showModes() : showAutoManualPick(baseMode(mode))));
   root.querySelectorAll("[data-gebiet]:not(:disabled)").forEach((b) =>
     b.addEventListener("click", () => {
       if (mode === "create") showCreate(b.dataset.gebiet);
+      else if (isAutoMode(mode)) showAutoMode(baseMode(mode), b.dataset.gebiet);
       else showStufePick(mode, b.dataset.gebiet);
     })
   );
@@ -541,6 +578,110 @@ async function showQuizMode(gebiet, stufe) {
     i++;
     if (result.flagged) { step(); return; }
     await answerCard("quiz", card, result.correct);
+    step();
+  }
+  step();
+}
+
+// ---------- Automatikmodus (Karteikarten oder Frage-Antwort) ----------
+//
+// Anders als die manuelle Stufenwahl zieht diese Funktion die Karten laufend
+// gewichtet aus dem gesamten Rechtsgebiet (siehe cards.js pickWeightedCard)
+// und hat kein festes Ende – der Durchgang läuft, bis über „Modus verlassen"
+// zurückgegangen wird.
+async function showAutoMode(mode, gebiet) {
+  sessionStreak = 0;
+  await sync();
+
+  const cards = await allCards();
+  const pool = cards.filter((c) => c.gebiet === gebiet);
+
+  render(`${mode}-auto`, {
+    left: backButton("Modus verlassen"),
+    right: `<button class="icon-btn" id="flag-btn" aria-label="Karte melden">${ICON.flag}</button><span class="bar-crumb"><b>Automatisch</b> · ${GEBIET_NAMEN[gebiet]}</span>`,
+    body: `<div id="stage"></div>`,
+    dock:
+      mode === "cards"
+        ? `
+      <div class="dock-status"><span class="dock-text" id="progress"></span></div>
+      <div class="dock-actions">
+        <button type="button" class="btn btn-wrong btn-auto" id="wrong" disabled>Falsch</button>
+        <button type="button" class="btn btn-correct btn-auto" id="richtig" disabled>Richtig</button>
+      </div>`
+        : `
+      <div class="dock-status"><span class="dock-text" id="progress"></span></div>
+      <button class="btn btn-primary btn-auto" id="next" disabled>Weiter</button>`,
+  });
+
+  on("#back", "click", async () => { await sync(); showGebietPick(`${mode}-auto`); });
+
+  let answered = 0;
+  let currentCard = null;
+  let lastKey = null;
+  let skipCurrent = null;
+  const stage = $("#stage");
+  const progress = $("#progress");
+
+  on("#flag-btn", "click", () => {
+    if (!currentCard) return;
+    flagDialog(currentCard).then((flagged) => { if (flagged) skipCurrent?.(); });
+  });
+
+  async function step() {
+    if (pool.length === 0) {
+      currentCard = null;
+      stage.innerHTML = `
+        <div class="empty">
+          <p class="empty-title">Keine Karten verfügbar</p>
+          <p class="empty-sub">In diesem Rechtsgebiet gibt es aktuell keine Karten.</p>
+        </div>`;
+      progress.textContent = `${answered} bearbeitet`;
+      return;
+    }
+    progress.textContent = `${answered} bearbeitet`;
+    const levels = await levelsMap(currentUser);
+    const card = pickWeightedCard(pool, levels, lastKey);
+    currentCard = card;
+    lastKey = cardKey(card);
+
+    let result;
+    if (mode === "cards") {
+      const wrongBtn = $("#wrong");
+      const richtigBtn = $("#richtig");
+      wrongBtn.disabled = true;
+      richtigBtn.disabled = true;
+      renderFlashcard(stage, card, {
+        onRevealed: () => { wrongBtn.disabled = false; richtigBtn.disabled = false; },
+      });
+      result = await new Promise((resolve) => {
+        skipCurrent = () => resolve({ flagged: true });
+        wrongBtn.onclick = () => { if (!wrongBtn.disabled) resolve({ correct: false }); };
+        richtigBtn.onclick = () => { if (!richtigBtn.disabled) resolve({ correct: true }); };
+      });
+      wrongBtn.onclick = null;
+      richtigBtn.onclick = null;
+    } else {
+      const nextBtn = $("#next");
+      nextBtn.disabled = true;
+      let outcome = null;
+      renderQuizCard(stage, card, {
+        onAnswered: (correct) => { outcome = { correct }; nextBtn.disabled = false; },
+      });
+      result = await new Promise((resolve) => {
+        skipCurrent = () => resolve({ flagged: true });
+        nextBtn.onclick = () => { if (outcome) resolve(outcome); };
+      });
+      nextBtn.onclick = null;
+    }
+    skipCurrent = null;
+    if (result.flagged) {
+      const idx = pool.findIndex((c) => cardKey(c) === lastKey);
+      if (idx >= 0) pool.splice(idx, 1);
+      step();
+      return;
+    }
+    answered++;
+    await answerCard(mode, card, result.correct);
     step();
   }
   step();

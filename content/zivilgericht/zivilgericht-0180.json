@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0180",
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Wer trägt die Beweislast für Mängel des Werks vor bzw. nach der Abnahme?",
+  "antworten": [
+    "Vor Abnahme: Unternehmer; nach Abnahme: Besteller",
+    "Vor und nach Abnahme: stets der Besteller",
+    "Vor und nach Abnahme: stets der Unternehmer",
+    "Vor Abnahme: niemand (Schätzung); danach: Unternehmer"
+  ],
+  "erklaerung": "Vor der Abnahme trägt der Werkunternehmer die Darlegungs- und Beweislast für die Mangelfreiheit; Beweisfrage: „Ist bewiesen, dass die Klägerin die Terrasse nicht so errichtet hat, dass das Niederschlagswasser zu dem Gebäude hinfließt?“\n\nNach der Abnahme trägt der Besteller die Beweislast für die mangelbegründenden Umstände; Beweisfrage: „Ist bewiesen, dass die Klägerin das Gefälle so errichtet hat, dass das Niederschlagswasser zu dem Gebäude hinfließt?“",
+  "ts": "2026-09-28T15:24:06.693435Z"
+}

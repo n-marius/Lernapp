@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0194",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wann können einer Partei trotz teilweisen Obsiegens des Gegners die gesamten Kosten auferlegt werden?",
+  "antworten": [
+    "Bei geringer Zuvielforderung ohne Mehrkosten oder ermessensabhängigem Betrag",
+    "Wenn der Gegner mit deutlich mehr als der Hälfte des Streitwerts obsiegt",
+    "Wenn die Zuvielforderung vorsätzlich überhöht geltend gemacht wurde",
+    "Wenn beide Parteien übereinstimmend eine volle Kostenlast beantragen"
+  ],
+  "erklaerung": "Grundsatz: Kosten nach dem Maß des Unterliegens (§§ 91, 92 Abs. 1 ZPO; Aufhebung, Halbierung, Quote).\n\nNach § 92 Abs. 2 ZPO kann einer Partei die Gesamtkosten auferlegt werden, wenn die Zuvielforderung des Gegners verhältnismäßig geringfügig war (bis 10 %) und keine oder nur geringfügig höhere Kosten verursacht hat (Gebührensprung?) oder wenn der Betrag von richterlichem Ermessen (z. B. Schmerzensgeld, § 287 ZPO), der Ermittlung durch Sachverständige oder gegenseitiger Berechnung abhing.",
+  "ts": "2026-09-28T15:24:06.694341Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0201",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wie wird eine betragsmäßige Sicherheit nach § 709 S. 1 ZPO bemessen?",
+  "antworten": [
+    "Hauptforderung, Nebenforderungen, Kostenerstattung, zuzüglich 10–20 %",
+    "Hauptforderung zuzüglich pauschal 10 % ohne Nebenforderungen",
+    "Hauptforderung abzüglich bereits gezahlter Beträge und Kosten",
+    "Gebührenstreitwert zuzüglich der verauslagten Gerichtskosten"
+  ],
+  "erklaerung": "Höhe und Art bestimmt das Gericht nach freiem Ermessen (§ 108 Abs. 1 ZPO; Bankbürgschaft oder Hinterlegung), bemessen am möglichen Vollstreckungsschaden des Schuldners (§ 717 Abs. 2 ZPO).\n\nAusgangspunkt ist die Hauptforderung; hinzu kommen alle vorläufig vollstreckbaren Nebenforderungen (Zinsen, vorgerichtliche Kosten) und der Kostenerstattungsanspruch; der Betrag wird für weitere Vollstreckungsschäden um 10–20 % erhöht.",
+  "ts": "2026-09-28T15:24:06.694924Z"
+}

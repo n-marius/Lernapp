@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0175",
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Welche Funktion hat das Ergebnis der Beklagtenstation für die Beweisstation?",
+  "antworten": [
+    "Es gibt die zu bildenden Beweisfragen vor",
+    "Es legt die Beweislastverteilung abschließend fest",
+    "Es bestimmt die zulässigen Beweismittel",
+    "Keine; die Beweisstation prüft alle streitigen Tatsachen"
+  ],
+  "erklaerung": "Das Ergebnis der Beklagtenstation gibt das Prüfungsprogramm der Beweisstation vor. Die empfohlene Formulierung zeigt zugleich, wer was zu beweisen hat.\n\nBeispiele: „Das Bestreiten der Behauptung des Klägers, der Beklagte habe erklärt, das Buch für 50 € kaufen zu wollen, ist erheblich“ → „Ist bewiesen, dass der Beklagte erklärte …?“ – „Die Behauptung des Beklagten, er habe sich nur gewehrt, ist erheblich“ → „Ist bewiesen, dass sich der Beklagte nur gewehrt hat …?“",
+  "ts": "2026-09-28T15:24:06.693084Z"
+}

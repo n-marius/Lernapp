@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0179",
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Wer trägt die Beweislast, wenn die Schadensursache allein im Gefahrenbereich des Verkehrssicherungspflichtigen liegt?",
+  "antworten": [
+    "Der Verkehrssicherungspflichtige für die Schutzmaßnahmen",
+    "Der Geschädigte für den konkreten Unfallhergang",
+    "Beide Parteien je zur Hälfte nach Billigkeit",
+    "Der Geschädigte, erleichtert durch den Anscheinsbeweis"
+  ],
+  "erklaerung": "Liegt die in Betracht kommende Ursache allein im Gefahrenbereich des Verkehrssicherungspflichtigen, muss er beweisen, dass er (bzw. seine Organe und besonderen Vertreter, § 31 BGB) die erforderlichen Organisations- und Überwachungsmaßnahmen getroffen hat und seine Erfüllungsgehilfen die erforderliche Sorgfalt beobachtet haben (BGH NJW-RR 2023, 95).\n\nBeispiel: Kundin rutscht im Einrichtungshaus auf einer Weintraube aus; sie muss den Grund des Sturzes nicht beweisen.",
+  "ts": "2026-09-28T15:24:06.693357Z"
+}

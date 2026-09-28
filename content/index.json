@@ -1,6 +1,6 @@
 {
-  "version": 7,
-  "contentHash": "358a50907928f040",
+  "version": 8,
+  "contentHash": "bf781cd3dc20ad35",
   "cards": [
     {
       "id": "zivilgericht-0004",
@@ -1243,7 +1243,7 @@
         "Wahrnehmung, Erinnerung, Wiedergabe, Aussagebereitschaft",
         "Glaubhaftigkeit, Glaubwürdigkeit, innere Beweiskraft, Baseline"
       ],
-      "erklaerung": "Bei der Würdigung ist die Aussage zunächst anhand von Realitätskriterien auf ihren Wahrheitsgehalt zu überprüfen. Realitätskennzeichen sind allgemeine Merkmale, spezielle Inhalte, motivationsbezogene Inhalte sowie bei Wiederholung der Aussage deren Erweiterung und Ergänzung.\n\nStrukturbruch, inhaltliche Warnsignale und Warnsignale im Aussageverhalten sind dagegen Warnsignale.",
+      "erklaerung": "Bei der Würdigung ist die Aussage zunächst anhand von Realitätskriterien auf ihren Wahrheitsgehalt zu überprüfen. Realitätskennzeichen sind allgemeine Merkmale, spezielle Inhalte, motivationsbezogene Inhalte sowie bei Wiederholung der Aussage deren Erweiterung und Ergänzung.\n\nStrukturbruch, inhaltliche Warnsignale und Warnsignale im Aussageverhalten sind dagegen Warnsignale.\n\nWeitere positive Realkennzeichen (ÜE 6): sprunghafte, detailreiche Erzählung, typische Erinnerungslücken und später einfallende Erinnerungsfetzen, Schilderung eigener Emotionen und Zweifel, Selbstbelastung, unbewusste Reflexe (z. B. Griff ins Gesicht bei geschildertem Schlag), wörtliche Zitate und direkte Rede.",
       "creator": null,
       "ts": "2026-09-28T11:02:50.395Z"
     },
@@ -1558,7 +1558,7 @@
         "Ungeordnete Erzählweise, Komplikationen, Nebendetails",
         "Detailreichtum, Widerspruchsfreiheit, raum-zeitliche Bezüge"
       ],
-      "erklaerung": "Warnsignale im Aussageverhalten sind übertriebene Bestimmtheit, das Fluchtsymptom (Ausweichen) und die verdächtige Verteidigung (Entrüstung, Vorwegverteidigung).",
+      "erklaerung": "Warnsignale im Aussageverhalten sind übertriebene Bestimmtheit, das Fluchtsymptom (Ausweichen) und die verdächtige Verteidigung (Entrüstung, Vorwegverteidigung).\n\nWeitere negative Realkennzeichen (ÜE 6): abgesprochen wirkende Aussage (Übereinstimmung im Kern, Widersprüche am Rand), Abweichungen zwischen verschiedenen Vernehmungen, einstudierte, lineare Erzählweise, Bruch im Aussageverhalten, Selbstwiderspruch oder Widerspruch zum Vortrag der benennenden Partei, Beteuerung der Wahrheit, Entkräften des Gegenvortrags statt eigener Angaben, Gegenfragen, eigenes Interesse am Ausgang.",
       "creator": null,
       "ts": "2026-09-28T11:02:50.395Z"
     },
@@ -2476,6 +2476,711 @@
       "erklaerung": "Das Gericht darf die Zustellung (§ 271 ZPO) grds. nicht davon abhängig machen, ob die Prozessvoraussetzungen vorliegen oder die Klage begründet ist. Es prüft nur, ob der Vorschuss nach § 12 Abs. 1 GKG erbracht ist und formelle Mindestvoraussetzungen erfüllt sind, die eine Zustellung erst ermöglichen (BeckOK ZPO/Bacher, § 271 Rn. 4).\n\nBei offensichtlichen formellen Fehlern (z. B. Klage vor offensichtlich unzuständigem Gericht) fragt das Gericht beim Kläger nach und gibt Gelegenheit zur Beseitigung.",
       "creator": null,
       "ts": "2026-09-28T14:29:02.484546Z"
+    },
+    {
+      "id": "zivilgericht-0169",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Wann ist eine Abwendungsbefugnis nach § 711 ZPO auszusprechen?",
+      "antworten": [
+        "Von Amts wegen in den Fällen des § 708 Nr. 4–11 ZPO",
+        "Von Amts wegen in allen Fällen des § 708 ZPO",
+        "Nur auf Antrag des Vollstreckungsschuldners nach § 712 ZPO",
+        "In den Fällen des § 709 S. 1 und 2 ZPO"
+      ],
+      "erklaerung": "In den Fällen des § 708 Nr. 4–11 ZPO ist von Amts wegen eine Abwendungsbefugnis zugunsten des Schuldners vorzusehen (Ausnahme: § 713 ZPO); bei § 708 Nr. 1–3 ZPO nicht. Nach § 711 S. 2 ZPO gilt § 709 S. 2 ZPO entsprechend; der Schuldner muss den gesamten vollstreckbaren Betrag absichern (110–120 %), der Gläubiger kann teilvollstrecken.\n\nFormulierung: „Das Urteil ist vorläufig vollstreckbar. Der Kläger darf die Vollstreckung durch Sicherheitsleistung in Höhe von 110 % des aufgrund des Urteils vollstreckbaren Betrages abwenden, wenn nicht der Beklagte vor der Vollstreckung Sicherheit in Höhe von 110 % des jeweils zu vollstreckenden Betrages leistet.“",
+      "creator": null,
+      "ts": "2026-09-28T15:24:06.692632Z"
+    },
+    {
+      "id": "zivilgericht-0170",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wie ist ein Antrag „Zahlung von 1.000 € abzüglich am … gezahlter 500 €“ auszulegen?",
+      "antworten": [
+        "Als Teilrücknahme oder teilweise Erledigungserklärung",
+        "Als Anerkenntnis einer Teilerfüllung durch den Kläger",
+        "Als unzulässig bedingter Zahlungsantrag",
+        "Als Zug-um-Zug-Antrag in Höhe der Zahlung"
+      ],
+      "erklaerung": "Ein solcher Antrag ist als Teilrücknahme oder teilweise Erledigungserklärung bzw. als Antrag auf Feststellung der Erledigung auszulegen.",
+      "creator": null,
+      "ts": "2026-09-28T15:24:06.692735Z"
+    },
+    {
+      "id": "zivilgericht-0171",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Nach welchem Maßstab werden Prozessanträge ausgelegt?",
+      "antworten": [
+        "Nach dem vernünftigen, interessengerechten Willen des Klägers",
+        "Streng nach dem Wortlaut, ohne Rückgriff auf den Willen",
+        "Nach der für den Beklagten günstigsten Lesart des Antrags",
+        "Nach der Rechtsauffassung des Gerichts, ohne Antragsbindung"
+      ],
+      "erklaerung": "Auslegung entsprechend § 133 BGB durch Ermittlung des wirklichen Willens in den Grenzen des § 308 Abs. 1 ZPO. Im Zweifel ist gewollt, was nach den Maßstäben der Rechtsordnung vernünftig ist, der recht verstandenen Interessenlage entspricht und zur Durchsetzung des Anspruchs sinnvoll ist (BGH NZM 2003, 372). Ausgangspunkt sind die in der letzten mündlichen Verhandlung gestellten Anträge.\n\nBeispiele: „Das finde ich nicht gut, der Anspruch besteht nicht!“ gegen ein Versäumnisurteil ist Einspruch; „Anerkennung“ des Eigentums ist Antrag auf Feststellung; ein unbestimmter Leistungsantrag ist Antrag auf Feststellung der Leistungspflicht.",
+      "creator": null,
+      "ts": "2026-09-28T15:24:06.692801Z"
+    },
+    {
+      "id": "zivilgericht-0172",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Wie ist ein neben der Kaufpreisklage gestellter Antrag auf Feststellung der Vertragswirksamkeit regelmäßig auszulegen?",
+      "antworten": [
+        "Ohne selbständige Bedeutung, sofern keine Zwischenfeststellungsklage",
+        "Als eigenständige Feststellungsklage mit eigener Rechtskraftwirkung",
+        "Als unzulässig, da Feststellungsinteresse neben Leistungsklage fehlt",
+        "Als Hilfsantrag für den Fall der Abweisung der Zahlungsklage"
+      ],
+      "erklaerung": "Begehrt der Kläger Feststellung der Wirksamkeit des Kaufvertrags und Zahlung des Kaufpreises, ist der Feststellungsantrag dahin auszulegen, dass er keine selbständige Bedeutung haben soll; zu beachten ist aber § 256 Abs. 2 ZPO (Zwischenfeststellungsklage).\n\nBei einer dem Wortlaut nach unzulässigen alternativen Klagehäufung kann die Auslegung ergeben, dass ein Eventualverhältnis gewollt ist.",
+      "creator": null,
+      "ts": "2026-09-28T15:24:06.692902Z"
+    },
+    {
+      "id": "zivilgericht-0173",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wie ist ein Antrag auf Zahlung „nebst Zinsen“ ohne weitere Angaben auszulegen?",
+      "antworten": [
+        "Als Antrag auf Prozesszinsen ab Rechtshängigkeit",
+        "Als Antrag auf Verzugszinsen ab Fälligkeit",
+        "Als unbestimmter und daher unzulässiger Antrag",
+        "Als Antrag auf Zinsen ab Klageeinreichung"
+      ],
+      "erklaerung": "Beantragt der Kläger Zahlung „nebst Zinsen“, ist dies als Antrag auf Prozesszinsen ab Rechtshängigkeit nach §§ 291, 288 BGB auszulegen.",
+      "creator": null,
+      "ts": "2026-09-28T15:24:06.692967Z"
+    },
+    {
+      "id": "zivilgericht-0174",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wann ist eine Auslegungsstation zu bilden und wo steht sie?",
+      "antworten": [
+        "Bei auslegungsbedürftigem Antrag; hinter dem Entscheidungsvorschlag",
+        "Stets; als erste Station noch vor dem Entscheidungsvorschlag",
+        "Bei jedem Antrag; unmittelbar im Anschluss an die Prozessstation",
+        "Nur bei Klageänderung; als Unterpunkt innerhalb der Klägerstation"
+      ],
+      "erklaerung": "Eine Auslegungsstation ist nur erforderlich, wenn unklar ist, welchen Antrag der Kläger stellen will; die Anträge sind Gegenstand der weiteren Prüfung. Sie gehört an den Beginn des Gutachtens gleich hinter den Entscheidungsvorschlag.\n\nIm Urteil gehören Ausführungen zur Auslegung in die Entscheidungsgründe hinter die Darstellung des Gesamtergebnisses. Im Tatbestand ist der Wortlaut der auszulegenden Anträge in der Originalfassung wiederzugeben.",
+      "creator": null,
+      "ts": "2026-09-28T15:24:06.693024Z"
+    },
+    {
+      "id": "zivilgericht-0175",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Welche Funktion hat das Ergebnis der Beklagtenstation für die Beweisstation?",
+      "antworten": [
+        "Es gibt die zu bildenden Beweisfragen vor",
+        "Es legt die Beweislastverteilung abschließend fest",
+        "Es bestimmt die zulässigen Beweismittel",
+        "Keine; die Beweisstation prüft alle streitigen Tatsachen"
+      ],
+      "erklaerung": "Das Ergebnis der Beklagtenstation gibt das Prüfungsprogramm der Beweisstation vor. Die empfohlene Formulierung zeigt zugleich, wer was zu beweisen hat.\n\nBeispiele: „Das Bestreiten der Behauptung des Klägers, der Beklagte habe erklärt, das Buch für 50 € kaufen zu wollen, ist erheblich“ → „Ist bewiesen, dass der Beklagte erklärte …?“ – „Die Behauptung des Beklagten, er habe sich nur gewehrt, ist erheblich“ → „Ist bewiesen, dass sich der Beklagte nur gewehrt hat …?“",
+      "creator": null,
+      "ts": "2026-09-28T15:24:06.693084Z"
+    },
+    {
+      "id": "zivilgericht-0176",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Was wird in der Beklagtenstation grundsätzlich geprüft?",
+      "antworten": [
+        "Streitiges punktuell; Einreden i. S. d. ZPO vollständig",
+        "Stets ein vollständiges zweites Gutachten zu allen Normen",
+        "Alle Anspruchsgrundlagen erneut in voller Breite",
+        "Nur Einreden i. S. d. ZPO, nicht das bloße Bestreiten"
+      ],
+      "erklaerung": "Grds. werden nur die streitigen Tatsachen des Beklagten auf ihre Auswirkung auf den Klaganspruch geprüft (punktuelle Prüfung). Ausnahme: ein vollständiges zweites Gutachten, wenn es aus Verständnisgründen nötig ist (z. B. Verkehrsunfall). Bei Einreden i. S. d. ZPO sind alle einredebegründenden Tatsachen zu erörtern („Zu prüfen ist, ob dem Anspruch aus § X die Einrede des § 214 BGB entgegensteht.“).\n\nBei mehreren streitigen Tatsachen und Anspruchsgrundlagen kann nach Tatsachen oder nach Anspruchsgrundlagen gegliedert werden; am Ende steht die Gesamterheblichkeit.",
+      "creator": null,
+      "ts": "2026-09-28T15:24:06.693141Z"
+    },
+    {
+      "id": "zivilgericht-0177",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wie werden einfaches und qualifiziertes Bestreiten im Tatbestand dargestellt?",
+      "antworten": [
+        "Einfaches gar nicht; qualifiziertes im str. Beklagtenvortrag",
+        "Beide ausdrücklich im streitigen Beklagtenvortrag",
+        "Einfaches mit „bestreitet“; qualifiziertes im Unstreitigen",
+        "Beide nur in der Prozessgeschichte vor den Anträgen"
+      ],
+      "erklaerung": "Einfaches Bestreiten wird nicht erwähnt; es ergibt sich aus der Stellung der Tatsache im streitigen Klägervorbringen.\n\nQualifiziertes Bestreiten (Gegendarstellung) ist im streitigen Beklagtenvorbringen darzustellen („Der Beklagte behauptet, er habe dem Kläger gesagt, …“).",
+      "creator": null,
+      "ts": "2026-09-28T15:24:06.693196Z"
+    },
+    {
+      "id": "zivilgericht-0178",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Wann ist Bestreiten mit Nichtwissen zulässig?",
+      "antworten": [
+        "Keine eigene Handlung/Wahrnehmung und keine eigene Darlegungs- und Beweislast",
+        "Keine eigene Handlung/Wahrnehmung; auf die Beweislast kommt es nicht an",
+        "Stets, wenn sich die Partei nicht sicher an den Vorgang erinnert",
+        "Wenn der Gegner für seine Behauptung keinen Beweis angeboten hat"
+      ],
+      "erklaerung": "Nach § 138 Abs. 4 ZPO ist eine Erklärung mit Nichtwissen über Tatsachen zulässig, die weder eigene Handlungen noch Gegenstand eigener Wahrnehmung gewesen sind. Weitere Voraussetzung ist, dass die Partei für die jeweiligen Tatsachen nicht darlegungs- und beweisbelastet ist.\n\nIst das Bestreiten mit Nichtwissen zulässig, schließt dies die Pflicht zu substantiiertem Bestreiten aus (BGH MDR 2014, 825).",
+      "creator": null,
+      "ts": "2026-09-28T15:24:06.693298Z"
+    },
+    {
+      "id": "zivilgericht-0179",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Wer trägt die Beweislast, wenn die Schadensursache allein im Gefahrenbereich des Verkehrssicherungspflichtigen liegt?",
+      "antworten": [
+        "Der Verkehrssicherungspflichtige für die Schutzmaßnahmen",
+        "Der Geschädigte für den konkreten Unfallhergang",
+        "Beide Parteien je zur Hälfte nach Billigkeit",
+        "Der Geschädigte, erleichtert durch den Anscheinsbeweis"
+      ],
+      "erklaerung": "Liegt die in Betracht kommende Ursache allein im Gefahrenbereich des Verkehrssicherungspflichtigen, muss er beweisen, dass er (bzw. seine Organe und besonderen Vertreter, § 31 BGB) die erforderlichen Organisations- und Überwachungsmaßnahmen getroffen hat und seine Erfüllungsgehilfen die erforderliche Sorgfalt beobachtet haben (BGH NJW-RR 2023, 95).\n\nBeispiel: Kundin rutscht im Einrichtungshaus auf einer Weintraube aus; sie muss den Grund des Sturzes nicht beweisen.",
+      "creator": null,
+      "ts": "2026-09-28T15:24:06.693357Z"
+    },
+    {
+      "id": "zivilgericht-0180",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Wer trägt die Beweislast für Mängel des Werks vor bzw. nach der Abnahme?",
+      "antworten": [
+        "Vor Abnahme: Unternehmer; nach Abnahme: Besteller",
+        "Vor und nach Abnahme: stets der Besteller",
+        "Vor und nach Abnahme: stets der Unternehmer",
+        "Vor Abnahme: niemand (Schätzung); danach: Unternehmer"
+      ],
+      "erklaerung": "Vor der Abnahme trägt der Werkunternehmer die Darlegungs- und Beweislast für die Mangelfreiheit; Beweisfrage: „Ist bewiesen, dass die Klägerin die Terrasse nicht so errichtet hat, dass das Niederschlagswasser zu dem Gebäude hinfließt?“\n\nNach der Abnahme trägt der Besteller die Beweislast für die mangelbegründenden Umstände; Beweisfrage: „Ist bewiesen, dass die Klägerin das Gefälle so errichtet hat, dass das Niederschlagswasser zu dem Gebäude hinfließt?“",
+      "creator": null,
+      "ts": "2026-09-28T15:24:06.693435Z"
+    },
+    {
+      "id": "zivilgericht-0181",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Worüber enthält die ZPO gesetzliche Beweisregeln (§ 286 Abs. 2 ZPO)?",
+      "antworten": [
+        "Beweiskraft von Urkunden, Protokollen und Tatbestand",
+        "Beweiskraft von Zeugenaussagen, Gutachten und Parteivernehmungen",
+        "Vorrang des Urkundenbeweises vor Zeugen- und SV-Beweis",
+        "Mindestzahl übereinstimmender Zeugen für den vollen Beweis"
+      ],
+      "erklaerung": "Gesetzliche Beweisregeln betreffen die Beweiskraft von Urkunden (§§ 415–418, 438 Abs. 2, 175, 183 Abs. 4, 195 Abs. 2 ZPO), elektronischen Dokumenten (§ 371a ZPO) sowie Protokollen und Urteilstatbestand (§§ 165, 314 ZPO).\n\nBestehen solche Regeln, ist das Gericht gebunden (z. B. § 415 ZPO); sonst gilt freie Beweiswürdigung nach § 286 Abs. 1 ZPO.",
+      "creator": null,
+      "ts": "2026-09-28T15:24:06.693498Z"
+    },
+    {
+      "id": "zivilgericht-0182",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Welche Tatsachen sind Gegenstand der Beweisstation?",
+      "antworten": [
+        "Die in der Beklagtenstation als erheblich festgestellten",
+        "Alle zwischen den Parteien streitigen Tatsachen",
+        "Alle Tatsachen, zu denen Beweis angeboten wurde",
+        "Alle anspruchsbegründenden Tatsachen des Klägers"
+      ],
+      "erklaerung": "Streitentscheidend sind nur die in der Zusammenfassung der Beklagtenstation aufgelisteten erheblichen (beweiserheblichen) Tatsachen. Rechtliche Ausführungen zu anspruchsbegründenden Tatsachen und Einreden gehören nicht in die Beweisstation.\n\nGedankliche Prüfung: Welche Tatsachen sind beweiserheblich? Welche beweisbedürftig? Hat die beweisbelastete Partei Beweis angeboten? Ist der Beweis geführt?",
+      "creator": null,
+      "ts": "2026-09-28T15:24:06.693549Z"
+    },
+    {
+      "id": "zivilgericht-0183",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wie wird der Obersatz der Beweisstation gebildet?",
+      "antworten": [
+        "„Ist bewiesen, dass …“, positiv oder negativ je nach Beweislast",
+        "„Ist glaubhaft, dass …“, stets aus Sicht des Klägers",
+        "„Ist streitig, ob …“, neutral ohne Bezug zur Beweislast",
+        "„Ist widerlegt, dass …“, stets aus Sicht des Beklagten"
+      ],
+      "erklaerung": "Einleitungssatz: „Da die rechtserheblichen Behauptungen der Parteien voneinander abweichen, ist zu prüfen, welche Behauptung zur gerichtlichen Überzeugung gem. § 286 ZPO festgestellt werden kann.“ Obersatz: „Ist bewiesen, dass …“; ob er positiv oder negativ gefasst wird, richtet sich nach der Beweislast.\n\nWeiter: ggf. Beweisbedürftigkeit, Beweislast, ordnungsgemäßer Beweisantritt (nicht „Zeugnis N.N.“), Überleitungssatz, Würdigung der Beweismittel in Gesamtschau, Ergebnis je Tatsache und Gesamtergebnis.",
+      "creator": null,
+      "ts": "2026-09-28T15:24:06.693611Z"
+    },
+    {
+      "id": "zivilgericht-0184",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wann ist die Sach- und Rechtslage in Kläger- und Beklagtenstation nicht voll zu prüfen?",
+      "antworten": [
+        "Bei Anerkenntnis, Verzicht, Nebeninterventionswirkung oder bindender Verweisung",
+        "Bei Streitwertfestsetzung, PKH-Bewilligung oder gerichtlichem Hinweis",
+        "Bei Klageänderung, Parteiwechsel oder einfacher Streitgenossenschaft",
+        "Bei Vergleichsvorschlag des Gerichts oder gescheiterter Mediation"
+      ],
+      "erklaerung": "Neben § 308 ZPO kann das Gericht an frühere Entscheidungen oder Parteierklärungen gebunden sein: Nebeninterventionswirkung (§ 68 ZPO, ggf. i. V. m. § 74 ZPO), Vorbehaltsurteil (§ 302 ZPO), vorgegebener Entscheidungsumfang im Berufungsverfahren, Anerkenntnis (§ 307 ZPO), Verzicht (§ 306 ZPO), Rechtswegzuweisung (§ 17a GVG) und Verweisung (§ 281 ZPO), diese auch bei schwerwiegendem Rechtsfehler (§§ 17a Abs. 2 S. 3 GVG, 281 Abs. 2 S. 4 ZPO).\n\nFolge: Beim betreffenden Merkmal ist nur der Umfang der Bindung aufzuzeigen („Davon ist unabhängig von der Rechtslage auszugehen, wenn der Beklagte die Klageforderung wirksam anerkannt hat.“).",
+      "creator": null,
+      "ts": "2026-09-28T15:24:06.693678Z"
+    },
+    {
+      "id": "zivilgericht-0185",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Was muss der Kläger zur Anspruchsentstehung darlegen?",
+      "antworten": [
+        "Entstehungstatbestand einschließlich negativer Tatsachen",
+        "Entstehung und Fortbestand samt Fehlen von Einwendungen",
+        "Nur positive Tatsachen; negative widerlegt der Beklagte",
+        "Nur die Rechtsfolge; die Tatsachen ermittelt das Gericht"
+      ],
+      "erklaerung": "Jede Partei hat die tatsächlichen Voraussetzungen der ihr günstigen Normen zu behaupten und zu beweisen. Der Kläger trägt alle rechtsbegründenden Tatsachen vor, auch negative (z. B. „ohne rechtlichen Grund“ bei § 812 BGB), aber nur den normalen Entstehungstatbestand; nicht den Fortbestand des Rechts oder das Fehlen besonderer Hinderungsgründe (z. B. keine Anfechtung).\n\nDer Beklagte trägt die Voraussetzungen von Einwendungen (z. B. Erfüllung, Verwirkung) und Einreden (z. B. Verjährung, Zurückbehaltungsrecht) vor.",
+      "creator": null,
+      "ts": "2026-09-28T15:24:06.693799Z"
+    },
+    {
+      "id": "zivilgericht-0186",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Wie werden doppelrelevante Tatsachen in der Prozessstation behandelt?",
+      "antworten": [
+        "Schlüssiger Vortrag genügt; Prüfung in der Begründetheit",
+        "Beweiserhebung über sie bereits in der Prozessstation",
+        "Unterstellung des Beklagtenvortrags bis zur Beweisaufnahme",
+        "Vorabklärung im Freibeweis vor der Begründetheit"
+      ],
+      "erklaerung": "Qualifizierte Prozessvoraussetzungen liegen vor, wenn es zur Feststellung einer Sachurteilsvoraussetzung eines Eingehens auf eine Anspruchsgrundlage bedarf. Doppelrelevante Tatsachen werden in der Zulässigkeit unterstellt (schlüssiger Vortrag genügt) und erst in der Begründetheit geprüft, wegen der weitergehenden Rechtskraft einer Sachentscheidung.\n\nBeispiel: Schadensersatzklage aus Verkehrsunfall im Gerichtsstand des § 32 ZPO, der Beklagte bestreitet den Unfall. In der Prozessstation ist zu prüfen, ob eine Haftung dem Grunde nach (z. B. § 823 BGB) schlüssig vorgetragen ist; die Höhe wird in der Klägerstation erörtert.",
+      "creator": null,
+      "ts": "2026-09-28T15:24:06.693858Z"
+    },
+    {
+      "id": "zivilgericht-0187",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Was besagt der Grundsatz der Einheit der Kostenentscheidung?",
+      "antworten": [
+        "Einheitliche Entscheidung über alle Kosten des Rechtsstreits",
+        "Kosten folgen stets vollständig der Hauptsache ohne Quotelung",
+        "Gerichts- und Anwaltskosten werden in einem Beschluss festgesetzt",
+        "Über die Kosten wird je Instanz nur einmal auf Antrag entschieden"
+      ],
+      "erklaerung": "Es wird grds. einheitlich über alle Kosten des Rechtsstreits entschieden. Folge kann eine gemischte Kostenentscheidung sein, z. B. bei übereinstimmender Teilerledigung (§ 91a ZPO) oder Teilklagerücknahme (§ 269 ZPO).\n\nAusnahmen (Kostentrennung): § 96 ZPO (erfolglose Angriffs- und Verteidigungsmittel), § 100 Abs. 3 ZPO, § 238 Abs. 4 ZPO (Wiedereinsetzung), § 281 Abs. 3 S. 2 ZPO (Verweisung), § 344 ZPO (Säumnis).",
+      "creator": null,
+      "ts": "2026-09-28T15:24:06.693913Z"
+    },
+    {
+      "id": "zivilgericht-0188",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Was ist in der Beklagtenstation neben dem Bestreiten zu prüfen?",
+      "antworten": [
+        "Einreden i. S. d. ZPO: alle Tatsachen, die eine Gegennorm ausfüllen",
+        "Nur materielle Einreden, die der Beklagte ausdrücklich erhebt",
+        "Nur prozesshindernde Einreden wie die Schiedsvereinbarung",
+        "Nur Tatsachen, für die der Kläger beweisbelastet ist"
+      ],
+      "erklaerung": "Die Beklagtenstation umfasst Zulässigkeitsrügen (ggf. schon in der Prozessstation), das Bestreiten (einfach, qualifiziert, mit Nichtwissen) und das Vorbringen einredebegründender Tatsachen.\n\nEinreden im Sinne der ZPO sind alle Tatsachen, die den Tatbestand einer Gegennorm ausfüllen, also rechtshindernde und rechtsvernichtende Einwendungen sowie materielle Einreden, die erhoben werden müssen.",
+      "creator": null,
+      "ts": "2026-09-28T15:24:06.693966Z"
+    },
+    {
+      "id": "zivilgericht-0189",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Wann werden Einwendungen bereits in der Klägerstation geprüft?",
+      "antworten": [
+        "Wenn ihre Tatsachen unstreitig oder vom Kläger vorgetragen sind",
+        "Nur wenn der Kläger für sie ausnahmsweise darlegungsbelastet ist",
+        "Nie; Einwendungen gehören ausnahmslos in die Beklagtenstation",
+        "Wenn der Beklagte sie substantiiert und unter Beweis vorgetragen hat"
+      ],
+      "erklaerung": "Einwendungen werden in der Klägerstation geprüft, wenn die Einwendungstatsachen unstreitig sind, vom Kläger vorgetragen wurden oder teils unstreitig, teils vom Kläger vorgetragen sind. Erstmals in der Beklagtenstation, wenn alle vom Beklagten vorgetragenen Einredetatsachen streitig sind und die unstreitigen Tatsachen offensichtlich nicht ausreichen.\n\nDie Darlegungslast bedeutet nicht, dass der Vortrag nur in der Station der darlegungspflichtigen Partei zu prüfen ist; maßgeblich ist, was vorgetragen und was unstreitig ist.",
+      "creator": null,
+      "ts": "2026-09-28T15:24:06.694049Z"
+    },
+    {
+      "id": "zivilgericht-0190",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Wo liegt nach h. M. der Erfüllungsort (§ 29 ZPO) bei Rückabwicklung eines Kaufvertrags?",
+      "antworten": [
+        "Einheitlich dort, wo sich die Kaufsache vertragsgemäß befindet",
+        "Am Wohnsitz des Verkäufers als Schuldner der Rückzahlung",
+        "Getrennt für jede Rückgewährpflicht am jeweiligen Schuldnerwohnsitz",
+        "Am Ort des ursprünglichen Vertragsschlusses"
+      ],
+      "erklaerung": "Sonderproblem bei § 29 ZPO: Nach h. M. besteht für die Rückabwicklung von Kaufverträgen ein einheitlicher Erfüllungsort an dem Ort, an dem sich die Kaufsache vertragsgemäß befindet (Thomas/Putzo, § 29 Rn. 6; OLG Karlsruhe MDR 2013, 898).",
+      "creator": null,
+      "ts": "2026-09-28T15:24:06.694115Z"
+    },
+    {
+      "id": "zivilgericht-0191",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wann ist das Beklagtenvorbringen insgesamt erheblich?",
+      "antworten": [
+        "Wenn es alle schlüssigen Anspruchsgrundlagen zu Fall bringt",
+        "Wenn es mindestens eine Anspruchsgrundlage zu Fall bringt",
+        "Wenn es substantiiert und unter Beweis gestellt ist",
+        "Wenn es die vorrangige Anspruchsgrundlage zu Fall bringt"
+      ],
+      "erklaerung": "Erheblich ist das Beklagtenvorbringen, wenn es im Ergebnis sämtliche nach dem Klägervortrag erfüllten Anspruchsgrundlagen erschüttert. Zu fragen ist je Tatsache: gegenüber welcher Anspruchsgrundlage, mit welcher Begründung, mit welcher Wirkung? Möglich ist auch nur Teilerheblichkeit.\n\nBeispiele: Bestreitet der Beklagte zu schnelles Fahren, ist das gegenüber § 823 BGB erheblich, gegenüber § 7 StVG (Gefährdungshaftung) unerheblich; die Klage ist so oder so begründet. Minderjährigkeit wirkt gegenüber Vertrag (§ 108 BGB) und Delikt (§ 828 BGB) rechtshindernd; Zahlung wirkt nur gegenüber Zahlungsansprüchen rechtsvernichtend, nicht gegenüber dem Unterlassungsanspruch.",
+      "creator": null,
+      "ts": "2026-09-28T15:24:06.694172Z"
+    },
+    {
+      "id": "zivilgericht-0192",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Wovon hängt ab, ob einfaches Bestreiten genügt?",
+      "antworten": [
+        "Vom Detailgrad des Vortrags der Gegenseite",
+        "Von der Beweislast der bestreitenden Partei",
+        "Von der anwaltlichen Vertretung der bestreitenden Partei",
+        "Vom Streitwert und der Bedeutung der Sache"
+      ],
+      "erklaerung": "Nach § 138 Abs. 2 ZPO muss sich eine Partei über die Behauptungen des Gegners erklären und, wenn dieser seiner Erklärungslast nachgekommen ist, darlegen, von welchem Sachverhalt sie ausgeht. Je detaillierter der Vortrag der darlegungsbelasteten Partei, desto höher die Erklärungslast (BGH MDR 2014, 825).\n\nBeispiel: Behauptet der Mandant, sein Anwalt habe ihn über keinerlei Risiken aufgeklärt, genügt dessen einfaches Bestreiten nicht; der Vortrag gilt als zugestanden (§ 138 Abs. 3 ZPO). Erheblich wird das Bestreiten erst, wenn der Anwalt die wesentlichen Punkte des Beratungsgesprächs darlegt (vgl. BGH NJW 1996, 2571).",
+      "creator": null,
+      "ts": "2026-09-28T15:24:06.694228Z"
+    },
+    {
+      "id": "zivilgericht-0193",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Wann ist ein gegenbeweislich benannter Zeuge zu vernehmen?",
+      "antworten": [
+        "Erst wenn der Hauptbeweis positiv ergiebig ausgefallen ist",
+        "Stets, sobald er ordnungsgemäß benannt ist",
+        "Nur wenn die beweisbelastete Partei keinen Zeugen hat",
+        "Vor dem Hauptbeweiszeugen, um Beeinflussung zu vermeiden"
+      ],
+      "erklaerung": "Der Gegenzeuge ist nur zu hören, wenn die beweisbelastete Partei Beweis angeboten hat und dieser die Behauptung bestätigt (positiv ergiebig). Tipp: Beweislast vor der Beweiswürdigung klären; der Beweis ist schon dann nicht gelungen, wenn die beweisbelastete Partei ihn nicht erbracht hat.\n\nBeispiel Buchkauf (Beklagter behauptet Schenkung): Hat keine Partei Zeugen, ist die Klage mangels Beweises des Kaufvertrags abzuweisen. Hat nur der Beklagte einen Zeugen, wird dieser nicht vernommen. Ist der Zeuge des Klägers unergiebig, bedarf es des Gegenzeugen nicht; die Klage ist abzuweisen.",
+      "creator": null,
+      "ts": "2026-09-28T15:24:06.694283Z"
+    },
+    {
+      "id": "zivilgericht-0194",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wann können einer Partei trotz teilweisen Obsiegens des Gegners die gesamten Kosten auferlegt werden?",
+      "antworten": [
+        "Bei geringer Zuvielforderung ohne Mehrkosten oder ermessensabhängigem Betrag",
+        "Wenn der Gegner mit deutlich mehr als der Hälfte des Streitwerts obsiegt",
+        "Wenn die Zuvielforderung vorsätzlich überhöht geltend gemacht wurde",
+        "Wenn beide Parteien übereinstimmend eine volle Kostenlast beantragen"
+      ],
+      "erklaerung": "Grundsatz: Kosten nach dem Maß des Unterliegens (§§ 91, 92 Abs. 1 ZPO; Aufhebung, Halbierung, Quote).\n\nNach § 92 Abs. 2 ZPO kann einer Partei die Gesamtkosten auferlegt werden, wenn die Zuvielforderung des Gegners verhältnismäßig geringfügig war (bis 10 %) und keine oder nur geringfügig höhere Kosten verursacht hat (Gebührensprung?) oder wenn der Betrag von richterlichem Ermessen (z. B. Schmerzensgeld, § 287 ZPO), der Ermittlung durch Sachverständige oder gegenseitiger Berechnung abhing.",
+      "creator": null,
+      "ts": "2026-09-28T15:24:06.694341Z"
+    },
+    {
+      "id": "zivilgericht-0195",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Was regelt die Kostengrundentscheidung nicht?",
+      "antworten": [
+        "Anwaltsvergütung im Mandat und Kostenschuld gegenüber dem Staat",
+        "Verteilung der Gerichtskosten zwischen den beiden Parteien",
+        "Erstattung der Anwaltskosten der obsiegenden Partei durch den Gegner",
+        "Kostenquote bei teilweisem Obsiegen und Unterliegen der Parteien"
+      ],
+      "erklaerung": "Die Kostenentscheidung ergeht von Amts wegen (§ 308 Abs. 2 ZPO). Sie regelt nicht, welche Vergütung die Partei ihrem Anwalt schuldet (§§ 675, 612 BGB i. V. m. RVG), und nicht die Kostenschuld gegenüber dem Justizfiskus (§ 22 GKG, ggf. §§ 29, 31 GKG).\n\nDie Kostenfestsetzung obliegt dem Rechtspfleger (§ 21 Abs. 1 Nr. 1 RPflG).",
+      "creator": null,
+      "ts": "2026-09-28T15:24:06.694536Z"
+    },
+    {
+      "id": "zivilgericht-0196",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Wie weit reicht die Prüfung der Sachurteilsvoraussetzungen von Amts wegen?",
+      "antworten": [
+        "Prüfung von Amts wegen, keine Amtsermittlung der Tatsachen",
+        "Prüfung nur auf Rüge, dann aber mit Amtsermittlung",
+        "Prüfung und Ermittlung der Tatsachen von Amts wegen",
+        "Prüfung nur auf Rüge der Partei und ohne Amtsermittlung"
+      ],
+      "erklaerung": "Die Sachurteilsvoraussetzungen sind grds. von Amts wegen, also ohne Rüge, zu prüfen (§ 56 Abs. 1 ZPO).\n\nEs gibt aber keine Amtsermittlung der zur Beurteilung erforderlichen Tatsachen; das Gericht muss lediglich auf Bedenken aufmerksam machen (§ 139 Abs. 3 ZPO).",
+      "creator": null,
+      "ts": "2026-09-28T15:24:06.694593Z"
+    },
+    {
+      "id": "zivilgericht-0197",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Welche Anwaltsgebühren fallen im erstinstanzlichen Regelfall an?",
+      "antworten": [
+        "1,3 Verfahrens- und 1,2 Terminsgebühr zzgl. Auslagenpauschale und USt",
+        "1,0 Verfahrens- und 1,0 Terminsgebühr zzgl. Auslagenpauschale und USt",
+        "1,5 Geschäfts- und 1,2 Terminsgebühr zzgl. Auslagenpauschale und USt",
+        "1,3 Verfahrens-, 1,2 Termins- und stets 1,0 Einigungsgebühr zzgl. USt"
+      ],
+      "erklaerung": "Regelfall nach VV RVG: 1,3 Verfahrensgebühr (Nr. 3100), 1,2 Terminsgebühr (Nr. 3104), ggf. 1,0 Einigungsgebühr (Nr. 1000, 1003 f.), ggf. 0,3 Zusatzgebühren (Nr. 1010 umfangreiche Beweisaufnahme; Nr. 1008 mehrere Auftraggeber); Post- und Telekommunikationspauschale 20 % der Gebühren, höchstens 20 € (Nr. 7001, 7002); Umsatzsteuer (Nr. 7008). Die Gebührenhöhe folgt aus Anlage 2 RVG nach dem Gebührenstreitwert.\n\nGerichtskosten: 3,0 Gebühr für das Verfahren im Allgemeinen (KV Nr. 1210 GKG; Stufen in Anlage 2 GKG), die der Kläger als Vorschuss leistet (§ 12 Abs. 1 GKG).",
+      "creator": null,
+      "ts": "2026-09-28T15:24:06.694649Z"
+    },
+    {
+      "id": "zivilgericht-0198",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Wann ist eine Replikstation erforderlich?",
+      "antworten": [
+        "Nur wenn eine Einrede i. S. d. ZPO erstmals in der Beklagtenstation bejaht wurde",
+        "Stets, wenn der Kläger auf die Klageerwiderung schriftsätzlich erwidert",
+        "Wenn das einfache Bestreiten des Beklagten erheblich war",
+        "Wenn der Kläger nach der Klageerwiderung neue Anspruchsgrundlagen nachschiebt"
+      ],
+      "erklaerung": "Die Replik ist eine zweite Schlüssigkeitsprüfung nach der Beklagtenstation; sie ist nur erforderlich, wenn eine Einrede i. S. d. ZPO erstmals in der Beklagtenstation geprüft und bejaht wurde. Die Duplik ist eine erneute Erheblichkeitsprüfung, wenn in der Replik neues Klägervorbringen geprüft wurde, das die Einrede zu Fall bringen würde.\n\nFolgt eine Replik, lautet das Zwischenergebnis der Klägerstation: „Das Vorbringen des Klägers ist im Hinblick auf die anspruchsbegründenden Voraussetzungen schlüssig.“ Folgt eine Duplik: „Das Vorbringen des Beklagten, …, ist im Hinblick auf die einredebegründenden Tatsachen erheblich …“",
+      "creator": null,
+      "ts": "2026-09-28T15:24:06.694719Z"
+    },
+    {
+      "id": "zivilgericht-0199",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wie lässt sich eine Replik vermeiden?",
+      "antworten": [
+        "Einrede bereits in der Klägerstation anhand des Unstreitigen erörtern",
+        "Einrede erst in der Beweisstation zusammen mit dem Beweis prüfen",
+        "Klägervortrag zur Einrede im Tatbestand nicht aufnehmen",
+        "Einrede erst in der Tenorierungsstation berücksichtigen"
+      ],
+      "erklaerung": "Replik und Duplik sollten möglichst vermieden werden, indem die Einrede bereits in der Klägerstation erörtert wird.\n\nBeispiel: Darlehensrückzahlung (§ 488 BGB); Beklagter rechnet auf; Kläger beruft sich auf Erlass der Gegenforderung; Beklagter ficht den Erlass an. In der Klägerstation wird die Aufrechnung geprüft (Erklärung und Gegenforderung unstreitig, Erlass unstreitig, nach Klägervortrag kein Anfechtungsgrund, also Erlass wirksam, Anspruch nicht erloschen). In der Beklagtenstation ist dann nur noch der streitige Anfechtungsgrund auf Erheblichkeit zu prüfen.",
+      "creator": null,
+      "ts": "2026-09-28T15:24:06.694807Z"
+    },
+    {
+      "id": "zivilgericht-0200",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Welcher Tatsachenstoff liegt der Schlüssigkeitsprüfung zugrunde?",
+      "antworten": [
+        "Unstreitiger Vortrag und streitiges Klägervorbringen",
+        "Nur der unstreitige Vortrag beider Parteien",
+        "Klägervortrag und Ergebnis der Beweisaufnahme",
+        "Gesamter streitiger Vortrag beider Parteien"
+      ],
+      "erklaerung": "Schlüssig ist die Klage, wenn der klägerische Tatsachenvortrag, seine Wahrheit unterstellt, den Klageanspruch rechtfertigt (BGH NJW 2007, 62). Geprüft werden tatsächlich der unstreitige Vortrag und das streitige Klägervorbringen, rechtlich alle vernünftigerweise in Betracht kommenden Anspruchsgrundlagen.\n\nBeweisfragen spielen keine Rolle. Unproblematisches kann kurz, ggf. im Urteilsstil, abgehandelt werden; Hilfsvorbringen ist zu beachten (z. B. Vertrag, hilfsweise § 812 BGB).",
+      "creator": null,
+      "ts": "2026-09-28T15:24:06.694867Z"
+    },
+    {
+      "id": "zivilgericht-0201",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wie wird eine betragsmäßige Sicherheit nach § 709 S. 1 ZPO bemessen?",
+      "antworten": [
+        "Hauptforderung, Nebenforderungen, Kostenerstattung, zuzüglich 10–20 %",
+        "Hauptforderung zuzüglich pauschal 10 % ohne Nebenforderungen",
+        "Hauptforderung abzüglich bereits gezahlter Beträge und Kosten",
+        "Gebührenstreitwert zuzüglich der verauslagten Gerichtskosten"
+      ],
+      "erklaerung": "Höhe und Art bestimmt das Gericht nach freiem Ermessen (§ 108 Abs. 1 ZPO; Bankbürgschaft oder Hinterlegung), bemessen am möglichen Vollstreckungsschaden des Schuldners (§ 717 Abs. 2 ZPO).\n\nAusgangspunkt ist die Hauptforderung; hinzu kommen alle vorläufig vollstreckbaren Nebenforderungen (Zinsen, vorgerichtliche Kosten) und der Kostenerstattungsanspruch; der Betrag wird für weitere Vollstreckungsschäden um 10–20 % erhöht.",
+      "creator": null,
+      "ts": "2026-09-28T15:24:06.694924Z"
+    },
+    {
+      "id": "zivilgericht-0202",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Wann kann die Sicherheit prozentual zum jeweils zu vollstreckenden Betrag bestimmt werden?",
+      "antworten": [
+        "Nur soweit wegen einer Geldforderung vollstreckt wird",
+        "Bei allen Leistungsurteilen einschließlich Herausgabe",
+        "Nur bei Hauptsachewerten über 1.250 €",
+        "Nur auf Antrag des Vollstreckungsgläubigers"
+      ],
+      "erklaerung": "Nach § 709 S. 2 ZPO kann die Sicherheit in einem bestimmten Verhältnis zur Höhe des jeweils zu vollstreckenden Betrags angegeben werden; das gilt nur bei Geldforderungen.\n\nFormulierung: „Das Urteil ist gegen Sicherheitsleistung in Höhe von 110 % des jeweils zu vollstreckenden Betrages vorläufig vollstreckbar.“",
+      "creator": null,
+      "ts": "2026-09-28T15:24:06.694979Z"
+    },
+    {
+      "id": "zivilgericht-0203",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Genügt es, den Wortlaut eines Tatbestandsmerkmals vorzutragen, etwa „Die Kaufsache ist mangelhaft“?",
+      "antworten": [
+        "Nein, ein nachvollziehbarer Lebenssachverhalt ist darzulegen",
+        "Ja, wenn der Gegner dies nicht substantiiert bestreitet",
+        "Ja, jedenfalls bei anwaltlich vertretenen Parteien",
+        "Ja, die Konkretisierung erfolgt in der Beweisaufnahme"
+      ],
+      "erklaerung": "Substantiierter Vortrag erfordert einen nachvollziehbaren Lebenssachverhalt. „Der Kaufgegenstand ist mangelhaft“ ist eine Rechtsansicht.\n\nAusreichend wäre z. B.: „Der Motor ist nicht voll leistungsfähig, da die Zylinderkopfdichtung beschädigt ist.“",
+      "creator": null,
+      "ts": "2026-09-28T15:24:06.695033Z"
+    },
+    {
+      "id": "zivilgericht-0204",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Wird die Abweisung einer unzulässigen Klage im Tenor als solche gekennzeichnet?",
+      "antworten": [
+        "Grundsätzlich nein, nur wenn das Gesetz es vorschreibt",
+        "Ja, stets zur Klarstellung des Rechtskraftumfangs",
+        "Ja, jedenfalls bei fehlender Zuständigkeit",
+        "Nur wenn der Beklagte dies ausdrücklich beantragt"
+      ],
+      "erklaerung": "Im Tenor wird grds. nicht zwischen Prozess- und Sachurteil unterschieden; nicht: „Die Klage wird als unzulässig abgewiesen“ (h. M., Thomas/Putzo, § 313 Rn. 10).\n\nAusnahme, wenn das Gesetz eine besondere Tenorierung vorschreibt (§ 341 Abs. 1 S. 2, § 522 Abs. 1 S. 2, § 597 Abs. 2 ZPO).",
+      "creator": null,
+      "ts": "2026-09-28T15:24:06.695088Z"
+    },
+    {
+      "id": "zivilgericht-0205",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Aus welchen Teilen besteht der Urteilstenor?",
+      "antworten": [
+        "Hauptsache, Kosten, vorläufige Vollstreckbarkeit, Berufungszulassung",
+        "Hauptsache, Streitwertfestsetzung, Kosten, Rechtsmittelbelehrung",
+        "Rubrum, Hauptsache, Kostenentscheidung, vorläufige Vollstreckbarkeit",
+        "Hauptsache, Kosten, Sicherheitsleistung, Rechtskraftvermerk"
+      ],
+      "erklaerung": "Tenor: 1. Hauptsache und Nebenforderungen (z. B. Zinsen); 2. Kosten (§§ 91 ff. ZPO); 3. vorläufige Vollstreckbarkeit (§§ 708 ff. ZPO); 4. ggf. Berufungszulassung (§ 511 Abs. 4 ZPO), nur wenn die Beschwer 600 € nicht übersteigt.\n\nDer Tenor ist Grundlage der Zwangsvollstreckung, die in der Regel aus einer Ausfertigung ohne Tatbestand und Entscheidungsgründe erfolgt (§§ 317 Abs. 2 S. 2, 725, 754 ZPO); er bestimmt zudem die Rechtskraft (§ 322 Abs. 1 ZPO).",
+      "creator": null,
+      "ts": "2026-09-28T15:24:06.695139Z"
+    },
+    {
+      "id": "zivilgericht-0206",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Welche Tenorformulierung ist hinreichend bestimmt?",
+      "antworten": [
+        "„… nebst Zinsen … seit dem 10.02.2010 zu zahlen.“",
+        "„… nebst Zinsen … seit Rechtshängigkeit zu zahlen.“",
+        "„… den Pkw VW Golf, amtl. Kennzeichen BS-KT 303, herauszugeben.“",
+        "„Der Beklagte wird verurteilt, Störungen des Klägers zu unterlassen.“"
+      ],
+      "erklaerung": "Der Tenor muss als Grundlage der Zwangsvollstreckung eindeutig sein; das Vollstreckungsorgan muss ohne Tatbestand und Gründe vollstrecken können. Ein nicht vollstreckungsfähiger Tenor kann die ganze Klausur unbrauchbar machen.\n\nFehlerhaft sind: „Der Klage wird stattgegeben“, Zinsen „seit Rechtshängigkeit“ (konkretes Datum nötig), Herausgabe eines Pkw nur nach Kennzeichen (änderbar; Fahrgestellnummer nötig), Unterlassung unbestimmter „Störungen“. Ausnahmsweise ist Bezugnahme auf fest mit dem Urteil verbundene Anlagen zulässig.",
+      "creator": null,
+      "ts": "2026-09-28T15:24:06.695213Z"
+    },
+    {
+      "id": "zivilgericht-0207",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Darf der Tenor den Rechtsgrund der Forderung nennen, etwa „500 € Miete“?",
+      "antworten": [
+        "Nein, außer bei vorsätzlicher unerlaubter Handlung",
+        "Ja, zur Bestimmung des Umfangs der Rechtskraft",
+        "Ja, stets zur Klarstellung für die Vollstreckung",
+        "Nur bei Teilklagen zur Abgrenzung des Streitgegenstands"
+      ],
+      "erklaerung": "Der Tenor darf nichts Überflüssiges enthalten; Teile der Begründung gehören nicht hinein („wird verurteilt, 500 € zu zahlen“, nicht „500 € Miete“).\n\nAusnahme: vorsätzlich begangene unerlaubte Handlung wegen § 850f Abs. 2 ZPO, § 302 Nr. 1 InsO; str., ob als Teil der Leistung („wegen vorsätzlich begangener unerlaubter Handlung … zu zahlen“) oder als Feststellung auszusprechen; beides vertretbar.",
+      "creator": null,
+      "ts": "2026-09-28T15:24:06.695296Z"
+    },
+    {
+      "id": "zivilgericht-0208",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Warum muss bei einer Zug-um-Zug-Verurteilung auch die Gegenleistung präzise bezeichnet werden?",
+      "antworten": [
+        "Weil die Vollstreckung von ihrem Angebot abhängt",
+        "Weil sie sonst nicht in Rechtskraft erwächst",
+        "Weil der Beklagte sie sonst gesondert einklagen muss",
+        "Weil sie in die Kostenquote einzurechnen ist"
+      ],
+      "erklaerung": "Die vom obsiegenden Teil zu erbringende Gegenleistung muss wegen §§ 756, 765 ZPO ebenfalls präzise beschrieben werden.\n\nBeispiel: „Der Beklagte wird verurteilt, das Kfz VW Golf, Baujahr 2005, amtl. Kennzeichen …, Fahrgestellnummer …, Zug um Zug gegen Zahlung von 2.000 € und Herausgabe eines Autoradios Marke Blaupunkt, Typ Lübeck, herauszugeben.“",
+      "creator": null,
+      "ts": "2026-09-28T15:24:06.695357Z"
+    },
+    {
+      "id": "zivilgericht-0209",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wie wirken gesetzliche und tatsächliche Vermutungen auf die Darlegungslast?",
+      "antworten": [
+        "Gesetzliche: volle Umkehr; tatsächliche: Erleichterung",
+        "Beide bewirken eine volle Umkehr der Darlegungslast",
+        "Beide bewirken nur eine Erleichterung, keine Umkehr",
+        "Gesetzliche: Beweismaßsenkung; tatsächliche: keine"
+      ],
+      "erklaerung": "Neben ausdrücklichen oder konkludenten gesetzlichen Beweislastregeln („es sei denn“) und seltenen Beweislastverträgen (ggf. § 309 Nr. 12 BGB) wirken Vermutungen auf die Darlegungslast. Gesetzliche Vermutungen bewirken eine volle Umkehr der Darlegungslast, z. B. § 891 BGB (Grundbucheintragung), §§ 1362 BGB, 739 ZPO (Besitzvermutung Ehegatten), § 1006 BGB (Eigentumsvermutung).\n\nTatsächliche Vermutungen bewirken nur eine Erleichterung, z. B. Anscheinsbeweis beim Auffahrunfall oder die Vermutung der Vollständigkeit und Richtigkeit der Vertragsurkunde (Grüneberg/Ellenberger, § 125 Rn. 21).",
+      "creator": null,
+      "ts": "2026-09-28T15:24:06.695528Z"
+    },
+    {
+      "id": "zivilgericht-0210",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Wann ist ein Urteil nach § 708 Nr. 11 ZPO ohne Sicherheitsleistung vorläufig vollstreckbar?",
+      "antworten": [
+        "Hauptsache bis 1.250 € oder nur Kosten bis 1.500 €",
+        "Bei allen Urteilen der Amtsgerichte ohne Wertgrenze",
+        "Bei Urteilen, gegen die nur Revision stattfindet",
+        "Bei jeder Klageabweisung, unabhängig von den Kosten"
+      ],
+      "erklaerung": "§ 708 Nr. 11 ZPO ist der wichtigste Fall der Vollstreckbarkeit ohne Sicherheitsleistung (mit Abwendungsbefugnis): vermögensrechtliche Streitigkeiten, wenn der Gegenstand der Verurteilung in der Hauptsache 1.250 € nicht übersteigt oder nur die Kostenentscheidung vollstreckbar ist und eine Vollstreckung von nicht mehr als 1.500 € ermöglicht.\n\nBeispiel Klageabweisung: Bei 5.000 € Streitwert liegen die erstattungsfähigen Anwaltskosten des Beklagten unter 1.500 € (§§ 708 Nr. 11, 711 ZPO), bei 9.000 € darüber (§ 709 ZPO). Faustregel: Die Grenze liegt bei ca. 7.500 € Streitwert.",
+      "creator": null,
+      "ts": "2026-09-28T15:24:06.695600Z"
+    },
+    {
+      "id": "zivilgericht-0211",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wann bedarf es keines Ausspruchs zur vorläufigen Vollstreckbarkeit?",
+      "antworten": [
+        "Bei Arrest, einstweiliger Verfügung und sofort rechtskräftigen Urteilen",
+        "Bei Feststellungs- und Gestaltungsurteilen ohne vollstreckbaren Inhalt",
+        "Bei klageabweisenden Urteilen, weil nur Kosten vollstreckbar sind",
+        "Bei Urteilen mit einem Hauptsachewert von höchstens 1.250 €"
+      ],
+      "erklaerung": "Vorläufige Vollstreckbarkeit ist nach § 704 ZPO nötig, weil nur aus rechtskräftigen oder für vorläufig vollstreckbar erklärten Endurteilen vollstreckt wird. Nicht erforderlich ist der Ausspruch bei Arrest und einstweiliger Verfügung (§§ 929, 936 ZPO) und bei Urteilen, die mit Erlass rechtskräftig werden (z. B. Revisionsurteile).\n\nBei Feststellungsurteilen ist der Ausspruch wegen der Kosten erforderlich; die Formulierung „wegen der Kosten“ ist überflüssig, aber unschädlich.",
+      "creator": null,
+      "ts": "2026-09-28T15:24:06.695661Z"
+    },
+    {
+      "id": "zivilgericht-0212",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Ist eine zugestandene, später ohne wirksamen Widerruf bestrittene Tatsache beweisbedürftig?",
+      "antworten": [
+        "Nein, das Geständnis bindet weiter",
+        "Ja, maßgeblich ist das spätere Bestreiten",
+        "Ja, wenn das Bestreiten substantiiert ist",
+        "Nur wenn sich der Gegner auf das Geständnis beruft"
+      ],
+      "erklaerung": "Nicht beweisbedürftig sind zugestandene, später ohne wirksamen Widerruf wieder bestrittene Tatsachen (§ 288 ZPO).\n\nEbenfalls nicht beweisbedürftig sind u. a. Tatsachen, die aufgrund eines präjudiziellen Rechtsverhältnisses feststehen (Zwischenfeststellungsklage, Wirkungen der Streitverkündung), und Tatsachen, deren Beweis der Gegner schuldhaft vereitelt hat (§§ 427, 444 ZPO).",
+      "creator": null,
+      "ts": "2026-09-28T15:24:06.695769Z"
+    },
+    {
+      "id": "zivilgericht-0213",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Welche Begriffe sind in der Beweiswürdigung bei Zeugen bzw. Sachverständigen zu vermeiden?",
+      "antworten": [
+        "Zeuge: „trägt vor“; Sachverständiger: Glaubhaftigkeit/Glaubwürdigkeit",
+        "Zeuge: „bekundet“; Sachverständiger: Plausibilität/Nachvollziehbarkeit",
+        "Zeuge: „schildert“; Sachverständiger: Überzeugungskraft/Methode",
+        "Zeuge: „sagt aus“; Sachverständiger: technische Nachvollziehbarkeit"
+      ],
+      "erklaerung": "Der Zeuge sagt aus, bekundet, schildert, beschreibt; „trägt vor“ oder „legt dar“ ist nur für Parteivortrag zu verwenden.\n\nBeim Sachverständigengutachten ist nicht von Glaubhaftigkeit und Glaubwürdigkeit zu sprechen, sondern von Überzeugungskraft, Plausibilität und technischer Nachvollziehbarkeit (Ergebnis kurz wiedergeben, Bestätigung der Beweisbehauptung feststellen, Methode und Plausibilität prüfen).",
+      "creator": null,
+      "ts": "2026-09-28T15:24:06.695832Z"
+    },
+    {
+      "id": "zivilgericht-0214",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "In welche Gruppen gliedern sich die Zulässigkeitsvoraussetzungen?",
+      "antworten": [
+        "Partei-, gerichts-, klage-, streitgegenstandsbezogene; prozesshindernde Einreden",
+        "Allgemeine und besondere; jeweils nur auf Rüge zu prüfende Voraussetzungen",
+        "Sachurteils- und Prozesshandlungsvoraussetzungen; Rechtsschutzbedürfnis",
+        "Formelle und materielle Voraussetzungen; Schlüssigkeit als letzter Prüfungspunkt"
+      ],
+      "erklaerung": "Parteibezogen: Partei-, Prozess-, Prozessführungs-, Postulationsfähigkeit, ordnungsgemäße Vertretung. Gerichtsbezogen: deutsche Gerichtsbarkeit, internationale Zuständigkeit, Rechtsweg, sachliche, örtliche und funktionelle Zuständigkeit. Klagebezogen: ggf. außergerichtliches Güteverfahren, ordnungsgemäße Klageerhebung, Voraussetzungen besonderer Klagearten.\n\nStreitgegenstandsbezogen: keine entgegenstehende Rechtskraft, keine anderweitige Rechtshängigkeit, Rechtsschutzbedürfnis, Klagbarkeit. Prozesshindernde Einreden: Schiedsvereinbarung, mangelnde Prozesskostensicherheit, gewillkürte Einreden.",
+      "creator": null,
+      "ts": "2026-09-28T15:24:06.695888Z"
+    },
+    {
+      "id": "zivilgericht-0215",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Welche Zulässigkeitsmängel sind trotz Rügeverzicht oder rügeloser Verhandlung unheilbar?",
+      "antworten": [
+        "Fehlerhafte Besetzung des Gerichts, Versäumung einer Notfrist",
+        "Fehlende örtliche Zuständigkeit, Mängel der Prozessvollmacht",
+        "Mängel der Klagezustellung, verspätete Klageerwiderung",
+        "Fehlende sachliche Zuständigkeit, Mängel der Klageschrift"
+      ],
+      "erklaerung": "Heilbare Zulässigkeitsmängel können durch Rügeverzicht (§ 295 ZPO) oder rügelose Verhandlung des Beklagten (§§ 295, 39 ZPO) entfallen.\n\nUnheilbar sind wesentliche Verstöße gegen zwingende öffentlich-rechtliche Vorschriften, z. B. fehlerhafte Besetzung des Gerichts und Nichtbeachtung einer Notfrist (§ 224 Abs. 1 S. 2 ZPO).",
+      "creator": null,
+      "ts": "2026-09-28T15:24:06.695943Z"
     }
   ]
 }

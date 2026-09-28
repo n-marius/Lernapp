@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0209",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wie wirken gesetzliche und tatsächliche Vermutungen auf die Darlegungslast?",
+  "antworten": [
+    "Gesetzliche: volle Umkehr; tatsächliche: Erleichterung",
+    "Beide bewirken eine volle Umkehr der Darlegungslast",
+    "Beide bewirken nur eine Erleichterung, keine Umkehr",
+    "Gesetzliche: Beweismaßsenkung; tatsächliche: keine"
+  ],
+  "erklaerung": "Neben ausdrücklichen oder konkludenten gesetzlichen Beweislastregeln („es sei denn“) und seltenen Beweislastverträgen (ggf. § 309 Nr. 12 BGB) wirken Vermutungen auf die Darlegungslast. Gesetzliche Vermutungen bewirken eine volle Umkehr der Darlegungslast, z. B. § 891 BGB (Grundbucheintragung), §§ 1362 BGB, 739 ZPO (Besitzvermutung Ehegatten), § 1006 BGB (Eigentumsvermutung).\n\nTatsächliche Vermutungen bewirken nur eine Erleichterung, z. B. Anscheinsbeweis beim Auffahrunfall oder die Vermutung der Vollständigkeit und Richtigkeit der Vertragsurkunde (Grüneberg/Ellenberger, § 125 Rn. 21).",
+  "ts": "2026-09-28T15:24:06.695528Z"
+}

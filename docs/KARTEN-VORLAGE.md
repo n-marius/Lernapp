@@ -77,6 +77,9 @@ Schreiben nur daran halten, dass die richtige Antwort an erster Stelle steht.
 - Verwendeten Gesetzesinhalt selbst am aktuellen Gesetzestext prüfen. Die Prüfung dient nur der Richtigkeit: keine zusätzlichen Details, Rückausnahmen oder Voraussetzungen aus dem Gesetz ergänzen, die nicht im Quellmaterial stehen (Ausnahme: Karten zu reinen Normverweisen).
 - Verweist das Quellmaterial nur auf eine Norm, ohne deren Inhalt darzustellen (z. B. „siehe § 487 ZPO“), eine Karte mit dem Norminhalt anlegen; den Gesetzeswortlaut dabei präzise wiedergeben.
 - Veraltete Normverweise im Quellmaterial auf die aktuelle Fassung beziehen (präzise, bis auf Absatz und Satz); Sachaussagen der Folien sonst unverändert übernehmen.
+- Materielles Recht (Stoff des Ersten Examens) wird als bekannt vorausgesetzt. Folien, die materielle Inhalte nur zur Veranschaulichung nennen (z. B. Arten von Einwendungen und Einreden), werden allenfalls in einer Karte dazu verwertet, was in der jeweiligen Station zu prüfen ist.
+- Bereits bekannte Grundlagen wie die einzelnen Zulässigkeitsvoraussetzungen nur gebündelt als Schema abfragen. Einzelheiten nur, wenn das Quellmaterial Sonderfälle oder Sonderprobleme behandelt.
+- Dopplungen mit bereits vorhandenen Karten vermeiden: Vor dem Erstellen prüfen, ob der Inhalt schon abgefragt wird; neue Aspekte ggf. in die Erklärung der vorhandenen Karte aufnehmen (dann diese Karte als geändert mit ausgeben).
 - Kartenzahl nicht ausufern lassen: jede relevante Information verwerten, aber keine redundanten Karten.
 - Bleiben Fragen offen, die dazu führen, dass eine Information nicht verwertet werden kann, diese im Chat dem Nutzer vorlegen.
 

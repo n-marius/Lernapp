@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0191",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wann ist das Beklagtenvorbringen insgesamt erheblich?",
+  "antworten": [
+    "Wenn es alle schlüssigen Anspruchsgrundlagen zu Fall bringt",
+    "Wenn es mindestens eine Anspruchsgrundlage zu Fall bringt",
+    "Wenn es substantiiert und unter Beweis gestellt ist",
+    "Wenn es die vorrangige Anspruchsgrundlage zu Fall bringt"
+  ],
+  "erklaerung": "Erheblich ist das Beklagtenvorbringen, wenn es im Ergebnis sämtliche nach dem Klägervortrag erfüllten Anspruchsgrundlagen erschüttert. Zu fragen ist je Tatsache: gegenüber welcher Anspruchsgrundlage, mit welcher Begründung, mit welcher Wirkung? Möglich ist auch nur Teilerheblichkeit.\n\nBeispiele: Bestreitet der Beklagte zu schnelles Fahren, ist das gegenüber § 823 BGB erheblich, gegenüber § 7 StVG (Gefährdungshaftung) unerheblich; die Klage ist so oder so begründet. Minderjährigkeit wirkt gegenüber Vertrag (§ 108 BGB) und Delikt (§ 828 BGB) rechtshindernd; Zahlung wirkt nur gegenüber Zahlungsansprüchen rechtsvernichtend, nicht gegenüber dem Unterlassungsanspruch.",
+  "ts": "2026-09-28T15:24:06.694172Z"
+}

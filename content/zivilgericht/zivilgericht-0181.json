@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0181",
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Worüber enthält die ZPO gesetzliche Beweisregeln (§ 286 Abs. 2 ZPO)?",
+  "antworten": [
+    "Beweiskraft von Urkunden, Protokollen und Tatbestand",
+    "Beweiskraft von Zeugenaussagen, Gutachten und Parteivernehmungen",
+    "Vorrang des Urkundenbeweises vor Zeugen- und SV-Beweis",
+    "Mindestzahl übereinstimmender Zeugen für den vollen Beweis"
+  ],
+  "erklaerung": "Gesetzliche Beweisregeln betreffen die Beweiskraft von Urkunden (§§ 415–418, 438 Abs. 2, 175, 183 Abs. 4, 195 Abs. 2 ZPO), elektronischen Dokumenten (§ 371a ZPO) sowie Protokollen und Urteilstatbestand (§§ 165, 314 ZPO).\n\nBestehen solche Regeln, ist das Gericht gebunden (z. B. § 415 ZPO); sonst gilt freie Beweiswürdigung nach § 286 Abs. 1 ZPO.",
+  "ts": "2026-09-28T15:24:06.693498Z"
+}

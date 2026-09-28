@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0174",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wann ist eine Auslegungsstation zu bilden und wo steht sie?",
+  "antworten": [
+    "Bei auslegungsbedürftigem Antrag; hinter dem Entscheidungsvorschlag",
+    "Stets; als erste Station noch vor dem Entscheidungsvorschlag",
+    "Bei jedem Antrag; unmittelbar im Anschluss an die Prozessstation",
+    "Nur bei Klageänderung; als Unterpunkt innerhalb der Klägerstation"
+  ],
+  "erklaerung": "Eine Auslegungsstation ist nur erforderlich, wenn unklar ist, welchen Antrag der Kläger stellen will; die Anträge sind Gegenstand der weiteren Prüfung. Sie gehört an den Beginn des Gutachtens gleich hinter den Entscheidungsvorschlag.\n\nIm Urteil gehören Ausführungen zur Auslegung in die Entscheidungsgründe hinter die Darstellung des Gesamtergebnisses. Im Tatbestand ist der Wortlaut der auszulegenden Anträge in der Originalfassung wiederzugeben.",
+  "ts": "2026-09-28T15:24:06.693024Z"
+}

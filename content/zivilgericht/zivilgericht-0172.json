@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0172",
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Wie ist ein neben der Kaufpreisklage gestellter Antrag auf Feststellung der Vertragswirksamkeit regelmäßig auszulegen?",
+  "antworten": [
+    "Ohne selbständige Bedeutung, sofern keine Zwischenfeststellungsklage",
+    "Als eigenständige Feststellungsklage mit eigener Rechtskraftwirkung",
+    "Als unzulässig, da Feststellungsinteresse neben Leistungsklage fehlt",
+    "Als Hilfsantrag für den Fall der Abweisung der Zahlungsklage"
+  ],
+  "erklaerung": "Begehrt der Kläger Feststellung der Wirksamkeit des Kaufvertrags und Zahlung des Kaufpreises, ist der Feststellungsantrag dahin auszulegen, dass er keine selbständige Bedeutung haben soll; zu beachten ist aber § 256 Abs. 2 ZPO (Zwischenfeststellungsklage).\n\nBei einer dem Wortlaut nach unzulässigen alternativen Klagehäufung kann die Auslegung ergeben, dass ein Eventualverhältnis gewollt ist.",
+  "ts": "2026-09-28T15:24:06.692902Z"
+}

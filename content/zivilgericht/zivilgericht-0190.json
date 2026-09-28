@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0190",
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Wo liegt nach h. M. der Erfüllungsort (§ 29 ZPO) bei Rückabwicklung eines Kaufvertrags?",
+  "antworten": [
+    "Einheitlich dort, wo sich die Kaufsache vertragsgemäß befindet",
+    "Am Wohnsitz des Verkäufers als Schuldner der Rückzahlung",
+    "Getrennt für jede Rückgewährpflicht am jeweiligen Schuldnerwohnsitz",
+    "Am Ort des ursprünglichen Vertragsschlusses"
+  ],
+  "erklaerung": "Sonderproblem bei § 29 ZPO: Nach h. M. besteht für die Rückabwicklung von Kaufverträgen ein einheitlicher Erfüllungsort an dem Ort, an dem sich die Kaufsache vertragsgemäß befindet (Thomas/Putzo, § 29 Rn. 6; OLG Karlsruhe MDR 2013, 898).",
+  "ts": "2026-09-28T15:24:06.694115Z"
+}

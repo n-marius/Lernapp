@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0193",
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Wann ist ein gegenbeweislich benannter Zeuge zu vernehmen?",
+  "antworten": [
+    "Erst wenn der Hauptbeweis positiv ergiebig ausgefallen ist",
+    "Stets, sobald er ordnungsgemäß benannt ist",
+    "Nur wenn die beweisbelastete Partei keinen Zeugen hat",
+    "Vor dem Hauptbeweiszeugen, um Beeinflussung zu vermeiden"
+  ],
+  "erklaerung": "Der Gegenzeuge ist nur zu hören, wenn die beweisbelastete Partei Beweis angeboten hat und dieser die Behauptung bestätigt (positiv ergiebig). Tipp: Beweislast vor der Beweiswürdigung klären; der Beweis ist schon dann nicht gelungen, wenn die beweisbelastete Partei ihn nicht erbracht hat.\n\nBeispiel Buchkauf (Beklagter behauptet Schenkung): Hat keine Partei Zeugen, ist die Klage mangels Beweises des Kaufvertrags abzuweisen. Hat nur der Beklagte einen Zeugen, wird dieser nicht vernommen. Ist der Zeuge des Klägers unergiebig, bedarf es des Gegenzeugen nicht; die Klage ist abzuweisen.",
+  "ts": "2026-09-28T15:24:06.694283Z"
+}

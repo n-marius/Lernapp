@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0197",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Welche Anwaltsgebühren fallen im erstinstanzlichen Regelfall an?",
+  "antworten": [
+    "1,3 Verfahrens- und 1,2 Terminsgebühr zzgl. Auslagenpauschale und USt",
+    "1,0 Verfahrens- und 1,0 Terminsgebühr zzgl. Auslagenpauschale und USt",
+    "1,5 Geschäfts- und 1,2 Terminsgebühr zzgl. Auslagenpauschale und USt",
+    "1,3 Verfahrens-, 1,2 Termins- und stets 1,0 Einigungsgebühr zzgl. USt"
+  ],
+  "erklaerung": "Regelfall nach VV RVG: 1,3 Verfahrensgebühr (Nr. 3100), 1,2 Terminsgebühr (Nr. 3104), ggf. 1,0 Einigungsgebühr (Nr. 1000, 1003 f.), ggf. 0,3 Zusatzgebühren (Nr. 1010 umfangreiche Beweisaufnahme; Nr. 1008 mehrere Auftraggeber); Post- und Telekommunikationspauschale 20 % der Gebühren, höchstens 20 € (Nr. 7001, 7002); Umsatzsteuer (Nr. 7008). Die Gebührenhöhe folgt aus Anlage 2 RVG nach dem Gebührenstreitwert.\n\nGerichtskosten: 3,0 Gebühr für das Verfahren im Allgemeinen (KV Nr. 1210 GKG; Stufen in Anlage 2 GKG), die der Kläger als Vorschuss leistet (§ 12 Abs. 1 GKG).",
+  "ts": "2026-09-28T15:24:06.694649Z"
+}

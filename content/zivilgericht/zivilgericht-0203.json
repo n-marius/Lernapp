@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0203",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Genügt es, den Wortlaut eines Tatbestandsmerkmals vorzutragen, etwa „Die Kaufsache ist mangelhaft“?",
+  "antworten": [
+    "Nein, ein nachvollziehbarer Lebenssachverhalt ist darzulegen",
+    "Ja, wenn der Gegner dies nicht substantiiert bestreitet",
+    "Ja, jedenfalls bei anwaltlich vertretenen Parteien",
+    "Ja, die Konkretisierung erfolgt in der Beweisaufnahme"
+  ],
+  "erklaerung": "Substantiierter Vortrag erfordert einen nachvollziehbaren Lebenssachverhalt. „Der Kaufgegenstand ist mangelhaft“ ist eine Rechtsansicht.\n\nAusreichend wäre z. B.: „Der Motor ist nicht voll leistungsfähig, da die Zylinderkopfdichtung beschädigt ist.“",
+  "ts": "2026-09-28T15:24:06.695033Z"
+}

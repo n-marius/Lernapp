@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0192",
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Wovon hängt ab, ob einfaches Bestreiten genügt?",
+  "antworten": [
+    "Vom Detailgrad des Vortrags der Gegenseite",
+    "Von der Beweislast der bestreitenden Partei",
+    "Von der anwaltlichen Vertretung der bestreitenden Partei",
+    "Vom Streitwert und der Bedeutung der Sache"
+  ],
+  "erklaerung": "Nach § 138 Abs. 2 ZPO muss sich eine Partei über die Behauptungen des Gegners erklären und, wenn dieser seiner Erklärungslast nachgekommen ist, darlegen, von welchem Sachverhalt sie ausgeht. Je detaillierter der Vortrag der darlegungsbelasteten Partei, desto höher die Erklärungslast (BGH MDR 2014, 825).\n\nBeispiel: Behauptet der Mandant, sein Anwalt habe ihn über keinerlei Risiken aufgeklärt, genügt dessen einfaches Bestreiten nicht; der Vortrag gilt als zugestanden (§ 138 Abs. 3 ZPO). Erheblich wird das Bestreiten erst, wenn der Anwalt die wesentlichen Punkte des Beratungsgesprächs darlegt (vgl. BGH NJW 1996, 2571).",
+  "ts": "2026-09-28T15:24:06.694228Z"
+}

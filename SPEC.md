@@ -169,13 +169,13 @@ laufen lassen.
    Rechtsanwalt, Verwaltungsrecht. In den beiden Lernmodi sind
    Rechtsgebiete ohne Karten ausgegraut; im Modus „Karten anlegen“ sind immer
    alle vier wählbar (die Wahl bestimmt nur das Rechtsgebiet der neuen
-   Karte). In den beiden Lernmodi sitzt oberhalb der Liste eine schmale
-   Zeile „Priorität“ mit drei kleinen Umschalt-Pillen (Prio-Filter) – dasselbe
-   Symbol wie auf der Karte (Abschnitt 5.1a: Balken + „Hoch“/„Normal“/
-   „Niedrig“, gleiche Farben). Beim Öffnen der Seite sind alle drei aktiv;
-   Antippen schaltet eine Prio ab (grau, gestrichelter Rand, Bezeichnung
-   durchgestrichen) bzw. wieder an – mindestens eine muss aktiv bleiben. Auf
-   sehr schmalen Bildschirmen entfällt die Beschriftung „Priorität“. Nur Karten mit
+   Karte). In den beiden Lernmodi sitzen oberhalb der Liste drei kleine
+   Umschalt-Knöpfe (Prio-Filter, 36 px) – dieselben abgerundet-quadratischen
+   Prio-Symbole wie auf der Karte (Abschnitt 5.1a), ohne Text, mit feinem
+   farbigem Rand und blasser Füllung. Beim Öffnen der Seite sind alle drei
+   aktiv; Antippen schaltet eine Prio ab (blass und grau, fein diagonal
+   durchgestrichen – der Strich endet vor dem Rand und ist zum Symbol hin
+   freigestellt) bzw. wieder an – mindestens eine muss aktiv bleiben. Nur Karten mit
    einer der aktiven Prios (persönliche Prio des Nutzers, siehe 5.1a) werden
    in Kartenzahl, Stufenwahl und dem anschließenden Lauf berücksichtigt.
    Die Auswahl gilt nur für diesen einen Lauf und wird nicht gespeichert.
@@ -191,8 +191,9 @@ laufen lassen.
   zeigen“). Nach Antippen erscheint die richtige Antwort in derselben, etwas
   kleineren Schriftgröße wie die Frage (19 px statt vorher 21 px, damit auf
   schmalen Bildschirmen mehr Platz bleibt), darunter abgesetzt und kleiner
-  die Erklärung. Die Erklärung hat keine eigene Höhenbegrenzung mehr – bei
-  sehr langem Text scrollt einfach die ganze Seite.
+  die Erklärung. Die Erklärung ist bewusst höhenbegrenzt (160 px) und wird
+  bei langem Text innerhalb des Felds gescrollt, damit die Karte nicht
+  ausufert.
 - Die Schaltflächen „Falsch“ (rot, links) und „Richtig“ (grün, rechts) sitzen
   **fest in der unteren Leiste** und teilen sich dort die volle
   Bildschirmbreite (je links/rechts der Mitte), sind ausgegraut, bis die
@@ -267,11 +268,11 @@ Melden-Funktion und die Motivations-Einblendungen für Agnessa funktionieren
 identisch zum manuellen Modus.
 
 **Prio-Symbol und persönliche Änderung:** In beiden Lernmodi (manuell und
-automatisch) zeigt eine kleine Pille oben rechts im Fragefeld (vom
-Fragetext umflossen, neben einem etwaigen Ersteller-Chip) die aktuelle Prio
-der Karte: drei aufsteigende Balken wie eine Signalanzeige plus Bezeichnung,
-blasse Füllung in der jeweiligen Farbe – drei Balken/rot = „Hoch“, zwei
-Balken/grau = „Normal“, ein Balken/blau = „Niedrig“. Antippen schaltet zur nächsten Prio
+automatisch) zeigt ein kleines, abgerundet-quadratisches Symbol (26 px,
+ohne Text) **oben rechts** im Fragefeld (vom Fragetext umflossen, neben
+einem etwaigen Ersteller-Chip) die aktuelle Prio der Karte – feiner Rand und
+blasse Füllung in der jeweiligen Farbe: Dreieck aufwärts/rot = hoch,
+Strich/grau = normal, Dreieck abwärts/blau = niedrig. Antippen schaltet zur nächsten Prio
 weiter (hoch → normal → niedrig → hoch). Diese Änderung ist **rein
 persönlich**: Sie wirkt sich nur auf die Gewichtung und Anzeige für den
 Nutzer aus, der sie vorgenommen hat, verändert also weder die Karte selbst
@@ -285,8 +286,10 @@ gespeicherte Übersteuerung, siehe Abschnitt 7 und 8).
 - Klick auf eine Antwort: sofortige Rückmeldung. Die gewählte Antwort wird
   bei richtiger Wahl grün, bei falscher Wahl rot markiert; ist die Wahl
   falsch, wird zusätzlich die richtige Antwort grün hervorgehoben.
-- Darunter klappt die Erklärung bildschirmbreit aus (keine eigene
-  Höhenbegrenzung mehr – bei sehr langem Text scrollt die Seite). Der
+- Die Erklärung klappt **aus der richtigen Antwort heraus nach unten** aus
+  (steht also ggf. zwischen den Antworten) und bildet mit ihr optisch eine
+  Einheit (gleicher grüner Rand, gleiche Füllung). Sie ist höhenbegrenzt
+  (160 px) und wird bei langem Text innerhalb des Felds gescrollt. Der
   „Weiter“-Button sitzt **fest in der unteren Leiste über die volle
   Breite** und ist ausgegraut, bis eine Antwort gewählt wurde. Rechts daneben
   (auf seine Kosten) derselbe blaue „Direkt in Stufe 4“-Knopf wie im
@@ -563,8 +566,8 @@ von echten Ereignissen einmalig anzuzeigen.
 - **Prio-Symbol-Farben:** hoch = rot, normal = grau, niedrig = blau (auf
   Wunsch geändert; ursprünglich akzentfarben/grau/gedämpft). Das Blau für
   „niedrig“ und „Direkt in Stufe 4“ ist ein helleres Blau (`--blue`,
-  `--btn-fast`) als der dunkle Marius-Akzent. Symbol seit 1.5.0: Balken +
-  Bezeichnung statt Dreieck/Strich in einem Quadrat.
+  `--btn-fast`) als der dunkle Marius-Akzent. Symbol bleibt ausdrücklich
+  Dreieck/Strich im abgerundeten Quadrat ohne Text (Nutzerwunsch).
 
 ## 13. Offen (später zu klären)
 

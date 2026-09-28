@@ -306,7 +306,6 @@ async function showGebietPick(mode, allowedPrios = new Set(PRIOS)) {
 
   const prioFilterHtml = showPrioFilter
     ? `<div class="prio-toggle" role="group" aria-label="Prio-Filter">
-        <span class="prio-toggle-label">Priorität</span>
         ${PRIOS.map((p) => prioToggle(p, allowedPrios.has(p))).join("")}
       </div>`
     : "";

@@ -1,6 +1,6 @@
 // Frage-Antwort-Modus: Frage, darunter die 4 Antworten in voller Breite
 // untereinander, sofortige Rückmeldung, danach klappt die Erklärung unter
-// der jeweiligen Antwort aus. Der „Weiter"-Knopf sitzt fest am unteren
+// der richtigen Antwort aus. Der „Weiter"-Knopf sitzt fest am unteren
 // Bildschirmrand (siehe js/app.js showQuizMode) und wird erst nach einer
 // Antwort aktiv – dafür meldet diese Funktion die Auswahl über `onAnswered`.
 import { escapeHtml, shuffle, prioChip, updatePrioChip } from "./tokens.js";
@@ -30,7 +30,6 @@ export function renderQuizCard(container, card, { onAnswered, prio = "normal", o
             <span>${escapeHtml(card.antworten[optIndex])}</span>
           </button>`).join("")}
       </div>
-      <div class="quiz-explain" id="explain" hidden>${escapeHtml(card.erklaerung ?? "")}</div>
     </div>`;
 
   const prioBtn = container.querySelector(".prio-btn");
@@ -58,7 +57,16 @@ export function renderQuizCard(container, card, { onAnswered, prio = "normal", o
         else if (opt === chosen) b.classList.add("is-wrong");
         b.disabled = true;
       }
-      if (card.erklaerung) container.querySelector("#explain").hidden = false;
+      // Erklärung klappt direkt unter der richtigen Antwort aus (ggf. zwischen
+      // den Antworten), höhenbegrenzt und im Feld scrollbar.
+      if (card.erklaerung) {
+        const correctBtn = buttons.find((b) => b.dataset.opt === "0");
+        const explain = document.createElement("div");
+        explain.className = "quiz-explain";
+        explain.textContent = card.erklaerung;
+        correctBtn.classList.add("has-explain");
+        correctBtn.after(explain);
+      }
       onAnswered?.(isCorrect);
     });
   }

@@ -442,47 +442,52 @@ button.mode:hover:not(:disabled) .mode-go { color: var(--ink-2); transform: tran
 }
 
 /* ---------- Prio-Symbol (Karte und Filter) ----------
-   Gemeinsamer Look: Pille mit drei Balken (hoch 3 / normal 2 / niedrig 1)
-   und kurzer Bezeichnung, Farbe rot/grau/blau auf blasser Füllung. */
+   Gemeinsamer Look: abgerundetes Quadrat, feiner Rand und blasse Füllung in
+   der jeweiligen Prio-Farbe (rot/grau/blau), Symbol in derselben Farbe. */
 
 .prio-btn, .prio-toggle-btn {
+  position: relative;
   display: inline-flex;
   align-items: center;
-  font-family: var(--sans);
-  line-height: 1;
-  white-space: nowrap;
+  justify-content: center;
+  flex-shrink: 0;
+  border: 1px solid transparent;
   transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease, transform 0.1s ease;
 }
-.prio-btn:active, .prio-toggle-btn:active { transform: scale(0.96); }
-.prio-bars { flex-shrink: 0; }
-.prio-btn[data-prio="hoch"], .prio-toggle-btn[data-prio="hoch"] { background: var(--wrong-soft); color: var(--wrong); }
-.prio-btn[data-prio="normal"], .prio-toggle-btn[data-prio="normal"] { background: var(--surface-2); color: var(--ink-2); }
-.prio-btn[data-prio="niedrig"], .prio-toggle-btn[data-prio="niedrig"] { background: var(--blue-soft); color: var(--blue); }
+.prio-btn:active, .prio-toggle-btn:active { transform: scale(0.94); }
+.prio-btn[data-prio="hoch"], .prio-toggle-btn[data-prio="hoch"] { background: var(--wrong-soft); color: var(--wrong); border-color: color-mix(in srgb, var(--wrong) 35%, transparent); }
+.prio-btn[data-prio="normal"], .prio-toggle-btn[data-prio="normal"] { background: var(--surface-2); color: var(--ink-2); border-color: var(--line-2); }
+.prio-btn[data-prio="niedrig"], .prio-toggle-btn[data-prio="niedrig"] { background: var(--blue-soft); color: var(--blue); border-color: color-mix(in srgb, var(--blue) 35%, transparent); }
 
 /* ---------- Prio-Filter ---------- */
 
-.prio-toggle { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: -12px 0 18px; }
-.prio-toggle-label { margin: 0 4px 0 2px; font-size: 13px; font-weight: 600; color: var(--ink-3); }
+.prio-toggle { display: flex; gap: 8px; margin: -12px 0 18px; }
 .prio-toggle-btn {
-  height: 30px;
-  padding: 0 12px 0 10px;
-  gap: 7px;
-  border-radius: 999px;
-  border: 1px solid transparent;
-  font-size: 13px;
-  font-weight: 580;
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  overflow: hidden;
 }
-.prio-toggle-btn .prio-bars { width: 12.5px; height: 12.5px; }
-.prio-toggle-btn[data-active="true"] { border-color: color-mix(in srgb, currentColor 22%, transparent); }
+.prio-toggle-btn svg { width: 18px; height: 18px; }
+/* Abgeschaltet: blass und grau, fein diagonal durchgestrichen (Strich mit
+   schmalem Freiraum zum Symbol, endet vor dem Rand) */
 .prio-toggle-btn[data-active="false"] {
   background: transparent;
-  border-color: var(--line-2);
-  border-style: dashed;
+  border-color: var(--line);
   color: var(--ink-4);
 }
-.prio-toggle-btn[data-active="false"] span {
-  text-decoration: line-through;
-  text-decoration-thickness: 1px;
+.prio-toggle-btn[data-active="false"] svg { opacity: 0.75; }
+.prio-toggle-btn[data-active="false"]::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 30px;
+  height: 1.5px;
+  border-radius: 1px;
+  background: var(--ink-4);
+  box-shadow: 0 0 0 1.5px var(--bg);
+  transform: translate(-50%, -50%) rotate(45deg);
 }
 .prio-toggle-btn[data-active="false"]:hover { color: var(--ink-3); }
 
@@ -589,6 +594,9 @@ button.row:active:not(:disabled), label.row:active { background: var(--surface-2
   margin-top: 14px;
   padding-top: 14px;
   border-top: 1px solid var(--line);
+  max-height: 160px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
   font-size: 13.5px;
   line-height: 1.55;
   color: var(--ink-3);
@@ -621,18 +629,13 @@ button.row:active:not(:disabled), label.row:active { background: var(--surface-2
 .creator-chip[data-user="agnessa"] { --user-color: var(--agnessa); }
 
 .prio-btn {
-  position: relative;
-  height: 24px;
-  padding: 0 10px 0 8px;
-  gap: 6px;
-  border-radius: 999px;
-  font-size: 11.5px;
-  font-weight: 620;
-  letter-spacing: 0.01em;
+  width: 26px;
+  height: 26px;
+  border-radius: 8px;
 }
-/* größere Tippfläche, ohne die Pille optisch zu vergrößern */
-.prio-btn::before { content: ""; position: absolute; inset: -10px -6px; }
-.prio-btn .prio-bars { width: 11px; height: 11px; }
+.prio-btn svg { width: 15px; height: 15px; }
+/* größere Tippfläche, ohne das Symbol optisch zu vergrößern */
+.prio-btn::before { content: ""; position: absolute; inset: -9px; }
 
 .level-chip {
   display: inline-flex;
@@ -663,7 +666,7 @@ button.row:active:not(:disabled), label.row:active { background: var(--surface-2
   font-weight: 500;
   letter-spacing: -0.01em;
 }
-.answers { display: grid; grid-template-columns: 1fr; gap: 8px; }
+.answers { --answers-gap: 8px; display: grid; grid-template-columns: 1fr; gap: var(--answers-gap); }
 .answer {
   min-height: 60px;
   padding: 10px 14px 10px 12px;
@@ -699,13 +702,32 @@ button.row:active:not(:disabled), label.row:active { background: var(--surface-2
 .answer.is-wrong { background: var(--wrong-soft); border-color: var(--wrong); box-shadow: inset 0 0 0 1px var(--wrong); }
 .answer.is-wrong .answer-key { background: var(--wrong); color: var(--bg); }
 .is-done .answer:not(.is-correct):not(.is-wrong) { opacity: 0.4; }
+/* Erklärung: klappt aus der richtigen Antwort nach unten aus und bildet mit
+   ihr eine Einheit (gleicher Rand, gleiche Füllung), scrollt im Feld. */
+.answer.has-explain {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-color: color-mix(in srgb, var(--correct) 28%, transparent);
+  box-shadow: inset 1px 0 0 var(--correct), inset -1px 0 0 var(--correct), inset 0 1px 0 var(--correct);
+}
 .quiz-explain {
-  margin: 16px 2px 0;
-  padding-top: 14px;
-  border-top: 1px solid var(--line);
+  margin-top: calc(-1 * var(--answers-gap));
+  padding: 11px 14px 13px 12px;
+  max-height: 160px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  border: 2px solid var(--correct);
+  border-top: 0;
+  border-radius: 0 0 var(--r) var(--r);
+  background: var(--correct-soft);
   font-size: 13.5px;
   line-height: 1.55;
-  color: var(--ink-3);
+  color: var(--ink-2);
+  animation: explain-open 0.28s var(--ease) both;
+}
+@keyframes explain-open {
+  from { max-height: 0; opacity: 0; }
+  to { max-height: 160px; opacity: 1; }
 }
 
 @media (max-width: 480px) {
@@ -716,9 +738,9 @@ button.row:active:not(:disabled), label.row:active { background: var(--surface-2
   .q { padding: 2px 0 4px; }
   .q-text { padding: 18px 16px 16px; margin-bottom: 12px; font-size: 18px; }
   .q-text .card-meta { margin: 0 -4px 6px 12px; }
-  .answers { gap: 6px; }
+  .answers { --answers-gap: 6px; }
   .answer { min-height: 50px; padding: 8px 10px; font-size: 14.5px; }
-  .quiz-explain { margin-top: 12px; padding-top: 10px; font-size: 12.5px; }
+  .quiz-explain { padding: 9px 10px 11px; font-size: 12.5px; }
   .dock .btn { height: 44px; }
   .dock .btn-fasttrack { width: 44px; }
   .dock-progress { font-size: 11px; }
@@ -898,9 +920,6 @@ button.row:active:not(:disabled), label.row:active { background: var(--surface-2
 
 @media (max-width: 380px) {
   .page-title { font-size: 30px; }
-  .prio-toggle { gap: 6px; }
-  .prio-toggle-label { display: none; }
-  .prio-toggle-btn { padding: 0 10px 0 9px; }
   .flash-text, .q-text { font-size: 17.5px; }
   .answer { font-size: 15.5px; gap: 9px; }
 }

@@ -66,7 +66,7 @@ const ICON = {
   flag: svg(`<path d="M6 21V4"/><path d="M6 4.5c1.4-1 3-1 4.5 0s3.1 1 4.5 0v9c-1.4 1-3 1-4.5 0s-3.1-1-4.5 0"/>`),
   hand: svg(`<path d="M6 4h6M6 8h9M6 12h7"/><circle cx="18" cy="16" r="1" fill="currentColor" stroke="none"/><circle cx="18" cy="16" r="4"/>`),
   auto: svg(`<path d="M12 4v3M12 17v3M4 12h3M17 12h3"/><circle cx="12" cy="12" r="4.5"/>`),
-  up: svg(`<path d="M7 12.5l5-5 5 5M7 18l5-5 5 5"/>`, `stroke-width="2"`),
+  up: svg(`<path d="M7 12l5-5 5 5M7 17.5l5-5 5 5"/>`),
 };
 
 // Untere Leiste der Lernmodi. „Falsch“ und „Richtig“ teilen sich die Breite

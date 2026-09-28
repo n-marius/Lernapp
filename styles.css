@@ -51,11 +51,6 @@
   --blue: #3a6cc6;
   --blue-soft: rgba(58, 108, 198, 0.1);
 
-  /* Vollfarbige Knöpfe in der unteren Leiste (im Dunkelmodus eigene, tiefere Töne, damit weiße Schrift lesbar bleibt) */
-  --btn-correct: #1f7a4a;
-  --btn-wrong: #c0362c;
-  --btn-fast: #3a6cc6;
-  --btn-solid-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.14), 0 1px 2px rgba(17, 17, 19, 0.12);
 
   --btn-bg: #111113;
   --btn-bg-hover: #2a2a2e;
@@ -110,10 +105,6 @@
     --blue: #86a9ec;
     --blue-soft: rgba(134, 169, 236, 0.14);
 
-    --btn-correct: #25824f;
-    --btn-wrong: #c2433a;
-    --btn-fast: #4170c9;
-    --btn-solid-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 2px rgba(0, 0, 0, 0.4);
 
     --btn-bg: #f3f3f4;
     --btn-bg-hover: #ffffff;
@@ -308,19 +299,36 @@ button:disabled { cursor: default; }
 .btn-secondary { border: 1px solid var(--line-2); color: var(--ink); }
 .btn-secondary:hover:not(:disabled) { border-color: var(--ink-3); }
 .btn-danger { background: var(--wrong); color: #fff; }
-.btn-correct, .btn-wrong, .btn-fasttrack { color: #fff; box-shadow: var(--btn-solid-shadow); }
-.btn-correct { background: var(--btn-correct); }
-.btn-wrong { background: var(--btn-wrong); }
-.btn-correct:disabled, .btn-wrong:disabled, .btn-fasttrack:disabled { background: var(--btn-disabled); color: var(--btn-disabled-fg); box-shadow: none; }
-.btn-correct:hover:not(:disabled), .btn-wrong:hover:not(:disabled), .btn-fasttrack:hover:not(:disabled) { filter: brightness(1.06); }
+/* Bewertungsknöpfe im Stil der markierten Antworten: kräftiger farbiger
+   Rand (1 px Rand + 1 px Innenschatten), blass getönte Fläche, farbige Schrift. */
+.btn-correct, .btn-wrong, .btn-fasttrack {
+  --tone: var(--ink-2);
+  --tone-soft: var(--surface-2);
+  background: var(--tone-soft);
+  color: var(--tone);
+  border: 1px solid var(--tone);
+  box-shadow: inset 0 0 0 1px var(--tone);
+  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease, box-shadow 0.15s ease, transform 0.1s ease;
+}
+.btn-correct { --tone: var(--correct); --tone-soft: var(--correct-soft); }
+.btn-wrong { --tone: var(--wrong); --tone-soft: var(--wrong-soft); }
+.btn-fasttrack { --tone: var(--blue); --tone-soft: var(--blue-soft); }
+.btn-correct:hover:not(:disabled), .btn-wrong:hover:not(:disabled), .btn-fasttrack:hover:not(:disabled) {
+  background: color-mix(in srgb, var(--tone) 16%, var(--bg));
+}
+.btn-correct:disabled, .btn-wrong:disabled, .btn-fasttrack:disabled {
+  background: transparent;
+  color: var(--ink-4);
+  border-color: var(--line-2);
+  box-shadow: none;
+}
 .btn-fill { flex: 1; width: auto; min-width: 0; }
 .btn-fasttrack {
   width: 50px;
   flex-shrink: 0;
   padding: 0;
-  background: var(--btn-fast);
 }
-.btn-fasttrack svg { width: 19px; height: 19px; }
+.btn-fasttrack svg { width: 20px; height: 20px; stroke-width: 2.1; }
 
 .seg {
   display: flex;
@@ -442,54 +450,44 @@ button.mode:hover:not(:disabled) .mode-go { color: var(--ink-2); transform: tran
 }
 
 /* ---------- Prio-Symbol (Karte und Filter) ----------
-   Gemeinsamer Look: abgerundetes Quadrat, feiner Rand und blasse Füllung in
-   der jeweiligen Prio-Farbe (rot/grau/blau), Symbol in derselben Farbe. */
+   Das Symbol ist ein vollständiges SVG (js/tokens.js prioIcon): Squircle-
+   Fläche in blasser Prio-Farbe, feiner Innenring, Zeichen in voller Farbe.
+   Hier werden nur die Farben je Prio gesetzt. */
 
 .prio-btn, .prio-toggle-btn {
   position: relative;
   display: inline-flex;
-  align-items: center;
-  justify-content: center;
   flex-shrink: 0;
-  border: 1px solid transparent;
-  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease, transform 0.1s ease;
+  border-radius: 30%;
+  transition: transform 0.12s var(--ease);
 }
-.prio-btn:active, .prio-toggle-btn:active { transform: scale(0.94); }
-.prio-btn[data-prio="hoch"], .prio-toggle-btn[data-prio="hoch"] { background: var(--wrong-soft); color: var(--wrong); border-color: color-mix(in srgb, var(--wrong) 35%, transparent); }
-.prio-btn[data-prio="normal"], .prio-toggle-btn[data-prio="normal"] { background: var(--surface-2); color: var(--ink-2); border-color: var(--line-2); }
-.prio-btn[data-prio="niedrig"], .prio-toggle-btn[data-prio="niedrig"] { background: var(--blue-soft); color: var(--blue); border-color: color-mix(in srgb, var(--blue) 35%, transparent); }
+.prio-btn:active, .prio-toggle-btn:active { transform: scale(0.92); }
+.prio-icon { display: block; width: 100%; height: 100%; overflow: visible; }
+.prio-bg {
+  fill: var(--prio-tint);
+  stroke: var(--prio-ring);
+  stroke-width: 1px;
+  vector-effect: non-scaling-stroke;
+  transition: fill 0.15s ease, stroke 0.15s ease;
+}
+.prio-glyph { fill: var(--prio-ink); stroke: var(--prio-ink); transition: fill 0.15s ease, stroke 0.15s ease; }
+.prio-slash { fill: none; stroke: var(--ink-3); stroke-width: 4.5; stroke-linecap: round; }
+
+[data-prio="hoch"] { --prio-ink: var(--wrong); --prio-tint: var(--wrong-soft); --prio-ring: color-mix(in srgb, var(--wrong) 24%, transparent); }
+[data-prio="normal"] { --prio-ink: var(--ink-2); --prio-tint: var(--surface-2); --prio-ring: var(--line-2); }
+[data-prio="niedrig"] { --prio-ink: var(--blue); --prio-tint: var(--blue-soft); --prio-ring: color-mix(in srgb, var(--blue) 24%, transparent); }
 
 /* ---------- Prio-Filter ---------- */
 
-.prio-toggle { display: flex; gap: 8px; margin: -12px 0 18px; }
-.prio-toggle-btn {
-  width: 36px;
-  height: 36px;
-  border-radius: 10px;
-  overflow: hidden;
-}
-.prio-toggle-btn svg { width: 18px; height: 18px; }
-/* Abgeschaltet: blass und grau, fein diagonal durchgestrichen (Strich mit
-   schmalem Freiraum zum Symbol, endet vor dem Rand) */
+.prio-toggle { display: flex; gap: 10px; margin: -12px 0 18px; }
+.prio-toggle-btn { width: 34px; height: 34px; }
+/* Abgeschaltet: blass und grau, fein diagonal durchgestrichen */
 .prio-toggle-btn[data-active="false"] {
-  background: transparent;
-  border-color: var(--line);
-  color: var(--ink-4);
+  --prio-ink: var(--ink-4);
+  --prio-tint: transparent;
+  --prio-ring: var(--line-2);
 }
-.prio-toggle-btn[data-active="false"] svg { opacity: 0.75; }
-.prio-toggle-btn[data-active="false"]::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  width: 30px;
-  height: 1.5px;
-  border-radius: 1px;
-  background: var(--ink-4);
-  box-shadow: 0 0 0 1.5px var(--bg);
-  transform: translate(-50%, -50%) rotate(45deg);
-}
-.prio-toggle-btn[data-active="false"]:hover { color: var(--ink-3); }
+.prio-toggle-btn[data-active="false"] .prio-glyph { opacity: 0.75; }
 
 /* ---------- Listen ---------- */
 
@@ -607,7 +605,7 @@ button.row:active:not(:disabled), label.row:active { background: var(--surface-2
   display: flex;
   align-items: center;
   gap: 6px;
-  margin: -1px -6px 6px 14px;
+  margin: 2px -4px 6px 14px;
 }
 .creator-chip {
   display: inline-flex;
@@ -628,14 +626,9 @@ button.row:active:not(:disabled), label.row:active { background: var(--surface-2
 .creator-chip[data-user="marius"] { --user-color: var(--marius); }
 .creator-chip[data-user="agnessa"] { --user-color: var(--agnessa); }
 
-.prio-btn {
-  width: 26px;
-  height: 26px;
-  border-radius: 8px;
-}
-.prio-btn svg { width: 15px; height: 15px; }
+.prio-btn { width: 24px; height: 24px; }
 /* größere Tippfläche, ohne das Symbol optisch zu vergrößern */
-.prio-btn::before { content: ""; position: absolute; inset: -9px; }
+.prio-btn::before { content: ""; position: absolute; inset: -10px; }
 
 .level-chip {
   display: inline-flex;
@@ -737,7 +730,7 @@ button.row:active:not(:disabled), label.row:active { background: var(--surface-2
   .dock { padding: 8px 0 calc(8px + env(safe-area-inset-bottom)); }
   .q { padding: 2px 0 4px; }
   .q-text { padding: 18px 16px 16px; margin-bottom: 12px; font-size: 18px; }
-  .q-text .card-meta { margin: 0 -4px 6px 12px; }
+  .q-text .card-meta { margin: 2px -2px 6px 12px; }
   .answers { --answers-gap: 6px; }
   .answer { min-height: 50px; padding: 8px 10px; font-size: 14.5px; }
   .quiz-explain { padding: 9px 10px 11px; font-size: 12.5px; }

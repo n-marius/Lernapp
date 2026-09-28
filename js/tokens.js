@@ -22,9 +22,13 @@ const PRIO_ICON = {
   niedrig: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 18.5l-6.5-7h13z" fill="currentColor"/></svg>`,
 };
 
+export function prioIcon(prio) {
+  return PRIO_ICON[prio] ?? PRIO_ICON.normal;
+}
+
 export function prioChip(prio) {
   const label = PRIO_LABEL[prio] ?? PRIO_LABEL.normal;
-  return `<button type="button" class="prio-btn" data-prio="${prio}" aria-label="${label} – antippen zum Ändern">${PRIO_ICON[prio] ?? PRIO_ICON.normal}</button>`;
+  return `<button type="button" class="prio-btn" data-prio="${prio}" aria-label="${label} – antippen zum Ändern">${prioIcon(prio)}</button>`;
 }
 
 export function updatePrioChip(btn, prio) {

@@ -170,11 +170,13 @@ laufen lassen.
    Rechtsgebiete ohne Karten ausgegraut; im Modus „Karten anlegen“ sind immer
    alle vier wählbar (die Wahl bestimmt nur das Rechtsgebiet der neuen
    Karte). In den beiden Lernmodi sitzen oberhalb der Liste drei
-   Umschalt-Knöpfe „Hoch“/„Normal“/„Niedrig“ (Prio-Filter): Beim Öffnen der
-   Seite sind alle drei aktiv; Antippen schaltet eine Prio ab (durchgestrichen
-   und blass) bzw. wieder an – mindestens eine muss aktiv bleiben. Nur Karten
-   mit einer der aktiven Prios (persönliche Prio des Nutzers, siehe 5.1a)
-   werden in Kartenzahl, Stufenwahl und dem anschließenden Lauf berücksichtigt.
+   Umschalt-Knöpfe (Prio-Filter) – dieselben abgerundet-quadratischen
+   Prio-Symbole wie auf der Karte (Abschnitt 5.1a), mit demselben farbigen
+   Rand und derselben blassen Füllung. Beim Öffnen der Seite sind alle drei
+   aktiv; Antippen schaltet eine Prio ab (diagonal durchgestrichen, blass und
+   grau) bzw. wieder an – mindestens eine muss aktiv bleiben. Nur Karten mit
+   einer der aktiven Prios (persönliche Prio des Nutzers, siehe 5.1a) werden
+   in Kartenzahl, Stufenwahl und dem anschließenden Lauf berücksichtigt.
    Die Auswahl gilt nur für diesen einen Lauf und wird nicht gespeichert.
 5. **Nur im manuellen Lernmodus:** Stufe wählen (1–5, ausgegraut ohne
    Karten). Der Automatikmodus überspringt diesen Schritt – er zieht Karten
@@ -256,9 +258,10 @@ Melden-Funktion und die Motivations-Einblendungen für Agnessa funktionieren
 identisch zum manuellen Modus.
 
 **Prio-Symbol und persönliche Änderung:** In beiden Lernmodi (manuell und
-automatisch) zeigt ein kleines Symbol oben links im Fragefeld die aktuelle
-Prio der Karte (Dreieck aufwärts/rot = hoch, Strich/grau = normal, Dreieck
-abwärts/blau = niedrig). Antippen schaltet zur nächsten Prio
+automatisch) zeigt ein kleines, abgerundet-quadratisches Symbol oben links
+im Fragefeld die aktuelle Prio der Karte – Rand und blasse Füllung in der
+jeweiligen Farbe: Dreieck aufwärts/rot = hoch, Strich/grau = normal, Dreieck
+abwärts/blau = niedrig. Antippen schaltet zur nächsten Prio
 weiter (hoch → normal → niedrig → hoch). Diese Änderung ist **rein
 persönlich**: Sie wirkt sich nur auf die Gewichtung und Anzeige für den
 Nutzer aus, der sie vorgenommen hat, verändert also weder die Karte selbst

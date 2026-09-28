@@ -424,24 +424,46 @@ button.mode:hover:not(:disabled) .mode-go { color: var(--ink-2); transform: tran
   color: var(--ink-3);
 }
 
+/* ---------- Prio-Symbol (Karte und Filter) ----------
+   Gemeinsamer Look: abgerundetes Quadrat, Rand und blasse Füllung in der
+   jeweiligen Prio-Farbe (rot/grau/blau), Symbol in derselben Farbe. */
+
+.prio-btn[data-prio="hoch"], .prio-toggle-btn[data-prio="hoch"] { border-color: var(--wrong); background: var(--wrong-soft); color: var(--wrong); }
+.prio-btn[data-prio="normal"], .prio-toggle-btn[data-prio="normal"] { border-color: var(--line-2); background: var(--surface-2); color: var(--ink-2); }
+.prio-btn[data-prio="niedrig"], .prio-toggle-btn[data-prio="niedrig"] { border-color: var(--accent); background: var(--accent-tint); color: var(--accent); }
+
 /* ---------- Prio-Filter ---------- */
 
-.prio-toggle { display: flex; gap: 8px; margin: 0 0 18px; }
+.prio-toggle { display: flex; gap: 10px; margin: 0 0 18px; }
 .prio-toggle-btn {
-  flex: 1;
-  height: 38px;
-  border-radius: 999px;
+  width: 46px;
+  height: 46px;
+  border-radius: 12px;
   border: 1px solid var(--line-2);
-  background: var(--surface);
-  font-size: 13.5px;
-  font-weight: 620;
-  transition: opacity 0.15s ease, border-color 0.15s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: opacity 0.15s ease, border-color 0.15s ease, background-color 0.15s ease, color 0.15s ease;
 }
-.prio-toggle-btn:hover { border-color: var(--ink-3); }
-.prio-toggle-btn[data-prio="hoch"] { color: var(--wrong); }
-.prio-toggle-btn[data-prio="normal"] { color: var(--ink-2); }
-.prio-toggle-btn[data-prio="niedrig"] { color: var(--accent); }
-.prio-toggle-btn[data-active="false"] { opacity: 0.4; text-decoration: line-through; }
+.prio-toggle-btn svg { width: 20px; height: 20px; }
+.prio-toggle-btn[data-active="false"] {
+  opacity: 1;
+  border-color: var(--line);
+  background: var(--surface-2);
+  color: var(--ink-4);
+}
+.prio-toggle-btn[data-active="false"]::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 140%;
+  height: 1.5px;
+  background: var(--ink-4);
+  opacity: 0.7;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
 
 /* ---------- Listen ---------- */
 
@@ -580,15 +602,12 @@ button.row:active:not(:disabled), label.row:active { background: var(--surface-2
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50%;
-  background: var(--surface-2);
-  color: var(--ink-3);
-  transition: background-color 0.15s ease, color 0.15s ease;
+  border-radius: 9px;
+  border: 1px solid var(--line-2);
+  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease, opacity 0.15s ease;
 }
 .prio-btn svg { width: 15px; height: 15px; }
-.prio-btn:hover { background: var(--hover); }
-.prio-btn[data-prio="hoch"] { color: var(--wrong); }
-.prio-btn[data-prio="niedrig"] { color: var(--accent); }
+.prio-btn:hover { opacity: 0.8; }
 
 .level-chip {
   display: inline-flex;

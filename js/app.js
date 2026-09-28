@@ -28,7 +28,7 @@ import {
   setCardEdit,
 } from "./store.js";
 import { getSyncConfig, setSyncConfig, sync, resetStatsForUser, resetLevelsForUser } from "./sync.js";
-import { escapeHtml } from "./tokens.js";
+import { escapeHtml, prioIcon, PRIO_LABEL } from "./tokens.js";
 
 const GEBIET_NAMEN = {
   zivilgericht: "Zivilgericht",
@@ -259,8 +259,6 @@ async function showAutoManualPick(mode) {
 function isAutoMode(mode) { return mode.endsWith("-auto"); }
 function baseMode(mode) { return mode.replace("-auto", ""); }
 
-const PRIO_KURZ = { hoch: "Hoch", normal: "Normal", niedrig: "Niedrig" };
-
 async function showGebietPick(mode, allowedPrios = new Set(PRIOS)) {
   const showPrioFilter = mode !== "create";
   const baseCards = await allCards();
@@ -284,7 +282,7 @@ async function showGebietPick(mode, allowedPrios = new Set(PRIOS)) {
 
   const prioFilterHtml = showPrioFilter
     ? `<div class="prio-toggle" role="group" aria-label="Prio-Filter">
-        ${PRIOS.map((p) => `<button type="button" class="prio-toggle-btn" data-prio="${p}" data-active="${allowedPrios.has(p)}">${PRIO_KURZ[p]}</button>`).join("")}
+        ${PRIOS.map((p) => `<button type="button" class="prio-toggle-btn" data-prio="${p}" data-active="${allowedPrios.has(p)}" aria-label="${PRIO_LABEL[p]}${allowedPrios.has(p) ? "" : " (ausgeblendet)"}">${prioIcon(p)}</button>`).join("")}
       </div>`
     : "";
 

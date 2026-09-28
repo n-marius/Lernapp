@@ -78,6 +78,7 @@ den ursprünglichen Chatverlauf) genau weiß, wie die App funktionieren soll.
     {
       "id": "strafrecht-0001",
       "gebiet": "strafrecht",
+      "prio": "normal",
       "frage": "…",
       "antworten": ["richtige Antwort", "falsch 1", "falsch 2", "falsch 3"],
       "erklaerung": "…",
@@ -98,6 +99,9 @@ den ursprünglichen Chatverlauf) genau weiß, wie die App funktionieren soll.
   Vereinfachung: Karten sind klein, ein zusätzlicher Netzwerk-Abruf je Karte
   beim Öffnen einer Stufe würde nur unnötige Komplexität bringen.
 - `gebiet` ∈ `zivilgericht`, `strafrecht`, `rechtsanwalt`, `verwaltungsrecht`.
+- `prio` ∈ `hoch`, `normal`, `niedrig` – Ausgangswert für den Automatikmodus
+  (Abschnitt 5.1a). Jeder Nutzer kann sie durch Antippen des Prio-Symbols
+  für sich selbst ändern, ohne den hier gespeicherten Grundwert zu berühren.
 - `creator` ist beim Grundbestand immer `null` (kein Nutzer-Tag). Von einem
   Nutzer angelegte Karten (siehe Abschnitt 5) tragen hier `"marius"` oder
   `"agnessa"` und liegen nicht in `content/`, sondern in der lokalen
@@ -115,10 +119,10 @@ Muster `<gebiet>-0001`, `<gebiet>-0002`, … fortlaufend je Rechtsgebiet.
 
 Prüft vor jedem Commit:
 
-- Pflichtfelder sind gesetzt (`id`, `gebiet`, `frage`, genau 4 `antworten`,
-  `erklaerung`, `ts`).
+- Pflichtfelder sind gesetzt (`id`, `gebiet`, `prio`, `frage`, genau 4
+  `antworten`, `erklaerung`, `ts`).
 - `gebiet` ist eines der vier erlaubten Werte und stimmt mit dem Ordner
-  überein.
+  überein; `prio` ist `hoch`, `normal` oder `niedrig`.
 - Keine doppelten IDs, jede Datei ist im Index gelistet und umgekehrt.
 - `version` wurde erhöht, sobald sich `content/` (außer `content/_inbox`)
   gegenüber dem letzten Commit geändert hat.
@@ -201,22 +205,35 @@ der Stufe. Das ist ein vereinfachter, aber an anerkannten Lernkartei-Systemen
 miteinander multipliziert, statt eine einzelne komplizierte Formel zu bauen.
 Implementiert in `js/cards.js` (`pickWeightedCard`).
 
-Drei Gewichtungsfaktoren:
+Vier Gewichtungsfaktoren:
 
 1. **Stufe:** Jede Stufe wiegt nur noch ein Drittel der vorherigen Stufe
    (Faktor 3 pro Stufe: 81 – 27 – 9 – 3 – 1 für Stufe 1–5). Eine Karte in
    Stufe 5 hat also nur 1/81 des Gewichts einer Karte in Stufe 1 und kommt
-   dementsprechend selten dran, ohne komplett zu verschwinden.
-2. **Zeit seit der letzten Bearbeitung:** Startet bei einem kleinen
-   Sockelwert (5 % des vollen Gewichts) direkt nach der Bearbeitung, damit
-   eine gerade erst beantwortete Karte nicht sofort wieder auftaucht, und
-   nähert sich mit einer Halbwertszeit von 24 Stunden dem vollen Gewicht an
-   (nach rund 24 Std. ca. 65 %, nach 2–3 Tagen praktisch 100 %). Das ist das
-   in Lernkarteien übliche Modell „je länger her, desto fälliger“.
+   dementsprechend selten dran, ohne komplett zu verschwinden. Da die Stufe
+   modusübergreifend gilt (Abschnitt 4), wirkt sich eine im **manuellen**
+   Modus bearbeitete Karte unmittelbar auch auf die Automatik aus – für
+   beide Lernmodi (Karteikarten und Frage-Antwort) gleichermaßen.
+2. **Zeit seit der letzten Bearbeitung** (ebenfalls modusübergreifend):
+   Bei einem Kartenbestand von perspektivisch hunderten bis über tausend
+   Karten sorgt schon die schiere Menge für eine natürliche Verteilung
+   (praktisch FIFO). Das Gewicht muss deshalb nicht schnell ansteigen –
+   verwendet wird eine Weibull-Kurve (in Zuverlässigkeitsmodellen der
+   gängige Ansatz für „verzögert einsetzende, dann beschleunigende“
+   Zeitverläufe): nach 1 Tag ca. 8 %, nach 3 Tagen ca. 37 %, nach 1 Woche
+   ca. 88 % des vollen Gewichts. Direkt nach der Bearbeitung liegt das
+   Gewicht bei einem kleinen Sockelwert (2 %), damit eine gerade erst
+   beantwortete Karte praktisch nicht sofort wieder auftaucht.
 3. **Nie bearbeitete Karten** bekommen zusätzlich den dreifachen Bonus, damit
    neue Karten zügig einmal drankommen, statt lange unten anzustehen.
+4. **Prio:** Jede Karte hat eine Priorität `hoch`, `normal` oder `niedrig`
+   (Grundwert aus dem Kartenbestand, siehe Abschnitt 3.1; von Nutzern selbst
+   angelegte Karten starten bei `normal`). `hoch` wird moderat aufgewichtet
+   (Faktor 1,5), `niedrig` moderat abgewichtet (Faktor 0,6) – bewusst deutlich
+   schwächer als der Stufen-Faktor, damit die Prio die Grundlogik nur
+   nachjustiert, nicht überstimmt.
 
-Die drei Faktoren werden multipliziert; aus den entstehenden Gewichten wird
+Die vier Faktoren werden multipliziert; aus den entstehenden Gewichten wird
 per Zufall gezogen (höheres Gewicht = höhere Wahrscheinlichkeit, nicht
 Garantie). Dieselbe Karte wird nie zweimal direkt hintereinander gezogen,
 solange das Rechtsgebiet mehr als eine Karte enthält. Der Automatikmodus hat
@@ -224,6 +241,16 @@ kein festes Ende („Stufe abgeschlossen“ gibt es hier nicht) – er läuft, b
 über „Modus verlassen“ zurückgegangen wird. Stufenwechsel, Statistik,
 Melden-Funktion und die Motivations-Einblendungen für Agnessa funktionieren
 identisch zum manuellen Modus.
+
+**Prio-Symbol und persönliche Änderung:** In beiden Lernmodi (manuell und
+automatisch) zeigt ein kleines Symbol oben links im Fragefeld die aktuelle
+Prio der Karte (Dreieck aufwärts/akzentfarben = hoch, Strich = normal,
+Dreieck abwärts/gedämpft = niedrig). Antippen schaltet zur nächsten Prio
+weiter (hoch → normal → niedrig → hoch). Diese Änderung ist **rein
+persönlich**: Sie wirkt sich nur auf die Gewichtung und Anzeige für den
+Nutzer aus, der sie vorgenommen hat, verändert also weder die Karte selbst
+noch die Sicht des anderen Nutzers (technisch: eine per Nutzer und Karte
+gespeicherte Übersteuerung, siehe Abschnitt 7 und 8).
 
 ### 5.2 Frage-Antwort-Modus
 
@@ -323,6 +350,12 @@ identisch zum manuellen Modus.
 - `levels` – Leitner-Stufe je Nutzer und Karte, Schlüssel
   `"<nutzer>:<cardId>"`: `{ key, user, cardId, stufe, ts }`. `ts` ist der
   Zeitpunkt des letzten Stufenwechsels dieser Karte durch diesen Nutzer.
+- `prios` – persönliche Prio-Änderung je Nutzer und Karte, gleicher
+  Schlüsselaufbau wie `levels`: `{ key, user, cardId, prio, ts }`. Nur
+  vorhanden, wenn dieser Nutzer die Prio dieser Karte mindestens einmal
+  selbst geändert hat; ohne Eintrag gilt die Grund-Prio der Karte
+  (Abschnitt 3.1). Ein Stufen-Reset (siehe unten) setzt `prios` **nicht**
+  zurück – die persönliche Prio bleibt bewusst unabhängig vom Lernfortschritt.
 - `events` – bearbeitete Karten je Nutzer, für die Tagesstatistik,
   append-only: `{ id, user, ts, cardId, correct, mode }` (`mode` ist
   `"cards"` oder `"quiz"`).
@@ -362,7 +395,7 @@ Gist: `stats.json`.
     { "uuid": "…", "gebiet": "strafrecht", "frage": "…", "antworten": ["…", "…", "…", "…"], "erklaerung": "…", "creator": "marius", "ts": "…" }
   ],
   "users": {
-    "marius":  { "resetAt": null, "levelsResetAt": null, "levels": { "<cardId>": { "stufe": 3, "ts": "…" } }, "events": [ { "id": "…", "ts": "…", "cardId": "…", "correct": true, "mode": "cards" } ] },
+    "marius":  { "resetAt": null, "levelsResetAt": null, "levels": { "<cardId>": { "stufe": 3, "ts": "…" } }, "prios": { "<cardId>": { "prio": "hoch", "ts": "…" } }, "events": [ { "id": "…", "ts": "…", "cardId": "…", "correct": true, "mode": "cards" } ] },
     "agnessa": { "…": "…" }
   },
   "flags": {
@@ -381,6 +414,8 @@ Gist: `stats.json`.
 - je Nutzer `levels`: pro Karte gewinnt der Eintrag mit dem **späteren**
   Zeitstempel (CRDT-artig: „letzter Schreibvorgang gewinnt“, ganz ohne
   Konflikterkennung, weil pro Karte immer nur ein Wert zählt).
+- je Nutzer `prios`: genauso wie `levels` (pro Karte gewinnt der spätere
+  Zeitstempel).
 - je Nutzer `events`: Vereinigung nach `id` (append-only), Einträge mit
   `ts <= resetAt` werden verworfen.
 - je Nutzer `resetAt` / `levelsResetAt`: jeweils der spätere Wert aus lokal
@@ -479,6 +514,16 @@ von echten Ereignissen einmalig anzuzeigen.
 - **„Durchgang“ für die Serien-Einblendung** = eine Öffnung eines Lernmodus
   bis zum Verlassen (Zurück-Knopf), unabhängig vom Rechtsgebiet oder der
   Stufe innerhalb dieser einen Öffnung.
+- **Prio-Gewichte** (Abschnitt 5.1a) bewusst moderat gewählt (1,5 / 1 / 0,6),
+  damit die Prio die stufenbasierte Grundlogik nur nachjustiert.
+- **Zeitkurve des Automatikmodus** (Weibull, Formparameter 1,8, Skala 112,5
+  Std.) wurde an drei vorgegebenen Anhaltspunkten ausgerichtet (1 Tag ≈ 5 %,
+  3 Tage ≈ 50 %, 1 Woche ≈ 80 %). Eine einzelne Kurve mit nur zwei freien
+  Parametern kann nicht alle drei Punkte exakt treffen; die gewählte Kurve
+  trifft den 1-Tage- und den 1-Wochen-Wert am genauesten (ca. 8 % bzw. 88 %)
+  und liegt beim 3-Tage-Wert mit ca. 37 % darunter. Bei Bedarf lässt sich das
+  in `js/cards.js` (`AUTO_RECENCY_TAU_HOURS`, `AUTO_RECENCY_SHAPE`) leicht
+  nachjustieren.
 
 ## 13. Offen (später zu klären)
 

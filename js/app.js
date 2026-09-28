@@ -13,6 +13,9 @@ import {
   addUserCard,
   getAllLevels,
   setLevel,
+  getAllPrios,
+  setPrio,
+  effectivePrio,
   getAllEvents,
   addEvent,
   cardKey,
@@ -119,6 +122,21 @@ async function allCards() {
 async function levelsMap(user) {
   const levels = await getAllLevels(user);
   return new Map(levels.map((l) => [l.cardId, l]));
+}
+
+async function priosMap(user) {
+  const prios = await getAllPrios(user);
+  return new Map(prios.map((p) => [p.cardId, p]));
+}
+
+// Speichert eine per Antippen geänderte Prio für den aktuellen Nutzer, aktualisiert
+// die im Durchgang bereits geladene Map (damit die Automatik sie sofort berücksichtigt)
+// und synchronisiert. Die Änderung gilt ausdrücklich nur für diesen Nutzer.
+async function changePrio(prios, card, prio) {
+  const ts = new Date().toISOString();
+  await setPrio(currentUser, cardKey(card), prio, ts);
+  prios.set(cardKey(card), { cardId: cardKey(card), prio, ts });
+  sync();
 }
 
 // ---------- Nutzerwahl ----------
@@ -442,6 +460,7 @@ async function showFlashcardMode(gebiet, stufe) {
 
   const cards = await allCards();
   const levels = await levelsMap(currentUser);
+  const prios = await priosMap(currentUser);
   const queue = buildQueue(cards, gebiet, stufe, levels);
 
   render("flashcards", {
@@ -495,6 +514,8 @@ async function showFlashcardMode(gebiet, stufe) {
     currentCard = card;
     renderFlashcard(stage, card, {
       onRevealed: () => { wrongBtn.disabled = false; richtigBtn.disabled = false; },
+      prio: effectivePrio(card, prios),
+      onPrioChange: (prio) => changePrio(prios, card, prio),
     });
     const result = await new Promise((resolve) => {
       skipCurrent = () => resolve({ flagged: true });
@@ -520,6 +541,7 @@ async function showQuizMode(gebiet, stufe) {
 
   const cards = await allCards();
   const levels = await levelsMap(currentUser);
+  const prios = await priosMap(currentUser);
   const queue = buildQueue(cards, gebiet, stufe, levels);
 
   render("quiz-mode", {
@@ -568,6 +590,8 @@ async function showQuizMode(gebiet, stufe) {
     let outcome = null;
     renderQuizCard(stage, card, {
       onAnswered: (correct) => { outcome = { correct }; nextBtn.disabled = false; },
+      prio: effectivePrio(card, prios),
+      onPrioChange: (prio) => changePrio(prios, card, prio),
     });
     const result = await new Promise((resolve) => {
       skipCurrent = () => resolve({ flagged: true });
@@ -640,7 +664,8 @@ async function showAutoMode(mode, gebiet) {
     }
     progress.textContent = `${answered} bearbeitet`;
     const levels = await levelsMap(currentUser);
-    const card = pickWeightedCard(pool, levels, lastKey);
+    const prios = await priosMap(currentUser);
+    const card = pickWeightedCard(pool, levels, prios, lastKey);
     currentCard = card;
     lastKey = cardKey(card);
 
@@ -652,6 +677,8 @@ async function showAutoMode(mode, gebiet) {
       richtigBtn.disabled = true;
       renderFlashcard(stage, card, {
         onRevealed: () => { wrongBtn.disabled = false; richtigBtn.disabled = false; },
+        prio: effectivePrio(card, prios),
+        onPrioChange: (prio) => changePrio(prios, card, prio),
       });
       result = await new Promise((resolve) => {
         skipCurrent = () => resolve({ flagged: true });
@@ -666,6 +693,8 @@ async function showAutoMode(mode, gebiet) {
       let outcome = null;
       renderQuizCard(stage, card, {
         onAnswered: (correct) => { outcome = { correct }; nextBtn.disabled = false; },
+        prio: effectivePrio(card, prios),
+        onPrioChange: (prio) => changePrio(prios, card, prio),
       });
       result = await new Promise((resolve) => {
         skipCurrent = () => resolve({ flagged: true });

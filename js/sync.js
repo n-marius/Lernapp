@@ -8,7 +8,7 @@
 //   "v": 1,
 //   "cards": [ { uuid, gebiet, frage, antworten: [4], erklaerung, creator, ts }, ... ],
 //   "users": {
-//     "marius":  { "resetAt": null, "levelsResetAt": null, "levels": { "<cardId>": { "stufe": 1, "ts": "…" } }, "events": [ { id, ts, cardId, correct, mode } ] },
+//     "marius":  { "resetAt": null, "levelsResetAt": null, "levels": { "<cardId>": { "stufe": 1, "ts": "…" } }, "prios": { "<cardId>": { "prio": "hoch", "ts": "…" } }, "events": [ { id, ts, cardId, correct, mode } ] },
 //     "agnessa": { … }
 //   },
 //   "flags": { "<flag-id>": { id, cardId, field, note, flaggedBy, ts, status } },
@@ -18,6 +18,7 @@
 // Merge-Regeln:
 //  - cards: Vereinigung nach uuid (append-only, Karten werden nie geändert oder gelöscht).
 //  - je Nutzer levels: pro Karte gewinnt der Eintrag mit dem späteren Zeitstempel (CRDT, kein Konflikt möglich).
+//  - je Nutzer prios: genauso wie levels (persönliche Prio-Änderung, siehe SPEC.md Abschnitt 5.1a).
 //  - je Nutzer events: Vereinigung nach id (append-only), Einträge <= resetAt werden verworfen.
 //  - je Nutzer resetAt / levelsResetAt: jeweils der spätere Wert aus lokal und Gist gilt auf allen Geräten.
 //  - flags: pro Meldung (id) gewinnt der Eintrag mit dem späteren Zeitstempel.
@@ -32,6 +33,8 @@ import {
   mergeLevels,
   deleteLevelsUpTo,
   clearAllLevels,
+  getAllPrios,
+  mergePrios,
   getAllEvents,
   mergeEvents,
   deleteEventsUpTo,
@@ -82,6 +85,11 @@ export async function resetLevelsForUser(user) {
 async function levelsAsObject(user) {
   const levels = await getAllLevels(user);
   return Object.fromEntries(levels.map((l) => [l.cardId, { stufe: l.stufe, ts: l.ts }]));
+}
+
+async function priosAsObject(user) {
+  const prios = await getAllPrios(user);
+  return Object.fromEntries(prios.map((p) => [p.cardId, { prio: p.prio, ts: p.ts }]));
 }
 
 async function run() {
@@ -149,10 +157,14 @@ async function run() {
       await mergeLevels(user, remoteUser.levels ?? {}, levelsResetAt);
       const mergedLevels = await levelsAsObject(user);
 
+      await mergePrios(user, remoteUser.prios ?? {});
+      const mergedPrios = await priosAsObject(user);
+
       if (mergedEvents.length !== beforeEvents.length) changed = true;
       if (Object.keys(mergedLevels).length !== Object.keys(remoteUser.levels ?? {}).length) changed = true;
+      if (Object.keys(mergedPrios).length !== Object.keys(remoteUser.prios ?? {}).length) changed = true;
 
-      usersOut[user] = { resetAt, levelsResetAt, levels: mergedLevels, events: mergedEvents };
+      usersOut[user] = { resetAt, levelsResetAt, levels: mergedLevels, prios: mergedPrios, events: mergedEvents };
     }
 
     const mergedCards = await getAllUserCards();

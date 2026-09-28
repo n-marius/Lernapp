@@ -4,6 +4,8 @@
 //  - settings          Schlüssel/Wert (u. a. aktueller Nutzer, Sync-Zugang)
 //  - userCards         von Marius/Agnessa selbst angelegte Karten (geteilter Inhalt)
 //  - levels            Leitner-Stufe je Nutzer und Karte: { key: "user:cardId", user, cardId, stufe, ts }
+//  - prios             persönliche Prio-Änderung je Nutzer und Karte (überschreibt die
+//                       Grund-Prio der Karte nur für diesen Nutzer): { key, user, cardId, prio, ts }
 //  - events            bearbeitete Karten je Nutzer (für die Tagesstatistik), append-only
 //  - flags             Meldungen zu Karten ("Frage" oder "Antwort" ist falsch/unklar):
 //                       { id, cardId, field: "frage"|"antwort", note, flaggedBy, ts, status: "open"|"resolved" }
@@ -14,10 +16,11 @@
 // sondern beim Start als content/index.json geladen (siehe js/app.js).
 
 const DB_NAME = "lernapp";
-const DB_VERSION = 2;
+const DB_VERSION = 3;
 const STORE_SETTINGS = "settings";
 const STORE_USER_CARDS = "userCards";
 const STORE_LEVELS = "levels";
+const STORE_PRIOS = "prios";
 const STORE_EVENTS = "events";
 const STORE_FLAGS = "flags";
 const STORE_CARD_EDITS = "cardEdits";
@@ -25,6 +28,7 @@ const STORE_CARD_EDITS = "cardEdits";
 export const USERS = ["marius", "agnessa"];
 export const GEBIETE = ["zivilgericht", "strafrecht", "rechtsanwalt", "verwaltungsrecht"];
 export const STUFEN = [1, 2, 3, 4, 5];
+export const PRIOS = ["hoch", "normal", "niedrig"];
 
 function openDb() {
   return new Promise((resolve, reject) => {
@@ -39,6 +43,10 @@ function openDb() {
       }
       if (!db.objectStoreNames.contains(STORE_LEVELS)) {
         const store = db.createObjectStore(STORE_LEVELS, { keyPath: "key" });
+        store.createIndex("user", "user", { unique: false });
+      }
+      if (!db.objectStoreNames.contains(STORE_PRIOS)) {
+        const store = db.createObjectStore(STORE_PRIOS, { keyPath: "key" });
         store.createIndex("user", "user", { unique: false });
       }
       if (!db.objectStoreNames.contains(STORE_EVENTS)) {
@@ -209,6 +217,58 @@ export async function clearAllLevels(user) {
     t.oncomplete = () => resolve();
     t.onerror = () => reject(t.error);
   });
+}
+
+// ---------- Persönliche Prio (nur für den jeweiligen Nutzer) ----------
+// Die Grund-Prio einer Karte kommt aus dem Kartenbestand (Feld `prio`,
+// Grundbestand) bzw. ist „normal" (selbst angelegte Karten). Durch Antippen
+// des Prio-Symbols kann jeder Nutzer die Prio für sich selbst ändern, ohne
+// die Karte oder die Sicht des anderen Nutzers zu beeinflussen.
+
+export async function getAllPrios(user) {
+  const { store } = await tx(STORE_PRIOS, "readonly");
+  return new Promise((resolve, reject) => {
+    const req = store.index("user").getAll(IDBKeyRange.only(user));
+    req.onsuccess = () => resolve(req.result);
+    req.onerror = () => reject(req.error);
+  });
+}
+
+export async function setPrio(user, cardId, prio, ts) {
+  const { t, store } = await tx(STORE_PRIOS, "readwrite");
+  store.put({ key: levelKey(user, cardId), user, cardId, prio, ts });
+  return new Promise((resolve, reject) => {
+    t.oncomplete = () => resolve();
+    t.onerror = () => reject(t.error);
+  });
+}
+
+// CRDT-Merge: pro Karte gewinnt die Version mit dem späteren Zeitstempel (wie bei den Stufen).
+export async function mergePrios(user, remotePrios) {
+  const local = await getAllPrios(user);
+  const localByCard = new Map(local.map((p) => [p.cardId, p]));
+  const { t, store } = await tx(STORE_PRIOS, "readwrite");
+  for (const [cardId, remote] of Object.entries(remotePrios ?? {})) {
+    const existing = localByCard.get(cardId);
+    if (!existing || remote.ts > existing.ts) {
+      store.put({ key: levelKey(user, cardId), user, cardId, prio: remote.prio, ts: remote.ts });
+    }
+  }
+  return new Promise((resolve, reject) => {
+    t.oncomplete = () => resolve();
+    t.onerror = () => reject(t.error);
+  });
+}
+
+// Effektive Prio einer Karte für einen Nutzer: persönliche Änderung, sonst die Grund-Prio der Karte.
+export function effectivePrio(card, priosByCard) {
+  return priosByCard?.get(cardKey(card))?.prio ?? card.prio ?? "normal";
+}
+
+export function nextPrio(prio) {
+  if (prio === "hoch") return "normal";
+  if (prio === "normal") return "niedrig";
+  return "hoch";
 }
 
 // ---------- Statistik-Ereignisse ----------

@@ -1,7 +1,7 @@
 // Karteikarten-Modus: Anzeige einer Karte (Frage → Antwort → Erklärung → Bewertung)
 // und die Warteschlangen-Logik, die sich auch der Frage-Antwort-Modus teilt.
-import { escapeHtml } from "./tokens.js";
-import { cardKey } from "./store.js";
+import { escapeHtml, prioChip, updatePrioChip } from "./tokens.js";
+import { cardKey, effectivePrio, nextPrio } from "./store.js";
 
 // Baut die Warteschlange für ein Rechtsgebiet und eine Stufe: alle Karten,
 // die aktuell (für diesen Nutzer) in dieser Stufe stehen, aufsteigend nach dem
@@ -43,40 +43,58 @@ export function countByGebiet(allCards) {
 // ---------- Automatikmodus: gewichtete Wiederholung ----------
 //
 // Statt einer festen Stufe zieht der Automatikmodus bei jeder Karte neu aus
-// dem gesamten Rechtsgebiet – gewichtet nach drei Faktoren, die miteinander
+// dem gesamten Rechtsgebiet – gewichtet nach vier Faktoren, die miteinander
 // multipliziert werden (üblicher Ansatz bei Lernkarteien wie Anki: mehrere
 // unabhängige Gewichte kombinieren statt eine einzelne Formel zu erfinden):
 //
 // 1. Stufe: jede Stufe wiegt nur noch ein Drittel der vorherigen (Faktor 3),
 //    sodass Stufe 5 nur 1/81 des Gewichts von Stufe 1 hat – „kaum noch dran“.
-// 2. Zeit seit der letzten Bearbeitung: wächst von einem kleinen Sockelwert
-//    (eine gerade erst beantwortete Karte soll nicht sofort wiederkommen)
-//    über etwa 24 Stunden auf annähernd das volle Gewicht zu (exponentielle
-//    Sättigung – das übliche Modell für „je länger her, desto fälliger").
+//    Die Stufe ist modusübergreifend (Karteikarten und Frage-Antwort teilen
+//    sich denselben Fortschritt), eine Bearbeitung im manuellen Modus wirkt
+//    also unmittelbar auch auf die Automatik.
+// 2. Zeit seit der letzten Bearbeitung (ebenfalls modusübergreifend, siehe
+//    oben): Bei tausenden Karten reicht die schiere Menge bereits für eine
+//    natürliche Verteilung (FIFO), daher bleibt das Gewicht zunächst niedrig
+//    und steigt erst über mehrere Tage spürbar an. Verwendet wird eine
+//    Weibull-Verteilung (in Zuverlässigkeits-/Wartungsmodellen der übliche
+//    Ansatz für „verzögert einsetzende, dann beschleunigende" Kurven):
+//    nach 1 Tag ca. 8 %, nach 3 Tagen ca. 37 %, nach 1 Woche ca. 88 % des
+//    vollen Gewichts.
 // 3. Nie bearbeitete Karten bekommen einen festen Bonus, damit neue Karten
 //    zügig auftauchen, statt lange unten in der Warteschlange zu bleiben.
+// 4. Prio (siehe SPEC.md Abschnitt 5.1a): „hoch“ wird moderat auf-, „niedrig“
+//    moderat abgewichtet. Die persönliche Prio-Änderung eines Nutzers wirkt
+//    sich nur auf dessen eigene Automatik aus (siehe `effectivePrio`).
 const AUTO_STUFE_WEIGHT = { 1: 81, 2: 27, 3: 9, 4: 3, 5: 1 };
 const AUTO_NEVER_SEEN_BONUS = 3;
-const AUTO_RECENCY_FLOOR = 0.05;
-const AUTO_RECENCY_HALFLIFE_HOURS = 24;
+const AUTO_PRIO_WEIGHT = { hoch: 1.5, normal: 1, niedrig: 0.6 };
+const AUTO_RECENCY_FLOOR = 0.02;
+const AUTO_RECENCY_TAU_HOURS = 112.5; // Skalenparameter der Weibull-Kurve
+const AUTO_RECENCY_SHAPE = 1.8; // Formparameter: >1 = langsamer Start, dann Beschleunigung
 
-function autoCardWeight(card, levelsByCard, now) {
+function autoRecencyWeight(hoursSince) {
+  const x = Math.max(hoursSince, 0) / AUTO_RECENCY_TAU_HOURS;
+  const raw = 1 - Math.exp(-Math.pow(x, AUTO_RECENCY_SHAPE));
+  return AUTO_RECENCY_FLOOR + (1 - AUTO_RECENCY_FLOOR) * raw;
+}
+
+function autoCardWeight(card, levelsByCard, priosByCard, now) {
   const level = levelsByCard.get(cardKey(card));
   const stufe = level?.stufe ?? 1;
   const stufeWeight = AUTO_STUFE_WEIGHT[stufe] ?? 1;
-  if (!level?.ts) return stufeWeight * AUTO_NEVER_SEEN_BONUS;
+  const prioWeight = AUTO_PRIO_WEIGHT[effectivePrio(card, priosByCard)] ?? 1;
+  if (!level?.ts) return stufeWeight * AUTO_NEVER_SEEN_BONUS * prioWeight;
   const hoursSince = (now - new Date(level.ts).getTime()) / 3_600_000;
-  const recency = AUTO_RECENCY_FLOOR + (1 - AUTO_RECENCY_FLOOR) * (1 - Math.exp(-hoursSince / AUTO_RECENCY_HALFLIFE_HOURS));
-  return stufeWeight * recency;
+  return stufeWeight * autoRecencyWeight(hoursSince) * prioWeight;
 }
 
 // Zieht eine Karte gewichtet zufällig aus `pool`. `excludeKey` (die zuletzt
 // gezogene Karte) wird ausgeschlossen, solange noch andere Karten übrig sind,
 // damit dieselbe Karte nicht zweimal hintereinander erscheint.
-export function pickWeightedCard(pool, levelsByCard, excludeKey) {
+export function pickWeightedCard(pool, levelsByCard, priosByCard, excludeKey) {
   const candidates = pool.length > 1 ? pool.filter((c) => cardKey(c) !== excludeKey) : pool;
   const now = Date.now();
-  const weights = candidates.map((c) => autoCardWeight(c, levelsByCard, now));
+  const weights = candidates.map((c) => autoCardWeight(c, levelsByCard, priosByCard, now));
   const total = weights.reduce((a, b) => a + b, 0);
   if (total <= 0) return candidates[Math.floor(Math.random() * candidates.length)];
   let r = Math.random() * total;
@@ -97,17 +115,29 @@ function creatorChip(card) {
 // die Antwort + Erklärung). Die Falsch/Richtig-Knöpfe sitzen fest am unteren
 // Bildschirmrand (siehe js/app.js showFlashcardMode) und werden erst nach dem
 // Aufdecken aktiv – dafür meldet diese Funktion das Aufdecken über `onRevealed`.
-export function renderFlashcard(container, card, { onRevealed } = {}) {
+// `prio` ist die aktuell für den Nutzer geltende Priorität (siehe
+// store.effectivePrio); ein Antippen des Symbols meldet die neue Priorität
+// über `onPrioChange` zurück, ohne die Karte neu aufzubauen.
+export function renderFlashcard(container, card, { onRevealed, prio = "normal", onPrioChange } = {}) {
   container.innerHTML = `
     <div class="flash">
       <div class="flash-face flash-face-question">
         ${creatorChip(card)}
+        ${prioChip(prio)}
         <p class="flash-text">${escapeHtml(card.frage)}</p>
       </div>
       <button type="button" class="flash-face is-waiting" id="reveal">
         <p class="flash-answer-wait">Antippen, um die Antwort zu zeigen</p>
       </button>
     </div>`;
+
+  const prioBtn = container.querySelector(".prio-btn");
+  prioBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    const next = nextPrio(prioBtn.dataset.prio);
+    updatePrioChip(prioBtn, next);
+    onPrioChange?.(next);
+  });
 
   const reveal = container.querySelector("#reveal");
   reveal.addEventListener("click", () => {

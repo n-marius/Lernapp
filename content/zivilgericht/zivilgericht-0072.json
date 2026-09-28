@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0072",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Auf welche Beweismittel ist der Strengbeweis beschränkt?",
+  "antworten": [
+    "Zeugen, Sachverständige, Augenschein, Urkunden, Parteivernehmung",
+    "Zeugen, Sachverständige, Urkunden, Parteianhörung, eidesstattliche Versicherung",
+    "Zeugen, Sachverständige, Augenschein, Urkunden, amtliche Auskunft",
+    "Zeugen, Urkunden, Parteivernehmung, Parteianhörung, Augenschein"
+  ],
+  "erklaerung": "Der Strengbeweis ist die Beweiserhebung im förmlichen ZPO-Verfahren (Beweisanordnung, Beweiserhebung in mündlicher Verhandlung).\n\nEr ist auf die fünf Beweismittel der ZPO beschränkt: Zeugen, Sachverständige, Augenschein, Urkunde, Parteivernehmung. Die Parteianhörung (§ 141 ZPO) ist kein Beweismittel.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

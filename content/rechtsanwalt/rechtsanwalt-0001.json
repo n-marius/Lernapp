@@ -1,6 +1,7 @@
 {
   "id": "rechtsanwalt-0001",
   "gebiet": "rechtsanwalt",
+  "prio": "normal",
   "frage": "Was ist die zentrale Voraussetzung für die Beiordnung eines Rechtsanwalts im Rahmen der Prozesskostenhilfe (§ 121 ZPO)?",
   "antworten": [
     "Es muss Anwaltszwang bestehen oder die Vertretung durch einen Anwalt zur zweckentsprechenden Rechtsverfolgung erforderlich erscheinen",

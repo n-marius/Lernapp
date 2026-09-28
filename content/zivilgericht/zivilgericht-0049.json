@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0049",
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Wann ist eine Behauptung glaubhaft gemacht?",
+  "antworten": [
+    "Wenn für ihre Wahrheit eine überwiegende Wahrscheinlichkeit besteht",
+    "Wenn keine vernünftigen Zweifel an ihrer Wahrheit bestehen",
+    "Wenn sie nicht offensichtlich unwahr ist",
+    "Wenn sie durch eine Urkunde belegt ist"
+  ],
+  "erklaerung": "Eine Behauptung ist glaubhaft gemacht, wenn für ihre Wahrheit eine überwiegende Wahrscheinlichkeit besteht. Erforderlich ist also ein geringerer Grad an Wahrscheinlichkeit als beim Vollbeweis.\n\nDie Glaubhaftmachung erfolgt im Freibeweisverfahren (§ 294 ZPO).",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

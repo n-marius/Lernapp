@@ -1,6 +1,7 @@
 {
   "id": "verwaltungsrecht-0002",
   "gebiet": "verwaltungsrecht",
+  "prio": "normal",
   "frage": "Welche Klageart ist statthaft, wenn sich ein Bürger gegen die Ablehnung eines beantragten begünstigenden Verwaltungsakts wendet?",
   "antworten": [
     "Die Verpflichtungsklage nach § 42 Abs. 1 Var. 2 VwGO",

@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0018",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Was darf ein Augenscheinsprotokoll nicht enthalten?",
+  "antworten": [
+    "Wertungen des Protokollanten (z. B. „rutschige Sohle“ statt „dünne Sohle, geringe Profiltiefe“)",
+    "Tatsächliche Angaben zur Beschaffenheit",
+    "Angaben zu Ort und Zeit des Augenscheins",
+    "Detaillierte Beschreibungen"
+  ],
+  "erklaerung": "Im Urteil ist zu prüfen, ob das Augenscheinsprotokoll hinreichend detailliert ist. Es darf keine Wertungen des Protokollanten enthalten, nur tatsächliche Angaben.\n\nFalsch: „Stiefel mit rutschiger Sohle“. Richtig: „Stiefel mit dünner Sohle und geringer Profiltiefe“.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

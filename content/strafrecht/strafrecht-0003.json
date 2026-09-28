@@ -1,6 +1,7 @@
 {
   "id": "strafrecht-0003",
   "gebiet": "strafrecht",
+  "prio": "normal",
   "frage": "Wann liegt beim untauglichen Versuch nach herrschender Meinung Strafbarkeit vor?",
   "antworten": [
     "Wenn der Täter subjektiv Tatentschluss hatte und nach seiner Vorstellung unmittelbar zur Tat angesetzt hat, obwohl die Tatvollendung objektiv unmöglich ist",

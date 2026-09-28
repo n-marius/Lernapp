@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0021",
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Wann macht eine gesetzliche Vermutung (§ 292 ZPO, z. B. § 1006 BGB) die Beweisaufnahme entbehrlich?",
+  "antworten": [
+    "Wenn die Vermutungsgrundlage unstreitig oder bewiesen ist und kein Gegenbeweis angeboten wird",
+    "Stets, sobald sich eine Partei auf die Vermutung beruft",
+    "Nur wenn auch die vermutete Tatsache selbst unstreitig ist",
+    "Wenn die Vermutungsgrundlage lediglich glaubhaft gemacht ist"
+  ],
+  "erklaerung": "Bei Tatsachen, für die eine gesetzliche Vermutung spricht (§ 292 ZPO), ist eine Beweisaufnahme überflüssig – aber nur, wenn die Vermutungsgrundlage unstreitig oder bewiesen ist und kein Gegenbeweis angeboten wird.\n\nBeispiel: Eigentumsvermutung zugunsten des Besitzers nach § 1006 BGB.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

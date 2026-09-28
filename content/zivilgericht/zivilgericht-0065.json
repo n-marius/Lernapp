@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0065",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wie ist die Partei vor ihrer Vernehmung zu ermahnen und (sinnvollerweise) zu belehren?",
+  "antworten": [
+    "Ermahnung zur Wahrheit (§§ 395 I, 451); Belehrung: eidliche Falschaussage § 154 StGB, uneidlich nicht § 153 StGB, nur (versuchter) Prozessbetrug; Hinweis auf §§ 446, 453 II",
+    "Belehrung über Strafbarkeit nach § 153 StGB wie bei Zeugen",
+    "Keine Ermahnung, da die Partei kein Zeuge ist",
+    "Belehrung über Zeugnisverweigerungsrechte nach § 383 ZPO"
+  ],
+  "erklaerung": "Die Partei ist vor der Vernehmung zur Wahrheit zu ermahnen (§§ 395 Abs. 1, 451 ZPO). Sinnvoll ist die Belehrung über die Strafbarkeit: eidliche Falschaussage nach § 154 StGB; für die uneidliche Falschaussage ist die Partei nicht nach § 153 StGB strafbar, sondern allenfalls wegen (versuchten) Prozessbetrugs (§§ 263, 23 StGB).\n\nHinzu kommt der Hinweis auf die Konsequenzen einer Weigerung (§§ 446, 453 Abs. 2 ZPO).",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

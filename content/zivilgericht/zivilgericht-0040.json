@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0040",
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Wo sind die fünf Beweismittel in der ZPO geregelt?",
+  "antworten": [
+    "Augenschein §§ 371 ff.; Zeugen §§ 373 ff.; SV §§ 402 ff.; Urkunden §§ 415 ff.; Parteivernehmung §§ 445 ff.",
+    "Zeugen §§ 355 ff.; SV §§ 373 ff.; Urkunden §§ 402 ff.; Augenschein §§ 415 ff.; Parteivernehmung §§ 445 ff.",
+    "Urkunden §§ 371 ff.; Augenschein §§ 402 ff.; Zeugen §§ 415 ff.; SV §§ 445 ff.; Parteivernehmung §§ 478 ff.",
+    "SV §§ 355 ff.; Parteivernehmung §§ 371 ff.; Zeugen §§ 402 ff.; Augenschein §§ 415 ff.; Urkunden §§ 445 ff."
+  ],
+  "erklaerung": "Augenschein §§ 371 ff. ZPO, Zeugen §§ 373 ff. ZPO, Sachverständiger §§ 402 ff. ZPO, Urkunden §§ 415 ff. ZPO, Parteivernehmung §§ 445 ff. ZPO.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

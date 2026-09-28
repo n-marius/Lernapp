@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0054",
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Wird ein unerledigter Beweisantritt im Tatbestand erwähnt, wenn sich das Beweisangebot aus den Akten ergibt?",
+  "antworten": [
+    "Nein",
+    "Ja, stets beim streitigen Vortrag der beweisbelasteten Partei",
+    "Ja, in der Prozessgeschichte",
+    "Nur wenn der Beweisantritt verspätet war"
+  ],
+  "erklaerung": "Unerledigte Beweisantritte werden im Tatbestand nicht erwähnt, wenn sich das Beweisangebot aus den Akten ergibt (Anders/Gehle, 11. Aufl., A. 55).",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

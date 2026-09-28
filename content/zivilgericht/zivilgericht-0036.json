@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0036",
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Welches Beweismittel kann das Gericht nicht von Amts wegen erheben?",
+  "antworten": [
+    "Zeugen",
+    "Sachverständige",
+    "Augenschein",
+    "Parteivernehmung"
+  ],
+  "erklaerung": "Zeugen werden nur vernommen, wenn ein entsprechender Beweisantritt der beweisbelasteten Partei vorliegt (§§ 273 Abs. 2 Nr. 4, 373 ZPO).\n\nAndere Beweise können auch ohne Beweisantritt von Amts wegen erhoben werden (§§ 144, 273 Abs. 2 Nr. 5, 448 ZPO).",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

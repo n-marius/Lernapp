@@ -1,6 +1,7 @@
 {
   "id": "strafrecht-0001",
   "gebiet": "strafrecht",
+  "prio": "normal",
   "frage": "Was unterscheidet den Diebstahl (§ 242 StGB) von der Unterschlagung (§ 246 StGB) in objektiver Hinsicht?",
   "antworten": [
     "Der Diebstahl setzt eine Wegnahme voraus, die Unterschlagung erfasst auch bereits im Besitz des Täters befindliche Sachen",

@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0127",
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Wann besteht ein Zeugnisverweigerungsrecht wegen Verwandtschaft oder Schwägerschaft (§ 383 I Nr. 3 ZPO)?",
+  "antworten": [
+    "Gerade Linie: verwandt oder verschwägert; Seitenlinie: verwandt bis 3. Grad, verschwägert bis 2. Grad",
+    "Gerade Linie: nur verwandt; Seitenlinie: verwandt und verschwägert bis 3. Grad",
+    "Nur bei Verwandtschaft, nicht bei Schwägerschaft",
+    "Bei jeder Verwandtschaft oder Schwägerschaft ohne Gradgrenze"
+  ],
+  "erklaerung": "Ein Zeugnisverweigerungsrecht nach § 383 Abs. 1 Nr. 3 ZPO besteht bei Verwandtschaft oder Schwägerschaft in gerader Linie (z. B. Schwiegereltern), bei Verwandtschaft in der Seitenlinie bis zum 3. Grad (§ 1589 BGB) und bei Schwägerschaft in der Seitenlinie bis zum 2. Grad (§ 1590 BGB).\n\nNach § 383 Abs. 2 ZPO ist vor der Vernehmung über das Zeugnisverweigerungsrecht zu belehren.\n\nBeispiel: Der Sohn des Bruders der Ehefrau des Beklagten ist mit diesem im 3. Grad der Seitenlinie verschwägert; ein ZVR besteht nicht. Ladung und Vernehmung zur Person sind ohnehin immer zulässig; die Vernehmung zur Sache ist ohne ZVR-Belehrung zulässig.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0077",
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Beweisbelastete Partei hat für ein Vier-Augen-Gespräch keinen Zeugen, der Gegner schon. Was ist erforderlich, wenn das Gericht sich auf den Gegenzeugen stützt?",
+  "antworten": [
+    "Anhörung oder Vernehmung der beweisbelasteten Partei (Waffengleichheit)",
+    "Nichts, die Partei ist beweisfällig",
+    "Zwingend Beeidigung des Gegenzeugen",
+    "Vernehmung der Partei nur mit Zustimmung des Gegners (§ 447 ZPO)"
+  ],
+  "erklaerung": "Bei Beweisnot im Vier-Augen-Gespräch ist eine Parteianhörung oder Parteivernehmung erforderlich, wenn die beweisbelastete Partei keinen Zeugen hat und das Gericht seine Überzeugungsbildung auf den Gegenzeugen stützt; Argument: Waffengleichheit (BGH NJW-RR 2006, 61).\n\nHauptanwendungsfall ist der Inhalt von Aufklärungsgesprächen bei Arzt oder Anwalt (BGH NJW 2005, 1718; BGH NJW 2011, 2889). Ggf. auch bei Verkehrsunfällen (KG MDR 2010, 170; nach Folie zweifelhaft).",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

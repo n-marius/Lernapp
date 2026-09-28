@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0064",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Ist für die Parteivernehmung ein Beweisbeschluss erforderlich, und an wen ist zu laden?",
+  "antworten": [
+    "Ja, zwingend (§ 450 I ZPO); Ladung und Beschluss an die Partei persönlich, auch bei anwaltlicher Vertretung",
+    "Nein, formlose Anordnung genügt; Ladung an den Prozessbevollmächtigten",
+    "Ja; Ladung ausschließlich an den Prozessbevollmächtigten",
+    "Nein, es genügt eine Ladung nach § 273 ZPO an den Prozessbevollmächtigten"
+  ],
+  "erklaerung": "Auf Antrag oder von Amts wegen ergeht ein Beweisbeschluss; er ist zwingend erforderlich (§ 450 Abs. 1 ZPO).\n\nLadung und Beschluss gehen an die Partei persönlich, auch wenn sie einen Rechtsanwalt hat (§ 450 Abs. 1 S. 2 und 3 ZPO).",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

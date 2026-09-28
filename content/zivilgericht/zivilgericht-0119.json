@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0119",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wann kann der gesetzliche Vertreter einer Partei Zeuge sein?",
+  "antworten": [
+    "Soweit er in concreto von der Vertretung ausgeschlossen ist (z. B. Eltern bei Bestellung eines Ergänzungspflegers)",
+    "Stets, da er selbst nicht Partei ist",
+    "Nur mit Zustimmung des Gegners",
+    "Nur wenn die Partei geschäftsfähig ist"
+  ],
+  "erklaerung": "Der gesetzliche Vertreter ist Zeuge, soweit er in concreto von der Vertretung ausgeschlossen ist, z. B. Eltern, soweit ein Ergänzungspfleger nach § 1909 BGB a. F. / § 1809 BGB bestellt ist.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

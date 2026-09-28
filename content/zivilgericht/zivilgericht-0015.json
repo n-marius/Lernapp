@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0015",
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Ein Dritter hat die fehlende Zugänglichkeit des Augenscheinsobjekts zu vertreten. Folge?",
+  "antworten": [
+    "Ggf. Ordnungsmittel gegen den Dritten (§§ 144 II 2, 390 ZPO)",
+    "Beweis gilt als erbracht (§ 371 III ZPO)",
+    "Beweisführer ist beweisfällig",
+    "Der Dritte ist als Zeuge zu vernehmen"
+  ],
+  "erklaerung": "Hat ein Dritter die fehlende freie Zugänglichkeit zu vertreten, kommen ggf. Ordnungsmittel gegen den Dritten nach §§ 144 Abs. 2 S. 2, 390 ZPO in Betracht.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

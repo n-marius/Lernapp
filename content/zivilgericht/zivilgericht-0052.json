@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0052",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Was ist Gegenstand eines Indizienbeweises?",
+  "antworten": [
+    "Hilfstatsachen, aus denen mit hinreichender Überzeugung auf eine Haupttatsache geschlossen werden kann",
+    "Die Haupttatsache selbst",
+    "Allgemeine Erfahrungssätze ohne Bezug zum Einzelfall",
+    "Die Glaubwürdigkeit der Partei"
+  ],
+  "erklaerung": "Beim Indizienbeweis ist das Vorliegen von Hilfstatsachen Gegenstand der Beweisaufnahme. Deren Nachweis soll dazu führen, dass mit hinreichender Überzeugung auf das Vorliegen einer Haupttatsache geschlossen werden kann.\n\nBeispiel: K verlangt Darlehensrückzahlung, B behauptet Schenkung. Benennt K einen Augenzeugen für die Darlehensvereinbarung, ist Beweisgegenstand eine Haupttatsache. Benennt K einen Zeugen dafür, dass B vor dem Treffen pleite war und danach viele Schulden bezahlt hat, sind Hilfstatsachen Beweisgegenstand; ob sie genügen, ist fraglich (andere Schenkung, Raubgut, Erbschaft?), hier wohl nur i. V. m. anderen Hilfstatsachen.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

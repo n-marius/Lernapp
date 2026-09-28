@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0034",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wie wird Urkundenbeweis je nach Besitzer angetreten?",
+  "antworten": [
+    "Beweisführer: Vorlage (§ 420); Gegner: Antrag auf Vorlage (§ 421); Behörde: § 432 ZPO",
+    "Stets durch Antrag auf Anordnung nach § 142 ZPO",
+    "Nur durch Benennung der Urkunde; die Beschaffung obliegt stets dem Gericht",
+    "Durch Benennung des Ausstellers als Zeugen (§ 373 ZPO)"
+  ],
+  "erklaerung": "Befindet sich die Urkunde beim Beweisführer, erfolgt der Beweisantritt durch Vorlage des Originals (§ 420 ZPO); beim Gegner durch Antrag auf Vorlage durch den Gegner (§ 421 ZPO); bei einer Behörde nach § 432 ZPO.\n\nVon Amts wegen kann das Gericht die Vorlage nach §§ 142, 143 ZPO anordnen.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

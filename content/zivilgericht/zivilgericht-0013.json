@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0013",
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Welche Wahrnehmungen umfasst der Augenscheinsbeweis?",
+  "antworten": [
+    "Alle zu Beweiszwecken durchgeführten sinnlichen Wahrnehmungen des Gerichts",
+    "Nur optische Wahrnehmungen",
+    "Optische und akustische Wahrnehmungen",
+    "Nur Wahrnehmungen, die nicht durch einen Sachverständigen erfolgen können"
+  ],
+  "erklaerung": "Augenschein ist die unmittelbare Wahrnehmung von Tatsachen, und zwar nicht nur optisch, sondern alle zu Beweiszwecken durchgeführten sinnlichen Wahrnehmungen durch das Gericht.\n\nDazu gehören auch das Anhören von Geräuschen, die Aufnahme von Gerüchen, die Verkostung von Lebensmitteln und das Ertasten der Oberflächenstruktur eines Gegenstands.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

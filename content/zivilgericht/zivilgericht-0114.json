@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0114",
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Warum verlassen die anderen Zeugen nach der Belehrung den Sitzungssaal?",
+  "antworten": [
+    "Prinzip der Einzelvernehmung (§ 394 I ZPO)",
+    "Grundsatz der Nichtöffentlichkeit (§ 169 GVG)",
+    "Weil nur ein Zeuge je Termin belehrt werden darf",
+    "Schutz des Zeugnisverweigerungsrechts (§ 383 II ZPO)"
+  ],
+  "erklaerung": "Nach der Belehrung aller erschienenen Zeugen verlassen die anderen Zeugen den Sitzungssaal. Es gilt das Prinzip der Einzelvernehmung (§ 394 Abs. 1 ZPO).",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0057",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Ist die Parteianhörung nach § 141 ZPO ein Beweismittel?",
+  "antworten": [
+    "Nein, mündlicher Sachvortrag; kann aber in der Beweiswürdigung verwertet werden",
+    "Ja, sie ist ein Fall der Parteivernehmung",
+    "Nein, und sie darf in der Beweiswürdigung nicht verwertet werden",
+    "Ja, aber nur mit Zustimmung des Gegners"
+  ],
+  "erklaerung": "Die Anhörung nach § 141 ZPO ist kein Beweismittel, sondern mündlich vorgetragener Sachvortrag.\n\nDer Tatrichter ist jedoch nicht gehindert, sie im Rahmen der Beweiswürdigung zu verwerten (BGH NJW 1992, 1558).",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

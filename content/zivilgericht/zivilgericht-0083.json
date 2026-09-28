@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0083",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Eine Partei beanstandet eine Frage an den Zeugen. Wer entscheidet wie?",
+  "antworten": [
+    "Das Gericht (ggf. Kammer/Senat) durch unanfechtbaren, zu verkündenden Beschluss (§ 397 III); anfechtbar nur mit dem Rechtsmittel gegen das Urteil",
+    "Der Vorsitzende allein durch prozessleitende Verfügung",
+    "Das Gericht durch Zwischenurteil (§ 387 ZPO)",
+    "Das Gericht durch Beschluss, der mit der sofortigen Beschwerde anfechtbar ist"
+  ],
+  "erklaerung": "Bei Zweifeln über die Zulässigkeit einer Frage entscheidet das Gericht (§ 397 Abs. 3 ZPO), ggf. Kammer oder Senat, durch unanfechtbaren, zu verkündenden Beschluss auf die mündliche Verhandlung.\n\nEine kurze Begründung ist erforderlich; sie kann nachgeholt werden, spätestens im Urteil. Die Entscheidung kann nur mit dem Rechtsmittel gegen das Urteil angefochten werden. Unsachliche Fragen verhindert der Vorsitzende nach § 136 Abs. 2 S. 1 ZPO ggf. durch Wortentzug.\n\nBeispiel: „Warum lügen Sie hier wie gedruckt?“ – b. u. v.: Die Frage wird als unzulässig zurückgewiesen, weil sie nicht auf tatsächliche Wahrnehmungen oder auf die Erforschung von Umständen gerichtet ist, die die Glaubwürdigkeit des Zeugen betreffen; Hinweis, dass im Wiederholungsfall das Wort entzogen wird.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

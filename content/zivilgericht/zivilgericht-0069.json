@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0069",
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Wie unterscheiden sich Parteivernehmung (§§ 445 ff.) und Parteianhörung (§ 141 ZPO)?",
+  "antworten": [
+    "Vernehmung: echtes Beweismittel, nur unter speziellen Voraussetzungen; Anhörung: Sachvortrag, immer zulässig",
+    "Beide sind Beweismittel, unterscheiden sich nur in der Beeidigung",
+    "Anhörung: Beweismittel; Vernehmung: Sachvortrag",
+    "Vernehmung: immer zulässig; Anhörung: nur bei Beweisnot"
+  ],
+  "erklaerung": "Die Parteivernehmung ist ein echtes Beweismittel; die Anhörung ist technisch keine Beweisaufnahme, sondern mündlicher Sachvortrag.\n\nDie Parteivernehmung ist nur unter speziellen Voraussetzungen zulässig, die Anhörung immer.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

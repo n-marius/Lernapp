@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0030",
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Ist die Einholung eines Gutachtens über inländisches Recht zulässig?",
+  "antworten": [
+    "Nein (iura novit curia)",
+    "Ja, als Rechtsgutachten nach § 293 ZPO",
+    "Ja, bei besonders komplexen Rechtsfragen",
+    "Ja, wenn beide Parteien zustimmen"
+  ],
+  "erklaerung": "Die Einholung eines Gutachtens über inländisches Recht ist unzulässig; es gilt der Grundsatz „iura novit curia“.\n\n§ 293 ZPO erlaubt Beweiserhebung nur über ausländisches Recht, Gewohnheitsrecht und Statuten.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

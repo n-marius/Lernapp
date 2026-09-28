@@ -28,6 +28,7 @@ for (const gebiet of GEBIETE) {
     cards.push({
       id: card.id,
       gebiet: card.gebiet,
+      prio: card.prio ?? "normal",
       frage: card.frage,
       antworten: card.antworten,
       erklaerung: card.erklaerung ?? "",

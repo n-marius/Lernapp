@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0038",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Das Beweismittel ist negativ ergiebig. Wann ist dennoch die Überzeugungskraft zu prüfen?",
+  "antworten": [
+    "Wenn es den gegnerischen Vortrag beweist und das Gericht seine Überzeugung darauf stützt",
+    "Nie, die Prüfung endet stets",
+    "Immer, wie bei positiver Ergiebigkeit",
+    "Nur bei Sachverständigengutachten"
+  ],
+  "erklaerung": "Negativ ergiebig ist ein Beweismittel, das die Behauptung des Beweisführers nicht bestätigt, sondern ihr widerspricht. Die Überzeugungskraft ist dann ggf. zu prüfen, wenn es den gegnerischen Vortrag beweist und das Gericht seine Überzeugung darauf stützt.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

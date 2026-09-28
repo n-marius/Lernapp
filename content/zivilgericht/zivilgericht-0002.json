@@ -1,6 +1,7 @@
 {
   "id": "zivilgericht-0002",
   "gebiet": "zivilgericht",
+  "prio": "normal",
   "frage": "Wie wird der gutgläubige Erwerb vom Nichtberechtigten bei beweglichen Sachen grundsätzlich geregelt?",
   "antworten": [
     "Über §§ 932 ff. BGB, sofern der Erwerber gutgläubig ist und die Sache nicht abhandengekommen ist",

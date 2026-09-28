@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0012",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Sind Lichtbilder, Skizzen und technische Aufzeichnungen Urkunden oder Augenscheinsobjekte?",
+  "antworten": [
+    "Augenscheinsobjekte",
+    "Urkunden",
+    "Privaturkunden i. S. d. § 416 ZPO",
+    "Weder noch, sie sind nur Parteivortrag"
+  ],
+  "erklaerung": "Augenscheinsobjekt ist jeder mit den Sinnen erfassbare Gegenstand, auch elektronische Dokumente.\n\nAbgrenzung zur Urkunde: Augenscheinsobjekt ist alles, was nicht „gelesen“ werden kann, z. B. Lichtbilder, Skizzen, technische Aufzeichnungen.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0006",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wonach richtet sich die Ablehnung von Beweisanträgen bezogen auf die einzelnen Beweismittel?",
+  "antworten": [
+    "Überwiegend § 244 StPO entsprechend, mit je nach Beweismittel unterschiedlichen Maßstäben; Parteivernehmung: § 445 II ZPO",
+    "Einheitlich nach den Ablehnungsgründen des § 244 Abs. 3 StPO für alle Beweismittel",
+    "Abschließend nach § 296 ZPO (Zurückweisung verspäteten Vorbringens)",
+    "Nach freiem, an keine Maßstäbe gebundenem Ermessen des Gerichts"
+  ],
+  "erklaerung": "Die Rechtsprechung lehnt sich an § 244 StPO an, wendet aber je Beweismittel unterschiedliche Maßstäbe an: Augenschein nach pflichtgemäßem Ermessen (§ 244 Abs. 5 S. 1 StPO entsprechend); Urkunden § 244 Abs. 3 S. 3 StPO entsprechend; Sachverständiger § 244 Abs. 4 StPO entsprechend; Zeugen § 244 StPO entsprechend (insb. Abs. 3 S. 3).\n\nFür die Parteivernehmung gilt § 445 Abs. 2 ZPO: keine Vernehmung des Gegners, wenn das Gericht das Gegenteil für erwiesen erachtet.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

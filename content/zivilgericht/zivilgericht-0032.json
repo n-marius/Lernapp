@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0032",
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Was ist ein Beweisantritt?",
+  "antworten": [
+    "Anführen eines Beweismittels für eine bestimmte Behauptung",
+    "Gerichtliche Anordnung der Beweisaufnahme",
+    "Jedes Bestreiten einer gegnerischen Tatsache",
+    "Antrag auf Erlass eines formellen Beweisbeschlusses"
+  ],
+  "erklaerung": "Beweisantritt ist das Anführen eines Beweismittels für eine bestimmte Behauptung.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

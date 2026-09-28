@@ -1,13 +1,14 @@
 {
   "id": "zivilgericht-0004",
   "gebiet": "zivilgericht",
-  "frage": "Testkarte Zivilrecht: Was ist die richtige Antwort?",
+  "prio": "hoch",
+  "frage": "Wie werden Beweisanträge im Zivilprozess abgelehnt?",
   "antworten": [
-    "Richtige Testantwort A",
-    "Falsche Testantwort B",
-    "Falsche Testantwort C",
-    "Falsche Testantwort D"
+    "Nicht durch Beschluss, sondern in den Urteilsgründen",
+    "Durch gesonderten, anfechtbaren Beschluss",
+    "Durch Beschluss analog § 244 Abs. 6 S. 1 StPO",
+    "Durch prozessleitende Verfügung des Vorsitzenden"
   ],
-  "erklaerung": "Dies ist eine Testkarte ohne fachlichen Anspruch, nur zum Ausprobieren der App angelegt.",
-  "ts": "2026-09-27T12:00:00.000Z"
+  "erklaerung": "Die ZPO enthält keine Vorschrift über die Ablehnung von Beweisanträgen. Die Ablehnung erfolgt daher nicht durch Beschluss, sondern ist in den Gründen des Urteils wiederzugeben.\n\nDie Rechtsprechung hat in Anlehnung an § 244 Abs. 3 StPO (Ablehnungsgründe heute in S. 2 und 3) Fallgruppen für die Ablehnung entwickelt.",
+  "ts": "2026-09-28T11:02:50.395Z"
 }

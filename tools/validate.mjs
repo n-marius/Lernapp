@@ -8,6 +8,7 @@ import path from "node:path";
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const contentDir = path.join(root, "content");
 const GEBIETE = ["zivilgericht", "strafrecht", "rechtsanwalt", "verwaltungsrecht"];
+const PRIOS = ["hoch", "normal", "niedrig"];
 
 let errors = [];
 const fail = (msg) => errors.push(msg);
@@ -27,6 +28,7 @@ for (const card of index.cards ?? []) {
   const ref = `index.json[${card.id ?? "?"}]`;
   if (!card.id) fail(`${ref}: 'id' fehlt`);
   if (!GEBIETE.includes(card.gebiet)) fail(`${ref}: ungültiges gebiet '${card.gebiet}'`);
+  if (!PRIOS.includes(card.prio)) fail(`${ref}: ungültige prio '${card.prio}'`);
   if (!card.frage) fail(`${ref}: 'frage' fehlt`);
   if (!Array.isArray(card.antworten) || card.antworten.length !== 4) fail(`${ref}: 'antworten' muss genau 4 Einträge haben`);
   else if (card.antworten.some((a) => !a || typeof a !== "string")) fail(`${ref}: alle 4 Antworten müssen nichtleere Texte sein`);

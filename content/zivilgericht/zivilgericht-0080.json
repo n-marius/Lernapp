@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0080",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Die Lichtverhältnisse am Unfallort betreffen bei der Würdigung einer Zeugenaussage welchen Aspekt?",
+  "antworten": [
+    "Möglichkeit der Wahrnehmung",
+    "Fähigkeit zur Wahrnehmung",
+    "Bereitschaft zur Wiedergabe",
+    "Möglichkeit der Erinnerung"
+  ],
+  "erklaerung": "Die Zeugenaussage lässt sich nach Wahrnehmung, Erinnerung und Wiedergabe jeweils unter den Gesichtspunkten Möglichkeit, Fähigkeit und Bereitschaft würdigen.\n\nBeispiele: Wahrnehmung – Lichtverhältnisse, Sprachkenntnisse, Unaufmerksamkeit; Erinnerung – Amnesie, Senioren/Kinder, Interesselosigkeit; Wiedergabe – Aussagesituation, Ausdrucksvermögen, Unwilligkeit.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

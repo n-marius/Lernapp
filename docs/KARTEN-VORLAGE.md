@@ -19,7 +19,8 @@ Du erstellst Karteikarten für Staatsexamens-Kandidaten im deutschen Recht
 - Rechtsgebiet (genau eines): zivilgericht | strafrecht | rechtsanwalt | verwaltungsrecht
   (zivilgericht = Zivilrecht, rechtsanwalt = Anwalts-/Berufsrecht)
 - Thema (optional, sonst wählst du frei aus dem Rechtsgebiet):
-- Anzahl Karten: 10
+- Anzahl Karten: 10 (bei beigefügtem Quellmaterial: so viele wie nötig, siehe unten)
+- Quellmaterial (optional, z. B. Folien, Skript):
 
 ## Ausgabe
 
@@ -34,6 +35,7 @@ Du erstellst Karteikarten für Staatsexamens-Kandidaten im deutschen Recht
 ```json
 {
   "gebiet": "strafrecht",
+  "prio": "normal",
   "frage": "Was unterscheidet Raub (§ 249 StGB) von räuberischer Erpressung (§ 255 StGB)?",
   "antworten": [
     "Beim Raub nimmt der Täter die Sache selbst weg, bei der räuberischen Erpressung wirkt das Opfer durch eine Vermögensverfügung mit",
@@ -53,19 +55,48 @@ Schreiben nur daran halten, dass die richtige Antwort an erster Stelle steht.
 ## Technische Regeln
 
 - `gebiet`: genau eines von `zivilgericht`, `strafrecht`, `rechtsanwalt`, `verwaltungsrecht`.
+- `prio`: genau eines von `hoch`, `normal`, `niedrig` (siehe „Priorität“).
 - `frage`: ein präziser, examensnaher Sachverhalt oder eine Wissensfrage. Kein Fließtext-Sachverhalt über mehrere Absätze – die Frage muss auf eine Bildschirmzeile bis wenige Zeilen passen.
 - `antworten`: **genau 4** Einträge, Index 0 = richtige Antwort, die anderen drei plausibel, aber eindeutig falsch (keine Wortspiele, keine Trivial-Ablenker).
-- `erklaerung`: 2–4 Sätze, mit Normverweis wo möglich, erklärt **warum** die Antwort richtig ist (nicht nur eine Wiederholung der Antwort).
+- `erklaerung`: Fließtext, typischerweise ein bis zwei kurze Absätze (Absatztrennung im JSON mit `\n\n`), mit Normverweis wo möglich, erklärt **warum** die Antwort richtig ist (nicht nur eine Wiederholung der Antwort).
 - Ausschließlich inhaltlich korrektes, aktuelles deutsches Recht. Bei Unsicherheiten (z. B. bei umstrittenen Meinungsstreiten) die herrschende Meinung wählen und dies im Chat kurz erwähnen.
 - Sprache: klares, examenstypisches Deutsch, keine Umgangssprache.
+
+## Inhaltliche Regeln (insbesondere bei beigefügtem Quellmaterial)
+
+- Quellmaterial vollständig durchgehen (einschließlich Grafiken, Tabellen, SmartArts). Jede nicht offensichtlich unwichtige oder grundlegende Information verwerten, insbesondere aus dem Prozessrecht und zur Klausurtechnik. Es darf nichts Relevantes ausbleiben.
+- Nur Informationen aus dem Quellmaterial verwenden, nichts hinzuerfinden; die Themen sind komplex und müssen präzise sein. Zusammenfassen oder besser darstellen ist erlaubt.
+- `frage` und richtige Antwort nach dem Prinzip der minimalen Information: so knapp wie möglich, pro Karte möglichst eine Information; klar zusammenhängende Informationen dürfen zusammen stehen.
+- Normverweise in Antworten stets mit inhaltlichem Stichwort verbinden (z. B. „Pflichtgemäßes Ermessen (§ 244 Abs. 5 S. 1 StPO entsprechend)“). Reine Normangaben nur, wenn die Frage gezielt nach einer Norm fragt.
+- Abläufe und Prüfungsreihenfolgen (z. B. Ablauf der Zeugenvernehmung) als eine Karte mit den Schritten als Stichworten; wichtige Details einzelner Schritte erhalten eigene Karten. Zusammengehörige Übersichten (z. B. Maßstäbe je Beweismittel) dürfen gebündelt werden, Einzelheiten dann in die Erklärung.
+- Antworten dürfen stichwortartig sein und gängige, verständliche Abkürzungen verwenden (z. B. Reihenfolge im Sachbericht: „Unstreitig, str. Kl., Anträge, str. Bekl., Replik, Duplik“).
+- Die drei falschen Antworten selbst ausdenken: keine Fangfragen oder Finten, dürfen aber ähnlich und schwer sein. Finte ist insbesondere eine falsche Antwort, die sich von der richtigen nur durch eine Absatz-/Paragraphennummer, einen einzelnen vertauschten Bestandteil oder ein einschränkendes „nur“ unterscheidet. Nennt das Quellmaterial Negativbeispiele (z. B. „Falsch: …“), diese bevorzugt als falsche Antworten verwenden.
+- `erklaerung`: Informationen des Quellmaterials verwenden; vorhandene Erklärungen dürfen wörtlich übernommen werden.
+- Fälle aus dem Quellmaterial nicht als eigene Karten abfragen: Die Karte fragt die allgemeine Regel ab, der Fall dient höchstens als Beispiel in der Erklärung. Überschneidungen mit bereits bestehenden Karten zusammenführen statt doppeln.
+- Verwendeten Gesetzesinhalt selbst am aktuellen Gesetzestext prüfen. Die Prüfung dient nur der Richtigkeit: keine zusätzlichen Details, Rückausnahmen oder Voraussetzungen aus dem Gesetz ergänzen, die nicht im Quellmaterial stehen (Ausnahme: Karten zu reinen Normverweisen).
+- Verweist das Quellmaterial nur auf eine Norm, ohne deren Inhalt darzustellen (z. B. „siehe § 487 ZPO“), eine Karte mit dem Norminhalt anlegen; den Gesetzeswortlaut dabei präzise wiedergeben.
+- Veraltete Normverweise im Quellmaterial auf die aktuelle Fassung beziehen (präzise, bis auf Absatz und Satz); Sachaussagen der Folien sonst unverändert übernehmen.
+- Kartenzahl nicht ausufern lassen: jede relevante Information verwerten, aber keine redundanten Karten.
+- Bleiben Fragen offen, die dazu führen, dass eine Information nicht verwertet werden kann, diese im Chat dem Nutzer vorlegen.
+
+## Priorität (`prio`)
+
+- `hoch` für ca. 25 % der Karten: Inhalte von besonderer Bedeutung für das Examen und/oder besondere, aber grundsätzliche Punkte (z. B. Klausurtechnik, zentrale Abgrenzungen, Beweismaß).
+- `niedrig` für ca. 25 %: nur einfachste Informationen oder für das Zweite Examen wenig wichtige Nischenthemen.
+- `normal` für den Rest (Standard).
+- Maßstab ist allein der Inhalt; die Prozentwerte sind Richtwerte, keine festen Grenzen.
+- In der App wirkt sich die Priorität nur mäßig auf den Automatikmodus aus (siehe SPEC.md Abschnitt 5.1a) und kann dort von jedem Nutzer für sich selbst durch Antippen angepasst werden – die hier vergebene Priorität ist also nur der Ausgangswert.
 
 ## Kontrolle vor der Ausgabe
 
 - Gültiges JSON?
 - `gebiet` eines der vier erlaubten Werte?
+- `prio` gesetzt (`hoch`/`normal`/`niedrig`), Verteilung ca. 25/50/25?
+- Keine Finten unter den falschen Antworten?
 - Genau 4 Antworten, Index 0 richtig?
 - Erklärung nennt eine Norm oder einen klaren Grund?
 - Frage inhaltlich korrekt und examensnah?
+- Bei Quellmaterial: alle relevanten Informationen verwertet, nichts hinzuerfunden?
 
 ## Wie es weitergeht (nur zu deiner Information, nicht Teil des Auftrags)
 

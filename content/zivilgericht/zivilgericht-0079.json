@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0079",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Welche Normen erlauben die Beweiserhebung von Amts wegen?",
+  "antworten": [
+    "Augenschein § 144; Urkunden §§ 142, 143; Sachverständige §§ 144, 412; Parteivernehmung § 448 ZPO",
+    "Augenschein § 371; Urkunden § 420; Sachverständige § 403; Zeugen § 373 ZPO",
+    "Augenschein § 144; Urkunden § 421; Zeugen § 273 II Nr. 4; Parteivernehmung § 447 ZPO",
+    "Sachverständige § 402; Urkunden § 415; Parteivernehmung § 445 ZPO"
+  ],
+  "erklaerung": "Von Amts wegen: Augenschein nach § 144 ZPO (pflichtgemäßes Ermessen), Urkunden nach §§ 142, 143 ZPO, Sachverständige nach §§ 144, 412 ZPO, Parteivernehmung nach § 448 ZPO unter eingeschränkten Voraussetzungen.\n\nZeugen nicht von Amts wegen. Die Anhörung nach § 141 ZPO ist kein Beweismittel.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

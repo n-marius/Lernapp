@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0062",
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Wie wird die Parteivernehmung durchgeführt und protokolliert?",
+  "antworten": [
+    "Vernehmung zur Person und zur Sache wie bei Zeugen; Protokollierung der Aussage (ggf. Weigerung) nach § 160 III Nr. 4 ZPO",
+    "Nur zur Sache; keine Protokollierung, da Sachvortrag",
+    "Wie eine Anhörung nach § 141 ZPO; Protokollierung nur auf Antrag",
+    "Schriftlich nach § 377 III ZPO"
+  ],
+  "erklaerung": "Die Partei wird zur Person und zur Sache wie ein Zeuge vernommen.\n\nDie Aussage, ggf. die Weigerung, wird nach § 160 Abs. 3 Nr. 4 ZPO protokolliert.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0073",
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Welche zwei Ebenen umfasst die Prüfung der Überzeugungskraft?",
+  "antworten": [
+    "Innere Beweiskraft; Überzeugungskraft im Gesamtrahmen des Rechtsstreits",
+    "Glaubhaftigkeit; Glaubwürdigkeit",
+    "Beweisinhalt; Beweisergiebigkeit",
+    "Zulässigkeit; Erheblichkeit"
+  ],
+  "erklaerung": "Die Überzeugungskraft knüpft an den Beweisinhalt im konkreten Einzelfall an. Sie ist Kern der Beweiswürdigung und damit u. U. ein Schwerpunkt der Klausurbenotung; zu argumentieren ist mit den Details aus dem Aktenstück.\n\nZu prüfen sind (a) die innere Beweiskraft (ist das Beweismittel für sich betrachtet überzeugend?) und (b) die Überzeugungskraft im Gesamtrahmen des Rechtsstreits (im Kontext der anderen Beweise und des Verfahrensstoffs).",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

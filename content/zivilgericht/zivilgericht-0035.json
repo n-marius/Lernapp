@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0035",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wie wird Zeugenbeweis angetreten (§ 373 ZPO)?",
+  "antworten": [
+    "Durch Benennung der Zeugen und Bezeichnung der Tatsachen, über die sie vernommen werden sollen",
+    "Durch Benennung der Zeugen; das Beweisthema ermittelt das Gericht in der Vernehmung",
+    "Durch Vorlage einer schriftlichen Erklärung des Zeugen",
+    "Durch Antrag auf Anordnung von Amts wegen (§ 144 ZPO)"
+  ],
+  "erklaerung": "Nach § 373 ZPO wird der Zeugenbeweis durch die Benennung der Zeugen (Individualisierung; „Zeuge N.N.“ genügt nicht) und die Bezeichnung der Tatsachen angetreten, über welche die Vernehmung stattfinden soll.\n\nBeispiel: Beruft sich der Kläger ohne Beweisthema „noch auf den sistierten Zeugen Y“, ist der Beweisantrag unzulässig. Ein Zurückweisungsbeschluss ist aber unnötig; die Ausführungen gehören in die Entscheidungsgründe.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

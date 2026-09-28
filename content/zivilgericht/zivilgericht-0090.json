@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0090",
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Was veranlasst das Gericht nach Eingang des Antrags nach § 485 ZPO zunächst?",
+  "antworten": [
+    "Anhörung des Gegners (rechtliches Gehör)",
+    "Sofortige Beauftragung eines Sachverständigen ohne Anhörung",
+    "Anberaumung eines Haupttermins",
+    "Anforderung eines Gerichtskostenvorschusses für das Verfahren"
+  ],
+  "erklaerung": "Das Gericht hört nach Antragseingang zunächst den Gegner an (rechtliches Gehör).",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

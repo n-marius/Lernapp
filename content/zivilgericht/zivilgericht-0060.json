@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0060",
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Unter welchen Voraussetzungen kann die beweispflichtige Partei selbst vernommen werden (§ 447 ZPO)?",
+  "antworten": [
+    "Auf Antrag und nur mit Einverständnis des Gegners",
+    "Von Amts wegen bei gewisser Wahrscheinlichkeit",
+    "Auf Antrag, wenn andere Beweismittel fehlen",
+    "Nie, die eigene Vernehmung ist unzulässig"
+  ],
+  "erklaerung": "§ 447 ZPO erlaubt die Vernehmung der beweispflichtigen Partei auf Antrag, jedoch nur mit Einverständnis des jeweiligen Gegners.\n\nFehlt die Zustimmung, ist die Beweisaufnahme unzulässig und der Beweisantrag abzulehnen.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

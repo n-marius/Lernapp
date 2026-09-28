@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0056",
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Was besagt die Nullhypothese bei der Würdigung von Zeugenaussagen?",
+  "antworten": [
+    "Die Glaubhaftigkeit muss positiv anhand von Realkennzeichen begründet werden",
+    "Eine Aussage ist bis zum Beweis des Gegenteils als wahr zu behandeln",
+    "Widersprüchliche Aussagen sind mit null zu bewerten und unverwertbar",
+    "Ohne Gegenbeweis ist die Aussage stets glaubhaft"
+  ],
+  "erklaerung": "Nach der Rechtsprechung sind in erster Linie Anhaltspunkte zu finden, die dafür sprechen, dass der Zeuge die Wahrheit sagt. Die Glaubhaftigkeit muss positiv begründet werden, es geht bei Null los (BGH NJW 1999, 2746).\n\nDaraus folgt: Die Aussage wird daran überprüft, ob anhand von Qualitätsmerkmalen (Realkennzeichen, Realitätskriterien) eine ausreichend hohe Wahrscheinlichkeit für ihre Zuverlässigkeit erreicht werden kann.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

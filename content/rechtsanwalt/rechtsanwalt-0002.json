@@ -1,6 +1,7 @@
 {
   "id": "rechtsanwalt-0002",
   "gebiet": "rechtsanwalt",
+  "prio": "normal",
   "frage": "Welche Berufspflicht verletzt ein Rechtsanwalt, der widerstreitende Interessen im Sinne des § 43a Abs. 4 BRAO vertritt?",
   "antworten": [
     "Das Verbot der Vertretung widerstreitender Interessen, das zugleich einen Straftatbestand nach § 356 StGB berühren kann",

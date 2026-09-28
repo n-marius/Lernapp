@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0024",
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Ist über nicht entscheidungserhebliche Tatsachen Beweis zu erheben?",
+  "antworten": [
+    "Nein",
+    "Ja, wenn sie streitig sind",
+    "Ja, wenn eine Partei Beweis angeboten hat",
+    "Nur im Strengbeweis"
+  ],
+  "erklaerung": "Über nicht entscheidungserhebliche Tatsachen wird kein Beweis erhoben; die Beweisaufnahme ist überflüssig.\n\nDie Ablehnung eines entsprechenden Beweisantrags fällt in die Fallgruppe der überflüssigen Beweiserhebung.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0039",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Das Beweismittel ist unergiebig. Wie geht die Beweiswürdigung weiter?",
+  "antworten": [
+    "Gar nicht: Feststellung „nicht erwiesen“",
+    "Weiter mit der Überzeugungskraft",
+    "Weiter mit der Glaubwürdigkeit",
+    "Das Gericht muss von Amts wegen weitere Beweise erheben"
+  ],
+  "erklaerung": "Ist das Beweismittel unergiebig, endet die Prüfung; das Beweisergebnis lautet: nicht erwiesen.\n\nIst es positiv ergiebig, folgt die Überzeugungskraft. Ist es negativ ergiebig, ggf. weiter mit der Überzeugungskraft, wenn es den gegnerischen Vortrag beweist und das Gericht seine Überzeugung darauf stützt.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

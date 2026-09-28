@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0074",
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Welche Würdigung ist bei der Überzeugungskraft des Augenscheins erforderlich?",
+  "antworten": [
+    "Keine besondere; Überzeugung folgt aus den Sinneseindrücken",
+    "Prüfung der Anknüpfungstatsachen",
+    "Prüfung von Glaubhaftigkeit und Glaubwürdigkeit",
+    "Prüfung der gesetzlichen Beweisregeln"
+  ],
+  "erklaerung": "Beim Augenschein ist keine besondere Würdigung erforderlich; die Überzeugung wird aus den Sinneseindrücken abgeleitet.\n\nZu prüfen ist aber, ob das Augenscheinsprotokoll hinreichend detailliert ist.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

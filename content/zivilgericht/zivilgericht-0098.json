@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0098",
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "In welchem Grad und welcher Linie ist ein Ehemann mit den Geschwistern bzw. den Eltern seiner Ehefrau verschwägert?",
+  "antworten": [
+    "Geschwister: 2. Grad Seitenlinie; Eltern: 1. Grad gerade Linie",
+    "Geschwister: 1. Grad Seitenlinie; Eltern: 1. Grad gerade Linie",
+    "Geschwister: 2. Grad gerade Linie; Eltern: 2. Grad Seitenlinie",
+    "Mit beiden besteht keine Schwägerschaft"
+  ],
+  "erklaerung": "Die Schwägerschaft folgt Linie und Grad der Verwandtschaft des Ehegatten (Übersichtsgrafik): Eltern der Ehefrau („Schwiegereltern“) 1. Grad gerade Linie, Großeltern 2. Grad gerade Linie; Geschwister („Schwager/Schwägerin“) 2. Grad Seitenlinie, deren Kinder sowie Onkel und Tante 3. Grad Seitenlinie.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

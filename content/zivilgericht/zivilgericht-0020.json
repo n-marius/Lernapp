@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0020",
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Wann macht ein Anscheinsbeweis (prima facie) die Beweisaufnahme entbehrlich?",
+  "antworten": [
+    "Wenn die Vermutungsgrundlage unstreitig oder bewiesen ist und keine die Vermutung erschütternden Tatsachen vorgetragen und ggf. bewiesen sind",
+    "Stets, da der Anscheinsbeweis eine gesetzliche Vermutung i. S. d. § 292 ZPO ist",
+    "Nur wenn der Gegner das Gegenteil nicht zur vollen Überzeugung beweist",
+    "Wenn die Vermutungsgrundlage glaubhaft gemacht ist"
+  ],
+  "erklaerung": "Der Anscheinsbeweis ist eine tatsächliche Vermutung. Er macht die Beweisaufnahme nur entbehrlich, wenn die Vermutungsgrundlage unstreitig oder bewiesen ist.\n\nZudem dürfen keine Tatsachen vorgetragen und ggf. bewiesen sein, die die tatsächliche Vermutung erschüttern.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

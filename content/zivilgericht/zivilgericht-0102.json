@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0102",
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Woraus folgt die Beweiskraft öffentlicher Urkunden, und was gilt bei äußeren Mängeln?",
+  "antworten": [
+    "Öffentliche Urkunden: §§ 415, 417, 418 I, III ZPO; äußere Mängel: freie Überzeugung (§ 419 ZPO)",
+    "Öffentliche Urkunden: § 416 ZPO; äußere Mängel: Urkunde unverwertbar",
+    "Öffentliche Urkunden: § 286 ZPO; äußere Mängel: § 440 ZPO",
+    "Öffentliche Urkunden: § 437 ZPO; äußere Mängel: Beweiskraft bleibt unberührt"
+  ],
+  "erklaerung": "Der Umfang der Beweiskraft ist grds. vom Gesetz fest vorgegeben. Für öffentliche Urkunden folgt sie aus §§ 415, 417, 418 Abs. 1 und 418 Abs. 3 ZPO.\n\nBei äußeren Mängeln entscheidet das Gericht nach freier Überzeugung über die Beeinträchtigung der Beweiskraft (§ 419 ZPO).",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0055",
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Klausur: Es kommt auf einen unerledigten Beweisantritt an. Wie ist nach üblichem Bearbeitervermerk zu verfahren?",
+  "antworten": [
+    "Unterstellen, dass der Beweis ohne Ergebnis erhoben wurde; TB: Prozessgeschichte mit Hinweis auf Unterstellung; EG: Beweisaufnahme ergebnislos",
+    "Beweisbeschluss entwerfen statt Urteil",
+    "Unterstellen, dass der Beweis für den Beweisführer positiv ausgefallen ist",
+    "Beweisantritt als verspätet zurückweisen"
+  ],
+  "erklaerung": "Kommt es auf den Beweisantritt noch an, ist nach Bearbeitervermerk regelmäßig zu unterstellen, dass er ohne Ergebnis erhoben worden ist.\n\nIm Tatbestand ist in der Prozessgeschichte die Beweiserhebung mit Anmerkung der Unterstellung anzuführen. In den Entscheidungsgründen ist im Rahmen der Beweiswürdigung auszuführen, dass die unterstellte Beweisaufnahme kein Ergebnis gebracht hat.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

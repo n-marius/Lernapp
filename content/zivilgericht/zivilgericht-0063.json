@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0063",
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Wann kommt eine Beeidigung der Partei nach § 452 ZPO in Betracht?",
+  "antworten": [
+    "Bei nicht ausreichender Überzeugung nach unbeeidigter Aussage, im Ermessen des Gerichts; unzulässig bei Verzicht des Gegners",
+    "Stets auf Antrag des Gegners",
+    "Stets, wenn die Aussage streitentscheidend ist",
+    "Nie, Parteien können nicht vereidigt werden"
+  ],
+  "erklaerung": "Eine Beeidigung nach § 452 ZPO kommt in Betracht, wenn das Gericht nach der unbeeidigten Aussage nicht ausreichend überzeugt ist. Sie steht im Ermessen des Gerichts.\n\nSie ist unzulässig bei Verzicht des Gegners; die Partei kann den Eid verweigern.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

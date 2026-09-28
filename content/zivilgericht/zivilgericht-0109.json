@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0109",
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Was gilt nach § 395 ZPO für Belehrung und Vernehmung zur Person?",
+  "antworten": [
+    "Erst Ermahnung zur Wahrheit und Hinweis auf mögliche Beeidigung (Abs. 1), dann Personalien und ggf. Fragen zur Glaubwürdigkeit (Abs. 2); bloße Ordnungsvorschrift",
+    "Erst Personalien, dann Belehrung; Verstoß macht die Aussage unverwertbar",
+    "Belehrung nur auf Antrag einer Partei; Personalien nur bei Zweifeln an der Identität",
+    "Belehrung erst vor der Beeidigung; Personalien nach der Vernehmung zur Sache"
+  ],
+  "erklaerung": "Vor der Vernehmung wird der Zeuge zur Wahrheit ermahnt und darauf hingewiesen, dass er in den gesetzlich vorgesehenen Fällen ggf. seine Aussage zu beeidigen hat (§ 395 Abs. 1 ZPO). Die Vernehmung beginnt mit Vor- und Zunamen, Alter, Stand oder Gewerbe und Wohnort; erforderlichenfalls folgen Fragen zu Umständen, die die Glaubwürdigkeit betreffen, insbesondere zu den Beziehungen zu den Parteien (§ 395 Abs. 2 ZPO).\n\nBeispiel: Fragt der Richter zuerst die Personalien ab und belehrt erst danach, ist die Reihenfolge nicht gewahrt; § 395 ZPO ist aber eine bloße Ordnungsvorschrift.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

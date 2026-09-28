@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0043",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wann muss ein formeller Beweisbeschluss (§ 359 ZPO) ergehen?",
+  "antworten": [
+    "Parteivernehmung (§ 450 I 1), Urkundenvorlage nach § 425, Beweisaufnahme vor mV (§ 358a), besondere Beweisverfahren nach § 358",
+    "Bei jeder Zeugenvernehmung",
+    "Bei jeder Beweisaufnahme in der mündlichen Verhandlung",
+    "Bei jeder Einholung eines Sachverständigengutachtens und jeder Augenscheinseinnahme"
+  ],
+  "erklaerung": "Ein formeller Beweisbeschluss muss nur ergehen bei Parteivernehmung (§ 450 Abs. 1 S. 1 ZPO), Anordnung einer Urkundenvorlage nach § 425 ZPO, vor der mündlichen Verhandlung durchzuführender Beweisaufnahme (§ 358a ZPO) und nach § 358 ZPO für besondere Beweisverfahren.\n\nIn allen anderen Fällen genügt ein formloser Beschluss, dem die Beweiserhebung unmittelbar folgt; ein formeller Beweisbeschluss ist allerdings unschädlich.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

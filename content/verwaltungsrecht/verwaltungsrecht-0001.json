@@ -1,6 +1,7 @@
 {
   "id": "verwaltungsrecht-0001",
   "gebiet": "verwaltungsrecht",
+  "prio": "normal",
   "frage": "Unter welchen Voraussetzungen kann ein rechtswidriger, belastender Verwaltungsakt nach § 48 VwVfG zurückgenommen werden?",
   "antworten": [
     "Grundsätzlich jederzeit für die Zukunft und Vergangenheit, auch nach Unanfechtbarkeit, im Rahmen des Ermessens der Behörde",

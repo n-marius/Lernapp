@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0118",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Können Kinder und andere Geschäftsunfähige Zeugen sein?",
+  "antworten": [
+    "Ja; beim Kind einer Partei entscheidet ggf. ein Ergänzungspfleger über das Zeugnisverweigerungsrecht",
+    "Nein, die Zeugnisfähigkeit setzt Geschäftsfähigkeit voraus",
+    "Nur ab 14 Jahren",
+    "Ja; über das Zeugnisverweigerungsrecht entscheidet stets das Gericht"
+  ],
+  "erklaerung": "Die Zeugeneigenschaft ist nicht an die Geschäftsfähigkeit geknüpft; Kinder und andere Geschäftsunfähige können als Zeugen vernommen werden.\n\nProblem: Das Kind einer Partei benötigt ggf. einen Ergänzungspfleger, der entscheidet, ob das Kind von seinem Zeugnisverweigerungsrecht Gebrauch macht.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

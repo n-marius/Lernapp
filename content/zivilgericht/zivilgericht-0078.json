@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0078",
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Welches Beweismaß gilt für den Vollbeweis (§ 286 ZPO)?",
+  "antworten": [
+    "Persönliche Gewissheit: keine vernünftigen Zweifel an der Wahrheit",
+    "Überwiegende Wahrscheinlichkeit",
+    "Absolute Gewissheit, die jede andere Möglichkeit ausschließt",
+    "Bloße Möglichkeit, die nicht widerlegt ist"
+  ],
+  "erklaerung": "Durch den Beweis soll dem Richter die volle Überzeugung von der Wahrheit oder Unwahrheit einer Tatsache vermittelt werden (§ 286 ZPO). Nicht ausreichend ist überwiegende Wahrscheinlichkeit, nicht erforderlich absolute Gewissheit.\n\nMaßgeblich ist die persönliche Gewissheit: Es genügt ein für das praktische Leben brauchbarer Grad von Gewissheit, der den Zweifeln Schweigen gebietet, ohne sie völlig auszuschließen (BGH NJW 1998, 2969).",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

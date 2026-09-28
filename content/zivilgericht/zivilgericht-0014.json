@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0014",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Der Beweisführer hat die fehlende Zugänglichkeit des Augenscheinsobjekts zu vertreten. Folge?",
+  "antworten": [
+    "Beweisfällig, ggf. Beweislastentscheidung",
+    "Beweis gilt als erbracht (§ 371 III ZPO)",
+    "Ordnungsmittel gegen den Beweisführer (§ 390 ZPO)",
+    "Das Gericht muss den Augenschein von Amts wegen durchsetzen"
+  ],
+  "erklaerung": "Hat der Beweisführer die fehlende freie Zugänglichkeit zu vertreten, ist er beweisfällig; ggf. ergeht eine Beweislastentscheidung.\n\nHat der Gegner sie zu vertreten, gilt § 371 Abs. 3 ZPO (Beweisvereitelung); hat ein Dritter sie zu vertreten, kommen Ordnungsmittel gegen ihn in Betracht (§§ 144 Abs. 2 S. 2, 390 ZPO).",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

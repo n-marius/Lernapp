@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0027",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Macht Beweisvereitelung eine Beweisaufnahme überflüssig?",
+  "antworten": [
+    "Ja",
+    "Nein, sie ist nur im Rahmen der Kostenentscheidung zu berücksichtigen",
+    "Nein, es ist stets ein anderes Beweismittel heranzuziehen",
+    "Nur bei Vereitelung durch die beweisbelastete Partei"
+  ],
+  "erklaerung": "Neben zugestandenen, nicht (wirksam) bestrittenen, offenkundigen und nicht entscheidungserheblichen Tatsachen ist eine Beweisaufnahme auch bei Beweisvereitelung überflüssig.\n\nGleiches gilt bei einer bereits bewiesenen Tatsache. Für den Augenschein regelt § 371 Abs. 3 ZPO die Folgen der Vereitelung ausdrücklich.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

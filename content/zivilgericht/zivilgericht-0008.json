@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0008",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Welche Beispiele gehören zur Fallgruppe „unzulässige Beweisaufnahme“?",
+  "antworten": [
+    "Ausforschungsbeweis, Verspätung (§ 296), eigene Partei ohne Zustimmung (§ 447), Grundrechtsverletzung",
+    "Zeuge N.N., fehlende Anknüpfungstatsachen",
+    "Offenkundige, zugestandene und unerhebliche Tatsachen",
+    "Bereits bewiesene Tatsachen und gesetzliche Vermutungen"
+  ],
+  "erklaerung": "Unzulässig ist die Beweisaufnahme z. B. bei unzulässigem Ausforschungsbeweis, bei Verspätung gemäß § 296 ZPO, bei Vernehmung der eigenen Partei ohne Zustimmung des Gegners (§ 447 ZPO).\n\nFerner bei Verletzung eines verfassungsrechtlich geschützten Grundrechts, etwa Tonbandaufnahme eines heimlich aufgezeichneten Telefonats oder heimliches Mithören eines Telefonats durch einen Zeugen (BGH NJW 2003, 1727 ff.).",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

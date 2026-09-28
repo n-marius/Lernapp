@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0033",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wie wird Sachverständigenbeweis angetreten?",
+  "antworten": [
+    "Durch Bezeichnung der zu begutachtenden Punkte (§ 403 ZPO)",
+    "Durch Benennung eines bestimmten Sachverständigen (§ 373 ZPO)",
+    "Durch Vorlage eines Privatgutachtens (§ 420 ZPO)",
+    "Durch Antrag auf Anordnung von Amts wegen (§ 144 ZPO)"
+  ],
+  "erklaerung": "Sachverständigenbeweis wird durch Bezeichnung der zu begutachtenden Punkte angetreten (§ 403 ZPO).\n\nVon Amts wegen: §§ 144, 412 ZPO. Fehlt es an Anknüpfungstatsachen, ist der Beweisantrag nicht ordnungsgemäß.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

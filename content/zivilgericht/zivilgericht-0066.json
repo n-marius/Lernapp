@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0066",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Räumt eine Partei bei ihrer Parteivernehmung eine Tatsache ein – liegt ein Geständnis i. S. d. § 288 ZPO vor?",
+  "antworten": [
+    "Nein, die Vernehmung ist kein Sachvortrag",
+    "Ja, stets",
+    "Ja, wenn die Aussage protokolliert wird",
+    "Nur bei beeidigter Aussage"
+  ],
+  "erklaerung": "Räumt die Partei bei ihrer Parteivernehmung als solcher etwas ein, handelt es sich nicht um ein Geständnis i. S. v. §§ 288 ff. ZPO, da die Vernehmung kein Sachvortrag ist.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

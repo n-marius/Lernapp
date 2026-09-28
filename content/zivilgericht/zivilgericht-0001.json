@@ -1,6 +1,7 @@
 {
   "id": "zivilgericht-0001",
   "gebiet": "zivilgericht",
+  "prio": "normal",
   "frage": "Welche Voraussetzung ist für einen wirksamen Rücktritt vom Kaufvertrag gemäß § 323 BGB grundsätzlich erforderlich?",
   "antworten": [
     "Der Gläubiger muss dem Schuldner erfolglos eine angemessene Frist zur Nacherfüllung gesetzt haben",

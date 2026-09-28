@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0081",
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Interesselosigkeit des Zeugen betrifft welchen Aspekt der Aussagewürdigung?",
+  "antworten": [
+    "Bereitschaft zur Erinnerung",
+    "Fähigkeit zur Wiedergabe",
+    "Möglichkeit der Wahrnehmung",
+    "Glaubwürdigkeit (Motiv zur Falschaussage)"
+  ],
+  "erklaerung": "In der Matrix Wahrnehmung/Erinnerung/Wiedergabe × Möglichkeit/Fähigkeit/Bereitschaft steht Interesselosigkeit für die Bereitschaft zur Erinnerung.\n\nZur Erinnerung gehören ferner Amnesie (Möglichkeit) und Senioren/Kinder (Fähigkeit).",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

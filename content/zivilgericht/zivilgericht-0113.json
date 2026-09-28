@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0113",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Können Prozessbevollmächtigter, Streitverkündungsgegner, angestellter Prokurist und Zedent (im Prozess des Zessionars) Zeugen sein?",
+  "antworten": [
+    "Ja, sie haben keine Parteistellung",
+    "Nein, sie sind wegen ihres Interesses am Ausgang zeugnisunfähig",
+    "Nur mit Zustimmung des Gegners (§ 447 ZPO analog)",
+    "Nein, sie können nur nach § 141 ZPO angehört werden"
+  ],
+  "erklaerung": "Maßgeblich ist allein die formale Parteirolle. Beispiele für die Stellung als Zeuge sind Ehepartner oder andere Verwandte einer Partei, der Prozessbevollmächtigte oder andere gewillkürte Vertreter, der Streitverkündungsgegner, der angestellte Prokurist und der Zedent im Rechtsstreit des Zessionars.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

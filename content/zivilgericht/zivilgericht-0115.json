@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0115",
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Wer kann nicht Zeuge sein?",
+  "antworten": [
+    "Nur wer im Rechtsstreit die Stellung einer Partei hat (formale Rolle)",
+    "Jeder, der ein wirtschaftliches Interesse am Ausgang des Rechtsstreits hat",
+    "Nahe Angehörige einer Partei",
+    "Nicht voll Geschäftsfähige"
+  ],
+  "erklaerung": "Für die Stellung als Zeuge ist lediglich auf die formale Rolle abzustellen. Folge: Nur derjenige ist kein Zeuge, der die Stellung einer Partei im Rechtsstreit hat.\n\nZeugnisfähig sind daher z. B. Ehepartner und Verwandte einer Partei, der Prozessbevollmächtigte, der Streitverkündungsgegner, der angestellte Prokurist und der Zedent im Rechtsstreit des Zessionars.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

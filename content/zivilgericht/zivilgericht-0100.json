@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0100",
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Was ist eine Urkunde im Sinne der ZPO?",
+  "antworten": [
+    "Schriftlich verkörperte Gedankenäußerung (ohne Beweisbestimmung/-eignung und Erkennbarkeit des Ausstellers)",
+    "Verkörperte Gedankenerklärung, die zum Beweis geeignet und bestimmt ist und den Aussteller erkennen lässt",
+    "Jeder mit den Sinnen wahrnehmbare Gegenstand einschließlich Lichtbilder",
+    "Nur öffentliche Urkunden i. S. d. § 415 ZPO"
+  ],
+  "erklaerung": "Urkunden i. S. d. ZPO sind schriftlich verkörperte Gedankenäußerungen.\n\nAnders als im Strafrecht sind Beweisgeeignetheit, Beweisbestimmung und Erkennbarkeit des Ausstellers nicht erforderlich. Der Beweisantritt erfolgt durch Vorlage der Urkunde im Original (§ 420 ZPO).",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0009",
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Ist die Beweisanordnung anfechtbar?",
+  "antworten": [
+    "Nein (§§ 355 II, 567 ZPO)",
+    "Ja, mit der sofortigen Beschwerde",
+    "Ja, mit der Erinnerung",
+    "Nur der formelle Beweisbeschluss"
+  ],
+  "erklaerung": "Die Beweisanordnung ist unanfechtbar (§§ 355 Abs. 2, 567 ZPO). Gegen eine von Amts wegen erfolgende prozessleitende Maßnahme ist keine Beschwerde zulässig.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

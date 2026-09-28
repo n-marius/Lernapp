@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0050",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Was genügt in der Klausur regelmäßig zur Glaubwürdigkeit eines Zeugen?",
+  "antworten": [
+    "Hinweis, dass keine Anhaltspunkte bestehen, die Glaubwürdigkeit zu bezweifeln",
+    "Ausführliche Persönlichkeitsanalyse anhand der Realkennzeichen",
+    "Gar nichts, Glaubwürdigkeit wird nie erörtert",
+    "Feststellung, dass der Zeuge vereidigt wurde"
+  ],
+  "erklaerung": "Die Glaubwürdigkeit knüpft an die Persönlichkeit des Zeugen an und ist nur bei Zeugen zu prüfen. In der Klausur reicht der Hinweis, dass keine Anhaltspunkte bestehen, die Glaubwürdigkeit des Zeugen zu bezweifeln.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

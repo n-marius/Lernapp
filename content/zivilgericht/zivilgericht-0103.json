@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0103",
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Welche Beweiskraft hat eine echte Privaturkunde (§ 416 ZPO)?",
+  "antworten": [
+    "Nur formelle: Erklärung stammt vom Aussteller; Richtigkeit des Inhalts nach § 286 ZPO",
+    "Voller Beweis der Richtigkeit des Inhalts",
+    "Keine, sie unterliegt insgesamt freier Würdigung",
+    "Beweis der Richtigkeit, bis der Gegner das Gegenteil beweist"
+  ],
+  "erklaerung": "Privaturkunden haben nach § 416 ZPO nur formelle Beweiskraft: Sie beweisen, dass die enthaltene Erklärung vom Aussteller abgegeben wurde, nicht, dass ihr Inhalt richtig ist.\n\nDie materielle Beweiskraft richtet sich nach § 286 ZPO.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

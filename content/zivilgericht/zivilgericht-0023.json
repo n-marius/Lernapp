@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0023",
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Aus welcher Norm folgt, dass nicht bestrittene Tatsachen keines Beweises bedürfen?",
+  "antworten": [
+    "§ 138 Abs. 3 ZPO",
+    "§ 288 ZPO",
+    "§ 286 ZPO",
+    "§ 291 ZPO"
+  ],
+  "erklaerung": "Nicht bestrittene Tatsachen gelten nach § 138 Abs. 3 ZPO als zugestanden; eine Beweisaufnahme ist überflüssig.\n\n§ 288 ZPO betrifft dagegen das ausdrückliche Geständnis.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

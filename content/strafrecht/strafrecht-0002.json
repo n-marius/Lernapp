@@ -1,6 +1,7 @@
 {
   "id": "strafrecht-0002",
   "gebiet": "strafrecht",
+  "prio": "normal",
   "frage": "Welche Voraussetzung muss für eine gerechtfertigte Notwehr nach § 32 StGB zusätzlich zur Notwehrlage vorliegen?",
   "antworten": [
     "Die Verteidigungshandlung muss erforderlich und geboten sein",

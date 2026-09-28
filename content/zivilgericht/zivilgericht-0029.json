@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0029",
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Welche Norm macht eine Beweisaufnahme über zugestandene Tatsachen entbehrlich?",
+  "antworten": [
+    "§ 288 ZPO",
+    "§ 138 Abs. 3 ZPO",
+    "§ 291 ZPO",
+    "§ 292 ZPO"
+  ],
+  "erklaerung": "Zugestandene Tatsachen bedürfen nach § 288 ZPO keines Beweises; eine Beweisaufnahme ist überflüssig.\n\nDavon zu unterscheiden sind nicht bestrittene Tatsachen, die nach § 138 Abs. 3 ZPO als zugestanden gelten, sowie offenkundige Tatsachen (§ 291 ZPO).",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

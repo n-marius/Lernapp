@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0017",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Darf das Gericht den Augenschein nach § 144 ZPO auch über unstreitige Tatsachen einnehmen?",
+  "antworten": [
+    "Ja, nach pflichtgemäßem Ermessen",
+    "Nein, unstreitige Tatsachen sind nie Gegenstand einer Beweisaufnahme",
+    "Nur auf Antrag beider Parteien",
+    "Nur im Freibeweisverfahren"
+  ],
+  "erklaerung": "Nach § 144 ZPO kann das Gericht den Augenschein von Amts wegen nach pflichtgemäßem Ermessen anordnen, und zwar auch bezüglich unstreitiger Tatsachen.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

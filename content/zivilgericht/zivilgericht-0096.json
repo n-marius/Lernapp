@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0096",
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Hängt das selbständige Beweisverfahren von der vorherigen Einzahlung eines Vorschusses ab?",
+  "antworten": [
+    "Nein, § 12 GKG nennt es nicht; Vorschuss aber für das SV-Gutachten (§ 17 I 2 GKG)",
+    "Ja, wie jede Klage nach § 12 GKG",
+    "Nein, und auch für das Gutachten ist kein Vorschuss zu zahlen",
+    "Ja, der Vorschuss ist beim Gegner anzufordern"
+  ],
+  "erklaerung": "Das Verfahren ist nicht von der vorherigen Einzahlung eines Vorschusses abhängig, da es in § 12 GKG nicht genannt ist.\n\nFür das Sachverständigengutachten ist aber ein Vorschuss zu zahlen (§ 17 Abs. 1 S. 2 GKG).",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0025",
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Welche Norm macht eine Beweisaufnahme über offenkundige Tatsachen entbehrlich?",
+  "antworten": [
+    "§ 291 ZPO",
+    "§ 287 ZPO",
+    "§ 288 ZPO",
+    "§ 293 ZPO"
+  ],
+  "erklaerung": "Offenkundige Tatsachen bedürfen nach § 291 ZPO keines Beweises.\n\n§ 287 ZPO betrifft die Schätzung durch das Gericht, § 293 ZPO fremdes Recht.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0067",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Ist die Parteivernehmung subsidiär?",
+  "antworten": [
+    "Grundsätzlich ja (arg. § 450 II ZPO); die Partei muss aber nicht zwingend anderen Beweis antreten",
+    "Nein, sie steht gleichrangig neben den anderen Beweismitteln",
+    "Ja, sie ist nur zulässig, wenn andere Beweismittel angetreten und erschöpft sind",
+    "Nur die Parteivernehmung nach § 448 ZPO ist subsidiär"
+  ],
+  "erklaerung": "Die Parteivernehmung ist grundsätzlich subsidiär (arg. § 450 Abs. 2 ZPO), also erst nach anderen Beweisen zu erheben.\n\nDie Partei muss aber nicht zwingend anderen Beweis antreten; § 445 Abs. 1 ZPO lässt die Vernehmung auch zu, wenn andere Beweismittel nicht vorgebracht sind.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

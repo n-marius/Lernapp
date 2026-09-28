@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0044",
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "In welchem Verfahren ist der Freibeweis der Regelfall?",
+  "antworten": [
+    "In Familiensachen (§ 30 FamFG)",
+    "Im Mahnverfahren",
+    "Im Urkundenprozess",
+    "Im selbständigen Beweisverfahren"
+  ],
+  "erklaerung": "Im Zivilprozess ist der Freibeweis nur ausnahmsweise zulässig. In Familiensachen ist er dagegen der Regelfall (§ 30 FamFG).",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

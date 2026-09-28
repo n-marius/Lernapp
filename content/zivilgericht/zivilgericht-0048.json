@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0048",
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "In welchen Verfahren genügt u. a. Glaubhaftmachung?",
+  "antworten": [
+    "Arrest und einstweilige Verfügung (§§ 920 II, 936 ZPO), Wiedereinsetzung (§ 236 ZPO)",
+    "Urkundenprozess und Mahnverfahren",
+    "Klage auf Schmerzensgeld und Räumungsklage",
+    "Feststellungsklage und Stufenklage"
+  ],
+  "erklaerung": "Beispiele für die Glaubhaftmachung sind Arrest und einstweilige Verfügung (§§ 920 Abs. 2, 936 ZPO) sowie die Wiedereinsetzung (§ 236 ZPO).",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

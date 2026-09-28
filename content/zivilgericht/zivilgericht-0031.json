@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0031",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wie wird Augenscheinsbeweis angetreten?",
+  "antworten": [
+    "Bezeichnung des Gegenstands und der zu beweisenden Tatsache (§ 371 ZPO); ggf. Antrag auf Frist zur Herbeischaffung",
+    "Vorlage einer Lichtbildmappe (§ 420 ZPO)",
+    "Bezeichnung der zu begutachtenden Punkte (§ 403 ZPO)",
+    "Antrag auf Ortstermin ohne Angabe der Beweistatsache"
+  ],
+  "erklaerung": "Das Beweisangebot erfordert die Angabe des Gegenstands, der in Augenschein genommen werden soll, und die Mitteilung der zu beweisenden Tatsache (§ 371 ZPO); ggf. Antrag auf Frist zur Herbeischaffung.\n\nMöglich ist auch eine Anordnung durch das Gericht nach § 144 Abs. 1 ZPO aus freiem Ermessen.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

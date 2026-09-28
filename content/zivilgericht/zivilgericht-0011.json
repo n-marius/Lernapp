@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0011",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Welche Anordnungsformen gibt es für eine Beweisaufnahme ohne mündliche Verhandlung?",
+  "antworten": [
+    "Verfügung nach § 273 ZPO (Ladung); Beweisbeschluss nach § 358a ZPO",
+    "Beweisbeschluss nach §§ 358, 329 I 1 ZPO",
+    "Nur förmlicher Beweisbeschluss wie bei der Parteivernehmung (§ 450 ZPO)",
+    "Anordnung des persönlichen Erscheinens der Parteien (§ 141 ZPO)"
+  ],
+  "erklaerung": "Ohne mündliche Verhandlung kommt eine Verfügung nach § 273 ZPO (Ladung) oder ein Beweisbeschluss nach § 358a ZPO in Betracht.\n\nAuf Grund oder in mündlicher Verhandlung ergeht ein Beweisbeschluss nach §§ 358, 329 Abs. 1 S. 1 ZPO.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

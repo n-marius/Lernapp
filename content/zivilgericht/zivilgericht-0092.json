@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0092",
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Darf der Antragsgegner im selbständigen Beweisverfahren eigene Gegenanträge zur Beweiserhebung stellen?",
+  "antworten": [
+    "H. M.: grds. ja (Zöller, § 485 Rn. 3)",
+    "Nein, er kann nur zum Antrag Stellung nehmen",
+    "Nur in einem eigenen Verfahren nach § 485 Abs. 1 ZPO",
+    "Nur mit Zustimmung des Antragstellers"
+  ],
+  "erklaerung": "Nach h. M. sind Gegenanträge des Antragsgegners zur Beweiserhebung grds. zulässig (Zöller, § 485 Rn. 3).",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

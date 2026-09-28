@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0101",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wie wird die Echtheit öffentlicher und privater Urkunden behandelt?",
+  "antworten": [
+    "Öffentlich (inländisch): Echtheit vermutet (§ 437 I); privat: Dispositionsmaxime – Gegner muss sich erklären (§ 439), bei Bestreiten ist Echtheit zu beweisen",
+    "Beide: Echtheit stets von Amts wegen zu prüfen",
+    "Öffentlich: Echtheit durch Beweisführer zu beweisen; privat: vermutet",
+    "Beide: Echtheit wird vermutet, Gegner muss Unechtheit beweisen"
+  ],
+  "erklaerung": "Bei öffentlichen Urkunden inländischer Aussteller wird die Echtheit vermutet (§ 437 Abs. 1 ZPO).\n\nBei Privaturkunden unterliegt die Echtheit der Dispositionsmaxime der Parteien: Der Gegner des Beweisführers muss sich zur Echtheit erklären (§ 439 ZPO). Ist sie bestritten, ist zu prüfen, ob sie bewiesen ist, z. B. durch graphologisches Gutachten.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

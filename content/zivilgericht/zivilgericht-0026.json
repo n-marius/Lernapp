@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0026",
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Welche Norm erlaubt dem Gericht, statt einer Beweisaufnahme zu schätzen?",
+  "antworten": [
+    "§ 287 ZPO",
+    "§ 286 ZPO",
+    "§ 291 ZPO",
+    "§ 294 ZPO"
+  ],
+  "erklaerung": "Soweit das Gericht nach § 287 ZPO schätzt, ist eine Beweisaufnahme überflüssig.\n\n§ 286 ZPO regelt die freie Beweiswürdigung, § 294 ZPO die Glaubhaftmachung.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

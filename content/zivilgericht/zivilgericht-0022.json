@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0022",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Ist über eine Haupttatsache Beweis zu erheben, wenn unstreitige oder bewiesene Indizien ihr Vorliegen belegen?",
+  "antworten": [
+    "Nein, die Beweisaufnahme ist überflüssig",
+    "Ja, Indizien ersetzen nie den Beweis der Haupttatsache",
+    "Ja, sofern der Gegner die Haupttatsache bestreitet",
+    "Nur wenn die Indizien in einer Urkunde festgehalten sind"
+  ],
+  "erklaerung": "Eine Beweisaufnahme ist überflüssig bei unstreitigen oder bewiesenen Hilfstatsachen, die das Vorhandensein der zu beweisenden Haupttatsache belegen.",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0106",
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Wie überwindet der Herausgabekläger die Eigentumsvermutung des § 1006 BGB zugunsten des Besitzers?",
+  "antworten": [
+    "Durch Beweis des Gegenteils, z. B. Abhandenkommen (§ 1006 I 2 BGB) oder Überlassung zu Fremdbesitz (Leihe)",
+    "Durch Vorlage eines Kaufvertrags über seinen früheren Erwerb",
+    "Durch Bestreiten; der Besitzer muss dann seinen Eigentumserwerb darlegen",
+    "Durch Glaubhaftmachung seines Eigentums"
+  ],
+  "erklaerung": "Für den Besitzer spricht die gesetzliche Vermutung (§ 292 ZPO) des § 1006 BGB; der Kläger muss sie widerlegen. Ein Kaufvertrag beweist allenfalls, dass er einmal Eigentümer war. Er muss daher z. B. vortragen und ggf. beweisen, dass ihm die Sache abhandengekommen ist (vgl. § 1006 Abs. 1 S. 2 BGB); sonst derzeit Klageabweisung.\n\nBeweist er etwa, dass er dem Besitzer die Sache geliehen hat, ist der Beweis des Gegenteils geführt, die Vermutung widerlegt und der Klage stattzugeben (Beispiel Rennrad).",
+  "ts": "2026-09-28T11:02:50.395Z"
+}

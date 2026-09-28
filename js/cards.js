@@ -46,10 +46,11 @@ function creatorChip(card) {
   return `<span class="creator-chip" data-user="${card.creator}"><span class="user-dot-sm"></span>${name}</span>`;
 }
 
-// Rendert eine einzelne Karteikarte in `container`. `onAnswer(correct)` wird
-// nach der Bewertung aufgerufen; der Aufrufer kümmert sich um Stufenwechsel,
-// Statistik und den Wechsel zur nächsten Karte in der Warteschlange.
-export function renderFlashcard(container, card) {
+// Rendert eine einzelne Karteikarte in `container` (Frage, dann nach Antippen
+// die Antwort + Erklärung). Die Falsch/Richtig-Knöpfe sitzen fest am unteren
+// Bildschirmrand (siehe js/app.js showFlashcardMode) und werden erst nach dem
+// Aufdecken aktiv – dafür meldet diese Funktion das Aufdecken über `onRevealed`.
+export function renderFlashcard(container, card, { onRevealed } = {}) {
   container.innerHTML = `
     <div class="flash">
       <div class="flash-face flash-face-question">
@@ -59,28 +60,17 @@ export function renderFlashcard(container, card) {
       <button type="button" class="flash-face is-waiting" id="reveal">
         <p class="flash-answer-wait">Antippen, um die Antwort zu zeigen</p>
       </button>
-      <div class="flash-actions" id="actions" hidden>
-        <button type="button" class="btn btn-wrong" id="wrong">Falsch</button>
-        <button type="button" class="btn btn-correct" id="richtig">Richtig</button>
-      </div>
     </div>`;
 
   const reveal = container.querySelector("#reveal");
-  const actions = container.querySelector("#actions");
-
-  return new Promise((resolve) => {
-    reveal.addEventListener("click", () => {
-      reveal.outerHTML = `
-        <div class="flash-face">
-          <div>
-            <p class="flash-text">${escapeHtml(card.antworten[0])}</p>
-            ${card.erklaerung ? `<div class="flash-explain">${escapeHtml(card.erklaerung)}</div>` : ""}
-          </div>
-        </div>`;
-      actions.hidden = false;
-    }, { once: true });
-
-    container.querySelector("#wrong").addEventListener("click", () => resolve(false));
-    container.querySelector("#richtig").addEventListener("click", () => resolve(true));
-  });
+  reveal.addEventListener("click", () => {
+    reveal.outerHTML = `
+      <div class="flash-face">
+        <div>
+          <p class="flash-text">${escapeHtml(card.antworten[0])}</p>
+          ${card.erklaerung ? `<div class="flash-explain">${escapeHtml(card.erklaerung)}</div>` : ""}
+        </div>
+      </div>`;
+    onRevealed?.();
+  }, { once: true });
 }

@@ -414,6 +414,10 @@ async function showFlashcardMode(gebiet, stufe) {
     dock: `
       <div class="dock-status">
         <span class="dock-text" id="progress"></span>
+      </div>
+      <div class="dock-actions">
+        <button type="button" class="btn btn-wrong btn-auto" id="wrong" disabled>Falsch</button>
+        <button type="button" class="btn btn-correct btn-auto" id="richtig" disabled>Richtig</button>
       </div>`,
   });
 
@@ -424,6 +428,9 @@ async function showFlashcardMode(gebiet, stufe) {
   let skipCurrent = null;
   const stage = $("#stage");
   const progress = $("#progress");
+  const dockActions = $(".dock-actions");
+  const wrongBtn = $("#wrong");
+  const richtigBtn = $("#richtig");
 
   on("#flag-btn", "click", () => {
     if (!currentCard) return;
@@ -439,20 +446,30 @@ async function showFlashcardMode(gebiet, stufe) {
           <p class="empty-sub">Alle Karten dieser Stufe sind für diesen Durchgang bearbeitet.</p>
         </div>`;
       progress.textContent = `${queue.length} von ${queue.length} bearbeitet`;
+      dockActions.hidden = true;
       await sync();
       return;
     }
+    dockActions.hidden = false;
+    wrongBtn.disabled = true;
+    richtigBtn.disabled = true;
     progress.textContent = `${i} von ${queue.length} bearbeitet`;
     const card = queue[i];
     currentCard = card;
-    const outcome = await new Promise((resolve) => {
+    renderFlashcard(stage, card, {
+      onRevealed: () => { wrongBtn.disabled = false; richtigBtn.disabled = false; },
+    });
+    const result = await new Promise((resolve) => {
       skipCurrent = () => resolve({ flagged: true });
-      renderFlashcard(stage, card).then((correct) => resolve({ correct }));
+      wrongBtn.onclick = () => { if (!wrongBtn.disabled) resolve({ correct: false }); };
+      richtigBtn.onclick = () => { if (!richtigBtn.disabled) resolve({ correct: true }); };
     });
     skipCurrent = null;
+    wrongBtn.onclick = null;
+    richtigBtn.onclick = null;
     i++;
-    if (outcome.flagged) { step(); return; }
-    await answerCard("cards", card, outcome.correct);
+    if (result.flagged) { step(); return; }
+    await answerCard("cards", card, result.correct);
     step();
   }
   step();

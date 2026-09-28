@@ -4,9 +4,9 @@
   "prio": "normal",
   "frage": "Der Zeuge verweigert die Aussage. Wie wird darüber entschieden?",
   "antworten": [
-    "Im Zwischenstreit durch Zwischenurteil (§ 387 ZPO)",
-    "Durch unanfechtbaren Beschluss nach § 397 III ZPO",
-    "Durch Ordnungsgeld nach § 380 ZPO",
+    "Im Zwischenstreit durch Zwischenurteil",
+    "Durch unanfechtbaren Beschluss des Gerichts",
+    "Durch Festsetzung eines Ordnungsgeldes",
     "In den Entscheidungsgründen des Endurteils"
   ],
   "erklaerung": "Ist der Zeuge nicht zur Aussage bereit, ist ggf. sein Zeugnisverweigerungsrecht zu beachten bzw. im Zwischenstreit über die Aussageverweigerung zu entscheiden (§ 387 ZPO), und zwar per Zwischenurteil.",

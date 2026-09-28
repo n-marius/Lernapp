@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0137",
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Welcher Vortrag ist maßgeblich, wenn eine Partei ihren Vortrag im Verfahren ändert?",
+  "antworten": [
+    "Der letzte Vortrag in der mündlichen Verhandlung",
+    "Der erste schriftsätzlich angekündigte Vortrag",
+    "Der für den Gegner günstigere Vortrag",
+    "Der zuletzt schriftsätzlich angekündigte Vortrag"
+  ],
+  "erklaerung": "Es gilt der Grundsatz der Einheitlichkeit der mündlichen Verhandlung; maßgeblich ist aber der letzte Vortrag in der mündlichen Verhandlung. In Klausuren geben Parteien oft bei der Anhörung widersprechende Erklärungen ab oder stellen Umstände unstreitig; das Protokoll ist daher sehr sorgsam zu lesen.\n\nBei Widersprüchen ist zu fragen, ob alter Vortrag aufgegeben wurde oder widersprüchlicher (= unbeachtlicher) Vortrag vorliegt. Im letzteren Fall sind beide Versionen unter Benennung der Schriftsätze aufzunehmen („Ursprünglich behauptete der Kläger …, mit Schriftsatz vom … hingegen …“).",
+  "ts": "2026-09-28T14:29:02.482023Z"
+}

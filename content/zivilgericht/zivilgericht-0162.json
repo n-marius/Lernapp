@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0162",
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Was sind Tatsachen?",
+  "antworten": [
+    "Gegenwärtige/vergangene, äußere/innere, positive/negative Daten der Realität",
+    "Nur vergangene, äußere und sinnlich wahrnehmbare Vorgänge der realen Welt",
+    "Alle Parteibehauptungen einschließlich ihrer rechtlichen Bewertung",
+    "Nur unstreitige Umstände, die die Parteien übereinstimmend schildern"
+  ],
+  "erklaerung": "Tatsachen sind alle gegenwärtigen und vergangenen, äußeren und inneren, positiven und negativen Daten aus der realen Welt des Seins. Sie haben die Parteien zu liefern (Beibringungsgrundsatz) und sie sind dem Beweis zugänglich.\n\nRechtsansichten sind rechtliche Bewertungen und Schlussfolgerungen; die Parteien müssen sie grds. nicht mitteilen, sie sind dem Beweis nicht zugänglich. Nur über Tatsachen können die Parteien disponieren; die Rechtsfindung obliegt allein dem Gericht. Fehler bei dieser Abgrenzung wiegen in Praxis und Examen sehr schwer.",
+  "ts": "2026-09-28T14:29:02.484112Z"
+}

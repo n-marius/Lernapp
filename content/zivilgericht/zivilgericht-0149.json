@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0149",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wie unterscheiden sich Sachbericht und Tatbestand hinsichtlich Verweisungen?",
+  "antworten": [
+    "Nur beim Tatbestand soll auf Unterlagen verwiesen werden",
+    "Beide sollen umfassend auf Unterlagen verweisen",
+    "Keiner von beiden darf auf Unterlagen verweisen",
+    "Nur beim Sachbericht soll auf Unterlagen verwiesen werden"
+  ],
+  "erklaerung": "Der Sachbericht ist Grundlage des Gutachtens (Relationsklausur), der Tatbestand Teil des Urteils und Grundlage der Entscheidungsgründe. Beim Tatbestand soll wegen der Einzelheiten auf Schriftsätze, Protokolle und Unterlagen verwiesen werden (§ 313 Abs. 2 S. 2 ZPO), beim Sachbericht nicht.\n\nAber: In Klausuren ist stets eine Sachverhaltsdarstellung anzufertigen, die § 313 Abs. 2 ZPO genügt, also soweit angebracht mit Verweisungen (Hinweise des LJPA).",
+  "ts": "2026-09-28T14:29:02.483068Z"
+}

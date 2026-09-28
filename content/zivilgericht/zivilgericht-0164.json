@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0164",
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Was gewährleistet der Unmittelbarkeitsgrundsatz (§ 355 Abs. 1 ZPO)?",
+  "antworten": [
+    "Würdigung aus eigener Anschauung des erkennenden Gerichts",
+    "Erledigung in einem umfassend vorbereiteten Haupttermin",
+    "Bindung des Gerichts an die Anträge der Parteien",
+    "Beibringung des Tatsachenstoffs allein durch die Parteien"
+  ],
+  "erklaerung": "§ 355 Abs. 1 ZPO normiert die Unmittelbarkeit der Beweisaufnahme: Das erkennende Gericht kann die Beweismittel aufgrund eigener Anschauung frei würdigen und Unklarheiten sofort aufklären.\n\n§ 310 Abs. 1 ZPO soll zudem eine zeitliche Unmittelbarkeit sichern: rasche Abfassung des Urteils noch unter dem Eindruck von Verhandlung und Beweisaufnahme.",
+  "ts": "2026-09-28T14:29:02.484252Z"
+}

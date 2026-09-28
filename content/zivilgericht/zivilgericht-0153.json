@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0153",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Welche Anträge werden im Tatbestand wiedergegeben?",
+  "antworten": [
+    "Die zuletzt gestellten Anträge ohne Nebenanträge",
+    "Alle je gestellten Anträge einschließlich Kostenanträgen",
+    "Nur die Anträge aus Klageschrift und Klageerwiderung",
+    "Nur der Antrag des Klägers einschließlich Nebenanträgen"
+  ],
+  "erklaerung": "Wiederzugeben sind die Anträge von Kläger und Beklagtem im Zeitpunkt der letzten mündlichen Verhandlung, nicht Nebenanträge wie der Antrag, der Gegenseite die Kosten aufzuerlegen.\n\nForm: Indikativ Präsens, bei überholten Anträgen Perfekt („Der Kläger beantragt, den Beklagten zu verurteilen, an ihn 600,00 € zu zahlen. Der Beklagte beantragt, die Klage abzuweisen.“).",
+  "ts": "2026-09-28T14:29:02.483545Z"
+}

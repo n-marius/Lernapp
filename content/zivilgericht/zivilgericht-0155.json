@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0155",
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "In welcher Reihenfolge wird der streitige Beklagtenvortrag dargestellt?",
+  "antworten": [
+    "Streitige Tatsachen, dann rechtshindernde, rechtsvernichtende, rechtshemmende Einwendungen",
+    "Rechtshemmende, rechtsvernichtende, rechtshindernde Einwendungen, dann streitige Tatsachen",
+    "Rechtsvernichtende Einwendungen, streitige Tatsachen, dann rechtshindernde Einwendungen",
+    "Streitige Tatsachen, dann rechtshemmende, rechtshindernde, rechtsvernichtende Einwendungen"
+  ],
+  "erklaerung": "Der streitige Beklagtenvortrag wird im Konjunktiv (indirekte Rede) dargestellt; das Bestreiten folgt aus dem Zusammenhang (§ 138 Abs. 3 Hs. 2 ZPO).\n\nReihenfolge: streitige Tatsachen, danach Einreden und Einwendungen in der Reihenfolge rechtshindernd, rechtsvernichtend, rechtshemmend.",
+  "ts": "2026-09-28T14:29:02.483657Z"
+}

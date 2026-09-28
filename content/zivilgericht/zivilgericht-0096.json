@@ -4,8 +4,8 @@
   "prio": "niedrig",
   "frage": "Hängt das selbständige Beweisverfahren von der vorherigen Einzahlung eines Vorschusses ab?",
   "antworten": [
-    "Nein (§ 12 GKG), wohl aber für das SV-Gutachten (§ 17 GKG)",
-    "Ja, wie eine Klage nach § 12 GKG, sonst keine Zustellung",
+    "Nein, wohl aber für das Sachverständigengutachten",
+    "Ja, wie bei einer Klage, sonst keine Zustellung",
     "Nein, auch für das Gutachten ist kein Vorschuss zu zahlen",
     "Ja, der Vorschuss ist beim Antragsgegner anzufordern"
   ],

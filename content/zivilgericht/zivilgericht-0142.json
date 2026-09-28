@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0142",
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Muss das Gericht über die Kosten entscheiden, wenn keine Partei einen Kostenantrag gestellt hat?",
+  "antworten": [
+    "Ja, von Amts wegen",
+    "Nein, es ist an die Parteianträge gebunden",
+    "Nur auf Antrag der obsiegenden Partei",
+    "Nur bei anwaltlich vertretenen Parteien"
+  ],
+  "erklaerung": "§ 308 Abs. 2 ZPO nimmt die Kostenentscheidung ausdrücklich von der Bindung an die Parteianträge aus: Das Gericht hat von Amts wegen über die Kosten zu entscheiden.\n\nGrund ist die besondere Natur der Prozesskosten; es besteht ein öffentliches Interesse an der Frage, welche Partei zu welcher Quote die Kosten trägt (Musielak/Voit/Musielak, § 308 Rn. 24).",
+  "ts": "2026-09-28T14:29:02.482481Z"
+}

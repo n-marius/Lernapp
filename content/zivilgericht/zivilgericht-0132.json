@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0132",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Welche Arten des Bestreitens gibt es?",
+  "antworten": [
+    "Einfaches, qualifiziertes, mit Nichtwissen",
+    "Ausdrückliches, konkludentes und stillschweigendes",
+    "Pauschales, substantiiertes und verspätetes",
+    "Vorläufiges, endgültiges und bedingtes"
+  ],
+  "erklaerung": "Einfaches Bestreiten ist die bloße Verneinung („Nein“); qualifiziertes Bestreiten enthält eine Gegendarstellung („Nein, sondern …“); Bestreiten mit Nichtwissen richtet sich nach § 138 Abs. 4 ZPO.\n\nNichtbestreiten ist einfach (ausdrücklich, konkludent, Schweigen; ggf. § 138 Abs. 3 ZPO) oder qualifiziert als Geständnis (§ 288 ZPO, ggf. Widerruf nach § 290 ZPO).",
+  "ts": "2026-09-28T14:29:02.481509Z"
+}

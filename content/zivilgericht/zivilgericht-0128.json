@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0128",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wie läuft die mündliche Verhandlung ab?",
+  "antworten": [
+    "Aufruf, Anwesenheit, Eröffnung, Güteverhandlung, Anträge, Erörterung, Beweisaufnahme, Schluss, Verkündung",
+    "Aufruf, Anträge, Anwesenheit, Eröffnung, Beweisaufnahme, Güteverhandlung, Erörterung, Schluss, Verkündung",
+    "Aufruf, Eröffnung, Beweisaufnahme, Anträge, Güteverhandlung, Erörterung, Anwesenheit, Schluss, Verkündung",
+    "Eröffnung, Güteverhandlung, Beweisaufnahme, Anwesenheit, Anträge, Verkündung, Erörterung, Schluss"
+  ],
+  "erklaerung": "Aufruf der Sache (§ 220 Abs. 1 ZPO); Feststellung der Anwesenden (§ 160 Abs. 1 Nr. 4 ZPO); Eröffnung und Leitung durch den Vorsitzenden (§ 136 Abs. 1 ZPO); ggf. Güteverhandlung mit Erörterung, Fragen und Anhörung (§ 278 Abs. 2 ZPO); Stellen der Anträge (§ 137 Abs. 1 ZPO); Klärung von Tatsachen- und Rechtsfragen (§§ 137 Abs. 2, 4, 141, 139 Abs. 1 ZPO).\n\nBeweisaufnahme (§§ 279 Abs. 2, 284 ZPO); erneute Erörterung, auch des Beweisergebnisses (§ 279 Abs. 3 ZPO); Verhandlung über das Beweisergebnis (§ 285 Abs. 1 ZPO); Schluss (§ 136 Abs. 4 ZPO); Verkündung am Schluss der Sitzung oder in einem sofort anzuberaumenden Verkündungstermin (§ 310 Abs. 1 ZPO).",
+  "ts": "2026-09-28T14:29:02.481087Z"
+}

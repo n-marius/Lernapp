@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0130",
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Wodurch werden Anhängigkeit und Rechtshängigkeit begründet?",
+  "antworten": [
+    "Anhängigkeit: Eingang bei Gericht; Rechtshängigkeit: Zustellung",
+    "Beide gleichzeitig mit Eingang der Klage bei Gericht",
+    "Anhängigkeit: Zustellung; Rechtshängigkeit: erste Verhandlung",
+    "Anhängigkeit: Vorschusszahlung; Rechtshängigkeit: Eingang"
+  ],
+  "erklaerung": "Der Eingang der Klage bei Gericht begründet nur die Anhängigkeit.\n\nErst die Erhebung der Klage, also die Zustellung an den Beklagten (§ 253 Abs. 1 ZPO), begründet die Rechtshängigkeit (§ 261 Abs. 1 ZPO) mit den Wirkungen des § 261 Abs. 3 ZPO.",
+  "ts": "2026-09-28T14:29:02.481250Z"
+}

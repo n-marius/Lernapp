@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0159",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wie wird eine durchgeführte Beweisaufnahme im Tatbestand dargestellt?",
+  "antworten": [
+    "Im Perfekt, mit Verweis auf Protokoll und Gutachten zum Ergebnis",
+    "Im Präteritum, mit Zusammenfassung der Zeugenaussagen",
+    "Im Konjunktiv, mit Wiedergabe der Aussagen in indirekter Rede",
+    "Gar nicht; sie gehört nur in die Entscheidungsgründe"
+  ],
+  "erklaerung": "Die Prozessgeschichte steht im Indikativ Perfekt. Standardformulierung: „Das Gericht hat Beweis erhoben durch Vernehmung der Zeugen C und D sowie durch Einholung eines Sachverständigengutachtens. Wegen des Ergebnisses der Beweisaufnahme wird auf das Protokoll der mündlichen Verhandlung vom … und das Gutachten des Sachverständigen X vom … verwiesen/Bezug genommen.“\n\nDiese Formulierung wird in Praxis und Klausur sehr häufig gebraucht.",
+  "ts": "2026-09-28T14:29:02.483946Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0136",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Darf das Gericht mehr zusprechen als beantragt, wenn ihm nach seiner Auffassung mehr zusteht?",
+  "antworten": [
+    "Nein, es ist an den Antrag gebunden",
+    "Ja, nach vorherigem richterlichen Hinweis",
+    "Ja, wenn der Mehrbetrag unstreitig ist",
+    "Ja, bis zur Grenze der sachlichen Zuständigkeit"
+  ],
+  "erklaerung": "Nach der Dispositionsmaxime bestimmt nur der Kläger mit Klageantrag und Klagegrund den Streitgegenstand; nur die Parteien können darüber verfügen. § 308 Abs. 1 S. 1 ZPO: Das Gericht ist nicht befugt, einer Partei etwas zuzusprechen, was nicht beantragt ist.\n\nBeispiel: Der Kläger verlangt 1.000 € Reparaturkosten; das Gericht hält wegen Mietwagenkosten 1.500 € für begründet. Es darf nur die beantragten 1.000 € zusprechen.",
+  "ts": "2026-09-28T14:29:02.481875Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0160",
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Wie werden streitige Tatsachen und Rechtsansichten im Tatbestand eingeleitet?",
+  "antworten": [
+    "Tatsachen: „behauptet“; Rechtsansichten: „meint“",
+    "Tatsachen: „trägt vor“; Rechtsansichten: „behauptet“",
+    "Tatsachen: „macht geltend“; Rechtsansichten: „trägt vor“",
+    "Beide einheitlich mit „trägt vor“"
+  ],
+  "erklaerung": "Streitige Tatsachen werden mit „behaupten“ eingeleitet, Rechtsansichten mit „meinen“ oder „ist der Ansicht/Auffassung“. Diese Terminologie ist zwingend zu beachten (A/G, A. 49 ff.).\n\nRechtsansichten gehören in der Regel nicht in den Tatbestand; ihre falsche Einführung (insb. mit „behauptet, dass“) macht einen schlechten Eindruck.",
+  "ts": "2026-09-28T14:29:02.484004Z"
+}

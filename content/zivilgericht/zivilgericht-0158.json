@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0158",
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Welche Aussage- und Zeitform gelten für Unstreitiges, Streitiges und Prozessgeschichte?",
+  "antworten": [
+    "Unstreitig: Indikativ Präteritum; streitig: Konjunktiv; Prozessgeschichte: Perfekt",
+    "Unstreitig: Indikativ Präsens; streitig: Indikativ Präteritum; Prozessgeschichte: Perfekt",
+    "Unstreitig: Konjunktiv; streitig: Indikativ Präteritum; Prozessgeschichte: Präsens",
+    "Unstreitig: Indikativ Perfekt; streitig: Konjunktiv; Prozessgeschichte: Präteritum"
+  ],
+  "erklaerung": "Unstreitiges: Indikativ, Präteritum, i. d. R. chronologisch („Der Beklagte schlug den Kläger.“). Streitiges: Konjunktiv in indirekter Rede, Präsens bzw. Perfekt („Er habe in der Kneipe ein Bier getrunken.“).\n\nAnträge: Indikativ Präsens (überholte Anträge Perfekt). Prozessgeschichte: Indikativ Perfekt („Das Gericht hat Beweis erhoben durch Vernehmung des Zeugen Z.“).",
+  "ts": "2026-09-28T14:29:02.483885Z"
+}

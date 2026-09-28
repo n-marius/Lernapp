@@ -4,10 +4,10 @@
   "prio": "hoch",
   "frage": "Kann im Hauptprozess statt des Gutachtens aus dem selbständigen Beweisverfahren ein neues SV-Gutachten verlangt werden?",
   "antworten": [
-    "Nur bei ungenügendem Gutachten (§ 412 ZPO)",
-    "Ja, das frühere Gutachten bindet nicht",
-    "Ja, auf jeden ordnungsgemäßen Beweisantrag",
-    "Nein, eine neue Begutachtung ist ausgeschlossen"
+    "Nur wenn das Gericht das Gutachten für ungenügend hält",
+    "Ja, da das frühere Gutachten das Prozessgericht nicht bindet",
+    "Ja, auf jeden ordnungsgemäßen Beweisantrag einer Partei",
+    "Nein, eine neue Begutachtung ist ausnahmslos ausgeschlossen"
   ],
   "erklaerung": "Die selbständige Beweiserhebung steht einer Beweisaufnahme vor dem Prozessgericht gleich (vgl. § 493 ZPO).\n\nEin weiteres Gutachten kann die Partei daher nicht einfach beantragen; möglich ist es nur nach § 412 ZPO: Das Gericht kann eine neue Begutachtung durch dieselben oder andere Sachverständige anordnen, wenn es das Gutachten für ungenügend erachtet (Abs. 1), oder nach erfolgreicher Ablehnung des Sachverständigen (Abs. 2).",
   "ts": "2026-09-28T11:02:50.395Z"

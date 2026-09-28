@@ -4,10 +4,10 @@
   "prio": "normal",
   "frage": "Was ist bei der Überzeugungskraft eines Sachverständigengutachtens zu prüfen?",
   "antworten": [
-    "Zutreffende Anknüpfungstatsachen, gebotene Sachkunde (zu vermuten), Schlüssigkeit/Nachvollziehbarkeit der Schlussfolgerungen",
-    "Glaubwürdigkeit des Sachverständigen und Motiv zur Falschaussage",
-    "Echtheit und gesetzliche Beweisregeln",
-    "Keine besondere Würdigung erforderlich"
+    "Anknüpfungstatsachen, Sachkunde, Schlüssigkeit der Folgerungen",
+    "Glaubwürdigkeit des SV und Motiv zur Falschaussage",
+    "Echtheit des Gutachtens und gesetzliche Beweisregeln",
+    "Keine besondere Würdigung, da das Gericht gebunden ist"
   ],
   "erklaerung": "Beim Sachverständigen ist zu prüfen: zutreffende Anknüpfungstatsachen (vollständig, richtig), Bewertung mit der gebotenen Sachkunde (zu vermuten) sowie Schlüssigkeit, Nachvollziehbarkeit und Überzeugungskraft der Schlussfolgerungen.\n\nAllgemein: Plausibilität, Überzeugungskraft, Nachvollziehbarkeit.",
   "ts": "2026-09-28T11:02:50.395Z"

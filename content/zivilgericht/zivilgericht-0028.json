@@ -4,10 +4,10 @@
   "prio": "hoch",
   "frage": "In welchen Fällen ist Bestreiten nicht wirksam, sodass keine Beweisaufnahme erfolgt?",
   "antworten": [
-    "Pauschales Bestreiten trotz möglichen und zumutbaren substantiierten Bestreitens; unzulässiges Bestreiten mit Nichtwissen; verspätetes Bestreiten",
+    "Pauschal trotz zumutbarer Substantiierung, unzulässig mit Nichtwissen, verspätet",
     "Nur bei verspätetem Bestreiten; pauschales Bestreiten genügt stets",
-    "Bei jedem Bestreiten mit Nichtwissen, unabhängig von dessen Zulässigkeit",
-    "Nur wenn der Beklagte das Bestreiten nicht schriftsätzlich angekündigt hat"
+    "Bei jedem Bestreiten mit Nichtwissen, unabhängig von der Zulässigkeit",
+    "Nur wenn das Bestreiten nicht schriftsätzlich angekündigt wurde"
   ],
   "erklaerung": "Eine Beweisaufnahme ist überflüssig bei nicht wirksam bestrittenen Tatsachen. Pauschales Bestreiten ist unzureichend, wenn dem Beklagten nach der Sachlage ein substantiiertes Bestreiten möglich und zumutbar wäre.\n\nUnwirksam ist ferner das unzulässige Bestreiten mit Nichtwissen sowie das verspätete Bestreiten.",
   "ts": "2026-09-28T11:02:50.395Z"

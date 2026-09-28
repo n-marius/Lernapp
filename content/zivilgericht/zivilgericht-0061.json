@@ -4,10 +4,10 @@
   "prio": "hoch",
   "frage": "Unter welchen Voraussetzungen ist die Parteivernehmung von Amts wegen (§ 448 ZPO) zulässig?",
   "antworten": [
-    "Alle angebotenen, zulässigen, erheblichen Beweise erhoben; Verhandlung und ggf. Beweisaufnahme reichen nicht, aber gewisse Wahrscheinlichkeit der Tatsache",
-    "Nur mit Einverständnis des Gegners",
-    "Sobald die beweisbelastete Partei keine anderen Beweismittel vorbringt",
-    "Wenn die Tatsache überwiegend wahrscheinlich und damit glaubhaft gemacht ist"
+    "Alle Beweise erhoben, gewisse Wahrscheinlichkeit der Tatsache",
+    "Auf Antrag und nur mit Einverständnis des Gegners",
+    "Sobald die beweisbelastete Partei keine Beweismittel hat",
+    "Bei überwiegender Wahrscheinlichkeit (Glaubhaftmachung)"
   ],
   "erklaerung": "§ 448 ZPO erlaubt die Vernehmung einer oder beider Parteien von Amts wegen. Voraussetzung ist, dass die Erhebung aller angebotenen, zulässigen und erheblichen Beweise erfolgt ist und Verhandlung und ggf. Beweisaufnahme nicht ausreichen, aber eine gewisse Wahrscheinlichkeit der Tatsache anzunehmen ist.\n\nBeispiel: Der Kläger stürzt allein auf einem nicht ordnungsgemäß gesicherten Weg. Arzt und Zeugen zum Wegezustand sind vernommen, offen bleibt, ob er an der Stelle und wegen des ungesicherten Wegs gestürzt ist. Die Überzeugung nach § 286 ZPO kann das Gericht aus der Parteivernehmung des Klägers schöpfen.",
   "ts": "2026-09-28T11:02:50.395Z"

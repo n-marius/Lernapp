@@ -4,10 +4,10 @@
   "prio": "normal",
   "frage": "Kann eine frühere Partei im selben Verfahren Zeuge sein?",
   "antworten": [
-    "Ja, z. B. nach Klagerücknahme (Rechtshängigkeit entfällt rückwirkend, § 269 III 1) oder nach rechtskräftigem/vergleichsweisem Ausscheiden (str.)",
-    "Nein, wer einmal Partei war, bleibt im selben Verfahren zeugnisunfähig",
+    "Ja, z. B. nach Klagerücknahme oder Ausscheiden durch Vergleich",
+    "Nein, wer Partei war, bleibt im Verfahren zeugnisunfähig",
     "Nur nach Rechtskraft einer streitigen Kostenentscheidung",
-    "Nur mit Zustimmung der übrigen Parteien"
+    "Nur mit Zustimmung aller im Verfahren verbliebenen Parteien"
   ],
   "erklaerung": "Nimmt der Kläger die Klage gegen einen Mitbeklagten zurück, entfällt die Rechtshängigkeit ihm gegenüber rückwirkend (§ 269 Abs. 3 S. 1 ZPO); er kann grds. als Zeuge vernommen werden.\n\nAuch eine rechtskräftig oder durch Vergleich ausgeschiedene frühere Partei kann Zeuge sein, selbst wenn noch eine nichtstreitige Kostenentscheidung aussteht (KG MDR 1981, 765; streitig). Die Aussage eines später als Partei eingetretenen Zeugen bleibt eine Zeugenaussage (OLG Karlsruhe VersR 1979, 1033).",
   "ts": "2026-09-28T11:02:50.395Z"

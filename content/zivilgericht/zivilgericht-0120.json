@@ -4,10 +4,10 @@
   "prio": "normal",
   "frage": "Ein geladener Zeuge ist nicht erschienen. Was ist zu veranlassen?",
   "antworten": [
-    "Ordnungsmittel prüfen (§ 380 ZPO); Nichterscheinen protokollieren (§ 160 I Nr. 4 ZPO)",
-    "Beweisantrag als unerreichbar ablehnen",
-    "Zeugen als beweisfällig behandeln und Beweislastentscheidung treffen",
-    "Beweisaufnahme im Rechtshilfeweg anordnen"
+    "Ordnungsmittel prüfen; Nichterscheinen protokollieren",
+    "Beweisantrag wegen Unerreichbarkeit ablehnen (§ 244 StPO)",
+    "Beweislastentscheidung zulasten des Beweisführers",
+    "Vernehmung im Wege der Rechtshilfe anordnen (§ 362)"
   ],
   "erklaerung": "Ist der Zeuge nicht erschienen, ist die Verhängung von Ordnungsmitteln zu prüfen (§ 380 ZPO).\n\nErscheinen bzw. Nichterscheinen ist zu protokollieren (§ 160 Abs. 1 Nr. 4 ZPO).",
   "ts": "2026-09-28T11:02:50.395Z"

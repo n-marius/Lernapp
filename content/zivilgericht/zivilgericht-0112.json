@@ -4,10 +4,10 @@
   "prio": "niedrig",
   "frage": "Wer ist Zeuge, wer sachverständiger Zeuge?",
   "antworten": [
-    "Zeuge: natürliche Person, die über eigene Wahrnehmungen aussagen soll; sachverständiger Zeuge: über Tatsachen, deren Wahrnehmung besondere Sachkunde erfordert",
-    "Zeuge: jede natürliche oder juristische Person mit Kenntnis vom Streitstoff; sachverständiger Zeuge: gerichtlich bestellter Gutachter",
-    "Zeuge: nur geschäftsfähige Personen; sachverständiger Zeuge: Zeuge mit Berufsausbildung",
-    "Zeuge: Person, die Schlussfolgerungen aus Tatsachen zieht; sachverständiger Zeuge: Privatgutachter einer Partei"
+    "Zeuge: eigene Wahrnehmungen; sachv. Zeuge: Wahrnehmung mit Sachkunde",
+    "Zeuge: jede Person mit Kenntnis; sachv. Zeuge: gerichtlicher Gutachter",
+    "Zeuge: nur Geschäftsfähige; sachv. Zeuge: Zeuge mit Berufsausbildung",
+    "Zeuge: zieht Schlussfolgerungen; sachv. Zeuge: Privatgutachter"
   ],
   "erklaerung": "Zeuge ist eine natürliche Person, die in einem Verfahren über eigene Wahrnehmungen aussagen soll.\n\nDer sachverständige Zeuge soll über Tatsachen und Zustände aussagen, zu deren Wahrnehmung eine besondere Sachkunde notwendig war.",
   "ts": "2026-09-28T11:02:50.395Z"

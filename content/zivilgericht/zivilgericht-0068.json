@@ -4,10 +4,10 @@
   "prio": "normal",
   "frage": "Ist die uneidliche Falschaussage einer Partei bei der Parteivernehmung nach § 153 StGB strafbar?",
   "antworten": [
-    "Nein, in Betracht kommt nur (versuchter) Prozessbetrug (§§ 263, 23 StGB)",
-    "Ja, wie bei Zeugen",
+    "Nein, nur (versuchter) Prozessbetrug",
+    "Ja, genauso wie bei einem Zeugen",
     "Ja, als Meineid (§ 154 StGB)",
-    "Nein, sie ist in keiner Weise strafbar"
+    "Nein, sie ist gar nicht strafbar"
   ],
   "erklaerung": "Die uneidliche Falschaussage ist für die Partei nicht nach § 153 StGB strafbar, sondern insoweit nur als (versuchter) Prozessbetrug nach §§ 263, 23 StGB.\n\nDie eidliche Falschaussage ist nach § 154 StGB strafbar.",
   "ts": "2026-09-28T11:02:50.395Z"

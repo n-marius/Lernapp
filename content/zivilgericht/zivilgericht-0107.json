@@ -4,10 +4,10 @@
   "prio": "normal",
   "frage": "Welche Warnsignale im Aussageverhalten gibt es?",
   "antworten": [
-    "Übertriebene Bestimmtheit, Fluchtsymptom (Ausweichen), verdächtige Verteidigung (Entrüstung/Vorwegverteidigung)",
-    "Zugeben von Unsicherheiten, Selbstbelastungen",
-    "Ungeordnete Erzählweise, Komplikationen",
-    "Detailreichtum, Widerspruchsfreiheit"
+    "Übertriebene Bestimmtheit, Fluchtsymptom, verdächtige Verteidigung",
+    "Zugeben von Unsicherheiten, Selbstbelastungen, Korrekturen",
+    "Ungeordnete Erzählweise, Komplikationen, Nebendetails",
+    "Detailreichtum, Widerspruchsfreiheit, raum-zeitliche Bezüge"
   ],
   "erklaerung": "Warnsignale im Aussageverhalten sind übertriebene Bestimmtheit, das Fluchtsymptom (Ausweichen) und die verdächtige Verteidigung (Entrüstung, Vorwegverteidigung).",
   "ts": "2026-09-28T11:02:50.395Z"

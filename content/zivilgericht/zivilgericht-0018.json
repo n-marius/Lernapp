@@ -4,9 +4,9 @@
   "prio": "normal",
   "frage": "Was darf ein Augenscheinsprotokoll nicht enthalten?",
   "antworten": [
-    "Wertungen des Protokollanten (z. B. „rutschige Sohle“ statt „dünne Sohle, geringe Profiltiefe“)",
+    "Wertungen des Protokollanten",
     "Tatsächliche Angaben zur Beschaffenheit",
-    "Angaben zu Ort und Zeit des Augenscheins",
+    "Angaben zu Ort und Zeit",
     "Detaillierte Beschreibungen"
   ],
   "erklaerung": "Im Urteil ist zu prüfen, ob das Augenscheinsprotokoll hinreichend detailliert ist. Es darf keine Wertungen des Protokollanten enthalten, nur tatsächliche Angaben.\n\nFalsch: „Stiefel mit rutschiger Sohle“. Richtig: „Stiefel mit dünner Sohle und geringer Profiltiefe“.",

@@ -4,10 +4,10 @@
   "prio": "normal",
   "frage": "In welche Gruppen lassen sich Realitätskennzeichen einteilen?",
   "antworten": [
-    "Allgemeine Merkmale, spezielle Inhalte, motivationsbezogene Inhalte, Wiederholung der Aussage (Erweiterung, Ergänzung)",
+    "Allgemeine, spezielle, motivationsbezogene Merkmale; Wiederholung",
     "Strukturbruch, inhaltliche Signale, Aussageverhalten",
-    "Wahrnehmung, Erinnerung, Wiedergabe",
-    "Glaubhaftigkeit, Glaubwürdigkeit, Beweiskraft"
+    "Wahrnehmung, Erinnerung, Wiedergabe, Aussagebereitschaft",
+    "Glaubhaftigkeit, Glaubwürdigkeit, innere Beweiskraft, Baseline"
   ],
   "erklaerung": "Bei der Würdigung ist die Aussage zunächst anhand von Realitätskriterien auf ihren Wahrheitsgehalt zu überprüfen. Realitätskennzeichen sind allgemeine Merkmale, spezielle Inhalte, motivationsbezogene Inhalte sowie bei Wiederholung der Aussage deren Erweiterung und Ergänzung.\n\nStrukturbruch, inhaltliche Warnsignale und Warnsignale im Aussageverhalten sind dagegen Warnsignale.",
   "ts": "2026-09-28T11:02:50.395Z"

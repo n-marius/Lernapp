@@ -4,10 +4,10 @@
   "prio": "hoch",
   "frage": "Wann ist der Gegenbeweis geführt?",
   "antworten": [
-    "Wenn die Überzeugung des Gerichts von der Haupttatsache erschüttert ist",
+    "Wenn die Überzeugung von der Haupttatsache erschüttert ist",
     "Wenn das Gericht vom Gegenteil der Haupttatsache überzeugt ist",
-    "Wenn das Gegenteil überwiegend wahrscheinlich ist",
-    "Wenn der Gegenbeweis glaubhaft gemacht ist"
+    "Wenn das Gegenteil der Haupttatsache überwiegend wahrscheinlich ist",
+    "Wenn die Tatsachen des Gegenbeweises glaubhaft gemacht sind"
   ],
   "erklaerung": "Der Gegenbeweis wird vom Gegner der beweisbelasteten Partei angetreten. Er ist geführt, wenn das Gericht keine ausreichende Überzeugung hinsichtlich der dem Hauptbeweis unterfallenden Tatsache mehr gewinnen kann, die Überzeugung also erschüttert ist.\n\nDas Gericht muss NICHT vom Gegenbeweis überzeugt sein.",
   "ts": "2026-09-28T11:02:50.395Z"

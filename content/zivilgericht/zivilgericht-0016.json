@@ -4,10 +4,10 @@
   "prio": "hoch",
   "frage": "Der Gegner vereitelt die ihm zumutbare Einnahme des Augenscheins. Folge?",
   "antworten": [
-    "Behauptungen des Beweisführers über die Beschaffenheit können als bewiesen angesehen werden (§ 371 III ZPO)",
-    "Beweisführer ist beweisfällig",
-    "Ordnungsmittel gegen den Gegner nach § 390 ZPO; sonst keine Folge",
-    "Zwingende Parteivernehmung des Gegners"
+    "Behauptungen des Beweisführers können als bewiesen gelten",
+    "Beweisführer ist beweisfällig, Beweislastentscheidung",
+    "Ordnungsmittel gegen den Gegner, sonst keine Folge",
+    "Zwingende Parteivernehmung des Gegners (§ 445)"
   ],
   "erklaerung": "Nach § 371 Abs. 3 ZPO können, wenn eine Partei die ihr zumutbare Einnahme des Augenscheins vereitelt, die Behauptungen des Gegners über die Beschaffenheit des Gegenstands als bewiesen angesehen werden.",
   "ts": "2026-09-28T11:02:50.395Z"

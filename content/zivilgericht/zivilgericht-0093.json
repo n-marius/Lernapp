@@ -4,10 +4,10 @@
   "prio": "normal",
   "frage": "Wie erreicht der Antragsgegner eine Kostenentscheidung, wenn nach dem selbständigen Beweisverfahren keine Klage erhoben wird?",
   "antworten": [
-    "Antrag nach § 494a ZPO: Frist zur Klageerhebung, bei Versäumung Kostenbeschluss",
-    "Kostenfestsetzungsantrag nach § 104 ZPO",
-    "Negative Feststellungsklage",
-    "Antrag auf Kostenentscheidung nach § 91a ZPO"
+    "Antrag nach § 494a ZPO (Fristsetzung, dann Kostenbeschluss)",
+    "Kostenfestsetzungsantrag nach § 104 ZPO beim Rechtspfleger",
+    "Negative Feststellungsklage bezüglich des Anspruchs",
+    "Antrag auf Kostenentscheidung nach § 91a ZPO analog"
   ],
   "erklaerung": "Durch Antrag nach § 494a ZPO. Ist kein Rechtsstreit anhängig, ordnet das Gericht nach Beendigung der Beweiserhebung auf Antrag ohne mündliche Verhandlung an, dass der Antragsteller binnen einer Frist Klage zu erheben hat (§ 494a Abs. 1 ZPO).\n\nKommt der Antragsteller dem nicht nach, spricht das Gericht auf Antrag durch Beschluss aus, dass er die dem Gegner entstandenen Kosten zu tragen hat; dagegen ist die sofortige Beschwerde statthaft (§ 494a Abs. 2 ZPO).",
   "ts": "2026-09-28T11:02:50.395Z"

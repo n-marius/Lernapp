@@ -4,10 +4,10 @@
   "prio": "normal",
   "frage": "An welches Gericht ist ein Antrag nach § 485 II ZPO vor Anhängigkeit zu richten?",
   "antworten": [
-    "An das Gericht, das nach dem Vortrag des Antragstellers in der Hauptsache zuständig wäre (§ 486 II ZPO)",
-    "Stets an das Amtsgericht",
-    "Stets an das Landgericht",
-    "An das Gericht am Wohnsitz des Antragstellers"
+    "Das (hypothetische) Hauptsachegericht (§ 486 II)",
+    "Stets das Amtsgericht, unabhängig vom Streitwert",
+    "Stets das Landgericht, unabhängig vom Streitwert",
+    "Das Gericht am allgemeinen Gerichtsstand des Antragstellers"
   ],
   "erklaerung": "Ist ein Rechtsstreit noch nicht anhängig, ist der Antrag bei dem Gericht zu stellen, das nach dem Vortrag des Antragstellers zur Entscheidung in der Hauptsache berufen wäre (§ 486 Abs. 2 S. 1 ZPO).\n\nBeispiel: Bei geschätzten Beseitigungskosten von 11.000 € ist das Landgericht zuständig.",
   "ts": "2026-09-28T11:02:50.395Z"

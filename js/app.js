@@ -1,12 +1,13 @@
 // Routing und Bildschirme. Vorbild: ukr-app js/app.js (gleicher Rahmen aus
 // Kopfleiste/Seite/Dock, gleiche Hilfsfunktionen für Dialog und Hinweis).
-import { renderFlashcard, buildQueue, countByStufe, countByGebiet, pickWeightedCard } from "./cards.js";
+import { renderFlashcard, buildQueue, countByStufe, countByGebiet, pickWeightedCard, filterByPrio } from "./cards.js";
 import { renderQuizCard } from "./quiz.js";
 import { renderStats, countToday } from "./stats.js";
 import {
   USERS,
   GEBIETE,
   STUFEN,
+  PRIOS,
   getCurrentUser,
   setCurrentUser,
   getAllUserCards,
@@ -65,6 +66,7 @@ const ICON = {
   flag: svg(`<path d="M6 21V4"/><path d="M6 4.5c1.4-1 3-1 4.5 0s3.1 1 4.5 0v9c-1.4 1-3 1-4.5 0s-3.1-1-4.5 0"/>`),
   hand: svg(`<path d="M6 4h6M6 8h9M6 12h7"/><circle cx="18" cy="16" r="1" fill="currentColor" stroke="none"/><circle cx="18" cy="16" r="4"/>`),
   auto: svg(`<path d="M12 4v3M12 17v3M4 12h3M17 12h3"/><circle cx="12" cy="12" r="4.5"/>`),
+  up: svg(`<path d="M12 19V6M6 11l6-6 6 6"/>`),
 };
 
 const root = document.getElementById("app");
@@ -257,8 +259,13 @@ async function showAutoManualPick(mode) {
 function isAutoMode(mode) { return mode.endsWith("-auto"); }
 function baseMode(mode) { return mode.replace("-auto", ""); }
 
-async function showGebietPick(mode) {
-  const cards = await allCards();
+const PRIO_KURZ = { hoch: "Hoch", normal: "Normal", niedrig: "Niedrig" };
+
+async function showGebietPick(mode, allowedPrios = new Set(PRIOS)) {
+  const showPrioFilter = mode !== "create";
+  const baseCards = await allCards();
+  const prios = showPrioFilter ? await priosMap(currentUser) : null;
+  const cards = showPrioFilter ? filterByPrio(baseCards, prios, allowedPrios) : baseCards;
   const counts = countByGebiet(cards);
   const title = mode === "create" ? "Für welches Rechtsgebiet?" : "Rechtsgebiet wählen";
 
@@ -275,6 +282,12 @@ async function showGebietPick(mode) {
       </button>`;
   }).join("");
 
+  const prioFilterHtml = showPrioFilter
+    ? `<div class="prio-toggle" role="group" aria-label="Prio-Filter">
+        ${PRIOS.map((p) => `<button type="button" class="prio-toggle-btn" data-prio="${p}" data-active="${allowedPrios.has(p)}">${PRIO_KURZ[p]}</button>`).join("")}
+      </div>`
+    : "";
+
   render("gebiet", {
     left: backButton(),
     body: `
@@ -282,15 +295,29 @@ async function showGebietPick(mode) {
         <p class="kicker">${modeLabel(mode)}${isAutoMode(mode) ? " · Automatisch" : ""}</p>
         <h1 class="page-title">${title}</h1>
       </header>
+      ${prioFilterHtml}
       <div class="group">${rows}</div>`,
   });
 
   on("#back", "click", () => (mode === "create" ? showModes() : showAutoManualPick(baseMode(mode))));
+
+  if (showPrioFilter) {
+    root.querySelectorAll(".prio-toggle-btn").forEach((b) =>
+      b.addEventListener("click", () => {
+        const p = b.dataset.prio;
+        const next = new Set(allowedPrios);
+        if (next.has(p)) { if (next.size > 1) next.delete(p); }
+        else next.add(p);
+        showGebietPick(mode, next);
+      })
+    );
+  }
+
   root.querySelectorAll("[data-gebiet]:not(:disabled)").forEach((b) =>
     b.addEventListener("click", () => {
       if (mode === "create") showCreate(b.dataset.gebiet);
-      else if (isAutoMode(mode)) showAutoMode(baseMode(mode), b.dataset.gebiet);
-      else showStufePick(mode, b.dataset.gebiet);
+      else if (isAutoMode(mode)) showAutoMode(baseMode(mode), b.dataset.gebiet, allowedPrios);
+      else showStufePick(mode, b.dataset.gebiet, allowedPrios);
     })
   );
 }
@@ -303,8 +330,10 @@ function modeLabel(mode) {
 
 // ---------- Stufe ----------
 
-async function showStufePick(mode, gebiet) {
-  const cards = await allCards();
+async function showStufePick(mode, gebiet, allowedPrios = new Set(PRIOS)) {
+  const baseCards = await allCards();
+  const prios = await priosMap(currentUser);
+  const cards = filterByPrio(baseCards, prios, allowedPrios);
   const levels = await levelsMap(currentUser);
   const counts = countByStufe(cards, gebiet, levels);
 
@@ -337,17 +366,19 @@ async function showStufePick(mode, gebiet) {
   root.querySelectorAll("[data-stufe]:not(:disabled)").forEach((b) =>
     b.addEventListener("click", () => {
       const stufe = Number(b.dataset.stufe);
-      if (mode === "cards") showFlashcardMode(gebiet, stufe);
-      else showQuizMode(gebiet, stufe);
+      if (mode === "cards") showFlashcardMode(gebiet, stufe, allowedPrios);
+      else showQuizMode(gebiet, stufe, allowedPrios);
     })
   );
 }
 
 // ---------- Bewertung einer Karte (gemeinsam für beide Lernmodi) ----------
 
-async function answerCard(mode, card, correct) {
+// `forceStufe` überspringt die normale +1-Logik (Knopf „Direkt in Stufe 4“
+// für Karten, die man schon sicher kann – zählt wie eine richtige Antwort).
+async function answerCard(mode, card, correct, forceStufe) {
   const now = new Date().toISOString();
-  const newStufe = correct ? Math.min(5, (await currentStufeOf(card)) + 1) : 1;
+  const newStufe = forceStufe ?? (correct ? Math.min(5, (await currentStufeOf(card)) + 1) : 1);
   await setLevel(currentUser, cardKey(card), newStufe, now);
 
   const todayBefore = countToday(await getAllEvents(currentUser));
@@ -454,13 +485,14 @@ function flagDialog(card) {
 
 // ---------- Karteikarten-Modus ----------
 
-async function showFlashcardMode(gebiet, stufe) {
+async function showFlashcardMode(gebiet, stufe, allowedPrios = new Set(PRIOS)) {
   sessionStreak = 0;
   await sync();
 
-  const cards = await allCards();
+  const baseCards = await allCards();
   const levels = await levelsMap(currentUser);
   const prios = await priosMap(currentUser);
+  const cards = filterByPrio(baseCards, prios, allowedPrios);
   const queue = buildQueue(cards, gebiet, stufe, levels);
 
   render("flashcards", {
@@ -474,10 +506,11 @@ async function showFlashcardMode(gebiet, stufe) {
       <div class="dock-actions">
         <button type="button" class="btn btn-wrong btn-auto" id="wrong" disabled>Falsch</button>
         <button type="button" class="btn btn-correct btn-auto" id="richtig" disabled>Richtig</button>
+        <button type="button" class="btn btn-fasttrack" id="fasttrack" disabled aria-label="Direkt in Stufe 4 (schon sicher gekonnt)">${ICON.up}</button>
       </div>`,
   });
 
-  on("#back", "click", async () => { await sync(); showStufePick("cards", gebiet); });
+  on("#back", "click", async () => { await sync(); showStufePick("cards", gebiet, allowedPrios); });
 
   let i = 0;
   let currentCard = null;
@@ -487,6 +520,7 @@ async function showFlashcardMode(gebiet, stufe) {
   const dockActions = $(".dock-actions");
   const wrongBtn = $("#wrong");
   const richtigBtn = $("#richtig");
+  const fastBtn = $("#fasttrack");
 
   on("#flag-btn", "click", () => {
     if (!currentCard) return;
@@ -509,11 +543,12 @@ async function showFlashcardMode(gebiet, stufe) {
     dockActions.hidden = false;
     wrongBtn.disabled = true;
     richtigBtn.disabled = true;
+    fastBtn.disabled = true;
     progress.textContent = `${i} von ${queue.length} bearbeitet`;
     const card = queue[i];
     currentCard = card;
     renderFlashcard(stage, card, {
-      onRevealed: () => { wrongBtn.disabled = false; richtigBtn.disabled = false; },
+      onRevealed: () => { wrongBtn.disabled = false; richtigBtn.disabled = false; fastBtn.disabled = false; },
       prio: effectivePrio(card, prios),
       onPrioChange: (prio) => changePrio(prios, card, prio),
     });
@@ -521,12 +556,15 @@ async function showFlashcardMode(gebiet, stufe) {
       skipCurrent = () => resolve({ flagged: true });
       wrongBtn.onclick = () => { if (!wrongBtn.disabled) resolve({ correct: false }); };
       richtigBtn.onclick = () => { if (!richtigBtn.disabled) resolve({ correct: true }); };
+      fastBtn.onclick = () => { if (!fastBtn.disabled) resolve({ fastTrack: true }); };
     });
     skipCurrent = null;
     wrongBtn.onclick = null;
     richtigBtn.onclick = null;
+    fastBtn.onclick = null;
     i++;
     if (result.flagged) { step(); return; }
+    if (result.fastTrack) { await answerCard("cards", card, true, 4); step(); return; }
     await answerCard("cards", card, result.correct);
     step();
   }
@@ -535,13 +573,14 @@ async function showFlashcardMode(gebiet, stufe) {
 
 // ---------- Frage-Antwort-Modus ----------
 
-async function showQuizMode(gebiet, stufe) {
+async function showQuizMode(gebiet, stufe, allowedPrios = new Set(PRIOS)) {
   sessionStreak = 0;
   await sync();
 
-  const cards = await allCards();
+  const baseCards = await allCards();
   const levels = await levelsMap(currentUser);
   const prios = await priosMap(currentUser);
+  const cards = filterByPrio(baseCards, prios, allowedPrios);
   const queue = buildQueue(cards, gebiet, stufe, levels);
 
   render("quiz-mode", {
@@ -552,10 +591,11 @@ async function showQuizMode(gebiet, stufe) {
       <div class="dock-status">
         <span class="dock-text" id="progress"></span>
       </div>
-      <button class="btn btn-primary btn-auto" id="next" disabled>Weiter</button>`,
+      <button class="btn btn-primary btn-auto" id="next" disabled>Weiter</button>
+      <button type="button" class="btn btn-fasttrack" id="fasttrack" disabled aria-label="Direkt in Stufe 4 (schon sicher gekonnt)">${ICON.up}</button>`,
   });
 
-  on("#back", "click", async () => { await sync(); showStufePick("quiz", gebiet); });
+  on("#back", "click", async () => { await sync(); showStufePick("quiz", gebiet, allowedPrios); });
 
   let i = 0;
   let currentCard = null;
@@ -563,6 +603,7 @@ async function showQuizMode(gebiet, stufe) {
   const stage = $("#stage");
   const progress = $("#progress");
   const nextBtn = $("#next");
+  const fastBtn = $("#fasttrack");
 
   on("#flag-btn", "click", () => {
     if (!currentCard) return;
@@ -579,28 +620,34 @@ async function showQuizMode(gebiet, stufe) {
         </div>`;
       progress.textContent = `${queue.length} von ${queue.length} bearbeitet`;
       nextBtn.hidden = true;
+      fastBtn.hidden = true;
       await sync();
       return;
     }
     nextBtn.hidden = false;
+    fastBtn.hidden = false;
     nextBtn.disabled = true;
+    fastBtn.disabled = true;
     progress.textContent = `${i} von ${queue.length} bearbeitet`;
     const card = queue[i];
     currentCard = card;
     let outcome = null;
     renderQuizCard(stage, card, {
-      onAnswered: (correct) => { outcome = { correct }; nextBtn.disabled = false; },
+      onAnswered: (correct) => { outcome = { correct }; nextBtn.disabled = false; fastBtn.disabled = false; },
       prio: effectivePrio(card, prios),
       onPrioChange: (prio) => changePrio(prios, card, prio),
     });
     const result = await new Promise((resolve) => {
       skipCurrent = () => resolve({ flagged: true });
       nextBtn.onclick = () => { if (outcome) resolve(outcome); };
+      fastBtn.onclick = () => { if (!fastBtn.disabled) resolve({ fastTrack: true }); };
     });
     skipCurrent = null;
     nextBtn.onclick = null;
+    fastBtn.onclick = null;
     i++;
     if (result.flagged) { step(); return; }
+    if (result.fastTrack) { await answerCard("quiz", card, true, 4); step(); return; }
     await answerCard("quiz", card, result.correct);
     step();
   }
@@ -613,11 +660,13 @@ async function showQuizMode(gebiet, stufe) {
 // gewichtet aus dem gesamten Rechtsgebiet (siehe cards.js pickWeightedCard)
 // und hat kein festes Ende – der Durchgang läuft, bis über „Modus verlassen"
 // zurückgegangen wird.
-async function showAutoMode(mode, gebiet) {
+async function showAutoMode(mode, gebiet, allowedPrios = new Set(PRIOS)) {
   sessionStreak = 0;
   await sync();
 
-  const cards = await allCards();
+  const baseCards = await allCards();
+  const filterPrios = await priosMap(currentUser);
+  const cards = filterByPrio(baseCards, filterPrios, allowedPrios);
   const pool = cards.filter((c) => c.gebiet === gebiet);
 
   render(`${mode}-auto`, {
@@ -631,10 +680,12 @@ async function showAutoMode(mode, gebiet) {
       <div class="dock-actions">
         <button type="button" class="btn btn-wrong btn-auto" id="wrong" disabled>Falsch</button>
         <button type="button" class="btn btn-correct btn-auto" id="richtig" disabled>Richtig</button>
+        <button type="button" class="btn btn-fasttrack" id="fasttrack" disabled aria-label="Direkt in Stufe 4 (schon sicher gekonnt)">${ICON.up}</button>
       </div>`
         : `
       <div class="dock-status"><span class="dock-text" id="progress"></span></div>
-      <button class="btn btn-primary btn-auto" id="next" disabled>Weiter</button>`,
+      <button class="btn btn-primary btn-auto" id="next" disabled>Weiter</button>
+      <button type="button" class="btn btn-fasttrack" id="fasttrack" disabled aria-label="Direkt in Stufe 4 (schon sicher gekonnt)">${ICON.up}</button>`,
   });
 
   on("#back", "click", async () => { await sync(); showGebietPick(`${mode}-auto`); });
@@ -673,10 +724,12 @@ async function showAutoMode(mode, gebiet) {
     if (mode === "cards") {
       const wrongBtn = $("#wrong");
       const richtigBtn = $("#richtig");
+      const fastBtn = $("#fasttrack");
       wrongBtn.disabled = true;
       richtigBtn.disabled = true;
+      fastBtn.disabled = true;
       renderFlashcard(stage, card, {
-        onRevealed: () => { wrongBtn.disabled = false; richtigBtn.disabled = false; },
+        onRevealed: () => { wrongBtn.disabled = false; richtigBtn.disabled = false; fastBtn.disabled = false; },
         prio: effectivePrio(card, prios),
         onPrioChange: (prio) => changePrio(prios, card, prio),
       });
@@ -684,23 +737,29 @@ async function showAutoMode(mode, gebiet) {
         skipCurrent = () => resolve({ flagged: true });
         wrongBtn.onclick = () => { if (!wrongBtn.disabled) resolve({ correct: false }); };
         richtigBtn.onclick = () => { if (!richtigBtn.disabled) resolve({ correct: true }); };
+        fastBtn.onclick = () => { if (!fastBtn.disabled) resolve({ fastTrack: true }); };
       });
       wrongBtn.onclick = null;
       richtigBtn.onclick = null;
+      fastBtn.onclick = null;
     } else {
       const nextBtn = $("#next");
+      const fastBtn = $("#fasttrack");
       nextBtn.disabled = true;
+      fastBtn.disabled = true;
       let outcome = null;
       renderQuizCard(stage, card, {
-        onAnswered: (correct) => { outcome = { correct }; nextBtn.disabled = false; },
+        onAnswered: (correct) => { outcome = { correct }; nextBtn.disabled = false; fastBtn.disabled = false; },
         prio: effectivePrio(card, prios),
         onPrioChange: (prio) => changePrio(prios, card, prio),
       });
       result = await new Promise((resolve) => {
         skipCurrent = () => resolve({ flagged: true });
         nextBtn.onclick = () => { if (outcome) resolve(outcome); };
+        fastBtn.onclick = () => { if (!fastBtn.disabled) resolve({ fastTrack: true }); };
       });
       nextBtn.onclick = null;
+      fastBtn.onclick = null;
     }
     skipCurrent = null;
     if (result.flagged) {
@@ -710,6 +769,7 @@ async function showAutoMode(mode, gebiet) {
       return;
     }
     answered++;
+    if (result.fastTrack) { await answerCard(mode, card, true, 4); step(); return; }
     await answerCard(mode, card, result.correct);
     step();
   }
@@ -1108,6 +1168,44 @@ function confirmDialog({ title, text, onYes }) {
   });
 }
 
+// Blockierende Ersteinrichtung: ohne Token liefe man ohne Synchronisierung,
+// ohne es zu merken. Kein Abbrechen/Wegklicken möglich – erst nach dem
+// Speichern geht es weiter (siehe init()).
+function requireTokenDialog() {
+  return new Promise((resolve) => {
+    const el = document.createElement("div");
+    el.className = "backdrop";
+    el.innerHTML = `
+      <div class="dialog" role="alertdialog" aria-modal="true">
+        <h3>GitHub-Token hinterlegen</h3>
+        <p>Ohne Token wird nicht synchronisiert – dein Fortschritt bliebe allein auf diesem Gerät. Bitte einmal einrichten, bevor es losgeht.</p>
+        <label class="field">
+          <span class="field-label">GitHub-Token</span>
+          <input id="req-token" type="password" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="github_pat_…">
+        </label>
+        <label class="field">
+          <span class="field-label">Gist-ID (nur auf weiteren Geräten nötig)</span>
+          <input id="req-gist" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Auf dem ersten Gerät leer lassen">
+        </label>
+        <div class="settings-actions"><button class="btn btn-primary" id="req-save" disabled>Speichern und weiter</button></div>
+      </div>`;
+    document.body.appendChild(el);
+    const tokenInput = el.querySelector("#req-token");
+    const saveBtn = el.querySelector("#req-save");
+    tokenInput.addEventListener("input", () => { saveBtn.disabled = !tokenInput.value.trim(); });
+    tokenInput.focus();
+    saveBtn.addEventListener("click", async () => {
+      const token = tokenInput.value.trim();
+      if (!token) return;
+      saveBtn.disabled = true;
+      saveBtn.textContent = "Speichere …";
+      await setSyncConfig({ token, gistId: el.querySelector("#req-gist").value.trim() });
+      el.remove();
+      resolve();
+    });
+  });
+}
+
 function toast(message, action) {
   document.querySelector(".toast")?.remove();
   const el = document.createElement("div");
@@ -1134,6 +1232,9 @@ async function init() {
   } else {
     await showModes();
   }
+
+  const cfg = await getSyncConfig();
+  if (!cfg.token) await requireTokenDialog();
 
   sync().then((res) => { if (res?.changed && (current === "modes" || current === "gebiet" || current === "stufe")) showModes(); });
   window.addEventListener("online", () => sync());

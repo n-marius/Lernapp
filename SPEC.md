@@ -169,7 +169,13 @@ laufen lassen.
    Rechtsanwalt, Verwaltungsrecht. In den beiden Lernmodi sind
    Rechtsgebiete ohne Karten ausgegraut; im Modus „Karten anlegen“ sind immer
    alle vier wählbar (die Wahl bestimmt nur das Rechtsgebiet der neuen
-   Karte).
+   Karte). In den beiden Lernmodi sitzen oberhalb der Liste drei
+   Umschalt-Knöpfe „Hoch“/„Normal“/„Niedrig“ (Prio-Filter): Beim Öffnen der
+   Seite sind alle drei aktiv; Antippen schaltet eine Prio ab (durchgestrichen
+   und blass) bzw. wieder an – mindestens eine muss aktiv bleiben. Nur Karten
+   mit einer der aktiven Prios (persönliche Prio des Nutzers, siehe 5.1a)
+   werden in Kartenzahl, Stufenwahl und dem anschließenden Lauf berücksichtigt.
+   Die Auswahl gilt nur für diesen einen Lauf und wird nicht gespeichert.
 5. **Nur im manuellen Lernmodus:** Stufe wählen (1–5, ausgegraut ohne
    Karten). Der Automatikmodus überspringt diesen Schritt – er zieht Karten
    aus allen Stufen des Rechtsgebiets zugleich (Abschnitt 5.1a).
@@ -188,7 +194,11 @@ laufen lassen.
   **fest in der unteren Leiste** (wie der „Weiter“-Button im
   Frage-Antwort-Modus) und sind ausgegraut, bis die Antwort aufgedeckt wurde.
   Ein Klick löst den Stufenwechsel aus (Abschnitt 4) und zeigt die nächste
-  Karte.
+  Karte. Rechts daneben sitzt ein quadratischer, blauer Knopf mit Pfeil nach
+  oben („Direkt in Stufe 4“) für Karten, die man schon sicher kann – er wird
+  gleichzeitig mit Falsch/Richtig aktiv und zählt wie eine richtige Antwort
+  für Statistik und Motivations-Einblendungen, setzt die Stufe aber ohne
+  Umweg über die übrigen Stufen direkt auf 4.
 - Wurde die Karte von einem Nutzer angelegt (nicht Grundbestand), erscheint
   oben rechts im Fragefeld ein kleiner, unauffälliger Chip mit dem Namen des
   Erstellers.
@@ -265,7 +275,9 @@ gespeicherte Übersteuerung, siehe Abschnitt 7 und 8).
 - Darunter klappt die Erklärung bildschirmbreit aus (keine eigene
   Höhenbegrenzung mehr – bei sehr langem Text scrollt die Seite). Der
   „Weiter“-Button sitzt **fest in der unteren Leiste** und ist ausgegraut,
-  bis eine Antwort gewählt wurde.
+  bis eine Antwort gewählt wurde. Rechts daneben derselbe blaue
+  „Direkt in Stufe 4“-Knopf wie im Karteikarten-Modus (Abschnitt 5.1),
+  gleichzeitig mit „Weiter“ aktiv.
 - Auch hier: Ersteller-Chip, falls vorhanden. Stufenwechsel wie in 5.1.
 
 ### 5.3 Karten anlegen
@@ -391,6 +403,13 @@ Wie im Referenzprojekt „ukr-app“: ein privates (secret) GitHub-Gist, das
 beide Nutzer über denselben Token und dieselbe Gist-ID verbinden. Datei im
 Gist: `stats.json`.
 
+**Token-Pflicht beim ersten Öffnen:** Ist noch kein Token hinterlegt (leeres
+`gistToken`), blendet die App direkt nach dem Start einen nicht
+wegklickbaren Dialog ein, der Token und optional Gist-ID abfragt. Erst nach
+dem Speichern geht es weiter. Das verhindert, dass versehentlich ohne
+Synchronisierung gelernt wird. Danach läuft alles wie gewohnt über die
+Einstellungen weiter.
+
 ```json
 {
   "v": 1,
@@ -482,13 +501,13 @@ von echten Ereignissen einmalig anzuzeigen.
 - `APP_VERSION` in `sw.js` bei jeder Änderung an App-Dateien erhöhen, sonst
   erhalten installierte Geräte kein Update. Neue Dateien in `SHELL_FILES`
   ergänzen.
-- **Icons:** Aus Zeitgründen wurden die App-Icons nicht aus einer SVG-Vorlage
-  gerastert (in dieser Umgebung stand kein Werkzeug wie Inkscape oder
-  ImageMagick zur Verfügung), sondern mit einem kleinen Python-Skript direkt
-  als PNG erzeugt (einfaches, blockiges Kartensymbol in den App-Farben).
-  Funktional entspricht das den Anforderungen an ein App-Icon; wer ein
-  gestalterisch aufwendigeres Icon möchte, kann `icons/icon-*.png` jederzeit
-  ersetzen (gleiche Dateinamen und Größen: 180, 192, 512, 512 maskable).
+- **Icons:** Dunkelblauer Hintergrund (`--marius`, #2a4f8f) mit einer weißen
+  Karteikarte, darin das Paragraphenzeichen „§“ – erzeugt, indem eine kleine
+  HTML-Vorlage im Browser gerendert und als PNG abfotografiert wurde (in
+  dieser Umgebung stand kein Werkzeug wie Inkscape oder ImageMagick zur
+  Verfügung, dafür aber ein Browser mit echter Schriftdarstellung). Wer ein
+  anderes Icon möchte, kann `icons/icon-*.png` jederzeit ersetzen (gleiche
+  Dateinamen und Größen: 180, 192, 512, 512 maskable).
 
 ## 11. Ausgegraute Elemente (sichtbar, deaktiviert)
 

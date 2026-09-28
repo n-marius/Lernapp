@@ -40,6 +40,14 @@ export function countByGebiet(allCards) {
   return counts;
 }
 
+// Filtert nach der für den Nutzer geltenden Prio (Prio-Filter oberhalb der
+// Rechtsgebietswahl, siehe SPEC.md Abschnitt 5). Sind alle drei Prios aktiv
+// (Normalzustand beim Öffnen der Seite), wird nicht gefiltert.
+export function filterByPrio(cards, priosByCard, allowedPrios) {
+  if (!allowedPrios || allowedPrios.size >= 3) return cards;
+  return cards.filter((c) => allowedPrios.has(effectivePrio(c, priosByCard)));
+}
+
 // ---------- Automatikmodus: gewichtete Wiederholung ----------
 //
 // Statt einer festen Stufe zieht der Automatikmodus bei jeder Karte neu aus

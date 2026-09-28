@@ -294,6 +294,15 @@ button:disabled { cursor: default; }
 .btn-correct:disabled, .btn-wrong:disabled { background: var(--btn-disabled); color: var(--btn-disabled-fg); }
 .dock-actions { display: flex; gap: 8px; }
 .btn-auto { width: auto; }
+.btn-fasttrack {
+  width: 50px;
+  flex-shrink: 0;
+  padding: 0;
+  background: var(--accent);
+  color: #fff;
+}
+.btn-fasttrack svg { width: 18px; height: 18px; }
+.btn-fasttrack:disabled { background: var(--btn-disabled); color: var(--btn-disabled-fg); }
 .btn-half { width: 100%; }
 
 .seg {
@@ -414,6 +423,25 @@ button.mode:hover:not(:disabled) .mode-go { color: var(--ink-2); transform: tran
   font-weight: 560;
   color: var(--ink-3);
 }
+
+/* ---------- Prio-Filter ---------- */
+
+.prio-toggle { display: flex; gap: 8px; margin: 0 0 18px; }
+.prio-toggle-btn {
+  flex: 1;
+  height: 38px;
+  border-radius: 999px;
+  border: 1px solid var(--line-2);
+  background: var(--surface);
+  font-size: 13.5px;
+  font-weight: 620;
+  transition: opacity 0.15s ease, border-color 0.15s ease;
+}
+.prio-toggle-btn:hover { border-color: var(--ink-3); }
+.prio-toggle-btn[data-prio="hoch"] { color: var(--wrong); }
+.prio-toggle-btn[data-prio="normal"] { color: var(--ink-2); }
+.prio-toggle-btn[data-prio="niedrig"] { color: var(--accent); }
+.prio-toggle-btn[data-active="false"] { opacity: 0.4; text-decoration: line-through; }
 
 /* ---------- Listen ---------- */
 
@@ -647,6 +675,7 @@ button.row:active:not(:disabled), label.row:active { background: var(--surface-2
   .answer { min-height: 50px; padding: 8px 10px; font-size: 14.5px; }
   .quiz-explain { margin-top: 12px; padding-top: 10px; font-size: 12.5px; }
   .dock .btn-auto { height: 44px; padding: 0 16px; }
+  .dock .btn-fasttrack { height: 44px; width: 44px; }
 }
 
 /* ---------- Karten anlegen ---------- */

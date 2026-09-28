@@ -4,10 +4,10 @@
   "prio": "niedrig",
   "frage": "Wann sind Organe und Gesellschafter juristischer Personen bzw. Personengesellschaften zeugnisfähig?",
   "antworten": [
-    "Vertretungsberechtigte: wenn die Gesellschaft nicht Partei ist; nicht Vertretungsberechtigte: im Übrigen stets",
-    "Nie, sie sind der Partei zuzurechnen",
-    "Stets, auch vertretungsberechtigte Organe im Prozess der Gesellschaft",
-    "Nur Gesellschafter, nie Organe"
+    "Vertretungsberechtigte nur, wenn die Gesellschaft nicht Partei ist",
+    "Nie; sie sind der Gesellschaft als Partei zuzurechnen",
+    "Stets, auch vertretungsberechtigte im Prozess der Gesellschaft",
+    "Nur Gesellschafter, nie Organe der juristischen Person"
   ],
   "erklaerung": "Der persönlich haftende Gesellschafter einer Personengesellschaft und das Organ einer juristischen Person mit der Stellung eines gesetzlichen Vertreters sind zeugnisfähig in Prozessen, an denen die Gesellschaft bzw. juristische Person nicht als Partei beteiligt ist.\n\nIm Übrigen zeugnisfähig sind die nicht zur gesetzlichen Vertretung berechtigten Organe, Mitglieder und Gesellschafter.",
   "ts": "2026-09-28T11:02:50.395Z"

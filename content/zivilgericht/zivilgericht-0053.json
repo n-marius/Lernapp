@@ -4,10 +4,10 @@
   "prio": "hoch",
   "frage": "Klausurtaktik: Ist ein Rechtsstreit ohne bisherige Beweisaufnahme regelmäßig ohne Beweisaufnahme entscheidungsreif?",
   "antworten": [
-    "Ja, eigene Lösung sorgsam prüfen, wenn sie eine Beweisaufnahme erfordert",
+    "Ja; eine Lösung mit Beweisaufnahme ist sorgsam zu prüfen",
     "Nein, regelmäßig ist ein Beweisbeschluss zu entwerfen",
     "Nur wenn der Bearbeitervermerk dies ausdrücklich anordnet",
-    "Nein, es ist nach Beweislast zu entscheiden"
+    "Nein, es ist dann stets nach Beweislast zu entscheiden"
   ],
   "erklaerung": "Grundsatz: Ein Klausur-Rechtsstreit, in dem bisher keine Beweisaufnahme durchgeführt worden ist, ist auch ohne Beweisaufnahme entscheidungsreif.\n\nKommt man zu einer Lösung, die eine Beweisaufnahme erfordert, ist sie sorgsam zu überprüfen.",
   "ts": "2026-09-28T11:02:50.395Z"

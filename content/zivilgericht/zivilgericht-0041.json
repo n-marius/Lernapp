@@ -4,10 +4,10 @@
   "prio": "hoch",
   "frage": "Wie ist die Beweiswürdigung zu gliedern?",
   "antworten": [
-    "Beweisinhalt/-ergiebigkeit, Überzeugungskraft, bei Zeugen Glaubwürdigkeit",
-    "Glaubwürdigkeit, Beweisinhalt, Beweislast",
+    "Inhalt/Ergiebigkeit, Überzeugungskraft, ggf. Glaubwürdigkeit",
+    "Glaubwürdigkeit, Beweisinhalt, Beweislastentscheidung",
     "Zulässigkeit des Beweismittels, Glaubwürdigkeit, Ergebnis",
-    "Beweisthema, Beweislast, Beweisergebnis"
+    "Beweisthema, Beweislast, Beweisergebnis, Beweiskosten"
   ],
   "erklaerung": "1. Beweisinhalt und Beweisergiebigkeit: Wiedergabe der für die Würdigung wesentlichen Aspekte (nicht zu lang); Frage, ob die streitige Tatsache durch das Beweismittel bestätigt wird.\n\n2. Überzeugungskraft des Beweismittels (bei Zeugen: Glaubhaftigkeit). 3. Nur bei Zeugen: Glaubwürdigkeit.",
   "ts": "2026-09-28T11:02:50.395Z"

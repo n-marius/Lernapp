@@ -4,10 +4,10 @@
   "prio": "normal",
   "frage": "Können der Erbe im Prozess des Testamentsvollstreckers um den Nachlass und der Insolvenzschuldner im Prozess des Insolvenzverwalters Zeugen sein?",
   "antworten": [
-    "Ja; Partei ist der Testamentsvollstrecker bzw. Insolvenzverwalter",
-    "Nein, als materiell Berechtigte sind sie Partei",
-    "Nein, sie können nur nach § 448 ZPO als Partei vernommen werden",
-    "Nur als sachverständige Zeugen"
+    "Ja; Partei ist der Verwalter bzw. Testamentsvollstrecker",
+    "Nein; als materiell Berechtigte sind sie selbst Partei",
+    "Nein, sie sind nur nach § 448 ZPO als Partei vernehmbar",
+    "Nur als sachverständige Zeugen ohne Zeugnispflicht"
   ],
   "erklaerung": "Der Erbe ist im Prozess des Testamentsvollstreckers um den Nachlass Zeuge; der Testamentsvollstrecker ist als Partei kraft Amtes aktiv und passiv prozessführungsbefugt.\n\nEbenso ist der Gemeinschuldner (Insolvenzschuldner) im Prozess des Insolvenzverwalters Zeuge.",
   "ts": "2026-09-28T11:02:50.395Z"

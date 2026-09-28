@@ -4,10 +4,10 @@
   "prio": "normal",
   "frage": "Wann ist eine Parteianhörung nach § 141 ZPO sinnvoll?",
   "antworten": [
-    "Immer, wenn es um von den Parteien selbst wahrgenommene Geschehnisse geht",
-    "Nur bei Beweisnot im Vier-Augen-Gespräch",
-    "Nur wenn alle anderen Beweismittel ausgeschöpft sind",
-    "Nur mit Einverständnis des Gegners"
+    "Bei selbst wahrgenommenen Geschehnissen der Parteien",
+    "Nur bei Beweisnot in einem Vier-Augen-Gespräch",
+    "Erst wenn alle anderen Beweismittel ausgeschöpft sind",
+    "Nur mit Einverständnis des Prozessgegners"
   ],
   "erklaerung": "Die Anhörung ist mündlicher Sachvortrag und sinnvoll, wann immer es um Geschehnisse geht, die die Parteien selbst wahrgenommen haben. Die Parteien geben ihr Anliegen in eigenen Worten wieder, das Gericht kann Fragen stellen.\n\nDie persönliche Anhörung ist aus Gründen der Sachaufklärung nahezu immer aufschlussreich.",
   "ts": "2026-09-28T11:02:50.395Z"

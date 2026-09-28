@@ -4,10 +4,10 @@
   "prio": "normal",
   "frage": "Was ist bei der Würdigung einer Urkunde zu prüfen?",
   "antworten": [
-    "Urkunde, Echtheit, gesetzliche Beweisregeln (§§ 415 ff.), zusätzlich Vermutung der Vollständigkeit und Richtigkeit (§ 286)",
-    "Nur die freie Überzeugung nach § 286 ZPO",
-    "Glaubhaftigkeit des Inhalts und Glaubwürdigkeit des Ausstellers",
-    "Keine besondere Würdigung erforderlich"
+    "Urkunde, Echtheit, gesetzliche Beweisregeln, § 286",
+    "Allein die freie Überzeugung nach § 286 ZPO",
+    "Glaubhaftigkeit des Inhalts, Glaubwürdigkeit des Ausstellers",
+    "Keine besondere Würdigung; Urkunden beweisen stets voll"
   ],
   "erklaerung": "Bei der Urkunde ist zu prüfen, ob eine Urkunde vorliegt, ob sie echt ist und welche gesetzlichen Beweisregeln (§§ 415 ff. ZPO) eingreifen.\n\nZusätzlich: Vermutung der Vollständigkeit und Richtigkeit der Erklärung (§ 286 ZPO).",
   "ts": "2026-09-28T11:02:50.395Z"

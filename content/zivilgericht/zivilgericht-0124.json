@@ -4,10 +4,10 @@
   "prio": "niedrig",
   "frage": "Kann eine prozessunfähige Partei (z. B. 15-jähriges Kind) Zeuge sein?",
   "antworten": [
-    "Ja, soweit sie nicht unter § 455 Abs. 2 ZPO (Parteivernehmung der prozessunfähigen Partei) fällt",
-    "Nein, sie ist Partei",
-    "Nein, Prozessunfähige sind zeugnisunfähig",
-    "Nur nach Bestellung eines Prozesspflegers"
+    "Ja, soweit sie nicht unter § 455 II ZPO fällt",
+    "Nein, sie bleibt trotz Prozessunfähigkeit Partei",
+    "Nein, Prozessunfähige sind stets zeugnisunfähig",
+    "Nur nach Bestellung eines Prozesspflegers (§ 57)"
   ],
   "erklaerung": "Die prozessunfähige Partei, die nicht unter § 455 Abs. 2 ZPO fällt, kann als Zeuge vernommen werden, z. B. ein 15 Jahre altes Kind.",
   "ts": "2026-09-28T11:02:50.395Z"

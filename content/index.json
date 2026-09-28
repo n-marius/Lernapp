@@ -1,6 +1,6 @@
 {
-  "version": 4,
-  "contentHash": "2245e60666ca9ac9",
+  "version": 6,
+  "contentHash": "379a1516a938d299",
   "cards": [
     {
       "id": "zivilgericht-0004",
@@ -23,10 +23,10 @@
       "prio": "hoch",
       "frage": "Welche drei Fallgruppen der Ablehnung von Beweisanträgen gibt es?",
       "antworten": [
-        "Nicht ordnungsgemäßer Beweisantrag, unzulässige Beweisaufnahme, überflüssige Beweiserhebung",
+        "Nicht ordnungsgemäßer Antrag, Unzulässigkeit, Überflüssigkeit",
         "Verspätung, Verschleppungsabsicht, Unerreichbarkeit",
         "Unzulässigkeit, Unbegründetheit, Unwirtschaftlichkeit",
-        "Fehlende Substantiierung, fehlende Kostenvorschusszahlung, Verspätung"
+        "Fehlende Substantiierung, fehlender Vorschuss, Verspätung"
       ],
       "erklaerung": "Die Rechtsprechung hat in Anlehnung an § 244 Abs. 3 StPO (heute S. 2 und 3) drei Fallgruppen entwickelt: (1) nicht ordnungsgemäßer Beweisantrag der beweisbelasteten Partei, (2) unzulässige Beweisaufnahme, (3) überflüssige Beweiserhebung.",
       "creator": null,
@@ -38,10 +38,10 @@
       "prio": "normal",
       "frage": "Wonach richtet sich die Ablehnung von Beweisanträgen bezogen auf die einzelnen Beweismittel?",
       "antworten": [
-        "Überwiegend § 244 StPO entsprechend, mit je nach Beweismittel unterschiedlichen Maßstäben; Parteivernehmung: § 445 II ZPO",
-        "Einheitlich nach den Ablehnungsgründen des § 244 Abs. 3 StPO für alle Beweismittel",
-        "Abschließend nach § 296 ZPO (Zurückweisung verspäteten Vorbringens)",
-        "Nach freiem, an keine Maßstäbe gebundenem Ermessen des Gerichts"
+        "§ 244 StPO entsprechend mit unterschiedlichen Maßstäben; PV: § 445 II ZPO",
+        "Einheitlich § 244 Abs. 3 StPO entsprechend für alle Beweismittel",
+        "Abschließend nach § 296 ZPO (verspätetes Vorbringen)",
+        "Freies, ungebundenes Ermessen des Gerichts für alle Beweismittel"
       ],
       "erklaerung": "Die Rechtsprechung lehnt sich an § 244 StPO an, wendet aber je Beweismittel unterschiedliche Maßstäbe an: Augenschein nach pflichtgemäßem Ermessen (§ 244 Abs. 5 S. 1 StPO entsprechend); Urkunden § 244 Abs. 3 S. 3 StPO entsprechend; Sachverständiger § 244 Abs. 4 StPO entsprechend; Zeugen § 244 StPO entsprechend (insb. Abs. 3 S. 3).\n\nFür die Parteivernehmung gilt § 445 Abs. 2 ZPO: keine Vernehmung des Gegners, wenn das Gericht das Gegenteil für erwiesen erachtet.",
       "creator": null,
@@ -68,10 +68,10 @@
       "prio": "normal",
       "frage": "Welche Beispiele gehören zur Fallgruppe „unzulässige Beweisaufnahme“?",
       "antworten": [
-        "Ausforschungsbeweis, Verspätung (§ 296), eigene Partei ohne Zustimmung (§ 447), Grundrechtsverletzung",
-        "Zeuge N.N., fehlende Anknüpfungstatsachen",
-        "Offenkundige, zugestandene und unerhebliche Tatsachen",
-        "Bereits bewiesene Tatsachen und gesetzliche Vermutungen"
+        "Ausforschungsbeweis, Verspätung, § 447 ohne Zustimmung, Grundrechtsverstoß",
+        "Zeuge N.N., fehlende Anknüpfungstatsachen für ein SV-Gutachten",
+        "Offenkundige, zugestandene und nicht erhebliche Tatsachen",
+        "Bereits bewiesene Tatsachen und gesetzlich vermutete Tatsachen"
       ],
       "erklaerung": "Unzulässig ist die Beweisaufnahme z. B. bei unzulässigem Ausforschungsbeweis, bei Verspätung gemäß § 296 ZPO, bei Vernehmung der eigenen Partei ohne Zustimmung des Gegners (§ 447 ZPO).\n\nFerner bei Verletzung eines verfassungsrechtlich geschützten Grundrechts, etwa Tonbandaufnahme eines heimlich aufgezeichneten Telefonats oder heimliches Mithören eines Telefonats durch einen Zeugen (BGH NJW 2003, 1727 ff.).",
       "creator": null,
@@ -143,10 +143,10 @@
       "prio": "niedrig",
       "frage": "Welche Wahrnehmungen umfasst der Augenscheinsbeweis?",
       "antworten": [
-        "Alle zu Beweiszwecken durchgeführten sinnlichen Wahrnehmungen des Gerichts",
-        "Nur optische Wahrnehmungen",
-        "Optische und akustische Wahrnehmungen",
-        "Nur Wahrnehmungen, die nicht durch einen Sachverständigen erfolgen können"
+        "Alle sinnlichen Wahrnehmungen des Gerichts zu Beweiszwecken",
+        "Nur optische Wahrnehmungen durch das Gericht selbst",
+        "Optische und akustische Wahrnehmungen des Gerichts",
+        "Nur Wahrnehmungen, die kein Sachverständiger vornehmen kann"
       ],
       "erklaerung": "Augenschein ist die unmittelbare Wahrnehmung von Tatsachen, und zwar nicht nur optisch, sondern alle zu Beweiszwecken durchgeführten sinnlichen Wahrnehmungen durch das Gericht.\n\nDazu gehören auch das Anhören von Geräuschen, die Aufnahme von Gerüchen, die Verkostung von Lebensmitteln und das Ertasten der Oberflächenstruktur eines Gegenstands.",
       "creator": null,
@@ -173,9 +173,9 @@
       "prio": "niedrig",
       "frage": "Ein Dritter hat die fehlende Zugänglichkeit des Augenscheinsobjekts zu vertreten. Folge?",
       "antworten": [
-        "Ggf. Ordnungsmittel gegen den Dritten (§§ 144 II 2, 390 ZPO)",
+        "Ggf. Ordnungsmittel gegen den Dritten",
         "Beweis gilt als erbracht (§ 371 III ZPO)",
-        "Beweisführer ist beweisfällig",
+        "Beweisführer ist ohne Weiteres beweisfällig",
         "Der Dritte ist als Zeuge zu vernehmen"
       ],
       "erklaerung": "Hat ein Dritter die fehlende freie Zugänglichkeit zu vertreten, kommen ggf. Ordnungsmittel gegen den Dritten nach §§ 144 Abs. 2 S. 2, 390 ZPO in Betracht.",
@@ -188,10 +188,10 @@
       "prio": "hoch",
       "frage": "Der Gegner vereitelt die ihm zumutbare Einnahme des Augenscheins. Folge?",
       "antworten": [
-        "Behauptungen des Beweisführers über die Beschaffenheit können als bewiesen angesehen werden (§ 371 III ZPO)",
-        "Beweisführer ist beweisfällig",
-        "Ordnungsmittel gegen den Gegner nach § 390 ZPO; sonst keine Folge",
-        "Zwingende Parteivernehmung des Gegners"
+        "Behauptungen des Beweisführers können als bewiesen gelten",
+        "Beweisführer ist beweisfällig, Beweislastentscheidung",
+        "Ordnungsmittel gegen den Gegner, sonst keine Folge",
+        "Zwingende Parteivernehmung des Gegners (§ 445)"
       ],
       "erklaerung": "Nach § 371 Abs. 3 ZPO können, wenn eine Partei die ihr zumutbare Einnahme des Augenscheins vereitelt, die Behauptungen des Gegners über die Beschaffenheit des Gegenstands als bewiesen angesehen werden.",
       "creator": null,
@@ -218,9 +218,9 @@
       "prio": "normal",
       "frage": "Was darf ein Augenscheinsprotokoll nicht enthalten?",
       "antworten": [
-        "Wertungen des Protokollanten (z. B. „rutschige Sohle“ statt „dünne Sohle, geringe Profiltiefe“)",
+        "Wertungen des Protokollanten",
         "Tatsächliche Angaben zur Beschaffenheit",
-        "Angaben zu Ort und Zeit des Augenscheins",
+        "Angaben zu Ort und Zeit",
         "Detaillierte Beschreibungen"
       ],
       "erklaerung": "Im Urteil ist zu prüfen, ob das Augenscheinsprotokoll hinreichend detailliert ist. Es darf keine Wertungen des Protokollanten enthalten, nur tatsächliche Angaben.\n\nFalsch: „Stiefel mit rutschiger Sohle“. Richtig: „Stiefel mit dünner Sohle und geringer Profiltiefe“.",
@@ -248,10 +248,10 @@
       "prio": "hoch",
       "frage": "Wann macht ein Anscheinsbeweis (prima facie) die Beweisaufnahme entbehrlich?",
       "antworten": [
-        "Wenn die Vermutungsgrundlage unstreitig oder bewiesen ist und keine die Vermutung erschütternden Tatsachen vorgetragen und ggf. bewiesen sind",
-        "Stets, da der Anscheinsbeweis eine gesetzliche Vermutung i. S. d. § 292 ZPO ist",
+        "Grundlage unstreitig/bewiesen, keine erschütternden Tatsachen vorgetragen",
+        "Stets, da er eine gesetzliche Vermutung i. S. d. § 292 ZPO ist",
         "Nur wenn der Gegner das Gegenteil nicht zur vollen Überzeugung beweist",
-        "Wenn die Vermutungsgrundlage glaubhaft gemacht ist"
+        "Wenn die Vermutungsgrundlage glaubhaft gemacht und nicht bestritten ist"
       ],
       "erklaerung": "Der Anscheinsbeweis ist eine tatsächliche Vermutung. Er macht die Beweisaufnahme nur entbehrlich, wenn die Vermutungsgrundlage unstreitig oder bewiesen ist.\n\nZudem dürfen keine Tatsachen vorgetragen und ggf. bewiesen sein, die die tatsächliche Vermutung erschüttern.",
       "creator": null,
@@ -263,7 +263,7 @@
       "prio": "hoch",
       "frage": "Wann macht eine gesetzliche Vermutung (§ 292 ZPO, z. B. § 1006 BGB) die Beweisaufnahme entbehrlich?",
       "antworten": [
-        "Wenn die Vermutungsgrundlage unstreitig oder bewiesen ist und kein Gegenbeweis angeboten wird",
+        "Grundlage unstreitig oder bewiesen und kein Gegenbeweis angeboten",
         "Stets, sobald sich eine Partei auf die Vermutung beruft",
         "Nur wenn auch die vermutete Tatsache selbst unstreitig ist",
         "Wenn die Vermutungsgrundlage lediglich glaubhaft gemacht ist"
@@ -293,10 +293,10 @@
       "prio": "niedrig",
       "frage": "Aus welcher Norm folgt, dass nicht bestrittene Tatsachen keines Beweises bedürfen?",
       "antworten": [
-        "§ 138 Abs. 3 ZPO",
-        "§ 288 ZPO",
-        "§ 286 ZPO",
-        "§ 291 ZPO"
+        "§ 138 III ZPO",
+        "§ 288 I ZPO",
+        "§ 286 I ZPO",
+        "§ 139 I ZPO"
       ],
       "erklaerung": "Nicht bestrittene Tatsachen gelten nach § 138 Abs. 3 ZPO als zugestanden; eine Beweisaufnahme ist überflüssig.\n\n§ 288 ZPO betrifft dagegen das ausdrückliche Geständnis.",
       "creator": null,
@@ -368,10 +368,10 @@
       "prio": "hoch",
       "frage": "In welchen Fällen ist Bestreiten nicht wirksam, sodass keine Beweisaufnahme erfolgt?",
       "antworten": [
-        "Pauschales Bestreiten trotz möglichen und zumutbaren substantiierten Bestreitens; unzulässiges Bestreiten mit Nichtwissen; verspätetes Bestreiten",
+        "Pauschal trotz zumutbarer Substantiierung, unzulässig mit Nichtwissen, verspätet",
         "Nur bei verspätetem Bestreiten; pauschales Bestreiten genügt stets",
-        "Bei jedem Bestreiten mit Nichtwissen, unabhängig von dessen Zulässigkeit",
-        "Nur wenn der Beklagte das Bestreiten nicht schriftsätzlich angekündigt hat"
+        "Bei jedem Bestreiten mit Nichtwissen, unabhängig von der Zulässigkeit",
+        "Nur wenn das Bestreiten nicht schriftsätzlich angekündigt wurde"
       ],
       "erklaerung": "Eine Beweisaufnahme ist überflüssig bei nicht wirksam bestrittenen Tatsachen. Pauschales Bestreiten ist unzureichend, wenn dem Beklagten nach der Sachlage ein substantiiertes Bestreiten möglich und zumutbar wäre.\n\nUnwirksam ist ferner das unzulässige Bestreiten mit Nichtwissen sowie das verspätete Bestreiten.",
       "creator": null,
@@ -413,9 +413,9 @@
       "prio": "normal",
       "frage": "Wie wird Augenscheinsbeweis angetreten?",
       "antworten": [
-        "Bezeichnung des Gegenstands und der zu beweisenden Tatsache (§ 371 ZPO); ggf. Antrag auf Frist zur Herbeischaffung",
-        "Vorlage einer Lichtbildmappe (§ 420 ZPO)",
-        "Bezeichnung der zu begutachtenden Punkte (§ 403 ZPO)",
+        "Bezeichnung des Gegenstands und der Beweistatsache (§ 371)",
+        "Vorlage einer Lichtbildmappe als Urkunde (§ 420)",
+        "Bezeichnung der zu begutachtenden Punkte (§ 403)",
         "Antrag auf Ortstermin ohne Angabe der Beweistatsache"
       ],
       "erklaerung": "Das Beweisangebot erfordert die Angabe des Gegenstands, der in Augenschein genommen werden soll, und die Mitteilung der zu beweisenden Tatsache (§ 371 ZPO); ggf. Antrag auf Frist zur Herbeischaffung.\n\nMöglich ist auch eine Anordnung durch das Gericht nach § 144 Abs. 1 ZPO aus freiem Ermessen.",
@@ -429,9 +429,9 @@
       "frage": "Was ist ein Beweisantritt?",
       "antworten": [
         "Anführen eines Beweismittels für eine bestimmte Behauptung",
-        "Gerichtliche Anordnung der Beweisaufnahme",
-        "Jedes Bestreiten einer gegnerischen Tatsache",
-        "Antrag auf Erlass eines formellen Beweisbeschlusses"
+        "Gerichtliche Anordnung der Beweisaufnahme durch Beschluss",
+        "Jedes substantiierte Bestreiten einer gegnerischen Tatsache",
+        "Antrag auf Erlass eines förmlichen Beweisbeschlusses"
       ],
       "erklaerung": "Beweisantritt ist das Anführen eines Beweismittels für eine bestimmte Behauptung.",
       "creator": null,
@@ -458,10 +458,10 @@
       "prio": "normal",
       "frage": "Wie wird Urkundenbeweis je nach Besitzer angetreten?",
       "antworten": [
-        "Beweisführer: Vorlage (§ 420); Gegner: Antrag auf Vorlage (§ 421); Behörde: § 432 ZPO",
-        "Stets durch Antrag auf Anordnung nach § 142 ZPO",
-        "Nur durch Benennung der Urkunde; die Beschaffung obliegt stets dem Gericht",
-        "Durch Benennung des Ausstellers als Zeugen (§ 373 ZPO)"
+        "Vorlage (Beweisführer), Vorlageantrag (Gegner), § 432 (Behörde)",
+        "Stets Antrag auf Anordnung der Vorlage nach § 142 ZPO",
+        "Nur Benennung der Urkunde; Beschaffung obliegt dem Gericht",
+        "Benennung des Ausstellers als Zeugen über den Inhalt"
       ],
       "erklaerung": "Befindet sich die Urkunde beim Beweisführer, erfolgt der Beweisantritt durch Vorlage des Originals (§ 420 ZPO); beim Gegner durch Antrag auf Vorlage durch den Gegner (§ 421 ZPO); bei einer Behörde nach § 432 ZPO.\n\nVon Amts wegen kann das Gericht die Vorlage nach §§ 142, 143 ZPO anordnen.",
       "creator": null,
@@ -473,10 +473,10 @@
       "prio": "normal",
       "frage": "Wie wird Zeugenbeweis angetreten (§ 373 ZPO)?",
       "antworten": [
-        "Durch Benennung der Zeugen und Bezeichnung der Tatsachen, über die sie vernommen werden sollen",
-        "Durch Benennung der Zeugen; das Beweisthema ermittelt das Gericht in der Vernehmung",
-        "Durch Vorlage einer schriftlichen Erklärung des Zeugen",
-        "Durch Antrag auf Anordnung von Amts wegen (§ 144 ZPO)"
+        "Benennung der Zeugen und Bezeichnung der Beweistatsachen",
+        "Benennung der Zeugen; Beweisthema ermittelt das Gericht",
+        "Vorlage einer schriftlichen Erklärung des Zeugen",
+        "Antrag auf Zeugenladung von Amts wegen (§ 144 ZPO)"
       ],
       "erklaerung": "Nach § 373 ZPO wird der Zeugenbeweis durch die Benennung der Zeugen (Individualisierung; „Zeuge N.N.“ genügt nicht) und die Bezeichnung der Tatsachen angetreten, über welche die Vernehmung stattfinden soll.\n\nBeispiel: Beruft sich der Kläger ohne Beweisthema „noch auf den sistierten Zeugen Y“, ist der Beweisantrag unzulässig. Ein Zurückweisungsbeschluss ist aber unnötig; die Ausführungen gehören in die Entscheidungsgründe.",
       "creator": null,
@@ -503,10 +503,10 @@
       "prio": "normal",
       "frage": "Was enthält ein förmlicher Beweisbeschluss (§ 359 ZPO)?",
       "antworten": [
-        "Streitige Beweistatsachen, Beweismittel (mit Namen der Zeugen, SV oder Partei), Partei, die sich auf das Beweismittel berufen hat",
-        "Beweistatsachen, vorläufige Beweiswürdigung, Beweislastverteilung",
-        "Nur Beweismittel und Termin",
-        "Beweisthema, Kostenvorschuss, Rechtsmittelbelehrung"
+        "Beweistatsachen, Beweismittel, Partei, die sich darauf beruft",
+        "Beweistatsachen, vorläufige Beweiswürdigung, Beweislast",
+        "Beweismittel, Beweistermin und Höhe des Kostenvorschusses",
+        "Beweisthema, Beweislastverteilung, Rechtsmittelbelehrung"
       ],
       "erklaerung": "Der Beweisbeschluss enthält nach § 359 ZPO: 1. die Bezeichnung der streitigen Tatsachen, über die Beweis zu erheben ist; 2. die Bezeichnung der Beweismittel unter Benennung der zu vernehmenden Zeugen und Sachverständigen oder der zu vernehmenden Partei; 3. die Bezeichnung der Partei, die sich auf das Beweismittel berufen hat.",
       "creator": null,
@@ -518,10 +518,10 @@
       "prio": "normal",
       "frage": "Das Beweismittel ist negativ ergiebig. Wann ist dennoch die Überzeugungskraft zu prüfen?",
       "antworten": [
-        "Wenn es den gegnerischen Vortrag beweist und das Gericht seine Überzeugung darauf stützt",
-        "Nie, die Prüfung endet stets",
-        "Immer, wie bei positiver Ergiebigkeit",
-        "Nur bei Sachverständigengutachten"
+        "Wenn es den Gegnervortrag beweist und die Überzeugung trägt",
+        "Nie; die Prüfung endet stets mit der Feststellung „nicht erwiesen“",
+        "Immer, nach denselben Regeln wie bei positiver Ergiebigkeit",
+        "Nur bei Sachverständigengutachten, nicht bei Zeugenaussagen"
       ],
       "erklaerung": "Negativ ergiebig ist ein Beweismittel, das die Behauptung des Beweisführers nicht bestätigt, sondern ihr widerspricht. Die Überzeugungskraft ist dann ggf. zu prüfen, wenn es den gegnerischen Vortrag beweist und das Gericht seine Überzeugung darauf stützt.",
       "creator": null,
@@ -563,10 +563,10 @@
       "prio": "hoch",
       "frage": "Wie ist die Beweiswürdigung zu gliedern?",
       "antworten": [
-        "Beweisinhalt/-ergiebigkeit, Überzeugungskraft, bei Zeugen Glaubwürdigkeit",
-        "Glaubwürdigkeit, Beweisinhalt, Beweislast",
+        "Inhalt/Ergiebigkeit, Überzeugungskraft, ggf. Glaubwürdigkeit",
+        "Glaubwürdigkeit, Beweisinhalt, Beweislastentscheidung",
         "Zulässigkeit des Beweismittels, Glaubwürdigkeit, Ergebnis",
-        "Beweisthema, Beweislast, Beweisergebnis"
+        "Beweisthema, Beweislast, Beweisergebnis, Beweiskosten"
       ],
       "erklaerung": "1. Beweisinhalt und Beweisergiebigkeit: Wiedergabe der für die Würdigung wesentlichen Aspekte (nicht zu lang); Frage, ob die streitige Tatsache durch das Beweismittel bestätigt wird.\n\n2. Überzeugungskraft des Beweismittels (bei Zeugen: Glaubhaftigkeit). 3. Nur bei Zeugen: Glaubwürdigkeit.",
       "creator": null,
@@ -575,13 +575,13 @@
     {
       "id": "zivilgericht-0042",
       "gebiet": "zivilgericht",
-      "prio": "niedrig",
+      "prio": "normal",
       "frage": "Welche „besonderen Beweisverfahren“ erfordern nach § 358 ZPO einen formellen Beweisbeschluss?",
       "antworten": [
-        "Schriftliches SV-Gutachten, Untersuchung nach § 372a, schriftliche Zeugenaussage (§ 377 III), Beweisaufnahme im Rechtshilfeweg",
-        "Jede Zeugen- und Sachverständigenvernehmung",
-        "Augenschein, Urkundenbeweis, Parteianhörung",
-        "Mündliches SV-Gutachten, Zeugenvernehmung im Termin, Augenschein im Termin"
+        "Schriftl. SV-Gutachten, § 372a, schriftl. Zeugenaussage, Rechtshilfe",
+        "Jede Zeugen- und Sachverständigenvernehmung im Termin",
+        "Augenschein, Urkundenbeweis und Parteianhörung nach § 141",
+        "Mündliches SV-Gutachten, Augenschein und Zeugen im Termin"
       ],
       "erklaerung": "Besondere Beweisverfahren i. S. d. § 358 ZPO sind: (1) schriftliches Sachverständigengutachten, (2) Untersuchung nach § 372a ZPO, (3) schriftliche Zeugenaussage nach § 377 Abs. 3 ZPO, (4) Beweisaufnahme im Rechtshilfeweg.",
       "creator": null,
@@ -590,15 +590,15 @@
     {
       "id": "zivilgericht-0043",
       "gebiet": "zivilgericht",
-      "prio": "normal",
+      "prio": "hoch",
       "frage": "Wann muss ein formeller Beweisbeschluss (§ 359 ZPO) ergehen?",
       "antworten": [
-        "Parteivernehmung (§ 450 I 1), Urkundenvorlage nach § 425, Beweisaufnahme vor mV (§ 358a), besondere Beweisverfahren nach § 358",
-        "Bei jeder Zeugenvernehmung",
-        "Bei jeder Beweisaufnahme in der mündlichen Verhandlung",
-        "Bei jeder Einholung eines Sachverständigengutachtens und jeder Augenscheinseinnahme"
+        "Parteivernehmung, § 425, § 358a, § 358 (v. a. schriftl. SV-Gutachten)",
+        "Bei jeder Zeugenvernehmung, auch wenn sie unmittelbar im Termin folgt",
+        "Bei jeder Beweisaufnahme in der mündlichen Verhandlung, gleich welcher Art",
+        "Nur auf Antrag einer Partei; im Übrigen genügt ein formloser Beschluss"
       ],
-      "erklaerung": "Ein formeller Beweisbeschluss muss nur ergehen bei Parteivernehmung (§ 450 Abs. 1 S. 1 ZPO), Anordnung einer Urkundenvorlage nach § 425 ZPO, vor der mündlichen Verhandlung durchzuführender Beweisaufnahme (§ 358a ZPO) und nach § 358 ZPO für besondere Beweisverfahren.\n\nIn allen anderen Fällen genügt ein formloser Beschluss, dem die Beweiserhebung unmittelbar folgt; ein formeller Beweisbeschluss ist allerdings unschädlich.",
+      "erklaerung": "Ein formeller Beweisbeschluss muss ergehen bei Parteivernehmung (§ 450 Abs. 1 S. 1 ZPO), Anordnung einer Urkundenvorlage nach § 425 ZPO, vor der mündlichen Verhandlung durchzuführender Beweisaufnahme (§ 358a ZPO) und nach § 358 ZPO für besondere Beweisverfahren. Zentral: Über § 358 ZPO ist insbesondere das schriftliche Sachverständigengutachten erfasst; ferner die Untersuchung nach § 372a ZPO, die schriftliche Zeugenaussage (§ 377 Abs. 3 ZPO) und die Beweisaufnahme im Rechtshilfeweg.\n\nIn allen anderen Fällen genügt ein formloser Beschluss, dem die Beweiserhebung unmittelbar folgt; ein formeller Beweisbeschluss ist allerdings unschädlich.",
       "creator": null,
       "ts": "2026-09-28T11:02:50.395Z"
     },
@@ -623,10 +623,10 @@
       "prio": "normal",
       "frage": "Wann ist der Freibeweis im Zivilprozess zulässig?",
       "antworten": [
-        "Nur ausnahmsweise, z. B. §§ 118 II 2, 293 S. 2, 56 I ZPO und bei unverzichtbaren Prozessvoraussetzungen",
-        "Stets, wenn die Parteien zustimmen",
+        "Ausnahmsweise, z. B. für unverzichtbare Prozessvoraussetzungen",
+        "Stets, wenn beide Parteien dem Freibeweis ausdrücklich zustimmen",
         "Bei allen Zulässigkeitsfragen einschließlich verzichtbarer Rügen",
-        "Regelmäßig im Verfahren vor dem Amtsgericht"
+        "Regelmäßig in allen erstinstanzlichen Verfahren vor dem Amtsgericht"
       ],
       "erklaerung": "Freibeweis ist Beweiserhebung ohne förmliches Verfahren und ohne Beschränkung auf die Beweismittel der ZPO.\n\nEr ist nur ausnahmsweise zulässig, z. B. § 118 Abs. 2 S. 2, § 293 S. 2, § 56 Abs. 1 ZPO sowie bei der Prüfung der unverzichtbaren Prozessvoraussetzungen.",
       "creator": null,
@@ -638,10 +638,10 @@
       "prio": "hoch",
       "frage": "Wann ist der Gegenbeweis geführt?",
       "antworten": [
-        "Wenn die Überzeugung des Gerichts von der Haupttatsache erschüttert ist",
+        "Wenn die Überzeugung von der Haupttatsache erschüttert ist",
         "Wenn das Gericht vom Gegenteil der Haupttatsache überzeugt ist",
-        "Wenn das Gegenteil überwiegend wahrscheinlich ist",
-        "Wenn der Gegenbeweis glaubhaft gemacht ist"
+        "Wenn das Gegenteil der Haupttatsache überwiegend wahrscheinlich ist",
+        "Wenn die Tatsachen des Gegenbeweises glaubhaft gemacht sind"
       ],
       "erklaerung": "Der Gegenbeweis wird vom Gegner der beweisbelasteten Partei angetreten. Er ist geführt, wenn das Gericht keine ausreichende Überzeugung hinsichtlich der dem Hauptbeweis unterfallenden Tatsache mehr gewinnen kann, die Überzeugung also erschüttert ist.\n\nDas Gericht muss NICHT vom Gegenbeweis überzeugt sein.",
       "creator": null,
@@ -653,10 +653,10 @@
       "prio": "hoch",
       "frage": "Worauf beziehen sich Glaubhaftigkeit und Glaubwürdigkeit?",
       "antworten": [
-        "Glaubhaftigkeit: Aussage (Widersprüche, Wahrscheinlichkeit); Glaubwürdigkeit: Person (Motiv Falschaussage, Aussageverhalten)",
-        "Glaubhaftigkeit: Person; Glaubwürdigkeit: Aussage",
-        "Beide Begriffe sind synonym",
-        "Glaubhaftigkeit: Beweismaß des § 294 ZPO; Glaubwürdigkeit: Beweismaß des § 286 ZPO"
+        "Glaubhaftigkeit: Aussage; Glaubwürdigkeit: Person",
+        "Beide betreffen allein die Person des Zeugen",
+        "Unterschiedliche Beweismaße (§ 294 bzw. § 286 ZPO)",
+        "Glaubhaftigkeit: Urkunden; Glaubwürdigkeit: Zeugen"
       ],
       "erklaerung": "Die Glaubhaftigkeit betrifft die Aussage; Kriterien sind insbesondere Widersprüche und Wahrscheinlichkeit.\n\nDie Glaubwürdigkeit betrifft die Person des Zeugen; Kriterien sind insbesondere ein Motiv zur Falschaussage und das Aussageverhalten.",
       "creator": null,
@@ -668,10 +668,10 @@
       "prio": "niedrig",
       "frage": "In welchen Verfahren genügt u. a. Glaubhaftmachung?",
       "antworten": [
-        "Arrest und einstweilige Verfügung (§§ 920 II, 936 ZPO), Wiedereinsetzung (§ 236 ZPO)",
-        "Urkundenprozess und Mahnverfahren",
-        "Klage auf Schmerzensgeld und Räumungsklage",
-        "Feststellungsklage und Stufenklage"
+        "Arrest, einstweilige Verfügung, Wiedereinsetzung",
+        "Urkundenprozess, Mahnverfahren, Stufenklage",
+        "Schmerzensgeldklage, Räumungsklage, Feststellungsklage",
+        "Versäumnisurteil, Anerkenntnis, Klagerücknahme"
       ],
       "erklaerung": "Beispiele für die Glaubhaftmachung sind Arrest und einstweilige Verfügung (§§ 920 Abs. 2, 936 ZPO) sowie die Wiedereinsetzung (§ 236 ZPO).",
       "creator": null,
@@ -683,8 +683,8 @@
       "prio": "hoch",
       "frage": "Wann ist eine Behauptung glaubhaft gemacht?",
       "antworten": [
-        "Wenn für ihre Wahrheit eine überwiegende Wahrscheinlichkeit besteht",
-        "Wenn keine vernünftigen Zweifel an ihrer Wahrheit bestehen",
+        "Überwiegende Wahrscheinlichkeit der Wahrheit",
+        "Keine vernünftigen Zweifel an der Wahrheit",
         "Wenn sie nicht offensichtlich unwahr ist",
         "Wenn sie durch eine Urkunde belegt ist"
       ],
@@ -698,9 +698,9 @@
       "prio": "normal",
       "frage": "Was genügt in der Klausur regelmäßig zur Glaubwürdigkeit eines Zeugen?",
       "antworten": [
-        "Hinweis, dass keine Anhaltspunkte bestehen, die Glaubwürdigkeit zu bezweifeln",
-        "Ausführliche Persönlichkeitsanalyse anhand der Realkennzeichen",
-        "Gar nichts, Glaubwürdigkeit wird nie erörtert",
+        "Hinweis auf fehlende Anhaltspunkte für Zweifel",
+        "Persönlichkeitsanalyse anhand der Realitätskennzeichen",
+        "Nichts; die Glaubwürdigkeit wird nie erörtert",
         "Feststellung, dass der Zeuge vereidigt wurde"
       ],
       "erklaerung": "Die Glaubwürdigkeit knüpft an die Persönlichkeit des Zeugen an und ist nur bei Zeugen zu prüfen. In der Klausur reicht der Hinweis, dass keine Anhaltspunkte bestehen, die Glaubwürdigkeit des Zeugen zu bezweifeln.",
@@ -713,9 +713,9 @@
       "prio": "normal",
       "frage": "Wann ist der Hauptbeweis geführt?",
       "antworten": [
-        "Wenn das Gericht vom Vorliegen der zu beweisenden Tatsache überzeugt ist",
+        "Wenn das Gericht von der Beweistatsache überzeugt ist",
         "Wenn die Tatsache überwiegend wahrscheinlich ist",
-        "Wenn der Gegner keinen Gegenbeweis antritt",
+        "Wenn der Gegner keinen Gegenbeweis angetreten hat",
         "Wenn jede Möglichkeit des Gegenteils ausgeschlossen ist"
       ],
       "erklaerung": "Der Hauptbeweis wird von der beweisbelasteten Partei angetreten. Er ist geführt, wenn das Gericht vom Vorliegen der zu beweisenden Tatsache überzeugt ist.",
@@ -728,10 +728,10 @@
       "prio": "normal",
       "frage": "Was ist Gegenstand eines Indizienbeweises?",
       "antworten": [
-        "Hilfstatsachen, aus denen mit hinreichender Überzeugung auf eine Haupttatsache geschlossen werden kann",
-        "Die Haupttatsache selbst",
+        "Hilfstatsachen, die auf eine Haupttatsache schließen lassen",
+        "Die Haupttatsache selbst, bewiesen durch Augenzeugen",
         "Allgemeine Erfahrungssätze ohne Bezug zum Einzelfall",
-        "Die Glaubwürdigkeit der Partei"
+        "Umstände, die allein die Glaubwürdigkeit betreffen"
       ],
       "erklaerung": "Beim Indizienbeweis ist das Vorliegen von Hilfstatsachen Gegenstand der Beweisaufnahme. Deren Nachweis soll dazu führen, dass mit hinreichender Überzeugung auf das Vorliegen einer Haupttatsache geschlossen werden kann.\n\nBeispiel: K verlangt Darlehensrückzahlung, B behauptet Schenkung. Benennt K einen Augenzeugen für die Darlehensvereinbarung, ist Beweisgegenstand eine Haupttatsache. Benennt K einen Zeugen dafür, dass B vor dem Treffen pleite war und danach viele Schulden bezahlt hat, sind Hilfstatsachen Beweisgegenstand; ob sie genügen, ist fraglich (andere Schenkung, Raubgut, Erbschaft?), hier wohl nur i. V. m. anderen Hilfstatsachen.",
       "creator": null,
@@ -743,10 +743,10 @@
       "prio": "hoch",
       "frage": "Klausurtaktik: Ist ein Rechtsstreit ohne bisherige Beweisaufnahme regelmäßig ohne Beweisaufnahme entscheidungsreif?",
       "antworten": [
-        "Ja, eigene Lösung sorgsam prüfen, wenn sie eine Beweisaufnahme erfordert",
+        "Ja; eine Lösung mit Beweisaufnahme ist sorgsam zu prüfen",
         "Nein, regelmäßig ist ein Beweisbeschluss zu entwerfen",
         "Nur wenn der Bearbeitervermerk dies ausdrücklich anordnet",
-        "Nein, es ist nach Beweislast zu entscheiden"
+        "Nein, es ist dann stets nach Beweislast zu entscheiden"
       ],
       "erklaerung": "Grundsatz: Ein Klausur-Rechtsstreit, in dem bisher keine Beweisaufnahme durchgeführt worden ist, ist auch ohne Beweisaufnahme entscheidungsreif.\n\nKommt man zu einer Lösung, die eine Beweisaufnahme erfordert, ist sie sorgsam zu überprüfen.",
       "creator": null,
@@ -773,10 +773,10 @@
       "prio": "hoch",
       "frage": "Klausur: Es kommt auf einen unerledigten Beweisantritt an. Wie ist nach üblichem Bearbeitervermerk zu verfahren?",
       "antworten": [
-        "Unterstellen, dass der Beweis ohne Ergebnis erhoben wurde; TB: Prozessgeschichte mit Hinweis auf Unterstellung; EG: Beweisaufnahme ergebnislos",
-        "Beweisbeschluss entwerfen statt Urteil",
-        "Unterstellen, dass der Beweis für den Beweisführer positiv ausgefallen ist",
-        "Beweisantritt als verspätet zurückweisen"
+        "Unterstellen, dass der Beweis ohne Ergebnis erhoben wurde",
+        "Statt des Urteils einen Beweisbeschluss nebst Gutachten entwerfen",
+        "Unterstellen, dass der Beweis für den Beweisführer positiv ausfiel",
+        "Beweisantritt im Urteil als verspätet zurückweisen (§ 296)"
       ],
       "erklaerung": "Kommt es auf den Beweisantritt noch an, ist nach Bearbeitervermerk regelmäßig zu unterstellen, dass er ohne Ergebnis erhoben worden ist.\n\nIm Tatbestand ist in der Prozessgeschichte die Beweiserhebung mit Anmerkung der Unterstellung anzuführen. In den Entscheidungsgründen ist im Rahmen der Beweiswürdigung auszuführen, dass die unterstellte Beweisaufnahme kein Ergebnis gebracht hat.",
       "creator": null,
@@ -803,9 +803,9 @@
       "prio": "normal",
       "frage": "Ist die Parteianhörung nach § 141 ZPO ein Beweismittel?",
       "antworten": [
-        "Nein, mündlicher Sachvortrag; kann aber in der Beweiswürdigung verwertet werden",
+        "Nein, aber in der Beweiswürdigung verwertbar",
         "Ja, sie ist ein Fall der Parteivernehmung",
-        "Nein, und sie darf in der Beweiswürdigung nicht verwertet werden",
+        "Nein, und sie ist auch nicht verwertbar",
         "Ja, aber nur mit Zustimmung des Gegners"
       ],
       "erklaerung": "Die Anhörung nach § 141 ZPO ist kein Beweismittel, sondern mündlich vorgetragener Sachvortrag.\n\nDer Tatrichter ist jedoch nicht gehindert, sie im Rahmen der Beweiswürdigung zu verwerten (BGH NJW 1992, 1558).",
@@ -818,10 +818,10 @@
       "prio": "normal",
       "frage": "Wann ist eine Parteianhörung nach § 141 ZPO sinnvoll?",
       "antworten": [
-        "Immer, wenn es um von den Parteien selbst wahrgenommene Geschehnisse geht",
-        "Nur bei Beweisnot im Vier-Augen-Gespräch",
-        "Nur wenn alle anderen Beweismittel ausgeschöpft sind",
-        "Nur mit Einverständnis des Gegners"
+        "Bei selbst wahrgenommenen Geschehnissen der Parteien",
+        "Nur bei Beweisnot in einem Vier-Augen-Gespräch",
+        "Erst wenn alle anderen Beweismittel ausgeschöpft sind",
+        "Nur mit Einverständnis des Prozessgegners"
       ],
       "erklaerung": "Die Anhörung ist mündlicher Sachvortrag und sinnvoll, wann immer es um Geschehnisse geht, die die Parteien selbst wahrgenommen haben. Die Parteien geben ihr Anliegen in eigenen Worten wieder, das Gericht kann Fragen stellen.\n\nDie persönliche Anhörung ist aus Gründen der Sachaufklärung nahezu immer aufschlussreich.",
       "creator": null,
@@ -833,10 +833,10 @@
       "prio": "hoch",
       "frage": "Unter welchen Voraussetzungen ist die Vernehmung des Gegners nach § 445 I ZPO zulässig?",
       "antworten": [
-        "Auf Antrag; beweisbelastete Partei hat Beweis mit anderen Mitteln nicht vollständig geführt oder keine vorgebracht; nicht, wenn Gericht das Gegenteil für erwiesen hält",
+        "Auf Antrag, subsidiär; nicht, wenn Gegenteil erwiesen",
         "Von Amts wegen bei gewisser Wahrscheinlichkeit der Tatsache",
         "Auf Antrag und nur mit Einverständnis des Gegners",
-        "Nur nach Erhebung aller angebotenen Beweise"
+        "Erst nach Erhebung aller angebotenen, zulässigen Beweise"
       ],
       "erklaerung": "§ 445 Abs. 1 ZPO: Vernehmung des Gegners auf Antrag. Subsidiär: Die beweisbelastete Partei hat den Beweis mit anderen Beweismitteln nicht vollständig geführt oder andere Beweismittel nicht vorgebracht.\n\nNicht zulässig, wenn das Gericht das Gegenteil für erwiesen erachtet (§ 445 Abs. 2 ZPO).",
       "creator": null,
@@ -863,10 +863,10 @@
       "prio": "hoch",
       "frage": "Unter welchen Voraussetzungen ist die Parteivernehmung von Amts wegen (§ 448 ZPO) zulässig?",
       "antworten": [
-        "Alle angebotenen, zulässigen, erheblichen Beweise erhoben; Verhandlung und ggf. Beweisaufnahme reichen nicht, aber gewisse Wahrscheinlichkeit der Tatsache",
-        "Nur mit Einverständnis des Gegners",
-        "Sobald die beweisbelastete Partei keine anderen Beweismittel vorbringt",
-        "Wenn die Tatsache überwiegend wahrscheinlich und damit glaubhaft gemacht ist"
+        "Alle Beweise erhoben, gewisse Wahrscheinlichkeit der Tatsache",
+        "Auf Antrag und nur mit Einverständnis des Gegners",
+        "Sobald die beweisbelastete Partei keine Beweismittel hat",
+        "Bei überwiegender Wahrscheinlichkeit (Glaubhaftmachung)"
       ],
       "erklaerung": "§ 448 ZPO erlaubt die Vernehmung einer oder beider Parteien von Amts wegen. Voraussetzung ist, dass die Erhebung aller angebotenen, zulässigen und erheblichen Beweise erfolgt ist und Verhandlung und ggf. Beweisaufnahme nicht ausreichen, aber eine gewisse Wahrscheinlichkeit der Tatsache anzunehmen ist.\n\nBeispiel: Der Kläger stürzt allein auf einem nicht ordnungsgemäß gesicherten Weg. Arzt und Zeugen zum Wegezustand sind vernommen, offen bleibt, ob er an der Stelle und wegen des ungesicherten Wegs gestürzt ist. Die Überzeugung nach § 286 ZPO kann das Gericht aus der Parteivernehmung des Klägers schöpfen.",
       "creator": null,
@@ -878,10 +878,10 @@
       "prio": "niedrig",
       "frage": "Wie wird die Parteivernehmung durchgeführt und protokolliert?",
       "antworten": [
-        "Vernehmung zur Person und zur Sache wie bei Zeugen; Protokollierung der Aussage (ggf. Weigerung) nach § 160 III Nr. 4 ZPO",
-        "Nur zur Sache; keine Protokollierung, da Sachvortrag",
-        "Wie eine Anhörung nach § 141 ZPO; Protokollierung nur auf Antrag",
-        "Schriftlich nach § 377 III ZPO"
+        "Wie ein Zeuge zur Person und Sache; Protokoll (§ 160 III Nr. 4)",
+        "Nur zur Sache; kein Protokoll, da bloßer Sachvortrag",
+        "Wie eine Anhörung nach § 141; Protokoll nur auf Antrag",
+        "Schriftlich nach § 377 III ZPO; Protokoll entbehrlich"
       ],
       "erklaerung": "Die Partei wird zur Person und zur Sache wie ein Zeuge vernommen.\n\nDie Aussage, ggf. die Weigerung, wird nach § 160 Abs. 3 Nr. 4 ZPO protokolliert.",
       "creator": null,
@@ -893,10 +893,10 @@
       "prio": "niedrig",
       "frage": "Wann kommt eine Beeidigung der Partei nach § 452 ZPO in Betracht?",
       "antworten": [
-        "Bei nicht ausreichender Überzeugung nach unbeeidigter Aussage, im Ermessen des Gerichts; unzulässig bei Verzicht des Gegners",
-        "Stets auf Antrag des Gegners",
+        "Nach Ermessen, wenn die unbeeidigte Aussage nicht überzeugt",
+        "Stets auf Antrag des Gegners, ohne Ermessen des Gerichts",
         "Stets, wenn die Aussage streitentscheidend ist",
-        "Nie, Parteien können nicht vereidigt werden"
+        "Nie; eine Partei kann im Zivilprozess nicht vereidigt werden"
       ],
       "erklaerung": "Eine Beeidigung nach § 452 ZPO kommt in Betracht, wenn das Gericht nach der unbeeidigten Aussage nicht ausreichend überzeugt ist. Sie steht im Ermessen des Gerichts.\n\nSie ist unzulässig bei Verzicht des Gegners; die Partei kann den Eid verweigern.",
       "creator": null,
@@ -908,10 +908,10 @@
       "prio": "normal",
       "frage": "Ist für die Parteivernehmung ein Beweisbeschluss erforderlich, und an wen ist zu laden?",
       "antworten": [
-        "Ja, zwingend (§ 450 I ZPO); Ladung und Beschluss an die Partei persönlich, auch bei anwaltlicher Vertretung",
-        "Nein, formlose Anordnung genügt; Ladung an den Prozessbevollmächtigten",
-        "Ja; Ladung ausschließlich an den Prozessbevollmächtigten",
-        "Nein, es genügt eine Ladung nach § 273 ZPO an den Prozessbevollmächtigten"
+        "Ja, zwingend; Ladung an die Partei persönlich",
+        "Nein; Ladung an den Prozessbevollmächtigten",
+        "Nein; persönliches Erscheinen nach § 141 genügt",
+        "Nein; Ladung nach § 273 ZPO durch Verfügung genügt"
       ],
       "erklaerung": "Auf Antrag oder von Amts wegen ergeht ein Beweisbeschluss; er ist zwingend erforderlich (§ 450 Abs. 1 ZPO).\n\nLadung und Beschluss gehen an die Partei persönlich, auch wenn sie einen Rechtsanwalt hat (§ 450 Abs. 1 S. 2 und 3 ZPO).",
       "creator": null,
@@ -923,10 +923,10 @@
       "prio": "normal",
       "frage": "Wie ist die Partei vor ihrer Vernehmung zu ermahnen und (sinnvollerweise) zu belehren?",
       "antworten": [
-        "Ermahnung zur Wahrheit (§§ 395 I, 451); Belehrung: eidliche Falschaussage § 154 StGB, uneidlich nicht § 153 StGB, nur (versuchter) Prozessbetrug; Hinweis auf §§ 446, 453 II",
+        "Ermahnung zur Wahrheit; Belehrung über Strafbarkeit und Weigerungsfolgen",
         "Belehrung über Strafbarkeit nach § 153 StGB wie bei Zeugen",
-        "Keine Ermahnung, da die Partei kein Zeuge ist",
-        "Belehrung über Zeugnisverweigerungsrechte nach § 383 ZPO"
+        "Keine Ermahnung oder Belehrung, da die Partei kein Zeuge ist",
+        "Ermahnung und Belehrung über Zeugnisverweigerungsrechte (§ 383)"
       ],
       "erklaerung": "Die Partei ist vor der Vernehmung zur Wahrheit zu ermahnen (§§ 395 Abs. 1, 451 ZPO). Sinnvoll ist die Belehrung über die Strafbarkeit: eidliche Falschaussage nach § 154 StGB; für die uneidliche Falschaussage ist die Partei nicht nach § 153 StGB strafbar, sondern allenfalls wegen (versuchten) Prozessbetrugs (§§ 263, 23 StGB).\n\nHinzu kommt der Hinweis auf die Konsequenzen einer Weigerung (§§ 446, 453 Abs. 2 ZPO).",
       "creator": null,
@@ -939,9 +939,9 @@
       "frage": "Räumt eine Partei bei ihrer Parteivernehmung eine Tatsache ein – liegt ein Geständnis i. S. d. § 288 ZPO vor?",
       "antworten": [
         "Nein, die Vernehmung ist kein Sachvortrag",
-        "Ja, stets",
+        "Ja, jedes Einräumen ist ein Geständnis",
         "Ja, wenn die Aussage protokolliert wird",
-        "Nur bei beeidigter Aussage"
+        "Nur wenn die Aussage beeidigt worden ist"
       ],
       "erklaerung": "Räumt die Partei bei ihrer Parteivernehmung als solcher etwas ein, handelt es sich nicht um ein Geständnis i. S. v. §§ 288 ff. ZPO, da die Vernehmung kein Sachvortrag ist.",
       "creator": null,
@@ -953,9 +953,9 @@
       "prio": "normal",
       "frage": "Ist die Parteivernehmung subsidiär?",
       "antworten": [
-        "Grundsätzlich ja (arg. § 450 II ZPO); die Partei muss aber nicht zwingend anderen Beweis antreten",
+        "Grds. ja (arg. § 450 II), anderer Beweis aber nicht zwingend",
         "Nein, sie steht gleichrangig neben den anderen Beweismitteln",
-        "Ja, sie ist nur zulässig, wenn andere Beweismittel angetreten und erschöpft sind",
+        "Ja; zulässig nur, wenn andere Beweismittel erschöpft sind",
         "Nur die Parteivernehmung nach § 448 ZPO ist subsidiär"
       ],
       "erklaerung": "Die Parteivernehmung ist grundsätzlich subsidiär (arg. § 450 Abs. 2 ZPO), also erst nach anderen Beweisen zu erheben.\n\nDie Partei muss aber nicht zwingend anderen Beweis antreten; § 445 Abs. 1 ZPO lässt die Vernehmung auch zu, wenn andere Beweismittel nicht vorgebracht sind.",
@@ -968,10 +968,10 @@
       "prio": "normal",
       "frage": "Ist die uneidliche Falschaussage einer Partei bei der Parteivernehmung nach § 153 StGB strafbar?",
       "antworten": [
-        "Nein, in Betracht kommt nur (versuchter) Prozessbetrug (§§ 263, 23 StGB)",
-        "Ja, wie bei Zeugen",
+        "Nein, nur (versuchter) Prozessbetrug",
+        "Ja, genauso wie bei einem Zeugen",
         "Ja, als Meineid (§ 154 StGB)",
-        "Nein, sie ist in keiner Weise strafbar"
+        "Nein, sie ist gar nicht strafbar"
       ],
       "erklaerung": "Die uneidliche Falschaussage ist für die Partei nicht nach § 153 StGB strafbar, sondern insoweit nur als (versuchter) Prozessbetrug nach §§ 263, 23 StGB.\n\nDie eidliche Falschaussage ist nach § 154 StGB strafbar.",
       "creator": null,
@@ -983,9 +983,9 @@
       "prio": "hoch",
       "frage": "Wie unterscheiden sich Parteivernehmung (§§ 445 ff.) und Parteianhörung (§ 141 ZPO)?",
       "antworten": [
-        "Vernehmung: echtes Beweismittel, nur unter speziellen Voraussetzungen; Anhörung: Sachvortrag, immer zulässig",
-        "Beide sind Beweismittel, unterscheiden sich nur in der Beeidigung",
-        "Anhörung: Beweismittel; Vernehmung: Sachvortrag",
+        "Vernehmung: Beweismittel mit Voraussetzungen; Anhörung: Sachvortrag",
+        "Beide Beweismittel; Unterschied nur in der Beeidigungsmöglichkeit",
+        "Beide Sachvortrag; Vernehmung nur mit Zustimmung des Gegners",
         "Vernehmung: immer zulässig; Anhörung: nur bei Beweisnot"
       ],
       "erklaerung": "Die Parteivernehmung ist ein echtes Beweismittel; die Anhörung ist technisch keine Beweisaufnahme, sondern mündlicher Sachvortrag.\n\nDie Parteivernehmung ist nur unter speziellen Voraussetzungen zulässig, die Anhörung immer.",
@@ -998,10 +998,10 @@
       "prio": "normal",
       "frage": "Der Gegner lehnt es ab, sich nach § 445 ZPO vernehmen zu lassen. Folge?",
       "antworten": [
-        "Gericht entscheidet nach freier Überzeugung unter Berücksichtigung der gesamten Sachlage, ob die Tatsache erwiesen ist (§ 446 ZPO)",
-        "Die Tatsache gilt zwingend als erwiesen",
-        "Ordnungsgeld nach § 390 ZPO",
-        "Keine Folge, der Beweisführer ist beweisfällig"
+        "Gericht würdigt die Weigerung nach freier Überzeugung",
+        "Die behauptete Tatsache gilt zwingend als erwiesen",
+        "Ordnungsgeld gegen den Gegner entsprechend § 390 ZPO",
+        "Keine Folge; der Beweisführer bleibt beweisfällig"
       ],
       "erklaerung": "Lehnt der Gegner ab, sich vernehmen zu lassen, oder gibt er auf Verlangen des Gerichts keine Erklärung ab, entscheidet das Gericht nach § 446 ZPO unter Berücksichtigung der gesamten Sachlage, insbesondere der für die Weigerung vorgebrachten Gründe, nach freier Überzeugung, ob es die behauptete Tatsache als erwiesen ansehen will.",
       "creator": null,
@@ -1043,10 +1043,10 @@
       "prio": "hoch",
       "frage": "Welche zwei Ebenen umfasst die Prüfung der Überzeugungskraft?",
       "antworten": [
-        "Innere Beweiskraft; Überzeugungskraft im Gesamtrahmen des Rechtsstreits",
-        "Glaubhaftigkeit; Glaubwürdigkeit",
-        "Beweisinhalt; Beweisergiebigkeit",
-        "Zulässigkeit; Erheblichkeit"
+        "Innere Beweiskraft; Überzeugungskraft im Gesamtrahmen",
+        "Glaubhaftigkeit der Aussage; Glaubwürdigkeit des Zeugen",
+        "Beweisinhalt; Beweisergiebigkeit zum Beweisthema",
+        "Zulässigkeit; Erheblichkeit des Beweismittels"
       ],
       "erklaerung": "Die Überzeugungskraft knüpft an den Beweisinhalt im konkreten Einzelfall an. Sie ist Kern der Beweiswürdigung und damit u. U. ein Schwerpunkt der Klausurbenotung; zu argumentieren ist mit den Details aus dem Aktenstück.\n\nZu prüfen sind (a) die innere Beweiskraft (ist das Beweismittel für sich betrachtet überzeugend?) und (b) die Überzeugungskraft im Gesamtrahmen des Rechtsstreits (im Kontext der anderen Beweise und des Verfahrensstoffs).",
       "creator": null,
@@ -1058,10 +1058,10 @@
       "prio": "niedrig",
       "frage": "Welche Würdigung ist bei der Überzeugungskraft des Augenscheins erforderlich?",
       "antworten": [
-        "Keine besondere; Überzeugung folgt aus den Sinneseindrücken",
-        "Prüfung der Anknüpfungstatsachen",
-        "Prüfung von Glaubhaftigkeit und Glaubwürdigkeit",
-        "Prüfung der gesetzlichen Beweisregeln"
+        "Keine besondere; Überzeugung aus den Sinneseindrücken",
+        "Prüfung der zutreffenden Anknüpfungstatsachen",
+        "Glaubhaftigkeit und Glaubwürdigkeit des Protokollanten",
+        "Anwendung der gesetzlichen Beweisregeln (§§ 415 ff.)"
       ],
       "erklaerung": "Beim Augenschein ist keine besondere Würdigung erforderlich; die Überzeugung wird aus den Sinneseindrücken abgeleitet.\n\nZu prüfen ist aber, ob das Augenscheinsprotokoll hinreichend detailliert ist.",
       "creator": null,
@@ -1073,10 +1073,10 @@
       "prio": "normal",
       "frage": "Was ist bei der Überzeugungskraft eines Sachverständigengutachtens zu prüfen?",
       "antworten": [
-        "Zutreffende Anknüpfungstatsachen, gebotene Sachkunde (zu vermuten), Schlüssigkeit/Nachvollziehbarkeit der Schlussfolgerungen",
-        "Glaubwürdigkeit des Sachverständigen und Motiv zur Falschaussage",
-        "Echtheit und gesetzliche Beweisregeln",
-        "Keine besondere Würdigung erforderlich"
+        "Anknüpfungstatsachen, Sachkunde, Schlüssigkeit der Folgerungen",
+        "Glaubwürdigkeit des SV und Motiv zur Falschaussage",
+        "Echtheit des Gutachtens und gesetzliche Beweisregeln",
+        "Keine besondere Würdigung, da das Gericht gebunden ist"
       ],
       "erklaerung": "Beim Sachverständigen ist zu prüfen: zutreffende Anknüpfungstatsachen (vollständig, richtig), Bewertung mit der gebotenen Sachkunde (zu vermuten) sowie Schlüssigkeit, Nachvollziehbarkeit und Überzeugungskraft der Schlussfolgerungen.\n\nAllgemein: Plausibilität, Überzeugungskraft, Nachvollziehbarkeit.",
       "creator": null,
@@ -1088,10 +1088,10 @@
       "prio": "normal",
       "frage": "Was ist bei der Würdigung einer Urkunde zu prüfen?",
       "antworten": [
-        "Urkunde, Echtheit, gesetzliche Beweisregeln (§§ 415 ff.), zusätzlich Vermutung der Vollständigkeit und Richtigkeit (§ 286)",
-        "Nur die freie Überzeugung nach § 286 ZPO",
-        "Glaubhaftigkeit des Inhalts und Glaubwürdigkeit des Ausstellers",
-        "Keine besondere Würdigung erforderlich"
+        "Urkunde, Echtheit, gesetzliche Beweisregeln, § 286",
+        "Allein die freie Überzeugung nach § 286 ZPO",
+        "Glaubhaftigkeit des Inhalts, Glaubwürdigkeit des Ausstellers",
+        "Keine besondere Würdigung; Urkunden beweisen stets voll"
       ],
       "erklaerung": "Bei der Urkunde ist zu prüfen, ob eine Urkunde vorliegt, ob sie echt ist und welche gesetzlichen Beweisregeln (§§ 415 ff. ZPO) eingreifen.\n\nZusätzlich: Vermutung der Vollständigkeit und Richtigkeit der Erklärung (§ 286 ZPO).",
       "creator": null,
@@ -1103,10 +1103,10 @@
       "prio": "hoch",
       "frage": "Beweisbelastete Partei hat für ein Vier-Augen-Gespräch keinen Zeugen, der Gegner schon. Was ist erforderlich, wenn das Gericht sich auf den Gegenzeugen stützt?",
       "antworten": [
-        "Anhörung oder Vernehmung der beweisbelasteten Partei (Waffengleichheit)",
-        "Nichts, die Partei ist beweisfällig",
-        "Zwingend Beeidigung des Gegenzeugen",
-        "Vernehmung der Partei nur mit Zustimmung des Gegners (§ 447 ZPO)"
+        "Anhörung oder Vernehmung der beweisbelasteten Partei",
+        "Nichts; die beweisbelastete Partei bleibt beweisfällig",
+        "Zwingend die Beeidigung des Gegenzeugen (§ 391)",
+        "Vernehmung der Partei nur mit Zustimmung (§ 447)"
       ],
       "erklaerung": "Bei Beweisnot im Vier-Augen-Gespräch ist eine Parteianhörung oder Parteivernehmung erforderlich, wenn die beweisbelastete Partei keinen Zeugen hat und das Gericht seine Überzeugungsbildung auf den Gegenzeugen stützt; Argument: Waffengleichheit (BGH NJW-RR 2006, 61).\n\nHauptanwendungsfall ist der Inhalt von Aufklärungsgesprächen bei Arzt oder Anwalt (BGH NJW 2005, 1718; BGH NJW 2011, 2889). Ggf. auch bei Verkehrsunfällen (KG MDR 2010, 170; nach Folie zweifelhaft).",
       "creator": null,
@@ -1118,9 +1118,9 @@
       "prio": "hoch",
       "frage": "Welches Beweismaß gilt für den Vollbeweis (§ 286 ZPO)?",
       "antworten": [
-        "Persönliche Gewissheit: keine vernünftigen Zweifel an der Wahrheit",
-        "Überwiegende Wahrscheinlichkeit",
-        "Absolute Gewissheit, die jede andere Möglichkeit ausschließt",
+        "Persönliche Gewissheit ohne vernünftige Zweifel",
+        "Überwiegende Wahrscheinlichkeit der Tatsache",
+        "Absolute Gewissheit unter Ausschluss jeder Alternative",
         "Bloße Möglichkeit, die nicht widerlegt ist"
       ],
       "erklaerung": "Durch den Beweis soll dem Richter die volle Überzeugung von der Wahrheit oder Unwahrheit einer Tatsache vermittelt werden (§ 286 ZPO). Nicht ausreichend ist überwiegende Wahrscheinlichkeit, nicht erforderlich absolute Gewissheit.\n\nMaßgeblich ist die persönliche Gewissheit: Es genügt ein für das praktische Leben brauchbarer Grad von Gewissheit, der den Zweifeln Schweigen gebietet, ohne sie völlig auszuschließen (BGH NJW 1998, 2969).",
@@ -1133,10 +1133,10 @@
       "prio": "normal",
       "frage": "Welche Normen erlauben die Beweiserhebung von Amts wegen?",
       "antworten": [
-        "Augenschein § 144; Urkunden §§ 142, 143; Sachverständige §§ 144, 412; Parteivernehmung § 448 ZPO",
-        "Augenschein § 371; Urkunden § 420; Sachverständige § 403; Zeugen § 373 ZPO",
-        "Augenschein § 144; Urkunden § 421; Zeugen § 273 II Nr. 4; Parteivernehmung § 447 ZPO",
-        "Sachverständige § 402; Urkunden § 415; Parteivernehmung § 445 ZPO"
+        "Augenschein § 144; Urkunden §§ 142, 143; SV §§ 144, 412; PV § 448",
+        "Augenschein § 371; Urkunden § 420; SV § 403; Zeugen § 373",
+        "Augenschein § 372; Urkunden § 421; Zeugen § 273 II Nr. 4; PV § 447",
+        "SV § 402; Urkunden § 415; PV § 445; Zeugen § 377 III"
       ],
       "erklaerung": "Von Amts wegen: Augenschein nach § 144 ZPO (pflichtgemäßes Ermessen), Urkunden nach §§ 142, 143 ZPO, Sachverständige nach §§ 144, 412 ZPO, Parteivernehmung nach § 448 ZPO unter eingeschränkten Voraussetzungen.\n\nZeugen nicht von Amts wegen. Die Anhörung nach § 141 ZPO ist kein Beweismittel.",
       "creator": null,
@@ -1178,10 +1178,10 @@
       "prio": "niedrig",
       "frage": "In welchen Schritten wird eine Zeugenaussage gewürdigt?",
       "antworten": [
-        "Realitätskriterien prüfen, Ausprägung der Signale, Baseline herausarbeiten, Bewertung, Vergleich widerstreitender Aussagen",
-        "Glaubwürdigkeit, Glaubhaftigkeit, Beweislast",
-        "Baseline, Realitätskriterien, Beeidigung",
-        "Vergleich widerstreitender Aussagen, dann Entscheidung nach Beweislast"
+        "Realitätskriterien, Ausprägung, Baseline, Bewertung, Vergleich",
+        "Glaubwürdigkeit, Glaubhaftigkeit, Beweislastentscheidung",
+        "Baseline, Realitätskriterien, Beeidigung, Bewertung",
+        "Vergleich widerstreitender Aussagen, dann Beweislast"
       ],
       "erklaerung": "1. Überprüfung der Aussage anhand von Realitätskriterien (Realitätskennzeichen und Warnsignale); 2. Ausprägung der einzelnen Signale; 3. Herausarbeiten der Baseline der Aussage; 4. Bewertung der Aussage; 5. Vergleich der widerstreitenden Aussagen.\n\nVertiefung: Nack, JA 1993, 161–168.",
       "creator": null,
@@ -1193,10 +1193,10 @@
       "prio": "normal",
       "frage": "Eine Partei beanstandet eine Frage an den Zeugen. Wer entscheidet wie?",
       "antworten": [
-        "Das Gericht (ggf. Kammer/Senat) durch unanfechtbaren, zu verkündenden Beschluss (§ 397 III); anfechtbar nur mit dem Rechtsmittel gegen das Urteil",
-        "Der Vorsitzende allein durch prozessleitende Verfügung",
-        "Das Gericht durch Zwischenurteil (§ 387 ZPO)",
-        "Das Gericht durch Beschluss, der mit der sofortigen Beschwerde anfechtbar ist"
+        "Gericht durch unanfechtbaren Beschluss (§ 397 III)",
+        "Vorsitzender allein durch prozessleitende Verfügung",
+        "Gericht durch Zwischenurteil entsprechend § 387 ZPO",
+        "Gericht durch Beschluss, anfechtbar mit sofortiger Beschwerde"
       ],
       "erklaerung": "Bei Zweifeln über die Zulässigkeit einer Frage entscheidet das Gericht (§ 397 Abs. 3 ZPO), ggf. Kammer oder Senat, durch unanfechtbaren, zu verkündenden Beschluss auf die mündliche Verhandlung.\n\nEine kurze Begründung ist erforderlich; sie kann nachgeholt werden, spätestens im Urteil. Die Entscheidung kann nur mit dem Rechtsmittel gegen das Urteil angefochten werden. Unsachliche Fragen verhindert der Vorsitzende nach § 136 Abs. 2 S. 1 ZPO ggf. durch Wortentzug.\n\nBeispiel: „Warum lügen Sie hier wie gedruckt?“ – b. u. v.: Die Frage wird als unzulässig zurückgewiesen, weil sie nicht auf tatsächliche Wahrnehmungen oder auf die Erforschung von Umständen gerichtet ist, die die Glaubwürdigkeit des Zeugen betreffen; Hinweis, dass im Wiederholungsfall das Wort entzogen wird.",
       "creator": null,
@@ -1238,10 +1238,10 @@
       "prio": "normal",
       "frage": "In welche Gruppen lassen sich Realitätskennzeichen einteilen?",
       "antworten": [
-        "Allgemeine Merkmale, spezielle Inhalte, motivationsbezogene Inhalte, Wiederholung der Aussage (Erweiterung, Ergänzung)",
+        "Allgemeine, spezielle, motivationsbezogene Merkmale; Wiederholung",
         "Strukturbruch, inhaltliche Signale, Aussageverhalten",
-        "Wahrnehmung, Erinnerung, Wiedergabe",
-        "Glaubhaftigkeit, Glaubwürdigkeit, Beweiskraft"
+        "Wahrnehmung, Erinnerung, Wiedergabe, Aussagebereitschaft",
+        "Glaubhaftigkeit, Glaubwürdigkeit, innere Beweiskraft, Baseline"
       ],
       "erklaerung": "Bei der Würdigung ist die Aussage zunächst anhand von Realitätskriterien auf ihren Wahrheitsgehalt zu überprüfen. Realitätskennzeichen sind allgemeine Merkmale, spezielle Inhalte, motivationsbezogene Inhalte sowie bei Wiederholung der Aussage deren Erweiterung und Ergänzung.\n\nStrukturbruch, inhaltliche Warnsignale und Warnsignale im Aussageverhalten sind dagegen Warnsignale.",
       "creator": null,
@@ -1253,10 +1253,10 @@
       "prio": "normal",
       "frage": "Welche motivationsbezogenen Inhalte sind Realitätskennzeichen?",
       "antworten": [
-        "Zugeben von Erinnerungslücken und Unsicherheiten, Selbstbelastungen, spontane Verbesserungen",
+        "Eingeräumte Lücken, Selbstbelastung, spontane Verbesserungen",
         "Übertriebene Bestimmtheit, Entrüstung, Vorwegverteidigung",
-        "Verweigerung und Zurückhaltung, Ausweichen",
-        "Ständige Wiederholung derselben Formulierungen"
+        "Verweigerung, Zurückhaltung und Ausweichen bei Nachfragen",
+        "Stereotype Wiederholung, klischeehafte Formulierungen"
       ],
       "erklaerung": "Motivationsbezogene Realitätskennzeichen sind das Zugeben von Erinnerungslücken, das Zugeben von Unsicherheiten, Selbstbelastungen und spontane Verbesserungen.",
       "creator": null,
@@ -1268,10 +1268,10 @@
       "prio": "normal",
       "frage": "Welche speziellen Inhalte sind Realitätskennzeichen?",
       "antworten": [
-        "Raum-zeitliche Verknüpfung, Interaktionen/Gesprächswiedergabe, ungewöhnliche oder nebensächliche Details, Komplikationen",
+        "Raum-Zeit-Verknüpfung, Interaktionen, Nebendetails, Komplikationen",
         "Verallgemeinerungen, Stereotypie, übertriebene Genauigkeit",
         "Glatter, geordneter Handlungsablauf ohne Komplikationen",
-        "Vermutete Handlungsmotive, blasse Schilderung"
+        "Vermutete Handlungsmotive, blasse klischeehafte Schilderung"
       ],
       "erklaerung": "Spezielle Inhalte als Realitätskennzeichen sind raum-zeitliche Verknüpfungen, Interaktionsschilderungen oder Wiedergabe von Gesprächen, ungewöhnliche oder nebensächliche Details sowie Komplikationen.",
       "creator": null,
@@ -1283,10 +1283,10 @@
       "prio": "hoch",
       "frage": "Wie unterscheiden sich Beweissicherung (§ 485 I ZPO) und selbständiges Beweisverfahren nach § 485 II ZPO?",
       "antworten": [
-        "Abs. 1: während/außerhalb eines Streitverfahrens, Augenschein, Zeugen, SV bei Zustimmung des Gegners oder drohendem Beweismittelverlust; Abs. 2: vor Anhängigkeit, nur schriftliches SV-Gutachten bei rechtlichem Interesse",
-        "Abs. 1: nur vor Anhängigkeit; Abs. 2: nur während eines Rechtsstreits",
-        "Abs. 1: nur Urkundenbeweis; Abs. 2: alle Beweismittel",
-        "Kein Unterschied; Abs. 2 ist nur eine Zuständigkeitsregel"
+        "Abs. 1: Beweissicherung, auch im Prozess; Abs. 2: vorprozessual, nur SV-Gutachten",
+        "Abs. 1: nur vor Anhängigkeit; Abs. 2: nur während eines anhängigen Rechtsstreits",
+        "Abs. 1: nur Urkundenbeweis; Abs. 2: alle Beweismittel einschließlich Parteivernehmung",
+        "Kein Unterschied in den Voraussetzungen; Abs. 2 regelt nur die Zuständigkeit"
       ],
       "erklaerung": "Nach § 485 Abs. 1 ZPO kann während oder außerhalb eines Streitverfahrens auf Antrag die Einnahme des Augenscheins, die Vernehmung von Zeugen oder die Begutachtung durch einen Sachverständigen angeordnet werden, wenn der Gegner zustimmt oder zu besorgen ist, dass das Beweismittel verloren geht oder seine Benutzung erschwert wird.\n\nNach § 485 Abs. 2 ZPO kann, solange ein Rechtsstreit noch nicht anhängig ist, die schriftliche Begutachtung durch einen Sachverständigen beantragt werden, wenn ein rechtliches Interesse an der Feststellung des Zustands oder Werts einer Sache (bzw. des Zustands einer Person), der Ursache eines Personen-, Sachschadens oder Sachmangels oder des Beseitigungsaufwands besteht; ein rechtliches Interesse ist anzunehmen, wenn die Feststellung der Vermeidung eines Rechtsstreits dienen kann.\n\nBeispiel: Will der Eigentümer vor Klageerhebung Ursache und Beseitigungskosten eines Feuchtigkeitsschadens gerichtlich verwertbar klären lassen, ist ein Antrag nach § 485 Abs. 2 ZPO zu stellen.",
       "creator": null,
@@ -1313,10 +1313,10 @@
       "prio": "normal",
       "frage": "Was muss der Antrag im selbständigen Beweisverfahren enthalten (§ 487 ZPO)?",
       "antworten": [
-        "Gegner, Beweistatsachen, Beweismittel, Glaubhaftmachung der Zulässigkeits- und Zuständigkeitstatsachen",
-        "Klageantrag, Streitwert und Begründung des Anspruchs",
-        "Nur die Bezeichnung des Gegners und des gewünschten Sachverständigen",
-        "Beweistatsachen und Nachweis der Vorschusszahlung"
+        "Gegner, Beweistatsachen, Beweismittel, Glaubhaftmachung (Zulässigkeit)",
+        "Klageantrag, Streitwert, Anspruchsbegründung, Kostenvorschuss",
+        "Name des gewünschten Sachverständigen und Gutachtenauftrag",
+        "Beweistatsachen, Streitwert und Nachweis der Vorschusszahlung"
       ],
       "erklaerung": "Nach § 487 ZPO muss der Antrag enthalten: 1. die Bezeichnung des Gegners; 2. die Bezeichnung der Tatsachen, über die Beweis erhoben werden soll; 3. die Benennung der Zeugen oder die Bezeichnung der übrigen nach § 485 ZPO zulässigen Beweismittel; 4. die Glaubhaftmachung der Tatsachen, die die Zulässigkeit des selbständigen Beweisverfahrens und die Zuständigkeit des Gerichts begründen sollen.",
       "creator": null,
@@ -1343,10 +1343,10 @@
       "prio": "normal",
       "frage": "Wie erreicht der Antragsgegner eine Kostenentscheidung, wenn nach dem selbständigen Beweisverfahren keine Klage erhoben wird?",
       "antworten": [
-        "Antrag nach § 494a ZPO: Frist zur Klageerhebung, bei Versäumung Kostenbeschluss",
-        "Kostenfestsetzungsantrag nach § 104 ZPO",
-        "Negative Feststellungsklage",
-        "Antrag auf Kostenentscheidung nach § 91a ZPO"
+        "Antrag nach § 494a ZPO (Fristsetzung, dann Kostenbeschluss)",
+        "Kostenfestsetzungsantrag nach § 104 ZPO beim Rechtspfleger",
+        "Negative Feststellungsklage bezüglich des Anspruchs",
+        "Antrag auf Kostenentscheidung nach § 91a ZPO analog"
       ],
       "erklaerung": "Durch Antrag nach § 494a ZPO. Ist kein Rechtsstreit anhängig, ordnet das Gericht nach Beendigung der Beweiserhebung auf Antrag ohne mündliche Verhandlung an, dass der Antragsteller binnen einer Frist Klage zu erheben hat (§ 494a Abs. 1 ZPO).\n\nKommt der Antragsteller dem nicht nach, spricht das Gericht auf Antrag durch Beschluss aus, dass er die dem Gegner entstandenen Kosten zu tragen hat; dagegen ist die sofortige Beschwerde statthaft (§ 494a Abs. 2 ZPO).",
       "creator": null,
@@ -1358,10 +1358,10 @@
       "prio": "hoch",
       "frage": "Kann im Hauptprozess statt des Gutachtens aus dem selbständigen Beweisverfahren ein neues SV-Gutachten verlangt werden?",
       "antworten": [
-        "Nur wenn das Gericht das Gutachten für ungenügend erachtet (§ 412 ZPO, vgl. § 493 ZPO)",
-        "Ja, das frühere Gutachten bindet im Hauptprozess nicht",
-        "Ja, auf jeden neuen Beweisantrag",
-        "Nein, eine neue Begutachtung ist ausnahmslos ausgeschlossen"
+        "Nur bei ungenügendem Gutachten (§ 412 ZPO)",
+        "Ja, das frühere Gutachten bindet nicht",
+        "Ja, auf jeden ordnungsgemäßen Beweisantrag",
+        "Nein, eine neue Begutachtung ist ausgeschlossen"
       ],
       "erklaerung": "Die selbständige Beweiserhebung steht einer Beweisaufnahme vor dem Prozessgericht gleich (vgl. § 493 ZPO).\n\nEin weiteres Gutachten kann die Partei daher nicht einfach beantragen; möglich ist es nur nach § 412 ZPO: Das Gericht kann eine neue Begutachtung durch dieselben oder andere Sachverständige anordnen, wenn es das Gutachten für ungenügend erachtet (Abs. 1), oder nach erfolgreicher Ablehnung des Sachverständigen (Abs. 2).",
       "creator": null,
@@ -1373,9 +1373,9 @@
       "prio": "normal",
       "frage": "Fehlt das rechtliche Interesse (§ 485 II ZPO), wenn der Antragsgegner erklärt, ohnehin nicht freiwillig zu zahlen?",
       "antworten": [
-        "Nein; ggf. wird der Antragsteller von der Klage abgehalten, und § 485 II 2 verlangt nicht, dass das Verfahren „nur“ der Vermeidung eines Rechtsstreits dient",
-        "Ja, das rechtliche Interesse fehlt, wenn der Gegner Zahlung verweigert",
-        "Ja, dann ist nur die Beweissicherung nach § 485 Abs. 1 ZPO zulässig",
+        "Nein, die Feststellung kann trotzdem einen Rechtsstreit vermeiden",
+        "Ja, dann kann das Verfahren keinen Rechtsstreit mehr vermeiden",
+        "Ja, dann ist nur Beweissicherung nach § 485 I zulässig",
         "Nein, ein rechtliches Interesse ist nie erforderlich"
       ],
       "erklaerung": "Nein. Möglicherweise wird bereits der Antragsteller durch das Ergebnis von einer Klage abgehalten.\n\nIm Übrigen spricht der Wortlaut des § 485 Abs. 2 S. 2 ZPO dagegen: Er verlangt nicht, dass die Feststellung „nur“ der Vermeidung eines Rechtsstreits dient.",
@@ -1388,10 +1388,10 @@
       "prio": "niedrig",
       "frage": "Hängt das selbständige Beweisverfahren von der vorherigen Einzahlung eines Vorschusses ab?",
       "antworten": [
-        "Nein, § 12 GKG nennt es nicht; Vorschuss aber für das SV-Gutachten (§ 17 I 2 GKG)",
-        "Ja, wie jede Klage nach § 12 GKG",
-        "Nein, und auch für das Gutachten ist kein Vorschuss zu zahlen",
-        "Ja, der Vorschuss ist beim Gegner anzufordern"
+        "Nein (§ 12 GKG), wohl aber für das SV-Gutachten (§ 17 GKG)",
+        "Ja, wie eine Klage nach § 12 GKG, sonst keine Zustellung",
+        "Nein, auch für das Gutachten ist kein Vorschuss zu zahlen",
+        "Ja, der Vorschuss ist beim Antragsgegner anzufordern"
       ],
       "erklaerung": "Das Verfahren ist nicht von der vorherigen Einzahlung eines Vorschusses abhängig, da es in § 12 GKG nicht genannt ist.\n\nFür das Sachverständigengutachten ist aber ein Vorschuss zu zahlen (§ 17 Abs. 1 S. 2 GKG).",
       "creator": null,
@@ -1403,10 +1403,10 @@
       "prio": "normal",
       "frage": "An welches Gericht ist ein Antrag nach § 485 II ZPO vor Anhängigkeit zu richten?",
       "antworten": [
-        "An das Gericht, das nach dem Vortrag des Antragstellers in der Hauptsache zuständig wäre (§ 486 II ZPO)",
-        "Stets an das Amtsgericht",
-        "Stets an das Landgericht",
-        "An das Gericht am Wohnsitz des Antragstellers"
+        "Das (hypothetische) Hauptsachegericht (§ 486 II)",
+        "Stets das Amtsgericht, unabhängig vom Streitwert",
+        "Stets das Landgericht, unabhängig vom Streitwert",
+        "Das Gericht am allgemeinen Gerichtsstand des Antragstellers"
       ],
       "erklaerung": "Ist ein Rechtsstreit noch nicht anhängig, ist der Antrag bei dem Gericht zu stellen, das nach dem Vortrag des Antragstellers zur Entscheidung in der Hauptsache berufen wäre (§ 486 Abs. 2 S. 1 ZPO).\n\nBeispiel: Bei geschätzten Beseitigungskosten von 11.000 € ist das Landgericht zuständig.",
       "creator": null,
@@ -1433,10 +1433,10 @@
       "prio": "hoch",
       "frage": "Wann ist eine Frage an den Zeugen unzulässig?",
       "antworten": [
-        "Gesetzlich verboten (§§ 383 III, 376), bereits beantwortet, nicht auf Wahrnehmungen gerichtet, ohne Sachzusammenhang, Suggestiv-/Ausforschungsfrage",
-        "Nur wenn sie ein Zeugnisverweigerungsrecht berührt",
-        "Wenn sie von einer Partei statt vom Prozessbevollmächtigten gestellt wird",
-        "Wenn sie die Glaubwürdigkeit des Zeugen betrifft"
+        "Verboten, schon beantwortet, keine Wahrnehmung, sachfremd, suggestiv/ausforschend",
+        "Nur wenn sie ein Zeugnisverweigerungsrecht des Zeugen berührt",
+        "Wenn sie von der Partei statt vom Prozessbevollmächtigten stammt",
+        "Wenn sie die Glaubwürdigkeit oder Beziehungen zu den Parteien betrifft"
       ],
       "erklaerung": "Eine Frage ist unzulässig, wenn das Gesetz sie (§ 383 Abs. 3 ZPO) oder ihre Beantwortung (§ 376 ZPO) verbietet, wenn sie bereits beantwortet ist, wenn sie nicht auf tatsächliche Wahrnehmungen gerichtet ist, wenn sie in keinem Zusammenhang mit dem Gegenstand des Rechtsstreits steht oder wenn es sich um Suggestiv- oder Ausforschungsfragen handelt.\n\nFragen zu Umständen, die die Glaubwürdigkeit betreffen, sind dagegen zulässig (§ 395 Abs. 2 S. 2 ZPO).",
       "creator": null,
@@ -1448,9 +1448,9 @@
       "prio": "hoch",
       "frage": "Was ist eine Urkunde im Sinne der ZPO?",
       "antworten": [
-        "Schriftlich verkörperte Gedankenäußerung (ohne Beweisbestimmung/-eignung und Erkennbarkeit des Ausstellers)",
-        "Verkörperte Gedankenerklärung, die zum Beweis geeignet und bestimmt ist und den Aussteller erkennen lässt",
-        "Jeder mit den Sinnen wahrnehmbare Gegenstand einschließlich Lichtbilder",
+        "Jede schriftlich verkörperte Gedankenäußerung",
+        "Beweisgeeignete Erklärung mit erkennbarem Aussteller",
+        "Jeder sinnlich wahrnehmbare Gegenstand, auch Lichtbilder",
         "Nur öffentliche Urkunden i. S. d. § 415 ZPO"
       ],
       "erklaerung": "Urkunden i. S. d. ZPO sind schriftlich verkörperte Gedankenäußerungen.\n\nAnders als im Strafrecht sind Beweisgeeignetheit, Beweisbestimmung und Erkennbarkeit des Ausstellers nicht erforderlich. Der Beweisantritt erfolgt durch Vorlage der Urkunde im Original (§ 420 ZPO).",
@@ -1463,10 +1463,10 @@
       "prio": "normal",
       "frage": "Wie wird die Echtheit öffentlicher und privater Urkunden behandelt?",
       "antworten": [
-        "Öffentlich (inländisch): Echtheit vermutet (§ 437 I); privat: Dispositionsmaxime – Gegner muss sich erklären (§ 439), bei Bestreiten ist Echtheit zu beweisen",
-        "Beide: Echtheit stets von Amts wegen zu prüfen",
-        "Öffentlich: Echtheit durch Beweisführer zu beweisen; privat: vermutet",
-        "Beide: Echtheit wird vermutet, Gegner muss Unechtheit beweisen"
+        "Öffentlich: vermutet (§ 437); privat: Gegner muss sich erklären (§ 439)",
+        "Beide: Echtheit stets von Amts wegen zu prüfen und zu beweisen",
+        "Öffentlich: Beweis durch Behördenauskunft; privat: stets SV-Gutachten",
+        "Beide: Echtheit vermutet, der Gegner muss die Unechtheit beweisen"
       ],
       "erklaerung": "Bei öffentlichen Urkunden inländischer Aussteller wird die Echtheit vermutet (§ 437 Abs. 1 ZPO).\n\nBei Privaturkunden unterliegt die Echtheit der Dispositionsmaxime der Parteien: Der Gegner des Beweisführers muss sich zur Echtheit erklären (§ 439 ZPO). Ist sie bestritten, ist zu prüfen, ob sie bewiesen ist, z. B. durch graphologisches Gutachten.",
       "creator": null,
@@ -1478,10 +1478,10 @@
       "prio": "niedrig",
       "frage": "Woraus folgt die Beweiskraft öffentlicher Urkunden, und was gilt bei äußeren Mängeln?",
       "antworten": [
-        "Öffentliche Urkunden: §§ 415, 417, 418 I, III ZPO; äußere Mängel: freie Überzeugung (§ 419 ZPO)",
-        "Öffentliche Urkunden: § 416 ZPO; äußere Mängel: Urkunde unverwertbar",
-        "Öffentliche Urkunden: § 286 ZPO; äußere Mängel: § 440 ZPO",
-        "Öffentliche Urkunden: § 437 ZPO; äußere Mängel: Beweiskraft bleibt unberührt"
+        "Beweiskraft: §§ 415, 417, 418; Mängel: freie Überzeugung (§ 419)",
+        "Beweiskraft: § 416; Mängel: Urkunde ist unverwertbar",
+        "Beweiskraft: § 286; Mängel: Echtheitsbeweis nach § 440",
+        "Beweiskraft: § 437; Mängel: Beweiskraft bleibt unberührt"
       ],
       "erklaerung": "Der Umfang der Beweiskraft ist grds. vom Gesetz fest vorgegeben. Für öffentliche Urkunden folgt sie aus §§ 415, 417, 418 Abs. 1 und 418 Abs. 3 ZPO.\n\nBei äußeren Mängeln entscheidet das Gericht nach freier Überzeugung über die Beeinträchtigung der Beweiskraft (§ 419 ZPO).",
       "creator": null,
@@ -1493,10 +1493,10 @@
       "prio": "hoch",
       "frage": "Welche Beweiskraft hat eine echte Privaturkunde (§ 416 ZPO)?",
       "antworten": [
-        "Nur formelle: Erklärung stammt vom Aussteller; Richtigkeit des Inhalts nach § 286 ZPO",
-        "Voller Beweis der Richtigkeit des Inhalts",
-        "Keine, sie unterliegt insgesamt freier Würdigung",
-        "Beweis der Richtigkeit, bis der Gegner das Gegenteil beweist"
+        "Formell: Erklärung stammt vom Aussteller",
+        "Voller Beweis der inhaltlichen Richtigkeit",
+        "Keine; freie Würdigung insgesamt nach § 286",
+        "Richtigkeit, bis der Gegner das Gegenteil beweist"
       ],
       "erklaerung": "Privaturkunden haben nach § 416 ZPO nur formelle Beweiskraft: Sie beweisen, dass die enthaltene Erklärung vom Aussteller abgegeben wurde, nicht, dass ihr Inhalt richtig ist.\n\nDie materielle Beweiskraft richtet sich nach § 286 ZPO.",
       "creator": null,
@@ -1508,10 +1508,10 @@
       "prio": "normal",
       "frage": "Wie ist der Urkundsbeweis zu prüfen?",
       "antworten": [
-        "Urkunde? – Aussteller (Behörde/Privatperson)? – Echtheit bestritten, ggf. bewiesen? – Umfang der Beweiskraft",
-        "Echtheit – Glaubhaftigkeit – Glaubwürdigkeit des Ausstellers",
-        "Beweiskraft – Urkunde – Aussteller",
-        "Urkunde – Beweiskraft nach § 286 ZPO – Beweislast"
+        "Urkunde? Aussteller? Echtheit? Umfang der Beweiskraft",
+        "Echtheit? Glaubhaftigkeit? Glaubwürdigkeit des Ausstellers?",
+        "Beweiskraft? Urkunde? Aussteller? Beweislast?",
+        "Urkunde? Beweiskraft nach § 286? Beweislast?"
       ],
       "erklaerung": "Prüfung: 1. Handelt es sich um eine Urkunde? 2. Wer erscheint als Aussteller (Behörde oder Privatperson)? Ist die Echtheit bestritten, und wenn ja, ist sie bewiesen? 3. Umfang der Beweiskraft, grds. vom Gesetz fest vorgegeben.",
       "creator": null,
@@ -1523,10 +1523,10 @@
       "prio": "normal",
       "frage": "Was wird nach § 1006 BGB vermutet, und was muss der Besitzer darlegen?",
       "antworten": [
-        "Eigenbesitzbegründung und unbedingter Eigentumserwerb bei Besitzerwerb sowie Behalten; der Besitzer muss nur den Besitzerwerb darlegen und beweisen",
-        "Das gegenwärtige Eigentum des Besitzers; er muss nichts darlegen",
-        "Die Wirksamkeit des Grundgeschäfts; er muss den Eigentumserwerb darlegen",
-        "Nur der Fremdbesitz; der Besitzer muss den Erwerbsgrund darlegen"
+        "Eigentumserwerb mit Besitzerwerb und Fortdauer; nur Besitzerwerb darzulegen",
+        "Gegenwärtiges Eigentum; der Besitzer muss gar nichts darlegen",
+        "Wirksames Grundgeschäft; Besitzer muss Eigentumserwerb darlegen",
+        "Nur Fremdbesitz; der Besitzer muss den Erwerbsgrund darlegen"
       ],
       "erklaerung": "§ 1006 BGB baut auf das Zusammentreffen von Besitz- und Eigentumserwerb auf. Vermutet wird nicht Eigentum des Besitzers, sondern dass er bei Erwerb des (unmittelbaren) Besitzes Eigenbesitz begründete, dabei unbedingtes Eigentum erwarb und es während der Besitzzeit behielt (Palandt/Bassenge, 74. Aufl., § 1006 Rn. 1, 4).\n\nDer Besitzer muss daher nur den Besitzerwerb darlegen und beweisen, nicht den Eigentumserwerb oder die Wirksamkeit des Grundgeschäfts (BGH NJW 2004, 217 ff.).",
       "creator": null,
@@ -1538,10 +1538,10 @@
       "prio": "hoch",
       "frage": "Wie überwindet der Herausgabekläger die Eigentumsvermutung des § 1006 BGB zugunsten des Besitzers?",
       "antworten": [
-        "Durch Beweis des Gegenteils, z. B. Abhandenkommen (§ 1006 I 2 BGB) oder Überlassung zu Fremdbesitz (Leihe)",
-        "Durch Vorlage eines Kaufvertrags über seinen früheren Erwerb",
-        "Durch Bestreiten; der Besitzer muss dann seinen Eigentumserwerb darlegen",
-        "Durch Glaubhaftmachung seines Eigentums"
+        "Durch Beweis des Gegenteils, z. B. Abhandenkommen oder Leihe",
+        "Durch Vorlage des Kaufvertrags über den früheren Erwerb",
+        "Durch Bestreiten; der Besitzer muss dann Erwerb darlegen",
+        "Durch Glaubhaftmachung des eigenen früheren Eigentums"
       ],
       "erklaerung": "Für den Besitzer spricht die gesetzliche Vermutung (§ 292 ZPO) des § 1006 BGB; der Kläger muss sie widerlegen. Ein Kaufvertrag beweist allenfalls, dass er einmal Eigentümer war. Er muss daher z. B. vortragen und ggf. beweisen, dass ihm die Sache abhandengekommen ist (vgl. § 1006 Abs. 1 S. 2 BGB); sonst derzeit Klageabweisung.\n\nBeweist er etwa, dass er dem Besitzer die Sache geliehen hat, ist der Beweis des Gegenteils geführt, die Vermutung widerlegt und der Klage stattzugeben (Beispiel Rennrad).",
       "creator": null,
@@ -1553,10 +1553,10 @@
       "prio": "normal",
       "frage": "Welche Warnsignale im Aussageverhalten gibt es?",
       "antworten": [
-        "Übertriebene Bestimmtheit, Fluchtsymptom (Ausweichen), verdächtige Verteidigung (Entrüstung/Vorwegverteidigung)",
-        "Zugeben von Unsicherheiten, Selbstbelastungen",
-        "Ungeordnete Erzählweise, Komplikationen",
-        "Detailreichtum, Widerspruchsfreiheit"
+        "Übertriebene Bestimmtheit, Fluchtsymptom, verdächtige Verteidigung",
+        "Zugeben von Unsicherheiten, Selbstbelastungen, Korrekturen",
+        "Ungeordnete Erzählweise, Komplikationen, Nebendetails",
+        "Detailreichtum, Widerspruchsfreiheit, raum-zeitliche Bezüge"
       ],
       "erklaerung": "Warnsignale im Aussageverhalten sind übertriebene Bestimmtheit, das Fluchtsymptom (Ausweichen) und die verdächtige Verteidigung (Entrüstung, Vorwegverteidigung).",
       "creator": null,
@@ -1568,10 +1568,10 @@
       "prio": "normal",
       "frage": "Welche inhaltlichen Warnsignale gibt es bei Zeugenaussagen?",
       "antworten": [
-        "Vermutete Handlungsmotive, Verallgemeinerungen, Stereotypie, klischeehafter Zeitungsstil, Verweigerung/Zurückhaltung, übertriebene Genauigkeit",
+        "Vermutete Motive, Verallgemeinerungen, Stereotypie, Klischeestil",
         "Detailreichtum, ungeordnete Erzählweise, Komplikationen",
-        "Zugeben von Erinnerungslücken, spontane Verbesserungen",
-        "Raum-zeitliche Verknüpfung, Gesprächswiedergabe"
+        "Eingeräumte Erinnerungslücken, spontane Verbesserungen",
+        "Raum-zeitliche Verknüpfung, Gesprächswiedergabe, Interaktion"
       ],
       "erklaerung": "Warnsignale sind der Strukturbruch, inhaltliche Warnsignale und Warnsignale im Aussageverhalten.\n\nInhaltliche Warnsignale: vermutete Handlungsmotive, Verallgemeinerungen, Stereotypie (ständige Wiederholung), klischeehafter Zeitungsstil (blasse Schilderung), Verweigerung und Zurückhaltung (Nichtreaktion), übertriebene Genauigkeit.",
       "creator": null,
@@ -1583,10 +1583,10 @@
       "prio": "hoch",
       "frage": "Was gilt nach § 395 ZPO für Belehrung und Vernehmung zur Person?",
       "antworten": [
-        "Erst Ermahnung zur Wahrheit und Hinweis auf mögliche Beeidigung (Abs. 1), dann Personalien und ggf. Fragen zur Glaubwürdigkeit (Abs. 2); bloße Ordnungsvorschrift",
-        "Erst Personalien, dann Belehrung; Verstoß macht die Aussage unverwertbar",
-        "Belehrung nur auf Antrag einer Partei; Personalien nur bei Zweifeln an der Identität",
-        "Belehrung erst vor der Beeidigung; Personalien nach der Vernehmung zur Sache"
+        "Erst Ermahnung/Hinweis auf Eid, dann Personalien; Ordnungsvorschrift",
+        "Erst Personalien, dann Belehrung; Verstoß macht Aussage unverwertbar",
+        "Belehrung nur auf Antrag; Personalien nur bei Identitätszweifeln",
+        "Belehrung erst vor Beeidigung; Personalien nach Vernehmung zur Sache"
       ],
       "erklaerung": "Vor der Vernehmung wird der Zeuge zur Wahrheit ermahnt und darauf hingewiesen, dass er in den gesetzlich vorgesehenen Fällen ggf. seine Aussage zu beeidigen hat (§ 395 Abs. 1 ZPO). Die Vernehmung beginnt mit Vor- und Zunamen, Alter, Stand oder Gewerbe und Wohnort; erforderlichenfalls folgen Fragen zu Umständen, die die Glaubwürdigkeit betreffen, insbesondere zu den Beziehungen zu den Parteien (§ 395 Abs. 2 ZPO).\n\nBeispiel: Fragt der Richter zuerst die Personalien ab und belehrt erst danach, ist die Reihenfolge nicht gewahrt; § 395 ZPO ist aber eine bloße Ordnungsvorschrift.",
       "creator": null,
@@ -1598,9 +1598,9 @@
       "prio": "hoch",
       "frage": "Worüber kann ein Zeuge vernommen werden?",
       "antworten": [
-        "Über vergangene, mit den Sinnen wahrnehmbare Tatsachen oder Zustände",
-        "Auch über wertende Rückschlüsse aus wahrgenommenen Tatsachen",
-        "Auch über hypothetische Entschlüsse",
+        "Über vergangene, sinnlich wahrnehmbare Tatsachen",
+        "Auch über wertende Rückschlüsse aus Wahrnehmungen",
+        "Auch über hypothetische Entschlüsse von Beteiligten",
         "Auch über Rechtsfragen, soweit er fachkundig ist"
       ],
       "erklaerung": "Der Zeuge dient dem Beweis vergangener Tatsachen oder Zustände. Er soll nicht aus tatsächlichen Gegebenheiten wertende Rückschlüsse ziehen, Rechtsfragen beantworten oder zu hypothetischen Entschlüssen aussagen.\n\nEntscheidend ist, ob der unter Beweis gestellte Streitpunkt für den Zeugen mit den Sinnen wahrnehmbar war. Beispiele: Zeuge dafür, dass der Kläger das Geschäft des Beklagten „nie wieder betreten wird“ – unzulässig (hypothetischer Entschluss). Polizeibeamte zu Rückschlüssen aus einem wahrgenommenen Spurenbild – unzulässig, da Aufgabe eines Sachverständigen.",
@@ -1628,10 +1628,10 @@
       "prio": "niedrig",
       "frage": "Wer ist Zeuge, wer sachverständiger Zeuge?",
       "antworten": [
-        "Zeuge: natürliche Person, die über eigene Wahrnehmungen aussagen soll; sachverständiger Zeuge: über Tatsachen, deren Wahrnehmung besondere Sachkunde erfordert",
-        "Zeuge: jede natürliche oder juristische Person mit Kenntnis vom Streitstoff; sachverständiger Zeuge: gerichtlich bestellter Gutachter",
-        "Zeuge: nur geschäftsfähige Personen; sachverständiger Zeuge: Zeuge mit Berufsausbildung",
-        "Zeuge: Person, die Schlussfolgerungen aus Tatsachen zieht; sachverständiger Zeuge: Privatgutachter einer Partei"
+        "Zeuge: eigene Wahrnehmungen; sachv. Zeuge: Wahrnehmung mit Sachkunde",
+        "Zeuge: jede Person mit Kenntnis; sachv. Zeuge: gerichtlicher Gutachter",
+        "Zeuge: nur Geschäftsfähige; sachv. Zeuge: Zeuge mit Berufsausbildung",
+        "Zeuge: zieht Schlussfolgerungen; sachv. Zeuge: Privatgutachter"
       ],
       "erklaerung": "Zeuge ist eine natürliche Person, die in einem Verfahren über eigene Wahrnehmungen aussagen soll.\n\nDer sachverständige Zeuge soll über Tatsachen und Zustände aussagen, zu deren Wahrnehmung eine besondere Sachkunde notwendig war.",
       "creator": null,
@@ -1688,10 +1688,10 @@
       "prio": "normal",
       "frage": "In welcher Reihenfolge wird der Zeuge befragt?",
       "antworten": [
-        "Vorsitz, übrige Richter (§ 396 III), PB Beweisführer, PB Beweisgegner, Beweisführer, Beweisgegner (§ 397 II)",
-        "Beweisführer, Beweisgegner, Vorsitz, übrige Richter",
-        "PB Beweisführer, Vorsitz, PB Beweisgegner, übrige Richter",
-        "Vorsitz, Beweisgegner, Beweisführer; Prozessbevollmächtigte fragen nicht"
+        "Vorsitz, Richter, PB Beweisführer, PB Gegner, Beweisführer, Gegner",
+        "Beweisführer, Gegner, PB Beweisführer, PB Gegner, Vorsitz, Richter",
+        "PB Beweisführer, Vorsitz, PB Gegner, Richter, Beweisführer, Gegner",
+        "Vorsitz, Gegner, Beweisführer; Prozessbevollmächtigte fragen nicht"
       ],
       "erklaerung": "Reihenfolge: (1) Vorsitzende(r), (2) übrige Richter bei Kammer oder Senat (§ 396 Abs. 3 ZPO), (3) Prozessbevollmächtigter des Beweisführers, (4) Prozessbevollmächtigter des Beweisgegners, (5) Beweisführer, (6) Beweisgegner (§ 397 Abs. 2 ZPO).",
       "creator": null,
@@ -1703,10 +1703,10 @@
       "prio": "normal",
       "frage": "Kann eine frühere Partei im selben Verfahren Zeuge sein?",
       "antworten": [
-        "Ja, z. B. nach Klagerücknahme (Rechtshängigkeit entfällt rückwirkend, § 269 III 1) oder nach rechtskräftigem/vergleichsweisem Ausscheiden (str.)",
-        "Nein, wer einmal Partei war, bleibt im selben Verfahren zeugnisunfähig",
+        "Ja, z. B. nach Klagerücknahme oder Ausscheiden durch Vergleich",
+        "Nein, wer Partei war, bleibt im Verfahren zeugnisunfähig",
         "Nur nach Rechtskraft einer streitigen Kostenentscheidung",
-        "Nur mit Zustimmung der übrigen Parteien"
+        "Nur mit Zustimmung aller im Verfahren verbliebenen Parteien"
       ],
       "erklaerung": "Nimmt der Kläger die Klage gegen einen Mitbeklagten zurück, entfällt die Rechtshängigkeit ihm gegenüber rückwirkend (§ 269 Abs. 3 S. 1 ZPO); er kann grds. als Zeuge vernommen werden.\n\nAuch eine rechtskräftig oder durch Vergleich ausgeschiedene frühere Partei kann Zeuge sein, selbst wenn noch eine nichtstreitige Kostenentscheidung aussteht (KG MDR 1981, 765; streitig). Die Aussage eines später als Partei eingetretenen Zeugen bleibt eine Zeugenaussage (OLG Karlsruhe VersR 1979, 1033).",
       "creator": null,
@@ -1718,10 +1718,10 @@
       "prio": "normal",
       "frage": "Können Kinder und andere Geschäftsunfähige Zeugen sein?",
       "antworten": [
-        "Ja; beim Kind einer Partei entscheidet ggf. ein Ergänzungspfleger über das Zeugnisverweigerungsrecht",
-        "Nein, die Zeugnisfähigkeit setzt Geschäftsfähigkeit voraus",
-        "Nur ab 14 Jahren",
-        "Ja; über das Zeugnisverweigerungsrecht entscheidet stets das Gericht"
+        "Ja; ggf. entscheidet ein Ergänzungspfleger über das ZVR",
+        "Nein, Zeugnisfähigkeit setzt Geschäftsfähigkeit voraus",
+        "Nur ab Vollendung des 14. Lebensjahres (Strafmündigkeit)",
+        "Ja; über ihr ZVR entscheiden stets die Eltern selbst"
       ],
       "erklaerung": "Die Zeugeneigenschaft ist nicht an die Geschäftsfähigkeit geknüpft; Kinder und andere Geschäftsunfähige können als Zeugen vernommen werden.\n\nProblem: Das Kind einer Partei benötigt ggf. einen Ergänzungspfleger, der entscheidet, ob das Kind von seinem Zeugnisverweigerungsrecht Gebrauch macht.",
       "creator": null,
@@ -1733,10 +1733,10 @@
       "prio": "normal",
       "frage": "Wann kann der gesetzliche Vertreter einer Partei Zeuge sein?",
       "antworten": [
-        "Soweit er in concreto von der Vertretung ausgeschlossen ist (z. B. Eltern bei Bestellung eines Ergänzungspflegers)",
-        "Stets, da er selbst nicht Partei ist",
-        "Nur mit Zustimmung des Gegners",
-        "Nur wenn die Partei geschäftsfähig ist"
+        "Soweit er konkret von der Vertretung ausgeschlossen ist",
+        "Stets, da er selbst nicht formal Partei des Rechtsstreits ist",
+        "Nur mit Zustimmung des Prozessgegners (§ 447 ZPO analog)",
+        "Nur wenn die vertretene Partei selbst geschäftsfähig ist"
       ],
       "erklaerung": "Der gesetzliche Vertreter ist Zeuge, soweit er in concreto von der Vertretung ausgeschlossen ist, z. B. Eltern, soweit ein Ergänzungspfleger nach § 1909 BGB a. F. / § 1809 BGB bestellt ist.",
       "creator": null,
@@ -1748,10 +1748,10 @@
       "prio": "normal",
       "frage": "Ein geladener Zeuge ist nicht erschienen. Was ist zu veranlassen?",
       "antworten": [
-        "Ordnungsmittel prüfen (§ 380 ZPO); Nichterscheinen protokollieren (§ 160 I Nr. 4 ZPO)",
-        "Beweisantrag als unerreichbar ablehnen",
-        "Zeugen als beweisfällig behandeln und Beweislastentscheidung treffen",
-        "Beweisaufnahme im Rechtshilfeweg anordnen"
+        "Ordnungsmittel prüfen; Nichterscheinen protokollieren",
+        "Beweisantrag wegen Unerreichbarkeit ablehnen (§ 244 StPO)",
+        "Beweislastentscheidung zulasten des Beweisführers",
+        "Vernehmung im Wege der Rechtshilfe anordnen (§ 362)"
       ],
       "erklaerung": "Ist der Zeuge nicht erschienen, ist die Verhängung von Ordnungsmitteln zu prüfen (§ 380 ZPO).\n\nErscheinen bzw. Nichterscheinen ist zu protokollieren (§ 160 Abs. 1 Nr. 4 ZPO).",
       "creator": null,
@@ -1763,10 +1763,10 @@
       "prio": "niedrig",
       "frage": "Wann sind Organe und Gesellschafter juristischer Personen bzw. Personengesellschaften zeugnisfähig?",
       "antworten": [
-        "Vertretungsberechtigte: wenn die Gesellschaft nicht Partei ist; nicht Vertretungsberechtigte: im Übrigen stets",
-        "Nie, sie sind der Partei zuzurechnen",
-        "Stets, auch vertretungsberechtigte Organe im Prozess der Gesellschaft",
-        "Nur Gesellschafter, nie Organe"
+        "Vertretungsberechtigte nur, wenn die Gesellschaft nicht Partei ist",
+        "Nie; sie sind der Gesellschaft als Partei zuzurechnen",
+        "Stets, auch vertretungsberechtigte im Prozess der Gesellschaft",
+        "Nur Gesellschafter, nie Organe der juristischen Person"
       ],
       "erklaerung": "Der persönlich haftende Gesellschafter einer Personengesellschaft und das Organ einer juristischen Person mit der Stellung eines gesetzlichen Vertreters sind zeugnisfähig in Prozessen, an denen die Gesellschaft bzw. juristische Person nicht als Partei beteiligt ist.\n\nIm Übrigen zeugnisfähig sind die nicht zur gesetzlichen Vertretung berechtigten Organe, Mitglieder und Gesellschafter.",
       "creator": null,
@@ -1778,10 +1778,10 @@
       "prio": "normal",
       "frage": "Können der Erbe im Prozess des Testamentsvollstreckers um den Nachlass und der Insolvenzschuldner im Prozess des Insolvenzverwalters Zeugen sein?",
       "antworten": [
-        "Ja; Partei ist der Testamentsvollstrecker bzw. Insolvenzverwalter",
-        "Nein, als materiell Berechtigte sind sie Partei",
-        "Nein, sie können nur nach § 448 ZPO als Partei vernommen werden",
-        "Nur als sachverständige Zeugen"
+        "Ja; Partei ist der Verwalter bzw. Testamentsvollstrecker",
+        "Nein; als materiell Berechtigte sind sie selbst Partei",
+        "Nein, sie sind nur nach § 448 ZPO als Partei vernehmbar",
+        "Nur als sachverständige Zeugen ohne Zeugnispflicht"
       ],
       "erklaerung": "Der Erbe ist im Prozess des Testamentsvollstreckers um den Nachlass Zeuge; der Testamentsvollstrecker ist als Partei kraft Amtes aktiv und passiv prozessführungsbefugt.\n\nEbenso ist der Gemeinschuldner (Insolvenzschuldner) im Prozess des Insolvenzverwalters Zeuge.",
       "creator": null,
@@ -1793,10 +1793,10 @@
       "prio": "normal",
       "frage": "Muss eine Zeugenaussage protokolliert werden?",
       "antworten": [
-        "Grds. ja (§ 160 III Nr. 4); nicht, wenn das Endurteil weder Berufung noch Revision unterliegt (§ 161 I Nr. 1)",
-        "Nein, Protokollierung steht im freien Ermessen",
-        "Ja, ausnahmslos",
-        "Nur auf Antrag einer Partei"
+        "Grds. ja (§ 160 III Nr. 4), außer im Bagatellverfahren",
+        "Nein, die Protokollierung steht im freien Ermessen",
+        "Ja, ausnahmslos und wörtlich in jedem Verfahren",
+        "Nur auf ausdrücklichen Antrag einer der Parteien"
       ],
       "erklaerung": "Zeugenaussagen sind grds. zu protokollieren (§ 160 Abs. 3 Nr. 4 ZPO); dies geschieht durch den Vorsitzenden, der Zeuge genehmigt das Protokoll (§ 162 ZPO).\n\nDie Protokollierung ist unnötig, wenn das Endurteil der Berufung oder Revision nicht unterliegt (Bagatellverfahren), § 161 Abs. 1 Nr. 1 ZPO.",
       "creator": null,
@@ -1808,10 +1808,10 @@
       "prio": "niedrig",
       "frage": "Kann eine prozessunfähige Partei (z. B. 15-jähriges Kind) Zeuge sein?",
       "antworten": [
-        "Ja, soweit sie nicht unter § 455 Abs. 2 ZPO (Parteivernehmung der prozessunfähigen Partei) fällt",
-        "Nein, sie ist Partei",
-        "Nein, Prozessunfähige sind zeugnisunfähig",
-        "Nur nach Bestellung eines Prozesspflegers"
+        "Ja, soweit sie nicht unter § 455 II ZPO fällt",
+        "Nein, sie bleibt trotz Prozessunfähigkeit Partei",
+        "Nein, Prozessunfähige sind stets zeugnisunfähig",
+        "Nur nach Bestellung eines Prozesspflegers (§ 57)"
       ],
       "erklaerung": "Die prozessunfähige Partei, die nicht unter § 455 Abs. 2 ZPO fällt, kann als Zeuge vernommen werden, z. B. ein 15 Jahre altes Kind.",
       "creator": null,
@@ -1823,10 +1823,10 @@
       "prio": "normal",
       "frage": "Wie ist der Zeuge zur Sache zu vernehmen (§ 396 ZPO)?",
       "antworten": [
-        "Zusammenhängende Schilderung (Abs. 1), dann nötigenfalls Nachfragen zur Aufklärung, Vervollständigung und zum Grund des Wissens (Abs. 2)",
-        "Durch geschlossene Ja/Nein-Fragen des Gerichts",
-        "Durch Verlesen der Beweisfragen und Bestätigung durch den Zeugen",
-        "Zunächst durch Fragen der Prozessbevollmächtigten, dann des Gerichts"
+        "Zusammenhängender Bericht, dann nötigenfalls Nachfragen",
+        "Durch geschlossene Ja/Nein-Fragen zur Beschleunigung",
+        "Durch Verlesen der Beweisfragen mit Bestätigung",
+        "Zuerst Fragen der Prozessbevollmächtigten, dann des Gerichts"
       ],
       "erklaerung": "Der Zeuge ist zu veranlassen, das ihm vom Gegenstand der Vernehmung Bekannte im Zusammenhang anzugeben (§ 396 Abs. 1 ZPO); möglichst beginnt man mit einer allgemein gehaltenen Frage („Wie war das denn damals?“). Zur Aufklärung, Vervollständigung und Erforschung des Grundes seines Wissens sind nötigenfalls weitere Fragen zu stellen (§ 396 Abs. 2 ZPO); gut sind W-Fragen.\n\nBeispiel: „Bitte nur mit Ja oder Nein antworten, das geht schneller“ ist damit nicht vereinbar.",
       "creator": null,
@@ -1838,10 +1838,10 @@
       "prio": "hoch",
       "frage": "Wie läuft die Zeugenvernehmung ab?",
       "antworten": [
-        "Erscheinen – Belehrung – andere Zeugen raus – Person – ggf. ZVR-Belehrung – Aussagebereitschaft – Sache – Protokoll – Genehmigung – ggf. Eid – Entschädigung/Entlassung",
-        "Erscheinen – Person – Belehrung – Sache – Eid – Protokoll – Genehmigung – Entlassung",
-        "Belehrung aller – Sache – Person – ZVR-Belehrung – Eid – Protokoll – Entlassung",
-        "Erscheinen – Person – Sache – ZVR-Belehrung – Protokoll – Eid – Entschädigung"
+        "Erscheinen, Belehrung, Einzelvernehmung, Person, ZVR, Sache, Protokoll, Eid, Entlassung",
+        "Erscheinen, Person, Belehrung, Sache, ZVR, Eid, Protokoll, Genehmigung, Entlassung",
+        "Belehrung, Erscheinen, Sache, Person, Protokoll, Eid, ZVR, Genehmigung, Entlassung",
+        "Erscheinen, Person, Sache, Einzelvernehmung, ZVR, Protokoll, Eid, Entschädigung"
       ],
       "erklaerung": "1. Erscheinen (sonst Ordnungsmittel prüfen, § 380 ZPO; Protokoll § 160 I Nr. 4 ZPO); 2. Belehrung aller erschienenen Zeugen (§ 395 I ZPO); 3. andere Zeugen verlassen den Saal (Einzelvernehmung, § 394 I ZPO); 4. Vernehmung zur Person (§ 395 II ZPO); 5. ggf. Belehrung über Zeugnisverweigerungsrecht (§ 383 II ZPO); 6. Aussagebereitschaft (ggf. § 387 ZPO).\n\n7. Vernehmung zur Sache (§§ 396, 397 ZPO); 8. Protokollierung durch den Vorsitzenden (§ 160 III Nr. 4 ZPO); 9. Genehmigung durch den Zeugen (§ 162 ZPO); 10. ggf. Eidesbelehrung und Beeidigung (§§ 391 ff. ZPO); 11. Entschädigung und Entlassung (§ 401 ZPO).",
       "creator": null,
@@ -1853,9 +1853,9 @@
       "prio": "hoch",
       "frage": "Wann besteht ein Zeugnisverweigerungsrecht wegen Verwandtschaft oder Schwägerschaft (§ 383 I Nr. 3 ZPO)?",
       "antworten": [
-        "Gerade Linie: verwandt oder verschwägert; Seitenlinie: verwandt bis 3. Grad, verschwägert bis 2. Grad",
-        "Gerade Linie: nur verwandt; Seitenlinie: verwandt und verschwägert bis 3. Grad",
-        "Nur bei Verwandtschaft, nicht bei Schwägerschaft",
+        "Gerade Linie stets; Seitenlinie verwandt bis 3., verschwägert bis 2. Grad",
+        "Gerade Linie nur verwandt; Seitenlinie verwandt und verschwägert bis 3. Grad",
+        "Nur bei Verwandtschaft bis 3. Grad, nie bei Schwägerschaft",
         "Bei jeder Verwandtschaft oder Schwägerschaft ohne Gradgrenze"
       ],
       "erklaerung": "Ein Zeugnisverweigerungsrecht nach § 383 Abs. 1 Nr. 3 ZPO besteht bei Verwandtschaft oder Schwägerschaft in gerader Linie (z. B. Schwiegereltern), bei Verwandtschaft in der Seitenlinie bis zum 3. Grad (§ 1589 BGB) und bei Schwägerschaft in der Seitenlinie bis zum 2. Grad (§ 1590 BGB).\n\nNach § 383 Abs. 2 ZPO ist vor der Vernehmung über das Zeugnisverweigerungsrecht zu belehren.\n\nBeispiel: Der Sohn des Bruders der Ehefrau des Beklagten ist mit diesem im 3. Grad der Seitenlinie verschwägert; ein ZVR besteht nicht. Ladung und Vernehmung zur Person sind ohnehin immer zulässig; die Vernehmung zur Sache ist ohne ZVR-Belehrung zulässig.",

@@ -4,10 +4,10 @@
   "prio": "normal",
   "frage": "In welcher Reihenfolge wird der Zeuge befragt?",
   "antworten": [
-    "Vorsitz, übrige Richter (§ 396 III), PB Beweisführer, PB Beweisgegner, Beweisführer, Beweisgegner (§ 397 II)",
-    "Beweisführer, Beweisgegner, Vorsitz, übrige Richter",
-    "PB Beweisführer, Vorsitz, PB Beweisgegner, übrige Richter",
-    "Vorsitz, Beweisgegner, Beweisführer; Prozessbevollmächtigte fragen nicht"
+    "Vorsitz, Richter, PB Beweisführer, PB Gegner, Beweisführer, Gegner",
+    "Beweisführer, Gegner, PB Beweisführer, PB Gegner, Vorsitz, Richter",
+    "PB Beweisführer, Vorsitz, PB Gegner, Richter, Beweisführer, Gegner",
+    "Vorsitz, Gegner, Beweisführer; Prozessbevollmächtigte fragen nicht"
   ],
   "erklaerung": "Reihenfolge: (1) Vorsitzende(r), (2) übrige Richter bei Kammer oder Senat (§ 396 Abs. 3 ZPO), (3) Prozessbevollmächtigter des Beweisführers, (4) Prozessbevollmächtigter des Beweisgegners, (5) Beweisführer, (6) Beweisgegner (§ 397 Abs. 2 ZPO).",
   "ts": "2026-09-28T11:02:50.395Z"

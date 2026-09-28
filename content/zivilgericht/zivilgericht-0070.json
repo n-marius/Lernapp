@@ -4,10 +4,10 @@
   "prio": "normal",
   "frage": "Der Gegner lehnt es ab, sich nach § 445 ZPO vernehmen zu lassen. Folge?",
   "antworten": [
-    "Gericht entscheidet nach freier Überzeugung unter Berücksichtigung der gesamten Sachlage, ob die Tatsache erwiesen ist (§ 446 ZPO)",
-    "Die Tatsache gilt zwingend als erwiesen",
-    "Ordnungsgeld nach § 390 ZPO",
-    "Keine Folge, der Beweisführer ist beweisfällig"
+    "Gericht würdigt die Weigerung nach freier Überzeugung",
+    "Die behauptete Tatsache gilt zwingend als erwiesen",
+    "Ordnungsgeld gegen den Gegner entsprechend § 390 ZPO",
+    "Keine Folge; der Beweisführer bleibt beweisfällig"
   ],
   "erklaerung": "Lehnt der Gegner ab, sich vernehmen zu lassen, oder gibt er auf Verlangen des Gerichts keine Erklärung ab, entscheidet das Gericht nach § 446 ZPO unter Berücksichtigung der gesamten Sachlage, insbesondere der für die Weigerung vorgebrachten Gründe, nach freier Überzeugung, ob es die behauptete Tatsache als erwiesen ansehen will.",
   "ts": "2026-09-28T11:02:50.395Z"

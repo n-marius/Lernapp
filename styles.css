@@ -47,6 +47,15 @@
   --correct-soft: #ebf6ef;
   --wrong: #c0362c;
   --wrong-soft: #fdeeec;
+  /* Helleres Blau für „Direkt in Stufe 4“ und Prio „niedrig“ */
+  --blue: #3a6cc6;
+  --blue-soft: rgba(58, 108, 198, 0.1);
+
+  /* Vollfarbige Knöpfe in der unteren Leiste (im Dunkelmodus eigene, tiefere Töne, damit weiße Schrift lesbar bleibt) */
+  --btn-correct: #1f7a4a;
+  --btn-wrong: #c0362c;
+  --btn-fast: #3a6cc6;
+  --btn-solid-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.14), 0 1px 2px rgba(17, 17, 19, 0.12);
 
   --btn-bg: #111113;
   --btn-bg-hover: #2a2a2e;
@@ -98,6 +107,13 @@
     --correct-soft: rgba(76, 195, 138, 0.13);
     --wrong: #f07167;
     --wrong-soft: rgba(240, 113, 103, 0.13);
+    --blue: #86a9ec;
+    --blue-soft: rgba(134, 169, 236, 0.14);
+
+    --btn-correct: #25824f;
+    --btn-wrong: #c2433a;
+    --btn-fast: #4170c9;
+    --btn-solid-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 2px rgba(0, 0, 0, 0.4);
 
     --btn-bg: #f3f3f4;
     --btn-bg-hover: #ffffff;
@@ -210,6 +226,8 @@ button:disabled { cursor: default; }
 }
 .dock-col { display: flex; flex-direction: column; gap: 8px; width: 100%; }
 .dock-row { display: flex; gap: 8px; }
+.dock-row-split { display: grid; grid-template-columns: 1fr 1fr; }
+.dock-pair { display: flex; gap: 8px; min-width: 0; }
 .dock-progress { font-size: 12px; color: var(--ink-3); font-variant-numeric: tabular-nums; }
 
 @keyframes enter {
@@ -290,19 +308,19 @@ button:disabled { cursor: default; }
 .btn-secondary { border: 1px solid var(--line-2); color: var(--ink); }
 .btn-secondary:hover:not(:disabled) { border-color: var(--ink-3); }
 .btn-danger { background: var(--wrong); color: #fff; }
-.btn-correct { background: var(--correct); color: #fff; }
-.btn-wrong { background: var(--wrong); color: #fff; }
-.btn-correct:disabled, .btn-wrong:disabled { background: var(--btn-disabled); color: var(--btn-disabled-fg); }
-.btn-fill { flex: 1; width: auto; }
+.btn-correct, .btn-wrong, .btn-fasttrack { color: #fff; box-shadow: var(--btn-solid-shadow); }
+.btn-correct { background: var(--btn-correct); }
+.btn-wrong { background: var(--btn-wrong); }
+.btn-correct:disabled, .btn-wrong:disabled, .btn-fasttrack:disabled { background: var(--btn-disabled); color: var(--btn-disabled-fg); box-shadow: none; }
+.btn-correct:hover:not(:disabled), .btn-wrong:hover:not(:disabled), .btn-fasttrack:hover:not(:disabled) { filter: brightness(1.06); }
+.btn-fill { flex: 1; width: auto; min-width: 0; }
 .btn-fasttrack {
   width: 50px;
   flex-shrink: 0;
   padding: 0;
-  background: var(--accent);
-  color: #fff;
+  background: var(--btn-fast);
 }
-.btn-fasttrack svg { width: 18px; height: 18px; }
-.btn-fasttrack:disabled { background: var(--btn-disabled); color: var(--btn-disabled-fg); }
+.btn-fasttrack svg { width: 19px; height: 19px; }
 
 .seg {
   display: flex;
@@ -424,45 +442,49 @@ button.mode:hover:not(:disabled) .mode-go { color: var(--ink-2); transform: tran
 }
 
 /* ---------- Prio-Symbol (Karte und Filter) ----------
-   Gemeinsamer Look: abgerundetes Quadrat, Rand und blasse Füllung in der
-   jeweiligen Prio-Farbe (rot/grau/blau), Symbol in derselben Farbe. */
+   Gemeinsamer Look: Pille mit drei Balken (hoch 3 / normal 2 / niedrig 1)
+   und kurzer Bezeichnung, Farbe rot/grau/blau auf blasser Füllung. */
 
-.prio-btn[data-prio="hoch"], .prio-toggle-btn[data-prio="hoch"] { border-color: var(--wrong); background: var(--wrong-soft); color: var(--wrong); }
-.prio-btn[data-prio="normal"], .prio-toggle-btn[data-prio="normal"] { border-color: var(--line-2); background: var(--surface-2); color: var(--ink-2); }
-.prio-btn[data-prio="niedrig"], .prio-toggle-btn[data-prio="niedrig"] { border-color: var(--accent); background: var(--accent-tint); color: var(--accent); }
+.prio-btn, .prio-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--sans);
+  line-height: 1;
+  white-space: nowrap;
+  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease, transform 0.1s ease;
+}
+.prio-btn:active, .prio-toggle-btn:active { transform: scale(0.96); }
+.prio-bars { flex-shrink: 0; }
+.prio-btn[data-prio="hoch"], .prio-toggle-btn[data-prio="hoch"] { background: var(--wrong-soft); color: var(--wrong); }
+.prio-btn[data-prio="normal"], .prio-toggle-btn[data-prio="normal"] { background: var(--surface-2); color: var(--ink-2); }
+.prio-btn[data-prio="niedrig"], .prio-toggle-btn[data-prio="niedrig"] { background: var(--blue-soft); color: var(--blue); }
 
 /* ---------- Prio-Filter ---------- */
 
-.prio-toggle { display: flex; gap: 10px; margin: 0 0 18px; }
+.prio-toggle { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: -12px 0 18px; }
+.prio-toggle-label { margin: 0 4px 0 2px; font-size: 13px; font-weight: 600; color: var(--ink-3); }
 .prio-toggle-btn {
-  width: 46px;
-  height: 46px;
-  border-radius: 12px;
-  border: 1px solid var(--line-2);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  transition: opacity 0.15s ease, border-color 0.15s ease, background-color 0.15s ease, color 0.15s ease;
+  height: 30px;
+  padding: 0 12px 0 10px;
+  gap: 7px;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  font-size: 13px;
+  font-weight: 580;
 }
-.prio-toggle-btn svg { width: 20px; height: 20px; }
+.prio-toggle-btn .prio-bars { width: 12.5px; height: 12.5px; }
+.prio-toggle-btn[data-active="true"] { border-color: color-mix(in srgb, currentColor 22%, transparent); }
 .prio-toggle-btn[data-active="false"] {
-  opacity: 1;
-  border-color: var(--line);
-  background: var(--surface-2);
+  background: transparent;
+  border-color: var(--line-2);
+  border-style: dashed;
   color: var(--ink-4);
 }
-.prio-toggle-btn[data-active="false"]::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  width: 140%;
-  height: 1.5px;
-  background: var(--ink-4);
-  opacity: 0.7;
-  transform: translate(-50%, -50%) rotate(45deg);
+.prio-toggle-btn[data-active="false"] span {
+  text-decoration: line-through;
+  text-decoration-thickness: 1px;
 }
+.prio-toggle-btn[data-active="false"]:hover { color: var(--ink-3); }
 
 /* ---------- Listen ---------- */
 
@@ -547,7 +569,8 @@ button.row:active:not(:disabled), label.row:active { background: var(--surface-2
   display: flex;
   align-items: center;
 }
-.flash-face-question { min-height: 148px; padding-top: 46px; }
+.flash-face-question { display: block; min-height: 0; }
+.flash-q { display: flow-root; }
 .flash-text {
   margin: 0;
   font-family: var(--serif);
@@ -566,17 +589,19 @@ button.row:active:not(:disabled), label.row:active { background: var(--surface-2
   margin-top: 14px;
   padding-top: 14px;
   border-top: 1px solid var(--line);
-  max-height: 160px;
-  overflow-y: auto;
   font-size: 13.5px;
   line-height: 1.55;
   color: var(--ink-3);
 }
 
+.card-meta {
+  float: right;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: -1px -6px 6px 14px;
+}
 .creator-chip {
-  position: absolute;
-  top: 16px;
-  right: 16px;
   display: inline-flex;
   align-items: center;
   gap: 5px;
@@ -584,8 +609,11 @@ button.row:active:not(:disabled), label.row:active { background: var(--surface-2
   padding: 0 10px 0 8px;
   border-radius: 999px;
   background: var(--surface-2);
+  font-family: var(--sans);
   font-size: 11.5px;
   font-weight: 620;
+  line-height: 1;
+  letter-spacing: 0;
   color: var(--ink-3);
 }
 .creator-chip .user-dot-sm { width: 7px; height: 7px; border-radius: 50%; background: var(--user-color); }
@@ -593,20 +621,18 @@ button.row:active:not(:disabled), label.row:active { background: var(--surface-2
 .creator-chip[data-user="agnessa"] { --user-color: var(--agnessa); }
 
 .prio-btn {
-  position: absolute;
-  top: 12px;
-  left: 12px;
-  width: 28px;
-  height: 28px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 9px;
-  border: 1px solid var(--line-2);
-  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease, opacity 0.15s ease;
+  position: relative;
+  height: 24px;
+  padding: 0 10px 0 8px;
+  gap: 6px;
+  border-radius: 999px;
+  font-size: 11.5px;
+  font-weight: 620;
+  letter-spacing: 0.01em;
 }
-.prio-btn svg { width: 15px; height: 15px; }
-.prio-btn:hover { opacity: 0.8; }
+/* größere Tippfläche, ohne die Pille optisch zu vergrößern */
+.prio-btn::before { content: ""; position: absolute; inset: -10px -6px; }
+.prio-btn .prio-bars { width: 11px; height: 11px; }
 
 .level-chip {
   display: inline-flex;
@@ -627,7 +653,7 @@ button.row:active:not(:disabled), label.row:active { background: var(--surface-2
 .q-text {
   position: relative;
   margin: 0 0 18px;
-  padding: 46px 22px 20px;
+  padding: 22px 22px 20px;
   border-radius: var(--r-lg);
   border: 1px solid var(--line);
   background: var(--surface);
@@ -688,12 +714,13 @@ button.row:active:not(:disabled), label.row:active { background: var(--surface-2
   .screen.has-dock { padding-bottom: 14px; }
   .dock { padding: 8px 0 calc(8px + env(safe-area-inset-bottom)); }
   .q { padding: 2px 0 4px; }
-  .q-text { padding: 40px 16px 14px; margin-bottom: 12px; font-size: 18px; }
+  .q-text { padding: 18px 16px 16px; margin-bottom: 12px; font-size: 18px; }
+  .q-text .card-meta { margin: 0 -4px 6px 12px; }
   .answers { gap: 6px; }
   .answer { min-height: 50px; padding: 8px 10px; font-size: 14.5px; }
   .quiz-explain { margin-top: 12px; padding-top: 10px; font-size: 12.5px; }
-  .dock .btn-fill { height: 44px; }
-  .dock .btn-fasttrack { height: 44px; width: 44px; }
+  .dock .btn { height: 44px; }
+  .dock .btn-fasttrack { width: 44px; }
   .dock-progress { font-size: 11px; }
 }
 
@@ -871,6 +898,9 @@ button.row:active:not(:disabled), label.row:active { background: var(--surface-2
 
 @media (max-width: 380px) {
   .page-title { font-size: 30px; }
+  .prio-toggle { gap: 6px; }
+  .prio-toggle-label { display: none; }
+  .prio-toggle-btn { padding: 0 10px 0 9px; }
   .flash-text, .q-text { font-size: 17.5px; }
   .answer { font-size: 15.5px; gap: 9px; }
 }

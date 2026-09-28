@@ -28,7 +28,7 @@ import {
   setCardEdit,
 } from "./store.js";
 import { getSyncConfig, setSyncConfig, sync, resetStatsForUser, resetLevelsForUser } from "./sync.js";
-import { escapeHtml, prioIcon, PRIO_LABEL } from "./tokens.js";
+import { escapeHtml, prioToggle } from "./tokens.js";
 
 const GEBIET_NAMEN = {
   zivilgericht: "Zivilgericht",
@@ -66,8 +66,32 @@ const ICON = {
   flag: svg(`<path d="M6 21V4"/><path d="M6 4.5c1.4-1 3-1 4.5 0s3.1 1 4.5 0v9c-1.4 1-3 1-4.5 0s-3.1-1-4.5 0"/>`),
   hand: svg(`<path d="M6 4h6M6 8h9M6 12h7"/><circle cx="18" cy="16" r="1" fill="currentColor" stroke="none"/><circle cx="18" cy="16" r="4"/>`),
   auto: svg(`<path d="M12 4v3M12 17v3M4 12h3M17 12h3"/><circle cx="12" cy="12" r="4.5"/>`),
-  up: svg(`<path d="M12 19V6M6 11l6-6 6 6"/>`),
+  up: svg(`<path d="M7 12.5l5-5 5 5M7 18l5-5 5 5"/>`, `stroke-width="2"`),
 };
+
+// Untere Leiste der Lernmodi. „Falsch“ und „Richtig“ teilen sich die Breite
+// je zur Hälfte; der „Direkt in Stufe 4“-Knopf nimmt seinen Platz nur von
+// „Richtig“ bzw. „Weiter“, die Trennung Falsch/Richtig bleibt in der Mitte.
+const FAST_BTN = `<button type="button" class="btn btn-fasttrack" id="fasttrack" disabled aria-label="Direkt in Stufe 4 (schon sicher gekonnt)" title="Direkt in Stufe 4">${ICON.up}</button>`;
+const DOCK_CARDS = `
+  <div class="dock-col">
+    <div class="dock-row dock-row-split">
+      <button type="button" class="btn btn-wrong" id="wrong" disabled>Falsch</button>
+      <div class="dock-pair">
+        <button type="button" class="btn btn-correct btn-fill" id="richtig" disabled>Richtig</button>
+        ${FAST_BTN}
+      </div>
+    </div>
+    <span class="dock-progress" id="progress"></span>
+  </div>`;
+const DOCK_QUIZ = `
+  <div class="dock-col">
+    <div class="dock-row">
+      <button type="button" class="btn btn-primary btn-fill" id="next" disabled>Weiter</button>
+      ${FAST_BTN}
+    </div>
+    <span class="dock-progress" id="progress"></span>
+  </div>`;
 
 const root = document.getElementById("app");
 let allContentCards = [];
@@ -276,13 +300,14 @@ async function showGebietPick(mode, allowedPrios = new Set(PRIOS)) {
           <span class="row-title">${GEBIET_NAMEN[g]}</span>
           <span class="row-sub">${available ? `${plural(n, "Karte", "Karten")}` : "Noch keine Karten"}</span>
         </span>
-        ${available ? ICON.chevron : `<span class="badge">Noch keine Karten</span>`}
+        ${available ? ICON.chevron : ""}
       </button>`;
   }).join("");
 
   const prioFilterHtml = showPrioFilter
     ? `<div class="prio-toggle" role="group" aria-label="Prio-Filter">
-        ${PRIOS.map((p) => `<button type="button" class="prio-toggle-btn" data-prio="${p}" data-active="${allowedPrios.has(p)}" aria-label="${PRIO_LABEL[p]}${allowedPrios.has(p) ? "" : " (ausgeblendet)"}">${prioIcon(p)}</button>`).join("")}
+        <span class="prio-toggle-label">Priorität</span>
+        ${PRIOS.map((p) => prioToggle(p, allowedPrios.has(p))).join("")}
       </div>`
     : "";
 
@@ -497,15 +522,7 @@ async function showFlashcardMode(gebiet, stufe, allowedPrios = new Set(PRIOS)) {
     left: backButton("Modus verlassen"),
     right: `<button class="icon-btn" id="flag-btn" aria-label="Karte melden">${ICON.flag}</button><span class="bar-crumb"><b>Stufe ${stufe}</b> · ${GEBIET_NAMEN[gebiet]}</span>`,
     body: `<div id="stage"></div>`,
-    dock: `
-      <div class="dock-col">
-        <div class="dock-row">
-          <button type="button" class="btn btn-wrong btn-fill" id="wrong" disabled>Falsch</button>
-          <button type="button" class="btn btn-correct btn-fill" id="richtig" disabled>Richtig</button>
-          <button type="button" class="btn btn-fasttrack" id="fasttrack" disabled aria-label="Direkt in Stufe 4 (schon sicher gekonnt)">${ICON.up}</button>
-        </div>
-        <span class="dock-progress" id="progress"></span>
-      </div>`,
+    dock: DOCK_CARDS,
   });
 
   on("#back", "click", async () => { await sync(); showStufePick("cards", gebiet, allowedPrios); });
@@ -585,14 +602,7 @@ async function showQuizMode(gebiet, stufe, allowedPrios = new Set(PRIOS)) {
     left: backButton("Modus verlassen"),
     right: `<button class="icon-btn" id="flag-btn" aria-label="Karte melden">${ICON.flag}</button><span class="bar-crumb"><b>Stufe ${stufe}</b> · ${GEBIET_NAMEN[gebiet]}</span>`,
     body: `<div id="stage"></div>`,
-    dock: `
-      <div class="dock-col">
-        <div class="dock-row">
-          <button class="btn btn-primary btn-fill" id="next" disabled>Weiter</button>
-          <button type="button" class="btn btn-fasttrack" id="fasttrack" disabled aria-label="Direkt in Stufe 4 (schon sicher gekonnt)">${ICON.up}</button>
-        </div>
-        <span class="dock-progress" id="progress"></span>
-      </div>`,
+    dock: DOCK_QUIZ,
   });
 
   on("#back", "click", async () => { await sync(); showStufePick("quiz", gebiet, allowedPrios); });
@@ -672,25 +682,7 @@ async function showAutoMode(mode, gebiet, allowedPrios = new Set(PRIOS)) {
     left: backButton("Modus verlassen"),
     right: `<button class="icon-btn" id="flag-btn" aria-label="Karte melden">${ICON.flag}</button><span class="bar-crumb"><b>Automatisch</b> · ${GEBIET_NAMEN[gebiet]}</span>`,
     body: `<div id="stage"></div>`,
-    dock:
-      mode === "cards"
-        ? `
-      <div class="dock-col">
-        <div class="dock-row">
-          <button type="button" class="btn btn-wrong btn-fill" id="wrong" disabled>Falsch</button>
-          <button type="button" class="btn btn-correct btn-fill" id="richtig" disabled>Richtig</button>
-          <button type="button" class="btn btn-fasttrack" id="fasttrack" disabled aria-label="Direkt in Stufe 4 (schon sicher gekonnt)">${ICON.up}</button>
-        </div>
-        <span class="dock-progress" id="progress"></span>
-      </div>`
-        : `
-      <div class="dock-col">
-        <div class="dock-row">
-          <button class="btn btn-primary btn-fill" id="next" disabled>Weiter</button>
-          <button type="button" class="btn btn-fasttrack" id="fasttrack" disabled aria-label="Direkt in Stufe 4 (schon sicher gekonnt)">${ICON.up}</button>
-        </div>
-        <span class="dock-progress" id="progress"></span>
-      </div>`,
+    dock: mode === "cards" ? DOCK_CARDS : DOCK_QUIZ,
   });
 
   on("#back", "click", async () => { await sync(); showGebietPick(`${mode}-auto`); });

@@ -169,12 +169,13 @@ laufen lassen.
    Rechtsanwalt, Verwaltungsrecht. In den beiden Lernmodi sind
    Rechtsgebiete ohne Karten ausgegraut; im Modus „Karten anlegen“ sind immer
    alle vier wählbar (die Wahl bestimmt nur das Rechtsgebiet der neuen
-   Karte). In den beiden Lernmodi sitzen oberhalb der Liste drei
-   Umschalt-Knöpfe (Prio-Filter) – dieselben abgerundet-quadratischen
-   Prio-Symbole wie auf der Karte (Abschnitt 5.1a), mit demselben farbigen
-   Rand und derselben blassen Füllung. Beim Öffnen der Seite sind alle drei
-   aktiv; Antippen schaltet eine Prio ab (diagonal durchgestrichen, blass und
-   grau) bzw. wieder an – mindestens eine muss aktiv bleiben. Nur Karten mit
+   Karte). In den beiden Lernmodi sitzt oberhalb der Liste eine schmale
+   Zeile „Priorität“ mit drei kleinen Umschalt-Pillen (Prio-Filter) – dasselbe
+   Symbol wie auf der Karte (Abschnitt 5.1a: Balken + „Hoch“/„Normal“/
+   „Niedrig“, gleiche Farben). Beim Öffnen der Seite sind alle drei aktiv;
+   Antippen schaltet eine Prio ab (grau, gestrichelter Rand, Bezeichnung
+   durchgestrichen) bzw. wieder an – mindestens eine muss aktiv bleiben. Auf
+   sehr schmalen Bildschirmen entfällt die Beschriftung „Priorität“. Nur Karten mit
    einer der aktiven Prios (persönliche Prio des Nutzers, siehe 5.1a) werden
    in Kartenzahl, Stufenwahl und dem anschließenden Lauf berücksichtigt.
    Die Auswahl gilt nur für diesen einen Lauf und wird nicht gespeichert.
@@ -196,13 +197,19 @@ laufen lassen.
   **fest in der unteren Leiste** und teilen sich dort die volle
   Bildschirmbreite (je links/rechts der Mitte), sind ausgegraut, bis die
   Antwort aufgedeckt wurde. Ein Klick löst den Stufenwechsel aus
-  (Abschnitt 4) und zeigt die nächste Karte. Rechts daneben (auf deren
-  Kosten) sitzt ein kleiner, quadratischer, blauer Knopf mit Pfeil nach oben
-  („Direkt in Stufe 4“) für Karten, die man schon sicher kann – er wird
+  (Abschnitt 4) und zeigt die nächste Karte. Rechts neben „Richtig“ sitzt ein
+  kleiner, quadratischer Knopf in hellerem Blau (`--btn-fast`) mit doppeltem
+  Pfeil nach oben („Direkt in Stufe 4“). Er nimmt seinen Platz **nur von
+  „Richtig“** – „Falsch“ behält die volle linke Hälfte, die Trennung zwischen
+  Falsch und Richtig bleibt in der Bildschirmmitte. Der Knopf ist für Karten,
+  die man schon sicher kann für Karten, die man schon sicher kann – er wird
   gleichzeitig mit Falsch/Richtig aktiv und zählt wie eine richtige Antwort
   für Statistik und Motivations-Einblendungen, setzt die Stufe aber ohne
   Umweg über die übrigen Stufen direkt auf 4. Darunter, deutlich kleiner und
   unauffällig in der Ecke, steht der Fortschritt („x von y bearbeitet“).
+  Im Dunkelmodus haben die drei vollfarbigen Knöpfe eigene, etwas tiefere
+  Töne (`--btn-correct`, `--btn-wrong`, `--btn-fast`), damit die weiße
+  Schrift gut lesbar bleibt.
 - Wurde die Karte von einem Nutzer angelegt (nicht Grundbestand), erscheint
   oben rechts im Fragefeld ein kleiner, unauffälliger Chip mit dem Namen des
   Erstellers.
@@ -260,10 +267,11 @@ Melden-Funktion und die Motivations-Einblendungen für Agnessa funktionieren
 identisch zum manuellen Modus.
 
 **Prio-Symbol und persönliche Änderung:** In beiden Lernmodi (manuell und
-automatisch) zeigt ein kleines, abgerundet-quadratisches Symbol oben links
-im Fragefeld die aktuelle Prio der Karte – Rand und blasse Füllung in der
-jeweiligen Farbe: Dreieck aufwärts/rot = hoch, Strich/grau = normal, Dreieck
-abwärts/blau = niedrig. Antippen schaltet zur nächsten Prio
+automatisch) zeigt eine kleine Pille oben rechts im Fragefeld (vom
+Fragetext umflossen, neben einem etwaigen Ersteller-Chip) die aktuelle Prio
+der Karte: drei aufsteigende Balken wie eine Signalanzeige plus Bezeichnung,
+blasse Füllung in der jeweiligen Farbe – drei Balken/rot = „Hoch“, zwei
+Balken/grau = „Normal“, ein Balken/blau = „Niedrig“. Antippen schaltet zur nächsten Prio
 weiter (hoch → normal → niedrig → hoch). Diese Änderung ist **rein
 persönlich**: Sie wirkt sich nur auf die Gewichtung und Anzeige für den
 Nutzer aus, der sie vorgenommen hat, verändert also weder die Karte selbst
@@ -553,7 +561,10 @@ von echten Ereignissen einmalig anzuzeigen.
   `js/cards.js` (`AUTO_RECENCY_TAU_HOURS`, `AUTO_RECENCY_SHAPE`) leicht
   nachjustieren.
 - **Prio-Symbol-Farben:** hoch = rot, normal = grau, niedrig = blau (auf
-  Wunsch geändert; ursprünglich akzentfarben/grau/gedämpft).
+  Wunsch geändert; ursprünglich akzentfarben/grau/gedämpft). Das Blau für
+  „niedrig“ und „Direkt in Stufe 4“ ist ein helleres Blau (`--blue`,
+  `--btn-fast`) als der dunkle Marius-Akzent. Symbol seit 1.5.0: Balken +
+  Bezeichnung statt Dreieck/Strich in einem Quadrat.
 
 ## 13. Offen (später zu klären)
 

@@ -16,13 +16,13 @@ function creatorChip(card) {
 
 // Rendert eine Frage-Antwort-Karte in `container`. Ruft `onAnswered(isCorrect)`
 // genau einmal auf, sobald eine Antwort gewählt wurde. `prio`/`onPrioChange`:
-// siehe js/cards.js renderFlashcard (identisches Prio-Symbol, oben links).
+// siehe js/cards.js renderFlashcard (identisches Prio-Symbol, oben rechts).
 export function renderQuizCard(container, card, { onAnswered, prio = "normal", onPrioChange } = {}) {
   const order = shuffle([0, 1, 2, 3]);
 
   container.innerHTML = `
     <div class="q">
-      <p class="q-text">${creatorChip(card)}${prioChip(prio)}${escapeHtml(card.frage)}</p>
+      <p class="q-text"><span class="card-meta">${creatorChip(card)}${prioChip(prio)}</span>${escapeHtml(card.frage)}</p>
       <div class="answers" id="answers">
         ${order.map((optIndex, pos) => `
           <button type="button" class="answer" data-opt="${optIndex}">

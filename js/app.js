@@ -8,6 +8,8 @@ import {
   GEBIETE,
   STUFEN,
   PRIOS,
+  getSetting,
+  setSetting,
   getCurrentUser,
   setCurrentUser,
   getAllUserCards,
@@ -695,6 +697,12 @@ async function showAutoMode(mode, gebiet, allowedPrios = new Set(PRIOS)) {
 
   on("#back", "click", async () => { await sync(); showGebietPick(`${mode}-auto`); });
 
+  // Eine gezogene, aber noch nicht beantwortete Karte bleibt gemerkt (lokal,
+  // je Nutzer/Modus/Rechtsgebiet), damit ein Verlassen ohne Weiter/Richtig/
+  // Falsch nicht als bearbeitet zählt und beim erneuten Öffnen dieselbe
+  // Karte wieder angezeigt wird statt sofort eine neue zu ziehen.
+  const pendingKey = `autoPending_${currentUser}_${mode}_${gebiet}`;
+
   let answered = 0;
   let currentCard = null;
   let lastKey = null;
@@ -721,7 +729,9 @@ async function showAutoMode(mode, gebiet, allowedPrios = new Set(PRIOS)) {
     progress.textContent = `${answered} bearbeitet`;
     const levels = await levelsMap(currentUser);
     const prios = await priosMap(currentUser);
-    const card = pickWeightedCard(pool, levels, prios, lastKey);
+    const pendingId = await getSetting(pendingKey, null);
+    const card = (pendingId && pool.find((c) => cardKey(c) === pendingId)) || pickWeightedCard(pool, levels, prios, lastKey);
+    await setSetting(pendingKey, cardKey(card));
     currentCard = card;
     lastKey = cardKey(card);
 
@@ -767,6 +777,7 @@ async function showAutoMode(mode, gebiet, allowedPrios = new Set(PRIOS)) {
       fastBtn.onclick = null;
     }
     skipCurrent = null;
+    await setSetting(pendingKey, null);
     if (result.flagged) {
       const idx = pool.findIndex((c) => cardKey(c) === lastKey);
       if (idx >= 0) pool.splice(idx, 1);

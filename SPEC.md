@@ -259,6 +259,16 @@ kein festes Ende („Stufe abgeschlossen“ gibt es hier nicht) – er läuft, b
 Melden-Funktion und die Motivations-Einblendungen für Agnessa funktionieren
 identisch zum manuellen Modus.
 
+**Angezeigt, aber nicht beantwortet zählt nicht als bearbeitet:** Verlässt
+man den Automatikmodus über „Modus verlassen“, ohne bei der gerade
+angezeigten Karte auf Falsch/Richtig/Weiter oder den Stufe-4-Knopf zu tippen,
+wird nichts gespeichert – weder Stufe noch Statistik ändern sich. Beim
+nächsten Öffnen desselben Rechtsgebiets (im selben Modus, für denselben
+Nutzer) erscheint genau diese Karte erneut, statt eine neue zu ziehen. Erst
+nach tatsächlicher Bearbeitung folgt wieder eine neu gezogene Karte. Diese
+Merkfunktion ist rein lokal (Einstellung `autoPending_<nutzer>_<modus>_<gebiet>`,
+nicht Teil der Synchronisierung).
+
 **Prio-Symbol und persönliche Änderung:** In beiden Lernmodi (manuell und
 automatisch) zeigt ein kleines, abgerundet-quadratisches Symbol oben links
 im Fragefeld die aktuelle Prio der Karte – Rand und blasse Füllung in der

@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0168",
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Was darf und muss das Gericht prüfen, bevor es die Zustellung der Klage veranlasst?",
+  "antworten": [
+    "Vorschusszahlung und formelle Mindestanforderungen",
+    "Zulässigkeit und Schlüssigkeit der erhobenen Klage",
+    "Zuständigkeit und hinreichende Erfolgsaussicht der Klage",
+    "Schlüssigkeit und Vorliegen ausreichender Beweisangebote"
+  ],
+  "erklaerung": "Das Gericht darf die Zustellung (§ 271 ZPO) grds. nicht davon abhängig machen, ob die Prozessvoraussetzungen vorliegen oder die Klage begründet ist. Es prüft nur, ob der Vorschuss nach § 12 Abs. 1 GKG erbracht ist und formelle Mindestvoraussetzungen erfüllt sind, die eine Zustellung erst ermöglichen (BeckOK ZPO/Bacher, § 271 Rn. 4).\n\nBei offensichtlichen formellen Fehlern (z. B. Klage vor offensichtlich unzuständigem Gericht) fragt das Gericht beim Kläger nach und gibt Gelegenheit zur Beseitigung.",
+  "ts": "2026-09-28T14:29:02.484546Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0212",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Ist eine zugestandene, später ohne wirksamen Widerruf bestrittene Tatsache beweisbedürftig?",
+  "antworten": [
+    "Nein, das Geständnis bindet weiter",
+    "Ja, maßgeblich ist das spätere Bestreiten",
+    "Ja, wenn das Bestreiten substantiiert ist",
+    "Nur wenn sich der Gegner auf das Geständnis beruft"
+  ],
+  "erklaerung": "Nicht beweisbedürftig sind zugestandene, später ohne wirksamen Widerruf wieder bestrittene Tatsachen (§ 288 ZPO).\n\nEbenfalls nicht beweisbedürftig sind u. a. Tatsachen, die aufgrund eines präjudiziellen Rechtsverhältnisses feststehen (Zwischenfeststellungsklage, Wirkungen der Streitverkündung), und Tatsachen, deren Beweis der Gegner schuldhaft vereitelt hat (§§ 427, 444 ZPO).",
+  "ts": "2026-09-28T15:24:06.695769Z"
+}

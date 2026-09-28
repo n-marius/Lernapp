@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0135",
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Wie wird schriftsätzlicher Vortrag regelmäßig zum Gegenstand der mündlichen Verhandlung?",
+  "antworten": [
+    "Durch Stellen der Anträge als konkludente Bezugnahme",
+    "Durch ausdrückliches Verlesen der Schriftsätze",
+    "Durch freie Rede über den gesamten Streitstoff",
+    "Automatisch mit Eingang der Schriftsätze bei Gericht"
+  ],
+  "erklaerung": "Vorbereitende Schriftsätze wirken grds. erst, wenn sie in die mündliche Verhandlung eingeführt werden; § 137 Abs. 2 ZPO sieht an sich freie Rede vor. § 137 Abs. 3 ZPO erlaubt aber die Bezugnahme auf Dokumente; sie muss nicht ausdrücklich erklärt werden.\n\nMit der Stellung der Anträge wird in der Regel auf den gesamten bis zum Termin angefallenen Akteninhalt Bezug genommen (BGH NJW-RR 1996, 379). Die Bezugnahme steht dem mündlichen Vortrag gleich; ein „Plädoyer“ ist nicht nötig.",
+  "ts": "2026-09-28T14:29:02.481762Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0211",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wann bedarf es keines Ausspruchs zur vorläufigen Vollstreckbarkeit?",
+  "antworten": [
+    "Bei Arrest, einstweiliger Verfügung und sofort rechtskräftigen Urteilen",
+    "Bei Feststellungs- und Gestaltungsurteilen ohne vollstreckbaren Inhalt",
+    "Bei klageabweisenden Urteilen, weil nur Kosten vollstreckbar sind",
+    "Bei Urteilen mit einem Hauptsachewert von höchstens 1.250 €"
+  ],
+  "erklaerung": "Vorläufige Vollstreckbarkeit ist nach § 704 ZPO nötig, weil nur aus rechtskräftigen oder für vorläufig vollstreckbar erklärten Endurteilen vollstreckt wird. Nicht erforderlich ist der Ausspruch bei Arrest und einstweiliger Verfügung (§§ 929, 936 ZPO) und bei Urteilen, die mit Erlass rechtskräftig werden (z. B. Revisionsurteile).\n\nBei Feststellungsurteilen ist der Ausspruch wegen der Kosten erforderlich; die Formulierung „wegen der Kosten“ ist überflüssig, aber unschädlich.",
+  "ts": "2026-09-28T15:24:06.695661Z"
+}

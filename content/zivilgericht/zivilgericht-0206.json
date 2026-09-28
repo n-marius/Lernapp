@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0206",
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Welche Tenorformulierung ist hinreichend bestimmt?",
+  "antworten": [
+    "„… nebst Zinsen … seit dem 10.02.2010 zu zahlen.“",
+    "„… nebst Zinsen … seit Rechtshängigkeit zu zahlen.“",
+    "„… den Pkw VW Golf, amtl. Kennzeichen BS-KT 303, herauszugeben.“",
+    "„Der Beklagte wird verurteilt, Störungen des Klägers zu unterlassen.“"
+  ],
+  "erklaerung": "Der Tenor muss als Grundlage der Zwangsvollstreckung eindeutig sein; das Vollstreckungsorgan muss ohne Tatbestand und Gründe vollstrecken können. Ein nicht vollstreckungsfähiger Tenor kann die ganze Klausur unbrauchbar machen.\n\nFehlerhaft sind: „Der Klage wird stattgegeben“, Zinsen „seit Rechtshängigkeit“ (konkretes Datum nötig), Herausgabe eines Pkw nur nach Kennzeichen (änderbar; Fahrgestellnummer nötig), Unterlassung unbestimmter „Störungen“. Ausnahmsweise ist Bezugnahme auf fest mit dem Urteil verbundene Anlagen zulässig.",
+  "ts": "2026-09-28T15:24:06.695213Z"
+}

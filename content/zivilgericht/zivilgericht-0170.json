@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0170",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wie ist ein Antrag „Zahlung von 1.000 € abzüglich am … gezahlter 500 €“ auszulegen?",
+  "antworten": [
+    "Als Teilrücknahme oder teilweise Erledigungserklärung",
+    "Als Anerkenntnis einer Teilerfüllung durch den Kläger",
+    "Als unzulässig bedingter Zahlungsantrag",
+    "Als Zug-um-Zug-Antrag in Höhe der Zahlung"
+  ],
+  "erklaerung": "Ein solcher Antrag ist als Teilrücknahme oder teilweise Erledigungserklärung bzw. als Antrag auf Feststellung der Erledigung auszulegen.",
+  "ts": "2026-09-28T15:24:06.692735Z"
+}

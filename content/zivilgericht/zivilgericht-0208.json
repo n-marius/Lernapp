@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0208",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Warum muss bei einer Zug-um-Zug-Verurteilung auch die Gegenleistung präzise bezeichnet werden?",
+  "antworten": [
+    "Weil die Vollstreckung von ihrem Angebot abhängt",
+    "Weil sie sonst nicht in Rechtskraft erwächst",
+    "Weil der Beklagte sie sonst gesondert einklagen muss",
+    "Weil sie in die Kostenquote einzurechnen ist"
+  ],
+  "erklaerung": "Die vom obsiegenden Teil zu erbringende Gegenleistung muss wegen §§ 756, 765 ZPO ebenfalls präzise beschrieben werden.\n\nBeispiel: „Der Beklagte wird verurteilt, das Kfz VW Golf, Baujahr 2005, amtl. Kennzeichen …, Fahrgestellnummer …, Zug um Zug gegen Zahlung von 2.000 € und Herausgabe eines Autoradios Marke Blaupunkt, Typ Lübeck, herauszugeben.“",
+  "ts": "2026-09-28T15:24:06.695357Z"
+}

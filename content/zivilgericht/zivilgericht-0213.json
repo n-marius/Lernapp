@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0213",
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Welche Begriffe sind in der Beweiswürdigung bei Zeugen bzw. Sachverständigen zu vermeiden?",
+  "antworten": [
+    "Zeuge: „trägt vor“; Sachverständiger: Glaubhaftigkeit/Glaubwürdigkeit",
+    "Zeuge: „bekundet“; Sachverständiger: Plausibilität/Nachvollziehbarkeit",
+    "Zeuge: „schildert“; Sachverständiger: Überzeugungskraft/Methode",
+    "Zeuge: „sagt aus“; Sachverständiger: technische Nachvollziehbarkeit"
+  ],
+  "erklaerung": "Der Zeuge sagt aus, bekundet, schildert, beschreibt; „trägt vor“ oder „legt dar“ ist nur für Parteivortrag zu verwenden.\n\nBeim Sachverständigengutachten ist nicht von Glaubhaftigkeit und Glaubwürdigkeit zu sprechen, sondern von Überzeugungskraft, Plausibilität und technischer Nachvollziehbarkeit (Ergebnis kurz wiedergeben, Bestätigung der Beweisbehauptung feststellen, Methode und Plausibilität prüfen).",
+  "ts": "2026-09-28T15:24:06.695832Z"
+}

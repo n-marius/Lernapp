@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0186",
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Wie werden doppelrelevante Tatsachen in der Prozessstation behandelt?",
+  "antworten": [
+    "Schlüssiger Vortrag genügt; Prüfung in der Begründetheit",
+    "Beweiserhebung über sie bereits in der Prozessstation",
+    "Unterstellung des Beklagtenvortrags bis zur Beweisaufnahme",
+    "Vorabklärung im Freibeweis vor der Begründetheit"
+  ],
+  "erklaerung": "Qualifizierte Prozessvoraussetzungen liegen vor, wenn es zur Feststellung einer Sachurteilsvoraussetzung eines Eingehens auf eine Anspruchsgrundlage bedarf. Doppelrelevante Tatsachen werden in der Zulässigkeit unterstellt (schlüssiger Vortrag genügt) und erst in der Begründetheit geprüft, wegen der weitergehenden Rechtskraft einer Sachentscheidung.\n\nBeispiel: Schadensersatzklage aus Verkehrsunfall im Gerichtsstand des § 32 ZPO, der Beklagte bestreitet den Unfall. In der Prozessstation ist zu prüfen, ob eine Haftung dem Grunde nach (z. B. § 823 BGB) schlüssig vorgetragen ist; die Höhe wird in der Klägerstation erörtert.",
+  "ts": "2026-09-28T15:24:06.693858Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0139",
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Was wird in Kläger- und Beklagtenstation geprüft?",
+  "antworten": [
+    "Schlüssigkeit des Klägervortrags; Erheblichkeit des Beklagtenvortrags",
+    "Zulässigkeit der Klage; Begründetheit der Klage",
+    "Beweislast des Klägers; Beweislast des Beklagten",
+    "Glaubhaftigkeit des Klägervortrags; Beweisbedürftigkeit der Einwendungen"
+  ],
+  "erklaerung": "Klägerstation – Schlüssigkeit: Ergibt sich aus den vom Kläger vorgebrachten Tatsachen der geltend gemachte Anspruch?\n\nBeklagtenstation – Erheblichkeit: Entfällt der Anspruch ganz oder teilweise, wenn man die vom Beklagten vorgetragenen Tatsachen zugrunde legt? Hierzu zählen das Bestreiten von Tatsachen und materielle Einwendungen (rechtsvernichtende und rechtshemmende).",
+  "ts": "2026-09-28T14:29:02.482212Z"
+}

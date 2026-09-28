@@ -4,10 +4,10 @@
   "prio": "normal",
   "frage": "Was muss der Antrag im selbständigen Beweisverfahren enthalten (§ 487 ZPO)?",
   "antworten": [
-    "Gegner, Beweistatsachen, Beweismittel, Glaubhaftmachung der Zulässigkeits- und Zuständigkeitstatsachen",
-    "Klageantrag, Streitwert und Begründung des Anspruchs",
-    "Nur die Bezeichnung des Gegners und des gewünschten Sachverständigen",
-    "Beweistatsachen und Nachweis der Vorschusszahlung"
+    "Gegner, Beweistatsachen, Beweismittel, Glaubhaftmachung der Zulässigkeit",
+    "Klageantrag, Streitwert, Anspruchsbegründung, Kostenvorschuss",
+    "Name des gewünschten Sachverständigen und Gutachtenauftrag",
+    "Beweistatsachen, Streitwert und Nachweis der Vorschusszahlung"
   ],
   "erklaerung": "Nach § 487 ZPO muss der Antrag enthalten: 1. die Bezeichnung des Gegners; 2. die Bezeichnung der Tatsachen, über die Beweis erhoben werden soll; 3. die Benennung der Zeugen oder die Bezeichnung der übrigen nach § 485 ZPO zulässigen Beweismittel; 4. die Glaubhaftmachung der Tatsachen, die die Zulässigkeit des selbständigen Beweisverfahrens und die Zuständigkeit des Gerichts begründen sollen.",
   "ts": "2026-09-28T11:02:50.395Z"

@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0150",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Bis zu welchem Zeitpunkt ist Sachvortrag zu berücksichtigen?",
+  "antworten": [
+    "Bis zum Schluss der mündlichen Verhandlung",
+    "Bis zum Ablauf der Klageerwiderungsfrist",
+    "Bis zur Verkündung des Endurteils",
+    "Bis zum Beginn der ersten Beweisaufnahme"
+  ],
+  "erklaerung": "Sachvortrag ergibt sich aus Schriftsätzen, soweit sie Gegenstand der mündlichen Verhandlung geworden sind (§§ 128 Abs. 1, 137 Abs. 2, 3 ZPO), Angaben in der Verhandlung (§§ 137 Abs. 2, 141 Abs. 1 ZPO), in Bezug genommenen Unterlagen, Beiakten und Sitzungsprotokollen (§§ 159, 160 ZPO).\n\nMaßgeblich ist alles bis zum Schluss der mündlichen Verhandlung. Späteres darf nicht berücksichtigt werden, kann aber Anlass zur Wiedereröffnung sein (§§ 296a, 156 ZPO); Ausnahme: Schriftsatznachlass (§ 283, § 139 Abs. 5 ZPO).",
+  "ts": "2026-09-28T14:29:02.483121Z"
+}

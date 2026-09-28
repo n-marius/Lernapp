@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0140",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Welche Kontrollfrage hilft bei der Abgrenzung von Tatsachen und Rechtsansichten?",
+  "antworten": [
+    "Was würde ein juristischer Laie als Zeuge antworten?",
+    "Hat der Gegner die Behauptung ausdrücklich bestritten?",
+    "Kommt in der Behauptung ein Rechtsbegriff vor?",
+    "Lässt sich die Behauptung durch eine Urkunde belegen?"
+  ],
+  "erklaerung": "Da nur Tatsachen dem Beweis zugänglich sind, fragt man: Kann von dem Vortrag ausgegangen werden, wenn ein Zeuge ihn bestätigt, oder ist zusätzlich eine Wertung nötig (Anders/Gehle, Rn. 29)? Einfacher: Was würde ein juristisch ungebildeter Zeuge antworten?\n\nBeispiel: Auf die Frage, ob der Beklagte arglistig getäuscht habe, könnte der Zeuge nichts sagen; er könnte nur berichten, dass der Beklagte ein Unfallauto verkauft und ihm gesagt habe, er wolle dem Käufer den Unfallschaden verschweigen. Diese Tatsachen hätte der Kläger vortragen müssen.",
+  "ts": "2026-09-28T14:29:02.482299Z"
+}

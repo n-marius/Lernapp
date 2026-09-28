@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0199",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wie lässt sich eine Replik vermeiden?",
+  "antworten": [
+    "Einrede bereits in der Klägerstation anhand des Unstreitigen erörtern",
+    "Einrede erst in der Beweisstation zusammen mit dem Beweis prüfen",
+    "Klägervortrag zur Einrede im Tatbestand nicht aufnehmen",
+    "Einrede erst in der Tenorierungsstation berücksichtigen"
+  ],
+  "erklaerung": "Replik und Duplik sollten möglichst vermieden werden, indem die Einrede bereits in der Klägerstation erörtert wird.\n\nBeispiel: Darlehensrückzahlung (§ 488 BGB); Beklagter rechnet auf; Kläger beruft sich auf Erlass der Gegenforderung; Beklagter ficht den Erlass an. In der Klägerstation wird die Aufrechnung geprüft (Erklärung und Gegenforderung unstreitig, Erlass unstreitig, nach Klägervortrag kein Anfechtungsgrund, also Erlass wirksam, Anspruch nicht erloschen). In der Beklagtenstation ist dann nur noch der streitige Anfechtungsgrund auf Erheblichkeit zu prüfen.",
+  "ts": "2026-09-28T15:24:06.694807Z"
+}

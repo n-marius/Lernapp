@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0202",
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Wann kann die Sicherheit prozentual zum jeweils zu vollstreckenden Betrag bestimmt werden?",
+  "antworten": [
+    "Nur soweit wegen einer Geldforderung vollstreckt wird",
+    "Bei allen Leistungsurteilen einschließlich Herausgabe",
+    "Nur bei Hauptsachewerten über 1.250 €",
+    "Nur auf Antrag des Vollstreckungsgläubigers"
+  ],
+  "erklaerung": "Nach § 709 S. 2 ZPO kann die Sicherheit in einem bestimmten Verhältnis zur Höhe des jeweils zu vollstreckenden Betrags angegeben werden; das gilt nur bei Geldforderungen.\n\nFormulierung: „Das Urteil ist gegen Sicherheitsleistung in Höhe von 110 % des jeweils zu vollstreckenden Betrages vorläufig vollstreckbar.“",
+  "ts": "2026-09-28T15:24:06.694979Z"
+}

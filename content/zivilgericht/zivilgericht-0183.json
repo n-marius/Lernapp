@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0183",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wie wird der Obersatz der Beweisstation gebildet?",
+  "antworten": [
+    "„Ist bewiesen, dass …“, positiv oder negativ je nach Beweislast",
+    "„Ist glaubhaft, dass …“, stets aus Sicht des Klägers",
+    "„Ist streitig, ob …“, neutral ohne Bezug zur Beweislast",
+    "„Ist widerlegt, dass …“, stets aus Sicht des Beklagten"
+  ],
+  "erklaerung": "Einleitungssatz: „Da die rechtserheblichen Behauptungen der Parteien voneinander abweichen, ist zu prüfen, welche Behauptung zur gerichtlichen Überzeugung gem. § 286 ZPO festgestellt werden kann.“ Obersatz: „Ist bewiesen, dass …“; ob er positiv oder negativ gefasst wird, richtet sich nach der Beweislast.\n\nWeiter: ggf. Beweisbedürftigkeit, Beweislast, ordnungsgemäßer Beweisantritt (nicht „Zeugnis N.N.“), Überleitungssatz, Würdigung der Beweismittel in Gesamtschau, Ergebnis je Tatsache und Gesamtergebnis.",
+  "ts": "2026-09-28T15:24:06.693611Z"
+}

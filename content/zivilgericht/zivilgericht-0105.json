@@ -4,10 +4,10 @@
   "prio": "normal",
   "frage": "Was wird nach § 1006 BGB vermutet, und was muss der Besitzer darlegen?",
   "antworten": [
-    "Eigenbesitzbegründung und unbedingter Eigentumserwerb bei Besitzerwerb sowie Behalten; der Besitzer muss nur den Besitzerwerb darlegen und beweisen",
-    "Das gegenwärtige Eigentum des Besitzers; er muss nichts darlegen",
-    "Die Wirksamkeit des Grundgeschäfts; er muss den Eigentumserwerb darlegen",
-    "Nur der Fremdbesitz; der Besitzer muss den Erwerbsgrund darlegen"
+    "Eigentumserwerb mit Besitzerwerb und Fortdauer; nur Besitzerwerb darzulegen",
+    "Gegenwärtiges Eigentum; der Besitzer muss gar nichts darlegen",
+    "Wirksames Grundgeschäft; Besitzer muss Eigentumserwerb darlegen",
+    "Nur Fremdbesitz; der Besitzer muss den Erwerbsgrund darlegen"
   ],
   "erklaerung": "§ 1006 BGB baut auf das Zusammentreffen von Besitz- und Eigentumserwerb auf. Vermutet wird nicht Eigentum des Besitzers, sondern dass er bei Erwerb des (unmittelbaren) Besitzes Eigenbesitz begründete, dabei unbedingtes Eigentum erwarb und es während der Besitzzeit behielt (Palandt/Bassenge, 74. Aufl., § 1006 Rn. 1, 4).\n\nDer Besitzer muss daher nur den Besitzerwerb darlegen und beweisen, nicht den Eigentumserwerb oder die Wirksamkeit des Grundgeschäfts (BGH NJW 2004, 217 ff.).",
   "ts": "2026-09-28T11:02:50.395Z"

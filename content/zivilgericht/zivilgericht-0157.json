@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0157",
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Welche Grundsätze gelten für die Formulierung des Tatbestands?",
+  "antworten": [
+    "Chronologisch, im Aktiv, ohne Wiederholungen, mit Bezugnahme auf Anlagen",
+    "Nach Wichtigkeit geordnet, im Passiv, mit vollständigen Anlagenzitaten",
+    "Nach Schriftsätzen geordnet, mit Wiederholung der Angaben des Rubrums",
+    "Nach Anspruchsgrundlagen geordnet, mit Hinweis auf Rechtsansichten"
+  ],
+  "erklaerung": "§ 313 Abs. 2 ZPO ist wörtlich zu nehmen: nur das Wesentliche, keine abgeschriebenen Schriftsätze. Im Tatbestand steht i. d. R. nichts, was für die Entscheidungsgründe nicht benötigt wird, und umgekehrt. Der unstreitige Teil ist chronologisch darzustellen; auf Anlagen ist Bezug zu nehmen, bei genauem Wortlaut (z. B. AGB) ggf. auszugsweise wörtlich zu zitieren.\n\nKeine Wiederholungen, auch nicht von Rubrumsangaben; kein Passiv und möglichst kein „man“, damit klar ist, wer gehandelt hat (besser: „Der Beklagte bot an, die Heizungsanlage zu liefern. Der Kläger erklärte sich einverstanden.“).",
+  "ts": "2026-09-28T14:29:02.483792Z"
+}

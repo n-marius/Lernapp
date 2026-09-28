@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0204",
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Wird die Abweisung einer unzulässigen Klage im Tenor als solche gekennzeichnet?",
+  "antworten": [
+    "Grundsätzlich nein, nur wenn das Gesetz es vorschreibt",
+    "Ja, stets zur Klarstellung des Rechtskraftumfangs",
+    "Ja, jedenfalls bei fehlender Zuständigkeit",
+    "Nur wenn der Beklagte dies ausdrücklich beantragt"
+  ],
+  "erklaerung": "Im Tenor wird grds. nicht zwischen Prozess- und Sachurteil unterschieden; nicht: „Die Klage wird als unzulässig abgewiesen“ (h. M., Thomas/Putzo, § 313 Rn. 10).\n\nAusnahme, wenn das Gesetz eine besondere Tenorierung vorschreibt (§ 341 Abs. 1 S. 2, § 522 Abs. 1 S. 2, § 597 Abs. 2 ZPO).",
+  "ts": "2026-09-28T15:24:06.695088Z"
+}

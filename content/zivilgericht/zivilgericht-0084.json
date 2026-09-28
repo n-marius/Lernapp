@@ -4,10 +4,10 @@
   "prio": "hoch",
   "frage": "Wer ist beweisbelastet, wenn der Beklagte gegen einen Vertragsanspruch eine aufschiebende Bedingung einwendet – vereinbart bei Vertragsschluss bzw. nachträglich?",
   "antworten": [
-    "Bei Vertragsschluss: Kläger (Klageleugnen); nachträglich: Beklagter (Gegenrecht)",
+    "Bei Vertragsschluss: Kläger; nachträglich: Beklagter",
     "Stets der Beklagte, da er sich auf die Bedingung beruft",
     "Stets der Kläger, da er den Anspruch geltend macht",
-    "Bei Vertragsschluss: Beweislastentscheidung entfällt, Schätzung nach § 287 ZPO; nachträglich: Kläger"
+    "Beide Fälle: Beklagter, da Einwendung gegen den Vertrag"
   ],
   "erklaerung": "Beispiel: K verlangt Miete für eine Ferienwohnung; B behauptet, die Vermietung habe unter der Bedingung der Urlaubsgewährung gestanden. Eine bereits bei Vertragsschluss vereinbarte aufschiebende Bedingung betrifft den Inhalt des Mietvertrags. Ihre Behauptung ist Klageleugnen gegen anspruchsbegründende Tatsachen; K trägt die Darlegungs- und Beweislast für eine bedingungslose Vereinbarung, sonst Klageabweisung (Klageleugnungs- und Beweislasttheorie).\n\nBehauptet B dagegen, die Vermietung sei erst nachträglich von der Urlaubsgewährung abhängig gemacht worden, macht er ein Gegenrecht geltend und ist darlegungs- und beweisbelastet.",
   "ts": "2026-09-28T11:02:50.395Z"

@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0176",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Was wird in der Beklagtenstation grundsätzlich geprüft?",
+  "antworten": [
+    "Streitiges punktuell; Einreden i. S. d. ZPO vollständig",
+    "Stets ein vollständiges zweites Gutachten zu allen Normen",
+    "Alle Anspruchsgrundlagen erneut in voller Breite",
+    "Nur Einreden i. S. d. ZPO, nicht das bloße Bestreiten"
+  ],
+  "erklaerung": "Grds. werden nur die streitigen Tatsachen des Beklagten auf ihre Auswirkung auf den Klaganspruch geprüft (punktuelle Prüfung). Ausnahme: ein vollständiges zweites Gutachten, wenn es aus Verständnisgründen nötig ist (z. B. Verkehrsunfall). Bei Einreden i. S. d. ZPO sind alle einredebegründenden Tatsachen zu erörtern („Zu prüfen ist, ob dem Anspruch aus § X die Einrede des § 214 BGB entgegensteht.“).\n\nBei mehreren streitigen Tatsachen und Anspruchsgrundlagen kann nach Tatsachen oder nach Anspruchsgrundlagen gegliedert werden; am Ende steht die Gesamterheblichkeit.",
+  "ts": "2026-09-28T15:24:06.693141Z"
+}

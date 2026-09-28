@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0141",
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Was besagt die Konzentrationsmaxime (§ 272 Abs. 1 ZPO)?",
+  "antworten": [
+    "Erledigung in der Regel in einem umfassend vorbereiteten Haupttermin",
+    "Beweiswürdigung nur aufgrund eigener Anschauung des Gerichts",
+    "Bestimmung des Streitgegenstands allein durch die Parteien",
+    "Urteilsfällung noch unter dem Eindruck der Beweisaufnahme"
+  ],
+  "erklaerung": "Nach § 272 Abs. 1 ZPO ist der Rechtsstreit in der Regel in einem umfassend vorbereiteten Termin zur mündlichen Verhandlung (Haupttermin) zu erledigen. Das dient der Beschleunigung und verhindert die Aufsplitterung in Einzeltermine.\n\nBausteine sind die Prozessförderungspflicht des Gerichts (Maßnahmen nach §§ 273 ff. ZPO) und die der Parteien (§ 282 ZPO, Präklusion nach §§ 296, 531 ZPO).",
+  "ts": "2026-09-28T14:29:02.482385Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0207",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Darf der Tenor den Rechtsgrund der Forderung nennen, etwa „500 € Miete“?",
+  "antworten": [
+    "Nein, außer bei vorsätzlicher unerlaubter Handlung",
+    "Ja, zur Bestimmung des Umfangs der Rechtskraft",
+    "Ja, stets zur Klarstellung für die Vollstreckung",
+    "Nur bei Teilklagen zur Abgrenzung des Streitgegenstands"
+  ],
+  "erklaerung": "Der Tenor darf nichts Überflüssiges enthalten; Teile der Begründung gehören nicht hinein („wird verurteilt, 500 € zu zahlen“, nicht „500 € Miete“).\n\nAusnahme: vorsätzlich begangene unerlaubte Handlung wegen § 850f Abs. 2 ZPO, § 302 Nr. 1 InsO; str., ob als Teil der Leistung („wegen vorsätzlich begangener unerlaubter Handlung … zu zahlen“) oder als Feststellung auszusprechen; beides vertretbar.",
+  "ts": "2026-09-28T15:24:06.695296Z"
+}

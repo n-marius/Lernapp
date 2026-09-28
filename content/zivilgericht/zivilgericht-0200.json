@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0200",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Welcher Tatsachenstoff liegt der Schlüssigkeitsprüfung zugrunde?",
+  "antworten": [
+    "Unstreitiger Vortrag und streitiges Klägervorbringen",
+    "Nur der unstreitige Vortrag beider Parteien",
+    "Klägervortrag und Ergebnis der Beweisaufnahme",
+    "Gesamter streitiger Vortrag beider Parteien"
+  ],
+  "erklaerung": "Schlüssig ist die Klage, wenn der klägerische Tatsachenvortrag, seine Wahrheit unterstellt, den Klageanspruch rechtfertigt (BGH NJW 2007, 62). Geprüft werden tatsächlich der unstreitige Vortrag und das streitige Klägervorbringen, rechtlich alle vernünftigerweise in Betracht kommenden Anspruchsgrundlagen.\n\nBeweisfragen spielen keine Rolle. Unproblematisches kann kurz, ggf. im Urteilsstil, abgehandelt werden; Hilfsvorbringen ist zu beachten (z. B. Vertrag, hilfsweise § 812 BGB).",
+  "ts": "2026-09-28T15:24:06.694867Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0182",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Welche Tatsachen sind Gegenstand der Beweisstation?",
+  "antworten": [
+    "Die in der Beklagtenstation als erheblich festgestellten",
+    "Alle zwischen den Parteien streitigen Tatsachen",
+    "Alle Tatsachen, zu denen Beweis angeboten wurde",
+    "Alle anspruchsbegründenden Tatsachen des Klägers"
+  ],
+  "erklaerung": "Streitentscheidend sind nur die in der Zusammenfassung der Beklagtenstation aufgelisteten erheblichen (beweiserheblichen) Tatsachen. Rechtliche Ausführungen zu anspruchsbegründenden Tatsachen und Einreden gehören nicht in die Beweisstation.\n\nGedankliche Prüfung: Welche Tatsachen sind beweiserheblich? Welche beweisbedürftig? Hat die beweisbelastete Partei Beweis angeboten? Ist der Beweis geführt?",
+  "ts": "2026-09-28T15:24:06.693549Z"
+}

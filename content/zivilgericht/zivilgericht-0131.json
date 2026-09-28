@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0131",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Genügt eine pauschale Bezugnahme auf umfangreiche, ungeordnete Anlagen als Sachvortrag?",
+  "antworten": [
+    "Nein, die konkret gemeinten Anlagenteile sind zu benennen",
+    "Ja, das Gericht muss die Anlagen selbst durcharbeiten",
+    "Ja, sofern der Gegner der Bezugnahme nicht widerspricht",
+    "Ja, wenn die Anlagen fristgerecht eingereicht wurden"
+  ],
+  "erklaerung": "Anlagen dürfen zur Konkretisierung des eigenen Vortrags eingereicht und in Bezug genommen werden, aber nur, wenn die Partei klarstellt, in welcher Hinsicht sie sich zur Ergänzung ihres Vorbringens auf bestimmte Anlagen bezieht.\n\nEine pauschale Bezugnahme verstößt gegen den Beibringungsgrundsatz; das Gericht muss ungeordnete Anlagenkonvolute nicht von sich aus durcharbeiten (BGH NJW-RR 2004, 639).",
+  "ts": "2026-09-28T14:29:02.481353Z"
+}

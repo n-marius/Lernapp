@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0177",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wie werden einfaches und qualifiziertes Bestreiten im Tatbestand dargestellt?",
+  "antworten": [
+    "Einfaches gar nicht; qualifiziertes im str. Beklagtenvortrag",
+    "Beide ausdrücklich im streitigen Beklagtenvortrag",
+    "Einfaches mit „bestreitet“; qualifiziertes im Unstreitigen",
+    "Beide nur in der Prozessgeschichte vor den Anträgen"
+  ],
+  "erklaerung": "Einfaches Bestreiten wird nicht erwähnt; es ergibt sich aus der Stellung der Tatsache im streitigen Klägervorbringen.\n\nQualifiziertes Bestreiten (Gegendarstellung) ist im streitigen Beklagtenvorbringen darzustellen („Der Beklagte behauptet, er habe dem Kläger gesagt, …“).",
+  "ts": "2026-09-28T15:24:06.693196Z"
+}

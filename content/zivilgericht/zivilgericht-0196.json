@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0196",
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Wie weit reicht die Prüfung der Sachurteilsvoraussetzungen von Amts wegen?",
+  "antworten": [
+    "Prüfung von Amts wegen, keine Amtsermittlung der Tatsachen",
+    "Prüfung nur auf Rüge, dann aber mit Amtsermittlung",
+    "Prüfung und Ermittlung der Tatsachen von Amts wegen",
+    "Prüfung nur auf Rüge der Partei und ohne Amtsermittlung"
+  ],
+  "erklaerung": "Die Sachurteilsvoraussetzungen sind grds. von Amts wegen, also ohne Rüge, zu prüfen (§ 56 Abs. 1 ZPO).\n\nEs gibt aber keine Amtsermittlung der zur Beurteilung erforderlichen Tatsachen; das Gericht muss lediglich auf Bedenken aufmerksam machen (§ 139 Abs. 3 ZPO).",
+  "ts": "2026-09-28T15:24:06.694593Z"
+}

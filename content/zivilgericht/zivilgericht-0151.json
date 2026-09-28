@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0151",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Was folgt, wenn der Beklagte im schriftlichen Vorverfahren keine Verteidigungsbereitschaft anzeigt?",
+  "antworten": [
+    "Versäumnisurteil im schriftlichen Verfahren",
+    "Anberaumung einer Güteverhandlung",
+    "Anerkenntnisurteil ohne mündliche Verhandlung",
+    "Überleitung in das Mahnverfahren"
+  ],
+  "erklaerung": "Im schriftlichen Vorverfahren wird der Beklagte aufgefordert, seine Verteidigungsbereitschaft anzuzeigen (§ 276 Abs. 1 S. 1 ZPO); zudem wird eine Frist zur Klageerwiderung gesetzt.\n\nZeigt er keine Verteidigungsbereitschaft an, kann ein Versäumnisurteil nach § 331 Abs. 3 ZPO ergehen. Nach Klageerwiderung folgen Terminsanberaumung und prozessleitende Maßnahmen.",
+  "ts": "2026-09-28T14:29:02.483224Z"
+}

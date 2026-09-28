@@ -4,10 +4,10 @@
   "prio": "hoch",
   "frage": "Worauf beziehen sich Glaubhaftigkeit und Glaubwürdigkeit?",
   "antworten": [
-    "Glaubhaftigkeit: Aussage (Widersprüche, Wahrscheinlichkeit); Glaubwürdigkeit: Person (Motiv Falschaussage, Aussageverhalten)",
-    "Glaubhaftigkeit: Person; Glaubwürdigkeit: Aussage",
-    "Beide Begriffe sind synonym",
-    "Glaubhaftigkeit: Beweismaß des § 294 ZPO; Glaubwürdigkeit: Beweismaß des § 286 ZPO"
+    "Glaubhaftigkeit: Aussage; Glaubwürdigkeit: Person",
+    "Beide betreffen allein die Person des Zeugen",
+    "Unterschiedliche Beweismaße (§ 294 bzw. § 286 ZPO)",
+    "Glaubhaftigkeit: Urkunden; Glaubwürdigkeit: Zeugen"
   ],
   "erklaerung": "Die Glaubhaftigkeit betrifft die Aussage; Kriterien sind insbesondere Widersprüche und Wahrscheinlichkeit.\n\nDie Glaubwürdigkeit betrifft die Person des Zeugen; Kriterien sind insbesondere ein Motiv zur Falschaussage und das Aussageverhalten.",
   "ts": "2026-09-28T11:02:50.395Z"

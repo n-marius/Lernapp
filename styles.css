@@ -47,6 +47,10 @@
   --correct-soft: #ebf6ef;
   --wrong: #c0362c;
   --wrong-soft: #fdeeec;
+  /* Helleres Blau für „Direkt in Stufe 4“ und Prio „niedrig“ */
+  --blue: #3a6cc6;
+  --blue-soft: rgba(58, 108, 198, 0.1);
+
 
   --btn-bg: #111113;
   --btn-bg-hover: #2a2a2e;
@@ -98,6 +102,9 @@
     --correct-soft: rgba(76, 195, 138, 0.13);
     --wrong: #f07167;
     --wrong-soft: rgba(240, 113, 103, 0.13);
+    --blue: #86a9ec;
+    --blue-soft: rgba(134, 169, 236, 0.14);
+
 
     --btn-bg: #f3f3f4;
     --btn-bg-hover: #ffffff;
@@ -210,6 +217,8 @@ button:disabled { cursor: default; }
 }
 .dock-col { display: flex; flex-direction: column; gap: 8px; width: 100%; }
 .dock-row { display: flex; gap: 8px; }
+.dock-row-split { display: grid; grid-template-columns: 1fr 1fr; }
+.dock-pair { display: flex; gap: 8px; min-width: 0; }
 .dock-progress { font-size: 12px; color: var(--ink-3); font-variant-numeric: tabular-nums; }
 
 @keyframes enter {
@@ -290,19 +299,36 @@ button:disabled { cursor: default; }
 .btn-secondary { border: 1px solid var(--line-2); color: var(--ink); }
 .btn-secondary:hover:not(:disabled) { border-color: var(--ink-3); }
 .btn-danger { background: var(--wrong); color: #fff; }
-.btn-correct { background: var(--correct); color: #fff; }
-.btn-wrong { background: var(--wrong); color: #fff; }
-.btn-correct:disabled, .btn-wrong:disabled { background: var(--btn-disabled); color: var(--btn-disabled-fg); }
-.btn-fill { flex: 1; width: auto; }
+/* Bewertungsknöpfe im Stil der markierten Antworten: kräftiger farbiger
+   Rand (1 px Rand + 1 px Innenschatten), blass getönte Fläche, farbige Schrift. */
+.btn-correct, .btn-wrong, .btn-fasttrack {
+  --tone: var(--ink-2);
+  --tone-soft: var(--surface-2);
+  background: var(--tone-soft);
+  color: var(--tone);
+  border: 1px solid var(--tone);
+  box-shadow: inset 0 0 0 1px var(--tone);
+  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease, box-shadow 0.15s ease, transform 0.1s ease;
+}
+.btn-correct { --tone: var(--correct); --tone-soft: var(--correct-soft); }
+.btn-wrong { --tone: var(--wrong); --tone-soft: var(--wrong-soft); }
+.btn-fasttrack { --tone: var(--blue); --tone-soft: var(--blue-soft); }
+.btn-correct:hover:not(:disabled), .btn-wrong:hover:not(:disabled), .btn-fasttrack:hover:not(:disabled) {
+  background: color-mix(in srgb, var(--tone) 16%, var(--bg));
+}
+.btn-correct:disabled, .btn-wrong:disabled, .btn-fasttrack:disabled {
+  background: transparent;
+  color: var(--ink-4);
+  border-color: var(--line-2);
+  box-shadow: none;
+}
+.btn-fill { flex: 1; width: auto; min-width: 0; }
 .btn-fasttrack {
   width: 50px;
   flex-shrink: 0;
   padding: 0;
-  background: var(--accent);
-  color: #fff;
 }
-.btn-fasttrack svg { width: 18px; height: 18px; }
-.btn-fasttrack:disabled { background: var(--btn-disabled); color: var(--btn-disabled-fg); }
+.btn-fasttrack svg { width: 20px; height: 20px; stroke-width: 2.1; }
 
 .seg {
   display: flex;
@@ -424,45 +450,44 @@ button.mode:hover:not(:disabled) .mode-go { color: var(--ink-2); transform: tran
 }
 
 /* ---------- Prio-Symbol (Karte und Filter) ----------
-   Gemeinsamer Look: abgerundetes Quadrat, Rand und blasse Füllung in der
-   jeweiligen Prio-Farbe (rot/grau/blau), Symbol in derselben Farbe. */
+   Das Symbol ist ein vollständiges SVG (js/tokens.js prioIcon): Squircle-
+   Fläche in blasser Prio-Farbe, feiner Innenring, Zeichen in voller Farbe.
+   Hier werden nur die Farben je Prio gesetzt. */
 
-.prio-btn[data-prio="hoch"], .prio-toggle-btn[data-prio="hoch"] { border-color: var(--wrong); background: var(--wrong-soft); color: var(--wrong); }
-.prio-btn[data-prio="normal"], .prio-toggle-btn[data-prio="normal"] { border-color: var(--line-2); background: var(--surface-2); color: var(--ink-2); }
-.prio-btn[data-prio="niedrig"], .prio-toggle-btn[data-prio="niedrig"] { border-color: var(--accent); background: var(--accent-tint); color: var(--accent); }
+.prio-btn, .prio-toggle-btn {
+  position: relative;
+  display: inline-flex;
+  flex-shrink: 0;
+  border-radius: 30%;
+  transition: transform 0.12s var(--ease);
+}
+.prio-btn:active, .prio-toggle-btn:active { transform: scale(0.92); }
+.prio-icon { display: block; width: 100%; height: 100%; overflow: visible; }
+.prio-bg {
+  fill: var(--prio-tint);
+  stroke: var(--prio-ring);
+  stroke-width: 1px;
+  vector-effect: non-scaling-stroke;
+  transition: fill 0.15s ease, stroke 0.15s ease;
+}
+.prio-glyph { fill: var(--prio-ink); stroke: var(--prio-ink); transition: fill 0.15s ease, stroke 0.15s ease; }
+.prio-slash { fill: none; stroke: var(--ink-3); stroke-width: 4.5; stroke-linecap: round; }
+
+[data-prio="hoch"] { --prio-ink: var(--wrong); --prio-tint: var(--wrong-soft); --prio-ring: color-mix(in srgb, var(--wrong) 24%, transparent); }
+[data-prio="normal"] { --prio-ink: var(--ink-2); --prio-tint: var(--surface-2); --prio-ring: var(--line-2); }
+[data-prio="niedrig"] { --prio-ink: var(--blue); --prio-tint: var(--blue-soft); --prio-ring: color-mix(in srgb, var(--blue) 24%, transparent); }
 
 /* ---------- Prio-Filter ---------- */
 
-.prio-toggle { display: flex; gap: 10px; margin: 0 0 18px; }
-.prio-toggle-btn {
-  width: 46px;
-  height: 46px;
-  border-radius: 12px;
-  border: 1px solid var(--line-2);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  transition: opacity 0.15s ease, border-color 0.15s ease, background-color 0.15s ease, color 0.15s ease;
-}
-.prio-toggle-btn svg { width: 20px; height: 20px; }
+.prio-toggle { display: flex; gap: 10px; margin: -12px 0 18px; }
+.prio-toggle-btn { width: 34px; height: 34px; }
+/* Abgeschaltet: blass und grau, fein diagonal durchgestrichen */
 .prio-toggle-btn[data-active="false"] {
-  opacity: 1;
-  border-color: var(--line);
-  background: var(--surface-2);
-  color: var(--ink-4);
+  --prio-ink: var(--ink-4);
+  --prio-tint: transparent;
+  --prio-ring: var(--line-2);
 }
-.prio-toggle-btn[data-active="false"]::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  width: 140%;
-  height: 1.5px;
-  background: var(--ink-4);
-  opacity: 0.7;
-  transform: translate(-50%, -50%) rotate(45deg);
-}
+.prio-toggle-btn[data-active="false"] .prio-glyph { opacity: 0.75; }
 
 /* ---------- Listen ---------- */
 
@@ -547,7 +572,8 @@ button.row:active:not(:disabled), label.row:active { background: var(--surface-2
   display: flex;
   align-items: center;
 }
-.flash-face-question { min-height: 148px; padding-top: 46px; }
+.flash-face-question { display: block; min-height: 0; }
+.flash-q { display: flow-root; }
 .flash-text {
   margin: 0;
   font-family: var(--serif);
@@ -568,15 +594,20 @@ button.row:active:not(:disabled), label.row:active { background: var(--surface-2
   border-top: 1px solid var(--line);
   max-height: 160px;
   overflow-y: auto;
+  overscroll-behavior: contain;
   font-size: 13.5px;
   line-height: 1.55;
   color: var(--ink-3);
 }
 
+.card-meta {
+  float: right;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 2px -4px 6px 14px;
+}
 .creator-chip {
-  position: absolute;
-  top: 16px;
-  right: 16px;
   display: inline-flex;
   align-items: center;
   gap: 5px;
@@ -584,29 +615,20 @@ button.row:active:not(:disabled), label.row:active { background: var(--surface-2
   padding: 0 10px 0 8px;
   border-radius: 999px;
   background: var(--surface-2);
+  font-family: var(--sans);
   font-size: 11.5px;
   font-weight: 620;
+  line-height: 1;
+  letter-spacing: 0;
   color: var(--ink-3);
 }
 .creator-chip .user-dot-sm { width: 7px; height: 7px; border-radius: 50%; background: var(--user-color); }
 .creator-chip[data-user="marius"] { --user-color: var(--marius); }
 .creator-chip[data-user="agnessa"] { --user-color: var(--agnessa); }
 
-.prio-btn {
-  position: absolute;
-  top: 12px;
-  left: 12px;
-  width: 28px;
-  height: 28px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 9px;
-  border: 1px solid var(--line-2);
-  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease, opacity 0.15s ease;
-}
-.prio-btn svg { width: 15px; height: 15px; }
-.prio-btn:hover { opacity: 0.8; }
+.prio-btn { width: 24px; height: 24px; }
+/* größere Tippfläche, ohne das Symbol optisch zu vergrößern */
+.prio-btn::before { content: ""; position: absolute; inset: -10px; }
 
 .level-chip {
   display: inline-flex;
@@ -627,7 +649,7 @@ button.row:active:not(:disabled), label.row:active { background: var(--surface-2
 .q-text {
   position: relative;
   margin: 0 0 18px;
-  padding: 46px 22px 20px;
+  padding: 22px 22px 20px;
   border-radius: var(--r-lg);
   border: 1px solid var(--line);
   background: var(--surface);
@@ -637,7 +659,7 @@ button.row:active:not(:disabled), label.row:active { background: var(--surface-2
   font-weight: 500;
   letter-spacing: -0.01em;
 }
-.answers { display: grid; grid-template-columns: 1fr; gap: 8px; }
+.answers { --answers-gap: 8px; display: grid; grid-template-columns: 1fr; gap: var(--answers-gap); }
 .answer {
   min-height: 60px;
   padding: 10px 14px 10px 12px;
@@ -673,13 +695,32 @@ button.row:active:not(:disabled), label.row:active { background: var(--surface-2
 .answer.is-wrong { background: var(--wrong-soft); border-color: var(--wrong); box-shadow: inset 0 0 0 1px var(--wrong); }
 .answer.is-wrong .answer-key { background: var(--wrong); color: var(--bg); }
 .is-done .answer:not(.is-correct):not(.is-wrong) { opacity: 0.4; }
+/* Erklärung: klappt aus der richtigen Antwort nach unten aus und bildet mit
+   ihr eine Einheit (gleicher Rand, gleiche Füllung), scrollt im Feld. */
+.answer.has-explain {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-color: color-mix(in srgb, var(--correct) 28%, transparent);
+  box-shadow: inset 1px 0 0 var(--correct), inset -1px 0 0 var(--correct), inset 0 1px 0 var(--correct);
+}
 .quiz-explain {
-  margin: 16px 2px 0;
-  padding-top: 14px;
-  border-top: 1px solid var(--line);
+  margin-top: calc(-1 * var(--answers-gap));
+  padding: 11px 14px 13px 12px;
+  max-height: 160px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  border: 2px solid var(--correct);
+  border-top: 0;
+  border-radius: 0 0 var(--r) var(--r);
+  background: var(--correct-soft);
   font-size: 13.5px;
   line-height: 1.55;
-  color: var(--ink-3);
+  color: var(--ink-2);
+  animation: explain-open 0.28s var(--ease) both;
+}
+@keyframes explain-open {
+  from { max-height: 0; opacity: 0; }
+  to { max-height: 160px; opacity: 1; }
 }
 
 @media (max-width: 480px) {
@@ -688,12 +729,13 @@ button.row:active:not(:disabled), label.row:active { background: var(--surface-2
   .screen.has-dock { padding-bottom: 14px; }
   .dock { padding: 8px 0 calc(8px + env(safe-area-inset-bottom)); }
   .q { padding: 2px 0 4px; }
-  .q-text { padding: 40px 16px 14px; margin-bottom: 12px; font-size: 18px; }
-  .answers { gap: 6px; }
+  .q-text { padding: 18px 16px 16px; margin-bottom: 12px; font-size: 18px; }
+  .q-text .card-meta { margin: 2px -2px 6px 12px; }
+  .answers { --answers-gap: 6px; }
   .answer { min-height: 50px; padding: 8px 10px; font-size: 14.5px; }
-  .quiz-explain { margin-top: 12px; padding-top: 10px; font-size: 12.5px; }
-  .dock .btn-fill { height: 44px; }
-  .dock .btn-fasttrack { height: 44px; width: 44px; }
+  .quiz-explain { padding: 9px 10px 11px; font-size: 12.5px; }
+  .dock .btn { height: 44px; }
+  .dock .btn-fasttrack { width: 44px; }
   .dock-progress { font-size: 11px; }
 }
 

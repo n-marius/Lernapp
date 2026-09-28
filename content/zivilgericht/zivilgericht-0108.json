@@ -4,10 +4,10 @@
   "prio": "normal",
   "frage": "Welche inhaltlichen Warnsignale gibt es bei Zeugenaussagen?",
   "antworten": [
-    "Vermutete Handlungsmotive, Verallgemeinerungen, Stereotypie, klischeehafter Zeitungsstil, Verweigerung/Zurückhaltung, übertriebene Genauigkeit",
+    "Vermutete Motive, Verallgemeinerungen, Stereotypie, Klischeestil",
     "Detailreichtum, ungeordnete Erzählweise, Komplikationen",
-    "Zugeben von Erinnerungslücken, spontane Verbesserungen",
-    "Raum-zeitliche Verknüpfung, Gesprächswiedergabe"
+    "Eingeräumte Erinnerungslücken, spontane Verbesserungen",
+    "Raum-zeitliche Verknüpfung, Gesprächswiedergabe, Interaktion"
   ],
   "erklaerung": "Warnsignale sind der Strukturbruch, inhaltliche Warnsignale und Warnsignale im Aussageverhalten.\n\nInhaltliche Warnsignale: vermutete Handlungsmotive, Verallgemeinerungen, Stereotypie (ständige Wiederholung), klischeehafter Zeitungsstil (blasse Schilderung), Verweigerung und Zurückhaltung (Nichtreaktion), übertriebene Genauigkeit.",
   "ts": "2026-09-28T11:02:50.395Z"

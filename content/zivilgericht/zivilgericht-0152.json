@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0152",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wann ist Parteivorbringen unstreitig?",
+  "antworten": [
+    "Bei übereinstimmender Schilderung, Geständnis, Nichtbestreiten",
+    "Nur bei einem ausdrücklichen und unwiderrufenen Geständnis",
+    "Wenn es durch eine vorgelegte Urkunde eindeutig belegt ist",
+    "Auch wenn der Gegner es zulässig mit Nichtwissen bestreitet"
+  ],
+  "erklaerung": "Unstreitig ist Vorbringen, wenn die Parteien einen Geschehensablauf übereinstimmend schildern, der Gegner mit erkennbarem Willen ausdrücklich oder konkludent gesteht und nicht widerruft oder den Vortrag nicht bestreitet (§ 138 Abs. 3 ZPO).\n\nStreitig ist es, wenn der Gegner es ausdrücklich oder konkludent bestreitet.",
+  "ts": "2026-09-28T14:29:02.483479Z"
+}

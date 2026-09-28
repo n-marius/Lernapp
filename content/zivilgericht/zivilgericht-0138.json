@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0138",
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Wie verhält sich die richterliche Hinweispflicht (§ 139 ZPO) zum Beibringungsgrundsatz?",
+  "antworten": [
+    "Sie modifiziert ihn durch Hilfestellung, ohne ihn zu durchbrechen",
+    "Sie durchbricht ihn zugunsten einer begrenzten Amtsermittlung",
+    "Sie gilt nur gegenüber anwaltlich nicht vertretenen Parteien",
+    "Sie verpflichtet das Gericht, fehlende Beweise selbst zu erheben"
+  ],
+  "erklaerung": "Nach dem Beibringungsgrundsatz liefern nur die Parteien den Tatsachenstoff und die Beweismittel (keine Amtsermittlung). § 139 ZPO erlegt dem Gericht eine Fürsorgepflicht und Mitverantwortung für ein faires Verfahren auf; es modifiziert den Beibringungsgrundsatz durch das Gebot richterlicher Hilfestellung, durchbricht ihn aber nicht.\n\nBeispiel: Der beweisbelastete Beklagte behauptet Zahlung, tritt aber keinen Beweis an. Das Gericht darf nicht einfach zusprechen, sondern muss zunächst auf Beweislast und fehlenden Beweisantritt hinweisen; reagiert er nicht, ist der Klage stattzugeben.",
+  "ts": "2026-09-28T14:29:02.482121Z"
+}

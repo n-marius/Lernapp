@@ -4,10 +4,10 @@
   "prio": "niedrig",
   "frage": "In welchen Schritten wird eine Zeugenaussage gewürdigt?",
   "antworten": [
-    "Realitätskriterien prüfen, Ausprägung der Signale, Baseline herausarbeiten, Bewertung, Vergleich widerstreitender Aussagen",
-    "Glaubwürdigkeit, Glaubhaftigkeit, Beweislast",
-    "Baseline, Realitätskriterien, Beeidigung",
-    "Vergleich widerstreitender Aussagen, dann Entscheidung nach Beweislast"
+    "Realitätskriterien, Ausprägung, Baseline, Bewertung, Vergleich",
+    "Glaubwürdigkeit, Glaubhaftigkeit, Beweislastentscheidung",
+    "Baseline, Realitätskriterien, Beeidigung, Bewertung",
+    "Vergleich widerstreitender Aussagen, dann Beweislast"
   ],
   "erklaerung": "1. Überprüfung der Aussage anhand von Realitätskriterien (Realitätskennzeichen und Warnsignale); 2. Ausprägung der einzelnen Signale; 3. Herausarbeiten der Baseline der Aussage; 4. Bewertung der Aussage; 5. Vergleich der widerstreitenden Aussagen.\n\nVertiefung: Nack, JA 1993, 161–168.",
   "ts": "2026-09-28T11:02:50.395Z"

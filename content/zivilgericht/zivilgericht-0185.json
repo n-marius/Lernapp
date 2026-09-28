@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0185",
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Was muss der Kläger zur Anspruchsentstehung darlegen?",
+  "antworten": [
+    "Entstehungstatbestand einschließlich negativer Tatsachen",
+    "Entstehung und Fortbestand samt Fehlen von Einwendungen",
+    "Nur positive Tatsachen; negative widerlegt der Beklagte",
+    "Nur die Rechtsfolge; die Tatsachen ermittelt das Gericht"
+  ],
+  "erklaerung": "Jede Partei hat die tatsächlichen Voraussetzungen der ihr günstigen Normen zu behaupten und zu beweisen. Der Kläger trägt alle rechtsbegründenden Tatsachen vor, auch negative (z. B. „ohne rechtlichen Grund“ bei § 812 BGB), aber nur den normalen Entstehungstatbestand; nicht den Fortbestand des Rechts oder das Fehlen besonderer Hinderungsgründe (z. B. keine Anfechtung).\n\nDer Beklagte trägt die Voraussetzungen von Einwendungen (z. B. Erfüllung, Verwirkung) und Einreden (z. B. Verjährung, Zurückbehaltungsrecht) vor.",
+  "ts": "2026-09-28T15:24:06.693799Z"
+}

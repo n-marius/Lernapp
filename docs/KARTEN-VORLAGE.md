@@ -70,12 +70,16 @@ Schreiben nur daran halten, dass die richtige Antwort an erster Stelle steht.
 - Normverweise in Antworten stets mit inhaltlichem Stichwort verbinden (z. B. „Pflichtgemäßes Ermessen (§ 244 Abs. 5 S. 1 StPO entsprechend)“). Reine Normangaben nur, wenn die Frage gezielt nach einer Norm fragt.
 - Abläufe und Prüfungsreihenfolgen (z. B. Ablauf der Zeugenvernehmung) als eine Karte mit den Schritten als Stichworten; wichtige Details einzelner Schritte erhalten eigene Karten. Zusammengehörige Übersichten (z. B. Maßstäbe je Beweismittel) dürfen gebündelt werden, Einzelheiten dann in die Erklärung.
 - Antworten dürfen stichwortartig sein und gängige, verständliche Abkürzungen verwenden (z. B. Reihenfolge im Sachbericht: „Unstreitig, str. Kl., Anträge, str. Bekl., Replik, Duplik“).
+- Alle vier Antworten äußerlich ähnlich gestalten (Länge, Detailgrad, Aufbau). Die richtige Antwort darf nicht die auffällig längste oder detaillierteste sein; sie wird lieber einfach und knapp gefasst, Details gehören in die `erklaerung`. Ausnahme: Neben „Ja“/„Nein“ dürfen die anderen Möglichkeiten kurz beschrieben werden, wo das zwingend nötig ist. Falsche Antworten nicht zu offensichtlich falsch formulieren. Das gilt auch für die Form: Enthält nur die richtige Antwort Normzitate, Klammerzusätze oder Einschränkungen wie „z. B.“, „v. a.“, „insb.“, „ggf.“, hebt sie sich ab; solche Elemente entweder in alle Antworten aufnehmen oder in die Erklärung verlagern. Konkret formulierte richtige Antworten erfordern ebenso konkret formulierte falsche Antworten.
 - Die drei falschen Antworten selbst ausdenken: keine Fangfragen oder Finten, dürfen aber ähnlich und schwer sein. Finte ist insbesondere eine falsche Antwort, die sich von der richtigen nur durch eine Absatz-/Paragraphennummer, einen einzelnen vertauschten Bestandteil oder ein einschränkendes „nur“ unterscheidet. Nennt das Quellmaterial Negativbeispiele (z. B. „Falsch: …“), diese bevorzugt als falsche Antworten verwenden.
 - `erklaerung`: Informationen des Quellmaterials verwenden; vorhandene Erklärungen dürfen wörtlich übernommen werden.
 - Fälle aus dem Quellmaterial nicht als eigene Karten abfragen: Die Karte fragt die allgemeine Regel ab, der Fall dient höchstens als Beispiel in der Erklärung. Überschneidungen mit bereits bestehenden Karten zusammenführen statt doppeln.
 - Verwendeten Gesetzesinhalt selbst am aktuellen Gesetzestext prüfen. Die Prüfung dient nur der Richtigkeit: keine zusätzlichen Details, Rückausnahmen oder Voraussetzungen aus dem Gesetz ergänzen, die nicht im Quellmaterial stehen (Ausnahme: Karten zu reinen Normverweisen).
 - Verweist das Quellmaterial nur auf eine Norm, ohne deren Inhalt darzustellen (z. B. „siehe § 487 ZPO“), eine Karte mit dem Norminhalt anlegen; den Gesetzeswortlaut dabei präzise wiedergeben.
 - Veraltete Normverweise im Quellmaterial auf die aktuelle Fassung beziehen (präzise, bis auf Absatz und Satz); Sachaussagen der Folien sonst unverändert übernehmen.
+- Materielles Recht (Stoff des Ersten Examens) wird als bekannt vorausgesetzt. Folien, die materielle Inhalte nur zur Veranschaulichung nennen (z. B. Arten von Einwendungen und Einreden), werden allenfalls in einer Karte dazu verwertet, was in der jeweiligen Station zu prüfen ist.
+- Bereits bekannte Grundlagen wie die einzelnen Zulässigkeitsvoraussetzungen nur gebündelt als Schema abfragen. Einzelheiten nur, wenn das Quellmaterial Sonderfälle oder Sonderprobleme behandelt.
+- Dopplungen mit bereits vorhandenen Karten vermeiden: Vor dem Erstellen prüfen, ob der Inhalt schon abgefragt wird; neue Aspekte ggf. in die Erklärung der vorhandenen Karte aufnehmen (dann diese Karte als geändert mit ausgeben).
 - Kartenzahl nicht ausufern lassen: jede relevante Information verwerten, aber keine redundanten Karten.
 - Bleiben Fragen offen, die dazu führen, dass eine Information nicht verwertet werden kann, diese im Chat dem Nutzer vorlegen.
 
@@ -85,7 +89,6 @@ Schreiben nur daran halten, dass die richtige Antwort an erster Stelle steht.
 - `niedrig` für ca. 25 %: nur einfachste Informationen oder für das Zweite Examen wenig wichtige Nischenthemen.
 - `normal` für den Rest (Standard).
 - Maßstab ist allein der Inhalt; die Prozentwerte sind Richtwerte, keine festen Grenzen.
-- In der App wirkt sich die Priorität nur mäßig auf den Automatikmodus aus (siehe SPEC.md Abschnitt 5.1a) und kann dort von jedem Nutzer für sich selbst durch Antippen angepasst werden – die hier vergebene Priorität ist also nur der Ausgangswert.
 
 ## Kontrolle vor der Ausgabe
 

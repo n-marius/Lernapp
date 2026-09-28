@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0165",
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Was folgt aus unschlüssigem Klägervortrag bzw. unerheblichem Beklagtenvortrag?",
+  "antworten": [
+    "Klageabweisung bzw. Urteil nach Klageantrag",
+    "Beweisaufnahme bzw. Klageabweisung",
+    "Klageabweisung bzw. Beweisaufnahme",
+    "Versäumnisurteil bzw. Anerkenntnisurteil"
+  ],
+  "erklaerung": "Ist der Klägervortrag unschlüssig, ist die Klage abzuweisen. Ist er schlüssig, folgt die Beklagtenstation.\n\nIst das Beklagtenvorbringen unerheblich, ergeht Urteil nach Klageantrag; ist es erheblich, folgt die Beweisstation.",
+  "ts": "2026-09-28T14:29:02.484303Z"
+}

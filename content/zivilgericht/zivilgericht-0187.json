@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0187",
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Was besagt der Grundsatz der Einheit der Kostenentscheidung?",
+  "antworten": [
+    "Einheitliche Entscheidung über alle Kosten des Rechtsstreits",
+    "Kosten folgen stets vollständig der Hauptsache ohne Quotelung",
+    "Gerichts- und Anwaltskosten werden in einem Beschluss festgesetzt",
+    "Über die Kosten wird je Instanz nur einmal auf Antrag entschieden"
+  ],
+  "erklaerung": "Es wird grds. einheitlich über alle Kosten des Rechtsstreits entschieden. Folge kann eine gemischte Kostenentscheidung sein, z. B. bei übereinstimmender Teilerledigung (§ 91a ZPO) oder Teilklagerücknahme (§ 269 ZPO).\n\nAusnahmen (Kostentrennung): § 96 ZPO (erfolglose Angriffs- und Verteidigungsmittel), § 100 Abs. 3 ZPO, § 238 Abs. 4 ZPO (Wiedereinsetzung), § 281 Abs. 3 S. 2 ZPO (Verweisung), § 344 ZPO (Säumnis).",
+  "ts": "2026-09-28T15:24:06.693913Z"
+}

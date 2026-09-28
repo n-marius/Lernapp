@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0198",
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Wann ist eine Replikstation erforderlich?",
+  "antworten": [
+    "Nur wenn eine Einrede i. S. d. ZPO erstmals in der Beklagtenstation bejaht wurde",
+    "Stets, wenn der Kläger auf die Klageerwiderung schriftsätzlich erwidert",
+    "Wenn das einfache Bestreiten des Beklagten erheblich war",
+    "Wenn der Kläger nach der Klageerwiderung neue Anspruchsgrundlagen nachschiebt"
+  ],
+  "erklaerung": "Die Replik ist eine zweite Schlüssigkeitsprüfung nach der Beklagtenstation; sie ist nur erforderlich, wenn eine Einrede i. S. d. ZPO erstmals in der Beklagtenstation geprüft und bejaht wurde. Die Duplik ist eine erneute Erheblichkeitsprüfung, wenn in der Replik neues Klägervorbringen geprüft wurde, das die Einrede zu Fall bringen würde.\n\nFolgt eine Replik, lautet das Zwischenergebnis der Klägerstation: „Das Vorbringen des Klägers ist im Hinblick auf die anspruchsbegründenden Voraussetzungen schlüssig.“ Folgt eine Duplik: „Das Vorbringen des Beklagten, …, ist im Hinblick auf die einredebegründenden Tatsachen erheblich …“",
+  "ts": "2026-09-28T15:24:06.694719Z"
+}

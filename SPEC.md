@@ -169,12 +169,12 @@ laufen lassen.
    Rechtsanwalt, Verwaltungsrecht. In den beiden Lernmodi sind
    Rechtsgebiete ohne Karten ausgegraut; im Modus „Karten anlegen“ sind immer
    alle vier wählbar (die Wahl bestimmt nur das Rechtsgebiet der neuen
-   Karte). In den beiden Lernmodi sitzen oberhalb der Liste drei
-   Umschalt-Knöpfe (Prio-Filter) – dieselben abgerundet-quadratischen
-   Prio-Symbole wie auf der Karte (Abschnitt 5.1a), mit demselben farbigen
-   Rand und derselben blassen Füllung. Beim Öffnen der Seite sind alle drei
-   aktiv; Antippen schaltet eine Prio ab (diagonal durchgestrichen, blass und
-   grau) bzw. wieder an – mindestens eine muss aktiv bleiben. Nur Karten mit
+   Karte). In den beiden Lernmodi sitzen oberhalb der Liste drei kleine
+   Umschalt-Knöpfe (Prio-Filter, 34 px) – dieselben Prio-Symbole wie auf der
+   Karte (Abschnitt 5.1a), ohne Text. Beim Öffnen der Seite sind alle drei
+   aktiv; Antippen schaltet eine Prio ab (Fläche leer, Rand und Zeichen blass
+   und grau, fein diagonal durchgestrichen; das Zeichen ist entlang des
+   Strichs schmal ausgespart, bleibt aber erkennbar) bzw. wieder an – mindestens eine muss aktiv bleiben. Nur Karten mit
    einer der aktiven Prios (persönliche Prio des Nutzers, siehe 5.1a) werden
    in Kartenzahl, Stufenwahl und dem anschließenden Lauf berücksichtigt.
    Die Auswahl gilt nur für diesen einen Lauf und wird nicht gespeichert.
@@ -190,18 +190,25 @@ laufen lassen.
   zeigen“). Nach Antippen erscheint die richtige Antwort in derselben, etwas
   kleineren Schriftgröße wie die Frage (19 px statt vorher 21 px, damit auf
   schmalen Bildschirmen mehr Platz bleibt), darunter abgesetzt und kleiner
-  die Erklärung. Die Erklärung hat keine eigene Höhenbegrenzung mehr – bei
-  sehr langem Text scrollt einfach die ganze Seite.
+  die Erklärung. Die Erklärung ist bewusst höhenbegrenzt (160 px) und wird
+  bei langem Text innerhalb des Felds gescrollt, damit die Karte nicht
+  ausufert.
 - Die Schaltflächen „Falsch“ (rot, links) und „Richtig“ (grün, rechts) sitzen
   **fest in der unteren Leiste** und teilen sich dort die volle
   Bildschirmbreite (je links/rechts der Mitte), sind ausgegraut, bis die
   Antwort aufgedeckt wurde. Ein Klick löst den Stufenwechsel aus
-  (Abschnitt 4) und zeigt die nächste Karte. Rechts daneben (auf deren
-  Kosten) sitzt ein kleiner, quadratischer, blauer Knopf mit Pfeil nach oben
-  („Direkt in Stufe 4“) für Karten, die man schon sicher kann – er wird
+  (Abschnitt 4) und zeigt die nächste Karte. Rechts neben „Richtig“ sitzt ein
+  kleiner, quadratischer Knopf in hellerem Blau (`--blue`) mit doppeltem
+  Pfeil nach oben („Direkt in Stufe 4“). Er nimmt seinen Platz **nur von
+  „Richtig“** – „Falsch“ behält die volle linke Hälfte, die Trennung zwischen
+  Falsch und Richtig bleibt in der Bildschirmmitte. Der Knopf ist für Karten,
+  die man schon sicher kann – er wird
   gleichzeitig mit Falsch/Richtig aktiv und zählt wie eine richtige Antwort
   für Statistik und Motivations-Einblendungen, setzt die Stufe aber ohne
-  Umweg über die übrigen Stufen direkt auf 4. Darunter, deutlich kleiner und
+  Umweg über die übrigen Stufen direkt auf 4.
+  Gestaltung von Falsch/Richtig/Stufe 4 wie die markierten Antworten im
+  Frage-Antwort-Modus: kräftiger farbiger Rand (rot/grün/blau), blass getönte
+  Fläche, farbige Schrift; solange inaktiv nur grauer Rand und graue Schrift. Darunter, deutlich kleiner und
   unauffällig in der Ecke, steht der Fortschritt („x von y bearbeitet“).
 - Wurde die Karte von einem Nutzer angelegt (nicht Grundbestand), erscheint
   oben rechts im Fragefeld ein kleiner, unauffälliger Chip mit dem Namen des
@@ -270,10 +277,14 @@ Merkfunktion ist rein lokal (Einstellung `autoPending_<nutzer>_<modus>_<gebiet>`
 nicht Teil der Synchronisierung).
 
 **Prio-Symbol und persönliche Änderung:** In beiden Lernmodi (manuell und
-automatisch) zeigt ein kleines, abgerundet-quadratisches Symbol oben links
-im Fragefeld die aktuelle Prio der Karte – Rand und blasse Füllung in der
-jeweiligen Farbe: Dreieck aufwärts/rot = hoch, Strich/grau = normal, Dreieck
-abwärts/blau = niedrig. Antippen schaltet zur nächsten Prio
+automatisch) zeigt ein kompaktes Symbol (24 px, ohne Text) **oben rechts**
+im Fragefeld (vom Fragetext umflossen, neben einem etwaigen Ersteller-Chip)
+die aktuelle Prio der Karte. Das Symbol ist ein einziges SVG
+(`js/tokens.js` `prioIcon`): Fläche als „Squircle“ (Superellipse, weichere
+Ecken als ein CSS-Radius) in blasser Prio-Farbe mit feinem Innenring,
+darauf das Zeichen in voller Farbe – Dreiecke mit weich gerundeten Ecken und
+optisch zur Spitze hin zentriert: Dreieck aufwärts/rot = hoch,
+Strich/grau = normal, Dreieck abwärts/blau = niedrig. Antippen schaltet zur nächsten Prio
 weiter (hoch → normal → niedrig → hoch). Diese Änderung ist **rein
 persönlich**: Sie wirkt sich nur auf die Gewichtung und Anzeige für den
 Nutzer aus, der sie vorgenommen hat, verändert also weder die Karte selbst
@@ -287,8 +298,10 @@ gespeicherte Übersteuerung, siehe Abschnitt 7 und 8).
 - Klick auf eine Antwort: sofortige Rückmeldung. Die gewählte Antwort wird
   bei richtiger Wahl grün, bei falscher Wahl rot markiert; ist die Wahl
   falsch, wird zusätzlich die richtige Antwort grün hervorgehoben.
-- Darunter klappt die Erklärung bildschirmbreit aus (keine eigene
-  Höhenbegrenzung mehr – bei sehr langem Text scrollt die Seite). Der
+- Die Erklärung klappt **aus der richtigen Antwort heraus nach unten** aus
+  (steht also ggf. zwischen den Antworten) und bildet mit ihr optisch eine
+  Einheit (gleicher grüner Rand, gleiche Füllung). Sie ist höhenbegrenzt
+  (160 px) und wird bei langem Text innerhalb des Felds gescrollt. Der
   „Weiter“-Button sitzt **fest in der unteren Leiste über die volle
   Breite** und ist ausgegraut, bis eine Antwort gewählt wurde. Rechts daneben
   (auf seine Kosten) derselbe blaue „Direkt in Stufe 4“-Knopf wie im
@@ -563,7 +576,9 @@ von echten Ereignissen einmalig anzuzeigen.
   `js/cards.js` (`AUTO_RECENCY_TAU_HOURS`, `AUTO_RECENCY_SHAPE`) leicht
   nachjustieren.
 - **Prio-Symbol-Farben:** hoch = rot, normal = grau, niedrig = blau (auf
-  Wunsch geändert; ursprünglich akzentfarben/grau/gedämpft).
+  Wunsch geändert; ursprünglich akzentfarben/grau/gedämpft). Das Blau für
+  „niedrig“ und „Direkt in Stufe 4“ ist ein helleres Blau (`--blue`) als der dunkle Marius-Akzent. Symbol bleibt ausdrücklich
+  Dreieck/Strich im abgerundeten Quadrat ohne Text (Nutzerwunsch).
 
 ## 13. Offen (später zu klären)
 

@@ -4,11 +4,11 @@
   "prio": "normal",
   "frage": "In welche Gruppen lassen sich Realitätskennzeichen einteilen?",
   "antworten": [
-    "Allgemeine Merkmale, spezielle Inhalte, motivationsbezogene Inhalte, Wiederholung der Aussage (Erweiterung, Ergänzung)",
+    "Allgemeine, spezielle, motivationsbezogene Merkmale; Wiederholung",
     "Strukturbruch, inhaltliche Signale, Aussageverhalten",
-    "Wahrnehmung, Erinnerung, Wiedergabe",
-    "Glaubhaftigkeit, Glaubwürdigkeit, Beweiskraft"
+    "Wahrnehmung, Erinnerung, Wiedergabe, Aussagebereitschaft",
+    "Glaubhaftigkeit, Glaubwürdigkeit, innere Beweiskraft, Baseline"
   ],
-  "erklaerung": "Bei der Würdigung ist die Aussage zunächst anhand von Realitätskriterien auf ihren Wahrheitsgehalt zu überprüfen. Realitätskennzeichen sind allgemeine Merkmale, spezielle Inhalte, motivationsbezogene Inhalte sowie bei Wiederholung der Aussage deren Erweiterung und Ergänzung.\n\nStrukturbruch, inhaltliche Warnsignale und Warnsignale im Aussageverhalten sind dagegen Warnsignale.",
+  "erklaerung": "Bei der Würdigung ist die Aussage zunächst anhand von Realitätskriterien auf ihren Wahrheitsgehalt zu überprüfen. Realitätskennzeichen sind allgemeine Merkmale, spezielle Inhalte, motivationsbezogene Inhalte sowie bei Wiederholung der Aussage deren Erweiterung und Ergänzung.\n\nStrukturbruch, inhaltliche Warnsignale und Warnsignale im Aussageverhalten sind dagegen Warnsignale.\n\nWeitere positive Realkennzeichen (ÜE 6): sprunghafte, detailreiche Erzählung, typische Erinnerungslücken und später einfallende Erinnerungsfetzen, Schilderung eigener Emotionen und Zweifel, Selbstbelastung, unbewusste Reflexe (z. B. Griff ins Gesicht bei geschildertem Schlag), wörtliche Zitate und direkte Rede.",
   "ts": "2026-09-28T11:02:50.395Z"
 }

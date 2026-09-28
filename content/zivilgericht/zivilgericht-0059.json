@@ -4,10 +4,10 @@
   "prio": "hoch",
   "frage": "Unter welchen Voraussetzungen ist die Vernehmung des Gegners nach § 445 I ZPO zulässig?",
   "antworten": [
-    "Auf Antrag; beweisbelastete Partei hat Beweis mit anderen Mitteln nicht vollständig geführt oder keine vorgebracht; nicht, wenn Gericht das Gegenteil für erwiesen hält",
+    "Auf Antrag, subsidiär; nicht, wenn Gegenteil erwiesen",
     "Von Amts wegen bei gewisser Wahrscheinlichkeit der Tatsache",
     "Auf Antrag und nur mit Einverständnis des Gegners",
-    "Nur nach Erhebung aller angebotenen Beweise"
+    "Erst nach Erhebung aller angebotenen, zulässigen Beweise"
   ],
   "erklaerung": "§ 445 Abs. 1 ZPO: Vernehmung des Gegners auf Antrag. Subsidiär: Die beweisbelastete Partei hat den Beweis mit anderen Beweismitteln nicht vollständig geführt oder andere Beweismittel nicht vorgebracht.\n\nNicht zulässig, wenn das Gericht das Gegenteil für erwiesen erachtet (§ 445 Abs. 2 ZPO).",
   "ts": "2026-09-28T11:02:50.395Z"

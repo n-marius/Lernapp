@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0188",
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Was ist in der Beklagtenstation neben dem Bestreiten zu prüfen?",
+  "antworten": [
+    "Einreden i. S. d. ZPO: alle Tatsachen, die eine Gegennorm ausfüllen",
+    "Nur materielle Einreden, die der Beklagte ausdrücklich erhebt",
+    "Nur prozesshindernde Einreden wie die Schiedsvereinbarung",
+    "Nur Tatsachen, für die der Kläger beweisbelastet ist"
+  ],
+  "erklaerung": "Die Beklagtenstation umfasst Zulässigkeitsrügen (ggf. schon in der Prozessstation), das Bestreiten (einfach, qualifiziert, mit Nichtwissen) und das Vorbringen einredebegründender Tatsachen.\n\nEinreden im Sinne der ZPO sind alle Tatsachen, die den Tatbestand einer Gegennorm ausfüllen, also rechtshindernde und rechtsvernichtende Einwendungen sowie materielle Einreden, die erhoben werden müssen.",
+  "ts": "2026-09-28T15:24:06.693966Z"
+}

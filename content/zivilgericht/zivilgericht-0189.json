@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0189",
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Wann werden Einwendungen bereits in der Klägerstation geprüft?",
+  "antworten": [
+    "Wenn ihre Tatsachen unstreitig oder vom Kläger vorgetragen sind",
+    "Nur wenn der Kläger für sie ausnahmsweise darlegungsbelastet ist",
+    "Nie; Einwendungen gehören ausnahmslos in die Beklagtenstation",
+    "Wenn der Beklagte sie substantiiert und unter Beweis vorgetragen hat"
+  ],
+  "erklaerung": "Einwendungen werden in der Klägerstation geprüft, wenn die Einwendungstatsachen unstreitig sind, vom Kläger vorgetragen wurden oder teils unstreitig, teils vom Kläger vorgetragen sind. Erstmals in der Beklagtenstation, wenn alle vom Beklagten vorgetragenen Einredetatsachen streitig sind und die unstreitigen Tatsachen offensichtlich nicht ausreichen.\n\nDie Darlegungslast bedeutet nicht, dass der Vortrag nur in der Station der darlegungspflichtigen Partei zu prüfen ist; maßgeblich ist, was vorgetragen und was unstreitig ist.",
+  "ts": "2026-09-28T15:24:06.694049Z"
+}

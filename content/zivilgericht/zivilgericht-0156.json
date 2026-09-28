@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0156",
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Welche Beweiskraft hat der Tatbestand des Urteils?",
+  "antworten": [
+    "Er beweist das mündliche Parteivorbringen",
+    "Er beweist die Wahrheit der festgestellten Tatsachen",
+    "Er beweist nur die gestellten Anträge",
+    "Er hat keine Beweiskraft, nur Darstellungsfunktion"
+  ],
+  "erklaerung": "Der Tatbestand ist die objektive, geordnete Darstellung von Sach- und Streitstand, Anträgen und bedeutsamer Prozessgeschichte. Er zeigt den Parteien, dass sie richtig verstanden und gehört wurden (Art. 103 Abs. 1 GG).\n\nNach § 314 S. 1 ZPO liefert er Beweis für das mündliche Parteivorbringen, vor allem dafür, ob und inwieweit die Parteien ihr schriftliches Vorbringen berichtigt, ergänzt oder fallengelassen haben.",
+  "ts": "2026-09-28T14:29:02.483708Z"
+}

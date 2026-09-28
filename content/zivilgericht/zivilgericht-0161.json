@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0161",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Welche Aussage enthält ausschließlich eine Tatsache?",
+  "antworten": [
+    "„Er sagte, ich könne das Handy behalten, er wolle nichts dafür.“",
+    "„Der Kaufvertrag zwischen uns ist wirksam zustande gekommen.“",
+    "„Der Unfall war für den Kläger unvermeidbar.“",
+    "„Der Beklagte hatte keinen Rechtsbindungswillen.“"
+  ],
+  "erklaerung": "Reine Rechtsansichten sind: wirksamer Kaufvertrag, Unvermeidbarkeit des Unfalls, fehlender Rechtsbindungswille. Die Aussage zum Handy ist eine Tatsache.\n\nGemischt sind z. B.: „Der Pkw hat einen Mangel (Rechtsansicht), deswegen habe ich dem Beklagten gesagt, ich fühle mich nicht mehr gebunden (Tatsache = konkludente Rücktrittserklärung)“ und „Ich habe aus Notwehr gehandelt (Rechtsansicht). Der Kläger wollte mich schlagen, weshalb ich zuerst zuschlug (Tatsache)“.",
+  "ts": "2026-09-28T14:29:02.484058Z"
+}

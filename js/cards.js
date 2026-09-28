@@ -131,9 +131,10 @@ export function renderFlashcard(container, card, { onRevealed, prio = "normal", 
   container.innerHTML = `
     <div class="flash">
       <div class="flash-face flash-face-question">
-        ${creatorChip(card)}
-        ${prioChip(prio)}
-        <p class="flash-text">${escapeHtml(card.frage)}</p>
+        <div class="flash-q">
+          <span class="card-meta">${creatorChip(card)}${prioChip(prio)}</span>
+          <p class="flash-text">${escapeHtml(card.frage)}</p>
+        </div>
       </div>
       <button type="button" class="flash-face is-waiting" id="reveal">
         <p class="flash-answer-wait">Antippen, um die Antwort zu zeigen</p>

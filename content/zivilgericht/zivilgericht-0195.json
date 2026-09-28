@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0195",
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Was regelt die Kostengrundentscheidung nicht?",
+  "antworten": [
+    "Anwaltsvergütung im Mandat und Kostenschuld gegenüber dem Staat",
+    "Verteilung der Gerichtskosten zwischen den beiden Parteien",
+    "Erstattung der Anwaltskosten der obsiegenden Partei durch den Gegner",
+    "Kostenquote bei teilweisem Obsiegen und Unterliegen der Parteien"
+  ],
+  "erklaerung": "Die Kostenentscheidung ergeht von Amts wegen (§ 308 Abs. 2 ZPO). Sie regelt nicht, welche Vergütung die Partei ihrem Anwalt schuldet (§§ 675, 612 BGB i. V. m. RVG), und nicht die Kostenschuld gegenüber dem Justizfiskus (§ 22 GKG, ggf. §§ 29, 31 GKG).\n\nDie Kostenfestsetzung obliegt dem Rechtspfleger (§ 21 Abs. 1 Nr. 1 RPflG).",
+  "ts": "2026-09-28T15:24:06.694536Z"
+}

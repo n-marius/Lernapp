@@ -4,10 +4,10 @@
   "prio": "normal",
   "frage": "Muss eine Zeugenaussage protokolliert werden?",
   "antworten": [
-    "Grds. ja (§ 160 III Nr. 4); nicht, wenn das Endurteil weder Berufung noch Revision unterliegt (§ 161 I Nr. 1)",
-    "Nein, Protokollierung steht im freien Ermessen",
-    "Ja, ausnahmslos",
-    "Nur auf Antrag einer Partei"
+    "Grundsätzlich ja, außer im Bagatellverfahren",
+    "Nein, die Protokollierung steht im freien Ermessen",
+    "Ja, ausnahmslos und wörtlich in jedem Verfahren",
+    "Nur auf ausdrücklichen Antrag einer der Parteien"
   ],
   "erklaerung": "Zeugenaussagen sind grds. zu protokollieren (§ 160 Abs. 3 Nr. 4 ZPO); dies geschieht durch den Vorsitzenden, der Zeuge genehmigt das Protokoll (§ 162 ZPO).\n\nDie Protokollierung ist unnötig, wenn das Endurteil der Berufung oder Revision nicht unterliegt (Bagatellverfahren), § 161 Abs. 1 Nr. 1 ZPO.",
   "ts": "2026-09-28T11:02:50.395Z"

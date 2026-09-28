@@ -4,10 +4,10 @@
   "prio": "normal",
   "frage": "Wann ist der Freibeweis im Zivilprozess zulässig?",
   "antworten": [
-    "Nur ausnahmsweise, z. B. §§ 118 II 2, 293 S. 2, 56 I ZPO und bei unverzichtbaren Prozessvoraussetzungen",
-    "Stets, wenn die Parteien zustimmen",
+    "Nur in gesetzlichen Ausnahmefällen und bei unverzichtbaren Prozessvoraussetzungen",
+    "Stets, wenn beide Parteien dem Freibeweis ausdrücklich zustimmen",
     "Bei allen Zulässigkeitsfragen einschließlich verzichtbarer Rügen",
-    "Regelmäßig im Verfahren vor dem Amtsgericht"
+    "Regelmäßig in allen erstinstanzlichen Verfahren vor dem Amtsgericht"
   ],
   "erklaerung": "Freibeweis ist Beweiserhebung ohne förmliches Verfahren und ohne Beschränkung auf die Beweismittel der ZPO.\n\nEr ist nur ausnahmsweise zulässig, z. B. § 118 Abs. 2 S. 2, § 293 S. 2, § 56 Abs. 1 ZPO sowie bei der Prüfung der unverzichtbaren Prozessvoraussetzungen.",
   "ts": "2026-09-28T11:02:50.395Z"

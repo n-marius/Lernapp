@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0143",
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Welche Bedeutung haben vorbereitende Schriftsätze nach dem Mündlichkeitsgrundsatz?",
+  "antworten": [
+    "Sie kündigen den mündlichen Vortrag nur an",
+    "Sie werden mit Eingang bei Gericht unmittelbar Prozessstoff",
+    "Sie gelten mit Zustellung an den Gegner als vorgetragen",
+    "Sie müssen in der Verhandlung vollständig verlesen werden"
+  ],
+  "erklaerung": "Nach dem Mündlichkeitsgrundsatz (u. a. § 128 Abs. 1 ZPO) ist nicht der schriftliche Akteninhalt, sondern nur der mündliche Parteivortrag bedeutsam; Schriftsätze kündigen Sachvortrag und Antrag nur an.\n\nAusnahmen sind z. B. das schriftliche Verfahren mit Zustimmung der Parteien (§ 128 Abs. 2 ZPO) und das Verfahren nach § 495a ZPO.",
+  "ts": "2026-09-28T14:29:02.482624Z"
+}

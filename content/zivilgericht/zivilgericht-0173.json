@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0173",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wie ist ein Antrag auf Zahlung „nebst Zinsen“ ohne weitere Angaben auszulegen?",
+  "antworten": [
+    "Als Antrag auf Prozesszinsen ab Rechtshängigkeit",
+    "Als Antrag auf Verzugszinsen ab Fälligkeit",
+    "Als unbestimmter und daher unzulässiger Antrag",
+    "Als Antrag auf Zinsen ab Klageeinreichung"
+  ],
+  "erklaerung": "Beantragt der Kläger Zahlung „nebst Zinsen“, ist dies als Antrag auf Prozesszinsen ab Rechtshängigkeit nach §§ 291, 288 BGB auszulegen.",
+  "ts": "2026-09-28T15:24:06.692967Z"
+}

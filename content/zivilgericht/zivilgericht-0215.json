@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0215",
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Welche Zulässigkeitsmängel sind trotz Rügeverzicht oder rügeloser Verhandlung unheilbar?",
+  "antworten": [
+    "Fehlerhafte Besetzung des Gerichts, Versäumung einer Notfrist",
+    "Fehlende örtliche Zuständigkeit, Mängel der Prozessvollmacht",
+    "Mängel der Klagezustellung, verspätete Klageerwiderung",
+    "Fehlende sachliche Zuständigkeit, Mängel der Klageschrift"
+  ],
+  "erklaerung": "Heilbare Zulässigkeitsmängel können durch Rügeverzicht (§ 295 ZPO) oder rügelose Verhandlung des Beklagten (§§ 295, 39 ZPO) entfallen.\n\nUnheilbar sind wesentliche Verstöße gegen zwingende öffentlich-rechtliche Vorschriften, z. B. fehlerhafte Besetzung des Gerichts und Nichtbeachtung einer Notfrist (§ 224 Abs. 1 S. 2 ZPO).",
+  "ts": "2026-09-28T15:24:06.695943Z"
+}

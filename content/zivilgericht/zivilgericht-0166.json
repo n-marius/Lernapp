@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0166",
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Zwischen welchen Verfahrensweisen wählt der Richter nach § 272 Abs. 2 ZPO?",
+  "antworten": [
+    "Früher erster Termin oder schriftliches Vorverfahren",
+    "Schriftliches Verfahren oder sofortige Güteverhandlung",
+    "Sofortiger Haupttermin oder vereinfachtes Verfahren",
+    "Mahnverfahren oder Urkunden- und Wechselprozess"
+  ],
+  "erklaerung": "Mit der Zustellungsverfügung wählt der Richter den Verfahrensgang (§ 272 Abs. 2 ZPO): früher erster Termin (§ 275 ZPO) mit Terminsanberaumung, Frist zur Klageerwiderung und prozessleitenden Maßnahmen (§ 273 ZPO) oder schriftliches Vorverfahren (§ 276 ZPO).\n\nEs folgen Güteverhandlung (§ 278 ZPO), Haupttermin (§ 279 ZPO) und ggf. Verkündungstermin (§ 310 ZPO). Besonderheit: Verfahren nach billigem Ermessen, § 495a ZPO.",
+  "ts": "2026-09-28T14:29:02.484352Z"
+}

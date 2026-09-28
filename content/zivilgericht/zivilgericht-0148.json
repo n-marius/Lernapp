@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0148",
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Was ist das Grundprinzip der Relationstechnik?",
+  "antworten": [
+    "Bei abweichenden Parteiversionen je ein Rechtsgutachten für jede Version",
+    "Ein Gutachten auf Basis des wahrscheinlichsten Sachverhalts",
+    "Ein Gutachten allein auf Basis des unstreitigen Sachverhalts",
+    "Ein Gutachten nach Beweislast ohne Blick auf streitige Tatsachen"
+  ],
+  "erklaerung": "Anders als im Studium muss sich der Richter den Sachverhalt selbst erarbeiten. Dazu dient die Relationstechnik: eine Gutachtentechnik, die auf schnellstem und kostengünstigstem Weg auf Grundlage des geordneten Tatsachenstoffs zur Entscheidung führen soll.\n\nGrundprinzip: Bei zwei verschiedenen Sachverhalten (Klägerversion und abweichende Beklagtenversion) sind auch zwei Rechtsgutachten zu erstellen.",
+  "ts": "2026-09-28T14:29:02.483012Z"
+}

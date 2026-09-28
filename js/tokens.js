@@ -16,14 +16,39 @@ export function escapeHtml(s) {
 
 export const PRIO_LABEL = { hoch: "Hohe Priorität", normal: "Normale Priorität", niedrig: "Niedrige Priorität" };
 
-const PRIO_ICON = {
-  hoch: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5.5l6.5 7h-13z" fill="currentColor"/></svg>`,
-  normal: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 12h12" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" fill="none"/></svg>`,
-  niedrig: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 18.5l-6.5-7h13z" fill="currentColor"/></svg>`,
+// Prio-Symbol als ein einziges SVG (Koordinaten 0–100): „Squircle“-Fläche
+// (Superellipse, weicher als ein CSS-Radius), feiner Innenring, darauf das
+// Zeichen. Die Dreiecke sind über einen runden Strich weich gerundet und
+// optisch zur Spitze hin verschoben, damit sie mittig wirken. Abgeschaltet
+// (Filter): Zeichen blass, diagonaler Strich mit echter Aussparung.
+const SQUIRCLE = (() => {
+  const n = 4.6, r = 49, pts = [];
+  for (let i = 0; i < 72; i++) {
+    const t = (i / 72) * 2 * Math.PI, c = Math.cos(t), si = Math.sin(t);
+    pts.push(`${(50 + r * Math.sign(c) * Math.abs(c) ** (2 / n)).toFixed(2)} ${(50 + r * Math.sign(si) * Math.abs(si) ** (2 / n)).toFixed(2)}`);
+  }
+  return `M${pts.join("L")}Z`;
+})();
+
+const PRIO_GLYPH = {
+  hoch: `<path d="M50 32.5 67.5 62.5H32.5Z" stroke-width="9" stroke-linejoin="round"/>`,
+  normal: `<path d="M35 50H65" stroke-width="10" stroke-linecap="round"/>`,
+  niedrig: `<path d="M50 67.5 67.5 37.5H32.5Z" stroke-width="9" stroke-linejoin="round"/>`,
 };
 
-export function prioIcon(prio) {
-  return PRIO_ICON[prio] ?? PRIO_ICON.normal;
+let prioMaskId = 0;
+
+export function prioIcon(prio, off = false) {
+  const glyph = PRIO_GLYPH[prio] ?? PRIO_GLYPH.normal;
+  const id = `prio-cut-${++prioMaskId}`;
+  const cut = off
+    ? `<mask id="${id}" maskUnits="userSpaceOnUse" x="0" y="0" width="100" height="100"><rect width="100" height="100" fill="#fff"/><path d="M25 25 75 75" stroke="#000" stroke-width="9" stroke-linecap="round"/></mask>`
+    : "";
+  return `<svg class="prio-icon" viewBox="0 0 100 100" aria-hidden="true">${cut}` +
+    `<path class="prio-bg" d="${SQUIRCLE}"/>` +
+    `<g class="prio-glyph"${off ? ` mask="url(#${id})"` : ""}>${glyph}</g>` +
+    (off ? `<path class="prio-slash" d="M25 25 75 75"/>` : "") +
+    `</svg>`;
 }
 
 export function prioChip(prio) {
@@ -35,7 +60,13 @@ export function updatePrioChip(btn, prio) {
   const label = PRIO_LABEL[prio] ?? PRIO_LABEL.normal;
   btn.dataset.prio = prio;
   btn.setAttribute("aria-label", `${label} – antippen zum Ändern`);
-  btn.innerHTML = PRIO_ICON[prio] ?? PRIO_ICON.normal;
+  btn.innerHTML = prioIcon(prio);
+}
+
+// Filter-Knopf oberhalb der Rechtsgebietswahl (gleiches Symbol, gleiche Farben).
+export function prioToggle(prio, active) {
+  const label = PRIO_LABEL[prio] ?? PRIO_LABEL.normal;
+  return `<button type="button" class="prio-toggle-btn" data-prio="${prio}" data-active="${active}" aria-pressed="${active}" aria-label="${label}${active ? "" : " (ausgeblendet)"}">${prioIcon(prio, !active)}</button>`;
 }
 
 export function shuffle(arr) {

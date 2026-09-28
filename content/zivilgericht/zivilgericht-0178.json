@@ -1,0 +1,14 @@
+{
+  "id": "zivilgericht-0178",
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Wann ist Bestreiten mit Nichtwissen zulässig?",
+  "antworten": [
+    "Keine eigene Handlung/Wahrnehmung und keine eigene Darlegungs- und Beweislast",
+    "Keine eigene Handlung/Wahrnehmung; auf die Beweislast kommt es nicht an",
+    "Stets, wenn sich die Partei nicht sicher an den Vorgang erinnert",
+    "Wenn der Gegner für seine Behauptung keinen Beweis angeboten hat"
+  ],
+  "erklaerung": "Nach § 138 Abs. 4 ZPO ist eine Erklärung mit Nichtwissen über Tatsachen zulässig, die weder eigene Handlungen noch Gegenstand eigener Wahrnehmung gewesen sind. Weitere Voraussetzung ist, dass die Partei für die jeweiligen Tatsachen nicht darlegungs- und beweisbelastet ist.\n\nIst das Bestreiten mit Nichtwissen zulässig, schließt dies die Pflicht zu substantiiertem Bestreiten aus (BGH MDR 2014, 825).",
+  "ts": "2026-09-28T15:24:06.693298Z"
+}

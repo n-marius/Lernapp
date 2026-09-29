@@ -40,7 +40,7 @@ export function renderQuizCard(container, card, { onAnswered, prio = "normal", o
 
   container.innerHTML = `
     <div class="q">
-      <p class="q-text"><div class="card-meta-col">${stufeLabel(stufe)}<span class="card-meta">${creatorChip(card)}${prioChip(prio)}</span></div>${escapeHtml(card.frage)}</p>
+      <div class="q-text">${stufeLabel(stufe)}<span class="card-meta">${creatorChip(card)}${prioChip(prio)}</span>${escapeHtml(card.frage)}</div>
       <div class="answers" id="answers">
         ${order.map((optIndex, pos) => `
           <button type="button" class="answer" data-opt="${optIndex}">
@@ -101,7 +101,7 @@ export function renderQuizCard(container, card, { onAnswered, prio = "normal", o
 export function renderQuizCardReview(container, card, { chosenIndex, order, prio = "normal", onPrioChange } = {}) {
   container.innerHTML = `
     <div class="q">
-      <p class="q-text"><div class="card-meta-col"><span class="card-meta">${creatorChip(card)}${prioChip(prio)}</span></div>${escapeHtml(card.frage)}</p>
+      <div class="q-text"><span class="card-meta">${creatorChip(card)}${prioChip(prio)}</span>${escapeHtml(card.frage)}</div>
       <div class="answers is-done" id="answers">
         ${order.map((optIndex, pos) => `
           <button type="button" class="answer${optIndex === 0 ? " is-correct" : optIndex === chosenIndex ? " is-wrong" : ""}" data-opt="${optIndex}" disabled>

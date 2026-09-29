@@ -151,7 +151,7 @@ function stufeLabel(stufe) {
 // js/app.js „Zurück") zeigt Antwort und Erklärung sofort, ohne Antipp-Schritt
 // und ohne `onRevealed` auszulösen.
 export function renderFlashcard(container, card, { onRevealed, prio = "normal", onPrioChange, stufe, revealed = false } = {}) {
-  const meta = `<div class="card-meta-col">${stufeLabel(stufe)}<span class="card-meta">${creatorChip(card)}${prioChip(prio)}</span></div>`;
+  const meta = `${stufeLabel(stufe)}<span class="card-meta">${creatorChip(card)}${prioChip(prio)}</span>`;
   const answerFace = `
       <div class="flash-face">
         <div>

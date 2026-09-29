@@ -286,7 +286,7 @@ nicht Teil der Synchronisierung).
 **Stufenanzeige (nur Automatikmodus):** Da im Automatikmodus – anders als im
 manuellen Modus, wo die Stufe bereits durch die vorherige Stufenwahl feststeht
 – die Stufe der gezogenen Karte sonst nicht ersichtlich wäre, steht sie hier
-klein und unauffällig über dem Prio-Symbol („Stufe 3“, `.level-chip`).
+klein und unauffällig im oberen Boxrand der Frage, rechts über der ersten Textzeile („Stufe 3“, `.level-chip`, absolut positioniert); das Prio-Symbol bleibt unverändert oben rechts in der ersten Zeile der Frage.
 
 **Prio-Symbol und persönliche Änderung:** In beiden Lernmodi (manuell und
 automatisch) zeigt ein kompaktes Symbol (24 px, ohne Text) **oben rechts**

@@ -134,6 +134,12 @@ function updateBarBorder() {
 }
 window.addEventListener("scroll", updateBarBorder, { passive: true });
 
+// Zähler unten links: heute bearbeitete Karten (ganzer Kalendertag, alle Modi, wie in der Statistik).
+async function updateProgress(el) {
+  const n = countToday(await getAllEvents(currentUser));
+  el.textContent = `${n} heute bearbeitet`;
+}
+
 const $ = (sel) => root.querySelector(sel);
 const on = (sel, ev, fn) => $(sel)?.addEventListener(ev, fn);
 const backButton = (label = "Zurück") => `<button class="icon-btn" id="back" aria-label="${label}">${ICON.back}</button>`;
@@ -611,12 +617,12 @@ async function showFlashcardMode(gebiet, stufe, allowedPrios = new Set(PRIOS)) {
     if (i >= queue.length) {
       currentCard = null;
       showEmptyState();
-      progress.textContent = `${queue.length} von ${queue.length} bearbeitet`;
+      await updateProgress(progress);
       await sync();
       return;
     }
     dockNormal.hidden = false;
-    progress.textContent = `${i} von ${queue.length} bearbeitet`;
+    await updateProgress(progress);
     const card = queue[i];
     currentCard = card;
     armCard(card);
@@ -739,12 +745,12 @@ async function showQuizMode(gebiet, stufe, allowedPrios = new Set(PRIOS)) {
     if (i >= queue.length) {
       currentCard = null;
       showEmptyState();
-      progress.textContent = `${queue.length} von ${queue.length} bearbeitet`;
+      await updateProgress(progress);
       await sync();
       return;
     }
     dockNormal.hidden = false;
-    progress.textContent = `${i} von ${queue.length} bearbeitet`;
+    await updateProgress(progress);
     const card = queue[i];
     currentCard = card;
     armCard(card);
@@ -912,11 +918,11 @@ async function showAutoMode(mode, gebiet, allowedPrios = new Set(PRIOS)) {
     if (pool.length === 0) {
       currentCard = null;
       showEmptyState();
-      progress.textContent = `${answered} bearbeitet`;
+      await updateProgress(progress);
       return;
     }
     dockNormal.hidden = false;
-    progress.textContent = `${answered} bearbeitet`;
+    await updateProgress(progress);
     curLevels = await levelsMap(currentUser);
     curPrios = await priosMap(currentUser);
     const pendingId = await getSetting(pendingKey, null);

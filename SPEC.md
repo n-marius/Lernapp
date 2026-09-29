@@ -209,7 +209,7 @@ laufen lassen.
   Gestaltung von Falsch/Richtig/Stufe 4 wie die markierten Antworten im
   Frage-Antwort-Modus: kräftiger farbiger Rand (rot/grün/blau), blass getönte
   Fläche, farbige Schrift; solange inaktiv nur grauer Rand und graue Schrift. Darunter, deutlich kleiner und
-  unauffällig in der Ecke, steht der Fortschritt („x von y bearbeitet“).
+  unauffällig in der Ecke, steht der Tageszähler („x heute bearbeitet“, siehe unten).
 - Wurde die Karte von einem Nutzer angelegt (nicht Grundbestand), erscheint
   oben rechts im Fragefeld ein kleiner, unauffälliger Chip mit dem Namen des
   Erstellers.
@@ -631,3 +631,12 @@ von echten Ereignissen einmalig anzuzeigen.
   einen lokalen Server, direkte HTTP-Abrufe der Seiten und eine sorgfältige
   Manuelle Durchsicht des Codes. Vor dem produktiven Einsatz empfiehlt sich
   ein kurzer manueller Test auf einem iPhone und einem Laptop.
+
+### Tageszähler (unten links)
+
+In allen Lernmodi (manuell und automatisch, Karteikarten und Frage-Antwort)
+zeigt der kleine Zähler unten links „x heute bearbeitet“: die Zahl aller an
+diesem Kalendertag bearbeiteten Karten des Nutzers über alle Modi hinweg,
+also derselbe Wert wie „heute“ in der Statistik (Abschnitt 6; Tagesgrenze
+wie dort nach UTC-Datum der Ereignisse). Da er aus den synchronisierten
+Ereignissen berechnet wird, läuft er geräteübergreifend mit.

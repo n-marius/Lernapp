@@ -415,7 +415,7 @@ aktuellen (noch offenen bzw. zuletzt gezogenen) Karte zurückführt.
   (Karteikarten- und Frage-Antwort-Modus zusammen; jede beantwortete Karte
   zählt genau einmal, unabhängig davon, ob richtig oder falsch).
 - Anzeige als kleines Liniendiagramm (eigenes SVG, kein Diagramm-Framework),
-  x-Achse = die letzten 14 Tage.
+  x-Achse = alle Tage vom ersten vorhandenen Datenpunkt (nach Reset: ab dem ersten neuen Tag) bis heute, Tage ohne Lernen mit 0; das Diagramm wächst über 14 Tage hinaus mit. Der Durchschnitt bezieht sich auf die letzten 14 Tage, bei kürzerem Verlauf nur auf die vorhandenen Tage.
 - In den Einstellungen gibt es zwei getrennte, mit Ja/Nein-Rückfrage
   gesicherte Aktionen (nur für den aktuellen Nutzer, wirken nicht auf den
   anderen Nutzer und nicht auf die Karten selbst):

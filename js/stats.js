@@ -2,7 +2,7 @@
 // zusammen) als kleines Liniendiagramm, x-Achse = Tage.
 // Vorbild: ukr-app js/stats.js (eigenes SVG, keine Bibliothek).
 const NS = "http://www.w3.org/2000/svg";
-const DAYS_SHOWN = 14;
+const DAYS_SHOWN = 14; // Zeitraum für den Durchschnitt; das Diagramm wächst darüber hinaus mit
 
 function dayKey(iso) {
   return iso.slice(0, 10); // YYYY-MM-DD
@@ -13,13 +13,12 @@ export function countToday(events) {
   return events.filter((e) => dayKey(e.ts) === today).length;
 }
 
-function lastDays(n) {
+// Alle Tage (UTC-Datum, wie dayKey) vom ersten Ereignis bis heute, lückenlos.
+function daysSince(firstKey) {
   const days = [];
-  const now = new Date();
-  for (let i = n - 1; i >= 0; i--) {
-    const d = new Date(now);
-    d.setDate(d.getDate() - i);
-    days.push(d.toISOString().slice(0, 10));
+  const end = Date.parse(dayKey(new Date().toISOString()));
+  for (let t = Date.parse(firstKey); t <= end; t += 86_400_000) {
+    days.push(new Date(t).toISOString().slice(0, 10));
   }
   return days;
 }
@@ -36,10 +35,11 @@ export function renderStats(container, events) {
     return;
   }
 
-  const days = lastDays(DAYS_SHOWN);
+  const days = daysSince(events.map((e) => dayKey(e.ts)).reduce((m, k) => (k < m ? k : m)));
   const counts = new Map();
   for (const e of events) counts.set(dayKey(e.ts), (counts.get(dayKey(e.ts)) ?? 0) + 1);
   const values = days.map((d) => counts.get(d) ?? 0);
+  const avgValues = values.slice(-DAYS_SHOWN);
   const total = events.length;
   const todayCount = values.at(-1);
 
@@ -55,7 +55,7 @@ export function renderStats(container, events) {
       <span class="metric-name">Bearbeitete Karten pro Tag</span>
       <span class="metric-value">${todayCount}<span class="metric-unit">heute</span></span>
     </div>
-    <div class="metric-sub">Ø ${avg(values)} pro Tag · letzte ${DAYS_SHOWN} Tage</div>`;
+    <div class="metric-sub">Ø ${avg(avgValues)} pro Tag · ${avgValues.length === 1 ? "heute" : `letzte ${avgValues.length} Tage`}</div>`;
   const svg = document.createElementNS(NS, "svg");
   svg.classList.add("chart");
   svg.dataset.values = JSON.stringify(values);

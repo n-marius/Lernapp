@@ -241,8 +241,9 @@ Vier Gewichtungsfaktoren:
    beide Lernmodi (Karteikarten und Frage-Antwort) gleichermaßen.
 2. **Zeit seit der letzten Bearbeitung** (ebenfalls modusübergreifend).
    Bis 24 Stunden nach der Bearbeitung erscheint eine Karte in der Automatik
-   **gar nicht** (Gewicht 0; nur wenn sonst gar keine Karte übrig wäre, wird
-   trotzdem gezogen). Danach gilt:
+   **gar nicht** (Gewicht 0). Sind alle Karten des Rechtsgebiets in dieser
+   Ruhezeit, gehen die Karten „für heute“ aus: Es erscheint der Hinweis „Für
+   heute durch“ statt einer Karte. Danach gilt:
    Bei einem Kartenbestand von perspektivisch hunderten bis über tausend
    Karten sorgt schon die schiere Menge für eine natürliche Verteilung
    (praktisch FIFO). Das Gewicht muss deshalb nicht schnell ansteigen –

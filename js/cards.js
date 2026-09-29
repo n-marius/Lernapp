@@ -119,8 +119,8 @@ export function pickWeightedCard(pool, levelsByCard, priosByCard, excludeKey) {
   const now = Date.now();
   const weights = candidates.map((c) => autoCardWeight(c, levelsByCard, priosByCard, now));
   const total = weights.reduce((a, b) => a + b, 0);
-  // Sind alle Karten in der Ruhezeit, wird trotzdem eine gezogen (sonst bliebe der Bildschirm leer).
-  if (total <= 0) return candidates[Math.floor(Math.random() * candidates.length)];
+  // Alle Karten in der 24-h-Ruhezeit: keine Karte (Aufrufer zeigt „für heute durch“).
+  if (total <= 0) return null;
   let r = Math.random() * total;
   for (let i = 0; i < candidates.length; i++) {
     r -= weights[i];

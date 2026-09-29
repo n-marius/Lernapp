@@ -853,10 +853,11 @@ async function showAutoMode(mode, gebiet, allowedPrios = new Set(PRIOS)) {
   }
 
   function showEmptyState() {
+    const rest = pool.length > 0;
     stage.innerHTML = `
       <div class="empty">
-        <p class="empty-title">Keine Karten verfügbar</p>
-        <p class="empty-sub">In diesem Rechtsgebiet gibt es aktuell keine Karten.</p>
+        <p class="empty-title">${rest ? "Für heute durch" : "Keine Karten verfügbar"}</p>
+        <p class="empty-sub">${rest ? "Alle Karten dieses Rechtsgebiets wurden in den letzten 24 Stunden bearbeitet. Später gibt es wieder neue." : "In diesem Rechtsgebiet gibt es aktuell keine Karten."}</p>
       </div>`;
     dockNormal.hidden = true;
   }
@@ -920,6 +921,11 @@ async function showAutoMode(mode, gebiet, allowedPrios = new Set(PRIOS)) {
     curPrios = await priosMap(currentUser);
     const pendingId = await getSetting(pendingKey, null);
     const card = (pendingId && pool.find((c) => cardKey(c) === pendingId)) || pickWeightedCard(pool, curLevels, curPrios, lastKey);
+    if (!card) {
+      currentCard = null;
+      showEmptyState();
+      return;
+    }
     await setSetting(pendingKey, cardKey(card));
     currentCard = card;
     lastKey = cardKey(card);

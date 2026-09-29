@@ -173,6 +173,7 @@ button:disabled { cursor: default; }
   gap: 8px;
 }
 .bar-side { display: flex; align-items: center; gap: 2px; min-width: 40px; flex-shrink: 1; }
+.bar-mid { flex: 1; display: flex; justify-content: center; min-width: 0; }
 .bar-crumb {
   min-width: 0;
   padding-left: 8px;
@@ -262,12 +263,12 @@ button:disabled { cursor: default; }
 .icon-btn:hover { background: var(--surface-2); color: var(--ink); }
 
 .pill-btn {
-  height: 32px;
-  padding: 0 13px 0 11px;
+  height: 36px;
+  padding: 0 16px;
   display: inline-flex;
   align-items: center;
   gap: 7px;
-  border-radius: 999px;
+  border-radius: 10px;
   border: 1px solid var(--line-2);
   font-size: 13.5px;
   font-weight: 560;
@@ -541,6 +542,9 @@ button.row:active:not(:disabled), label.row:active { background: var(--surface-2
 .row-main { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 1px; }
 .row-title { font-size: 15.5px; font-weight: 560; letter-spacing: -0.01em; }
 .row-sub { font-size: 13px; color: var(--ink-3); }
+.row-due { margin-left: 6px; }
+.row-due-in { display: inline-flex; align-items: center; gap: 4px; vertical-align: -2px; }
+.row-clock { width: 13px; height: 13px; stroke-width: 1.8; }
 .row-trail { font-size: 13.5px; color: var(--ink-3); white-space: nowrap; font-variant-numeric: tabular-nums; }
 .row-chev { width: 16px; height: 16px; color: var(--ink-4); flex-shrink: 0; }
 .row-danger .row-title { color: var(--wrong); }

@@ -74,7 +74,9 @@ export function filterByPrio(cards, priosByCard, allowedPrios) {
 // 4. Prio (siehe SPEC.md Abschnitt 5.1a): „hoch“ wird moderat auf-, „niedrig“
 //    moderat abgewichtet. Die persönliche Prio-Änderung eines Nutzers wirkt
 //    sich nur auf dessen eigene Automatik aus (siehe `effectivePrio`).
-const AUTO_STUFE_WEIGHT = { 1: 81, 2: 27, 3: 9, 4: 3, 5: 1 };
+const AUTO_STUFE_WEIGHT = { 1: 81, 2: 27, 3: 9, 4: 3, 5: 0.6 }; // Faktor 3 je Stufe, von 4 auf 5 Faktor 5
+const AUTO_REST_HOURS = 24; // frisch bearbeitete Karten erscheinen in der Automatik gar nicht
+export const STUFE5_DUE_DAYS = 60; // Stufe 5 ohne Bearbeitung so lange zählt wie Stufe 2
 const AUTO_NEVER_SEEN_BONUS = 3;
 const AUTO_PRIO_WEIGHT = { hoch: 1.5, normal: 1, niedrig: 0.6 };
 const AUTO_RECENCY_FLOOR = 0.02;
@@ -87,13 +89,25 @@ function autoRecencyWeight(hoursSince) {
   return AUTO_RECENCY_FLOOR + (1 - AUTO_RECENCY_FLOOR) * raw;
 }
 
+function isStufe5Due(level, now = Date.now()) {
+  return level?.stufe === 5 && !!level.ts && now - new Date(level.ts).getTime() >= STUFE5_DUE_DAYS * 86_400_000;
+}
+
+// Anzahl der Karten in Stufe 5, die so lange nicht bearbeitet wurden, dass sie
+// in der Automatik wie Stufe 2 gewichtet werden.
+export function countDueStufe5(allCards, gebiet, levelsByCard) {
+  const now = Date.now();
+  return allCards.filter((c) => c.gebiet === gebiet && isStufe5Due(levelsByCard.get(cardKey(c)), now)).length;
+}
+
 function autoCardWeight(card, levelsByCard, priosByCard, now) {
   const level = levelsByCard.get(cardKey(card));
   const stufe = level?.stufe ?? 1;
-  const stufeWeight = AUTO_STUFE_WEIGHT[stufe] ?? 1;
   const prioWeight = AUTO_PRIO_WEIGHT[effectivePrio(card, priosByCard)] ?? 1;
-  if (!level?.ts) return stufeWeight * AUTO_NEVER_SEEN_BONUS * prioWeight;
+  if (!level?.ts) return (AUTO_STUFE_WEIGHT[stufe] ?? 1) * AUTO_NEVER_SEEN_BONUS * prioWeight;
   const hoursSince = (now - new Date(level.ts).getTime()) / 3_600_000;
+  if (hoursSince < AUTO_REST_HOURS) return 0;
+  const stufeWeight = AUTO_STUFE_WEIGHT[isStufe5Due(level, now) ? 2 : stufe] ?? 1;
   return stufeWeight * autoRecencyWeight(hoursSince) * prioWeight;
 }
 
@@ -105,6 +119,7 @@ export function pickWeightedCard(pool, levelsByCard, priosByCard, excludeKey) {
   const now = Date.now();
   const weights = candidates.map((c) => autoCardWeight(c, levelsByCard, priosByCard, now));
   const total = weights.reduce((a, b) => a + b, 0);
+  // Sind alle Karten in der Ruhezeit, wird trotzdem eine gezogen (sonst bliebe der Bildschirm leer).
   if (total <= 0) return candidates[Math.floor(Math.random() * candidates.length)];
   let r = Math.random() * total;
   for (let i = 0; i < candidates.length; i++) {

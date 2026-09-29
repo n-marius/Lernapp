@@ -229,13 +229,20 @@ Implementiert in `js/cards.js` (`pickWeightedCard`).
 Vier Gewichtungsfaktoren:
 
 1. **Stufe:** Jede Stufe wiegt nur noch ein Drittel der vorherigen Stufe
-   (Faktor 3 pro Stufe: 81 – 27 – 9 – 3 – 1 für Stufe 1–5). Eine Karte in
-   Stufe 5 hat also nur 1/81 des Gewichts einer Karte in Stufe 1 und kommt
-   dementsprechend selten dran, ohne komplett zu verschwinden. Da die Stufe
+   (Faktor 3 pro Stufe für Stufe 1–4: 81 – 27 – 9 – 3); von Stufe 4 auf 5
+   beträgt der Faktor 5 (Gewicht 0,6). Eine Karte in Stufe 5 kommt
+   dementsprechend selten dran, ohne komplett zu verschwinden. **Ausnahme:**
+   Eine Karte in Stufe 5, die seit mindestens 2 Monaten (60 Tage) nicht
+   bearbeitet wurde, erhält das Stufengewicht von Stufe 2 (27). In der
+   Stufenübersicht (manueller Modus) steht dann in Stufe 5 hinter der
+   Kartenzahl „(Uhr-Symbol X Karten)“ mit der Zahl dieser Karten. Da die Stufe
    modusübergreifend gilt (Abschnitt 4), wirkt sich eine im **manuellen**
    Modus bearbeitete Karte unmittelbar auch auf die Automatik aus – für
    beide Lernmodi (Karteikarten und Frage-Antwort) gleichermaßen.
-2. **Zeit seit der letzten Bearbeitung** (ebenfalls modusübergreifend):
+2. **Zeit seit der letzten Bearbeitung** (ebenfalls modusübergreifend).
+   Bis 24 Stunden nach der Bearbeitung erscheint eine Karte in der Automatik
+   **gar nicht** (Gewicht 0; nur wenn sonst gar keine Karte übrig wäre, wird
+   trotzdem gezogen). Danach gilt:
    Bei einem Kartenbestand von perspektivisch hunderten bis über tausend
    Karten sorgt schon die schiere Menge für eine natürliche Verteilung
    (praktisch FIFO). Das Gewicht muss deshalb nicht schnell ansteigen –
@@ -320,6 +327,10 @@ gespeicherte Übersteuerung, siehe Abschnitt 7 und 8).
 - Auch hier: Ersteller-Chip, falls vorhanden. Stufenwechsel wie in 5.1.
 
 ### 5.6 Zurück zur letzten Karte
+
+Der Knopf „Zurück“ sitzt mittig in der Kopfleiste zwischen dem „<“ und dem
+Flag-Symbol, als längliche Form der quadratischen Symbolknöpfe (abgerundete
+Ecken, feiner Rand).
 
 In allen drei Lernabläufen (Karteikarten manuell/automatisch,
 Frage-Antwort manuell/automatisch) kann man sich die zuletzt bearbeitete

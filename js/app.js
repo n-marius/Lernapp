@@ -1,6 +1,6 @@
 // Routing und Bildschirme. Vorbild: ukr-app js/app.js (gleicher Rahmen aus
 // Kopfleiste/Seite/Dock, gleiche Hilfsfunktionen für Dialog und Hinweis).
-import { renderFlashcard, buildQueue, countByStufe, countByGebiet, pickWeightedCard, filterByPrio } from "./cards.js";
+import { renderFlashcard, buildQueue, countByStufe, countDueStufe5, countByGebiet, pickWeightedCard, filterByPrio } from "./cards.js";
 import { renderQuizCard, renderQuizCardReview } from "./quiz.js";
 import { renderStats, countToday } from "./stats.js";
 import {
@@ -57,6 +57,7 @@ const svg = (d, extra = "") =>
   `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ${extra}>${d}</svg>`;
 const ICON = {
   back: svg(`<path d="M15 5l-7 7 7 7"/>`),
+  clock: svg(`<circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/>`, `class="row-clock"`),
   chevron: svg(`<path d="M9 5l7 7-7 7"/>`, `class="row-chev"`),
   stats: svg(`<path d="M5 20V11M12 20V4M19 20v-6"/>`),
   settings: svg(`<path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/>`),
@@ -113,11 +114,12 @@ let streakMilestonesShown = 0; // wie viele Meilensteine dieser Durchgang schon 
 
 // ---------- Rahmen ----------
 
-function render(name, { left = "", right = "", body = "", dock = "" }) {
+function render(name, { left = "", mid = "", right = "", body = "", dock = "" }) {
   current = name;
   root.innerHTML = `
     <header class="bar"><div class="bar-inner">
       <div class="bar-side">${left}</div>
+      ${mid ? `<div class="bar-mid">${mid}</div>` : ""}
       <div class="bar-side">${right}</div>
     </div></header>
     <main class="screen${dock ? " has-dock" : ""}">${body}</main>
@@ -367,6 +369,7 @@ async function showStufePick(mode, gebiet, allowedPrios = new Set(PRIOS)) {
   const cards = filterByPrio(baseCards, prios, allowedPrios);
   const levels = await levelsMap(currentUser);
   const counts = countByStufe(cards, gebiet, levels);
+  const due5 = countDueStufe5(cards, gebiet, levels);
 
   const rows = STUFEN.map((stufe) => {
     const n = counts[stufe] ?? 0;
@@ -376,7 +379,7 @@ async function showStufePick(mode, gebiet, allowedPrios = new Set(PRIOS)) {
         <span class="row-lead">${stufe}</span>
         <span class="row-main">
           <span class="row-title">Stufe ${stufe}</span>
-          <span class="row-sub">${available ? plural(n, "Karte", "Karten") : "Noch keine Karten"}</span>
+          <span class="row-sub">${available ? plural(n, "Karte", "Karten") : "Noch keine Karten"}${stufe === 5 && due5 > 0 ? `<span class="row-due" title="Seit über 2 Monaten nicht bearbeitet">(<span class="row-due-in">${ICON.clock}${plural(due5, "Karte", "Karten")}</span>)</span>` : ""}</span>
         </span>
         ${available ? ICON.chevron : ""}
       </button>`;
@@ -528,7 +531,8 @@ async function showFlashcardMode(gebiet, stufe, allowedPrios = new Set(PRIOS)) {
 
   render("flashcards", {
     left: backButton("Modus verlassen"),
-    right: `<button class="pill-btn" id="prev-btn" disabled>Zurück</button><button class="icon-btn" id="flag-btn" aria-label="Karte melden">${ICON.flag}</button><span class="bar-crumb"><b>Stufe ${stufe}</b> · ${GEBIET_NAMEN[gebiet]}</span>`,
+    mid: `<button class="pill-btn" id="prev-btn" disabled>Zurück</button>`,
+    right: `<button class="icon-btn" id="flag-btn" aria-label="Karte melden">${ICON.flag}</button><span class="bar-crumb"><b>Stufe ${stufe}</b> · ${GEBIET_NAMEN[gebiet]}</span>`,
     body: `<div id="stage"></div>`,
     dock: DOCK_CARDS,
   });
@@ -646,7 +650,8 @@ async function showQuizMode(gebiet, stufe, allowedPrios = new Set(PRIOS)) {
 
   render("quiz-mode", {
     left: backButton("Modus verlassen"),
-    right: `<button class="pill-btn" id="prev-btn" disabled>Zurück</button><button class="icon-btn" id="flag-btn" aria-label="Karte melden">${ICON.flag}</button><span class="bar-crumb"><b>Stufe ${stufe}</b> · ${GEBIET_NAMEN[gebiet]}</span>`,
+    mid: `<button class="pill-btn" id="prev-btn" disabled>Zurück</button>`,
+    right: `<button class="icon-btn" id="flag-btn" aria-label="Karte melden">${ICON.flag}</button><span class="bar-crumb"><b>Stufe ${stufe}</b> · ${GEBIET_NAMEN[gebiet]}</span>`,
     body: `<div id="stage"></div>`,
     dock: DOCK_QUIZ,
   });
@@ -776,7 +781,8 @@ async function showAutoMode(mode, gebiet, allowedPrios = new Set(PRIOS)) {
 
   render(`${mode}-auto`, {
     left: backButton("Modus verlassen"),
-    right: `<button class="pill-btn" id="prev-btn" disabled>Zurück</button><button class="icon-btn" id="flag-btn" aria-label="Karte melden">${ICON.flag}</button><span class="bar-crumb"><b>Automatisch</b> · ${GEBIET_NAMEN[gebiet]}</span>`,
+    mid: `<button class="pill-btn" id="prev-btn" disabled>Zurück</button>`,
+    right: `<button class="icon-btn" id="flag-btn" aria-label="Karte melden">${ICON.flag}</button><span class="bar-crumb"><b>Automatisch</b> · ${GEBIET_NAMEN[gebiet]}</span>`,
     body: `<div id="stage"></div>`,
     dock: mode === "cards" ? DOCK_CARDS : DOCK_QUIZ,
   });

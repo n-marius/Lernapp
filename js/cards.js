@@ -2,6 +2,7 @@
 // und die Warteschlangen-Logik, die sich auch der Frage-Antwort-Modus teilt.
 import { escapeHtml, prioChip, updatePrioChip } from "./tokens.js";
 import { cardKey, effectivePrio, nextPrio } from "./store.js";
+import { renderTermFlash } from "./begriffe.js";
 
 // Baut die Warteschlange für ein Rechtsgebiet und eine Stufe: alle Karten,
 // die aktuell (für diesen Nutzer) in dieser Stufe stehen, aufsteigend nach dem
@@ -151,6 +152,7 @@ function stufeLabel(stufe) {
 // js/app.js „Zurück") zeigt Antwort und Erklärung sofort, ohne Antipp-Schritt
 // und ohne `onRevealed` auszulösen.
 export function renderFlashcard(container, card, { onRevealed, prio = "normal", onPrioChange, stufe, revealed = false } = {}) {
+  if (card.typ === "begriffe") return renderTermFlash(container, card, { onRevealed, prio, onPrioChange, stufe, revealed });
   const meta = `${stufeLabel(stufe)}<span class="card-meta">${creatorChip(card)}${prioChip(prio)}</span>`;
   const answerFace = `
       <div class="flash-face">

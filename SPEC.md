@@ -35,6 +35,7 @@ den ursprünglichen Chatverlauf) genau weiß, wie die App funktionieren soll.
 /js/store.js             Lokale Datenhaltung (IndexedDB): Nutzer, Karten, Stufen, Statistik
 /js/sync.js              Gist-Synchronisierung zwischen den Geräten
 /js/stats.js             Statistik-Diagramm (eigenes SVG)
+/js/begriffe.js          Kartenformat „Begriffe“ (Wortkästchen, Abschnitt 5.7)
 /js/tokens.js            Kleine Helfer (HTML escapen, Mischen)
 /content/index.json      Gesamter Grundbestand an Karten, automatisch erzeugt
 /content/<gebiet>/<id>.json   Einzelne Kartendateien des Grundbestands (Quelle)
@@ -348,6 +349,51 @@ Bewertung selbst (Falsch/Richtig bzw. die gewählte Antwort) lässt sich dabei
 nur die Prio und das Setzen eines Flags. Die untere Leiste zeigt in dieser
 Rückschau ausschließlich einen einzelnen „Weiter“-Knopf, der zur gerade
 aktuellen (noch offenen bzw. zuletzt gezogenen) Karte zurückführt.
+
+### 5.7 Kartenformat „Begriffe“
+
+Für Karten, deren Antwort eine Abfolge oder Auflistung von Begriffen ist.
+Kartendatei mit `"typ": "begriffe"`, `"reihenfolge": true|false`,
+`antworten` (die richtigen Begriffe, bei `reihenfolge: true` in richtiger
+Reihenfolge, mindestens 2), `falsche` (mindestens 1), insgesamt höchstens 12
+eindeutige Begriffe (Formatvorlage: `docs/KARTEN-VORLAGE-BEGRIFFE.md`; Prüfung
+in `tools/validate.mjs`). Karten ohne `typ` sind unverändert die normalen
+Karten mit vier Antworten. Umsetzung: `js/begriffe.js`.
+
+**Frage-Antwort-Modus (manuell und automatisch):** Alle Begriffe stehen in
+zufälliger Reihenfolge als anklickbare Kästchen unter der Frage.
+
+- *Auflistung* (`reihenfolge: false`): Richtig angeklickte Begriffe werden
+  grün. Sind alle richtigen ausgewählt, werden die übrigen (falschen) blass
+  und „Weiter“ ist anklickbar (Runde richtig). Ein falscher Begriff wird rot,
+  die noch nicht gewählten richtigen werden grün, weitere falsche grau
+  (Runde falsch).
+- *Schema* (`reihenfolge: true`): Jedes Kästchen hat links ein kleines
+  Nummernfeld. In der Reihenfolge des Anklickens erscheinen dort 1, 2, 3 …
+  Ein richtiger Begriff an der richtigen Stelle wird grün. Ein richtiger
+  Begriff an falscher Stelle wird grün, sein Nummernfeld zeigt aber die
+  **richtige** Nummer in Rot; dasselbe gilt für alle noch nicht gewählten
+  richtigen Begriffe. Die Runde ist damit falsch beendet. Ein falscher
+  Begriff wird rot (Runde falsch, restliche richtige grün mit roter Nummer,
+  weitere falsche grau).
+- „Auflösen“ (Abschnitt 5.2) beendet die Runde als falsch: die noch nicht
+  gewählten richtigen Begriffe werden grün (bei Schemata mit ihrer Nummer),
+  die falschen grau.
+- Die Erklärung erscheint nach Rundenende als eigenes Feld unter den
+  Kästchen. Der Stufe-4-Knopf ist wie in 5.2 nur nach richtiger Runde aktiv.
+- „Zurück“ (5.6) zeigt den Endzustand der Runde schreibgeschützt.
+
+**Karteikarten-Modus:** Die richtigen Begriffe stehen in richtiger
+Reihenfolge (bei Schemata mit Nummern) als verdeckte, gestrichelte Kästchen
+(„Antippen“) unter der Frage und werden einzeln umgedreht. Erst wenn alle
+aufgedeckt sind, erscheint die Erklärung und Falsch/Richtig/Stufe-4 werden
+aktiv.
+
+**Flaggs beheben:** Anzeige und Bearbeiten unterstützen das Format (Bearbeiten:
+je ein Textfeld für richtige und falsche Begriffe, einer pro Zeile). Oben
+rechts exportiert ein Download-Symbol alle offenen Meldungen samt Karte
+(Dateiname im Repo, Frage, Antworten, Erklärung, Meldungstext) als
+Textdatei `flaggs-<Datum>.txt`, z. B. zur Besprechung in einem Chat.
 
 ### 5.3 Karten anlegen
 

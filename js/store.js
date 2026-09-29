@@ -416,6 +416,7 @@ function mergeCardWithEdit(card, edit) {
     ...card,
     frage: edit.frage ?? card.frage,
     antworten: edit.antworten ?? card.antworten,
+    falsche: edit.falsche ?? card.falsche,
     erklaerung: edit.erklaerung ?? card.erklaerung,
   };
 }

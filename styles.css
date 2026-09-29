@@ -731,6 +731,69 @@ button.row:active:not(:disabled), label.row:active { background: var(--surface-2
   to { max-height: 160px; opacity: 1; }
 }
 
+/* ---------- Begriffe-Format (SPEC.md 5.7) ---------- */
+
+.terms { display: flex; flex-wrap: wrap; gap: 8px; }
+.terms.is-ordered, .terms.is-flash.is-ordered { flex-direction: column; flex-wrap: nowrap; }
+.terms.is-ordered .term { width: 100%; }
+.term {
+  min-height: 46px;
+  padding: 8px 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: var(--r);
+  border: 1px solid var(--line-2);
+  background: var(--bg);
+  text-align: left;
+  font-family: var(--serif);
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--ink);
+  transition: border-color 0.15s ease, background-color 0.15s ease, opacity 0.2s ease, color 0.15s ease;
+}
+.term:hover:not(:disabled) { border-color: var(--ink-3); background: var(--hover); }
+.term-no {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+  border: 1px solid var(--line-2);
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 650;
+  color: var(--ink-2);
+  font-variant-numeric: tabular-nums;
+}
+.term.is-correct { background: var(--correct-soft); border-color: var(--correct); box-shadow: inset 0 0 0 1px var(--correct); }
+.term.is-correct .term-no { border-color: var(--correct); color: var(--correct); }
+.term.is-wrong { background: var(--wrong-soft); border-color: var(--wrong); box-shadow: inset 0 0 0 1px var(--wrong); }
+.term .term-no.is-bad { border-color: var(--wrong); background: var(--wrong-soft); color: var(--wrong); }
+.term.is-dim { opacity: 0.4; }
+.term:disabled:not(.is-correct):not(.is-wrong):not(.is-dim):not(.is-covered) { color: var(--ink); }
+.term.is-covered { border-style: dashed; color: var(--ink-3); background: var(--surface-2); }
+.term.is-covered .term-text { font-family: var(--sans); font-size: 13.5px; }
+.term.is-covered:disabled { opacity: 1; }
+.flash-face-terms { display: block; min-height: 0; }
+.flash-face-terms .flash-explain { margin-top: 16px; }
+.terms-explain {
+  margin-top: 14px;
+  padding: 12px 14px 14px;
+  max-height: 200px;
+  overflow-y: auto;
+  border: 1px solid var(--line-2);
+  border-radius: var(--r);
+  background: var(--surface-2);
+  font-size: 13.5px;
+  line-height: 1.55;
+  color: var(--ink-2);
+  white-space: pre-line;
+  animation: explain-open 0.28s var(--ease) both;
+}
+
 @media (max-width: 480px) {
   .bar-inner { height: 48px; }
   .screen { padding-top: 2px; }

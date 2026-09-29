@@ -2,6 +2,7 @@
 // Kopfleiste/Seite/Dock, gleiche Hilfsfunktionen für Dialog und Hinweis).
 import { renderFlashcard, buildQueue, countByStufe, countDueStufe5, countByGebiet, pickWeightedCard, filterByPrio } from "./cards.js";
 import { renderQuizCard, renderQuizCardReview } from "./quiz.js";
+import { renderTermCard, renderTermCardReview, isTermCard } from "./begriffe.js";
 import { renderStats, countToday } from "./stats.js";
 import {
   USERS,
@@ -69,6 +70,7 @@ const ICON = {
   flag: svg(`<path d="M6 21V4"/><path d="M6 4.5c1.4-1 3-1 4.5 0s3.1 1 4.5 0v9c-1.4 1-3 1-4.5 0s-3.1-1-4.5 0"/>`),
   hand: svg(`<path d="M6 4h6M6 8h9M6 12h7"/><circle cx="18" cy="16" r="1" fill="currentColor" stroke="none"/><circle cx="18" cy="16" r="4"/>`),
   auto: svg(`<path d="M12 4v3M12 17v3M4 12h3M17 12h3"/><circle cx="12" cy="12" r="4.5"/>`),
+  download: svg(`<path d="M12 4v11M7.5 10.5L12 15l4.5-4.5M5 19.5h14"/>`),
   up: svg(`<path d="M7 12l5-5 5 5M7 17.5l5-5 5 5"/>`),
 };
 
@@ -138,6 +140,15 @@ window.addEventListener("scroll", updateBarBorder, { passive: true });
 async function updateProgress(el) {
   const n = countToday(await getAllEvents(currentUser));
   el.textContent = `${n} heute bearbeitet`;
+}
+
+// Frage-Antwort-Anzeige: Vierer-Auswahl oder Begriffe-Format (SPEC.md 5.7).
+function renderAnswerCard(stage, card, opts) {
+  return (isTermCard(card) ? renderTermCard : renderQuizCard)(stage, card, opts);
+}
+function renderAnswerReview(stage, card, last, opts) {
+  if (isTermCard(card)) return renderTermCardReview(stage, card, { ...opts, result: last.result });
+  return renderQuizCardReview(stage, card, { ...opts, chosenIndex: last.chosenIndex, order: last.order });
 }
 
 const $ = (sel) => root.querySelector(sel);
@@ -688,7 +699,7 @@ async function showQuizMode(gebiet, stufe, allowedPrios = new Set(PRIOS)) {
     nextBtn.disabled = false;
     nextBtn.textContent = "Auflösen";
     fastBtn.disabled = true;
-    quizController = renderQuizCard(stage, card, {
+    quizController = renderAnswerCard(stage, card, {
       onAnswered: (result) => {
         outcome = result;
         nextBtn.textContent = "Weiter";
@@ -719,9 +730,7 @@ async function showQuizMode(gebiet, stufe, allowedPrios = new Set(PRIOS)) {
     reviewing = true;
     dockNormal.hidden = true;
     dockReview.hidden = false;
-    renderQuizCardReview(stage, lastAnswered.card, {
-      chosenIndex: lastAnswered.chosenIndex,
-      order: lastAnswered.order,
+    renderAnswerReview(stage, lastAnswered.card, lastAnswered, {
       prio: effectivePrio(lastAnswered.card, prios),
       onPrioChange: (prio) => changePrio(prios, lastAnswered.card, prio),
     });
@@ -739,7 +748,7 @@ async function showQuizMode(gebiet, stufe, allowedPrios = new Set(PRIOS)) {
     if (!outcome) { quizController?.giveUp(); return; }
     if (resolveStep) resolveStep(outcome);
   };
-  fastBtn.onclick = () => { if (!fastBtn.disabled && resolveStep) resolveStep({ fastTrack: true }); };
+  fastBtn.onclick = () => { if (!fastBtn.disabled && resolveStep) resolveStep({ ...outcome, fastTrack: true }); };
 
   async function step() {
     if (i >= queue.length) {
@@ -761,7 +770,7 @@ async function showQuizMode(gebiet, stufe, allowedPrios = new Set(PRIOS)) {
     resolveStep = null;
     i++;
     if (result.flagged) { step(); return; }
-    lastAnswered = { card, chosenIndex: result.chosenIndex, order: result.order };
+    lastAnswered = { card, chosenIndex: result.chosenIndex, order: result.order, result };
     prevBtn.disabled = false;
     if (result.fastTrack) { await answerCard("quiz", card, true, 4); step(); return; }
     await answerCard("quiz", card, result.correct);
@@ -845,7 +854,7 @@ async function showAutoMode(mode, gebiet, allowedPrios = new Set(PRIOS)) {
       nextBtn.disabled = false;
       nextBtn.textContent = "Auflösen";
       fastBtn.disabled = true;
-      quizController = renderQuizCard(stage, card, {
+      quizController = renderAnswerCard(stage, card, {
         onAnswered: (result) => {
           outcome = result;
           nextBtn.textContent = "Weiter";
@@ -887,9 +896,7 @@ async function showAutoMode(mode, gebiet, allowedPrios = new Set(PRIOS)) {
         stufe: lastAnswered.stufe,
       });
     } else {
-      renderQuizCardReview(stage, lastAnswered.card, {
-        chosenIndex: lastAnswered.chosenIndex,
-        order: lastAnswered.order,
+      renderAnswerReview(stage, lastAnswered.card, lastAnswered, {
         prio: effectivePrio(lastAnswered.card, curPrios),
         onPrioChange: (prio) => changePrio(curPrios, lastAnswered.card, prio),
       });
@@ -912,7 +919,7 @@ async function showAutoMode(mode, gebiet, allowedPrios = new Set(PRIOS)) {
       if (resolveStep) resolveStep(outcome);
     };
   }
-  fastBtn.onclick = () => { if (!fastBtn.disabled && resolveStep) resolveStep({ fastTrack: true }); };
+  fastBtn.onclick = () => { if (!fastBtn.disabled && resolveStep) resolveStep({ ...outcome, fastTrack: true }); };
 
   async function step() {
     if (pool.length === 0) {
@@ -950,7 +957,7 @@ async function showAutoMode(mode, gebiet, allowedPrios = new Set(PRIOS)) {
       step();
       return;
     }
-    lastAnswered = { card, stufe, chosenIndex: result.chosenIndex ?? null, order: result.order ?? null };
+    lastAnswered = { card, stufe, chosenIndex: result.chosenIndex ?? null, order: result.order ?? null, result };
     prevBtn.disabled = false;
     answered++;
     if (result.fastTrack) { await answerCard(mode, card, true, 4); step(); return; }
@@ -1049,6 +1056,43 @@ function reporterChip(flag) {
   return `<span class="user-chip" data-user="${flag.flaggedBy}"><span class="user-dot-sm"></span>${name}</span>`;
 }
 
+// Alle offenen Meldungen samt Karte (Dateiname, Frage, Antworten, Erklärung)
+// als Klartext, zum Besprechen in einem Chat.
+async function flagsAsText() {
+  const open = (await getOpenFlags()).sort((a, b) => (a.ts < b.ts ? -1 : 1));
+  if (open.length === 0) return "";
+  const base = await allBaseCards();
+  const byCard = new Map();
+  for (const f of open) byCard.set(f.cardId, [...(byCard.get(f.cardId) ?? []), f]);
+  const blocks = [];
+  for (const [cardId, list] of byCard) {
+    const card = await overlayCardById(base, cardId);
+    const lines = [];
+    lines.push(`Datei: ${card && !card.creator ? `content/${card.gebiet}/${card.id}.json` : `(von Nutzer in der App angelegt, keine Datei im Repo)`}`);
+    lines.push(`Karten-ID: ${cardId}`);
+    if (!card) {
+      lines.push("(Karte existiert nicht mehr)");
+    } else {
+      lines.push(`Rechtsgebiet: ${GEBIET_NAMEN[card.gebiet]}`);
+      if (isTermCard(card)) lines.push(`Typ: Begriffe (${card.reihenfolge ? "Reihenfolge zählt" : "Auflistung"})`);
+      lines.push(`Frage: ${card.frage}`);
+      if (isTermCard(card)) {
+        card.antworten.forEach((a, i) => lines.push(`Richtiger Begriff${card.reihenfolge ? ` ${i + 1}` : ""}: ${a}`));
+        card.falsche.forEach((a) => lines.push(`Falscher Begriff: ${a}`));
+      } else {
+        lines.push(`Richtige Antwort: ${card.antworten[0]}`);
+        card.antworten.slice(1).forEach((a, i) => lines.push(`Falsche Antwort ${i + 1}: ${a}`));
+      }
+      lines.push(`Erklärung: ${card.erklaerung ?? ""}`);
+    }
+    for (const f of list) {
+      lines.push(`Meldung (${f.field === "frage" ? "Frage" : "Antwort"}, von ${USER_NAMEN[f.flaggedBy] ?? f.flaggedBy}, ${f.ts.slice(0, 10)}): ${f.note}`);
+    }
+    blocks.push(lines.join("\n"));
+  }
+  return blocks.join("\n\n----------------------------------------\n\n") + "\n";
+}
+
 async function showFlagReview() {
   await sync();
 
@@ -1057,9 +1101,21 @@ async function showFlagReview() {
 
   render("flag-review", {
     left: backButton(),
+    right: `<button class="icon-btn" id="export-flags" aria-label="Offene Meldungen als Textdatei exportieren" title="Als Textdatei exportieren">${ICON.download}</button>`,
     body: `<div id="stage"></div>`,
   });
   on("#back", "click", async () => { await sync(); showModes(); });
+  on("#export-flags", "click", async () => {
+    const text = await flagsAsText();
+    if (!text) { toast("Keine offenen Meldungen"); return; }
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([text], { type: "text/plain;charset=utf-8" }));
+    a.download = `flaggs-${new Date().toISOString().slice(0, 10)}.txt`;
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+  });
 
   const stage = $("#stage");
 
@@ -1105,13 +1161,18 @@ async function showFlagReview() {
       <div class="flash-face flash-face-question" style="margin-bottom:14px">
         <p class="flash-text">${escapeHtml(card.frage)}</p>
       </div>
+      ${isTermCard(card) ? `
+      <div class="terms" style="margin-bottom:14px">
+        ${card.antworten.map((a, i) => `<span class="term is-correct">${card.reihenfolge ? `<span class="term-no">${i + 1}</span>` : ""}<span class="term-text">${escapeHtml(a)}</span></span>`).join("")}
+        ${card.falsche.map((a) => `<span class="term is-dim"><span class="term-text">${escapeHtml(a)}</span></span>`).join("")}
+      </div>` : `
       <div class="answers" style="margin-bottom:14px">
         ${card.antworten.map((a, i) => `
           <button type="button" class="answer${i === 0 ? " is-correct" : ""}" disabled>
             <span class="answer-key">${REVIEW_KEYS[i]}</span>
             <span>${escapeHtml(a)}</span>
           </button>`).join("")}
-      </div>
+      </div>`}
       ${card.erklaerung ? `<div class="flash-explain" style="margin-bottom:14px">${escapeHtml(card.erklaerung)}</div>` : ""}
       <div style="display:flex; flex-wrap:wrap; gap:8px; margin-bottom:14px">
         ${reportedChip(flag)}
@@ -1163,6 +1224,15 @@ async function showFlagReview() {
           <span class="field-box-label">Frage</span>
           <textarea id="e-frage" rows="3">${escapeHtml(card.frage)}</textarea>
         </label>
+        ${isTermCard(card) ? `
+        <label class="field-box field-box-correct">
+          <span class="field-box-label">Richtige Begriffe (einer pro Zeile${card.reihenfolge ? ", in richtiger Reihenfolge" : ""})</span>
+          <textarea id="e-richtig" rows="5">${escapeHtml(card.antworten.join("\n"))}</textarea>
+        </label>
+        <label class="field-box">
+          <span class="field-box-label">Falsche Begriffe (einer pro Zeile)</span>
+          <textarea id="e-falsch" rows="4">${escapeHtml(card.falsche.join("\n"))}</textarea>
+        </label>` : `
         <label class="field-box field-box-correct">
           <span class="field-box-label">Richtige Antwort</span>
           <input id="e-a0" type="text" value="${escapeHtml(card.antworten[0])}">
@@ -1179,6 +1249,7 @@ async function showFlagReview() {
           <span class="field-box-label">Falsche Antwort 3</span>
           <input id="e-a3" type="text" value="${escapeHtml(card.antworten[3])}">
         </label>
+        `}
         <label class="field-box">
           <span class="field-box-label">Erklärung</span>
           <textarea id="e-erklaerung" rows="3">${escapeHtml(card.erklaerung ?? "")}</textarea>
@@ -1190,14 +1261,23 @@ async function showFlagReview() {
     on("#cancel-edit", "click", () => renderCardView(flag, card));
     on("#save-edit", "click", async () => {
       const frage = $("#e-frage").value.trim();
-      const a0 = $("#e-a0").value.trim();
-      const a1 = $("#e-a1").value.trim();
-      const a2 = $("#e-a2").value.trim();
-      const a3 = $("#e-a3").value.trim();
       const erklaerung = $("#e-erklaerung").value.trim();
-      if (!frage || !a0 || !a1 || !a2 || !a3) {
-        toast("Bitte Frage und alle vier Antworten ausfüllen");
-        return;
+      const lines = (id) => $(id).value.split("\n").map((l) => l.trim()).filter(Boolean);
+      let antworten, falsche;
+      if (isTermCard(card)) {
+        antworten = lines("#e-richtig");
+        falsche = lines("#e-falsch");
+        if (!frage || antworten.length < 2 || falsche.length < 1) {
+          toast("Bitte Frage, mindestens 2 richtige und 1 falschen Begriff eintragen");
+          return;
+        }
+      } else {
+        const a = ["#e-a0", "#e-a1", "#e-a2", "#e-a3"].map((id) => $(id).value.trim());
+        if (!frage || a.some((x) => !x)) {
+          toast("Bitte Frage und alle vier Antworten ausfüllen");
+          return;
+        }
+        antworten = a;
       }
       const now = new Date().toISOString();
       await setCardEdit({
@@ -1206,7 +1286,8 @@ async function showFlagReview() {
         editedBy: currentUser,
         deleted: false,
         frage,
-        antworten: [a0, a1, a2, a3],
+        antworten,
+        ...(falsche ? { falsche } : {}),
         erklaerung,
       });
       await resolveOpenFlagsForCard(flag.cardId, now);

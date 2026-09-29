@@ -30,7 +30,18 @@ for (const card of index.cards ?? []) {
   if (!GEBIETE.includes(card.gebiet)) fail(`${ref}: ungültiges gebiet '${card.gebiet}'`);
   if (!PRIOS.includes(card.prio)) fail(`${ref}: ungültige prio '${card.prio}'`);
   if (!card.frage) fail(`${ref}: 'frage' fehlt`);
-  if (!Array.isArray(card.antworten) || card.antworten.length !== 4) fail(`${ref}: 'antworten' muss genau 4 Einträge haben`);
+  if (card.typ === "begriffe") {
+    const texte = (arr) => Array.isArray(arr) && arr.every((a) => a && typeof a === "string");
+    if (typeof card.reihenfolge !== "boolean") fail(`${ref}: 'reihenfolge' muss true oder false sein`);
+    if (!texte(card.antworten) || card.antworten.length < 2) fail(`${ref}: 'antworten' (richtige Begriffe) braucht mindestens 2 nichtleere Texte`);
+    if (!texte(card.falsche) || card.falsche.length < 1) fail(`${ref}: 'falsche' braucht mindestens 1 nichtleeren Text`);
+    if (texte(card.antworten) && texte(card.falsche)) {
+      const alle = [...card.antworten, ...card.falsche];
+      if (alle.length > 12) fail(`${ref}: höchstens 12 Begriffe insgesamt`);
+      if (new Set(alle.map((a) => a.trim().toLowerCase())).size !== alle.length) fail(`${ref}: Begriffe müssen eindeutig sein`);
+    }
+  } else if (card.typ !== undefined) fail(`${ref}: unbekannter typ '${card.typ}'`);
+  else if (!Array.isArray(card.antworten) || card.antworten.length !== 4) fail(`${ref}: 'antworten' muss genau 4 Einträge haben`);
   else if (card.antworten.some((a) => !a || typeof a !== "string")) fail(`${ref}: alle 4 Antworten müssen nichtleere Texte sein`);
   if (typeof card.erklaerung !== "string") fail(`${ref}: 'erklaerung' fehlt`);
   if (!card.ts) fail(`${ref}: 'ts' fehlt`);

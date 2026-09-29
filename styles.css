@@ -173,6 +173,7 @@ button:disabled { cursor: default; }
   gap: 8px;
 }
 .bar-side { display: flex; align-items: center; gap: 2px; min-width: 40px; flex-shrink: 1; }
+.bar-side #flag-btn { margin-right: -6px; }
 .bar-mid { flex: 1; display: flex; justify-content: center; min-width: 0; }
 .bar-crumb {
   min-width: 0;
@@ -263,14 +264,14 @@ button:disabled { cursor: default; }
 .icon-btn:hover { background: var(--surface-2); color: var(--ink); }
 
 .pill-btn {
-  height: 36px;
-  padding: 0 16px;
+  height: 28px;
+  padding: 0 11px;
   display: inline-flex;
   align-items: center;
-  gap: 7px;
-  border-radius: 10px;
+  gap: 6px;
+  border-radius: 8px;
   border: 1px solid var(--line-2);
-  font-size: 13.5px;
+  font-size: 13px;
   font-weight: 560;
   color: var(--ink-2);
   transition: border-color 0.15s ease, color 0.15s ease;
@@ -637,12 +638,12 @@ button.row:active:not(:disabled), label.row:active { background: var(--surface-2
 
 .level-chip {
   position: absolute;
-  top: 6px;
+  top: 5px;
   right: 18px;
   display: inline-flex;
   align-items: center;
   height: 15px;
-  padding: 0 2px;
+  padding: 0;
   font-size: 10px;
   font-weight: 650;
   letter-spacing: 0.02em;
@@ -738,6 +739,7 @@ button.row:active:not(:disabled), label.row:active { background: var(--surface-2
   .q { padding: 2px 0 4px; }
   .q-text { padding: 18px 16px 16px; margin-bottom: 12px; font-size: 18px; }
   .q-text .card-meta { margin: 2px -2px 6px 12px; }
+  .q-text .level-chip { top: 3px; right: 14px; }
   .answers { --answers-gap: 6px; }
   .answer { min-height: 50px; padding: 8px 10px; font-size: 14.5px; }
   .quiz-explain { padding: 9px 10px 11px; font-size: 12.5px; }

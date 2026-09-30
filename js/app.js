@@ -232,7 +232,7 @@ async function showUserPick() {
 async function showModes() {
   const cards = await allCards();
   const total = cards.length;
-  const openFlags = currentUser === "marius" ? await getOpenFlags() : [];
+  const openFlags = currentUser === "marius" ? await getValidOpenFlags() : [];
 
   render("modes", {
     left: `<span class="user-chip" data-user="${currentUser}"><span class="user-dot-sm"></span>${USER_NAMEN[currentUser]}</span>`,
@@ -1110,10 +1110,20 @@ function reporterChip(flag) {
   return `<span class="user-chip" data-user="${flag.flaggedBy}"><span class="user-dot-sm"></span>${name}</span>`;
 }
 
+// Offene Meldungen, deren Karte noch existiert. Meldungen zu ersatzlos
+// entfernten Karten zählen nirgends mehr (nur ausgeblendet, nicht verändert –
+// so geht bei einem veralteten Kartenstand nichts verloren).
+async function getValidOpenFlags() {
+  const open = await getOpenFlags();
+  if (open.length === 0) return open;
+  const existing = new Set((await allBaseCards()).map((c) => cardKey(c)));
+  return open.filter((f) => existing.has(f.cardId));
+}
+
 // Alle offenen Meldungen samt Karte (Dateiname, Frage, Antworten, Erklärung)
 // als Klartext, zum Besprechen in einem Chat.
 async function flagsAsText() {
-  const open = (await getOpenFlags()).sort((a, b) => (a.ts < b.ts ? -1 : 1));
+  const open = (await getValidOpenFlags()).sort((a, b) => (a.ts < b.ts ? -1 : 1));
   if (open.length === 0) return "";
   const base = await allBaseCards();
   const byCard = new Map();
@@ -1150,7 +1160,7 @@ async function flagsAsText() {
 async function showFlagReview() {
   await sync();
 
-  let flags = (await getOpenFlags()).sort((a, b) => (a.ts < b.ts ? -1 : a.ts > b.ts ? 1 : 0));
+  let flags = (await getValidOpenFlags()).sort((a, b) => (a.ts < b.ts ? -1 : a.ts > b.ts ? 1 : 0));
   let idx = 0;
 
   render("flag-review", {

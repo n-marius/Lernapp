@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Wie ist in der Urteilsklausur mit Verkündungsvermerk und Unterschriften zu verfahren?",
+  "antworten": [
+    "Verkündungsvermerk entfällt; statt Unterschrift „Unterschrift Richter“ bzw. „RiAG X“",
+    "Verkündungsvermerk entfällt; die Richter werden mit vollem Namen unterschrieben",
+    "Verkündungsvermerk wird mit fiktivem Datum eingefügt; Unterschriften entfallen ganz",
+    "Verkündungsvermerk wird mit fiktivem Datum eingefügt; Unterschrift als „gez. Richter“"
+  ],
+  "erklaerung": "In der Klausur ist ein Urteilsentwurf zu fertigen. Daher entfällt der Verkündungsvermerk oben rechts, und das Urteil wird nicht unterschrieben (§ 315 ZPO); stattdessen steht dort „Unterschrift Richter“ oder „RiAG X“.",
+  "id": "zivilgericht-0280",
+  "ts": "2026-09-30T20:18:26.028430Z"
+}

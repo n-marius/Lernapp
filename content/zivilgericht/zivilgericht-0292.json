@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wann ist bei einem Mischmietverhältnis (Gewerberaum mit Wohnung) das Amtsgericht streitwertunabhängig sachlich zuständig?",
+  "antworten": [
+    "Nur wenn der Schwerpunkt des Vertrags bei der Wohnraummiete liegt",
+    "Stets, da auch Wohnraum vermietet ist",
+    "Nie, da das Gewerbe die Wohnraummiete verdrängt",
+    "Nur wenn die Wohnfläche die Gewerbefläche übersteigt"
+  ],
+  "erklaerung": "Nach h. M. (Schwerpunkttheorie) ist das AG nach § 23 Nr. 2 lit. a GVG nur dann sachlich zuständig, wenn der Schwerpunkt des Vertrags bei der Wohnraummiete liegt.\n\nÖrtlich ist nach § 29a Abs. 1 ZPO ausschließlich das Gericht zuständig, in dessen Bezirk sich die Räume befinden.",
+  "id": "zivilgericht-0292",
+  "ts": "2026-09-30T20:18:26.029372Z"
+}

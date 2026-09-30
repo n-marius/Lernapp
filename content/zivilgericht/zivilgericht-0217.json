@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Welches Gewicht hat der Aktenvortrag im Zweiten Examen (Niedersachsen)?",
+  "antworten": [
+    "12 % der Gesamtnote, erste Leistung der mündlichen Prüfung",
+    "12 % der Gesamtnote, letzte Leistung der mündlichen Prüfung",
+    "20 % der Gesamtnote, erste Leistung der mündlichen Prüfung",
+    "20 % der Gesamtnote, letzte Leistung der mündlichen Prüfung"
+  ],
+  "erklaerung": "Der Aktenvortrag macht 12 % der Gesamtnote aus und ist die erste Leistung in der mündlichen Prüfung. Ziel ist, in freier Rede und mit wenig Vorbereitung zu rechtlichen Fragen fundiert Stellung zu nehmen.",
+  "id": "zivilgericht-0217",
+  "ts": "2026-09-30T20:18:26.023904Z"
+}

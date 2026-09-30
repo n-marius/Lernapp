@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wo wird der Inhalt von Zeugenaussagen im Aktenvortrag wiedergegeben?",
+  "antworten": [
+    "In der rechtlichen Würdigung; im Sachbericht genügt ein Verweis darauf",
+    "Im Sachbericht nach dem streitigen Vortrag",
+    "Im Sachbericht nach den Anträgen",
+    "Gar nicht, da der Vortrag aus anwaltlicher Sicht gehalten wird"
+  ],
+  "erklaerung": "Der Inhalt von Zeugenaussagen muss nicht in der Sachverhaltsschilderung wiedergegeben werden; besser ist ein Verweis auf deren Darstellung in der rechtlichen Würdigung. Auch konkrete Bezugnahmen auf Schriftsätze unterbleiben; wegen der Einzelheiten wird auf die rechtliche Würdigung verwiesen. Vertragstexte werden nur wörtlich wiedergegeben, wenn es auf den genauen Wortlaut ankommt.",
+  "id": "zivilgericht-0228",
+  "ts": "2026-09-30T20:18:26.024867Z"
+}

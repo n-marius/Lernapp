@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wer ist im Rubrum aufzuführen, wenn eine rechtsfähige Außen-GbR Partei ist?",
+  "antworten": [
+    "Die GbR, vertreten durch ihre vertretungsberechtigten Gesellschafter",
+    "Alle Gesellschafter als Streitgenossen",
+    "Die GbR ohne Angabe von Vertretern",
+    "Alle Gesellschafter mit dem Zusatz „in GbR“"
+  ],
+  "erklaerung": "Die Außen-GbR ist rechtsfähig (§ 705 Abs. 2 BGB) und damit parteifähig. Es werden nicht mehr alle Mitglieder aufgenommen, sondern nur die Vertreter; grundsätzlich besteht Gesamtvertretung durch alle Gesellschafter, soweit nichts anderes vereinbart ist (§ 720 Abs. 1 BGB).\n\nZum Vergleich: OHG/KG grds. Einzelvertretung (§ 124 Abs. 1 HGB), GmbH mit mehreren Geschäftsführern grds. Gesamtvertretung (§ 35 Abs. 2 S. 1 GmbHG), AG Vertretung durch den Vorstand (§ 78 AktG). Formulierungsbeispiel: „der X-GmbH & Co. KG, Markt 1, 50968 Köln, gesetzlich vertreten durch die X-GmbH, diese gesetzlich vertreten durch den Geschäftsführer xy, ebenda“.",
+  "id": "zivilgericht-0255",
+  "ts": "2026-09-30T20:18:26.026801Z"
+}

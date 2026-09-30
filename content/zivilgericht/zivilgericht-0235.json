@@ -1,0 +1,23 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "typ": "begriffe",
+  "reihenfolge": true,
+  "frage": "Wie sind die Entscheidungsgründe eines Zivilurteils aufgebaut?",
+  "antworten": [
+    "Gesamtergebnis",
+    "ggf. Auslegung des Klageantrags",
+    "Sonstige Vorfragen",
+    "Zulässigkeit",
+    "Begründetheit: Hauptanspruch",
+    "Begründetheit: Nebenanspruch",
+    "Prozessuale Nebenentscheidungen"
+  ],
+  "falsche": [
+    "Beweisstation",
+    "Kurze Sachverhaltsdarstellung"
+  ],
+  "erklaerung": "Die Entscheidungsgründe sind einschichtig aufgebaut; eine Gliederung nach Stationen findet nicht statt. Sonstige Vorfragen sind z. B. Klageänderung oder teilweise Klagerücknahme. Bei mehreren Klageanträgen (objektive Klagehäufung) werden diese grundsätzlich getrennt nacheinander abgearbeitet.\n\nAm Anfang der rechtlichen Ausführungen wird stets die Anspruchsgrundlage genannt, die bejaht oder abgelehnt wird („Dem Kläger steht gegen den Beklagten ein Anspruch auf Zahlung von … EUR aus § 433 Abs. 2 BGB zu.“). Die prozessualen Nebenentscheidungen werden am Ende kurz behandelt.",
+  "id": "zivilgericht-0235",
+  "ts": "2026-09-30T20:18:26.025348Z"
+}

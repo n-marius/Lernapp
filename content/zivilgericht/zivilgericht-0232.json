@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Wovon ist nach dem üblichen Bearbeitervermerk auszugehen, wenn ein richterlicher Hinweis für erforderlich gehalten wird?",
+  "antworten": [
+    "Der Hinweis wurde erteilt, blieb aber erfolglos",
+    "Der Hinweis wurde erteilt und von der Partei befolgt",
+    "Der Hinweis ist im Entscheidungsvorschlag nachzuholen",
+    "Der Hinweis ist entbehrlich, da die Partei anwaltlich vertreten ist"
+  ],
+  "erklaerung": "Nach dem üblichen Bearbeitervermerk ist, wenn ein richterlicher Hinweis für erforderlich gehalten wird, davon auszugehen, dass der Hinweis erfolglos erteilt wurde. Entsprechend gilt eine für erforderlich gehaltene weitere Beweisaufnahme als durchgeführt, aber für die beweisbelastete Partei unergiebig.",
+  "id": "zivilgericht-0232",
+  "ts": "2026-09-30T20:18:26.025169Z"
+}

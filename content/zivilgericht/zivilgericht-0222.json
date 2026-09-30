@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wie verhält sich der Umfang des Sachberichts zur rechtlichen Würdigung im Aktenvortrag?",
+  "antworten": [
+    "Der Sachbericht ist wesentlich kürzer als die rechtliche Würdigung",
+    "Sachbericht und rechtliche Würdigung sind etwa gleich lang",
+    "Der Sachbericht ist länger, da der Zuhörer den Fall nicht kennt",
+    "Der Sachbericht ist etwa ein Drittel so lang wie die rechtliche Würdigung"
+  ],
+  "erklaerung": "Die Sachverhaltsdarstellung sollte wesentlich kürzer sein als die rechtliche Würdigung. Aktenvorträge laufen normalerweise auf eine einzige rechtlich oder tatsächlich schwierige Anspruchsvoraussetzung bzw. Fragestellung hinaus; diese ist zu finden und zum Schwerpunkt zu machen.",
+  "id": "zivilgericht-0222",
+  "ts": "2026-09-30T20:18:26.024412Z"
+}

@@ -1,0 +1,24 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "typ": "begriffe",
+  "reihenfolge": false,
+  "frage": "Welche Urteile sind unter der Überschrift „Im Namen des Volkes“ stets besonders zu bezeichnen?",
+  "antworten": [
+    "Versäumnisurteil",
+    "Anerkenntnisurteil",
+    "Verzichtsurteil",
+    "Teilurteil",
+    "Grundurteil",
+    "Zwischenurteil",
+    "Vorbehaltsurteil"
+  ],
+  "falsche": [
+    "Endurteil",
+    "Prozessurteil",
+    "Sachurteil"
+  ],
+  "erklaerung": "Die Bezeichnung „Urteil“ unter der Überschrift „Im Namen des Volkes“ (§ 311 Abs. 1 ZPO) ist grundsätzlich entbehrlich. Erforderlich ist aber stets die Bezeichnung als Versäumnis-, Anerkenntnis- oder Verzichtsurteil (§ 313b Abs. 1 S. 2 ZPO), als Teilurteil (§ 301 ZPO), Grundurteil (§ 304 ZPO), Zwischenurteil (§ 303 ZPO) oder Vorbehaltsurteil (§ 302 ZPO).",
+  "id": "zivilgericht-0278",
+  "ts": "2026-09-30T20:18:26.028298Z"
+}

@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wo kann ein Unfallgeschädigter Fahrer, Halter und Haftpflichtversicherer mit unterschiedlichem Wohnsitz bzw. Sitz gemeinsam verklagen?",
+  "antworten": [
+    "Am Unfallort (§ 32 ZPO, § 20 StVG)",
+    "Am Wohnsitz des Fahrers (§§ 12, 13 ZPO)",
+    "Am Sitz des Versicherers (§ 17 ZPO)",
+    "Am Wohnsitz des Klägers (§ 215 VVG)"
+  ],
+  "erklaerung": "Anspruchsgrundlagen: § 7 StVG (Halter), § 18 StVG und § 823 BGB (Fahrer), § 115 Abs. 1 Nr. 1 VVG (Pflichtversicherer). Die allgemeinen Gerichtsstände (§§ 12, 13, 17 ZPO) liegen an verschiedenen Orten; gemeinsamer besonderer Gerichtsstand ist der Unfallort (§ 20 StVG, § 32 ZPO).\n\nDas nach § 32 ZPO zuständige Gericht hat innerhalb des einheitlichen prozessualen Anspruchs eine umfassende Prüfungsbefugnis, auch für nicht deliktische Anspruchsgrundlagen (BGH NJW 2003, 828; Erst-recht-Schluss aus § 17 Abs. 2 GVG).",
+  "id": "zivilgericht-0293",
+  "ts": "2026-09-30T20:18:26.029506Z"
+}

@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Was ist im anwaltlichen Aktenvortrag vorzuschlagen, wenn das Begehren des Mandanten keine Aussicht auf Erfolg hat?",
+  "antworten": [
+    "Je nach Zweckmäßigkeit: von Klage abraten, Versäumnisurteil ergehen lassen oder anerkennen",
+    "Stets Klageerhebung bzw. Verteidigung, um keine Rechte zu verlieren",
+    "Stets Mandatsniederlegung wegen fehlender Erfolgsaussicht",
+    "Stets Abschluss eines Vergleichs"
+  ],
+  "erklaerung": "Grundfälle sind der Vortrag aus Sicht des Klägers und aus Sicht des Beklagten. Der Aktenvortrag kann auch so konzipiert sein, dass das Begehren des Mandanten keine Aussicht auf Erfolg hat; dann je nach prozessualer Zweckmäßigkeit Abraten von der Klageerhebung, Versäumnisurteil ergehen lassen oder Anerkenntnis. Das ist aber eher selten.",
+  "id": "zivilgericht-0224",
+  "ts": "2026-09-30T20:18:26.024557Z"
+}

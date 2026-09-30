@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wie lautet die Angabe im Rubrum anstelle der mündlichen Verhandlung bei einer Entscheidung im schriftlichen Verfahren (§ 128 Abs. 2 ZPO)?",
+  "antworten": [
+    "„im schriftlichen Verfahren mit einer Erklärungsfrist bis zum …“",
+    "„nach Lage der Akten am …“",
+    "„ohne mündliche Verhandlung am …“",
+    "„aufgrund der Schriftsätze vom …“"
+  ],
+  "erklaerung": "Regelfall: „auf die mündliche Verhandlung vom …“. Bei Entscheidung nach Lage der Akten (§§ 251a, 331a ZPO): „nach Lage der Akten am …“. Im schriftlichen Verfahren (§ 128 Abs. 2 ZPO): „im schriftlichen Verfahren mit einer Erklärungsfrist bis zum …“. Hintergrund ist jeweils der für § 767 Abs. 2 ZPO maßgebliche Zeitpunkt.",
+  "id": "zivilgericht-0264",
+  "ts": "2026-09-30T20:18:26.027346Z"
+}

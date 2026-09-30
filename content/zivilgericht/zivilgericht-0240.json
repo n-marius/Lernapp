@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Darf in den Entscheidungsgründen offenbleiben, ob ein Anspruch entstanden ist, wenn er jedenfalls erloschen ist?",
+  "antworten": [
+    "Ja, logisch vorrangige Fragen, die das Ergebnis nicht tragen, können offenbleiben",
+    "Nein, die Entstehung des Anspruchs hat als Grundlage prozessualen Vorrang",
+    "Nein, offengelassen werden dürfen nur Fragen der Zulässigkeit",
+    "Ja, aber nur, wenn beide Parteien zur Entstehung nichts vorgetragen haben"
+  ],
+  "erklaerung": "Das Offenlassen von Fragen ist möglich und auch anzuwenden bei allen logisch vorrangigen Fragen, die das Ergebnis nicht tragen, z. B.: „Es kann dahinstehen, ob der Anspruch wirksam entstanden ist. Jedenfalls ist der evtl. entstandene Anspruch gemäß § 362 BGB durch Erfüllung erloschen.“ Ausnahme sind Fragen mit prozessualem Vorrang (Zulässigkeit, Hauptantrag, Hauptverteidigung vor Hilfsaufrechnung).",
+  "id": "zivilgericht-0240",
+  "ts": "2026-09-30T20:18:26.025712Z"
+}

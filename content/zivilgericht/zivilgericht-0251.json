@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Welche prozessuale Folge haben Erfüllung durch den Beklagten einerseits und Vergleich andererseits?",
+  "antworten": [
+    "Erfüllung: Erledigung, Kostenbeschluss (§ 91a ZPO); Vergleich: Protokollierung",
+    "Erfüllung: Klagerücknahme (§ 269 ZPO); Vergleich: Protokollierung",
+    "Erfüllung: Erledigung, Kostenbeschluss (§ 91a ZPO); Vergleich: Anerkenntnisurteil",
+    "Erfüllung: Klagerücknahme (§ 269 ZPO); Vergleich: Anerkenntnisurteil"
+  ],
+  "erklaerung": "Reaktionen des Beklagten: Untätigkeit → Versäumnisurteil (ggf. im schriftlichen Vorverfahren, § 331 Abs. 3 ZPO), ggf. Einspruchstermin; Erfüllung → Erledigung der Hauptsache, bei übereinstimmender Erklärung Kostenbeschluss (§ 91a ZPO); Anerkenntnis → Anerkenntnisurteil (§ 307 ZPO); Vergleich → Protokollierung (§§ 160 Abs. 3 Nr. 1, 162 Abs. 1 ZPO), auch schriftlich möglich (§ 278 Abs. 6 ZPO).\n\nVerteidigung (einfaches oder qualifiziertes Bestreiten, Einwendungen/Einreden) → Erheblichkeitsprüfung und mündliche Verhandlung (Ausnahmen: § 128 Abs. 2, § 495a ZPO); erhebliches Vorbringen → Beweisaufnahme, unerhebliches → Klage stattgeben.",
+  "id": "zivilgericht-0251",
+  "ts": "2026-09-30T20:18:26.026452Z"
+}

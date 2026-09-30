@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Worauf ist bei der Formulierung des Tenors in der Urteilsklausur besonders zu achten?",
+  "antworten": [
+    "Bestimmtheit, Vollstreckungsfähigkeit und umfassende Entscheidung über den Klageantrag",
+    "Knappheit, Verzicht auf Nebenentscheidungen und Verweis auf die Anträge",
+    "Bestimmtheit, Vollstreckungsfähigkeit und Begründung der Kostenquote",
+    "Übereinstimmung mit dem Antrag und Verweis auf die Entscheidungsgründe"
+  ],
+  "erklaerung": "Ein nicht hinreichend bestimmter, vollstreckungsfähiger Tenor kann die ganze Klausur unbrauchbar machen. Besondere Sorgfalt ist daher auf die Formulierung zu verwenden, insbesondere ist umfassend über den Klageantrag zu entscheiden (Klageabweisung im Übrigen).",
+  "id": "zivilgericht-0247",
+  "ts": "2026-09-30T20:18:26.026217Z"
+}

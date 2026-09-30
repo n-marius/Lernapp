@@ -1,0 +1,19 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "typ": "begriffe",
+  "reihenfolge": false,
+  "frage": "Welche Maßnahmen umfasst die Einleitung des schriftlichen Vorverfahrens (§ 276 ZPO)?",
+  "antworten": [
+    "Klagezustellung",
+    "Aufforderung zur Anzeige der Verteidigungsbereitschaft",
+    "Frist zur Klageerwiderung"
+  ],
+  "falsche": [
+    "Terminsanberaumung",
+    "Prozessleitende Maßnahmen (§ 273 ZPO)"
+  ],
+  "erklaerung": "Schriftliches Vorverfahren: Klagezustellung (§ 271 ZPO), Aufforderung an den Beklagten, seine Verteidigungsbereitschaft anzuzeigen (§ 276 Abs. 1 S. 1 ZPO), Frist zur Klageerwiderung. Terminsanberaumung und prozessleitende Maßnahmen folgen erst nach der Klageerwiderung; ohne Verteidigungsanzeige ergeht ein Versäumnisurteil (§ 331 Abs. 3 ZPO).\n\nBeim frühen ersten Termin (§ 275 ZPO) werden dagegen sofort neben Klagezustellung und Erwiderungsfrist der Termin anberaumt und prozessleitende Maßnahmen (§ 273 ZPO) getroffen. Beide Wege münden in die Güteverhandlung (§ 278 Abs. 1, 2 ZPO), den Haupttermin (§ 279 ZPO) und ggf. einen Verkündungstermin (§ 310 ZPO).",
+  "id": "zivilgericht-0273",
+  "ts": "2026-09-30T20:18:26.028001Z"
+}

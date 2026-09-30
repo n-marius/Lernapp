@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Welche Anspruchsgrundlagen sind in den Entscheidungsgründen zu erörtern, wenn der Klage stattgegeben wird?",
+  "antworten": [
+    "Nur eine, und zwar die am leichtesten zu begründende; innerhalb ihrer alle Merkmale",
+    "Alle einschlägigen; innerhalb jeder nur die problematischen Merkmale",
+    "Nur eine, und zwar die für den Kläger günstigste; innerhalb ihrer nur die problematischen Merkmale",
+    "Alle einschlägigen, beginnend mit vertraglichen; innerhalb jeder alle Merkmale"
+  ],
+  "erklaerung": "Bei begründeter Klage wird nur die Anspruchsgrundlage erörtert, aus der sich der Anspruch ergibt; bei mehreren möglichen ist diejenige zu wählen, die am leichtesten zu begründen ist. Innerhalb der bejahten Anspruchsgrundlage müssen alle Tatbestandsmerkmale erörtert werden, unproblematische aber nur kurz.",
+  "id": "zivilgericht-0242",
+  "ts": "2026-09-30T20:18:26.025847Z"
+}

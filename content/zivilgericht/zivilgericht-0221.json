@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Wonach richtet sich der Gegenstand des Aktenvortrags in Niedersachsen?",
+  "antworten": [
+    "Nach der Wahlstation; Eingrenzung bis spätestens zwei Monate vor deren Ende möglich",
+    "Nach der Zivilstation; Eingrenzung bis spätestens zwei Monate vor deren Ende möglich",
+    "Nach der Wahlstation; keine weitere Eingrenzung möglich",
+    "Nach Wahl des Prüfungsausschusses aus allen Pflichtstationen"
+  ],
+  "erklaerung": "Der Gegenstand richtet sich nach § 39 Abs. 2 S. 1 NJAVO nach der gewählten Wahlstation; eine weitere Eingrenzung ist nach Satz 2 bis spätestens zwei Monate vor Ende der Wahlstation möglich.\n\nNach den AG-Unterlagen sind nur Anwaltsvorträge vorgesehen; Situation kann insbesondere der Vortrag der Referendarin/des Referendars gegenüber dem Rechtsanwalt, die Fallschilderung gegenüber einem Kollegen oder die Beratung des Mandanten sein.",
+  "id": "zivilgericht-0221",
+  "ts": "2026-09-30T20:18:26.024202Z"
+}

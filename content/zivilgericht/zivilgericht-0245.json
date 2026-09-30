@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Wie werden Rechtsprechungs- und Literaturzitate in den Entscheidungsgründen dargestellt?",
+  "antworten": [
+    "In Klammern im Text; bei entscheidungserheblichem Meinungsstreit mit eigener Stellungnahme",
+    "In Fußnoten; bei entscheidungserheblichem Meinungsstreit mit eigener Stellungnahme",
+    "In Klammern im Text; bei herrschender Meinung genügt das Zitat als Begründung",
+    "In Fußnoten; bei herrschender Meinung genügt das Zitat als Begründung"
+  ],
+  "erklaerung": "Zitate stehen in Klammern, nicht in Fußnoten („so stRspr. des BGH, vgl. BGHZ 119, 204, 217 m. w. N.“). Sie können die Begründung nie ersetzen; zu einem Meinungsstreit ist daher eine eigene Stellungnahme abzugeben, wenn es auf ihn ankommt.",
+  "id": "zivilgericht-0245",
+  "ts": "2026-09-30T20:18:26.026099Z"
+}

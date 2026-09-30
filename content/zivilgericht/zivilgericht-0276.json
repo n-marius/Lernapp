@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Welchen Umfang sollte der Tatbestand in der Relationsklausur im Verhältnis zum Gutachten haben?",
+  "antworten": [
+    "Etwa ein Drittel",
+    "Etwa ein Zehntel",
+    "Etwa die Hälfte",
+    "Etwa gleich viel"
+  ],
+  "erklaerung": "Der Tatbestand ist straff zu halten: kurz und knapp durch Verweisungen (Urkunden, Ergebnis der Beweisaufnahme), Zusammenfassungen und Weglassen von Überflüssigem. Als Richtwert gilt etwa ein Drittel im Verhältnis zum Gutachten.",
+  "id": "zivilgericht-0276",
+  "ts": "2026-09-30T20:18:26.028184Z"
+}

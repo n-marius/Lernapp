@@ -1,0 +1,19 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "typ": "begriffe",
+  "reihenfolge": false,
+  "frage": "Welche Fragen haben prozessualen Vorrang, sodass die vorrangige Frage nicht offengelassen werden darf?",
+  "antworten": [
+    "Zulässigkeit vor Begründetheit",
+    "Hauptantrag vor Hilfsantrag",
+    "Hauptverteidigung vor Hilfsaufrechnung"
+  ],
+  "falsche": [
+    "Vertragliche vor gesetzlichen Ansprüchen",
+    "Einwendungen vor Einreden"
+  ],
+  "erklaerung": "Bei prozessualem Vorrang muss die vorrangige Frage entschieden werden. Falsch wäre daher: „Es kann dahinstehen, ob die Klage zulässig ist. In jedem Fall ist sie unbegründet.“\n\nIm Übrigen können logisch vorrangige Fragen, die das Ergebnis nicht tragen, offengelassen werden.",
+  "id": "zivilgericht-0241",
+  "ts": "2026-09-30T20:18:26.025782Z"
+}

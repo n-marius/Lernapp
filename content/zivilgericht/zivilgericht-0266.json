@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Wo ist ein Streithelfer im Rubrum aufzuführen?",
+  "antworten": [
+    "Nur wenn beigetreten, unmittelbar hinter der unterstützten Partei",
+    "Auch ohne Beitritt, unmittelbar hinter der unterstützten Partei",
+    "Nur wenn beigetreten, am Ende des Rubrums nach allen Parteien",
+    "Auch ohne Beitritt, am Ende des Rubrums nach allen Parteien"
+  ],
+  "erklaerung": "Nur der beigetretene Streithelfer ist im Rubrum aufzuführen, und zwar unmittelbar hinter der Partei, der er beigetreten ist.",
+  "id": "zivilgericht-0266",
+  "ts": "2026-09-30T20:18:26.027460Z"
+}

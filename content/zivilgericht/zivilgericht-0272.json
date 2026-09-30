@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Welche Folge hat es, wenn der erschienene Kläger in der mündlichen Verhandlung keinen Sachantrag stellt?",
+  "antworten": [
+    "Auf Antrag kann Versäumnisurteil gegen ihn ergehen",
+    "Das Gericht entscheidet nach dem schriftsätzlich angekündigten Antrag",
+    "Die Klage gilt als zurückgenommen",
+    "Das Gericht muss von Amts wegen vertagen"
+  ],
+  "erklaerung": "Anträge müssen grundsätzlich in der mündlichen Verhandlung gestellt werden (Mündlichkeitsprinzip). Stellt der Kläger in der mündlichen Verhandlung keinen Sachantrag, verhandelt er nicht; es kann Versäumnisurteil gegen ihn ergehen (§§ 330, 333 ZPO).",
+  "id": "zivilgericht-0272",
+  "ts": "2026-09-30T20:18:26.027942Z"
+}

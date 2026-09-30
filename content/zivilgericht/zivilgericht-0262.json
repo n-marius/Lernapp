@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Welcher Rechtsanwalt ist im Rubrum als Prozessbevollmächtigter aufzuführen?",
+  "antworten": [
+    "Der Anwalt, der die Partei in der letzten mündlichen Verhandlung vertreten hat, nicht aber ein Terminsvertreter",
+    "Jeder Anwalt, der die Partei im Verfahren vertreten hat, einschließlich Terminsvertretern",
+    "Der Anwalt, der die Klageschrift bzw. Klageerwiderung unterzeichnet hat",
+    "Der Anwalt, der in der letzten mündlichen Verhandlung aufgetreten ist, auch als Terminsvertreter"
+  ],
+  "erklaerung": "Der Prozessbevollmächtigte wird nach der Partei in Klammern angegeben. Aufzuführen ist der Rechtsanwalt, der die Partei in der letzten mündlichen Verhandlung vertritt; Unterbevollmächtigte oder Terminsvertreter sind nicht zu nennen. Bei Postfach im Gericht genügt die Angabe des Kanzleiorts.",
+  "id": "zivilgericht-0262",
+  "ts": "2026-09-30T20:18:26.027229Z"
+}

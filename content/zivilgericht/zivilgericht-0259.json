@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wie wird ein Einzelkaufmann im Rubrum zweckmäßigerweise bezeichnet?",
+  "antworten": [
+    "Mit bürgerlichem Namen und Firma („des unter der Firma … handelnden Kaufmanns …“)",
+    "Nur mit der Firma, da sie den bürgerlichen Namen ersetzt",
+    "Nur mit dem bürgerlichen Namen, da die Firma nicht parteifähig ist",
+    "Mit der Firma und dem Zusatz „vertreten durch den Inhaber …“"
+  ],
+  "erklaerung": "Nach § 17 Abs. 2 HGB kann der Kaufmann unter seiner Firma klagen und verklagt werden; die Firma kann also an die Stelle des bürgerlichen Namens treten. Zweckmäßigerweise werden bürgerlicher Name und Firma gleichzeitig angegeben, z. B. „des unter der Firma Esoterika handelnden Kaufmanns Gerd Müller“.",
+  "id": "zivilgericht-0259",
+  "ts": "2026-09-30T20:18:26.027064Z"
+}

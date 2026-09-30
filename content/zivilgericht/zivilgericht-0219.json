@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wie lange soll der Aktenvortrag dauern, und was geschieht bei Überschreitung?",
+  "antworten": [
+    "Höchstens 10 Minuten; bei deutlicher Überschreitung kann abgebrochen werden",
+    "Höchstens 12 Minuten; bei jeder Überschreitung wird abgebrochen",
+    "Höchstens 10 Minuten; eine Überschreitung ist unschädlich",
+    "Höchstens 15 Minuten; bei deutlicher Überschreitung kann abgebrochen werden"
+  ],
+  "erklaerung": "Der Vortrag soll 10 Minuten nicht überschreiten. Der Vorsitzende gibt ca. eine Minute vor Ablauf ein Zeichen, sofern das Ende nicht absehbar ist; danach ist der Vortrag zu Ende zu führen. Bei deutlicher Überschreitung kann der Vortrag abgebrochen werden. Es folgt ein kurzes Vertiefungsgespräch.",
+  "id": "zivilgericht-0219",
+  "ts": "2026-09-30T20:18:26.024063Z"
+}

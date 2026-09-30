@@ -1,0 +1,22 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "typ": "begriffe",
+  "reihenfolge": false,
+  "frage": "In welchen Fällen ist ein Tatbestand im Zivilurteil entbehrlich?",
+  "antworten": [
+    "Rechtsmittel unzweifelhaft unzulässig",
+    "Rechtsmittelverzicht",
+    "Versäumnisurteil",
+    "Anerkenntnisurteil",
+    "Verzichtsurteil"
+  ],
+  "falsche": [
+    "Grundurteil",
+    "Entscheidung im schriftlichen Verfahren",
+    "Klageabweisung als unzulässig"
+  ],
+  "erklaerung": "Der Tatbestand ist entbehrlich, wenn ein Rechtsmittel gegen das Urteil unzweifelhaft nicht zulässig ist (§ 313a Abs. 1 ZPO), bei Rechtsmittelverzicht (§ 313a Abs. 2 ZPO) sowie bei Versäumnis-, Anerkenntnis- und Verzichtsurteilen (§ 313b ZPO).",
+  "id": "zivilgericht-0275",
+  "ts": "2026-09-30T20:18:26.028122Z"
+}

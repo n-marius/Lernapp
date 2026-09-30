@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Nach welchem Maßstab richtet sich, wie weit eine Aussage in den Entscheidungsgründen zu begründen ist?",
+  "antworten": [
+    "Nach der ungeschriebenen Frage des Unterlegenen nach dem Grund der Aussage",
+    "Nach der ungeschriebenen Frage des Obsiegenden nach dem Grund der Aussage",
+    "Nach dem Umfang des Parteivortrags zu dem jeweiligen Punkt",
+    "Nach der Frage, ob die Aussage in Rechtsprechung und Literatur umstritten ist"
+  ],
+  "erklaerung": "Nach jeder Aussage muss aus Sicht des Unterlegenen die ungeschriebene Frage nach dem Grund bzw. der Berechtigung der Aussage beantwortet werden: Norm genannt → „Was steht da drin?“; Tatbestandsmerkmal → „Und das soll hier der Fall sein?“; nicht alltäglicher Rechtsbegriff → „Was ist das denn?“ (Definition); abweichende Tatsachengrundlage → „Wie kommt das Gericht darauf?“ (Beweisaufnahme, Beweiswürdigung).",
+  "id": "zivilgericht-0282",
+  "ts": "2026-09-30T20:18:26.028547Z"
+}

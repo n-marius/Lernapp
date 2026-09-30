@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wann dürfen „weil“ und „da“ im Urteilsstil verwendet werden?",
+  "antworten": [
+    "Nur nach, nicht vor der Feststellung eines Ergebnisses",
+    "Nur vor, nicht nach der Feststellung eines Ergebnisses",
+    "Überhaupt nicht, da sie dem Gutachtenstil angehören",
+    "Nur in der rechtlichen Würdigung, nicht bei der Tatsachenfeststellung"
+  ],
+  "erklaerung": "„Weil“ und „da“ dürfen nur nach, nicht dagegen vor der Feststellung eines Ergebnisses benutzt werden, damit das Ergebnis vorangestellt bleibt („Der Kläger kann Zahlung verlangen, weil …“, nicht „Da …, kann der Kläger …“).",
+  "id": "zivilgericht-0285",
+  "ts": "2026-09-30T20:18:26.028827Z"
+}

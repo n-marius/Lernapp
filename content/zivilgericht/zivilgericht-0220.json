@@ -1,0 +1,22 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "typ": "begriffe",
+  "reihenfolge": false,
+  "frage": "Welche Angaben gehören in den Einleitungssatz des Aktenvortrags?",
+  "antworten": [
+    "Namen und Wohnorte der Parteien",
+    "Gegenstand des Begehrens",
+    "Prozessuale Situation",
+    "Gericht",
+    "Zeitpunkt der Anhängigkeit"
+  ],
+  "falsche": [
+    "Aktenzeichen",
+    "Name des Richters",
+    "Streitwert"
+  ],
+  "erklaerung": "Der Einleitungssatz nennt die wesentlichen Daten der rechtlichen Situation: Namen und Wohnorte der Parteien, Gegenstand des rechtlichen Begehrens bzw. des Rechtsstreits, prozessuale Situation, Gericht, Zeitpunkt der Anhängigkeit, Prozesslage; das Aktenzeichen ist überflüssig.\n\nBeispiel: „Ich halte meinen Aktenvortrag aus anwaltlicher Sicht. Bei mir erschien die Mandantin, Frau Scholz aus Braunschweig. Sie ist Beklagte in einem Rechtsstreit vor dem Amtsgericht Braunschweig und wird von der Klägerin, der Fa. Müller, auf Zahlung eines Restwerklohns in Höhe von 500 Euro in Anspruch genommen.“",
+  "id": "zivilgericht-0220",
+  "ts": "2026-09-30T20:18:26.024132Z"
+}

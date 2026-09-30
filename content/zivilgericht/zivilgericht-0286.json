@@ -1,0 +1,22 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "typ": "begriffe",
+  "reihenfolge": false,
+  "frage": "Was prüft der Vorsitzende bzw. Abteilungsrichter im Hinblick auf die Wahl des Verfahrensgangs (§ 272 Abs. 2 ZPO)?",
+  "antworten": [
+    "Zuständigkeit",
+    "Ordnungsgemäße Klageerhebung",
+    "Vorschuss",
+    "Sonstige Prozessvoraussetzungen",
+    "Schlüssigkeit"
+  ],
+  "falsche": [
+    "Erheblichkeit",
+    "Beweisbedürftigkeit",
+    "Verjährung"
+  ],
+  "erklaerung": "Nach Eingang des Vorschusses (§ 12 Abs. 1 S. 1 GKG) wird die Sache dem Vorsitzenden bzw. Abteilungsrichter vorgelegt. Er prüft Zuständigkeit, ordnungsgemäße Klageerhebung, Vorschuss, sonstige Prozessvoraussetzungen und Schlüssigkeit und wählt den Verfahrensgang: früher erster Termin (§ 275 ZPO) oder schriftliches Vorverfahren (§ 276 ZPO). Ausnahme: PKH-Antrag.\n\nDie Zustellung selbst hängt nur von Vorschusszahlung und formellen Mindestanforderungen ab, nicht von Zulässigkeit oder Schlüssigkeit.",
+  "id": "zivilgericht-0286",
+  "ts": "2026-09-30T20:18:26.028908Z"
+}

@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wie unterscheiden sich Sach- und Prozessanträge hinsichtlich Verlesung und Protokollierung?",
+  "antworten": [
+    "Sachanträge: verlesen oder Bezugnahme, stets protokollieren; Prozessanträge: Bezugnahme genügt, Protokollierung nicht zwingend",
+    "Sachanträge: stets wörtlich verlesen und protokollieren; Prozessanträge: Bezugnahme genügt, stets protokollieren",
+    "Sachanträge: verlesen oder Bezugnahme, Protokollierung nicht zwingend; Prozessanträge: stets verlesen und protokollieren",
+    "Beide: verlesen oder Bezugnahme, stets protokollieren"
+  ],
+  "erklaerung": "Sachanträge müssen grundsätzlich verlesen werden (§ 297 Abs. 1 ZPO); es genügt jedoch die Bezugnahme auf einen vorbereitenden Schriftsatz (§ 297 Abs. 2 ZPO). Sie müssen protokolliert werden (§ 160 Abs. 3 Nr. 2 ZPO).\n\nProzessanträge müssen nicht verlesen werden; erforderlich ist aber zumindest die Bezugnahme auf einen vorbereitenden Schriftsatz (§ 137 Abs. 3 ZPO). Sie können, müssen aber nicht protokolliert werden (§ 160 Abs. 2 ZPO).",
+  "id": "zivilgericht-0271",
+  "ts": "2026-09-30T20:18:26.027878Z"
+}

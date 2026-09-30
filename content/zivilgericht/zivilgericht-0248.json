@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Wie bewerten Prüfer Problemerörterungen, auf die es für die Lösung nicht ankommt?",
+  "antworten": [
+    "Als überflüssig und damit falsch",
+    "Als neutral, sie werden nicht bewertet",
+    "Als positiv, soweit sie zutreffend sind",
+    "Als positiv, soweit sie in einem Hilfsgutachten stehen"
+  ],
+  "erklaerung": "Der Prüfer kontrolliert, ob Tatbestand und Entscheidungsgründe miteinander korrespondieren und die Kernprobleme eigenständig begründet sind. Problemerörterungen, auf die es für die Lösung nicht ankommt oder die aus Leerformeln und reinen Zitaten bestehen, sind überflüssig und damit falsch. Auch in den Entscheidungsgründen sind nicht entscheidungserhebliche Gesichtspunkte nicht umfänglich zu erörtern.\n\nDie Korrektur erfolgt durch Praktiker, die eine runde, in sich geschlossene Lösung in leicht lesbarem Stil erwarten. Das Rubrum ist der Einstieg in die Bewertung; Flüchtigkeitsfehler sind dort unbedingt zu vermeiden.",
+  "id": "zivilgericht-0248",
+  "ts": "2026-09-30T20:18:26.026273Z"
+}

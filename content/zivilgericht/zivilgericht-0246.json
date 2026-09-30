@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Welchen Teilen des Urteils entsprechen Entscheidungsvorschlag und Prozessstation des Gutachtens?",
+  "antworten": [
+    "Entscheidungsvorschlag: Ergebnis vorweg; Prozessstation: ggf. Zulässigkeit",
+    "Entscheidungsvorschlag: Tenor; Prozessstation: ggf. Zulässigkeit",
+    "Entscheidungsvorschlag: Ergebnis vorweg; Prozessstation: Rubrum",
+    "Entscheidungsvorschlag: Tenor; Prozessstation: Rubrum"
+  ],
+  "erklaerung": "Zuordnung Gutachten → Urteil: Tatbestand → Tatbestand; Tenorierungsstation → Tenor; Entscheidungsvorschlag → Ergebnis vorweg in den Entscheidungsgründen; Auslegungsstation → ggf. Auslegung des Klägerbegehrens; Prozessstation → ggf. Zulässigkeit der Klage; Kläger-, Beklagten- und Beweisstation → Begründetheit der Klage. Eingangsformel und Rubrum haben im Gutachten keine Entsprechung.",
+  "id": "zivilgericht-0246",
+  "ts": "2026-09-30T20:18:26.026157Z"
+}

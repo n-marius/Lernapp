@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wie werden die Parteien bei einer Widerklage im Rubrum einerseits und in Tenor, Tatbestand und Entscheidungsgründen andererseits bezeichnet?",
+  "antworten": [
+    "Rubrum: „Kläger und Widerbeklagter“; sonst nur Kläger bzw. Beklagter",
+    "Rubrum und übriges Urteil: durchgehend „Kläger und Widerbeklagter“",
+    "Rubrum: nur Kläger bzw. Beklagter; sonst „Kläger und Widerbeklagter“",
+    "Rubrum: „Widerbeklagter“; sonst nur Widerkläger bzw. Widerbeklagter"
+  ],
+  "erklaerung": "Die Parteirollen werden im Rubrum rechtsbündig in Kommata oder Gedankenstrichen angegeben, z. B. „Kläger und Widerbeklagter“, „Beklagter und Widerkläger“. In Tenor, Tatbestand und Entscheidungsgründen wird nur die ursprüngliche Bezeichnung als Kläger und Beklagter verwendet.",
+  "id": "zivilgericht-0268",
+  "ts": "2026-09-30T20:18:26.027586Z"
+}

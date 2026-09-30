@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Welches Gericht ist zuständig, wenn der Kläger eine vor dem LG erhobene Klage über 11.000 Euro auf 3.000 Euro reduziert?",
+  "antworten": [
+    "Weiterhin das LG (§§ 4 Abs. 1, 261 Abs. 3 Nr. 2 ZPO)",
+    "Das AG nach Verweisung auf Antrag (§ 506 ZPO entsprechend)",
+    "Das AG nach Verweisung von Amts wegen (§ 281 ZPO)",
+    "Das LG nur bei rügeloser Einlassung (§ 39 ZPO)"
+  ],
+  "erklaerung": "Der Rechtsstreit bleibt beim LG (§§ 4 Abs. 1, 261 Abs. 3 Nr. 2 ZPO), da eine dem § 506 ZPO entsprechende Norm fehlt. Wird das LG tätig, obwohl das AG zuständig wäre, hält die ZPO die Beteiligten nicht für benachteiligt (Anwaltszwang, Kollegialbesetzung, Rechtszug zum OLG; vgl. auch § 513 Abs. 2 ZPO).",
+  "id": "zivilgericht-0291",
+  "ts": "2026-09-30T20:18:26.029308Z"
+}

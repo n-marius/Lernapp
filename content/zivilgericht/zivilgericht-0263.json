@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Weshalb ist im Rubrum der Tag des Schlusses der mündlichen Verhandlung anzugeben?",
+  "antworten": [
+    "Wegen der Präklusion von Einwendungen im Vollstreckungsverfahren (§ 767 Abs. 2 ZPO)",
+    "Wegen des Beginns der Berufungsfrist (§ 517 ZPO)",
+    "Wegen des Beginns der Verzinsung von Prozesszinsen (§ 291 BGB)",
+    "Wegen der Frist für die Urteilsverkündung (§ 310 Abs. 1 ZPO)"
+  ],
+  "erklaerung": "§ 313 Abs. 1 Nr. 3 ZPO verlangt die Angabe des Tages, an dem die mündliche Verhandlung geschlossen wurde. Hintergrund ist § 767 Abs. 2 ZPO: Einwendungen sind nur zulässig, soweit ihre Gründe nach dem Schluss der letzten mündlichen Verhandlung entstanden sind.",
+  "id": "zivilgericht-0263",
+  "ts": "2026-09-30T20:18:26.027289Z"
+}

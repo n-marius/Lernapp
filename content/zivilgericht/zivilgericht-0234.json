@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Was ist in den Entscheidungsgründen zu erörtern, wenn die Klage wegen einer Einrede abgewiesen wird?",
+  "antworten": [
+    "Nur die einredebegründenden Merkmale; Ausnahme: Aufrechnung",
+    "Anspruchsbegründende und einredebegründende Merkmale; Ausnahme: Verjährung",
+    "Nur die einredebegründenden Merkmale; Ausnahme: Verjährung",
+    "Anspruchsbegründende und einredebegründende Merkmale; Ausnahme: Aufrechnung"
+  ],
+  "erklaerung": "Bei Klageabweisung wegen einer Einrede interessiert grundsätzlich nicht, ob die anspruchsbegründenden Tatsachen vorliegen; es werden nur alle einredebegründenden Merkmale geprüft.\n\nAusnahme ist die Aufrechnung: Wegen der Aufrechnungslage und der Rechtskraftwirkung (§ 322 Abs. 2 ZPO) muss die Klageforderung festgestellt werden.",
+  "id": "zivilgericht-0234",
+  "ts": "2026-09-30T20:18:26.025281Z"
+}

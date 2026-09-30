@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wie lautet der Ergebnissatz zu Beginn der Entscheidungsgründe bei teilweise begründeter Klage, deren Zulässigkeit unproblematisch ist?",
+  "antworten": [
+    "„Die Klage ist in Höhe von … begründet, im Übrigen unbegründet.“",
+    "„Die Klage ist zulässig und in Höhe von … begründet, im Übrigen unbegründet.“",
+    "„Die Klage ist zulässig, aber nur teilweise begründet.“",
+    "„Die Klage hatte in Höhe von … Erfolg, im Übrigen war sie abzuweisen.“"
+  ],
+  "erklaerung": "Wird die Zulässigkeit mangels Problems nicht erörtert, wird sie auch im Ergebnissatz nicht genannt. „Zulässig und begründet“ bzw. „zulässig, aber unbegründet“ passt nur, wenn Zulässigkeit und Begründetheit erörtert werden; bei unzulässiger Klage: „Die Klage ist unzulässig.“ Zeitform ist das Präsens, da das Urteil in der Gegenwart ergeht.",
+  "id": "zivilgericht-0237",
+  "ts": "2026-09-30T20:18:26.025484Z"
+}

@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Bis zu welcher Dauer sind der Partei zuzurechnende Verzögerungen für eine Zustellung „demnächst“ (§ 167 ZPO) nach dem BGH hinnehmbar?",
+  "antworten": [
+    "Etwa 14 Tage",
+    "Etwa drei Tage",
+    "Etwa ein Monat",
+    "Etwa drei Monate"
+  ],
+  "erklaerung": "Die Verjährung wird durch Klageerhebung gehemmt (§ 204 Abs. 1 Nr. 1 BGB), also durch Zustellung (§ 253 Abs. 1 ZPO). Nach § 167 ZPO wirkt die Zustellung auf den Eingang der Klage zurück, wenn sie demnächst erfolgt. Das ist der Fall, wenn sich der Partei zuzurechnende Verzögerungen in einem hinnehmbaren Rahmen von ca. 14 Tagen halten (BGH NJW 2015, 2666).\n\nBeispiel: Verjährungsende 31.12., Eingang der Klage mit Vorschuss am 30.12., Zustellung am 09.01. – rechtzeitig, da der Kläger den Vorschuss unverzüglich gezahlt und keine Verzögerung verursacht hat.",
+  "id": "zivilgericht-0295",
+  "ts": "2026-09-30T20:18:26.029680Z"
+}

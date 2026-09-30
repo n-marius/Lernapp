@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Wie werden unkomplizierte prozessuale Nebenentscheidungen in den Entscheidungsgründen begründet?",
+  "antworten": [
+    "Kurz durch Nennung der Normen am Ende der Entscheidungsgründe",
+    "Ausführlich mit Berechnung der Kostenquote am Ende",
+    "Kurz durch Nennung der Normen am Anfang der Entscheidungsgründe",
+    "Gar nicht, da sie sich aus dem Tenor ergeben"
+  ],
+  "erklaerung": "Prozessuale Nebenentscheidungen stehen am Ende und werden grundsätzlich nur kurz begründet, sofern sie unkompliziert sind, z. B.: „Die prozessualen Nebenentscheidungen beruhen auf §§ 91 Abs. 1 S. 1 Hs. 1, 709 S. 1, 2 ZPO.“",
+  "id": "zivilgericht-0239",
+  "ts": "2026-09-30T20:18:26.025635Z"
+}

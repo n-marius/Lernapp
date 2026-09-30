@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Setzt die Zuständigkeit des AG durch rügelose Einlassung nach einer Klageerweiterung über die Streitwertgrenze eine Belehrung des Beklagten voraus?",
+  "antworten": [
+    "Nein, da § 39 S. 2 ZPO nur § 504 ZPO nennt (str.)",
+    "Ja, da § 39 S. 2 ZPO auf § 506 ZPO verweist",
+    "Ja, da § 504 ZPO jede Zuständigkeitsänderung erfasst",
+    "Nein, da § 39 ZPO vor dem AG nicht anwendbar ist"
+  ],
+  "erklaerung": "Das AG wird durch rügelose Einlassung zuständig (§ 39 ZPO), und zwar auch dann, wenn der Amtsrichter den Beklagten nicht über die Folge belehrt hat, denn § 39 S. 2 ZPO nennt nur § 504 ZPO und nicht auch § 506 ZPO (str.).",
+  "id": "zivilgericht-0287",
+  "ts": "2026-09-30T20:18:26.029041Z"
+}

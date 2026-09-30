@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wie ist in den Entscheidungsgründen zu verfahren, wenn der Kläger einer Einrede des Beklagten eine durchgreifende eigene Einrede entgegensetzt?",
+  "antworten": [
+    "Offenlassen, ob die Voraussetzungen der Einrede des Beklagten vorliegen",
+    "Zunächst die Einrede des Beklagten bejahen, dann die des Klägers prüfen",
+    "Zunächst die Einrede des Beklagten vollständig prüfen, da sie logisch vorrangig ist",
+    "Beide Einreden nur im Tatbestand darstellen"
+  ],
+  "erklaerung": "Verteidigt sich der Kläger mit einer Einrede gegen die Einrede des Beklagten, kann offenbleiben, ob die Voraussetzungen der Einredenorm des Beklagten vorliegen, wenn die klägerische Einrede durchgreift.",
+  "id": "zivilgericht-0236",
+  "ts": "2026-09-30T20:18:26.025421Z"
+}

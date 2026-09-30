@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Setzt ein Anerkenntnisurteil einen Antrag des Klägers und eine mündliche Verhandlung voraus?",
+  "antworten": [
+    "Weder einen Antrag noch eine mündliche Verhandlung",
+    "Einen Antrag, aber keine mündliche Verhandlung",
+    "Keinen Antrag, aber eine mündliche Verhandlung",
+    "Einen Antrag und eine mündliche Verhandlung"
+  ],
+  "erklaerung": "Erkennt der Beklagte an, ergeht ein Anerkenntnisurteil auch ohne entsprechenden Antrag des Klägers (§ 307 S. 1 ZPO) und auch im schriftlichen Vorverfahren ohne mündliche Verhandlung (§ 307 S. 2 ZPO).",
+  "id": "zivilgericht-0229",
+  "ts": "2026-09-30T20:18:26.024924Z"
+}

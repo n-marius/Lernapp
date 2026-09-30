@@ -1,0 +1,22 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "typ": "begriffe",
+  "reihenfolge": true,
+  "frage": "Wie ist der Aktenvortrag aufgebaut?",
+  "antworten": [
+    "Einleitung",
+    "Sachbericht",
+    "Kurzvorschlag",
+    "Rechtliche Würdigung",
+    "Konkreter Antrag"
+  ],
+  "falsche": [
+    "Tenorierungsvorschlag",
+    "Beweisstation",
+    "Entscheidungsgründe"
+  ],
+  "erklaerung": "Festgelegter Aufbau: I. Einleitung (Mandantenbegehren und kurze Vorstellung des Rechtsstreits), II. Sachbericht (wie der Tatbestand: Unstreitiges – Streitiges – Anträge), III. Kurzvorschlag („Ich schlage vor, Klage zu erheben / sich gegen die Klage zu verteidigen“), IV. rechtliche Würdigung mit anwaltlicher prozessualer Zweckmäßigkeit, V. konkreter Antrag („Ich schlage daher folgenden konkreten Antrag vor …“; ein komplizierter Hauptsacheantrag darf schriftlich fixiert und abgelesen werden).",
+  "id": "zivilgericht-0216",
+  "ts": "2026-09-30T20:18:26.023746Z"
+}

@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Wie ist mit im Aktenvortrag vergessenen Ausführungen umzugehen?",
+  "antworten": [
+    "An passender Stelle darauf hinweisen und nachholen, sonst Nachtrag am Ende",
+    "Unerwähnt lassen, um den Vortrag nicht zu unterbrechen",
+    "Den Vortrag an der vergessenen Stelle neu beginnen",
+    "Erst im Vertiefungsgespräch auf Nachfrage ergänzen"
+  ],
+  "erklaerung": "Vergessene Ausführungen an passender Stelle mit Hinweis nachholen und dann an der unterbrochenen Stelle fortfahren. Irritiert das zu sehr, nach Ende des Vortrags einen Nachtrag machen oder zumindest darauf hinweisen, dass Punkt … vergessen wurde, dazu aber noch etwas gesagt werden kann.",
+  "id": "zivilgericht-0226",
+  "ts": "2026-09-30T20:18:26.024742Z"
+}

@@ -1,6 +1,6 @@
 {
-  "version": 15,
-  "contentHash": "9f3232858c741b74",
+  "version": 16,
+  "contentHash": "bbf8db78f8e9954b",
   "cards": [
     {
       "id": "zivilgericht-0004",
@@ -2115,7 +2115,7 @@
         "Durch freie Rede über den gesamten Streitstoff",
         "Automatisch mit Eingang der Schriftsätze bei Gericht"
       ],
-      "erklaerung": "Vorbereitende Schriftsätze wirken grds. erst, wenn sie in die mündliche Verhandlung eingeführt werden; § 137 Abs. 2 ZPO sieht an sich freie Rede vor. § 137 Abs. 3 ZPO erlaubt aber die Bezugnahme auf Dokumente; sie muss nicht ausdrücklich erklärt werden.\n\nMit der Stellung der Anträge wird in der Regel auf den gesamten bis zum Termin angefallenen Akteninhalt Bezug genommen (BGH NJW-RR 1996, 379). Die Bezugnahme steht dem mündlichen Vortrag gleich; ein „Plädoyer“ ist nicht nötig.",
+      "erklaerung": "Vorbereitende Schriftsätze wirken grds. erst, wenn sie in die mündliche Verhandlung eingeführt werden; § 137 Abs. 2 ZPO sieht an sich freie Rede vor. § 137 Abs. 3 ZPO erlaubt aber die Bezugnahme auf Dokumente; sie muss nicht ausdrücklich erklärt werden.\n\nMit der Stellung der Anträge wird in der Regel auf den gesamten bis zum Termin angefallenen Akteninhalt Bezug genommen (BGH NJW-RR 1996, 379). Die Bezugnahme steht dem mündlichen Vortrag gleich; ein „Plädoyer“ ist nicht nötig. Ein in einem vorbereitenden Schriftsatz enthaltener Beweisantrag muss daher in der mündlichen Verhandlung grundsätzlich nicht ausdrücklich wiederholt werden.",
       "creator": null,
       "ts": "2026-09-28T14:29:02.481762Z"
     },
@@ -2238,22 +2238,6 @@
       "erklaerung": "Nach dem Mündlichkeitsgrundsatz (u. a. § 128 Abs. 1 ZPO) ist nicht der schriftliche Akteninhalt, sondern nur der mündliche Parteivortrag bedeutsam; Schriftsätze kündigen Sachvortrag und Antrag nur an.\n\nAusnahmen sind z. B. das schriftliche Verfahren mit Zustimmung der Parteien (§ 128 Abs. 2 ZPO) und das Verfahren nach § 495a ZPO.",
       "creator": null,
       "ts": "2026-09-28T14:29:02.482624Z"
-    },
-    {
-      "id": "zivilgericht-0146",
-      "gebiet": "zivilgericht",
-      "prio": "normal",
-      "frage": "Wie ist mit übereinstimmend verwendeten Rechtsbegriffen wie „Kaufvertrag“ im Aktenauszug und Tatbestand umzugehen?",
-      "antworten": [
-        "In Tatsache und Rechtsansicht auflösen",
-        "Als unstreitige Tatsache übernehmen",
-        "Als bindende Rechtswürdigung übernehmen",
-        "Als reine Rechtsansicht ganz weglassen"
-      ],
-      "erklaerung": "Sog. Rechtstatsachen (z. B. „Die Parteien haben einen Kaufvertrag abgeschlossen“) sind zu vermeiden. Die rechtliche Einordnung nimmt allein das Gericht vor (etwa falsa demonstratio, Abgrenzung zu anderen Vertragsarten); die Parteien können sie nicht unstreitig stellen. Unstreitig werden kann nur die dahinterstehende Tatsache, z. B. die Unterzeichnung eines als Kaufvertrag bezeichneten Dokuments.\n\nDer Vortrag ist daher in Tatsache und Rechtsansicht zu trennen. Vgl. Kündigung: nicht „er kündigte“, sondern „er erklärte eine Kündigung“. Rechtsansichten sind im Aktenauszug zu streichen oder deutlich zu kennzeichnen („meint“, „vertritt die Ansicht“).",
-      "creator": null,
-      "korrigiert": "2026-09-30T13:34:57.000Z",
-      "ts": "2026-09-28T14:29:02.482852Z"
     },
     {
       "id": "zivilgericht-0147",
@@ -3323,6 +3307,1338 @@
       "erklaerung": "Heilbare Zulässigkeitsmängel können durch Rügeverzicht (§ 295 ZPO) oder rügelose Verhandlung des Beklagten (§§ 295, 39 ZPO) entfallen.\n\nUnheilbar sind wesentliche Verstöße gegen zwingende öffentlich-rechtliche Vorschriften, z. B. fehlerhafte Besetzung des Gerichts und Nichtbeachtung einer Notfrist (§ 224 Abs. 1 S. 2 ZPO).",
       "creator": null,
       "ts": "2026-09-28T15:24:06.695943Z"
+    },
+    {
+      "id": "zivilgericht-0216",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Wie ist der Aktenvortrag aufgebaut?",
+      "typ": "begriffe",
+      "reihenfolge": true,
+      "antworten": [
+        "Einleitung",
+        "Sachbericht",
+        "Kurzvorschlag",
+        "Rechtliche Würdigung",
+        "Konkreter Antrag"
+      ],
+      "falsche": [
+        "Tenorierungsvorschlag",
+        "Beweisstation",
+        "Entscheidungsgründe"
+      ],
+      "erklaerung": "Festgelegter Aufbau: I. Einleitung (Mandantenbegehren und kurze Vorstellung des Rechtsstreits), II. Sachbericht (wie der Tatbestand: Unstreitiges – Streitiges – Anträge), III. Kurzvorschlag („Ich schlage vor, Klage zu erheben / sich gegen die Klage zu verteidigen“), IV. rechtliche Würdigung mit anwaltlicher prozessualer Zweckmäßigkeit, V. konkreter Antrag („Ich schlage daher folgenden konkreten Antrag vor …“; ein komplizierter Hauptsacheantrag darf schriftlich fixiert und abgelesen werden).",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.023746Z"
+    },
+    {
+      "id": "zivilgericht-0217",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Welches Gewicht hat der Aktenvortrag im Zweiten Examen (Niedersachsen)?",
+      "antworten": [
+        "12 % der Gesamtnote, erste Leistung der mündlichen Prüfung",
+        "12 % der Gesamtnote, letzte Leistung der mündlichen Prüfung",
+        "20 % der Gesamtnote, erste Leistung der mündlichen Prüfung",
+        "20 % der Gesamtnote, letzte Leistung der mündlichen Prüfung"
+      ],
+      "erklaerung": "Der Aktenvortrag macht 12 % der Gesamtnote aus und ist die erste Leistung in der mündlichen Prüfung. Ziel ist, in freier Rede und mit wenig Vorbereitung zu rechtlichen Fragen fundiert Stellung zu nehmen.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.023904Z"
+    },
+    {
+      "id": "zivilgericht-0218",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wie sind Daten im Sachbericht des Aktenvortrags anzugeben?",
+      "antworten": [
+        "Grds. relativ („zwei Wochen später“); wichtige Daten konkret und als wichtig betont",
+        "Grds. konkret mit Datum, damit der Zuhörer die Fristen prüfen kann",
+        "Grds. gar nicht, Daten gehören in die rechtliche Würdigung",
+        "Grds. relativ; auch wichtige Daten nur relativ, um den Zuhörer nicht zu überfordern"
+      ],
+      "erklaerung": "Konkrete Daten nur ausnahmsweise nennen (besser: „innerhalb von 10 Tagen“, „zwei Wochen später“), auf wichtige Daten beschränken und beim Vortrag ausdrücklich betonen, dass diese wichtig sind. Das Datum der Klagezustellung nur mitteilen, wenn es für die Lösung darauf ankommt.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.023984Z"
+    },
+    {
+      "id": "zivilgericht-0219",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wie lange soll der Aktenvortrag dauern, und was geschieht bei Überschreitung?",
+      "antworten": [
+        "Höchstens 10 Minuten; bei deutlicher Überschreitung kann abgebrochen werden",
+        "Höchstens 12 Minuten; bei jeder Überschreitung wird abgebrochen",
+        "Höchstens 10 Minuten; eine Überschreitung ist unschädlich",
+        "Höchstens 15 Minuten; bei deutlicher Überschreitung kann abgebrochen werden"
+      ],
+      "erklaerung": "Der Vortrag soll 10 Minuten nicht überschreiten. Der Vorsitzende gibt ca. eine Minute vor Ablauf ein Zeichen, sofern das Ende nicht absehbar ist; danach ist der Vortrag zu Ende zu führen. Bei deutlicher Überschreitung kann der Vortrag abgebrochen werden. Es folgt ein kurzes Vertiefungsgespräch.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.024063Z"
+    },
+    {
+      "id": "zivilgericht-0220",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Welche Angaben gehören in den Einleitungssatz des Aktenvortrags?",
+      "typ": "begriffe",
+      "reihenfolge": false,
+      "antworten": [
+        "Namen und Wohnorte der Parteien",
+        "Gegenstand des Begehrens",
+        "Prozessuale Situation",
+        "Gericht",
+        "Zeitpunkt der Anhängigkeit"
+      ],
+      "falsche": [
+        "Aktenzeichen",
+        "Name des Richters",
+        "Streitwert"
+      ],
+      "erklaerung": "Der Einleitungssatz nennt die wesentlichen Daten der rechtlichen Situation: Namen und Wohnorte der Parteien, Gegenstand des rechtlichen Begehrens bzw. des Rechtsstreits, prozessuale Situation, Gericht, Zeitpunkt der Anhängigkeit, Prozesslage; das Aktenzeichen ist überflüssig.\n\nBeispiel: „Ich halte meinen Aktenvortrag aus anwaltlicher Sicht. Bei mir erschien die Mandantin, Frau Scholz aus Braunschweig. Sie ist Beklagte in einem Rechtsstreit vor dem Amtsgericht Braunschweig und wird von der Klägerin, der Fa. Müller, auf Zahlung eines Restwerklohns in Höhe von 500 Euro in Anspruch genommen.“",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.024132Z"
+    },
+    {
+      "id": "zivilgericht-0221",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Wonach richtet sich der Gegenstand des Aktenvortrags in Niedersachsen?",
+      "antworten": [
+        "Nach der Wahlstation; Eingrenzung bis spätestens zwei Monate vor deren Ende möglich",
+        "Nach der Zivilstation; Eingrenzung bis spätestens zwei Monate vor deren Ende möglich",
+        "Nach der Wahlstation; keine weitere Eingrenzung möglich",
+        "Nach Wahl des Prüfungsausschusses aus allen Pflichtstationen"
+      ],
+      "erklaerung": "Der Gegenstand richtet sich nach § 39 Abs. 2 S. 1 NJAVO nach der gewählten Wahlstation; eine weitere Eingrenzung ist nach Satz 2 bis spätestens zwei Monate vor Ende der Wahlstation möglich.\n\nNach den AG-Unterlagen sind nur Anwaltsvorträge vorgesehen; Situation kann insbesondere der Vortrag der Referendarin/des Referendars gegenüber dem Rechtsanwalt, die Fallschilderung gegenüber einem Kollegen oder die Beratung des Mandanten sein.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.024202Z"
+    },
+    {
+      "id": "zivilgericht-0222",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wie verhält sich der Umfang des Sachberichts zur rechtlichen Würdigung im Aktenvortrag?",
+      "antworten": [
+        "Der Sachbericht ist wesentlich kürzer als die rechtliche Würdigung",
+        "Sachbericht und rechtliche Würdigung sind etwa gleich lang",
+        "Der Sachbericht ist länger, da der Zuhörer den Fall nicht kennt",
+        "Der Sachbericht ist etwa ein Drittel so lang wie die rechtliche Würdigung"
+      ],
+      "erklaerung": "Die Sachverhaltsdarstellung sollte wesentlich kürzer sein als die rechtliche Würdigung. Aktenvorträge laufen normalerweise auf eine einzige rechtlich oder tatsächlich schwierige Anspruchsvoraussetzung bzw. Fragestellung hinaus; diese ist zu finden und zum Schwerpunkt zu machen.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.024412Z"
+    },
+    {
+      "id": "zivilgericht-0223",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Welche Unterlagen darf der Prüfling während des Aktenvortrags verwenden?",
+      "antworten": [
+        "Aktenstück und stichwortartige Notizen, keine ausformulierte Ausarbeitung",
+        "Aktenstück und ausformulierte Ausarbeitung, keine Kommentare",
+        "Nur stichwortartige Notizen, nicht das Aktenstück",
+        "Nur das Aktenstück, keine eigenen Notizen"
+      ],
+      "erklaerung": "Der Prüfling darf das Aktenstück (Zeit- oder Zahlenangaben, Urkunden, Anträge, wenn es auf den Wortlaut ankommt) und seine stichwortartigen Notizen verwenden. Nicht gestattet ist, eine schriftliche Ausarbeitung abzulesen. Tipp: die Akte bewusst zuschlagen und nur für wörtliche Zitate aufschlagen („Ich zitiere wörtlich …“).",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.024489Z"
+    },
+    {
+      "id": "zivilgericht-0224",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Was ist im anwaltlichen Aktenvortrag vorzuschlagen, wenn das Begehren des Mandanten keine Aussicht auf Erfolg hat?",
+      "antworten": [
+        "Je nach Zweckmäßigkeit: von Klage abraten, Versäumnisurteil ergehen lassen oder anerkennen",
+        "Stets Klageerhebung bzw. Verteidigung, um keine Rechte zu verlieren",
+        "Stets Mandatsniederlegung wegen fehlender Erfolgsaussicht",
+        "Stets Abschluss eines Vergleichs"
+      ],
+      "erklaerung": "Grundfälle sind der Vortrag aus Sicht des Klägers und aus Sicht des Beklagten. Der Aktenvortrag kann auch so konzipiert sein, dass das Begehren des Mandanten keine Aussicht auf Erfolg hat; dann je nach prozessualer Zweckmäßigkeit Abraten von der Klageerhebung, Versäumnisurteil ergehen lassen oder Anerkenntnis. Das ist aber eher selten.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.024557Z"
+    },
+    {
+      "id": "zivilgericht-0225",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "In welchem Stil ist die rechtliche Würdigung im Aktenvortrag zu halten?",
+      "antworten": [
+        "Grds. Urteilsstil, problematische Punkte im Gutachtenstil",
+        "Durchgehend Gutachtenstil, Unproblematisches kurz",
+        "Durchgehend Urteilsstil",
+        "Grds. Gutachtenstil, das Ergebnis jeder Station im Urteilsstil"
+      ],
+      "erklaerung": "Die rechtliche Würdigung ist eine Mischform zwischen Entscheidungsgründen und Gutachten: grundsätzlich Urteilsstil, problematische Punkte im Gutachtenstil (bei mehreren Problemen diese zur Übersicht aufzählen und nacheinander abarbeiten). Die Darstellung ist einschichtig, mit Schwerpunkten; enthalten sind alle tragenden Gesichtspunkte und in Kernpunkten die darüber hinausgehenden Erwägungen, die in einem Gutachten anzuführen wären. Nebenansprüche und prozessuale Nebenentscheidungen werden abgehandelt.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.024668Z"
+    },
+    {
+      "id": "zivilgericht-0226",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Wie ist mit im Aktenvortrag vergessenen Ausführungen umzugehen?",
+      "antworten": [
+        "An passender Stelle darauf hinweisen und nachholen, sonst Nachtrag am Ende",
+        "Unerwähnt lassen, um den Vortrag nicht zu unterbrechen",
+        "Den Vortrag an der vergessenen Stelle neu beginnen",
+        "Erst im Vertiefungsgespräch auf Nachfrage ergänzen"
+      ],
+      "erklaerung": "Vergessene Ausführungen an passender Stelle mit Hinweis nachholen und dann an der unterbrochenen Stelle fortfahren. Irritiert das zu sehr, nach Ende des Vortrags einen Nachtrag machen oder zumindest darauf hinweisen, dass Punkt … vergessen wurde, dazu aber noch etwas gesagt werden kann.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.024742Z"
+    },
+    {
+      "id": "zivilgericht-0227",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Wie sind die Beteiligten im Aktenvortrag sprachlich zu bezeichnen?",
+      "antworten": [
+        "Möglichst mit Namen bzw. einheitlicher Parteirolle, wenig Pronomen, aktiv",
+        "Möglichst mit Pronomen, um den Vortrag flüssig zu halten",
+        "Abwechselnd mit Namen und Parteirolle, um Wiederholungen zu vermeiden",
+        "Möglichst passivisch, um Parteinahme zu vermeiden"
+      ],
+      "erklaerung": "Nicht zu oft Personalpronomen verwenden, sondern die Beteiligten (Kläger, Beklagter, Zeugen) so oft wie möglich mit Namen bzw. der im Vortrag generell verwendeten Parteirolle benennen; nicht passivisch formulieren. Außerdem: frei, nicht monoton, nicht zu schnell und mit Betonung sprechen, Blickkontakt zu allen Zuhörern, kurze Sätze, im Sachverhalt „Schlaglichter“ auf wichtige Elemente setzen.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.024806Z"
+    },
+    {
+      "id": "zivilgericht-0228",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wo wird der Inhalt von Zeugenaussagen im Aktenvortrag wiedergegeben?",
+      "antworten": [
+        "In der rechtlichen Würdigung; im Sachbericht genügt ein Verweis darauf",
+        "Im Sachbericht nach dem streitigen Vortrag",
+        "Im Sachbericht nach den Anträgen",
+        "Gar nicht, da der Vortrag aus anwaltlicher Sicht gehalten wird"
+      ],
+      "erklaerung": "Der Inhalt von Zeugenaussagen muss nicht in der Sachverhaltsschilderung wiedergegeben werden; besser ist ein Verweis auf deren Darstellung in der rechtlichen Würdigung. Auch konkrete Bezugnahmen auf Schriftsätze unterbleiben; wegen der Einzelheiten wird auf die rechtliche Würdigung verwiesen. Vertragstexte werden nur wörtlich wiedergegeben, wenn es auf den genauen Wortlaut ankommt.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.024867Z"
+    },
+    {
+      "id": "zivilgericht-0229",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Setzt ein Anerkenntnisurteil einen Antrag des Klägers und eine mündliche Verhandlung voraus?",
+      "antworten": [
+        "Weder einen Antrag noch eine mündliche Verhandlung",
+        "Einen Antrag, aber keine mündliche Verhandlung",
+        "Keinen Antrag, aber eine mündliche Verhandlung",
+        "Einen Antrag und eine mündliche Verhandlung"
+      ],
+      "erklaerung": "Erkennt der Beklagte an, ergeht ein Anerkenntnisurteil auch ohne entsprechenden Antrag des Klägers (§ 307 S. 1 ZPO) und auch im schriftlichen Vorverfahren ohne mündliche Verhandlung (§ 307 S. 2 ZPO).",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.024924Z"
+    },
+    {
+      "id": "zivilgericht-0230",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Welche Wirkungen hat die Antragstellung in der mündlichen Verhandlung?",
+      "typ": "begriffe",
+      "reihenfolge": false,
+      "antworten": [
+        "Bindung des Gerichts (§ 308 ZPO)",
+        "Verlust von Verfahrensrügen (§ 295 ZPO)",
+        "Rügelose Einlassung (§ 39 ZPO)",
+        "Verlust des Ablehnungsrechts (§ 43 ZPO)",
+        "Einwilligungsbedarf für Klagerücknahme (§ 269 ZPO)"
+      ],
+      "falsche": [
+        "Rechtshängigkeit (§ 261 ZPO)",
+        "Verjährungshemmung (§ 204 BGB)",
+        "Präklusion (§ 296 ZPO)"
+      ],
+      "erklaerung": "Die Antragstellung grenzt das Rechtsschutzbegehren ein (§ 308 ZPO) und wirkt prozessgestaltend: Die Partei verliert das Recht, Verfahrensfehler zu rügen (z. B. §§ 39, 43, 295 ZPO), bzw. einseitig über das Prozessrechtsverhältnis zu verfügen (§§ 263, 269 ZPO).\n\nRechtshängigkeit und Verjährungshemmung treten dagegen schon mit Zustellung der Klage ein.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.025038Z"
+    },
+    {
+      "id": "zivilgericht-0231",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Wie ist nach dem üblichen Bearbeitervermerk zu verfahren, wenn die Klage für ganz oder teilweise unzulässig gehalten wird?",
+      "antworten": [
+        "Insoweit ist zur Begründetheit in einem Hilfsgutachten Stellung zu nehmen",
+        "Die Begründetheit ist insoweit nicht zu prüfen",
+        "Die Begründetheit ist insoweit im Hauptgutachten mitzuprüfen",
+        "Es ist insoweit von der Zulässigkeit der Klage auszugehen"
+      ],
+      "erklaerung": "Kommt der Bearbeiter ganz oder teilweise zur Unzulässigkeit der Klage, ist insoweit zur Begründetheit in einem Hilfsgutachten Stellung zu nehmen. Das Gutachten endet bei Entscheidungsreife mit einem Tenorierungsvorschlag einschließlich der prozessualen Nebenentscheidungen; dem Gutachten ist eine Sachverhaltsschilderung nach § 313 Abs. 2 ZPO voranzustellen.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.025109Z"
+    },
+    {
+      "id": "zivilgericht-0232",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Wovon ist nach dem üblichen Bearbeitervermerk auszugehen, wenn ein richterlicher Hinweis für erforderlich gehalten wird?",
+      "antworten": [
+        "Der Hinweis wurde erteilt, blieb aber erfolglos",
+        "Der Hinweis wurde erteilt und von der Partei befolgt",
+        "Der Hinweis ist im Entscheidungsvorschlag nachzuholen",
+        "Der Hinweis ist entbehrlich, da die Partei anwaltlich vertreten ist"
+      ],
+      "erklaerung": "Nach dem üblichen Bearbeitervermerk ist, wenn ein richterlicher Hinweis für erforderlich gehalten wird, davon auszugehen, dass der Hinweis erfolglos erteilt wurde. Entsprechend gilt eine für erforderlich gehaltene weitere Beweisaufnahme als durchgeführt, aber für die beweisbelastete Partei unergiebig.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.025169Z"
+    },
+    {
+      "id": "zivilgericht-0233",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Welche Anspruchsgrundlagen und Merkmale sind bei Klageabweisung in den Entscheidungsgründen zu erörtern?",
+      "antworten": [
+        "Alle in Betracht kommenden, jeweils grds. nur ein verneintes Merkmal",
+        "Nur die naheliegendste, mit allen Merkmalen",
+        "Alle denkbaren, auch fernliegende, jeweils mit allen Merkmalen",
+        "Nur die naheliegendste, mit allen verneinten Merkmalen"
+      ],
+      "erklaerung": "Bei Klageabweisung müssen alle in Betracht kommenden Anspruchsgrundlagen erörtert werden, nicht aber fernliegende. Grundsätzlich ist nur das zu verneinende Tatbestandsmerkmal zu erörtern; liegen mehrere nicht vor, wird dasjenige ausgewählt, das am leichtesten zu verneinen ist.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.025224Z"
+    },
+    {
+      "id": "zivilgericht-0234",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Was ist in den Entscheidungsgründen zu erörtern, wenn die Klage wegen einer Einrede abgewiesen wird?",
+      "antworten": [
+        "Nur die einredebegründenden Merkmale; Ausnahme: Aufrechnung",
+        "Anspruchsbegründende und einredebegründende Merkmale; Ausnahme: Verjährung",
+        "Nur die einredebegründenden Merkmale; Ausnahme: Verjährung",
+        "Anspruchsbegründende und einredebegründende Merkmale; Ausnahme: Aufrechnung"
+      ],
+      "erklaerung": "Bei Klageabweisung wegen einer Einrede interessiert grundsätzlich nicht, ob die anspruchsbegründenden Tatsachen vorliegen; es werden nur alle einredebegründenden Merkmale geprüft.\n\nAusnahme ist die Aufrechnung: Wegen der Aufrechnungslage und der Rechtskraftwirkung (§ 322 Abs. 2 ZPO) muss die Klageforderung festgestellt werden.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.025281Z"
+    },
+    {
+      "id": "zivilgericht-0235",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Wie sind die Entscheidungsgründe eines Zivilurteils aufgebaut?",
+      "typ": "begriffe",
+      "reihenfolge": true,
+      "antworten": [
+        "Gesamtergebnis",
+        "ggf. Auslegung des Klageantrags",
+        "Sonstige Vorfragen",
+        "Zulässigkeit",
+        "Begründetheit: Hauptanspruch",
+        "Begründetheit: Nebenanspruch",
+        "Prozessuale Nebenentscheidungen"
+      ],
+      "falsche": [
+        "Beweisstation",
+        "Kurze Sachverhaltsdarstellung"
+      ],
+      "erklaerung": "Die Entscheidungsgründe sind einschichtig aufgebaut; eine Gliederung nach Stationen findet nicht statt. Sonstige Vorfragen sind z. B. Klageänderung oder teilweise Klagerücknahme. Bei mehreren Klageanträgen (objektive Klagehäufung) werden diese grundsätzlich getrennt nacheinander abgearbeitet.\n\nAm Anfang der rechtlichen Ausführungen wird stets die Anspruchsgrundlage genannt, die bejaht oder abgelehnt wird („Dem Kläger steht gegen den Beklagten ein Anspruch auf Zahlung von … EUR aus § 433 Abs. 2 BGB zu.“). Die prozessualen Nebenentscheidungen werden am Ende kurz behandelt.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.025348Z"
+    },
+    {
+      "id": "zivilgericht-0236",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wie ist in den Entscheidungsgründen zu verfahren, wenn der Kläger einer Einrede des Beklagten eine durchgreifende eigene Einrede entgegensetzt?",
+      "antworten": [
+        "Offenlassen, ob die Voraussetzungen der Einrede des Beklagten vorliegen",
+        "Zunächst die Einrede des Beklagten bejahen, dann die des Klägers prüfen",
+        "Zunächst die Einrede des Beklagten vollständig prüfen, da sie logisch vorrangig ist",
+        "Beide Einreden nur im Tatbestand darstellen"
+      ],
+      "erklaerung": "Verteidigt sich der Kläger mit einer Einrede gegen die Einrede des Beklagten, kann offenbleiben, ob die Voraussetzungen der Einredenorm des Beklagten vorliegen, wenn die klägerische Einrede durchgreift.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.025421Z"
+    },
+    {
+      "id": "zivilgericht-0237",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wie lautet der Ergebnissatz zu Beginn der Entscheidungsgründe bei teilweise begründeter Klage, deren Zulässigkeit unproblematisch ist?",
+      "antworten": [
+        "„Die Klage ist in Höhe von … begründet, im Übrigen unbegründet.“",
+        "„Die Klage ist zulässig und in Höhe von … begründet, im Übrigen unbegründet.“",
+        "„Die Klage ist zulässig, aber nur teilweise begründet.“",
+        "„Die Klage hatte in Höhe von … Erfolg, im Übrigen war sie abzuweisen.“"
+      ],
+      "erklaerung": "Wird die Zulässigkeit mangels Problems nicht erörtert, wird sie auch im Ergebnissatz nicht genannt. „Zulässig und begründet“ bzw. „zulässig, aber unbegründet“ passt nur, wenn Zulässigkeit und Begründetheit erörtert werden; bei unzulässiger Klage: „Die Klage ist unzulässig.“ Zeitform ist das Präsens, da das Urteil in der Gegenwart ergeht.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.025484Z"
+    },
+    {
+      "id": "zivilgericht-0238",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wie sind Nebenansprüche (z. B. Verzugszinsen nach § 288 Abs. 1 BGB) in den Entscheidungsgründen darzustellen?",
+      "antworten": [
+        "Kurz, aber mit Subsumtion (insb. Zeitpunkt des Verzugseintritts)",
+        "Nur durch Nennung der Norm ohne Subsumtion",
+        "Ausführlich mit allen Tatbestandsmerkmalen",
+        "Nur bei den prozessualen Nebenentscheidungen"
+      ],
+      "erklaerung": "Nebenansprüche (§ 288 Abs. 1 BGB) werden grundsätzlich nur kurz dargestellt, aber subsumiert; dazu gehört insbesondere der Zeitpunkt des Verzugseintritts.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.025542Z"
+    },
+    {
+      "id": "zivilgericht-0239",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Wie werden unkomplizierte prozessuale Nebenentscheidungen in den Entscheidungsgründen begründet?",
+      "antworten": [
+        "Kurz durch Nennung der Normen am Ende der Entscheidungsgründe",
+        "Ausführlich mit Berechnung der Kostenquote am Ende",
+        "Kurz durch Nennung der Normen am Anfang der Entscheidungsgründe",
+        "Gar nicht, da sie sich aus dem Tenor ergeben"
+      ],
+      "erklaerung": "Prozessuale Nebenentscheidungen stehen am Ende und werden grundsätzlich nur kurz begründet, sofern sie unkompliziert sind, z. B.: „Die prozessualen Nebenentscheidungen beruhen auf §§ 91 Abs. 1 S. 1 Hs. 1, 709 S. 1, 2 ZPO.“",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.025635Z"
+    },
+    {
+      "id": "zivilgericht-0240",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Darf in den Entscheidungsgründen offenbleiben, ob ein Anspruch entstanden ist, wenn er jedenfalls erloschen ist?",
+      "antworten": [
+        "Ja, logisch vorrangige Fragen, die das Ergebnis nicht tragen, können offenbleiben",
+        "Nein, die Entstehung des Anspruchs hat als Grundlage prozessualen Vorrang",
+        "Nein, offengelassen werden dürfen nur Fragen der Zulässigkeit",
+        "Ja, aber nur, wenn beide Parteien zur Entstehung nichts vorgetragen haben"
+      ],
+      "erklaerung": "Das Offenlassen von Fragen ist möglich und auch anzuwenden bei allen logisch vorrangigen Fragen, die das Ergebnis nicht tragen, z. B.: „Es kann dahinstehen, ob der Anspruch wirksam entstanden ist. Jedenfalls ist der evtl. entstandene Anspruch gemäß § 362 BGB durch Erfüllung erloschen.“ Ausnahme sind Fragen mit prozessualem Vorrang (Zulässigkeit, Hauptantrag, Hauptverteidigung vor Hilfsaufrechnung).",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.025712Z"
+    },
+    {
+      "id": "zivilgericht-0241",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Welche Fragen haben prozessualen Vorrang, sodass die vorrangige Frage nicht offengelassen werden darf?",
+      "typ": "begriffe",
+      "reihenfolge": false,
+      "antworten": [
+        "Zulässigkeit vor Begründetheit",
+        "Hauptantrag vor Hilfsantrag",
+        "Hauptverteidigung vor Hilfsaufrechnung"
+      ],
+      "falsche": [
+        "Vertragliche vor gesetzlichen Ansprüchen",
+        "Einwendungen vor Einreden"
+      ],
+      "erklaerung": "Bei prozessualem Vorrang muss die vorrangige Frage entschieden werden. Falsch wäre daher: „Es kann dahinstehen, ob die Klage zulässig ist. In jedem Fall ist sie unbegründet.“\n\nIm Übrigen können logisch vorrangige Fragen, die das Ergebnis nicht tragen, offengelassen werden.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.025782Z"
+    },
+    {
+      "id": "zivilgericht-0242",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Welche Anspruchsgrundlagen sind in den Entscheidungsgründen zu erörtern, wenn der Klage stattgegeben wird?",
+      "antworten": [
+        "Nur eine, und zwar die am leichtesten zu begründende; innerhalb ihrer alle Merkmale",
+        "Alle einschlägigen; innerhalb jeder nur die problematischen Merkmale",
+        "Nur eine, und zwar die für den Kläger günstigste; innerhalb ihrer nur die problematischen Merkmale",
+        "Alle einschlägigen, beginnend mit vertraglichen; innerhalb jeder alle Merkmale"
+      ],
+      "erklaerung": "Bei begründeter Klage wird nur die Anspruchsgrundlage erörtert, aus der sich der Anspruch ergibt; bei mehreren möglichen ist diejenige zu wählen, die am leichtesten zu begründen ist. Innerhalb der bejahten Anspruchsgrundlage müssen alle Tatbestandsmerkmale erörtert werden, unproblematische aber nur kurz.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.025847Z"
+    },
+    {
+      "id": "zivilgericht-0243",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wie wird eine vom Beklagten erhobene, nicht durchgreifende Einrede bei stattgebendem Urteil erörtert?",
+      "antworten": [
+        "Nur das verneinte Merkmal der Einrede wird erörtert",
+        "Alle Merkmale der Einrede werden erörtert, unproblematische kurz",
+        "Die Einrede wird nicht erörtert, da sie nicht zu den tragenden Gründen gehört",
+        "Die Einrede wird nur erwähnt und mit Verweis auf den Tatbestand abgelehnt"
+      ],
+      "erklaerung": "Beruft sich der Beklagte auf Einreden, wird nur das Merkmal erörtert, das verneint wird; die anderen gehören nicht zu den tragenden Gründen.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.025911Z"
+    },
+    {
+      "id": "zivilgericht-0244",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "In welcher Reihenfolge wird ein Anspruch in den Entscheidungsgründen dargestellt?",
+      "typ": "begriffe",
+      "reihenfolge": true,
+      "antworten": [
+        "Gesamtergebnis",
+        "Konkrete Rechtsfolge",
+        "Anspruchsgrundlage mit abstrakter Rechtsfolge",
+        "Abstrakte Tatbestandsvoraussetzung",
+        "Interpretation der Voraussetzung",
+        "Subsumtion",
+        "ggf. Tatsachenfeststellung"
+      ],
+      "falsche": [
+        "Ergebnisfeststellung am Ende",
+        "Obersatz als Frage"
+      ],
+      "erklaerung": "Beispiel: „Die zulässige Klage ist begründet.“ – „Der Kläger kann von dem Beklagten Zahlung von 7.000 EUR fordern.“ – „Der Beklagte haftet aus § 280 Abs. 1 BGB auf Schadensersatz.“ – „Ihn traf als Mieter eine aus § 535 BGB abzuleitende Obhutspflicht.“ – „Diese Pflicht gebietet …“ – „Diese Obhutspflicht hat der Beklagte verletzt. Er ist bei eisiger Kälte verreist, …“ – „Davon ist das Gericht nach dem Ergebnis der Beweisaufnahme überzeugt …“.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.025971Z"
+    },
+    {
+      "id": "zivilgericht-0245",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Wie werden Rechtsprechungs- und Literaturzitate in den Entscheidungsgründen dargestellt?",
+      "antworten": [
+        "In Klammern im Text; bei entscheidungserheblichem Meinungsstreit mit eigener Stellungnahme",
+        "In Fußnoten; bei entscheidungserheblichem Meinungsstreit mit eigener Stellungnahme",
+        "In Klammern im Text; bei herrschender Meinung genügt das Zitat als Begründung",
+        "In Fußnoten; bei herrschender Meinung genügt das Zitat als Begründung"
+      ],
+      "erklaerung": "Zitate stehen in Klammern, nicht in Fußnoten („so stRspr. des BGH, vgl. BGHZ 119, 204, 217 m. w. N.“). Sie können die Begründung nie ersetzen; zu einem Meinungsstreit ist daher eine eigene Stellungnahme abzugeben, wenn es auf ihn ankommt.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.026099Z"
+    },
+    {
+      "id": "zivilgericht-0246",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Welchen Teilen des Urteils entsprechen Entscheidungsvorschlag und Prozessstation des Gutachtens?",
+      "antworten": [
+        "Entscheidungsvorschlag: Ergebnis vorweg; Prozessstation: ggf. Zulässigkeit",
+        "Entscheidungsvorschlag: Tenor; Prozessstation: ggf. Zulässigkeit",
+        "Entscheidungsvorschlag: Ergebnis vorweg; Prozessstation: Rubrum",
+        "Entscheidungsvorschlag: Tenor; Prozessstation: Rubrum"
+      ],
+      "erklaerung": "Zuordnung Gutachten → Urteil: Tatbestand → Tatbestand; Tenorierungsstation → Tenor; Entscheidungsvorschlag → Ergebnis vorweg in den Entscheidungsgründen; Auslegungsstation → ggf. Auslegung des Klägerbegehrens; Prozessstation → ggf. Zulässigkeit der Klage; Kläger-, Beklagten- und Beweisstation → Begründetheit der Klage. Eingangsformel und Rubrum haben im Gutachten keine Entsprechung.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.026157Z"
+    },
+    {
+      "id": "zivilgericht-0247",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Worauf ist bei der Formulierung des Tenors in der Urteilsklausur besonders zu achten?",
+      "antworten": [
+        "Bestimmtheit, Vollstreckungsfähigkeit und umfassende Entscheidung über den Klageantrag",
+        "Knappheit, Verzicht auf Nebenentscheidungen und Verweis auf die Anträge",
+        "Bestimmtheit, Vollstreckungsfähigkeit und Begründung der Kostenquote",
+        "Übereinstimmung mit dem Antrag und Verweis auf die Entscheidungsgründe"
+      ],
+      "erklaerung": "Ein nicht hinreichend bestimmter, vollstreckungsfähiger Tenor kann die ganze Klausur unbrauchbar machen. Besondere Sorgfalt ist daher auf die Formulierung zu verwenden, insbesondere ist umfassend über den Klageantrag zu entscheiden (Klageabweisung im Übrigen).",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.026217Z"
+    },
+    {
+      "id": "zivilgericht-0248",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Wie bewerten Prüfer Problemerörterungen, auf die es für die Lösung nicht ankommt?",
+      "antworten": [
+        "Als überflüssig und damit falsch",
+        "Als neutral, sie werden nicht bewertet",
+        "Als positiv, soweit sie zutreffend sind",
+        "Als positiv, soweit sie in einem Hilfsgutachten stehen"
+      ],
+      "erklaerung": "Der Prüfer kontrolliert, ob Tatbestand und Entscheidungsgründe miteinander korrespondieren und die Kernprobleme eigenständig begründet sind. Problemerörterungen, auf die es für die Lösung nicht ankommt oder die aus Leerformeln und reinen Zitaten bestehen, sind überflüssig und damit falsch. Auch in den Entscheidungsgründen sind nicht entscheidungserhebliche Gesichtspunkte nicht umfänglich zu erörtern.\n\nDie Korrektur erfolgt durch Praktiker, die eine runde, in sich geschlossene Lösung in leicht lesbarem Stil erwarten. Das Rubrum ist der Einstieg in die Bewertung; Flüchtigkeitsfehler sind dort unbedingt zu vermeiden.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.026273Z"
+    },
+    {
+      "id": "zivilgericht-0249",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wann sollte in einer Zivilrechtsklausur spätestens mit dem Ausformulieren begonnen werden?",
+      "antworten": [
+        "Allerspätestens nach der Hälfte der Bearbeitungszeit",
+        "Allerspätestens nach einem Drittel der Bearbeitungszeit",
+        "Allerspätestens nach drei Vierteln der Bearbeitungszeit",
+        "Allerspätestens eine Stunde vor Ende der Bearbeitungszeit"
+      ],
+      "erklaerung": "Die Zeiteinteilung ist individuell durch Üben zu ermitteln; eine eigene Vorgabe ist zu machen und während der Bearbeitung konsequent zu überwachen („spätestens nach 2 Stunden anfangen auszuformulieren“, allerspätestens nach der Halbzeit). Hilfreich sind Kenntnis des Klausuraufbaus und von Standardproblemen (nicht in Details verlieren).",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.026332Z"
+    },
+    {
+      "id": "zivilgericht-0250",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Was bestimmt die Gliederung der Beklagtenstation in der Lösungsskizze?",
+      "antworten": [
+        "Die streitigen Behauptungen des Beklagten, geprüft gegenüber allen schlüssigen Ansprüchen",
+        "Die Anspruchsgrundlagen des Klägers, jeweils mit allen Einwendungen",
+        "Die Beweisangebote des Beklagten in der Reihenfolge ihres Vortrags",
+        "Die Rechtsansichten des Beklagten nach ihrer Schlagkraft"
+      ],
+      "erklaerung": "Lösungsskizze: Zulässigkeitsstation (Zuständigkeit, sonst nur problematische Punkte); Klägerstation (Grobgliederung nach in Betracht kommenden Anspruchsgrundlagen, Subsumtion); Beklagtenstation (streitige Behauptungen des Beklagten bestimmen die Gliederung und werden auf ihre Erheblichkeit gegenüber allen schlüssig dargelegten Ansprüchen geprüft); Beweisstation (Beweisfragen unter Berücksichtigung der Beweislast, Beweismittel nach Ergiebigkeit, Beweiskraft und Würdigung, Beweisergebnis).",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.026388Z"
+    },
+    {
+      "id": "zivilgericht-0251",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Welche prozessuale Folge haben Erfüllung durch den Beklagten einerseits und Vergleich andererseits?",
+      "antworten": [
+        "Erfüllung: Erledigung, Kostenbeschluss (§ 91a ZPO); Vergleich: Protokollierung",
+        "Erfüllung: Klagerücknahme (§ 269 ZPO); Vergleich: Protokollierung",
+        "Erfüllung: Erledigung, Kostenbeschluss (§ 91a ZPO); Vergleich: Anerkenntnisurteil",
+        "Erfüllung: Klagerücknahme (§ 269 ZPO); Vergleich: Anerkenntnisurteil"
+      ],
+      "erklaerung": "Reaktionen des Beklagten: Untätigkeit → Versäumnisurteil (ggf. im schriftlichen Vorverfahren, § 331 Abs. 3 ZPO), ggf. Einspruchstermin; Erfüllung → Erledigung der Hauptsache, bei übereinstimmender Erklärung Kostenbeschluss (§ 91a ZPO); Anerkenntnis → Anerkenntnisurteil (§ 307 ZPO); Vergleich → Protokollierung (§§ 160 Abs. 3 Nr. 1, 162 Abs. 1 ZPO), auch schriftlich möglich (§ 278 Abs. 6 ZPO).\n\nVerteidigung (einfaches oder qualifiziertes Bestreiten, Einwendungen/Einreden) → Erheblichkeitsprüfung und mündliche Verhandlung (Ausnahmen: § 128 Abs. 2, § 495a ZPO); erhebliches Vorbringen → Beweisaufnahme, unerhebliches → Klage stattgeben.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.026452Z"
+    },
+    {
+      "id": "zivilgericht-0252",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "In welcher Reihenfolge ist eine Relationsklausur zu bearbeiten?",
+      "typ": "begriffe",
+      "reihenfolge": true,
+      "antworten": [
+        "Bearbeitervermerk lesen",
+        "Sachverhalt wertfrei lesen",
+        "Sachverhalt gründlich lesen",
+        "Aktenauszug erstellen",
+        "Lösungsskizze erstellen",
+        "Abgleich Aktenauszug und Lösungsskizze",
+        "Tenor formulieren",
+        "Tatbestand abfassen",
+        "Gutachten abfassen"
+      ],
+      "falsche": [
+        "Rubrum formulieren",
+        "Entscheidungsgründe abfassen"
+      ],
+      "erklaerung": "Beim ersten, wertfreien Lesen spontane Gedanken festhalten; beim zweiten, gründlichen Lesen Parteiinteressen erfassen und Streitgegenstände vorsichtig in Anspruchsgrundlagen, Einreden und Einwendungen einordnen. Aktenauszug: historischer Aufbau, Beweisangebote notieren, Rechtsansichten kenntlich machen; Unklarheiten durch gezieltes Lesen beseitigen.\n\nAbgleich: alle streitigen Tatsachenbehauptungen des Beklagten berücksichtigt, alle Rechtsansichten erörtert oder ihre Irrelevanz festgestellt, alle Beweismittel und Indizien ausgewertet? Den Tenor auf gesondertem Blatt endgültig formulieren; im Gutachten Gutachtenstil beachten, Unproblematisches kurz abhandeln, Schwerpunkte bilden. In der Urteilsklausur: Tenor, Tatbestand, Entscheidungsgründe.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.026516Z"
+    },
+    {
+      "id": "zivilgericht-0253",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Woraus besteht eine Aufsichtsarbeit mit gutachterlicher Aufgabenstellung (Relationsklausur) grundsätzlich?",
+      "typ": "begriffe",
+      "reihenfolge": false,
+      "antworten": [
+        "Tatbestand",
+        "Gutachten",
+        "Entscheidungsvorschlag"
+      ],
+      "falsche": [
+        "Rubrum",
+        "Entscheidungsgründe"
+      ],
+      "erklaerung": "Nach den Merkblättern des LJPA kann Gegenstand der gutachterlichen Aufgabenstellung jede erstinstanzliche gerichtliche Entscheidung sein; die Aufgabe besteht grundsätzlich in der Erstellung eines Tatbestands, eines Gutachtens und eines Entscheidungsvorschlags.\n\nDie zivilgerichtliche Aufgabenstellung kann alle verfahrensfördernden und -beendenden Entscheidungen erster Instanz betreffen (wahrscheinlich Urteil, aber auch Beschluss, z. B. § 91a ZPO). Die Anwaltsklausur ist gutachterlich-rechtsberatend oder gutachterlich-rechtsgestaltend.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.026592Z"
+    },
+    {
+      "id": "zivilgericht-0254",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Mit welcher Formel endet das Rubrum?",
+      "antworten": [
+        "„für Recht erkannt:“",
+        "„wird wie folgt entschieden:“",
+        "„ergeht folgendes Urteil:“",
+        "„beschlossen und verkündet:“"
+      ],
+      "erklaerung": "Am Ende des Rubrums steht nach der Angabe der letzten mündlichen Verhandlung die Einleitung des Tenors: „für Recht erkannt:“. Der Tenor folgt eingerückt.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.026687Z"
+    },
+    {
+      "id": "zivilgericht-0255",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wer ist im Rubrum aufzuführen, wenn eine rechtsfähige Außen-GbR Partei ist?",
+      "antworten": [
+        "Die GbR, vertreten durch ihre vertretungsberechtigten Gesellschafter",
+        "Alle Gesellschafter als Streitgenossen",
+        "Die GbR ohne Angabe von Vertretern",
+        "Alle Gesellschafter mit dem Zusatz „in GbR“"
+      ],
+      "erklaerung": "Die Außen-GbR ist rechtsfähig (§ 705 Abs. 2 BGB) und damit parteifähig. Es werden nicht mehr alle Mitglieder aufgenommen, sondern nur die Vertreter; grundsätzlich besteht Gesamtvertretung durch alle Gesellschafter, soweit nichts anderes vereinbart ist (§ 720 Abs. 1 BGB).\n\nZum Vergleich: OHG/KG grds. Einzelvertretung (§ 124 Abs. 1 HGB), GmbH mit mehreren Geschäftsführern grds. Gesamtvertretung (§ 35 Abs. 2 S. 1 GmbHG), AG Vertretung durch den Vorstand (§ 78 AktG). Formulierungsbeispiel: „der X-GmbH & Co. KG, Markt 1, 50968 Köln, gesetzlich vertreten durch die X-GmbH, diese gesetzlich vertreten durch den Geschäftsführer xy, ebenda“.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.026801Z"
+    },
+    {
+      "id": "zivilgericht-0256",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Wie ist der Gegenstand des Rechtsstreits nach der Parteibezeichnung im Rubrum anzugeben?",
+      "antworten": [
+        "Entweder genau (z. B. „wegen Kaufpreisforderung“) oder gar nicht",
+        "Stets genau, da § 313 Abs. 1 Nr. 1 ZPO dies verlangt",
+        "Stets allgemein (z. B. „wegen Forderung“)",
+        "Stets mit Angabe des Streitwerts"
+      ],
+      "erklaerung": "Nach der Bezeichnung der Parteien kann der Gegenstand des Rechtsstreits angegeben werden, entweder genau (z. B. „wegen Kaufpreisforderung“) oder gar nicht. Es folgt in einem neuen Absatz die Bezeichnung des Gerichts mit Spruchkörper und der Richter („hat die 5. Zivilkammer des Landgerichts Braunschweig durch den Vorsitzenden Richter am Landgericht …“).",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.026877Z"
+    },
+    {
+      "id": "zivilgericht-0257",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wie sind die gesetzlichen Vertreter einer OHG einerseits und eines Bundeslandes andererseits im Rubrum anzugeben?",
+      "antworten": [
+        "OHG: Vertreter namentlich; Land: nur die vertretende Stelle",
+        "OHG: nur die Firma; Land: Vertreter namentlich",
+        "OHG: alle Gesellschafter namentlich; Land: Vertreter namentlich",
+        "OHG: nur die Firma; Land: nur die vertretende Stelle"
+      ],
+      "erklaerung": "Gesetzliche Vertreter sind entsprechend §§ 130 Nr. 1, 253 Abs. 4 ZPO so genau wie möglich anzugeben (Hintergrund: Zustellung, §§ 170, 171 ZPO). Bei juristischen Personen des Privatrechts und Personenhandelsgesellschaften sind die vollständige Firma und die gesetzlichen Vertreter namentlich zu nennen („der Klein & Co. OHG, …, vertreten durch den persönlich haftenden Gesellschafter Fred Klein, ebenda“).\n\nBei juristischen Personen des öffentlichen Rechts genügt die Stelle, die nach Gesetz oder Satzung vertritt („des Landes Niedersachsen, vertreten durch das Ministerium für Finanzen, …“).",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.026942Z"
+    },
+    {
+      "id": "zivilgericht-0258",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "In welchem Kasus werden Kläger und Beklagter im Rubrum bezeichnet?",
+      "antworten": [
+        "Kläger im Genitiv, Beklagter im Akkusativ",
+        "Kläger im Nominativ, Beklagter im Dativ",
+        "Kläger im Genitiv, Beklagter im Dativ",
+        "Kläger im Dativ, Beklagter im Akkusativ"
+      ],
+      "erklaerung": "Das Rubrum beginnt mit „In dem Rechtsstreit“; es folgt der Kläger im Genitiv („des …, Klägers,“) und nach „gegen“ der Beklagte im Akkusativ („den …, Beklagten,“) (§ 313 Abs. 1 Nr. 1 ZPO).",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.027007Z"
+    },
+    {
+      "id": "zivilgericht-0259",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wie wird ein Einzelkaufmann im Rubrum zweckmäßigerweise bezeichnet?",
+      "antworten": [
+        "Mit bürgerlichem Namen und Firma („des unter der Firma … handelnden Kaufmanns …“)",
+        "Nur mit der Firma, da sie den bürgerlichen Namen ersetzt",
+        "Nur mit dem bürgerlichen Namen, da die Firma nicht parteifähig ist",
+        "Mit der Firma und dem Zusatz „vertreten durch den Inhaber …“"
+      ],
+      "erklaerung": "Nach § 17 Abs. 2 HGB kann der Kaufmann unter seiner Firma klagen und verklagt werden; die Firma kann also an die Stelle des bürgerlichen Namens treten. Zweckmäßigerweise werden bürgerlicher Name und Firma gleichzeitig angegeben, z. B. „des unter der Firma Esoterika handelnden Kaufmanns Gerd Müller“.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.027064Z"
+    },
+    {
+      "id": "zivilgericht-0260",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wie ist ein minderjähriger Kläger bei gemeinsamer elterlicher Sorge im Rubrum zu bezeichnen?",
+      "antworten": [
+        "Mit Geburtsdatum, gesetzlich vertreten durch beide Eltern",
+        "Ohne Geburtsdatum, gesetzlich vertreten durch einen Elternteil",
+        "Mit Geburtsdatum, gesetzlich vertreten durch einen Elternteil",
+        "Ohne Geburtsdatum, gesetzlich vertreten durch beide Eltern"
+      ],
+      "erklaerung": "Bei Minderjährigen empfiehlt sich die Angabe des Geburtsdatums; bei gemeinsamer Sorge müssen beide Eltern als gesetzliche Vertreter genannt werden: „des minderjährigen Schülers …, geb. am …, gesetzlich vertreten durch seine Eltern …, alle wohnhaft …“.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.027118Z"
+    },
+    {
+      "id": "zivilgericht-0261",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wie ist eine Partei kraft Amtes (z. B. Insolvenzverwalter) im Rubrum zu bezeichnen?",
+      "antworten": [
+        "Mit Namen und Anschrift „in seiner Eigenschaft als Insolvenzverwalter über das Vermögen der …“",
+        "Als Schuldnerin „vertreten durch den Insolvenzverwalter …“",
+        "Nur mit der Bezeichnung „Insolvenzmasse der …“",
+        "Mit Namen und Anschrift „als Prozessbevollmächtigter der Schuldnerin …“"
+      ],
+      "erklaerung": "Parteien kraft Amtes (Insolvenz-, Nachlass-, Zwangsverwalter, Testamentsvollstrecker) sind selbst Partei; ihre besondere Stellung ist anzugeben, z. B. „des Herrn Gustav Meise, Friedensstraße 2, 40219 Düsseldorf, in seiner Eigenschaft als Insolvenzverwalter über das Vermögen der … GmbH, Wiesenstraße 4, 40223 Düsseldorf“.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.027174Z"
+    },
+    {
+      "id": "zivilgericht-0262",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Welcher Rechtsanwalt ist im Rubrum als Prozessbevollmächtigter aufzuführen?",
+      "antworten": [
+        "Der Anwalt, der die Partei in der letzten mündlichen Verhandlung vertreten hat, nicht aber ein Terminsvertreter",
+        "Jeder Anwalt, der die Partei im Verfahren vertreten hat, einschließlich Terminsvertretern",
+        "Der Anwalt, der die Klageschrift bzw. Klageerwiderung unterzeichnet hat",
+        "Der Anwalt, der in der letzten mündlichen Verhandlung aufgetreten ist, auch als Terminsvertreter"
+      ],
+      "erklaerung": "Der Prozessbevollmächtigte wird nach der Partei in Klammern angegeben. Aufzuführen ist der Rechtsanwalt, der die Partei in der letzten mündlichen Verhandlung vertritt; Unterbevollmächtigte oder Terminsvertreter sind nicht zu nennen. Bei Postfach im Gericht genügt die Angabe des Kanzleiorts.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.027229Z"
+    },
+    {
+      "id": "zivilgericht-0263",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Weshalb ist im Rubrum der Tag des Schlusses der mündlichen Verhandlung anzugeben?",
+      "antworten": [
+        "Wegen der Präklusion von Einwendungen im Vollstreckungsverfahren (§ 767 Abs. 2 ZPO)",
+        "Wegen des Beginns der Berufungsfrist (§ 517 ZPO)",
+        "Wegen des Beginns der Verzinsung von Prozesszinsen (§ 291 BGB)",
+        "Wegen der Frist für die Urteilsverkündung (§ 310 Abs. 1 ZPO)"
+      ],
+      "erklaerung": "§ 313 Abs. 1 Nr. 3 ZPO verlangt die Angabe des Tages, an dem die mündliche Verhandlung geschlossen wurde. Hintergrund ist § 767 Abs. 2 ZPO: Einwendungen sind nur zulässig, soweit ihre Gründe nach dem Schluss der letzten mündlichen Verhandlung entstanden sind.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.027289Z"
+    },
+    {
+      "id": "zivilgericht-0264",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wie lautet die Angabe im Rubrum anstelle der mündlichen Verhandlung bei einer Entscheidung im schriftlichen Verfahren (§ 128 Abs. 2 ZPO)?",
+      "antworten": [
+        "„im schriftlichen Verfahren mit einer Erklärungsfrist bis zum …“",
+        "„nach Lage der Akten am …“",
+        "„ohne mündliche Verhandlung am …“",
+        "„aufgrund der Schriftsätze vom …“"
+      ],
+      "erklaerung": "Regelfall: „auf die mündliche Verhandlung vom …“. Bei Entscheidung nach Lage der Akten (§§ 251a, 331a ZPO): „nach Lage der Akten am …“. Im schriftlichen Verfahren (§ 128 Abs. 2 ZPO): „im schriftlichen Verfahren mit einer Erklärungsfrist bis zum …“. Hintergrund ist jeweils der für § 767 Abs. 2 ZPO maßgebliche Zeitpunkt.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.027346Z"
+    },
+    {
+      "id": "zivilgericht-0265",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Wie kann eine Anwaltssozietät als Prozessbevollmächtigte im Rubrum bezeichnet werden?",
+      "antworten": [
+        "Alle Mitglieder oder „Rechtsanwälte Dr. Maler und Kollegen“ bzw. „pp.“",
+        "Alle Mitglieder oder „Rechtsanwälte Dr. Maler und Partner“",
+        "Nur der sachbearbeitende Anwalt mit dem Zusatz „u. a.“",
+        "Nur die Kanzleibezeichnung ohne Namen einzelner Anwälte"
+      ],
+      "erklaerung": "Bei einer Sozietät sind alle Mitglieder zu nennen oder abgekürzt „Rechtsanwälte Dr. Maler und Kollegen“ bzw. „Rechtsanwälte Dr. Blumentopf pp.“. Nicht „Partner“, da dies ein Fachterminus nach dem Partnerschaftsgesellschaftsgesetz ist.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.027403Z"
+    },
+    {
+      "id": "zivilgericht-0266",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Wo ist ein Streithelfer im Rubrum aufzuführen?",
+      "antworten": [
+        "Nur wenn beigetreten, unmittelbar hinter der unterstützten Partei",
+        "Auch ohne Beitritt, unmittelbar hinter der unterstützten Partei",
+        "Nur wenn beigetreten, am Ende des Rubrums nach allen Parteien",
+        "Auch ohne Beitritt, am Ende des Rubrums nach allen Parteien"
+      ],
+      "erklaerung": "Nur der beigetretene Streithelfer ist im Rubrum aufzuführen, und zwar unmittelbar hinter der Partei, der er beigetreten ist.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.027460Z"
+    },
+    {
+      "id": "zivilgericht-0267",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wie sind die Parteien im Rubrum zu bezeichnen, wenn der Rechtsstreit nach dem Tod des Klägers mit dessen Erben fortgesetzt wird?",
+      "antworten": [
+        "„der Erben des am … verstorbenen Klägers, nämlich 1) … 2) …“",
+        "„der Erbengemeinschaft nach dem am … verstorbenen Kläger“",
+        "„des am … verstorbenen Klägers, vertreten durch seine Erben“",
+        "„des Nachlasses des am … verstorbenen Klägers“"
+      ],
+      "erklaerung": "Beim Tod einer Partei wird der Rechtsstreit mit den Erben fortgesetzt. Die Erbengemeinschaft als solche ist nicht parteifähig; daher sind die einzelnen Erben aufzuführen: „der Erben des am … verstorbenen Klägers, nämlich 1) … 2) … 3) …“.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.027520Z"
+    },
+    {
+      "id": "zivilgericht-0268",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wie werden die Parteien bei einer Widerklage im Rubrum einerseits und in Tenor, Tatbestand und Entscheidungsgründen andererseits bezeichnet?",
+      "antworten": [
+        "Rubrum: „Kläger und Widerbeklagter“; sonst nur Kläger bzw. Beklagter",
+        "Rubrum und übriges Urteil: durchgehend „Kläger und Widerbeklagter“",
+        "Rubrum: nur Kläger bzw. Beklagter; sonst „Kläger und Widerbeklagter“",
+        "Rubrum: „Widerbeklagter“; sonst nur Widerkläger bzw. Widerbeklagter"
+      ],
+      "erklaerung": "Die Parteirollen werden im Rubrum rechtsbündig in Kommata oder Gedankenstrichen angegeben, z. B. „Kläger und Widerbeklagter“, „Beklagter und Widerkläger“. In Tenor, Tatbestand und Entscheidungsgründen wird nur die ursprüngliche Bezeichnung als Kläger und Beklagter verwendet.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.027586Z"
+    },
+    {
+      "id": "zivilgericht-0269",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Welchem Zweck dient die genaue Bezeichnung der Parteien im Rubrum (Vor- und Nachname, Anschrift)?",
+      "antworten": [
+        "Vermeidung von Schwierigkeiten bei der Zwangsvollstreckung (§ 750 Abs. 1 ZPO)",
+        "Bestimmung der örtlichen Zuständigkeit (§§ 12, 13 ZPO)",
+        "Berechnung der Gerichtskosten (§ 3 ZPO)",
+        "Feststellung der Prozessfähigkeit (§ 51 ZPO)"
+      ],
+      "erklaerung": "Nach § 750 Abs. 1 ZPO darf die Zwangsvollstreckung nur beginnen, wenn die Personen, für und gegen die sie stattfinden soll, im Urteil namentlich bezeichnet sind. Deshalb sind Vor- und Nachname, in der Regel die Bezeichnung „Frau“/„Herr“ sowie die Anschrift anzugeben.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.027742Z"
+    },
+    {
+      "id": "zivilgericht-0270",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Welche Anträge sind Sachanträge?",
+      "typ": "begriffe",
+      "reihenfolge": false,
+      "antworten": [
+        "Klageantrag",
+        "Klageänderung",
+        "Erledigungserklärung",
+        "Antrag des Rechtsmittelklägers"
+      ],
+      "falsche": [
+        "Beweisantrag",
+        "Antrag auf Versäumnisurteil",
+        "Wiedereinsetzungsantrag"
+      ],
+      "erklaerung": "Sachanträge grenzen im Sinne des § 308 ZPO die Sachentscheidungsbefugnis des Gerichts ein, z. B. Klageanträge einschließlich Änderungen, Erledigungserklärung, Anträge des Rechtsmittelklägers.\n\nProzessanträge betreffen das Verfahren, z. B. Beweisanträge, Anträge auf Erlass eines Versäumnisurteils, Wiedereinsetzungsanträge; str. ist die Einordnung des Antrags auf Klageabweisung.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.027813Z"
+    },
+    {
+      "id": "zivilgericht-0271",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wie unterscheiden sich Sach- und Prozessanträge hinsichtlich Verlesung und Protokollierung?",
+      "antworten": [
+        "Sachanträge: verlesen oder Bezugnahme, stets protokollieren; Prozessanträge: Bezugnahme genügt, Protokollierung nicht zwingend",
+        "Sachanträge: stets wörtlich verlesen und protokollieren; Prozessanträge: Bezugnahme genügt, stets protokollieren",
+        "Sachanträge: verlesen oder Bezugnahme, Protokollierung nicht zwingend; Prozessanträge: stets verlesen und protokollieren",
+        "Beide: verlesen oder Bezugnahme, stets protokollieren"
+      ],
+      "erklaerung": "Sachanträge müssen grundsätzlich verlesen werden (§ 297 Abs. 1 ZPO); es genügt jedoch die Bezugnahme auf einen vorbereitenden Schriftsatz (§ 297 Abs. 2 ZPO). Sie müssen protokolliert werden (§ 160 Abs. 3 Nr. 2 ZPO).\n\nProzessanträge müssen nicht verlesen werden; erforderlich ist aber zumindest die Bezugnahme auf einen vorbereitenden Schriftsatz (§ 137 Abs. 3 ZPO). Sie können, müssen aber nicht protokolliert werden (§ 160 Abs. 2 ZPO).",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.027878Z"
+    },
+    {
+      "id": "zivilgericht-0272",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Welche Folge hat es, wenn der erschienene Kläger in der mündlichen Verhandlung keinen Sachantrag stellt?",
+      "antworten": [
+        "Auf Antrag kann Versäumnisurteil gegen ihn ergehen",
+        "Das Gericht entscheidet nach dem schriftsätzlich angekündigten Antrag",
+        "Die Klage gilt als zurückgenommen",
+        "Das Gericht muss von Amts wegen vertagen"
+      ],
+      "erklaerung": "Anträge müssen grundsätzlich in der mündlichen Verhandlung gestellt werden (Mündlichkeitsprinzip). Stellt der Kläger in der mündlichen Verhandlung keinen Sachantrag, verhandelt er nicht; es kann Versäumnisurteil gegen ihn ergehen (§§ 330, 333 ZPO).",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.027942Z"
+    },
+    {
+      "id": "zivilgericht-0273",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Welche Maßnahmen umfasst die Einleitung des schriftlichen Vorverfahrens (§ 276 ZPO)?",
+      "typ": "begriffe",
+      "reihenfolge": false,
+      "antworten": [
+        "Klagezustellung",
+        "Aufforderung zur Anzeige der Verteidigungsbereitschaft",
+        "Frist zur Klageerwiderung"
+      ],
+      "falsche": [
+        "Terminsanberaumung",
+        "Prozessleitende Maßnahmen (§ 273 ZPO)"
+      ],
+      "erklaerung": "Schriftliches Vorverfahren: Klagezustellung (§ 271 ZPO), Aufforderung an den Beklagten, seine Verteidigungsbereitschaft anzuzeigen (§ 276 Abs. 1 S. 1 ZPO), Frist zur Klageerwiderung. Terminsanberaumung und prozessleitende Maßnahmen folgen erst nach der Klageerwiderung; ohne Verteidigungsanzeige ergeht ein Versäumnisurteil (§ 331 Abs. 3 ZPO).\n\nBeim frühen ersten Termin (§ 275 ZPO) werden dagegen sofort neben Klagezustellung und Erwiderungsfrist der Termin anberaumt und prozessleitende Maßnahmen (§ 273 ZPO) getroffen. Beide Wege münden in die Güteverhandlung (§ 278 Abs. 1, 2 ZPO), den Haupttermin (§ 279 ZPO) und ggf. einen Verkündungstermin (§ 310 ZPO).",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.028001Z"
+    },
+    {
+      "id": "zivilgericht-0274",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Wann gehören früher gestellte, später geänderte Anträge in den Tatbestand?",
+      "antworten": [
+        "Wenn sie für die Entscheidung eine Rolle spielen oder der letzte Antrag sonst unverständlich ist",
+        "Stets, da der Tatbestand den gesamten Prozessverlauf wiedergibt",
+        "Nie, da nur die zuletzt gestellten Anträge wiederzugeben sind",
+        "Nur wenn die Änderung auf einem richterlichen Hinweis beruht"
+      ],
+      "erklaerung": "Die zuletzt gestellten Anträge sind korrekt und wortgetreu wiederzugeben. Vormalige Anträge gehören in die (kleine) Prozessgeschichte, sofern sie für die Entscheidung eine Rolle spielen oder der zuletzt gestellte Antrag isoliert nicht verständlich ist.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.028064Z"
+    },
+    {
+      "id": "zivilgericht-0275",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "In welchen Fällen ist ein Tatbestand im Zivilurteil entbehrlich?",
+      "typ": "begriffe",
+      "reihenfolge": false,
+      "antworten": [
+        "Rechtsmittel unzweifelhaft unzulässig",
+        "Rechtsmittelverzicht",
+        "Versäumnisurteil",
+        "Anerkenntnisurteil",
+        "Verzichtsurteil"
+      ],
+      "falsche": [
+        "Grundurteil",
+        "Entscheidung im schriftlichen Verfahren",
+        "Klageabweisung als unzulässig"
+      ],
+      "erklaerung": "Der Tatbestand ist entbehrlich, wenn ein Rechtsmittel gegen das Urteil unzweifelhaft nicht zulässig ist (§ 313a Abs. 1 ZPO), bei Rechtsmittelverzicht (§ 313a Abs. 2 ZPO) sowie bei Versäumnis-, Anerkenntnis- und Verzichtsurteilen (§ 313b ZPO).",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.028122Z"
+    },
+    {
+      "id": "zivilgericht-0276",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Welchen Umfang sollte der Tatbestand in der Relationsklausur im Verhältnis zum Gutachten haben?",
+      "antworten": [
+        "Etwa ein Drittel",
+        "Etwa ein Zehntel",
+        "Etwa die Hälfte",
+        "Etwa gleich viel"
+      ],
+      "erklaerung": "Der Tatbestand ist straff zu halten: kurz und knapp durch Verweisungen (Urkunden, Ergebnis der Beweisaufnahme), Zusammenfassungen und Weglassen von Überflüssigem. Als Richtwert gilt etwa ein Drittel im Verhältnis zum Gutachten.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.028184Z"
+    },
+    {
+      "id": "zivilgericht-0277",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Womit beginnt der Termin und womit wird die mündliche Verhandlung eingeleitet?",
+      "antworten": [
+        "Termin: Aufruf der Sache; mündliche Verhandlung: Stellen der Anträge",
+        "Termin: Aufruf der Sache; mündliche Verhandlung: Eröffnung durch den Vorsitzenden",
+        "Termin: Feststellung der Anwesenden; mündliche Verhandlung: Stellen der Anträge",
+        "Termin: Eröffnung durch den Vorsitzenden; mündliche Verhandlung: Aufruf der Sache"
+      ],
+      "erklaerung": "Der Termin beginnt mit dem Aufruf der Sache (§ 220 Abs. 1 ZPO). Die mündliche Verhandlung wird dadurch eingeleitet, dass die Parteien ihre Anträge stellen (§ 137 Abs. 1 ZPO).",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.028239Z"
+    },
+    {
+      "id": "zivilgericht-0278",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Welche Urteile sind unter der Überschrift „Im Namen des Volkes“ stets besonders zu bezeichnen?",
+      "typ": "begriffe",
+      "reihenfolge": false,
+      "antworten": [
+        "Versäumnisurteil",
+        "Anerkenntnisurteil",
+        "Verzichtsurteil",
+        "Teilurteil",
+        "Grundurteil",
+        "Zwischenurteil",
+        "Vorbehaltsurteil"
+      ],
+      "falsche": [
+        "Endurteil",
+        "Prozessurteil",
+        "Sachurteil"
+      ],
+      "erklaerung": "Die Bezeichnung „Urteil“ unter der Überschrift „Im Namen des Volkes“ (§ 311 Abs. 1 ZPO) ist grundsätzlich entbehrlich. Erforderlich ist aber stets die Bezeichnung als Versäumnis-, Anerkenntnis- oder Verzichtsurteil (§ 313b Abs. 1 S. 2 ZPO), als Teilurteil (§ 301 ZPO), Grundurteil (§ 304 ZPO), Zwischenurteil (§ 303 ZPO) oder Vorbehaltsurteil (§ 302 ZPO).",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.028298Z"
+    },
+    {
+      "id": "zivilgericht-0279",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "In welcher Reihenfolge sind die Bestandteile eines Zivilurteils anzuordnen?",
+      "typ": "begriffe",
+      "reihenfolge": true,
+      "antworten": [
+        "Gericht und Aktenzeichen",
+        "„Im Namen des Volkes“",
+        "Bezeichnung der Parteien",
+        "Gericht und Richter",
+        "Schluss der mündlichen Verhandlung",
+        "Urteilsformel (Tenor)",
+        "Tatbestand",
+        "Entscheidungsgründe",
+        "Unterschriften"
+      ],
+      "falsche": [
+        "Leitsatz",
+        "Beweisbeschluss"
+      ],
+      "erklaerung": "Oben links stehen Gericht und darunter das Aktenzeichen, oben rechts der Verkündungsvermerk; es folgen die Überschrift (§ 311 Abs. 1 ZPO) und die Angaben nach § 313 Abs. 1 Nr. 1–6 ZPO: Parteien, gesetzliche Vertreter und Prozessbevollmächtigte (Nr. 1), Gericht und Richter (Nr. 2), Tag des Schlusses der mündlichen Verhandlung (Nr. 3), Urteilsformel (Nr. 4), Tatbestand (Nr. 5) und Entscheidungsgründe (Nr. 6).\n\nDen Abschluss bilden die Unterschriften der Richter (§ 315 ZPO). Der Tenor wird stets eingerückt; Tatbestand und Entscheidungsgründe stehen unter entsprechenden Überschriften.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.028364Z"
+    },
+    {
+      "id": "zivilgericht-0280",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Wie ist in der Urteilsklausur mit Verkündungsvermerk und Unterschriften zu verfahren?",
+      "antworten": [
+        "Verkündungsvermerk entfällt; statt Unterschrift „Unterschrift Richter“ bzw. „RiAG X“",
+        "Verkündungsvermerk entfällt; die Richter werden mit vollem Namen unterschrieben",
+        "Verkündungsvermerk wird mit fiktivem Datum eingefügt; Unterschriften entfallen ganz",
+        "Verkündungsvermerk wird mit fiktivem Datum eingefügt; Unterschrift als „gez. Richter“"
+      ],
+      "erklaerung": "In der Klausur ist ein Urteilsentwurf zu fertigen. Daher entfällt der Verkündungsvermerk oben rechts, und das Urteil wird nicht unterschrieben (§ 315 ZPO); stattdessen steht dort „Unterschrift Richter“ oder „RiAG X“.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.028430Z"
+    },
+    {
+      "id": "zivilgericht-0281",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Wo sollte die Streitwertfestsetzung (§ 63 Abs. 2 GKG) bei einem Urteil nach Empfehlung erfolgen?",
+      "antworten": [
+        "In einem eigenständigen Streitwertbeschluss",
+        "Als Ziffer 4 des Tenors",
+        "Am Ende der Entscheidungsgründe",
+        "Im Rubrum nach dem Gegenstand des Rechtsstreits"
+      ],
+      "erklaerung": "In der Praxis wird der Streitwertbeschluss manchmal als Ziffer 4 in den Tenor aufgenommen; nach a. A. wird der Streitwert am Ende der Entscheidungsgründe angegeben. Empfehlenswert ist ein eigenständiger Streitwertbeschluss, zumal dieser am AG und LG trotz § 232 ZPO stets eine gesonderte Rechtsmittelbelehrung erfordert (Beschwerde nach § 68 GKG).",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.028489Z"
+    },
+    {
+      "id": "zivilgericht-0282",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Nach welchem Maßstab richtet sich, wie weit eine Aussage in den Entscheidungsgründen zu begründen ist?",
+      "antworten": [
+        "Nach der ungeschriebenen Frage des Unterlegenen nach dem Grund der Aussage",
+        "Nach der ungeschriebenen Frage des Obsiegenden nach dem Grund der Aussage",
+        "Nach dem Umfang des Parteivortrags zu dem jeweiligen Punkt",
+        "Nach der Frage, ob die Aussage in Rechtsprechung und Literatur umstritten ist"
+      ],
+      "erklaerung": "Nach jeder Aussage muss aus Sicht des Unterlegenen die ungeschriebene Frage nach dem Grund bzw. der Berechtigung der Aussage beantwortet werden: Norm genannt → „Was steht da drin?“; Tatbestandsmerkmal → „Und das soll hier der Fall sein?“; nicht alltäglicher Rechtsbegriff → „Was ist das denn?“ (Definition); abweichende Tatsachengrundlage → „Wie kommt das Gericht darauf?“ (Beweisaufnahme, Beweiswürdigung).",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.028547Z"
+    },
+    {
+      "id": "zivilgericht-0283",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Welcher Grundsatz gilt für Sätze in den Entscheidungsgründen, die genauso im Tatbestand stehen könnten?",
+      "antworten": [
+        "Sie sollen vermieden werden; Tatsachen sind mit ihren rechtlichen Konsequenzen zu verknüpfen",
+        "Sie sind zulässig, wenn sie in das Präsens gesetzt werden",
+        "Sie sind am Anfang der Begründetheit zur Einführung erforderlich",
+        "Sie sind zulässig, wenn auf den Tatbestand verwiesen wird"
+      ],
+      "erklaerung": "In den Entscheidungsgründen sollte kein Satz stehen, der genauso formuliert auch im Tatbestand stehen könnte; stattdessen sind Tatsachen mit Konsequenzen zu verknüpfen. Weitere Grundsätze: Zwar-Aber-Sätze vermeiden, auf den Punkt kommen, das Schema Norm – Tatbestandsmerkmal – Definition – Subsumtion einhalten.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.028642Z"
+    },
+    {
+      "id": "zivilgericht-0284",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Welche Verbindungswörter sind mit dem Urteilsstil vereinbar?",
+      "typ": "begriffe",
+      "reihenfolge": false,
+      "antworten": [
+        "denn",
+        "nämlich"
+      ],
+      "falsche": [
+        "also",
+        "folglich",
+        "so dass"
+      ],
+      "erklaerung": "Im Urteilsstil wird das Ergebnis vorangestellt und anschließend begründet, da der Richter bereits entschieden hat und die Entscheidung nur noch begründet. Dazu passen „denn“ und „nämlich“; unvereinbar sind „also“, „folglich“, „so dass“ sowie „es ist zu prüfen, ob“ oder „problematisch ist die Frage, ob“.\n\nEine erneute Ergebnisfeststellung am Ende („Nachklapp“) ist zu unterlassen.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.028723Z"
+    },
+    {
+      "id": "zivilgericht-0285",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wann dürfen „weil“ und „da“ im Urteilsstil verwendet werden?",
+      "antworten": [
+        "Nur nach, nicht vor der Feststellung eines Ergebnisses",
+        "Nur vor, nicht nach der Feststellung eines Ergebnisses",
+        "Überhaupt nicht, da sie dem Gutachtenstil angehören",
+        "Nur in der rechtlichen Würdigung, nicht bei der Tatsachenfeststellung"
+      ],
+      "erklaerung": "„Weil“ und „da“ dürfen nur nach, nicht dagegen vor der Feststellung eines Ergebnisses benutzt werden, damit das Ergebnis vorangestellt bleibt („Der Kläger kann Zahlung verlangen, weil …“, nicht „Da …, kann der Kläger …“).",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.028827Z"
+    },
+    {
+      "id": "zivilgericht-0286",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Was prüft der Vorsitzende bzw. Abteilungsrichter im Hinblick auf die Wahl des Verfahrensgangs (§ 272 Abs. 2 ZPO)?",
+      "typ": "begriffe",
+      "reihenfolge": false,
+      "antworten": [
+        "Zuständigkeit",
+        "Ordnungsgemäße Klageerhebung",
+        "Vorschuss",
+        "Sonstige Prozessvoraussetzungen",
+        "Schlüssigkeit"
+      ],
+      "falsche": [
+        "Erheblichkeit",
+        "Beweisbedürftigkeit",
+        "Verjährung"
+      ],
+      "erklaerung": "Nach Eingang des Vorschusses (§ 12 Abs. 1 S. 1 GKG) wird die Sache dem Vorsitzenden bzw. Abteilungsrichter vorgelegt. Er prüft Zuständigkeit, ordnungsgemäße Klageerhebung, Vorschuss, sonstige Prozessvoraussetzungen und Schlüssigkeit und wählt den Verfahrensgang: früher erster Termin (§ 275 ZPO) oder schriftliches Vorverfahren (§ 276 ZPO). Ausnahme: PKH-Antrag.\n\nDie Zustellung selbst hängt nur von Vorschusszahlung und formellen Mindestanforderungen ab, nicht von Zulässigkeit oder Schlüssigkeit.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.028908Z"
+    },
+    {
+      "id": "zivilgericht-0287",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Setzt die Zuständigkeit des AG durch rügelose Einlassung nach einer Klageerweiterung über die Streitwertgrenze eine Belehrung des Beklagten voraus?",
+      "antworten": [
+        "Nein, da § 39 S. 2 ZPO nur § 504 ZPO nennt (str.)",
+        "Ja, da § 39 S. 2 ZPO auf § 506 ZPO verweist",
+        "Ja, da § 504 ZPO jede Zuständigkeitsänderung erfasst",
+        "Nein, da § 39 ZPO vor dem AG nicht anwendbar ist"
+      ],
+      "erklaerung": "Das AG wird durch rügelose Einlassung zuständig (§ 39 ZPO), und zwar auch dann, wenn der Amtsrichter den Beklagten nicht über die Folge belehrt hat, denn § 39 S. 2 ZPO nennt nur § 504 ZPO und nicht auch § 506 ZPO (str.).",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.029041Z"
+    },
+    {
+      "id": "zivilgericht-0288",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Bis zu welchem Streitwert ist das Amtsgericht nach § 23 Nr. 1 GVG sachlich zuständig?",
+      "antworten": [
+        "Bis 10.000 Euro",
+        "Bis 5.000 Euro",
+        "Bis 15.000 Euro",
+        "Bis 25.000 Euro"
+      ],
+      "erklaerung": "Nach § 23 Nr. 1 GVG ist das AG für Streitigkeiten zuständig, deren Gegenstand 10.000 Euro nicht übersteigt; das LG ist ab 10.000,01 Euro zuständig (§ 71 Abs. 1 GVG). Früher lag die Grenze bei 5.000 Euro.\n\nBei Zahlungsklagen ist der verlangte Betrag maßgeblich; nur in anderen Fällen das – vom Gericht geschätzte – wirtschaftliche Interesse des Klägers (die Formulierung des § 3 ZPO ist insoweit missverständlich).",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.029119Z"
+    },
+    {
+      "id": "zivilgericht-0289",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Welches Gericht ist für eine Amtshaftungsklage (§ 839 BGB, Art. 34 GG) über 2.300 Euro wegen Verletzung der Streupflicht sachlich zuständig?",
+      "antworten": [
+        "Das Landgericht, streitwertunabhängig (§ 71 Abs. 2 Nr. 2 GVG)",
+        "Das Amtsgericht, da der Streitwert 10.000 Euro nicht übersteigt",
+        "Das Verwaltungsgericht, da eine hoheitliche Pflicht betroffen ist",
+        "Das Landgericht, aber nur bei Klage gegen den Amtsträger persönlich"
+      ],
+      "erklaerung": "Nach dem Streitwert wäre zwar das AG zuständig; wegen § 71 Abs. 2 Nr. 2 GVG ist aber streitwertunabhängig das LG zuständig, hier wegen pflichtwidriger Unterlassung einer Amtshandlung (Organisation der Streupflicht).\n\nAusnahme: AG zuständig bei einem Verkehrsunfall ohne inneren Zusammenhang mit der Ausübung eines Amtes.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.029184Z"
+    },
+    {
+      "id": "zivilgericht-0290",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Welche Folge hat eine Klageerweiterung vor dem AG über die Zuständigkeitsgrenze hinaus?",
+      "antworten": [
+        "Verweisung an das LG auf Antrag (§ 506 ZPO); sonst AG durch rügelose Einlassung zuständig",
+        "Verweisung an das LG von Amts wegen (§ 506 ZPO)",
+        "Keine, das AG bleibt wegen perpetuatio fori stets zuständig (§ 261 Abs. 3 Nr. 2 ZPO)",
+        "Abweisung des erweiterten Teils als unzulässig"
+      ],
+      "erklaerung": "Maßgeblich ist grundsätzlich der Streitwert bei Einreichung der Klage (§ 4 Abs. 1 ZPO); eine Klageerweiterung (§ 264 Nr. 2 ZPO) führt nach § 261 Abs. 3 Nr. 2 ZPO grundsätzlich nicht zur Zuständigkeit des LG.\n\nAber: Nach § 506 ZPO wird auf Verweisungsantrag an das LG verwiesen. Wird kein Verweisungsantrag gestellt, wird das AG durch rügelose Einlassung zuständig (§ 39 ZPO).",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.029247Z"
+    },
+    {
+      "id": "zivilgericht-0291",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Welches Gericht ist zuständig, wenn der Kläger eine vor dem LG erhobene Klage über 11.000 Euro auf 3.000 Euro reduziert?",
+      "antworten": [
+        "Weiterhin das LG (§§ 4 Abs. 1, 261 Abs. 3 Nr. 2 ZPO)",
+        "Das AG nach Verweisung auf Antrag (§ 506 ZPO entsprechend)",
+        "Das AG nach Verweisung von Amts wegen (§ 281 ZPO)",
+        "Das LG nur bei rügeloser Einlassung (§ 39 ZPO)"
+      ],
+      "erklaerung": "Der Rechtsstreit bleibt beim LG (§§ 4 Abs. 1, 261 Abs. 3 Nr. 2 ZPO), da eine dem § 506 ZPO entsprechende Norm fehlt. Wird das LG tätig, obwohl das AG zuständig wäre, hält die ZPO die Beteiligten nicht für benachteiligt (Anwaltszwang, Kollegialbesetzung, Rechtszug zum OLG; vgl. auch § 513 Abs. 2 ZPO).",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.029308Z"
+    },
+    {
+      "id": "zivilgericht-0292",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wann ist bei einem Mischmietverhältnis (Gewerberaum mit Wohnung) das Amtsgericht streitwertunabhängig sachlich zuständig?",
+      "antworten": [
+        "Nur wenn der Schwerpunkt des Vertrags bei der Wohnraummiete liegt",
+        "Stets, da auch Wohnraum vermietet ist",
+        "Nie, da das Gewerbe die Wohnraummiete verdrängt",
+        "Nur wenn die Wohnfläche die Gewerbefläche übersteigt"
+      ],
+      "erklaerung": "Nach h. M. (Schwerpunkttheorie) ist das AG nach § 23 Nr. 2 lit. a GVG nur dann sachlich zuständig, wenn der Schwerpunkt des Vertrags bei der Wohnraummiete liegt.\n\nÖrtlich ist nach § 29a Abs. 1 ZPO ausschließlich das Gericht zuständig, in dessen Bezirk sich die Räume befinden.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.029372Z"
+    },
+    {
+      "id": "zivilgericht-0293",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wo kann ein Unfallgeschädigter Fahrer, Halter und Haftpflichtversicherer mit unterschiedlichem Wohnsitz bzw. Sitz gemeinsam verklagen?",
+      "antworten": [
+        "Am Unfallort (§ 32 ZPO, § 20 StVG)",
+        "Am Wohnsitz des Fahrers (§§ 12, 13 ZPO)",
+        "Am Sitz des Versicherers (§ 17 ZPO)",
+        "Am Wohnsitz des Klägers (§ 215 VVG)"
+      ],
+      "erklaerung": "Anspruchsgrundlagen: § 7 StVG (Halter), § 18 StVG und § 823 BGB (Fahrer), § 115 Abs. 1 Nr. 1 VVG (Pflichtversicherer). Die allgemeinen Gerichtsstände (§§ 12, 13, 17 ZPO) liegen an verschiedenen Orten; gemeinsamer besonderer Gerichtsstand ist der Unfallort (§ 20 StVG, § 32 ZPO).\n\nDas nach § 32 ZPO zuständige Gericht hat innerhalb des einheitlichen prozessualen Anspruchs eine umfassende Prüfungsbefugnis, auch für nicht deliktische Anspruchsgrundlagen (BGH NJW 2003, 828; Erst-recht-Schluss aus § 17 Abs. 2 GVG).",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.029506Z"
+    },
+    {
+      "id": "zivilgericht-0294",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Wie wirken sich ausgerechnete Verzugszinsen für einen bestimmten Zeitraum auf den Zuständigkeitsstreitwert aus?",
+      "antworten": [
+        "Gar nicht, sie bleiben als Nebenforderung außer Betracht (§ 4 Abs. 1 ZPO)",
+        "Sie werden hinzugerechnet, da sie beziffert sind",
+        "Sie werden hinzugerechnet, soweit sie vor Klageerhebung entstanden sind",
+        "Sie werden zur Hälfte hinzugerechnet"
+      ],
+      "erklaerung": "Zinsen sind Nebenforderung und bleiben nach § 4 Abs. 1 ZPO außer Betracht, und zwar auch dann, wenn sie ausgerechnet sind (häufiger Fehler). Beispiel: 10.000 Euro Kaufpreis zuzüglich 100 Euro ausgerechneter Verzugszinsen → AG zuständig.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.029579Z"
+    },
+    {
+      "id": "zivilgericht-0295",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Bis zu welcher Dauer sind der Partei zuzurechnende Verzögerungen für eine Zustellung „demnächst“ (§ 167 ZPO) nach dem BGH hinnehmbar?",
+      "antworten": [
+        "Etwa 14 Tage",
+        "Etwa drei Tage",
+        "Etwa ein Monat",
+        "Etwa drei Monate"
+      ],
+      "erklaerung": "Die Verjährung wird durch Klageerhebung gehemmt (§ 204 Abs. 1 Nr. 1 BGB), also durch Zustellung (§ 253 Abs. 1 ZPO). Nach § 167 ZPO wirkt die Zustellung auf den Eingang der Klage zurück, wenn sie demnächst erfolgt. Das ist der Fall, wenn sich der Partei zuzurechnende Verzögerungen in einem hinnehmbaren Rahmen von ca. 14 Tagen halten (BGH NJW 2015, 2666).\n\nBeispiel: Verjährungsende 31.12., Eingang der Klage mit Vorschuss am 30.12., Zustellung am 09.01. – rechtzeitig, da der Kläger den Vorschuss unverzüglich gezahlt und keine Verzögerung verursacht hat.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.029680Z"
+    },
+    {
+      "id": "zivilgericht-0296",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Wer führt die Zustellung der Klageschrift aus?",
+      "antworten": [
+        "Die Geschäftsstelle von Amts wegen, z. B. gegen Empfangsbekenntnis oder durch die Post",
+        "Der Kläger im Parteibetrieb, z. B. durch den Gerichtsvollzieher",
+        "Der Vorsitzende von Amts wegen, z. B. durch Aushändigung im Termin",
+        "Die Geschäftsstelle auf Antrag des Klägers, stets durch den Gerichtsvollzieher"
+      ],
+      "erklaerung": "Das Gericht hat die Klage unverzüglich zuzustellen (§ 271 ZPO), und zwar durch die Geschäftsstelle (§ 168 Abs. 1 ZPO): entweder gegen Empfangsbekenntnis (§ 168 Abs. 1 S. 1 i. V. m. §§ 173 ff. ZPO) oder über die Post (§ 168 Abs. 1 S. 2 i. V. m. §§ 176 ff. ZPO). In Ausnahmefällen ist öffentliche Zustellung möglich (§ 185 ZPO). Die Zustellung ist in § 166 ZPO definiert.",
+      "creator": null,
+      "ts": "2026-09-30T20:18:26.029753Z"
     }
   ]
 }

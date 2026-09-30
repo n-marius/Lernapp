@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Welche Anspruchsgrundlagen und Merkmale sind bei Klageabweisung in den Entscheidungsgründen zu erörtern?",
+  "antworten": [
+    "Alle in Betracht kommenden, jeweils grds. nur ein verneintes Merkmal",
+    "Nur die naheliegendste, mit allen Merkmalen",
+    "Alle denkbaren, auch fernliegende, jeweils mit allen Merkmalen",
+    "Nur die naheliegendste, mit allen verneinten Merkmalen"
+  ],
+  "erklaerung": "Bei Klageabweisung müssen alle in Betracht kommenden Anspruchsgrundlagen erörtert werden, nicht aber fernliegende. Grundsätzlich ist nur das zu verneinende Tatbestandsmerkmal zu erörtern; liegen mehrere nicht vor, wird dasjenige ausgewählt, das am leichtesten zu verneinen ist.",
+  "id": "zivilgericht-0233",
+  "ts": "2026-09-30T20:18:26.025224Z"
+}

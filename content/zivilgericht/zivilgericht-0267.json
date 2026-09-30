@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wie sind die Parteien im Rubrum zu bezeichnen, wenn der Rechtsstreit nach dem Tod des Klägers mit dessen Erben fortgesetzt wird?",
+  "antworten": [
+    "„der Erben des am … verstorbenen Klägers, nämlich 1) … 2) …“",
+    "„der Erbengemeinschaft nach dem am … verstorbenen Kläger“",
+    "„des am … verstorbenen Klägers, vertreten durch seine Erben“",
+    "„des Nachlasses des am … verstorbenen Klägers“"
+  ],
+  "erklaerung": "Beim Tod einer Partei wird der Rechtsstreit mit den Erben fortgesetzt. Die Erbengemeinschaft als solche ist nicht parteifähig; daher sind die einzelnen Erben aufzuführen: „der Erben des am … verstorbenen Klägers, nämlich 1) … 2) … 3) …“.",
+  "id": "zivilgericht-0267",
+  "ts": "2026-09-30T20:18:26.027520Z"
+}

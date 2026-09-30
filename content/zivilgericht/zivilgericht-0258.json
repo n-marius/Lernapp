@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "In welchem Kasus werden Kläger und Beklagter im Rubrum bezeichnet?",
+  "antworten": [
+    "Kläger im Genitiv, Beklagter im Akkusativ",
+    "Kläger im Nominativ, Beklagter im Dativ",
+    "Kläger im Genitiv, Beklagter im Dativ",
+    "Kläger im Dativ, Beklagter im Akkusativ"
+  ],
+  "erklaerung": "Das Rubrum beginnt mit „In dem Rechtsstreit“; es folgt der Kläger im Genitiv („des …, Klägers,“) und nach „gegen“ der Beklagte im Akkusativ („den …, Beklagten,“) (§ 313 Abs. 1 Nr. 1 ZPO).",
+  "id": "zivilgericht-0258",
+  "ts": "2026-09-30T20:18:26.027007Z"
+}

@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Wie ist der Gegenstand des Rechtsstreits nach der Parteibezeichnung im Rubrum anzugeben?",
+  "antworten": [
+    "Entweder genau (z. B. „wegen Kaufpreisforderung“) oder gar nicht",
+    "Stets genau, da § 313 Abs. 1 Nr. 1 ZPO dies verlangt",
+    "Stets allgemein (z. B. „wegen Forderung“)",
+    "Stets mit Angabe des Streitwerts"
+  ],
+  "erklaerung": "Nach der Bezeichnung der Parteien kann der Gegenstand des Rechtsstreits angegeben werden, entweder genau (z. B. „wegen Kaufpreisforderung“) oder gar nicht. Es folgt in einem neuen Absatz die Bezeichnung des Gerichts mit Spruchkörper und der Richter („hat die 5. Zivilkammer des Landgerichts Braunschweig durch den Vorsitzenden Richter am Landgericht …“).",
+  "id": "zivilgericht-0256",
+  "ts": "2026-09-30T20:18:26.026877Z"
+}

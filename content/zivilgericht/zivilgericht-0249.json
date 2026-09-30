@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wann sollte in einer Zivilrechtsklausur spätestens mit dem Ausformulieren begonnen werden?",
+  "antworten": [
+    "Allerspätestens nach der Hälfte der Bearbeitungszeit",
+    "Allerspätestens nach einem Drittel der Bearbeitungszeit",
+    "Allerspätestens nach drei Vierteln der Bearbeitungszeit",
+    "Allerspätestens eine Stunde vor Ende der Bearbeitungszeit"
+  ],
+  "erklaerung": "Die Zeiteinteilung ist individuell durch Üben zu ermitteln; eine eigene Vorgabe ist zu machen und während der Bearbeitung konsequent zu überwachen („spätestens nach 2 Stunden anfangen auszuformulieren“, allerspätestens nach der Halbzeit). Hilfreich sind Kenntnis des Klausuraufbaus und von Standardproblemen (nicht in Details verlieren).",
+  "id": "zivilgericht-0249",
+  "ts": "2026-09-30T20:18:26.026332Z"
+}

@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Wie sind die Beteiligten im Aktenvortrag sprachlich zu bezeichnen?",
+  "antworten": [
+    "Möglichst mit Namen bzw. einheitlicher Parteirolle, wenig Pronomen, aktiv",
+    "Möglichst mit Pronomen, um den Vortrag flüssig zu halten",
+    "Abwechselnd mit Namen und Parteirolle, um Wiederholungen zu vermeiden",
+    "Möglichst passivisch, um Parteinahme zu vermeiden"
+  ],
+  "erklaerung": "Nicht zu oft Personalpronomen verwenden, sondern die Beteiligten (Kläger, Beklagter, Zeugen) so oft wie möglich mit Namen bzw. der im Vortrag generell verwendeten Parteirolle benennen; nicht passivisch formulieren. Außerdem: frei, nicht monoton, nicht zu schnell und mit Betonung sprechen, Blickkontakt zu allen Zuhörern, kurze Sätze, im Sachverhalt „Schlaglichter“ auf wichtige Elemente setzen.",
+  "id": "zivilgericht-0227",
+  "ts": "2026-09-30T20:18:26.024806Z"
+}

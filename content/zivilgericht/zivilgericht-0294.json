@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Wie wirken sich ausgerechnete Verzugszinsen für einen bestimmten Zeitraum auf den Zuständigkeitsstreitwert aus?",
+  "antworten": [
+    "Gar nicht, sie bleiben als Nebenforderung außer Betracht (§ 4 Abs. 1 ZPO)",
+    "Sie werden hinzugerechnet, da sie beziffert sind",
+    "Sie werden hinzugerechnet, soweit sie vor Klageerhebung entstanden sind",
+    "Sie werden zur Hälfte hinzugerechnet"
+  ],
+  "erklaerung": "Zinsen sind Nebenforderung und bleiben nach § 4 Abs. 1 ZPO außer Betracht, und zwar auch dann, wenn sie ausgerechnet sind (häufiger Fehler). Beispiel: 10.000 Euro Kaufpreis zuzüglich 100 Euro ausgerechneter Verzugszinsen → AG zuständig.",
+  "id": "zivilgericht-0294",
+  "ts": "2026-09-30T20:18:26.029579Z"
+}

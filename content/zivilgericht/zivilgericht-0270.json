@@ -1,0 +1,21 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "typ": "begriffe",
+  "reihenfolge": false,
+  "frage": "Welche Anträge sind Sachanträge?",
+  "antworten": [
+    "Klageantrag",
+    "Klageänderung",
+    "Erledigungserklärung",
+    "Antrag des Rechtsmittelklägers"
+  ],
+  "falsche": [
+    "Beweisantrag",
+    "Antrag auf Versäumnisurteil",
+    "Wiedereinsetzungsantrag"
+  ],
+  "erklaerung": "Sachanträge grenzen im Sinne des § 308 ZPO die Sachentscheidungsbefugnis des Gerichts ein, z. B. Klageanträge einschließlich Änderungen, Erledigungserklärung, Anträge des Rechtsmittelklägers.\n\nProzessanträge betreffen das Verfahren, z. B. Beweisanträge, Anträge auf Erlass eines Versäumnisurteils, Wiedereinsetzungsanträge; str. ist die Einordnung des Antrags auf Klageabweisung.",
+  "id": "zivilgericht-0270",
+  "ts": "2026-09-30T20:18:26.027813Z"
+}

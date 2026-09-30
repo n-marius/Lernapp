@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Wie ist nach dem üblichen Bearbeitervermerk zu verfahren, wenn die Klage für ganz oder teilweise unzulässig gehalten wird?",
+  "antworten": [
+    "Insoweit ist zur Begründetheit in einem Hilfsgutachten Stellung zu nehmen",
+    "Die Begründetheit ist insoweit nicht zu prüfen",
+    "Die Begründetheit ist insoweit im Hauptgutachten mitzuprüfen",
+    "Es ist insoweit von der Zulässigkeit der Klage auszugehen"
+  ],
+  "erklaerung": "Kommt der Bearbeiter ganz oder teilweise zur Unzulässigkeit der Klage, ist insoweit zur Begründetheit in einem Hilfsgutachten Stellung zu nehmen. Das Gutachten endet bei Entscheidungsreife mit einem Tenorierungsvorschlag einschließlich der prozessualen Nebenentscheidungen; dem Gutachten ist eine Sachverhaltsschilderung nach § 313 Abs. 2 ZPO voranzustellen.",
+  "id": "zivilgericht-0231",
+  "ts": "2026-09-30T20:18:26.025109Z"
+}

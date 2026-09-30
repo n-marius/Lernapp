@@ -1,0 +1,23 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "typ": "begriffe",
+  "reihenfolge": true,
+  "frage": "In welcher Reihenfolge wird ein Anspruch in den Entscheidungsgründen dargestellt?",
+  "antworten": [
+    "Gesamtergebnis",
+    "Konkrete Rechtsfolge",
+    "Anspruchsgrundlage mit abstrakter Rechtsfolge",
+    "Abstrakte Tatbestandsvoraussetzung",
+    "Interpretation der Voraussetzung",
+    "Subsumtion",
+    "ggf. Tatsachenfeststellung"
+  ],
+  "falsche": [
+    "Ergebnisfeststellung am Ende",
+    "Obersatz als Frage"
+  ],
+  "erklaerung": "Beispiel: „Die zulässige Klage ist begründet.“ – „Der Kläger kann von dem Beklagten Zahlung von 7.000 EUR fordern.“ – „Der Beklagte haftet aus § 280 Abs. 1 BGB auf Schadensersatz.“ – „Ihn traf als Mieter eine aus § 535 BGB abzuleitende Obhutspflicht.“ – „Diese Pflicht gebietet …“ – „Diese Obhutspflicht hat der Beklagte verletzt. Er ist bei eisiger Kälte verreist, …“ – „Davon ist das Gericht nach dem Ergebnis der Beweisaufnahme überzeugt …“.",
+  "id": "zivilgericht-0244",
+  "ts": "2026-09-30T20:18:26.025971Z"
+}

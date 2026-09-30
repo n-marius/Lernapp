@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Wo sollte die Streitwertfestsetzung (§ 63 Abs. 2 GKG) bei einem Urteil nach Empfehlung erfolgen?",
+  "antworten": [
+    "In einem eigenständigen Streitwertbeschluss",
+    "Als Ziffer 4 des Tenors",
+    "Am Ende der Entscheidungsgründe",
+    "Im Rubrum nach dem Gegenstand des Rechtsstreits"
+  ],
+  "erklaerung": "In der Praxis wird der Streitwertbeschluss manchmal als Ziffer 4 in den Tenor aufgenommen; nach a. A. wird der Streitwert am Ende der Entscheidungsgründe angegeben. Empfehlenswert ist ein eigenständiger Streitwertbeschluss, zumal dieser am AG und LG trotz § 232 ZPO stets eine gesonderte Rechtsmittelbelehrung erfordert (Beschwerde nach § 68 GKG).",
+  "id": "zivilgericht-0281",
+  "ts": "2026-09-30T20:18:26.028489Z"
+}

@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Wann gehören früher gestellte, später geänderte Anträge in den Tatbestand?",
+  "antworten": [
+    "Wenn sie für die Entscheidung eine Rolle spielen oder der letzte Antrag sonst unverständlich ist",
+    "Stets, da der Tatbestand den gesamten Prozessverlauf wiedergibt",
+    "Nie, da nur die zuletzt gestellten Anträge wiederzugeben sind",
+    "Nur wenn die Änderung auf einem richterlichen Hinweis beruht"
+  ],
+  "erklaerung": "Die zuletzt gestellten Anträge sind korrekt und wortgetreu wiederzugeben. Vormalige Anträge gehören in die (kleine) Prozessgeschichte, sofern sie für die Entscheidung eine Rolle spielen oder der zuletzt gestellte Antrag isoliert nicht verständlich ist.",
+  "id": "zivilgericht-0274",
+  "ts": "2026-09-30T20:18:26.028064Z"
+}

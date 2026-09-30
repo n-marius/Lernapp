@@ -1,0 +1,25 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "typ": "begriffe",
+  "reihenfolge": true,
+  "frage": "In welcher Reihenfolge sind die Bestandteile eines Zivilurteils anzuordnen?",
+  "antworten": [
+    "Gericht und Aktenzeichen",
+    "„Im Namen des Volkes“",
+    "Bezeichnung der Parteien",
+    "Gericht und Richter",
+    "Schluss der mündlichen Verhandlung",
+    "Urteilsformel (Tenor)",
+    "Tatbestand",
+    "Entscheidungsgründe",
+    "Unterschriften"
+  ],
+  "falsche": [
+    "Leitsatz",
+    "Beweisbeschluss"
+  ],
+  "erklaerung": "Oben links stehen Gericht und darunter das Aktenzeichen, oben rechts der Verkündungsvermerk; es folgen die Überschrift (§ 311 Abs. 1 ZPO) und die Angaben nach § 313 Abs. 1 Nr. 1–6 ZPO: Parteien, gesetzliche Vertreter und Prozessbevollmächtigte (Nr. 1), Gericht und Richter (Nr. 2), Tag des Schlusses der mündlichen Verhandlung (Nr. 3), Urteilsformel (Nr. 4), Tatbestand (Nr. 5) und Entscheidungsgründe (Nr. 6).\n\nDen Abschluss bilden die Unterschriften der Richter (§ 315 ZPO). Der Tenor wird stets eingerückt; Tatbestand und Entscheidungsgründe stehen unter entsprechenden Überschriften.",
+  "id": "zivilgericht-0279",
+  "ts": "2026-09-30T20:18:26.028364Z"
+}

@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Welche Unterlagen darf der Prüfling während des Aktenvortrags verwenden?",
+  "antworten": [
+    "Aktenstück und stichwortartige Notizen, keine ausformulierte Ausarbeitung",
+    "Aktenstück und ausformulierte Ausarbeitung, keine Kommentare",
+    "Nur stichwortartige Notizen, nicht das Aktenstück",
+    "Nur das Aktenstück, keine eigenen Notizen"
+  ],
+  "erklaerung": "Der Prüfling darf das Aktenstück (Zeit- oder Zahlenangaben, Urkunden, Anträge, wenn es auf den Wortlaut ankommt) und seine stichwortartigen Notizen verwenden. Nicht gestattet ist, eine schriftliche Ausarbeitung abzulesen. Tipp: die Akte bewusst zuschlagen und nur für wörtliche Zitate aufschlagen („Ich zitiere wörtlich …“).",
+  "id": "zivilgericht-0223",
+  "ts": "2026-09-30T20:18:26.024489Z"
+}

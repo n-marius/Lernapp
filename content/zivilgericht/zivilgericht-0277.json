@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Womit beginnt der Termin und womit wird die mündliche Verhandlung eingeleitet?",
+  "antworten": [
+    "Termin: Aufruf der Sache; mündliche Verhandlung: Stellen der Anträge",
+    "Termin: Aufruf der Sache; mündliche Verhandlung: Eröffnung durch den Vorsitzenden",
+    "Termin: Feststellung der Anwesenden; mündliche Verhandlung: Stellen der Anträge",
+    "Termin: Eröffnung durch den Vorsitzenden; mündliche Verhandlung: Aufruf der Sache"
+  ],
+  "erklaerung": "Der Termin beginnt mit dem Aufruf der Sache (§ 220 Abs. 1 ZPO). Die mündliche Verhandlung wird dadurch eingeleitet, dass die Parteien ihre Anträge stellen (§ 137 Abs. 1 ZPO).",
+  "id": "zivilgericht-0277",
+  "ts": "2026-09-30T20:18:26.028239Z"
+}

@@ -1,0 +1,19 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "typ": "begriffe",
+  "reihenfolge": false,
+  "frage": "Welche Verbindungswörter sind mit dem Urteilsstil vereinbar?",
+  "antworten": [
+    "denn",
+    "nämlich"
+  ],
+  "falsche": [
+    "also",
+    "folglich",
+    "so dass"
+  ],
+  "erklaerung": "Im Urteilsstil wird das Ergebnis vorangestellt und anschließend begründet, da der Richter bereits entschieden hat und die Entscheidung nur noch begründet. Dazu passen „denn“ und „nämlich“; unvereinbar sind „also“, „folglich“, „so dass“ sowie „es ist zu prüfen, ob“ oder „problematisch ist die Frage, ob“.\n\nEine erneute Ergebnisfeststellung am Ende („Nachklapp“) ist zu unterlassen.",
+  "id": "zivilgericht-0284",
+  "ts": "2026-09-30T20:18:26.028723Z"
+}

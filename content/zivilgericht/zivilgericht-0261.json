@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wie ist eine Partei kraft Amtes (z. B. Insolvenzverwalter) im Rubrum zu bezeichnen?",
+  "antworten": [
+    "Mit Namen und Anschrift „in seiner Eigenschaft als Insolvenzverwalter über das Vermögen der …“",
+    "Als Schuldnerin „vertreten durch den Insolvenzverwalter …“",
+    "Nur mit der Bezeichnung „Insolvenzmasse der …“",
+    "Mit Namen und Anschrift „als Prozessbevollmächtigter der Schuldnerin …“"
+  ],
+  "erklaerung": "Parteien kraft Amtes (Insolvenz-, Nachlass-, Zwangsverwalter, Testamentsvollstrecker) sind selbst Partei; ihre besondere Stellung ist anzugeben, z. B. „des Herrn Gustav Meise, Friedensstraße 2, 40219 Düsseldorf, in seiner Eigenschaft als Insolvenzverwalter über das Vermögen der … GmbH, Wiesenstraße 4, 40223 Düsseldorf“.",
+  "id": "zivilgericht-0261",
+  "ts": "2026-09-30T20:18:26.027174Z"
+}

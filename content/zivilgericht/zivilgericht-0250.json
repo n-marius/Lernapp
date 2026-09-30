@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Was bestimmt die Gliederung der Beklagtenstation in der Lösungsskizze?",
+  "antworten": [
+    "Die streitigen Behauptungen des Beklagten, geprüft gegenüber allen schlüssigen Ansprüchen",
+    "Die Anspruchsgrundlagen des Klägers, jeweils mit allen Einwendungen",
+    "Die Beweisangebote des Beklagten in der Reihenfolge ihres Vortrags",
+    "Die Rechtsansichten des Beklagten nach ihrer Schlagkraft"
+  ],
+  "erklaerung": "Lösungsskizze: Zulässigkeitsstation (Zuständigkeit, sonst nur problematische Punkte); Klägerstation (Grobgliederung nach in Betracht kommenden Anspruchsgrundlagen, Subsumtion); Beklagtenstation (streitige Behauptungen des Beklagten bestimmen die Gliederung und werden auf ihre Erheblichkeit gegenüber allen schlüssig dargelegten Ansprüchen geprüft); Beweisstation (Beweisfragen unter Berücksichtigung der Beweislast, Beweismittel nach Ergiebigkeit, Beweiskraft und Würdigung, Beweisergebnis).",
+  "id": "zivilgericht-0250",
+  "ts": "2026-09-30T20:18:26.026388Z"
+}

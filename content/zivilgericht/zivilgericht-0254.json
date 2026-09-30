@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Mit welcher Formel endet das Rubrum?",
+  "antworten": [
+    "„für Recht erkannt:“",
+    "„wird wie folgt entschieden:“",
+    "„ergeht folgendes Urteil:“",
+    "„beschlossen und verkündet:“"
+  ],
+  "erklaerung": "Am Ende des Rubrums steht nach der Angabe der letzten mündlichen Verhandlung die Einleitung des Tenors: „für Recht erkannt:“. Der Tenor folgt eingerückt.",
+  "id": "zivilgericht-0254",
+  "ts": "2026-09-30T20:18:26.026687Z"
+}

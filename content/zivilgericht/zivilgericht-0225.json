@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "In welchem Stil ist die rechtliche Würdigung im Aktenvortrag zu halten?",
+  "antworten": [
+    "Grds. Urteilsstil, problematische Punkte im Gutachtenstil",
+    "Durchgehend Gutachtenstil, Unproblematisches kurz",
+    "Durchgehend Urteilsstil",
+    "Grds. Gutachtenstil, das Ergebnis jeder Station im Urteilsstil"
+  ],
+  "erklaerung": "Die rechtliche Würdigung ist eine Mischform zwischen Entscheidungsgründen und Gutachten: grundsätzlich Urteilsstil, problematische Punkte im Gutachtenstil (bei mehreren Problemen diese zur Übersicht aufzählen und nacheinander abarbeiten). Die Darstellung ist einschichtig, mit Schwerpunkten; enthalten sind alle tragenden Gesichtspunkte und in Kernpunkten die darüber hinausgehenden Erwägungen, die in einem Gutachten anzuführen wären. Nebenansprüche und prozessuale Nebenentscheidungen werden abgehandelt.",
+  "id": "zivilgericht-0225",
+  "ts": "2026-09-30T20:18:26.024668Z"
+}

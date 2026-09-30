@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wie ist ein minderjähriger Kläger bei gemeinsamer elterlicher Sorge im Rubrum zu bezeichnen?",
+  "antworten": [
+    "Mit Geburtsdatum, gesetzlich vertreten durch beide Eltern",
+    "Ohne Geburtsdatum, gesetzlich vertreten durch einen Elternteil",
+    "Mit Geburtsdatum, gesetzlich vertreten durch einen Elternteil",
+    "Ohne Geburtsdatum, gesetzlich vertreten durch beide Eltern"
+  ],
+  "erklaerung": "Bei Minderjährigen empfiehlt sich die Angabe des Geburtsdatums; bei gemeinsamer Sorge müssen beide Eltern als gesetzliche Vertreter genannt werden: „des minderjährigen Schülers …, geb. am …, gesetzlich vertreten durch seine Eltern …, alle wohnhaft …“.",
+  "id": "zivilgericht-0260",
+  "ts": "2026-09-30T20:18:26.027118Z"
+}

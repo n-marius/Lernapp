@@ -1,0 +1,19 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "typ": "begriffe",
+  "reihenfolge": false,
+  "frage": "Woraus besteht eine Aufsichtsarbeit mit gutachterlicher Aufgabenstellung (Relationsklausur) grundsätzlich?",
+  "antworten": [
+    "Tatbestand",
+    "Gutachten",
+    "Entscheidungsvorschlag"
+  ],
+  "falsche": [
+    "Rubrum",
+    "Entscheidungsgründe"
+  ],
+  "erklaerung": "Nach den Merkblättern des LJPA kann Gegenstand der gutachterlichen Aufgabenstellung jede erstinstanzliche gerichtliche Entscheidung sein; die Aufgabe besteht grundsätzlich in der Erstellung eines Tatbestands, eines Gutachtens und eines Entscheidungsvorschlags.\n\nDie zivilgerichtliche Aufgabenstellung kann alle verfahrensfördernden und -beendenden Entscheidungen erster Instanz betreffen (wahrscheinlich Urteil, aber auch Beschluss, z. B. § 91a ZPO). Die Anwaltsklausur ist gutachterlich-rechtsberatend oder gutachterlich-rechtsgestaltend.",
+  "id": "zivilgericht-0253",
+  "ts": "2026-09-30T20:18:26.026592Z"
+}

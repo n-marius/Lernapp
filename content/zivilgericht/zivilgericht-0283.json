@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Welcher Grundsatz gilt für Sätze in den Entscheidungsgründen, die genauso im Tatbestand stehen könnten?",
+  "antworten": [
+    "Sie sollen vermieden werden; Tatsachen sind mit ihren rechtlichen Konsequenzen zu verknüpfen",
+    "Sie sind zulässig, wenn sie in das Präsens gesetzt werden",
+    "Sie sind am Anfang der Begründetheit zur Einführung erforderlich",
+    "Sie sind zulässig, wenn auf den Tatbestand verwiesen wird"
+  ],
+  "erklaerung": "In den Entscheidungsgründen sollte kein Satz stehen, der genauso formuliert auch im Tatbestand stehen könnte; stattdessen sind Tatsachen mit Konsequenzen zu verknüpfen. Weitere Grundsätze: Zwar-Aber-Sätze vermeiden, auf den Punkt kommen, das Schema Norm – Tatbestandsmerkmal – Definition – Subsumtion einhalten.",
+  "id": "zivilgericht-0283",
+  "ts": "2026-09-30T20:18:26.028642Z"
+}

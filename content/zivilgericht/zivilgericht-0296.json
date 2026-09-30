@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Wer führt die Zustellung der Klageschrift aus?",
+  "antworten": [
+    "Die Geschäftsstelle von Amts wegen, z. B. gegen Empfangsbekenntnis oder durch die Post",
+    "Der Kläger im Parteibetrieb, z. B. durch den Gerichtsvollzieher",
+    "Der Vorsitzende von Amts wegen, z. B. durch Aushändigung im Termin",
+    "Die Geschäftsstelle auf Antrag des Klägers, stets durch den Gerichtsvollzieher"
+  ],
+  "erklaerung": "Das Gericht hat die Klage unverzüglich zuzustellen (§ 271 ZPO), und zwar durch die Geschäftsstelle (§ 168 Abs. 1 ZPO): entweder gegen Empfangsbekenntnis (§ 168 Abs. 1 S. 1 i. V. m. §§ 173 ff. ZPO) oder über die Post (§ 168 Abs. 1 S. 2 i. V. m. §§ 176 ff. ZPO). In Ausnahmefällen ist öffentliche Zustellung möglich (§ 185 ZPO). Die Zustellung ist in § 166 ZPO definiert.",
+  "id": "zivilgericht-0296",
+  "ts": "2026-09-30T20:18:26.029753Z"
+}

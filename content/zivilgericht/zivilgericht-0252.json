@@ -1,0 +1,25 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "typ": "begriffe",
+  "reihenfolge": true,
+  "frage": "In welcher Reihenfolge ist eine Relationsklausur zu bearbeiten?",
+  "antworten": [
+    "Bearbeitervermerk lesen",
+    "Sachverhalt wertfrei lesen",
+    "Sachverhalt gründlich lesen",
+    "Aktenauszug erstellen",
+    "Lösungsskizze erstellen",
+    "Abgleich Aktenauszug und Lösungsskizze",
+    "Tenor formulieren",
+    "Tatbestand abfassen",
+    "Gutachten abfassen"
+  ],
+  "falsche": [
+    "Rubrum formulieren",
+    "Entscheidungsgründe abfassen"
+  ],
+  "erklaerung": "Beim ersten, wertfreien Lesen spontane Gedanken festhalten; beim zweiten, gründlichen Lesen Parteiinteressen erfassen und Streitgegenstände vorsichtig in Anspruchsgrundlagen, Einreden und Einwendungen einordnen. Aktenauszug: historischer Aufbau, Beweisangebote notieren, Rechtsansichten kenntlich machen; Unklarheiten durch gezieltes Lesen beseitigen.\n\nAbgleich: alle streitigen Tatsachenbehauptungen des Beklagten berücksichtigt, alle Rechtsansichten erörtert oder ihre Irrelevanz festgestellt, alle Beweismittel und Indizien ausgewertet? Den Tenor auf gesondertem Blatt endgültig formulieren; im Gutachten Gutachtenstil beachten, Unproblematisches kurz abhandeln, Schwerpunkte bilden. In der Urteilsklausur: Tenor, Tatbestand, Entscheidungsgründe.",
+  "id": "zivilgericht-0252",
+  "ts": "2026-09-30T20:18:26.026516Z"
+}

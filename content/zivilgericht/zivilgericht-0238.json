@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wie sind Nebenansprüche (z. B. Verzugszinsen nach § 288 Abs. 1 BGB) in den Entscheidungsgründen darzustellen?",
+  "antworten": [
+    "Kurz, aber mit Subsumtion (insb. Zeitpunkt des Verzugseintritts)",
+    "Nur durch Nennung der Norm ohne Subsumtion",
+    "Ausführlich mit allen Tatbestandsmerkmalen",
+    "Nur bei den prozessualen Nebenentscheidungen"
+  ],
+  "erklaerung": "Nebenansprüche (§ 288 Abs. 1 BGB) werden grundsätzlich nur kurz dargestellt, aber subsumiert; dazu gehört insbesondere der Zeitpunkt des Verzugseintritts.",
+  "id": "zivilgericht-0238",
+  "ts": "2026-09-30T20:18:26.025542Z"
+}

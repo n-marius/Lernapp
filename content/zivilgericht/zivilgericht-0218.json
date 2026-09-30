@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wie sind Daten im Sachbericht des Aktenvortrags anzugeben?",
+  "antworten": [
+    "Grds. relativ („zwei Wochen später“); wichtige Daten konkret und als wichtig betont",
+    "Grds. konkret mit Datum, damit der Zuhörer die Fristen prüfen kann",
+    "Grds. gar nicht, Daten gehören in die rechtliche Würdigung",
+    "Grds. relativ; auch wichtige Daten nur relativ, um den Zuhörer nicht zu überfordern"
+  ],
+  "erklaerung": "Konkrete Daten nur ausnahmsweise nennen (besser: „innerhalb von 10 Tagen“, „zwei Wochen später“), auf wichtige Daten beschränken und beim Vortrag ausdrücklich betonen, dass diese wichtig sind. Das Datum der Klagezustellung nur mitteilen, wenn es für die Lösung darauf ankommt.",
+  "id": "zivilgericht-0218",
+  "ts": "2026-09-30T20:18:26.023984Z"
+}

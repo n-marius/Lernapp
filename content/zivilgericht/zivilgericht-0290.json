@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Welche Folge hat eine Klageerweiterung vor dem AG über die Zuständigkeitsgrenze hinaus?",
+  "antworten": [
+    "Verweisung an das LG auf Antrag (§ 506 ZPO); sonst AG durch rügelose Einlassung zuständig",
+    "Verweisung an das LG von Amts wegen (§ 506 ZPO)",
+    "Keine, das AG bleibt wegen perpetuatio fori stets zuständig (§ 261 Abs. 3 Nr. 2 ZPO)",
+    "Abweisung des erweiterten Teils als unzulässig"
+  ],
+  "erklaerung": "Maßgeblich ist grundsätzlich der Streitwert bei Einreichung der Klage (§ 4 Abs. 1 ZPO); eine Klageerweiterung (§ 264 Nr. 2 ZPO) führt nach § 261 Abs. 3 Nr. 2 ZPO grundsätzlich nicht zur Zuständigkeit des LG.\n\nAber: Nach § 506 ZPO wird auf Verweisungsantrag an das LG verwiesen. Wird kein Verweisungsantrag gestellt, wird das AG durch rügelose Einlassung zuständig (§ 39 ZPO).",
+  "id": "zivilgericht-0290",
+  "ts": "2026-09-30T20:18:26.029247Z"
+}

@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wie sind die gesetzlichen Vertreter einer OHG einerseits und eines Bundeslandes andererseits im Rubrum anzugeben?",
+  "antworten": [
+    "OHG: Vertreter namentlich; Land: nur die vertretende Stelle",
+    "OHG: nur die Firma; Land: Vertreter namentlich",
+    "OHG: alle Gesellschafter namentlich; Land: Vertreter namentlich",
+    "OHG: nur die Firma; Land: nur die vertretende Stelle"
+  ],
+  "erklaerung": "Gesetzliche Vertreter sind entsprechend §§ 130 Nr. 1, 253 Abs. 4 ZPO so genau wie möglich anzugeben (Hintergrund: Zustellung, §§ 170, 171 ZPO). Bei juristischen Personen des Privatrechts und Personenhandelsgesellschaften sind die vollständige Firma und die gesetzlichen Vertreter namentlich zu nennen („der Klein & Co. OHG, …, vertreten durch den persönlich haftenden Gesellschafter Fred Klein, ebenda“).\n\nBei juristischen Personen des öffentlichen Rechts genügt die Stelle, die nach Gesetz oder Satzung vertritt („des Landes Niedersachsen, vertreten durch das Ministerium für Finanzen, …“).",
+  "id": "zivilgericht-0257",
+  "ts": "2026-09-30T20:18:26.026942Z"
+}

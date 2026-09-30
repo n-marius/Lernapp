@@ -1,0 +1,22 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "typ": "begriffe",
+  "reihenfolge": false,
+  "frage": "Welche Wirkungen hat die Antragstellung in der mündlichen Verhandlung?",
+  "antworten": [
+    "Bindung des Gerichts (§ 308 ZPO)",
+    "Verlust von Verfahrensrügen (§ 295 ZPO)",
+    "Rügelose Einlassung (§ 39 ZPO)",
+    "Verlust des Ablehnungsrechts (§ 43 ZPO)",
+    "Einwilligungsbedarf für Klagerücknahme (§ 269 ZPO)"
+  ],
+  "falsche": [
+    "Rechtshängigkeit (§ 261 ZPO)",
+    "Verjährungshemmung (§ 204 BGB)",
+    "Präklusion (§ 296 ZPO)"
+  ],
+  "erklaerung": "Die Antragstellung grenzt das Rechtsschutzbegehren ein (§ 308 ZPO) und wirkt prozessgestaltend: Die Partei verliert das Recht, Verfahrensfehler zu rügen (z. B. §§ 39, 43, 295 ZPO), bzw. einseitig über das Prozessrechtsverhältnis zu verfügen (§§ 263, 269 ZPO).\n\nRechtshängigkeit und Verjährungshemmung treten dagegen schon mit Zustellung der Klage ein.",
+  "id": "zivilgericht-0230",
+  "ts": "2026-09-30T20:18:26.025038Z"
+}

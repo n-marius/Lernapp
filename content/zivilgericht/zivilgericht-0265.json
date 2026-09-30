@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Wie kann eine Anwaltssozietät als Prozessbevollmächtigte im Rubrum bezeichnet werden?",
+  "antworten": [
+    "Alle Mitglieder oder „Rechtsanwälte Dr. Maler und Kollegen“ bzw. „pp.“",
+    "Alle Mitglieder oder „Rechtsanwälte Dr. Maler und Partner“",
+    "Nur der sachbearbeitende Anwalt mit dem Zusatz „u. a.“",
+    "Nur die Kanzleibezeichnung ohne Namen einzelner Anwälte"
+  ],
+  "erklaerung": "Bei einer Sozietät sind alle Mitglieder zu nennen oder abgekürzt „Rechtsanwälte Dr. Maler und Kollegen“ bzw. „Rechtsanwälte Dr. Blumentopf pp.“. Nicht „Partner“, da dies ein Fachterminus nach dem Partnerschaftsgesellschaftsgesetz ist.",
+  "id": "zivilgericht-0265",
+  "ts": "2026-09-30T20:18:26.027403Z"
+}

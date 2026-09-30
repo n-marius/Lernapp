@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Welches Gericht ist für eine Amtshaftungsklage (§ 839 BGB, Art. 34 GG) über 2.300 Euro wegen Verletzung der Streupflicht sachlich zuständig?",
+  "antworten": [
+    "Das Landgericht, streitwertunabhängig (§ 71 Abs. 2 Nr. 2 GVG)",
+    "Das Amtsgericht, da der Streitwert 10.000 Euro nicht übersteigt",
+    "Das Verwaltungsgericht, da eine hoheitliche Pflicht betroffen ist",
+    "Das Landgericht, aber nur bei Klage gegen den Amtsträger persönlich"
+  ],
+  "erklaerung": "Nach dem Streitwert wäre zwar das AG zuständig; wegen § 71 Abs. 2 Nr. 2 GVG ist aber streitwertunabhängig das LG zuständig, hier wegen pflichtwidriger Unterlassung einer Amtshandlung (Organisation der Streupflicht).\n\nAusnahme: AG zuständig bei einem Verkehrsunfall ohne inneren Zusammenhang mit der Ausübung eines Amtes.",
+  "id": "zivilgericht-0289",
+  "ts": "2026-09-30T20:18:26.029184Z"
+}

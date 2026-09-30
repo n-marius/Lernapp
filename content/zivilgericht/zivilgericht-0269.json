@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Welchem Zweck dient die genaue Bezeichnung der Parteien im Rubrum (Vor- und Nachname, Anschrift)?",
+  "antworten": [
+    "Vermeidung von Schwierigkeiten bei der Zwangsvollstreckung (§ 750 Abs. 1 ZPO)",
+    "Bestimmung der örtlichen Zuständigkeit (§§ 12, 13 ZPO)",
+    "Berechnung der Gerichtskosten (§ 3 ZPO)",
+    "Feststellung der Prozessfähigkeit (§ 51 ZPO)"
+  ],
+  "erklaerung": "Nach § 750 Abs. 1 ZPO darf die Zwangsvollstreckung nur beginnen, wenn die Personen, für und gegen die sie stattfinden soll, im Urteil namentlich bezeichnet sind. Deshalb sind Vor- und Nachname, in der Regel die Bezeichnung „Frau“/„Herr“ sowie die Anschrift anzugeben.",
+  "id": "zivilgericht-0269",
+  "ts": "2026-09-30T20:18:26.027742Z"
+}

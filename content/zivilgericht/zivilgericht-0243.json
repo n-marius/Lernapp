@@ -1,0 +1,14 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wie wird eine vom Beklagten erhobene, nicht durchgreifende Einrede bei stattgebendem Urteil erörtert?",
+  "antworten": [
+    "Nur das verneinte Merkmal der Einrede wird erörtert",
+    "Alle Merkmale der Einrede werden erörtert, unproblematische kurz",
+    "Die Einrede wird nicht erörtert, da sie nicht zu den tragenden Gründen gehört",
+    "Die Einrede wird nur erwähnt und mit Verweis auf den Tatbestand abgelehnt"
+  ],
+  "erklaerung": "Beruft sich der Beklagte auf Einreden, wird nur das Merkmal erörtert, das verneint wird; die anderen gehören nicht zu den tragenden Gründen.",
+  "id": "zivilgericht-0243",
+  "ts": "2026-09-30T20:18:26.025911Z"
+}

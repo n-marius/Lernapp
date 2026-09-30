@@ -1,6 +1,6 @@
 {
-  "version": 9,
-  "contentHash": "fbd6dc5a10bf67e4",
+  "version": 11,
+  "contentHash": "b96b453a72d8328d",
   "cards": [
     {
       "id": "zivilgericht-0004",
@@ -99,15 +99,15 @@
     {
       "id": "zivilgericht-0009",
       "gebiet": "zivilgericht",
-      "prio": "niedrig",
-      "frage": "Ist die Beweisanordnung anfechtbar?",
+      "prio": "normal",
+      "frage": "Ist die Aussage „Der Beklagte hatte keinen Rechtsbindungswillen“ Tatsachenvortrag oder Rechtsansicht?",
       "antworten": [
-        "Nein, sie ist unanfechtbar",
-        "Ja, mit der sofortigen Beschwerde",
-        "Ja, mit der Erinnerung",
-        "Nur der formelle Beweisbeschluss"
+        "Rechtsansicht",
+        "Tatsachenvortrag",
+        "Rechtstatsache",
+        "Werturteil mit Tatsachenkern"
       ],
-      "erklaerung": "Die Beweisanordnung ist unanfechtbar (§§ 355 Abs. 2, 567 ZPO). Gegen eine von Amts wegen erfolgende prozessleitende Maßnahme ist keine Beschwerde zulässig.",
+      "erklaerung": "Der fehlende Rechtsbindungswille ist eine rechtliche Bewertung, also eine Rechtsansicht; ein Zeuge könnte dazu nichts bekunden. Tatsachenvortrag wäre dagegen: „Der Beklagte sagte, ich könne das Handy behalten, er wolle nichts dafür.“ Ebenfalls reine Rechtsansichten sind „Der Kaufvertrag ist wirksam zustande gekommen“ und „Der Unfall war für den Kläger unvermeidbar“.\n\nGemischt sind z. B.: „Der Pkw hat einen Mangel (Rechtsansicht), deswegen habe ich dem Beklagten gesagt, ich fühle mich nicht mehr gebunden (Tatsache = konkludente Rücktrittserklärung)“ und „Ich habe aus Notwehr gehandelt (Rechtsansicht). Der Kläger wollte mich schlagen, weshalb ich zuerst zuschlug (Tatsache)“.",
       "creator": null,
       "ts": "2026-09-28T11:02:50.395Z"
     },
@@ -1574,22 +1574,15 @@
     {
       "id": "zivilgericht-0104",
       "gebiet": "zivilgericht",
-      "prio": "normal",
-      "frage": "Wie ist der Urkundsbeweis zu prüfen?",
-      "typ": "begriffe",
-      "reihenfolge": true,
+      "prio": "hoch",
+      "frage": "Wie ist der Beginn beantragter Prozesszinsen im Tenor zu bezeichnen?",
       "antworten": [
-        "Urkundenqualität",
-        "Aussteller",
-        "Echtheit",
-        "Umfang der Beweiskraft"
+        "Mit dem konkreten Datum des Zinsbeginns",
+        "Mit der Angabe „seit Rechtshängigkeit“",
+        "Mit der Angabe „ab Zustellung der Klage“",
+        "Mit Verweis auf die Zustellungsurkunde"
       ],
-      "falsche": [
-        "Glaubhaftigkeit des Inhalts",
-        "Beweislast",
-        "Vorlage im Original"
-      ],
-      "erklaerung": "Prüfung: 1. Handelt es sich um eine Urkunde? 2. Wer erscheint als Aussteller (Behörde oder Privatperson)? Ist die Echtheit bestritten, und wenn ja, ist sie bewiesen? 3. Umfang der Beweiskraft, grds. vom Gesetz fest vorgegeben.",
+      "erklaerung": "Der Tenor muss als Grundlage der Zwangsvollstreckung eindeutig sein; das Vollstreckungsorgan muss ohne Tatbestand und Gründe vollstrecken können. Zinsen „seit Rechtshängigkeit“ sind daher nicht hinreichend bestimmt; richtig ist ein konkretes Datum („… nebst Zinsen … seit dem 10.02.2010 zu zahlen“). Ein nicht vollstreckungsfähiger Tenor kann die ganze Klausur unbrauchbar machen.\n\nWeitere Fehlerbeispiele: „Der Klage wird stattgegeben“; Herausgabe eines Pkw nur nach amtlichem Kennzeichen (änderbar; Fahrgestellnummer nötig); Verurteilung, unbestimmte „Störungen“ zu unterlassen. Ausnahmsweise ist die Bezugnahme auf fest mit dem Urteil verbundene Anlagen zulässig.",
       "creator": null,
       "ts": "2026-09-28T11:02:50.395Z"
     },
@@ -2713,14 +2706,14 @@
       "id": "zivilgericht-0177",
       "gebiet": "zivilgericht",
       "prio": "normal",
-      "frage": "Wie werden einfaches und qualifiziertes Bestreiten im Tatbestand dargestellt?",
+      "frage": "Wie ist mit übereinstimmend verwendeten Rechtsbegriffen wie „Kaufvertrag“ im Aktenauszug und Tatbestand umzugehen?",
       "antworten": [
-        "Einfaches gar nicht; qualifiziertes im str. Beklagtenvortrag",
-        "Beide ausdrücklich im streitigen Beklagtenvortrag",
-        "Einfaches mit „bestreitet“; qualifiziertes im Unstreitigen",
-        "Beide nur in der Prozessgeschichte vor den Anträgen"
+        "In Tatsache und Rechtsansicht auflösen",
+        "Als unstreitige Tatsache übernehmen",
+        "Als bindende Rechtswürdigung übernehmen",
+        "Als reine Rechtsansicht ganz weglassen"
       ],
-      "erklaerung": "Einfaches Bestreiten wird nicht erwähnt; es ergibt sich aus der Stellung der Tatsache im streitigen Klägervorbringen.\n\nQualifiziertes Bestreiten (Gegendarstellung) ist im streitigen Beklagtenvorbringen darzustellen („Der Beklagte behauptet, er habe dem Kläger gesagt, …“).",
+      "erklaerung": "Sog. Rechtstatsachen (z. B. „Die Parteien haben einen Kaufvertrag abgeschlossen“) sind zu vermeiden. Die rechtliche Einordnung nimmt allein das Gericht vor (etwa falsa demonstratio, Abgrenzung zu anderen Vertragsarten); die Parteien können sie nicht unstreitig stellen. Unstreitig werden kann nur die dahinterstehende Tatsache, z. B. die Unterzeichnung eines als Kaufvertrag bezeichneten Dokuments.\n\nDer Vortrag ist daher in Tatsache und Rechtsansicht zu trennen. Vgl. Kündigung: nicht „er kündigte“, sondern „er erklärte eine Kündigung“. Rechtsansichten sind im Aktenauszug zu streichen oder deutlich zu kennzeichnen („meint“, „vertritt die Ansicht“).",
       "creator": null,
       "ts": "2026-09-28T15:24:06.693196Z"
     },

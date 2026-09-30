@@ -2,13 +2,13 @@
   "id": "zivilgericht-0177",
   "gebiet": "zivilgericht",
   "prio": "normal",
-  "frage": "Wie werden einfaches und qualifiziertes Bestreiten im Tatbestand dargestellt?",
+  "frage": "Wie ist mit übereinstimmend verwendeten Rechtsbegriffen wie „Kaufvertrag“ im Aktenauszug und Tatbestand umzugehen?",
   "antworten": [
-    "Einfaches gar nicht; qualifiziertes im str. Beklagtenvortrag",
-    "Beide ausdrücklich im streitigen Beklagtenvortrag",
-    "Einfaches mit „bestreitet“; qualifiziertes im Unstreitigen",
-    "Beide nur in der Prozessgeschichte vor den Anträgen"
+    "In Tatsache und Rechtsansicht auflösen",
+    "Als unstreitige Tatsache übernehmen",
+    "Als bindende Rechtswürdigung übernehmen",
+    "Als reine Rechtsansicht ganz weglassen"
   ],
-  "erklaerung": "Einfaches Bestreiten wird nicht erwähnt; es ergibt sich aus der Stellung der Tatsache im streitigen Klägervorbringen.\n\nQualifiziertes Bestreiten (Gegendarstellung) ist im streitigen Beklagtenvorbringen darzustellen („Der Beklagte behauptet, er habe dem Kläger gesagt, …“).",
+  "erklaerung": "Sog. Rechtstatsachen (z. B. „Die Parteien haben einen Kaufvertrag abgeschlossen“) sind zu vermeiden. Die rechtliche Einordnung nimmt allein das Gericht vor (etwa falsa demonstratio, Abgrenzung zu anderen Vertragsarten); die Parteien können sie nicht unstreitig stellen. Unstreitig werden kann nur die dahinterstehende Tatsache, z. B. die Unterzeichnung eines als Kaufvertrag bezeichneten Dokuments.\n\nDer Vortrag ist daher in Tatsache und Rechtsansicht zu trennen. Vgl. Kündigung: nicht „er kündigte“, sondern „er erklärte eine Kündigung“. Rechtsansichten sind im Aktenauszug zu streichen oder deutlich zu kennzeichnen („meint“, „vertritt die Ansicht“).",
   "ts": "2026-09-28T15:24:06.693196Z"
 }

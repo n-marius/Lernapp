@@ -1,14 +1,14 @@
 {
   "id": "zivilgericht-0009",
   "gebiet": "zivilgericht",
-  "prio": "niedrig",
-  "frage": "Ist die Beweisanordnung anfechtbar?",
+  "prio": "normal",
+  "frage": "Ist die Aussage „Der Beklagte hatte keinen Rechtsbindungswillen“ Tatsachenvortrag oder Rechtsansicht?",
   "antworten": [
-    "Nein, sie ist unanfechtbar",
-    "Ja, mit der sofortigen Beschwerde",
-    "Ja, mit der Erinnerung",
-    "Nur der formelle Beweisbeschluss"
+    "Rechtsansicht",
+    "Tatsachenvortrag",
+    "Rechtstatsache",
+    "Werturteil mit Tatsachenkern"
   ],
-  "erklaerung": "Die Beweisanordnung ist unanfechtbar (§§ 355 Abs. 2, 567 ZPO). Gegen eine von Amts wegen erfolgende prozessleitende Maßnahme ist keine Beschwerde zulässig.",
+  "erklaerung": "Der fehlende Rechtsbindungswille ist eine rechtliche Bewertung, also eine Rechtsansicht; ein Zeuge könnte dazu nichts bekunden. Tatsachenvortrag wäre dagegen: „Der Beklagte sagte, ich könne das Handy behalten, er wolle nichts dafür.“ Ebenfalls reine Rechtsansichten sind „Der Kaufvertrag ist wirksam zustande gekommen“ und „Der Unfall war für den Kläger unvermeidbar“.\n\nGemischt sind z. B.: „Der Pkw hat einen Mangel (Rechtsansicht), deswegen habe ich dem Beklagten gesagt, ich fühle mich nicht mehr gebunden (Tatsache = konkludente Rücktrittserklärung)“ und „Ich habe aus Notwehr gehandelt (Rechtsansicht). Der Kläger wollte mich schlagen, weshalb ich zuerst zuschlug (Tatsache)“.",
   "ts": "2026-09-28T11:02:50.395Z"
 }

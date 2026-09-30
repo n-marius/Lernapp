@@ -78,9 +78,11 @@ Schreiben nur daran halten, dass die richtige Antwort an erster Stelle steht.
 - Verweist das Quellmaterial nur auf eine Norm, ohne deren Inhalt darzustellen (z. B. „siehe § 487 ZPO“), eine Karte mit dem Norminhalt anlegen; den Gesetzeswortlaut dabei präzise wiedergeben.
 - Veraltete Normverweise im Quellmaterial auf die aktuelle Fassung beziehen (präzise, bis auf Absatz und Satz); Sachaussagen der Folien sonst unverändert übernehmen.
 - Materielles Recht (Stoff des Ersten Examens) wird als bekannt vorausgesetzt. Folien, die materielle Inhalte nur zur Veranschaulichung nennen (z. B. Arten von Einwendungen und Einreden), werden allenfalls in einer Karte dazu verwertet, was in der jeweiligen Station zu prüfen ist.
-- Bereits bekannte Grundlagen wie die einzelnen Zulässigkeitsvoraussetzungen nur gebündelt als Schema abfragen. Einzelheiten nur, wenn das Quellmaterial Sonderfälle oder Sonderprobleme behandelt.
+- Das Zulässigkeitsschema und die einzelnen Zulässigkeitsvoraussetzungen sind aus dem Ersten Examen bekannt und werden nicht abgefragt, auch nicht gebündelt. Abgefragt werden nur Einzelheiten der jeweiligen Punkte und der prozessuale Umgang (z. B. doppelrelevante Tatsachen, Heilung von Mängeln), soweit das Quellmaterial sie behandelt.
 - Dopplungen mit bereits vorhandenen Karten vermeiden: Vor dem Erstellen prüfen, ob der Inhalt schon abgefragt wird; neue Aspekte ggf. in die Erklärung der vorhandenen Karte aufnehmen (dann diese Karte als geändert mit ausgeben).
 - Keine zu grundlegenden Karten (z. B. Zweck der Parteivernehmung, Grundprinzip der Relationstechnik, Definition des Beweisantritts). Abgefragt wird, was im Zweiten Examen nicht selbstverständlich ist.
+- Jede Frage muss ohne Ansicht der Antwortmöglichkeiten sinnvoll beantwortbar sein (Karteikartenmodus). Keine Fragen wie „Welche Formulierung/Aussage ist richtig?“; stattdessen den abgefragten Punkt in der Frage benennen (z. B. „Wie ist der Beginn beantragter Prozesszinsen im Tenor zu bezeichnen?“).
+- Falsche Antworten dürfen nicht in einem vertretbaren Verständnis zutreffen (z. B. eine Parteivernehmung „von Amts wegen“ als falsche Antwort, obwohl § 448 ZPO sie zulässt).
 - Fachbegriffe exakt verwenden (z. B. „Replikstation“ statt „Replik“, „vor der mündlichen Verhandlung“ statt „ohne mündliche Verhandlung“, wenn § 358a ZPO gemeint ist).
 - Parteineutral formulieren, wo eine Regel für beide Parteien gilt („Wille der Partei“, nicht „des Klägers“).
 - Den Gegenstand der Frage inhaltlich benennen, nicht nur per Norm („Antrag auf schriftliche Begutachtung vor Anhängigkeit (§ 485 II ZPO)“, nicht nur „Antrag nach § 485 II ZPO“).
@@ -104,6 +106,7 @@ Schreiben nur daran halten, dass die richtige Antwort an erster Stelle steht.
 - Verlangt die Antwort eine bloße Aufzählung (Schema, Ablauf, Prüfungsreihenfolge, Liste von Beispielen, Voraussetzungen oder Merkmalen), ist das Format „Begriffe“ nach `docs/KARTEN-VORLAGE-BEGRIFFE.md` zu verwenden.
 - `reihenfolge: true`, wenn die Reihenfolge Lerninhalt ist (Schemata, Abläufe, Aufbau); sonst `false`.
 - Richtige Begriffe knapp als Stichworte; je nach Anzahl der richtigen Begriffe etwa zwei bis vier falsche Begriffe, knifflig, aber keine Finte (keine bloßen Umformulierungen richtiger Begriffe, keine Begriffe, die in anderer Lesart ebenfalls richtig wären).
+- Keine Begriffe-Karten, die nur abstrakte Gruppen- oder Kategoriebezeichnungen abfragen (z. B. „Allgemeine Merkmale, spezielle Inhalte …“); abgefragt werden die Inhalte selbst.
 - Zuordnungen (A: x; B: y) und Gegenüberstellungen bleiben normale Karten mit vier Antworten.
 
 ## Kontrolle vor der Ausgabe

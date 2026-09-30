@@ -1,5 +1,4 @@
 {
-  "id": "zivilgericht-0085",
   "gebiet": "zivilgericht",
   "prio": "normal",
   "typ": "begriffe",
@@ -15,6 +14,7 @@
     "Stereotypie",
     "Lineare Erzählweise"
   ],
-  "erklaerung": "Allgemeine Merkmale als Realitätskennzeichen sind Detailreichtum, Widerspruchsfreiheit und ungeordnete Erzählweise.",
-  "ts": "2026-09-28T11:02:50.395Z"
+  "erklaerung": "Allgemeine Merkmale als Realitätskennzeichen sind Detailreichtum, Widerspruchsfreiheit und ungeordnete Erzählweise. Daneben gibt es spezielle Inhalte, motivationsbezogene Inhalte und bei Wiederholung der Aussage deren Erweiterung und Ergänzung.\n\nWeitere positive Realkennzeichen (ÜE 6): sprunghafte, detailreiche Erzählung, typische Erinnerungslücken und später einfallende Erinnerungsfetzen, Schilderung eigener Emotionen und Zweifel, Selbstbelastung, unbewusste Reflexe (z. B. Griff ins Gesicht bei geschildertem Schlag), wörtliche Zitate und direkte Rede.",
+  "id": "zivilgericht-0085",
+  "ts": "2026-09-30T13:07:19.898952Z"
 }

@@ -1,5 +1,4 @@
 {
-  "id": "zivilgericht-0087",
   "gebiet": "zivilgericht",
   "prio": "normal",
   "typ": "begriffe",
@@ -17,5 +16,6 @@
     "Übertriebene Bestimmtheit"
   ],
   "erklaerung": "Motivationsbezogene Realitätskennzeichen sind das Zugeben von Erinnerungslücken, das Zugeben von Unsicherheiten, Selbstbelastungen und spontane Verbesserungen.",
+  "id": "zivilgericht-0087",
   "ts": "2026-09-28T11:02:50.395Z"
 }

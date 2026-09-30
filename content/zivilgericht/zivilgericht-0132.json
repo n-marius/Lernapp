@@ -1,5 +1,4 @@
 {
-  "id": "zivilgericht-0132",
   "gebiet": "zivilgericht",
   "prio": "normal",
   "typ": "begriffe",
@@ -16,5 +15,6 @@
     "Rügeloses Einlassen"
   ],
   "erklaerung": "Einfaches Bestreiten ist die bloße Verneinung („Nein“); qualifiziertes Bestreiten enthält eine Gegendarstellung („Nein, sondern …“); Bestreiten mit Nichtwissen richtet sich nach § 138 Abs. 4 ZPO.\n\nNichtbestreiten ist einfach (ausdrücklich, konkludent, Schweigen; ggf. § 138 Abs. 3 ZPO) oder qualifiziert als Geständnis (§ 288 ZPO, ggf. Widerruf nach § 290 ZPO).",
+  "id": "zivilgericht-0132",
   "ts": "2026-09-28T14:29:02.481509Z"
 }

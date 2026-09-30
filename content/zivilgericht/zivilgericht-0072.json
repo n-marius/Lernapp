@@ -1,5 +1,4 @@
 {
-  "id": "zivilgericht-0072",
   "gebiet": "zivilgericht",
   "prio": "normal",
   "typ": "begriffe",
@@ -18,5 +17,6 @@
     "Schriftsatzvortrag"
   ],
   "erklaerung": "Der Strengbeweis ist die Beweiserhebung im förmlichen ZPO-Verfahren (Beweisanordnung, Beweiserhebung in mündlicher Verhandlung).\n\nEr ist auf die fünf Beweismittel der ZPO beschränkt: Zeugen, Sachverständige, Augenschein, Urkunde, Parteivernehmung. Die Parteianhörung (§ 141 ZPO) ist kein Beweismittel.",
+  "id": "zivilgericht-0072",
   "ts": "2026-09-28T11:02:50.395Z"
 }

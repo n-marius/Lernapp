@@ -1,5 +1,4 @@
 {
-  "id": "zivilgericht-0005",
   "gebiet": "zivilgericht",
   "prio": "hoch",
   "typ": "begriffe",
@@ -16,5 +15,6 @@
     "Fehlender Kostenvorschuss"
   ],
   "erklaerung": "Die Rechtsprechung hat in Anlehnung an § 244 Abs. 3 StPO (heute S. 2 und 3) drei Fallgruppen entwickelt: (1) nicht ordnungsgemäßer Beweisantrag der beweisbelasteten Partei, (2) unzulässige Beweisaufnahme, (3) überflüssige Beweiserhebung.",
+  "id": "zivilgericht-0005",
   "ts": "2026-09-28T11:02:50.395Z"
 }

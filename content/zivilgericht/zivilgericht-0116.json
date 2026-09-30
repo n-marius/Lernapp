@@ -1,5 +1,4 @@
 {
-  "id": "zivilgericht-0116",
   "gebiet": "zivilgericht",
   "prio": "niedrig",
   "typ": "begriffe",
@@ -18,5 +17,6 @@
     "Urkundsbeamter"
   ],
   "erklaerung": "Reihenfolge: (1) Vorsitzende(r), (2) übrige Richter bei Kammer oder Senat (§ 396 Abs. 3 ZPO), (3) Prozessbevollmächtigter des Beweisführers, (4) Prozessbevollmächtigter des Beweisgegners, (5) Beweisführer, (6) Beweisgegner (§ 397 Abs. 2 ZPO).",
+  "id": "zivilgericht-0116",
   "ts": "2026-09-28T11:02:50.395Z"
 }

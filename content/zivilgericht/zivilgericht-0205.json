@@ -1,5 +1,4 @@
 {
-  "id": "zivilgericht-0205",
   "gebiet": "zivilgericht",
   "prio": "normal",
   "typ": "begriffe",
@@ -17,5 +16,6 @@
     "Rubrum"
   ],
   "erklaerung": "Tenor: 1. Hauptsache und Nebenforderungen (z. B. Zinsen); 2. Kosten (§§ 91 ff. ZPO); 3. vorläufige Vollstreckbarkeit (§§ 708 ff. ZPO); 4. ggf. Berufungszulassung (§ 511 Abs. 4 ZPO), nur wenn die Beschwer 600 € nicht übersteigt.\n\nDer Tenor ist Grundlage der Zwangsvollstreckung, die in der Regel aus einer Ausfertigung ohne Tatbestand und Entscheidungsgründe erfolgt (§§ 317 Abs. 2 S. 2, 725, 754 ZPO); er bestimmt zudem die Rechtskraft (§ 322 Abs. 1 ZPO).",
+  "id": "zivilgericht-0205",
   "ts": "2026-09-28T15:24:06.695139Z"
 }

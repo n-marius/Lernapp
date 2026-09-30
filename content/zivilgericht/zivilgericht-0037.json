@@ -1,5 +1,4 @@
 {
-  "id": "zivilgericht-0037",
   "gebiet": "zivilgericht",
   "prio": "normal",
   "typ": "begriffe",
@@ -16,5 +15,6 @@
     "Rechtsmittelbelehrung"
   ],
   "erklaerung": "Der Beweisbeschluss enthält nach § 359 ZPO: 1. die Bezeichnung der streitigen Tatsachen, über die Beweis zu erheben ist; 2. die Bezeichnung der Beweismittel unter Benennung der zu vernehmenden Zeugen und Sachverständigen oder der zu vernehmenden Partei; 3. die Bezeichnung der Partei, die sich auf das Beweismittel berufen hat.",
+  "id": "zivilgericht-0037",
   "ts": "2026-09-28T11:02:50.395Z"
 }

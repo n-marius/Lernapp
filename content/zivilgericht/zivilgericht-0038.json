@@ -1,14 +1,14 @@
 {
-  "id": "zivilgericht-0038",
   "gebiet": "zivilgericht",
   "prio": "normal",
-  "frage": "Das Beweismittel ist negativ ergiebig. Wann ist dennoch die Überzeugungskraft zu prüfen?",
+  "frage": "Wann ist bei einem negativ ergiebigen Beweismittel dessen Überzeugungskraft zu prüfen?",
   "antworten": [
-    "Wenn es den Gegnervortrag beweist und die Überzeugung trägt",
-    "Nie; die Prüfung endet stets mit der Feststellung „nicht erwiesen“",
+    "Wenn andere Beweismittel die Beweisbehauptung stützen",
+    "Nie; negative Ergiebigkeit bedeutet stets „nicht erwiesen“",
     "Immer, nach denselben Regeln wie bei positiver Ergiebigkeit",
-    "Nur bei Sachverständigengutachten, nicht bei Zeugenaussagen"
+    "Nur bei Sachverständigengutachten, nicht bei Zeugen"
   ],
-  "erklaerung": "Negativ ergiebig ist ein Beweismittel, das die Behauptung des Beweisführers nicht bestätigt, sondern ihr widerspricht. Die Überzeugungskraft ist dann ggf. zu prüfen, wenn es den gegnerischen Vortrag beweist und das Gericht seine Überzeugung darauf stützt.",
+  "erklaerung": "Negativ ergiebig ist ein Beweismittel, das die Behauptung des Beweisführers nicht bestätigt, sondern ihr widerspricht. Steht es allein, ist der Beweis schon deshalb nicht geführt; auf seine Überzeugungskraft kommt es nicht an (einseitige Beweislast).\n\nStützen dagegen andere Beweismittel die Beweisbehauptung, ist zu prüfen, ob das negativ ergiebige Beweismittel überzeugt: Nur eine überzeugende gegenteilige Aussage kann die aus den anderen Beweismitteln gewonnene Überzeugung entkräften. Ein Beweis des Gegenteils ist wegen der einseitigen Beweislast praktisch kaum relevant.",
+  "id": "zivilgericht-0038",
   "ts": "2026-09-28T11:02:50.395Z"
 }

@@ -1,5 +1,4 @@
 {
-  "id": "zivilgericht-0076",
   "gebiet": "zivilgericht",
   "prio": "normal",
   "typ": "begriffe",
@@ -17,5 +16,6 @@
     "Aussagekonstanz"
   ],
   "erklaerung": "Bei der Urkunde ist zu prüfen, ob eine Urkunde vorliegt, ob sie echt ist und welche gesetzlichen Beweisregeln (§§ 415 ff. ZPO) eingreifen.\n\nZusätzlich: Vermutung der Vollständigkeit und Richtigkeit der Erklärung (§ 286 ZPO).",
+  "id": "zivilgericht-0076",
   "ts": "2026-09-28T11:02:50.395Z"
 }

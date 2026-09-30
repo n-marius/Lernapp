@@ -1,5 +1,4 @@
 {
-  "id": "zivilgericht-0099",
   "gebiet": "zivilgericht",
   "prio": "normal",
   "typ": "begriffe",
@@ -19,5 +18,6 @@
     "Frage durch die Partei selbst"
   ],
   "erklaerung": "Eine Frage ist unzulässig, wenn das Gesetz sie (§ 383 Abs. 3 ZPO) oder ihre Beantwortung (§ 376 ZPO) verbietet, wenn sie bereits beantwortet ist, wenn sie nicht auf tatsächliche Wahrnehmungen gerichtet ist, wenn sie in keinem Zusammenhang mit dem Gegenstand des Rechtsstreits steht oder wenn es sich um Suggestiv- oder Ausforschungsfragen handelt.\n\nFragen zu Umständen, die die Glaubwürdigkeit betreffen, sind dagegen zulässig (§ 395 Abs. 2 S. 2 ZPO).",
+  "id": "zivilgericht-0099",
   "ts": "2026-09-28T11:02:50.395Z"
 }

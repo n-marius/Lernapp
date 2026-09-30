@@ -1,5 +1,4 @@
 {
-  "id": "zivilgericht-0043",
   "gebiet": "zivilgericht",
   "prio": "normal",
   "typ": "begriffe",
@@ -17,5 +16,6 @@
     "Parteianhörung"
   ],
   "erklaerung": "Ein formeller Beweisbeschluss muss ergehen bei Parteivernehmung (§ 450 Abs. 1 S. 1 ZPO), Anordnung einer Urkundenvorlage durch den Gegner (§ 425 ZPO), vor der mündlichen Verhandlung durchzuführender Beweisaufnahme (§ 358a ZPO) und nach § 358 ZPO für besondere Beweisverfahren. Zentral: Über § 358 ZPO ist insbesondere das schriftliche Sachverständigengutachten erfasst; ferner die Untersuchung nach § 372a ZPO, die schriftliche Zeugenaussage (§ 377 Abs. 3 ZPO) und die Beweisaufnahme im Rechtshilfeweg.\n\nIn allen anderen Fällen genügt ein formloser Beschluss, dem die Beweiserhebung unmittelbar folgt; ein formeller Beweisbeschluss ist allerdings unschädlich.",
+  "id": "zivilgericht-0043",
   "ts": "2026-09-28T11:02:50.395Z"
 }

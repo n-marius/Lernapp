@@ -1,5 +1,4 @@
 {
-  "id": "zivilgericht-0041",
   "gebiet": "zivilgericht",
   "prio": "hoch",
   "typ": "begriffe",
@@ -16,5 +15,6 @@
     "Beweisantritt"
   ],
   "erklaerung": "1. Beweisinhalt und Beweisergiebigkeit: Wiedergabe der für die Würdigung wesentlichen Aspekte (nicht zu lang); Frage, ob die streitige Tatsache durch das Beweismittel bestätigt wird.\n\n2. Überzeugungskraft des Beweismittels (bei Zeugen: Glaubhaftigkeit). 3. Nur bei Zeugen: Glaubwürdigkeit.",
+  "id": "zivilgericht-0041",
   "ts": "2026-09-28T11:02:50.395Z"
 }

@@ -1,5 +1,4 @@
 {
-  "id": "zivilgericht-0108",
   "gebiet": "zivilgericht",
   "prio": "normal",
   "typ": "begriffe",
@@ -19,5 +18,6 @@
     "Übertriebene Bestimmtheit"
   ],
   "erklaerung": "Warnsignale sind der Strukturbruch, inhaltliche Warnsignale und Warnsignale im Aussageverhalten.\n\nInhaltliche Warnsignale: vermutete Handlungsmotive, Verallgemeinerungen, Stereotypie (ständige Wiederholung), klischeehafter Zeitungsstil (blasse Schilderung), Verweigerung und Zurückhaltung (Nichtreaktion), übertriebene Genauigkeit.",
+  "id": "zivilgericht-0108",
   "ts": "2026-09-28T11:02:50.395Z"
 }

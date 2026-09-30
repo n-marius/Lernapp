@@ -1,5 +1,4 @@
 {
-  "id": "zivilgericht-0154",
   "gebiet": "zivilgericht",
   "prio": "hoch",
   "typ": "begriffe",
@@ -19,5 +18,6 @@
     "Anspruchsgrundlagen"
   ],
   "erklaerung": "Aufbau: Einleitungssatz; unstreitiger Sachverhalt; streitiger Klägervortrag; (kleine antragsbezogene Prozessgeschichte); Anträge des Klägers und des Beklagten; streitiger Beklagtenvortrag; ggf. Replik/Duplik; Prozessgeschichte, soweit entscheidungserheblich, ggf. auch vor den Anträgen.\n\nDer Einleitungssatz ist grds. überflüssig, aber unschädlich (A/G, A. 43).",
+  "id": "zivilgericht-0154",
   "ts": "2026-09-28T14:29:02.483603Z"
 }

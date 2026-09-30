@@ -1,5 +1,4 @@
 {
-  "id": "zivilgericht-0129",
   "gebiet": "zivilgericht",
   "prio": "niedrig",
   "typ": "begriffe",
@@ -17,5 +16,6 @@
     "Beweiswürdigung"
   ],
   "erklaerung": "Zweck des Aktenauszugs ist, das Parteivorbringen aus der Akte herauszufiltern und zu ordnen, damit darauf ein Sachbericht/Tatbestand aufbauen kann. Erfasst werden aktuelle Anträge (überholte aussondern), der Tatsachenvortrag in Abgrenzung zu Rechtsansichten, getrennt nach streitig und unstreitig, Beweisangebote sowie prozessuale Daten und Ereignisse.\n\nBewährt hat sich eine Tabelle mit zwei Spalten (Kläger/Beklagter, jeweils mit Blattzahl), am besten nach ein- bis zweimaligem Durchlesen der Akte.",
+  "id": "zivilgericht-0129",
   "ts": "2026-09-28T14:29:02.481188Z"
 }

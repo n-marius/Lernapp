@@ -1,5 +1,4 @@
 {
-  "id": "zivilgericht-0088",
   "gebiet": "zivilgericht",
   "prio": "normal",
   "typ": "begriffe",
@@ -17,5 +16,6 @@
     "Glatter Handlungsablauf"
   ],
   "erklaerung": "Spezielle Inhalte als Realitätskennzeichen sind raum-zeitliche Verknüpfungen, Interaktionsschilderungen oder Wiedergabe von Gesprächen, ungewöhnliche oder nebensächliche Details sowie Komplikationen.",
+  "id": "zivilgericht-0088",
   "ts": "2026-09-28T11:02:50.395Z"
 }

@@ -1,5 +1,4 @@
 {
-  "id": "zivilgericht-0167",
   "gebiet": "zivilgericht",
   "prio": "niedrig",
   "typ": "begriffe",
@@ -17,5 +16,6 @@
     "Beweisangebote"
   ],
   "erklaerung": "Die Mindestvoraussetzungen ergeben sich vor allem aus § 253 Abs. 2 ZPO: zustellungsfähige Anschrift des Beklagten, Unterschrift oder elektronisches Dokument i. S. v. § 130a ZPO, Feststellbarkeit, ob überhaupt Klage erhoben werden soll, Klageschrift in deutscher Sprache; ggf. Anwaltszwang nach § 78 ZPO.\n\nNicht erforderlich sind das Vorliegen der Sachurteilsvoraussetzungen und die Schlüssigkeit der Klage.",
+  "id": "zivilgericht-0167",
   "ts": "2026-09-28T14:29:02.484490Z"
 }

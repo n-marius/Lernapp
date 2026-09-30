@@ -1,6 +1,6 @@
 {
-  "version": 12,
-  "contentHash": "f2648c100af7eddb",
+  "version": 14,
+  "contentHash": "ffcd27f36447802e",
   "cards": [
     {
       "id": "zivilgericht-0004",
@@ -517,14 +517,14 @@
       "id": "zivilgericht-0038",
       "gebiet": "zivilgericht",
       "prio": "normal",
-      "frage": "Das Beweismittel ist negativ ergiebig. Wann ist dennoch die Überzeugungskraft zu prüfen?",
+      "frage": "Wann ist bei einem negativ ergiebigen Beweismittel dessen Überzeugungskraft zu prüfen?",
       "antworten": [
-        "Wenn es den Gegnervortrag beweist und die Überzeugung trägt",
-        "Nie; die Prüfung endet stets mit der Feststellung „nicht erwiesen“",
+        "Wenn andere Beweismittel die Beweisbehauptung stützen",
+        "Nie; negative Ergiebigkeit bedeutet stets „nicht erwiesen“",
         "Immer, nach denselben Regeln wie bei positiver Ergiebigkeit",
-        "Nur bei Sachverständigengutachten, nicht bei Zeugenaussagen"
+        "Nur bei Sachverständigengutachten, nicht bei Zeugen"
       ],
-      "erklaerung": "Negativ ergiebig ist ein Beweismittel, das die Behauptung des Beweisführers nicht bestätigt, sondern ihr widerspricht. Die Überzeugungskraft ist dann ggf. zu prüfen, wenn es den gegnerischen Vortrag beweist und das Gericht seine Überzeugung darauf stützt.",
+      "erklaerung": "Negativ ergiebig ist ein Beweismittel, das die Behauptung des Beweisführers nicht bestätigt, sondern ihr widerspricht. Steht es allein, ist der Beweis schon deshalb nicht geführt; auf seine Überzeugungskraft kommt es nicht an (einseitige Beweislast).\n\nStützen dagegen andere Beweismittel die Beweisbehauptung, ist zu prüfen, ob das negativ ergiebige Beweismittel überzeugt: Nur eine überzeugende gegenteilige Aussage kann die aus den anderen Beweismitteln gewonnene Überzeugung entkräften. Ein Beweis des Gegenteils ist wegen der einseitigen Beweislast praktisch kaum relevant.",
       "creator": null,
       "ts": "2026-09-28T11:02:50.395Z"
     },
@@ -1263,28 +1263,6 @@
       "erklaerung": "Allgemeine Merkmale als Realitätskennzeichen sind Detailreichtum, Widerspruchsfreiheit und ungeordnete Erzählweise. Daneben gibt es spezielle Inhalte, motivationsbezogene Inhalte und bei Wiederholung der Aussage deren Erweiterung und Ergänzung.\n\nWeitere positive Realkennzeichen (ÜE 6): sprunghafte, detailreiche Erzählung, typische Erinnerungslücken und später einfallende Erinnerungsfetzen, Schilderung eigener Emotionen und Zweifel, Selbstbelastung, unbewusste Reflexe (z. B. Griff ins Gesicht bei geschildertem Schlag), wörtliche Zitate und direkte Rede.",
       "creator": null,
       "ts": "2026-09-30T13:07:19.898952Z"
-    },
-    {
-      "id": "zivilgericht-0086",
-      "gebiet": "zivilgericht",
-      "prio": "normal",
-      "frage": "In welche Gruppen lassen sich Realitätskennzeichen einteilen?",
-      "typ": "begriffe",
-      "reihenfolge": false,
-      "antworten": [
-        "Allgemeine Merkmale",
-        "Spezielle Inhalte",
-        "Motivationsbezogene Inhalte",
-        "Wiederholung der Aussage"
-      ],
-      "falsche": [
-        "Strukturbruch",
-        "Aussageverhalten",
-        "Baseline"
-      ],
-      "erklaerung": "Bei der Würdigung ist die Aussage zunächst anhand von Realitätskriterien auf ihren Wahrheitsgehalt zu überprüfen. Realitätskennzeichen sind allgemeine Merkmale, spezielle Inhalte, motivationsbezogene Inhalte sowie bei Wiederholung der Aussage deren Erweiterung und Ergänzung.\n\nStrukturbruch, inhaltliche Warnsignale und Warnsignale im Aussageverhalten sind dagegen Warnsignale.\n\nWeitere positive Realkennzeichen (ÜE 6): sprunghafte, detailreiche Erzählung, typische Erinnerungslücken und später einfallende Erinnerungsfetzen, Schilderung eigener Emotionen und Zweifel, Selbstbelastung, unbewusste Reflexe (z. B. Griff ins Gesicht bei geschildertem Schlag), wörtliche Zitate und direkte Rede.",
-      "creator": null,
-      "ts": "2026-09-28T11:02:50.395Z"
     },
     {
       "id": "zivilgericht-0087",
@@ -2228,14 +2206,14 @@
       "id": "zivilgericht-0146",
       "gebiet": "zivilgericht",
       "prio": "normal",
-      "frage": "Wie werden übereinstimmend vorgetragene Rechtsbegriffe wie „Kaufvertrag“ behandelt?",
+      "frage": "Wie ist mit übereinstimmend verwendeten Rechtsbegriffen wie „Kaufvertrag“ im Aktenauszug und Tatbestand umzugehen?",
       "antworten": [
-        "Als juristische Tatsachen",
-        "Als unbeachtliche Rechtsansichten",
-        "Als Geständnis der Rechtsfolge",
-        "Als bloße Werturteile"
+        "In Tatsache und Rechtsansicht auflösen",
+        "Als unstreitige Tatsache übernehmen",
+        "Als bindende Rechtswürdigung übernehmen",
+        "Als reine Rechtsansicht ganz weglassen"
       ],
-      "erklaerung": "Eine Besonderheit sind Rechtstatsachen (juristische Tatsachen), etwa wenn die Parteien übereinstimmend vortragen: „Die Parteien haben einen Kaufvertrag abgeschlossen.“\n\nIn vielen Konstellationen lassen sie sich vermeiden, z. B. bei der Kündigung: nicht „er kündigte“, sondern „er erklärte eine Kündigung“. Rechtsansichten sind im Aktenauszug zu streichen oder deutlich zu kennzeichnen („meint“, „vertritt die Ansicht“).",
+      "erklaerung": "Sog. Rechtstatsachen (z. B. „Die Parteien haben einen Kaufvertrag abgeschlossen“) sind zu vermeiden. Die rechtliche Einordnung nimmt allein das Gericht vor (etwa falsa demonstratio, Abgrenzung zu anderen Vertragsarten); die Parteien können sie nicht unstreitig stellen. Unstreitig werden kann nur die dahinterstehende Tatsache, z. B. die Unterzeichnung eines als Kaufvertrag bezeichneten Dokuments.\n\nDer Vortrag ist daher in Tatsache und Rechtsansicht zu trennen. Vgl. Kündigung: nicht „er kündigte“, sondern „er erklärte eine Kündigung“. Rechtsansichten sind im Aktenauszug zu streichen oder deutlich zu kennzeichnen („meint“, „vertritt die Ansicht“).",
       "creator": null,
       "ts": "2026-09-28T14:29:02.482852Z"
     },
@@ -3278,28 +3256,6 @@
       "erklaerung": "Der Zeuge sagt aus, bekundet, schildert, beschreibt; „trägt vor“ oder „legt dar“ ist nur für Parteivortrag zu verwenden.\n\nBeim Sachverständigengutachten ist nicht von Glaubhaftigkeit und Glaubwürdigkeit zu sprechen, sondern von Überzeugungskraft, Plausibilität und technischer Nachvollziehbarkeit (Ergebnis kurz wiedergeben, Bestätigung der Beweisbehauptung feststellen, Methode und Plausibilität prüfen).",
       "creator": null,
       "ts": "2026-09-28T15:24:06.695832Z"
-    },
-    {
-      "id": "zivilgericht-0214",
-      "gebiet": "zivilgericht",
-      "prio": "niedrig",
-      "frage": "In welche Gruppen gliedern sich die Zulässigkeitsvoraussetzungen?",
-      "typ": "begriffe",
-      "reihenfolge": false,
-      "antworten": [
-        "Parteibezogene",
-        "Gerichtsbezogene",
-        "Klagebezogene",
-        "Streitgegenstandsbezogene",
-        "Prozesshindernde Einreden"
-      ],
-      "falsche": [
-        "Beweisbezogene",
-        "Anspruchsbezogene"
-      ],
-      "erklaerung": "Parteibezogen: Partei-, Prozess-, Prozessführungs-, Postulationsfähigkeit, ordnungsgemäße Vertretung. Gerichtsbezogen: deutsche Gerichtsbarkeit, internationale Zuständigkeit, Rechtsweg, sachliche, örtliche und funktionelle Zuständigkeit. Klagebezogen: ggf. außergerichtliches Güteverfahren, ordnungsgemäße Klageerhebung, Voraussetzungen besonderer Klagearten.\n\nStreitgegenstandsbezogen: keine entgegenstehende Rechtskraft, keine anderweitige Rechtshängigkeit, Rechtsschutzbedürfnis, Klagbarkeit. Prozesshindernde Einreden: Schiedsvereinbarung, mangelnde Prozesskostensicherheit, gewillkürte Einreden.",
-      "creator": null,
-      "ts": "2026-09-28T15:24:06.695888Z"
     },
     {
       "id": "zivilgericht-0215",

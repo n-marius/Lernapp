@@ -1,5 +1,4 @@
 {
-  "id": "zivilgericht-0082",
   "gebiet": "zivilgericht",
   "prio": "niedrig",
   "typ": "begriffe",
@@ -18,5 +17,6 @@
     "Glaubwürdigkeitsgutachten"
   ],
   "erklaerung": "1. Überprüfung der Aussage anhand von Realitätskriterien (Realitätskennzeichen und Warnsignale); 2. Ausprägung der einzelnen Signale; 3. Herausarbeiten der Baseline der Aussage; 4. Bewertung der Aussage; 5. Vergleich der widerstreitenden Aussagen.\n\nVertiefung: Nack, JA 1993, 161–168.",
+  "id": "zivilgericht-0082",
   "ts": "2026-09-28T11:02:50.395Z"
 }

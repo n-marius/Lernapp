@@ -1,7 +1,7 @@
 // App-Shell: cache-first, Cache-Name enthält die App-Version (bei jeder Änderung erhöhen!).
 // content/index.json: network-first mit Cache-Fallback; alle gelisteten Karten sind darin
 // bereits enthalten (kein separater Abruf je Karte nötig).
-const APP_VERSION = "1.10.0";
+const APP_VERSION = "1.11.0";
 const SHELL_CACHE = `karteikarten-shell-${APP_VERSION}`;
 const CONTENT_CACHE = "karteikarten-content";
 const INDEX_URL = "content/index.json";

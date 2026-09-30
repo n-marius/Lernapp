@@ -407,6 +407,13 @@ Textdatei `flaggs-<Datum>.txt`, z. B. zur Besprechung in einem Chat.
 
 ### 5.3 Karten anlegen
 
+- Oben im Formular wechselt ein Schalter zwischen „Vier Antworten“ (normale
+  Karte) und „Antwortbegriffe“ (Kartenformat aus Abschnitt 5.7): dann gibt
+  es einen zweiten Schalter „Reihenfolge egal / zählt“ und je ein Textfeld
+  für die richtigen Begriffe (einer pro Zeile, bei Reihenfolge in richtiger
+  Reihenfolge; mindestens 2) und die falschen Begriffe (mindestens 1;
+  höchstens 12 Begriffe insgesamt, keine Doppelten). Frage und Erklärung
+  bleiben beim Umschalten erhalten.
 - Formular mit Fragefeld, vier Antwortfeldern (das erste ausdrücklich mit
   „Richtige Antwort“ beschriftet, die übrigen mit „Falsche Antwort 1/2/3“)
   und einem Erklärungsfeld.

@@ -985,26 +985,46 @@ async function showCreate(gebiet) {
         <p class="page-sub">Nach dem Anlegen bleibt das Formular offen, damit du direkt die nächste Karte eintragen kannst.</p>
       </header>
       <div class="form-group">
+        <div class="seg" id="create-typ">
+          <button type="button" class="is-active" data-typ="quiz">Vier Antworten</button>
+          <button type="button" data-typ="begriffe">Antwortbegriffe</button>
+        </div>
         <label class="field-box">
           <span class="field-box-label">Frage</span>
           <textarea id="f-frage" rows="3" placeholder="z. B. Unter welchen Voraussetzungen …"></textarea>
         </label>
-        <label class="field-box field-box-correct">
-          <span class="field-box-label">Richtige Antwort</span>
-          <input id="f-a0" type="text">
-        </label>
-        <label class="field-box">
-          <span class="field-box-label">Falsche Antwort 1</span>
-          <input id="f-a1" type="text">
-        </label>
-        <label class="field-box">
-          <span class="field-box-label">Falsche Antwort 2</span>
-          <input id="f-a2" type="text">
-        </label>
-        <label class="field-box">
-          <span class="field-box-label">Falsche Antwort 3</span>
-          <input id="f-a3" type="text">
-        </label>
+        <div class="form-group" id="fields-quiz">
+          <label class="field-box field-box-correct">
+            <span class="field-box-label">Richtige Antwort</span>
+            <input id="f-a0" type="text">
+          </label>
+          <label class="field-box">
+            <span class="field-box-label">Falsche Antwort 1</span>
+            <input id="f-a1" type="text">
+          </label>
+          <label class="field-box">
+            <span class="field-box-label">Falsche Antwort 2</span>
+            <input id="f-a2" type="text">
+          </label>
+          <label class="field-box">
+            <span class="field-box-label">Falsche Antwort 3</span>
+            <input id="f-a3" type="text">
+          </label>
+        </div>
+        <div class="form-group" id="fields-begriffe" hidden>
+          <div class="seg" id="create-order">
+            <button type="button" class="is-active" data-order="0">Reihenfolge egal</button>
+            <button type="button" data-order="1">Reihenfolge zählt</button>
+          </div>
+          <label class="field-box field-box-correct">
+            <span class="field-box-label">Richtige Begriffe (einer pro Zeile, bei Reihenfolge in richtiger Reihenfolge)</span>
+            <textarea id="f-richtig" rows="5"></textarea>
+          </label>
+          <label class="field-box">
+            <span class="field-box-label">Falsche Begriffe (einer pro Zeile)</span>
+            <textarea id="f-falsch" rows="3"></textarea>
+          </label>
+        </div>
         <label class="field-box">
           <span class="field-box-label">Erklärung</span>
           <textarea id="f-erklaerung" rows="3" placeholder="Kurze Begründung, Norm, Fundstelle …"></textarea>
@@ -1014,16 +1034,48 @@ async function showCreate(gebiet) {
   });
 
   on("#back", "click", () => showGebietPick("create"));
+
+  let typ = "quiz";
+  let ordered = false;
+  const selectSeg = (segId, attr, value) => {
+    root.querySelectorAll(`#${segId} button`).forEach((b) => b.classList.toggle("is-active", b.dataset[attr] === value));
+  };
+  root.querySelectorAll("#create-typ button").forEach((b) => b.addEventListener("click", () => {
+    typ = b.dataset.typ;
+    selectSeg("create-typ", "typ", typ);
+    $("#fields-quiz").hidden = typ !== "quiz";
+    $("#fields-begriffe").hidden = typ !== "begriffe";
+  }));
+  root.querySelectorAll("#create-order button").forEach((b) => b.addEventListener("click", () => {
+    ordered = b.dataset.order === "1";
+    selectSeg("create-order", "order", b.dataset.order);
+  }));
+
   on("#save", "click", async () => {
     const frage = $("#f-frage").value.trim();
-    const a0 = $("#f-a0").value.trim();
-    const a1 = $("#f-a1").value.trim();
-    const a2 = $("#f-a2").value.trim();
-    const a3 = $("#f-a3").value.trim();
     const erklaerung = $("#f-erklaerung").value.trim();
-    if (!frage || !a0 || !a1 || !a2 || !a3) {
-      toast("Bitte Frage und alle vier Antworten ausfüllen");
-      return;
+    const lines = (id) => $(id).value.split("\n").map((l) => l.trim()).filter(Boolean);
+    let extra;
+    if (typ === "begriffe") {
+      const richtig = lines("#f-richtig");
+      const falsch = lines("#f-falsch");
+      const alle = [...richtig, ...falsch];
+      if (!frage || richtig.length < 2 || falsch.length < 1) {
+        toast("Bitte Frage, mindestens 2 richtige und 1 falschen Begriff eintragen");
+        return;
+      }
+      if (alle.length > 12 || new Set(alle.map((a) => a.toLowerCase())).size !== alle.length) {
+        toast("Höchstens 12 Begriffe, jeder nur einmal");
+        return;
+      }
+      extra = { typ: "begriffe", reihenfolge: ordered, antworten: richtig, falsche: falsch };
+    } else {
+      const a = ["#f-a0", "#f-a1", "#f-a2", "#f-a3"].map((id) => $(id).value.trim());
+      if (!frage || a.some((x) => !x)) {
+        toast("Bitte Frage und alle vier Antworten ausfüllen");
+        return;
+      }
+      extra = { antworten: a };
     }
     const uuid = crypto.randomUUID();
     const card = {
@@ -1031,7 +1083,7 @@ async function showCreate(gebiet) {
       id: uuid,
       gebiet,
       frage,
-      antworten: [a0, a1, a2, a3],
+      ...extra,
       erklaerung,
       creator: currentUser,
       ts: new Date().toISOString(),
@@ -1040,11 +1092,7 @@ async function showCreate(gebiet) {
     sync();
     toast("Karte angelegt");
     $("#f-frage").value = "";
-    $("#f-a0").value = "";
-    $("#f-a1").value = "";
-    $("#f-a2").value = "";
-    $("#f-a3").value = "";
-    $("#f-erklaerung").value = "";
+    for (const id of ["#f-a0", "#f-a1", "#f-a2", "#f-a3", "#f-richtig", "#f-falsch", "#f-erklaerung"]) $(id).value = "";
     $("#f-frage").focus();
   });
 }

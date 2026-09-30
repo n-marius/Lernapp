@@ -115,6 +115,11 @@ den ursprünglichen Chatverlauf) genau weiß, wie die App funktionieren soll.
 
 Gleiche Felder wie ein Eintrag in `index.json` (siehe 3.1). `id` folgt dem
 Muster `<gebiet>-0001`, `<gebiet>-0002`, … fortlaufend je Rechtsgebiet.
+Optionales Feld `korrigiert` (ISO-Zeitstempel): Zeitpunkt der letzten
+inhaltlichen Überarbeitung der Karte im Repo. Eine In-App-Korrektur
+(`cardEdits`, Abschnitt 5.5), die älter ist, wird dann ignoriert – die
+Repo-Fassung gilt. Bei jeder inhaltlichen Änderung einer bestehenden Karte
+setzen; reine Prio-Änderungen brauchen es nicht.
 
 ### 3.3 Validierung (`tools/validate.mjs`)
 

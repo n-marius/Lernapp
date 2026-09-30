@@ -1,6 +1,6 @@
 {
-  "version": 14,
-  "contentHash": "ffcd27f36447802e",
+  "version": 15,
+  "contentHash": "9f3232858c741b74",
   "cards": [
     {
       "id": "zivilgericht-0004",
@@ -36,6 +36,7 @@
       ],
       "erklaerung": "Die Rechtsprechung hat in Anlehnung an § 244 Abs. 3 StPO (heute S. 2 und 3) drei Fallgruppen entwickelt: (1) nicht ordnungsgemäßer Beweisantrag der beweisbelasteten Partei, (2) unzulässige Beweisaufnahme, (3) überflüssige Beweiserhebung.",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T11:02:50.395Z"
     },
     {
@@ -71,6 +72,7 @@
       ],
       "erklaerung": "Nicht ordnungsgemäß ist der Beweisantrag z. B. bei Benennung „Zeuge N.N.“ (nomen nominandum/nomen nescio) oder wenn es für die Einholung eines Sachverständigengutachtens an Anknüpfungstatsachen fehlt.\n\nAusforschungsbeweis und Verspätung gehören zur Fallgruppe der unzulässigen Beweisaufnahme, offenkundige Tatsachen zur überflüssigen Beweiserhebung.",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T11:02:50.395Z"
     },
     {
@@ -94,6 +96,7 @@
       ],
       "erklaerung": "Unzulässig ist die Beweisaufnahme z. B. bei unzulässigem Ausforschungsbeweis, bei Verspätung gemäß § 296 ZPO, bei Vernehmung der eigenen Partei ohne Zustimmung des Gegners (§ 447 ZPO).\n\nFerner bei Verletzung eines verfassungsrechtlich geschützten Grundrechts, etwa Tonbandaufnahme eines heimlich aufgezeichneten Telefonats oder heimliches Mithören eines Telefonats durch einen Zeugen (BGH NJW 2003, 1727 ff.).\n\nAlle drei Fallgruppen führen zur Ablehnung des Beweisantrags; abgefragt ist hier nur die Zuordnung. Zeuge N.N. und fehlende Anknüpfungstatsachen betreffen den nicht ordnungsgemäßen Beweisantrag, offenkundige oder bereits bewiesene Tatsachen die überflüssige Beweiserhebung.",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T11:02:50.395Z"
     },
     {
@@ -109,6 +112,7 @@
       ],
       "erklaerung": "Der fehlende Rechtsbindungswille ist eine rechtliche Bewertung, also eine Rechtsansicht; ein Zeuge könnte dazu nichts bekunden. Tatsachenvortrag wäre dagegen: „Der Beklagte sagte, ich könne das Handy behalten, er wolle nichts dafür.“ Ebenfalls reine Rechtsansichten sind „Der Kaufvertrag ist wirksam zustande gekommen“ und „Der Unfall war für den Kläger unvermeidbar“.\n\nGemischt sind z. B.: „Der Pkw hat einen Mangel (Rechtsansicht), deswegen habe ich dem Beklagten gesagt, ich fühle mich nicht mehr gebunden (Tatsache = konkludente Rücktrittserklärung)“ und „Ich habe aus Notwehr gehandelt (Rechtsansicht). Der Kläger wollte mich schlagen, weshalb ich zuerst zuschlug (Tatsache)“.",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T11:02:50.395Z"
     },
     {
@@ -124,6 +128,7 @@
       ],
       "erklaerung": "Jede Beweisaufnahme setzt eine entsprechende, zumindest stillschweigende gerichtliche Anordnung voraus.\n\nVor der mündlichen Verhandlung: Verfügung nach § 273 ZPO (Ladung) oder Beweisbeschluss nach § 358a ZPO. Auf Grund oder in mündlicher Verhandlung: Beweisbeschluss nach §§ 358, 329 Abs. 1 S. 1 ZPO.",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T11:02:50.395Z"
     },
     {
@@ -139,6 +144,7 @@
       ],
       "erklaerung": "Vor der mündlichen Verhandlung kommt eine Verfügung nach § 273 ZPO (Ladung) oder ein Beweisbeschluss nach § 358a ZPO in Betracht.\n\nAuf Grund oder in mündlicher Verhandlung ergeht ein Beweisbeschluss nach §§ 358, 329 Abs. 1 S. 1 ZPO.",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T11:02:50.395Z"
     },
     {
@@ -304,6 +310,7 @@
       ],
       "erklaerung": "Eine Beweisaufnahme ist überflüssig bei unstreitigen oder bewiesenen Hilfstatsachen, die das Vorhandensein der zu beweisenden Haupttatsache belegen. Das gilt auch dann, wenn der Gegner die Haupttatsache ausdrücklich bestreitet.",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T11:02:50.395Z"
     },
     {
@@ -385,6 +392,7 @@
       ],
       "erklaerung": "Eine Beweisaufnahme ist überflüssig bei nicht wirksam bestrittenen Tatsachen. Pauschales Bestreiten ist unzureichend, wenn dem Beklagten nach der Sachlage ein substantiiertes Bestreiten möglich und zumutbar wäre.\n\nUnwirksam ist ferner das unzulässige Bestreiten mit Nichtwissen sowie das verspätete Bestreiten.",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T11:02:50.395Z"
     },
     {
@@ -511,6 +519,7 @@
       ],
       "erklaerung": "Der Beweisbeschluss enthält nach § 359 ZPO: 1. die Bezeichnung der streitigen Tatsachen, über die Beweis zu erheben ist; 2. die Bezeichnung der Beweismittel unter Benennung der zu vernehmenden Zeugen und Sachverständigen oder der zu vernehmenden Partei; 3. die Bezeichnung der Partei, die sich auf das Beweismittel berufen hat.",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T11:02:50.395Z"
     },
     {
@@ -526,6 +535,7 @@
       ],
       "erklaerung": "Negativ ergiebig ist ein Beweismittel, das die Behauptung des Beweisführers nicht bestätigt, sondern ihr widerspricht. Steht es allein, ist der Beweis schon deshalb nicht geführt; auf seine Überzeugungskraft kommt es nicht an (einseitige Beweislast).\n\nStützen dagegen andere Beweismittel die Beweisbehauptung, ist zu prüfen, ob das negativ ergiebige Beweismittel überzeugt: Nur eine überzeugende gegenteilige Aussage kann die aus den anderen Beweismitteln gewonnene Überzeugung entkräften. Ein Beweis des Gegenteils ist wegen der einseitigen Beweislast praktisch kaum relevant.",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T11:02:50.395Z"
     },
     {
@@ -577,6 +587,7 @@
       ],
       "erklaerung": "1. Beweisinhalt und Beweisergiebigkeit: Wiedergabe der für die Würdigung wesentlichen Aspekte (nicht zu lang); Frage, ob die streitige Tatsache durch das Beweismittel bestätigt wird.\n\n2. Überzeugungskraft des Beweismittels (bei Zeugen: Glaubhaftigkeit). 3. Nur bei Zeugen: Glaubwürdigkeit.",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T11:02:50.395Z"
     },
     {
@@ -599,6 +610,7 @@
       ],
       "erklaerung": "Besondere Beweisverfahren i. S. d. § 358 ZPO sind: (1) schriftliches Sachverständigengutachten, (2) Untersuchung nach § 372a ZPO, (3) schriftliche Zeugenaussage nach § 377 Abs. 3 ZPO, (4) Beweisaufnahme im Rechtshilfeweg.",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T11:02:50.395Z"
     },
     {
@@ -621,6 +633,7 @@
       ],
       "erklaerung": "Ein formeller Beweisbeschluss muss ergehen bei Parteivernehmung (§ 450 Abs. 1 S. 1 ZPO), Anordnung einer Urkundenvorlage durch den Gegner (§ 425 ZPO), vor der mündlichen Verhandlung durchzuführender Beweisaufnahme (§ 358a ZPO) und nach § 358 ZPO für besondere Beweisverfahren. Zentral: Über § 358 ZPO ist insbesondere das schriftliche Sachverständigengutachten erfasst; ferner die Untersuchung nach § 372a ZPO, die schriftliche Zeugenaussage (§ 377 Abs. 3 ZPO) und die Beweisaufnahme im Rechtshilfeweg.\n\nIn allen anderen Fällen genügt ein formloser Beschluss, dem die Beweiserhebung unmittelbar folgt; ein formeller Beweisbeschluss ist allerdings unschädlich.",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T11:02:50.395Z"
     },
     {
@@ -702,6 +715,7 @@
       ],
       "erklaerung": "Beispiele für die Glaubhaftmachung sind Arrest und einstweilige Verfügung (§§ 920 Abs. 2, 936 ZPO) sowie die Wiedereinsetzung (§ 236 ZPO).",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T11:02:50.395Z"
     },
     {
@@ -852,6 +866,7 @@
       ],
       "erklaerung": "§ 445 Abs. 1 ZPO: Vernehmung des Gegners auf Antrag. Subsidiär: Die beweisbelastete Partei hat den Beweis mit anderen Beweismitteln nicht vollständig geführt oder andere Beweismittel nicht vorgebracht.\n\nNicht zulässig, wenn das Gericht das Gegenteil für erwiesen erachtet (§ 445 Abs. 2 ZPO).\n\nUnabhängig davon ist nach § 448 ZPO eine Vernehmung von Amts wegen möglich.",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T11:02:50.395Z"
     },
     {
@@ -867,6 +882,7 @@
       ],
       "erklaerung": "§ 447 ZPO erlaubt die Vernehmung der beweispflichtigen Partei auf Antrag, jedoch nur mit Einverständnis des Gegners. Fehlt die Zustimmung, ist die Beweisaufnahme nach § 447 ZPO unzulässig und der Beweisantrag abzulehnen.\n\nDaneben kann das Gericht eine oder beide Parteien, also auch die beweispflichtige, nach § 448 ZPO von Amts wegen vernehmen, wenn nach Erhebung aller angebotenen Beweise eine gewisse Wahrscheinlichkeit für die Tatsache spricht.",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T11:02:50.395Z"
     },
     {
@@ -1040,6 +1056,7 @@
       ],
       "erklaerung": "Der Strengbeweis ist die Beweiserhebung im förmlichen ZPO-Verfahren (Beweisanordnung, Beweiserhebung in mündlicher Verhandlung).\n\nEr ist auf die fünf Beweismittel der ZPO beschränkt: Zeugen, Sachverständige, Augenschein, Urkunde, Parteivernehmung. Die Parteianhörung (§ 141 ZPO) ist kein Beweismittel.",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T11:02:50.395Z"
     },
     {
@@ -1091,6 +1108,7 @@
       ],
       "erklaerung": "Beim Sachverständigen ist zu prüfen: zutreffende Anknüpfungstatsachen (vollständig, richtig), Bewertung mit der gebotenen Sachkunde (zu vermuten) sowie Schlüssigkeit, Nachvollziehbarkeit und Überzeugungskraft der Schlussfolgerungen.\n\nAllgemein: Plausibilität, Überzeugungskraft, Nachvollziehbarkeit.",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T11:02:50.395Z"
     },
     {
@@ -1113,6 +1131,7 @@
       ],
       "erklaerung": "Bei der Urkunde ist zu prüfen, ob eine Urkunde vorliegt, ob sie echt ist und welche gesetzlichen Beweisregeln (§§ 415 ff. ZPO) eingreifen.\n\nZusätzlich: Vermutung der Vollständigkeit und Richtigkeit der Erklärung (§ 286 ZPO).",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T11:02:50.395Z"
     },
     {
@@ -1211,6 +1230,7 @@
       ],
       "erklaerung": "1. Überprüfung der Aussage anhand von Realitätskriterien (Realitätskennzeichen und Warnsignale); 2. Ausprägung der einzelnen Signale; 3. Herausarbeiten der Baseline der Aussage; 4. Bewertung der Aussage; 5. Vergleich der widerstreitenden Aussagen.\n\nVertiefung: Nack, JA 1993, 161–168.",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T11:02:50.395Z"
     },
     {
@@ -1262,6 +1282,7 @@
       ],
       "erklaerung": "Allgemeine Merkmale als Realitätskennzeichen sind Detailreichtum, Widerspruchsfreiheit und ungeordnete Erzählweise. Daneben gibt es spezielle Inhalte, motivationsbezogene Inhalte und bei Wiederholung der Aussage deren Erweiterung und Ergänzung.\n\nWeitere positive Realkennzeichen (ÜE 6): sprunghafte, detailreiche Erzählung, typische Erinnerungslücken und später einfallende Erinnerungsfetzen, Schilderung eigener Emotionen und Zweifel, Selbstbelastung, unbewusste Reflexe (z. B. Griff ins Gesicht bei geschildertem Schlag), wörtliche Zitate und direkte Rede.",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-30T13:07:19.898952Z"
     },
     {
@@ -1284,6 +1305,7 @@
       ],
       "erklaerung": "Motivationsbezogene Realitätskennzeichen sind das Zugeben von Erinnerungslücken, das Zugeben von Unsicherheiten, Selbstbelastungen und spontane Verbesserungen.",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T11:02:50.395Z"
     },
     {
@@ -1306,6 +1328,7 @@
       ],
       "erklaerung": "Spezielle Inhalte als Realitätskennzeichen sind raum-zeitliche Verknüpfungen, Interaktionsschilderungen oder Wiedergabe von Gesprächen, ungewöhnliche oder nebensächliche Details sowie Komplikationen.",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T11:02:50.395Z"
     },
     {
@@ -1321,6 +1344,7 @@
       ],
       "erklaerung": "Nach § 485 Abs. 1 ZPO kann während oder außerhalb eines Streitverfahrens auf Antrag die Einnahme des Augenscheins, die Vernehmung von Zeugen oder die Begutachtung durch einen Sachverständigen angeordnet werden, wenn der Gegner zustimmt oder zu besorgen ist, dass das Beweismittel verloren geht oder seine Benutzung erschwert wird.\n\nNach § 485 Abs. 2 ZPO kann, solange ein Rechtsstreit noch nicht anhängig ist, die schriftliche Begutachtung durch einen Sachverständigen beantragt werden, wenn ein rechtliches Interesse an der Feststellung des Zustands oder Werts einer Sache (bzw. des Zustands einer Person), der Ursache eines Personen-, Sachschadens oder Sachmangels oder des Beseitigungsaufwands besteht; ein rechtliches Interesse ist anzunehmen, wenn die Feststellung der Vermeidung eines Rechtsstreits dienen kann.\n\nBeispiel: Will der Eigentümer vor Klageerhebung Ursache und Beseitigungskosten eines Feuchtigkeitsschadens gerichtlich verwertbar klären lassen, ist ein Antrag nach § 485 Abs. 2 ZPO zu stellen.",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T11:02:50.395Z"
     },
     {
@@ -1358,6 +1382,7 @@
       ],
       "erklaerung": "Nach § 487 ZPO muss der Antrag enthalten: 1. die Bezeichnung des Gegners; 2. die Bezeichnung der Tatsachen, über die Beweis erhoben werden soll; 3. die Benennung der Zeugen oder die Bezeichnung der übrigen nach § 485 ZPO zulässigen Beweismittel; 4. die Glaubhaftmachung der Tatsachen, die die Zulässigkeit des selbständigen Beweisverfahrens und die Zuständigkeit des Gerichts begründen sollen.",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T11:02:50.395Z"
     },
     {
@@ -1418,6 +1443,7 @@
       ],
       "erklaerung": "Nein. Möglicherweise wird bereits der Antragsteller durch das Ergebnis von einer Klage abgehalten.\n\nIm Übrigen spricht der Wortlaut des § 485 Abs. 2 S. 2 ZPO dagegen: Er verlangt nicht, dass die Feststellung „nur“ der Vermeidung eines Rechtsstreits dient.",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T11:02:50.395Z"
     },
     {
@@ -1448,6 +1474,7 @@
       ],
       "erklaerung": "Ist ein Rechtsstreit noch nicht anhängig, ist der Antrag bei dem Gericht zu stellen, das nach dem Vortrag des Antragstellers zur Entscheidung in der Hauptsache berufen wäre (§ 486 Abs. 2 S. 1 ZPO).\n\nBeispiel: Bei geschätzten Beseitigungskosten von 11.000 € ist das Landgericht zuständig.",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T11:02:50.395Z"
     },
     {
@@ -1487,6 +1514,7 @@
       ],
       "erklaerung": "Eine Frage ist unzulässig, wenn das Gesetz sie (§ 383 Abs. 3 ZPO) oder ihre Beantwortung (§ 376 ZPO) verbietet, wenn sie bereits beantwortet ist, wenn sie nicht auf tatsächliche Wahrnehmungen gerichtet ist, wenn sie in keinem Zusammenhang mit dem Gegenstand des Rechtsstreits steht oder wenn es sich um Suggestiv- oder Ausforschungsfragen handelt.\n\nFragen zu Umständen, die die Glaubwürdigkeit betreffen, sind dagegen zulässig (§ 395 Abs. 2 S. 2 ZPO).",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T11:02:50.395Z"
     },
     {
@@ -1562,6 +1590,7 @@
       ],
       "erklaerung": "Der Tenor muss als Grundlage der Zwangsvollstreckung eindeutig sein; das Vollstreckungsorgan muss ohne Tatbestand und Gründe vollstrecken können. Zinsen „seit Rechtshängigkeit“ sind daher nicht hinreichend bestimmt; richtig ist ein konkretes Datum („… nebst Zinsen … seit dem 10.02.2010 zu zahlen“). Ein nicht vollstreckungsfähiger Tenor kann die ganze Klausur unbrauchbar machen.\n\nWeitere Fehlerbeispiele: „Der Klage wird stattgegeben“; Herausgabe eines Pkw nur nach amtlichem Kennzeichen (änderbar; Fahrgestellnummer nötig); Verurteilung, unbestimmte „Störungen“ zu unterlassen. Ausnahmsweise ist die Bezugnahme auf fest mit dem Urteil verbundene Anlagen zulässig.",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T11:02:50.395Z"
     },
     {
@@ -1613,6 +1642,7 @@
       ],
       "erklaerung": "Warnsignale im Aussageverhalten sind übertriebene Bestimmtheit, das Fluchtsymptom (Ausweichen) und die verdächtige Verteidigung (Entrüstung, Vorwegverteidigung).\n\nWeitere negative Realkennzeichen (ÜE 6): abgesprochen wirkende Aussage (Übereinstimmung im Kern, Widersprüche am Rand), Abweichungen zwischen verschiedenen Vernehmungen, einstudierte, lineare Erzählweise, Bruch im Aussageverhalten, Selbstwiderspruch oder Widerspruch zum Vortrag der benennenden Partei, Beteuerung der Wahrheit, Entkräften des Gegenvortrags statt eigener Angaben, Gegenfragen, eigenes Interesse am Ausgang.",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T11:02:50.395Z"
     },
     {
@@ -1637,6 +1667,7 @@
       ],
       "erklaerung": "Warnsignale sind der Strukturbruch, inhaltliche Warnsignale und Warnsignale im Aussageverhalten.\n\nInhaltliche Warnsignale: vermutete Handlungsmotive, Verallgemeinerungen, Stereotypie (ständige Wiederholung), klischeehafter Zeitungsstil (blasse Schilderung), Verweigerung und Zurückhaltung (Nichtreaktion), übertriebene Genauigkeit.",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T11:02:50.395Z"
     },
     {
@@ -1765,6 +1796,7 @@
       ],
       "erklaerung": "Reihenfolge: (1) Vorsitzende(r), (2) übrige Richter bei Kammer oder Senat (§ 396 Abs. 3 ZPO), (3) Prozessbevollmächtigter des Beweisführers, (4) Prozessbevollmächtigter des Beweisgegners, (5) Beweisführer, (6) Beweisgegner (§ 397 Abs. 2 ZPO).",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T11:02:50.395Z"
     },
     {
@@ -1927,6 +1959,7 @@
       ],
       "erklaerung": "1. Erscheinen (sonst Ordnungsmittel prüfen, § 380 ZPO; Protokoll § 160 I Nr. 4 ZPO); 2. Belehrung aller erschienenen Zeugen (§ 395 I ZPO); 3. andere Zeugen verlassen den Saal (Einzelvernehmung, § 394 I ZPO); 4. Vernehmung zur Person (§ 395 II ZPO); 5. ggf. Belehrung über Zeugnisverweigerungsrecht (§ 383 II ZPO); 6. Aussagebereitschaft (ggf. § 387 ZPO).\n\n7. Vernehmung zur Sache (§§ 396, 397 ZPO); 8. Protokollierung durch den Vorsitzenden (§ 160 III Nr. 4 ZPO); 9. Genehmigung durch den Zeugen (§ 162 ZPO); 10. ggf. Eidesbelehrung und Beeidigung (§§ 391 ff. ZPO); 11. Entschädigung und Entlassung (§ 401 ZPO).",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T11:02:50.395Z"
     },
     {
@@ -1969,6 +2002,7 @@
       ],
       "erklaerung": "Aufruf der Sache (§ 220 Abs. 1 ZPO); Feststellung der Anwesenden (§ 160 Abs. 1 Nr. 4 ZPO); Eröffnung und Leitung durch den Vorsitzenden (§ 136 Abs. 1 ZPO); ggf. Güteverhandlung mit Erörterung, Fragen und Anhörung (§ 278 Abs. 2 ZPO); Stellen der Anträge (§ 137 Abs. 1 ZPO); Klärung von Tatsachen- und Rechtsfragen (§§ 137 Abs. 2, 4, 141, 139 Abs. 1 ZPO).\n\nBeweisaufnahme (§§ 279 Abs. 2, 284 ZPO); erneute Erörterung, auch des Beweisergebnisses (§ 279 Abs. 3 ZPO); Verhandlung über das Beweisergebnis (§ 285 Abs. 1 ZPO); Schluss (§ 136 Abs. 4 ZPO); Verkündung am Schluss der Sitzung oder in einem sofort anzuberaumenden Verkündungstermin (§ 310 Abs. 1 ZPO).",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T14:29:02.481087Z"
     },
     {
@@ -1991,6 +2025,7 @@
       ],
       "erklaerung": "Zweck des Aktenauszugs ist, das Parteivorbringen aus der Akte herauszufiltern und zu ordnen, damit darauf ein Sachbericht/Tatbestand aufbauen kann. Erfasst werden aktuelle Anträge (überholte aussondern), der Tatsachenvortrag in Abgrenzung zu Rechtsansichten, getrennt nach streitig und unstreitig, Beweisangebote sowie prozessuale Daten und Ereignisse.\n\nBewährt hat sich eine Tabelle mit zwei Spalten (Kläger/Beklagter, jeweils mit Blattzahl), am besten nach ein- bis zweimaligem Durchlesen der Akte.",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T14:29:02.481188Z"
     },
     {
@@ -2042,6 +2077,7 @@
       ],
       "erklaerung": "Einfaches Bestreiten ist die bloße Verneinung („Nein“); qualifiziertes Bestreiten enthält eine Gegendarstellung („Nein, sondern …“); Bestreiten mit Nichtwissen richtet sich nach § 138 Abs. 4 ZPO.\n\nNichtbestreiten ist einfach (ausdrücklich, konkludent, Schweigen; ggf. § 138 Abs. 3 ZPO) oder qualifiziert als Geständnis (§ 288 ZPO, ggf. Widerruf nach § 290 ZPO).",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T14:29:02.481509Z"
     },
     {
@@ -2065,6 +2101,7 @@
       ],
       "erklaerung": "Die Beweisstation fragt: Welche Tatsachen sind beweiserheblich (Ergebnis der Beklagtenstation)? Welche sind beweisbedürftig (streitig, nicht offenkundig usw.)? Welche Partei ist beweisbelastet? Hat sie Beweis angeboten? Ist der Beweis geführt?\n\nFehlt ein Beweisantritt, ergeht Urteil zulasten der beweisbelasteten Partei. Ist eine Beweisaufnahme erforderlich, folgt ein Beweisbeschluss, danach Beweiserhebung und Beweiswürdigung.",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T14:29:02.481652Z"
     },
     {
@@ -2215,6 +2252,7 @@
       ],
       "erklaerung": "Sog. Rechtstatsachen (z. B. „Die Parteien haben einen Kaufvertrag abgeschlossen“) sind zu vermeiden. Die rechtliche Einordnung nimmt allein das Gericht vor (etwa falsa demonstratio, Abgrenzung zu anderen Vertragsarten); die Parteien können sie nicht unstreitig stellen. Unstreitig werden kann nur die dahinterstehende Tatsache, z. B. die Unterzeichnung eines als Kaufvertrag bezeichneten Dokuments.\n\nDer Vortrag ist daher in Tatsache und Rechtsansicht zu trennen. Vgl. Kündigung: nicht „er kündigte“, sondern „er erklärte eine Kündigung“. Rechtsansichten sind im Aktenauszug zu streichen oder deutlich zu kennzeichnen („meint“, „vertritt die Ansicht“).",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T14:29:02.482852Z"
     },
     {
@@ -2238,6 +2276,7 @@
       ],
       "erklaerung": "Grundstruktur der Relation: A. Sachbericht; B. Entscheidungsvorschlag (kurz); C. Prozessstation (Zulässigkeit); D. Klägerstation (Schlüssigkeit); E. Beklagtenstation (Erheblichkeit); F. Beweisstation; G. Tenorierungsstation (Hauptsache, Kosten, Vollstreckbarkeit).\n\nDie Kläger-, Beklagten- und Beweisstation bilden den zweiseitigen Aufbau der Begründetheit.",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T14:29:02.482951Z"
     },
     {
@@ -2304,6 +2343,7 @@
       ],
       "erklaerung": "Unstreitig ist Vorbringen, wenn die Parteien einen Geschehensablauf übereinstimmend schildern, der Gegner mit erkennbarem Willen ausdrücklich oder konkludent gesteht und nicht widerruft oder den Vortrag nicht bestreitet (§ 138 Abs. 3 ZPO).\n\nStreitig ist es, wenn der Gegner es ausdrücklich oder konkludent bestreitet.",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T14:29:02.483479Z"
     },
     {
@@ -2343,6 +2383,7 @@
       ],
       "erklaerung": "Aufbau: Einleitungssatz; unstreitiger Sachverhalt; streitiger Klägervortrag; (kleine antragsbezogene Prozessgeschichte); Anträge des Klägers und des Beklagten; streitiger Beklagtenvortrag; ggf. Replik/Duplik; Prozessgeschichte, soweit entscheidungserheblich, ggf. auch vor den Anträgen.\n\nDer Einleitungssatz ist grds. überflüssig, aber unschädlich (A/G, A. 43).",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T14:29:02.483603Z"
     },
     {
@@ -2364,6 +2405,7 @@
       ],
       "erklaerung": "Der streitige Beklagtenvortrag wird im Konjunktiv (indirekte Rede) dargestellt; das Bestreiten folgt aus dem Zusammenhang (§ 138 Abs. 3 Hs. 2 ZPO).\n\nReihenfolge: streitige Tatsachen, danach Einreden und Einwendungen in der Reihenfolge rechtshindernd, rechtsvernichtend, rechtshemmend.",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T14:29:02.483657Z"
     },
     {
@@ -2401,6 +2443,7 @@
       ],
       "erklaerung": "§ 313 Abs. 2 ZPO ist wörtlich zu nehmen: nur das Wesentliche, keine abgeschriebenen Schriftsätze. Im Tatbestand steht i. d. R. nichts, was für die Entscheidungsgründe nicht benötigt wird, und umgekehrt. Der unstreitige Teil ist chronologisch darzustellen; auf Anlagen ist Bezug zu nehmen, bei genauem Wortlaut (z. B. AGB) ggf. auszugsweise wörtlich zu zitieren.\n\nKeine Wiederholungen, auch nicht von Rubrumsangaben; kein Passiv und möglichst kein „man“, damit klar ist, wer gehandelt hat (besser: „Der Beklagte bot an, die Heizungsanlage zu liefern. Der Kläger erklärte sich einverstanden.“).",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T14:29:02.483792Z"
     },
     {
@@ -2543,6 +2586,7 @@
       ],
       "erklaerung": "Die Mindestvoraussetzungen ergeben sich vor allem aus § 253 Abs. 2 ZPO: zustellungsfähige Anschrift des Beklagten, Unterschrift oder elektronisches Dokument i. S. v. § 130a ZPO, Feststellbarkeit, ob überhaupt Klage erhoben werden soll, Klageschrift in deutscher Sprache; ggf. Anwaltszwang nach § 78 ZPO.\n\nNicht erforderlich sind das Vorliegen der Sachurteilsvoraussetzungen und die Schlüssigkeit der Klage.",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T14:29:02.484490Z"
     },
     {
@@ -2573,6 +2617,7 @@
       ],
       "erklaerung": "In den Fällen des § 708 Nr. 4–11 ZPO ist von Amts wegen eine Abwendungsbefugnis zugunsten des Schuldners vorzusehen (Ausnahme: § 713 ZPO); bei § 708 Nr. 1–3 ZPO nicht. Nach § 711 S. 2 ZPO gilt § 709 S. 2 ZPO entsprechend; der Schuldner muss den gesamten vollstreckbaren Betrag absichern (110–120 %), der Gläubiger kann teilvollstrecken.\n\nFormulierung: „Das Urteil ist vorläufig vollstreckbar. Der Kläger darf die Vollstreckung durch Sicherheitsleistung in Höhe von 110 % des aufgrund des Urteils vollstreckbaren Betrages abwenden, wenn nicht der Beklagte vor der Vollstreckung Sicherheit in Höhe von 110 % des jeweils zu vollstreckenden Betrages leistet.“",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T15:24:06.692632Z"
     },
     {
@@ -2603,6 +2648,7 @@
       ],
       "erklaerung": "Auslegung entsprechend § 133 BGB durch Ermittlung des wirklichen Willens in den Grenzen des § 308 Abs. 1 ZPO. Im Zweifel ist gewollt, was nach den Maßstäben der Rechtsordnung vernünftig ist, der recht verstandenen Interessenlage entspricht und zur Durchsetzung des Anspruchs sinnvoll ist (BGH NZM 2003, 372). Ausgangspunkt sind die in der letzten mündlichen Verhandlung gestellten Anträge.\n\nBeispiele: „Das finde ich nicht gut, der Anspruch besteht nicht!“ gegen ein Versäumnisurteil ist Einspruch; „Anerkennung“ des Eigentums ist Antrag auf Feststellung; ein unbestimmter Leistungsantrag ist Antrag auf Feststellung der Leistungspflicht.",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T15:24:06.692801Z"
     },
     {
@@ -2693,6 +2739,7 @@
       ],
       "erklaerung": "Sog. Rechtstatsachen (z. B. „Die Parteien haben einen Kaufvertrag abgeschlossen“) sind zu vermeiden. Die rechtliche Einordnung nimmt allein das Gericht vor (etwa falsa demonstratio, Abgrenzung zu anderen Vertragsarten); die Parteien können sie nicht unstreitig stellen. Unstreitig werden kann nur die dahinterstehende Tatsache, z. B. die Unterzeichnung eines als Kaufvertrag bezeichneten Dokuments.\n\nDer Vortrag ist daher in Tatsache und Rechtsansicht zu trennen. Vgl. Kündigung: nicht „er kündigte“, sondern „er erklärte eine Kündigung“. Rechtsansichten sind im Aktenauszug zu streichen oder deutlich zu kennzeichnen („meint“, „vertritt die Ansicht“).",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T15:24:06.693196Z"
     },
     {
@@ -2806,6 +2853,7 @@
       ],
       "erklaerung": "Neben § 308 ZPO kann das Gericht an frühere Entscheidungen oder Parteierklärungen gebunden sein: Nebeninterventionswirkung (§ 68 ZPO, ggf. i. V. m. § 74 ZPO), Vorbehaltsurteil (§ 302 ZPO), vorgegebener Entscheidungsumfang im Berufungsverfahren, Anerkenntnis (§ 307 ZPO), Verzicht (§ 306 ZPO), Rechtswegzuweisung (§ 17a GVG) und Verweisung (§ 281 ZPO), diese auch bei schwerwiegendem Rechtsfehler (§§ 17a Abs. 2 S. 3 GVG, 281 Abs. 2 S. 4 ZPO).\n\nFolge: Beim betreffenden Merkmal ist nur der Umfang der Bindung aufzuzeigen („Davon ist unabhängig von der Rechtslage auszugehen, wenn der Beklagte die Klageforderung wirksam anerkannt hat.“).",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T15:24:06.693678Z"
     },
     {
@@ -3031,6 +3079,7 @@
       ],
       "erklaerung": "Replik- und Duplikstation sollten möglichst vermieden werden, indem die Einrede bereits in der Klägerstation erörtert wird.\n\nBeispiel: Darlehensrückzahlung (§ 488 BGB); Beklagter rechnet auf; Kläger beruft sich auf Erlass der Gegenforderung; Beklagter ficht den Erlass an. In der Klägerstation wird die Aufrechnung geprüft (Erklärung und Gegenforderung unstreitig, Erlass unstreitig, nach Klägervortrag kein Anfechtungsgrund, also Erlass wirksam, Anspruch nicht erloschen). In der Beklagtenstation ist dann nur noch der streitige Anfechtungsgrund auf Erheblichkeit zu prüfen.",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T15:24:06.694807Z"
     },
     {
@@ -3068,6 +3117,7 @@
       ],
       "erklaerung": "Höhe und Art bestimmt das Gericht nach freiem Ermessen (§ 108 Abs. 1 ZPO; Bankbürgschaft oder Hinterlegung), bemessen am möglichen Vollstreckungsschaden des Schuldners (§ 717 Abs. 2 ZPO).\n\nAusgangspunkt ist die Hauptforderung; hinzu kommen alle vorläufig vollstreckbaren Nebenforderungen (Zinsen, vorgerichtliche Kosten) und der Kostenerstattungsanspruch; der Betrag wird für weitere Vollstreckungsschäden um 10–20 % erhöht.",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T15:24:06.694924Z"
     },
     {
@@ -3135,6 +3185,7 @@
       ],
       "erklaerung": "Tenor: 1. Hauptsache und Nebenforderungen (z. B. Zinsen); 2. Kosten (§§ 91 ff. ZPO); 3. vorläufige Vollstreckbarkeit (§§ 708 ff. ZPO); 4. ggf. Berufungszulassung (§ 511 Abs. 4 ZPO), nur wenn die Beschwer 600 € nicht übersteigt.\n\nDer Tenor ist Grundlage der Zwangsvollstreckung, die in der Regel aus einer Ausfertigung ohne Tatbestand und Entscheidungsgründe erfolgt (§§ 317 Abs. 2 S. 2, 725, 754 ZPO); er bestimmt zudem die Rechtskraft (§ 322 Abs. 1 ZPO).",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T15:24:06.695139Z"
     },
     {
@@ -3210,6 +3261,7 @@
       ],
       "erklaerung": "§ 708 Nr. 11 ZPO ist der wichtigste Fall der Vollstreckbarkeit ohne Sicherheitsleistung (mit Abwendungsbefugnis): vermögensrechtliche Streitigkeiten, wenn der Gegenstand der Verurteilung in der Hauptsache 1.250 € nicht übersteigt oder nur die Kostenentscheidung vollstreckbar ist und eine Vollstreckung von nicht mehr als 1.500 € ermöglicht.\n\nBeispiel Klageabweisung: Bei 5.000 € Streitwert liegen die erstattungsfähigen Anwaltskosten des Beklagten unter 1.500 € (§§ 708 Nr. 11, 711 ZPO), bei 9.000 € darüber (§ 709 ZPO). Faustregel: Die Grenze liegt bei ca. 7.500 € Streitwert.",
       "creator": null,
+      "korrigiert": "2026-09-30T13:34:57.000Z",
       "ts": "2026-09-28T15:24:06.695600Z"
     },
     {

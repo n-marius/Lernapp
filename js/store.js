@@ -412,6 +412,9 @@ export async function mergeCardEdits(remoteEdits) {
 
 function mergeCardWithEdit(card, edit) {
   if (!edit) return card;
+  // Wurde die Karte im Repo nach der In-App-Korrektur inhaltlich überarbeitet
+  // (`korrigiert`), gilt die neuere Repo-Fassung; die ältere Korrektur ist überholt.
+  if (card.korrigiert && edit.ts < card.korrigiert) return card;
   return {
     ...card,
     frage: edit.frage ?? card.frage,

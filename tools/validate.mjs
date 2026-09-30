@@ -45,6 +45,7 @@ for (const card of index.cards ?? []) {
   else if (card.antworten.some((a) => !a || typeof a !== "string")) fail(`${ref}: alle 4 Antworten müssen nichtleere Texte sein`);
   if (typeof card.erklaerung !== "string") fail(`${ref}: 'erklaerung' fehlt`);
   if (!card.ts) fail(`${ref}: 'ts' fehlt`);
+  if (card.korrigiert !== undefined && Number.isNaN(Date.parse(card.korrigiert))) fail(`${ref}: 'korrigiert' muss ein ISO-Zeitstempel sein`);
   if (seenIds.has(card.id)) fail(`${ref}: Duplikat-ID in index.json`);
   seenIds.add(card.id);
 }

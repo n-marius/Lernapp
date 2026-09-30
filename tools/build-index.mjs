@@ -35,6 +35,7 @@ for (const gebiet of GEBIETE) {
       ...(card.typ === "begriffe" ? { falsche: card.falsche } : {}),
       erklaerung: card.erklaerung ?? "",
       creator: null,
+      ...(card.korrigiert ? { korrigiert: card.korrigiert } : {}),
       ts: card.ts,
     });
   }

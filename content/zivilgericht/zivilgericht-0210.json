@@ -2,12 +2,12 @@
   "id": "zivilgericht-0210",
   "gebiet": "zivilgericht",
   "prio": "hoch",
-  "frage": "Wann ist ein Urteil nach § 708 Nr. 11 ZPO ohne Sicherheitsleistung vorläufig vollstreckbar?",
+  "frage": "Bis zu welchen Wertgrenzen ist ein Urteil in vermögensrechtlichen Streitigkeiten ohne Sicherheitsleistung vorläufig vollstreckbar (§ 708 Nr. 11 ZPO)?",
   "antworten": [
     "Hauptsache bis 1.250 € oder nur Kosten bis 1.500 €",
-    "Bei allen Urteilen der Amtsgerichte ohne Wertgrenze",
-    "Bei Urteilen, gegen die nur Revision stattfindet",
-    "Bei jeder Klageabweisung, unabhängig von den Kosten"
+    "Hauptsache und Kosten jeweils bis 5.000 €",
+    "Hauptsache bis 10.000 €, Kosten ohne Grenze",
+    "Nur Kosten bis 2.500 €, Hauptsache nie"
   ],
   "erklaerung": "§ 708 Nr. 11 ZPO ist der wichtigste Fall der Vollstreckbarkeit ohne Sicherheitsleistung (mit Abwendungsbefugnis): vermögensrechtliche Streitigkeiten, wenn der Gegenstand der Verurteilung in der Hauptsache 1.250 € nicht übersteigt oder nur die Kostenentscheidung vollstreckbar ist und eine Vollstreckung von nicht mehr als 1.500 € ermöglicht.\n\nBeispiel Klageabweisung: Bei 5.000 € Streitwert liegen die erstattungsfähigen Anwaltskosten des Beklagten unter 1.500 € (§§ 708 Nr. 11, 711 ZPO), bei 9.000 € darüber (§ 709 ZPO). Faustregel: Die Grenze liegt bei ca. 7.500 € Streitwert.",
   "ts": "2026-09-28T15:24:06.695600Z"

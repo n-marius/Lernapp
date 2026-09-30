@@ -1,7 +1,7 @@
 {
   "id": "zivilgericht-0111",
   "gebiet": "zivilgericht",
-  "prio": "normal",
+  "prio": "niedrig",
   "frage": "Der Zeuge verweigert die Aussage. Wie wird darüber entschieden?",
   "antworten": [
     "Im Zwischenstreit durch Zwischenurteil",

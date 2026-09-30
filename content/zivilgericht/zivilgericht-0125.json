@@ -1,7 +1,7 @@
 {
   "id": "zivilgericht-0125",
   "gebiet": "zivilgericht",
-  "prio": "normal",
+  "prio": "niedrig",
   "frage": "Wie ist der Zeuge zur Sache zu vernehmen (§ 396 ZPO)?",
   "antworten": [
     "Zusammenhängender Bericht, dann nötigenfalls Nachfragen",

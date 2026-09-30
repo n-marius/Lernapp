@@ -2,13 +2,13 @@
   "id": "zivilgericht-0059",
   "gebiet": "zivilgericht",
   "prio": "hoch",
-  "frage": "Unter welchen Voraussetzungen ist die Vernehmung des Gegners nach § 445 I ZPO zulässig?",
+  "frage": "Welche Voraussetzungen stellt § 445 Abs. 1 ZPO für die Vernehmung des Gegners auf?",
   "antworten": [
-    "Auf Antrag, subsidiär; nicht, wenn Gegenteil erwiesen",
-    "Von Amts wegen bei gewisser Wahrscheinlichkeit der Tatsache",
-    "Auf Antrag und nur mit Einverständnis des Gegners",
-    "Erst nach Erhebung aller angebotenen, zulässigen Beweise"
+    "Antrag der beweisbelasteten Partei; subsidiär; nicht bei erwiesenem Gegenteil",
+    "Antrag der beweisbelasteten Partei und Einverständnis des Gegners",
+    "Antrag einer Partei nach Erhebung aller angebotenen Beweise",
+    "Antrag einer Partei und überwiegende Wahrscheinlichkeit der Tatsache"
   ],
-  "erklaerung": "§ 445 Abs. 1 ZPO: Vernehmung des Gegners auf Antrag. Subsidiär: Die beweisbelastete Partei hat den Beweis mit anderen Beweismitteln nicht vollständig geführt oder andere Beweismittel nicht vorgebracht.\n\nNicht zulässig, wenn das Gericht das Gegenteil für erwiesen erachtet (§ 445 Abs. 2 ZPO).",
+  "erklaerung": "§ 445 Abs. 1 ZPO: Vernehmung des Gegners auf Antrag. Subsidiär: Die beweisbelastete Partei hat den Beweis mit anderen Beweismitteln nicht vollständig geführt oder andere Beweismittel nicht vorgebracht.\n\nNicht zulässig, wenn das Gericht das Gegenteil für erwiesen erachtet (§ 445 Abs. 2 ZPO).\n\nUnabhängig davon ist nach § 448 ZPO eine Vernehmung von Amts wegen möglich.",
   "ts": "2026-09-28T11:02:50.395Z"
 }

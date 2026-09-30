@@ -2,12 +2,19 @@
   "id": "zivilgericht-0087",
   "gebiet": "zivilgericht",
   "prio": "normal",
+  "typ": "begriffe",
+  "reihenfolge": false,
   "frage": "Welche motivationsbezogenen Inhalte sind Realitätskennzeichen?",
   "antworten": [
-    "Eingeräumte Lücken, Selbstbelastung, spontane Verbesserungen",
-    "Übertriebene Bestimmtheit, Entrüstung, Vorwegverteidigung",
-    "Verweigerung, Zurückhaltung und Ausweichen bei Nachfragen",
-    "Stereotype Wiederholung, klischeehafte Formulierungen"
+    "Zugeben von Erinnerungslücken",
+    "Zugeben von Unsicherheiten",
+    "Selbstbelastung",
+    "Spontane Verbesserung"
+  ],
+  "falsche": [
+    "Entrüstung",
+    "Vorwegverteidigung",
+    "Übertriebene Bestimmtheit"
   ],
   "erklaerung": "Motivationsbezogene Realitätskennzeichen sind das Zugeben von Erinnerungslücken, das Zugeben von Unsicherheiten, Selbstbelastungen und spontane Verbesserungen.",
   "ts": "2026-09-28T11:02:50.395Z"

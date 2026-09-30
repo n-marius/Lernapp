@@ -2,12 +2,18 @@
   "id": "zivilgericht-0041",
   "gebiet": "zivilgericht",
   "prio": "hoch",
+  "typ": "begriffe",
+  "reihenfolge": true,
   "frage": "Wie ist die Beweiswürdigung zu gliedern?",
   "antworten": [
-    "Inhalt/Ergiebigkeit, Überzeugungskraft, bei Zeugen Glaubwürdigkeit",
-    "Glaubwürdigkeit, Beweisinhalt, Beweislastentscheidung",
-    "Zulässigkeit des Beweismittels, Glaubwürdigkeit, Ergebnis",
-    "Beweisthema, Beweislast, Beweisergebnis, Beweiskosten"
+    "Beweisinhalt und -ergiebigkeit",
+    "Überzeugungskraft",
+    "Glaubwürdigkeit (nur Zeugen)"
+  ],
+  "falsche": [
+    "Beweislast",
+    "Zulässigkeit des Beweismittels",
+    "Beweisantritt"
   ],
   "erklaerung": "1. Beweisinhalt und Beweisergiebigkeit: Wiedergabe der für die Würdigung wesentlichen Aspekte (nicht zu lang); Frage, ob die streitige Tatsache durch das Beweismittel bestätigt wird.\n\n2. Überzeugungskraft des Beweismittels (bei Zeugen: Glaubhaftigkeit). 3. Nur bei Zeugen: Glaubwürdigkeit.",
   "ts": "2026-09-28T11:02:50.395Z"

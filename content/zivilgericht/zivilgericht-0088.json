@@ -2,12 +2,19 @@
   "id": "zivilgericht-0088",
   "gebiet": "zivilgericht",
   "prio": "normal",
+  "typ": "begriffe",
+  "reihenfolge": false,
   "frage": "Welche speziellen Inhalte sind Realitätskennzeichen?",
   "antworten": [
-    "Raum-Zeit-Verknüpfung, Interaktionen, Nebendetails, Komplikationen",
-    "Verallgemeinerungen, Stereotypie, übertriebene Genauigkeit",
-    "Glatter, geordneter Handlungsablauf ohne Komplikationen",
-    "Vermutete Handlungsmotive, blasse klischeehafte Schilderung"
+    "Raum-zeitliche Verknüpfung",
+    "Interaktionen und Gespräche",
+    "Nebensächliche Details",
+    "Komplikationen"
+  ],
+  "falsche": [
+    "Verallgemeinerungen",
+    "Vermutete Handlungsmotive",
+    "Glatter Handlungsablauf"
   ],
   "erklaerung": "Spezielle Inhalte als Realitätskennzeichen sind raum-zeitliche Verknüpfungen, Interaktionsschilderungen oder Wiedergabe von Gesprächen, ungewöhnliche oder nebensächliche Details sowie Komplikationen.",
   "ts": "2026-09-28T11:02:50.395Z"

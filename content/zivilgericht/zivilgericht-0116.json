@@ -1,13 +1,21 @@
 {
   "id": "zivilgericht-0116",
   "gebiet": "zivilgericht",
-  "prio": "normal",
+  "prio": "niedrig",
+  "typ": "begriffe",
+  "reihenfolge": true,
   "frage": "In welcher Reihenfolge wird der Zeuge befragt?",
   "antworten": [
-    "Vorsitz, Richter, PB Beweisführer, PB Gegner, Beweisführer, Gegner",
-    "Beweisführer, Gegner, PB Beweisführer, PB Gegner, Vorsitz, Richter",
-    "PB Beweisführer, Vorsitz, PB Gegner, Richter, Beweisführer, Gegner",
-    "Vorsitz, Gegner, Beweisführer; Prozessbevollmächtigte fragen nicht"
+    "Vorsitzender",
+    "Beisitzende Richter",
+    "PB des Beweisführers",
+    "PB des Beweisgegners",
+    "Beweisführer",
+    "Beweisgegner"
+  ],
+  "falsche": [
+    "Sachverständiger",
+    "Urkundsbeamter"
   ],
   "erklaerung": "Reihenfolge: (1) Vorsitzende(r), (2) übrige Richter bei Kammer oder Senat (§ 396 Abs. 3 ZPO), (3) Prozessbevollmächtigter des Beweisführers, (4) Prozessbevollmächtigter des Beweisgegners, (5) Beweisführer, (6) Beweisgegner (§ 397 Abs. 2 ZPO).",
   "ts": "2026-09-28T11:02:50.395Z"

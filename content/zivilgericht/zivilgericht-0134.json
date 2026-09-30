@@ -2,13 +2,21 @@
   "id": "zivilgericht-0134",
   "gebiet": "zivilgericht",
   "prio": "normal",
-  "frage": "Welche Fragen stellt die Beweisstation?",
+  "typ": "begriffe",
+  "reihenfolge": true,
+  "frage": "Welche Fragen prüft die Beweisstation in welcher Reihenfolge?",
   "antworten": [
-    "Beweisbedürftigkeit, Beweislast, Beweisantritt",
-    "Schlüssigkeit, Erheblichkeit, Zulässigkeit",
-    "Glaubwürdigkeit, Wahrscheinlichkeit, Beweislast",
-    "Zulässigkeit der Beweismittel, Kosten, Beweistermin"
+    "Beweiserheblichkeit",
+    "Beweisbedürftigkeit",
+    "Beweislast",
+    "Beweisantritt",
+    "Beweis geführt"
   ],
-  "erklaerung": "Die Beweisstation fragt: Auf welche Tatsachen kommt es an (streitig, entscheidungserheblich, beweisbedürftig)? Welche Partei muss sie beweisen? Liegt ein Beweisantritt dieser Partei vor?\n\nFehlt ein Beweisantritt, ergeht Urteil zulasten der beweisbelasteten Partei. Ist eine Beweisaufnahme erforderlich, folgt ein Beweisbeschluss, danach Beweiserhebung und Beweiswürdigung.",
+  "falsche": [
+    "Schlüssigkeit",
+    "Glaubhaftmachung",
+    "Zulässigkeit"
+  ],
+  "erklaerung": "Die Beweisstation fragt: Welche Tatsachen sind beweiserheblich (Ergebnis der Beklagtenstation)? Welche sind beweisbedürftig (streitig, nicht offenkundig usw.)? Welche Partei ist beweisbelastet? Hat sie Beweis angeboten? Ist der Beweis geführt?\n\nFehlt ein Beweisantritt, ergeht Urteil zulasten der beweisbelasteten Partei. Ist eine Beweisaufnahme erforderlich, folgt ein Beweisbeschluss, danach Beweiserhebung und Beweiswürdigung.",
   "ts": "2026-09-28T14:29:02.481652Z"
 }

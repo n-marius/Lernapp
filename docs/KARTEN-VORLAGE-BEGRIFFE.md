@@ -8,6 +8,14 @@ inhaltlich aufzubauen sind, regelt die übrige Kartenvorlage
 Ausgabe wie bei allen Karten: pro Karte eine `.txt`-Datei mit reinem JSON
 (kein Codeblock, kein Begleittext), Dateiname `<gebiet>_<kurzes-thema>.txt`.
 
+## Wann verwenden
+
+Immer dann, wenn die Antwort eine bloße Aufzählung ist: Schemata, Abläufe,
+Prüfungsreihenfolgen, Aufbau (dann `reihenfolge: true`) oder Listen von
+Beispielen, Voraussetzungen, Merkmalen in beliebiger Reihenfolge (dann
+`reihenfolge: false`). Zuordnungen und Gegenüberstellungen („A: x; B: y“)
+bleiben normale Karten mit vier Antworten.
+
 ## Format (pro Karte eine Datei)
 
 ```json
@@ -55,3 +63,15 @@ Ausgabe wie bei allen Karten: pro Karte eine `.txt`-Datei mit reinem JSON
   Beachtung der Groß-/Kleinschreibung).
 - Insgesamt höchstens 12 Begriffe (`antworten` + `falsche`).
 - Kurze Begriffe/Stichworte, da jeder Begriff ein einzelnes Kästchen ist.
+
+## Inhaltliche Regeln
+
+- Je nach Anzahl der richtigen Begriffe etwa zwei bis vier falsche Begriffe.
+- Falsche Begriffe knifflig, aber keine Finte: nicht bloß umformulierte richtige
+  Begriffe, keine Begriffe, die in anderer Lesart ebenfalls zutreffen, bei Zahlen
+  keine extreme Ähnlichkeit. Gut geeignet sind Begriffe aus benachbarten
+  Kategorien (z. B. Warnsignale als falsche Begriffe bei Realitätskennzeichen).
+- Richtige und falsche Begriffe äußerlich gleich gestalten (Länge, Normzitate,
+  Klammerzusätze).
+- Optionale Schritte eines Ablaufs dürfen mit „ggf.“ gekennzeichnet werden.
+- Einzelheiten und Normen gehören in die `erklaerung`.

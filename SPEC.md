@@ -305,6 +305,16 @@ Nutzer aus, der sie vorgenommen hat, verändert also weder die Karte selbst
 noch die Sicht des anderen Nutzers (technisch: eine per Nutzer und Karte
 gespeicherte Übersteuerung, siehe Abschnitt 7 und 8).
 
+**Übernahme von Marius auf Agnessa (einseitig):** Eine von Marius manuell
+gewählte Prio gilt für Agnessa als Vorgabe, solange Agnessa für diese Karte
+nie selbst manuell eine Prio gewählt hat. Eine eigene manuelle Wahl von
+Agnessa gewinnt immer, egal ob sie vor oder nach Mariuss Wahl erfolgte.
+Umgekehrt wird nichts von Agnessa auf Marius übertragen. Technisch keine
+zusätzlichen Daten: Agnessas wirksame Prio wird in `priosMap` (js/app.js)
+aus Mariuss Prio-Einträgen als Grundlage und ihren eigenen darüber gebildet.
+Änderungen der Grund-Prio in der Kartendatei wirken nur, wo keine manuelle
+Wahl vorliegt.
+
 ### 5.2 Frage-Antwort-Modus
 
 - Zeigt Frage und darunter die vier Antwortmöglichkeiten **einzeln in voller
@@ -460,8 +470,15 @@ Textdatei `flaggs-<Datum>.txt`, z. B. zur Besprechung in einem Chat.
 - Pro Nutzer wird täglich gezählt, wie viele Karten bearbeitet wurden
   (Karteikarten- und Frage-Antwort-Modus zusammen; jede beantwortete Karte
   zählt genau einmal, unabhängig davon, ob richtig oder falsch).
-- Anzeige als kleines Liniendiagramm (eigenes SVG, kein Diagramm-Framework),
-  x-Achse = alle Tage vom ersten vorhandenen Datenpunkt (nach Reset: ab dem ersten neuen Tag) bis heute, Tage ohne Lernen mit 0; das Diagramm wächst über 14 Tage hinaus mit. Der Durchschnitt bezieht sich auf die letzten 14 Tage, bei kürzerem Verlauf nur auf die vorhandenen Tage.
+- Anzeige als kleine Liniendiagramme (eigenes SVG, kein Diagramm-Framework):
+  bei **beiden** Nutzern werden die Statistiken **beider** Nutzer gezeigt, in
+  zwei getrennten Diagrammen (Marius blau, Agnessa rosa; das des aktuellen
+  Nutzers steht oben). x-Achse = alle Tage vom frühesten Datenpunkt beider
+  Nutzer (nach Reset: ab dem ersten neuen Tag) bis heute, für beide Diagramme
+  gleich; Tage ohne Lernen mit 0; das Diagramm wächst über 14 Tage hinaus
+  mit. Der Durchschnitt bezieht sich je Nutzer auf die letzten 14 Tage, bei
+  kürzerem Verlauf der eigenen Statistik nur auf so viele Tage, wie dessen
+  eigene Statistik zurückreicht.
 - In den Einstellungen gibt es zwei getrennte, mit Ja/Nein-Rückfrage
   gesicherte Aktionen (nur für den aktuellen Nutzer, wirken nicht auf den
   anderen Nutzer und nicht auf die Karten selbst):

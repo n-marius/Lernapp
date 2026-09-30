@@ -2,12 +2,18 @@
   "id": "zivilgericht-0085",
   "gebiet": "zivilgericht",
   "prio": "normal",
+  "typ": "begriffe",
+  "reihenfolge": false,
   "frage": "Welche allgemeinen Merkmale sind Realitätskennzeichen?",
   "antworten": [
-    "Detailreichtum, Widerspruchsfreiheit, ungeordnete Erzählweise",
-    "Übertriebene Genauigkeit, übertriebene Bestimmtheit, Stereotypie",
-    "Verallgemeinerungen, klischeehafter Zeitungsstil, vermutete Handlungsmotive",
-    "Entrüstung, Vorwegverteidigung, Ausweichen"
+    "Detailreichtum",
+    "Widerspruchsfreiheit",
+    "Ungeordnete Erzählweise"
+  ],
+  "falsche": [
+    "Übertriebene Genauigkeit",
+    "Stereotypie",
+    "Lineare Erzählweise"
   ],
   "erklaerung": "Allgemeine Merkmale als Realitätskennzeichen sind Detailreichtum, Widerspruchsfreiheit und ungeordnete Erzählweise.",
   "ts": "2026-09-28T11:02:50.395Z"

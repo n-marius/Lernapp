@@ -2,13 +2,18 @@
   "id": "zivilgericht-0007",
   "gebiet": "zivilgericht",
   "prio": "normal",
-  "frage": "Welche Beispiele nennt die Fallgruppe „nicht ordnungsgemäßer Beweisantrag“?",
+  "typ": "begriffe",
+  "reihenfolge": false,
+  "frage": "Welche Beispiele ordnet die Rechtsprechung der Fallgruppe „nicht ordnungsgemäßer Beweisantrag“ zu (nicht: unzulässige oder überflüssige Beweiserhebung)?",
   "antworten": [
-    "Zeuge N.N.; SV-Gutachten ohne Anknüpfungstatsachen",
-    "Verspätung nach § 296 ZPO; Ausforschungsbeweis",
-    "Heimlich aufgezeichnetes Telefonat; Vernehmung der eigenen Partei",
-    "Offenkundige Tatsache; zugestandene Tatsache"
+    "Zeuge N.N.",
+    "SV-Gutachten ohne Anknüpfungstatsachen"
   ],
-  "erklaerung": "Nicht ordnungsgemäß ist der Beweisantrag z. B. bei Benennung „Zeuge N.N.“ (nomen nominandum/nomen nescio) oder wenn es für die Einholung eines Sachverständigengutachtens an Anknüpfungstatsachen fehlt.",
+  "falsche": [
+    "Ausforschungsbeweis",
+    "Verspätetes Beweisangebot",
+    "Offenkundige Tatsache"
+  ],
+  "erklaerung": "Nicht ordnungsgemäß ist der Beweisantrag z. B. bei Benennung „Zeuge N.N.“ (nomen nominandum/nomen nescio) oder wenn es für die Einholung eines Sachverständigengutachtens an Anknüpfungstatsachen fehlt.\n\nAusforschungsbeweis und Verspätung gehören zur Fallgruppe der unzulässigen Beweisaufnahme, offenkundige Tatsachen zur überflüssigen Beweiserhebung.",
   "ts": "2026-09-28T11:02:50.395Z"
 }

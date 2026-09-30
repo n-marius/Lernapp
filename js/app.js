@@ -178,9 +178,15 @@ async function levelsMap(user) {
   return new Map(levels.map((l) => [l.cardId, l]));
 }
 
+// Für Agnessa gelten Mariuss manuell gewählte Prios als Vorgabe, solange sie
+// selbst für die Karte nie manuell gewählt hat (eigene Wahl gewinnt immer,
+// egal ob vorher oder nachher). Umgekehrt wird nichts übertragen.
 async function priosMap(user) {
-  const prios = await getAllPrios(user);
-  return new Map(prios.map((p) => [p.cardId, p]));
+  const own = await getAllPrios(user);
+  const map = new Map();
+  if (user === "agnessa") for (const p of await getAllPrios("marius")) map.set(p.cardId, p);
+  for (const p of own) map.set(p.cardId, p);
+  return map;
 }
 
 // Speichert eine per Antippen geänderte Prio für den aktuellen Nutzer, aktualisiert
@@ -1304,7 +1310,7 @@ async function showFlagReview() {
 // ---------- Statistik ----------
 
 async function showStats() {
-  const events = await getAllEvents(currentUser);
+  const eventsByUser = { marius: await getAllEvents("marius"), agnessa: await getAllEvents("agnessa") };
   render("stats", {
     left: backButton(),
     body: `
@@ -1315,7 +1321,7 @@ async function showStats() {
       <div id="stats"></div>`,
   });
   on("#back", "click", showModes);
-  renderStats($("#stats"), events);
+  renderStats($("#stats"), eventsByUser, currentUser);
 }
 
 // ---------- Einstellungen ----------

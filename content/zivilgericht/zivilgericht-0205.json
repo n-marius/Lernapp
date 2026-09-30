@@ -2,12 +2,19 @@
   "id": "zivilgericht-0205",
   "gebiet": "zivilgericht",
   "prio": "normal",
-  "frage": "Aus welchen Teilen besteht der Urteilstenor?",
+  "typ": "begriffe",
+  "reihenfolge": true,
+  "frage": "Aus welchen Teilen besteht der Urteilstenor (in Reihenfolge)?",
   "antworten": [
-    "Hauptsache, Kosten, vorläufige Vollstreckbarkeit, Berufungszulassung",
-    "Hauptsache, Streitwertfestsetzung, Kosten, Rechtsmittelbelehrung",
-    "Rubrum, Hauptsache, Kostenentscheidung, vorläufige Vollstreckbarkeit",
-    "Hauptsache, Kosten, Sicherheitsleistung, Rechtskraftvermerk"
+    "Hauptsache",
+    "Kosten",
+    "Vorläufige Vollstreckbarkeit",
+    "ggf. Berufungszulassung"
+  ],
+  "falsche": [
+    "Streitwert",
+    "Rechtsmittelbelehrung",
+    "Rubrum"
   ],
   "erklaerung": "Tenor: 1. Hauptsache und Nebenforderungen (z. B. Zinsen); 2. Kosten (§§ 91 ff. ZPO); 3. vorläufige Vollstreckbarkeit (§§ 708 ff. ZPO); 4. ggf. Berufungszulassung (§ 511 Abs. 4 ZPO), nur wenn die Beschwer 600 € nicht übersteigt.\n\nDer Tenor ist Grundlage der Zwangsvollstreckung, die in der Regel aus einer Ausfertigung ohne Tatbestand und Entscheidungsgründe erfolgt (§§ 317 Abs. 2 S. 2, 725, 754 ZPO); er bestimmt zudem die Rechtskraft (§ 322 Abs. 1 ZPO).",
   "ts": "2026-09-28T15:24:06.695139Z"

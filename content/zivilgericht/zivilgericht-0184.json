@@ -2,12 +2,20 @@
   "id": "zivilgericht-0184",
   "gebiet": "zivilgericht",
   "prio": "normal",
-  "frage": "Wann ist die Sach- und Rechtslage in Kläger- und Beklagtenstation nicht voll zu prüfen?",
+  "typ": "begriffe",
+  "reihenfolge": false,
+  "frage": "Welche Bindungen schränken die Prüfung der Sach- und Rechtslage in Kläger- und Beklagtenstation ein?",
   "antworten": [
-    "Bei Anerkenntnis, Verzicht, Nebeninterventionswirkung oder bindender Verweisung",
-    "Bei Streitwertfestsetzung, PKH-Bewilligung oder gerichtlichem Hinweis",
-    "Bei Klageänderung, Parteiwechsel oder einfacher Streitgenossenschaft",
-    "Bei Vergleichsvorschlag des Gerichts oder gescheiterter Mediation"
+    "Anerkenntnis",
+    "Verzicht",
+    "Nebeninterventionswirkung",
+    "Bindende Verweisung",
+    "Vorbehaltsurteil"
+  ],
+  "falsche": [
+    "Streitwertbeschluss",
+    "PKH-Bewilligung",
+    "Richterlicher Hinweis"
   ],
   "erklaerung": "Neben § 308 ZPO kann das Gericht an frühere Entscheidungen oder Parteierklärungen gebunden sein: Nebeninterventionswirkung (§ 68 ZPO, ggf. i. V. m. § 74 ZPO), Vorbehaltsurteil (§ 302 ZPO), vorgegebener Entscheidungsumfang im Berufungsverfahren, Anerkenntnis (§ 307 ZPO), Verzicht (§ 306 ZPO), Rechtswegzuweisung (§ 17a GVG) und Verweisung (§ 281 ZPO), diese auch bei schwerwiegendem Rechtsfehler (§§ 17a Abs. 2 S. 3 GVG, 281 Abs. 2 S. 4 ZPO).\n\nFolge: Beim betreffenden Merkmal ist nur der Umfang der Bindung aufzuzeigen („Davon ist unabhängig von der Rechtslage auszugehen, wenn der Beklagte die Klageforderung wirksam anerkannt hat.“).",
   "ts": "2026-09-28T15:24:06.693678Z"

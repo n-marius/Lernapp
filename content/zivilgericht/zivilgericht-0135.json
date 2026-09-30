@@ -1,7 +1,7 @@
 {
   "id": "zivilgericht-0135",
   "gebiet": "zivilgericht",
-  "prio": "hoch",
+  "prio": "normal",
   "frage": "Wie wird schriftsätzlicher Vortrag regelmäßig zum Gegenstand der mündlichen Verhandlung?",
   "antworten": [
     "Durch Stellen der Anträge als konkludente Bezugnahme",

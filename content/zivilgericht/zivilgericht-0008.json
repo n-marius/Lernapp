@@ -2,13 +2,21 @@
   "id": "zivilgericht-0008",
   "gebiet": "zivilgericht",
   "prio": "normal",
-  "frage": "Welche Beispiele gehören zur Fallgruppe „unzulässige Beweisaufnahme“?",
+  "typ": "begriffe",
+  "reihenfolge": false,
+  "frage": "Welche Beispiele ordnet die Rechtsprechung der Fallgruppe „unzulässige Beweisaufnahme“ zu (nicht: nicht ordnungsgemäßer Antrag oder überflüssige Beweiserhebung)?",
   "antworten": [
-    "Ausforschung, Verspätung, eigene Partei ohne Zustimmung, Grundrechtsverstoß",
-    "Zeuge N.N., fehlende Anknüpfungstatsachen für ein SV-Gutachten",
-    "Offenkundige, zugestandene und nicht erhebliche Tatsachen",
-    "Bereits bewiesene Tatsachen und gesetzlich vermutete Tatsachen"
+    "Ausforschungsbeweis",
+    "Verspätung (§ 296 ZPO)",
+    "Eigene Partei ohne Zustimmung",
+    "Grundrechtsverletzung"
   ],
-  "erklaerung": "Unzulässig ist die Beweisaufnahme z. B. bei unzulässigem Ausforschungsbeweis, bei Verspätung gemäß § 296 ZPO, bei Vernehmung der eigenen Partei ohne Zustimmung des Gegners (§ 447 ZPO).\n\nFerner bei Verletzung eines verfassungsrechtlich geschützten Grundrechts, etwa Tonbandaufnahme eines heimlich aufgezeichneten Telefonats oder heimliches Mithören eines Telefonats durch einen Zeugen (BGH NJW 2003, 1727 ff.).",
+  "falsche": [
+    "Zeuge N.N.",
+    "Fehlende Anknüpfungstatsachen",
+    "Offenkundige Tatsache",
+    "Bereits bewiesene Tatsache"
+  ],
+  "erklaerung": "Unzulässig ist die Beweisaufnahme z. B. bei unzulässigem Ausforschungsbeweis, bei Verspätung gemäß § 296 ZPO, bei Vernehmung der eigenen Partei ohne Zustimmung des Gegners (§ 447 ZPO).\n\nFerner bei Verletzung eines verfassungsrechtlich geschützten Grundrechts, etwa Tonbandaufnahme eines heimlich aufgezeichneten Telefonats oder heimliches Mithören eines Telefonats durch einen Zeugen (BGH NJW 2003, 1727 ff.).\n\nAlle drei Fallgruppen führen zur Ablehnung des Beweisantrags; abgefragt ist hier nur die Zuordnung. Zeuge N.N. und fehlende Anknüpfungstatsachen betreffen den nicht ordnungsgemäßen Beweisantrag, offenkundige oder bereits bewiesene Tatsachen die überflüssige Beweiserhebung.",
   "ts": "2026-09-28T11:02:50.395Z"
 }

@@ -80,6 +80,13 @@ Schreiben nur daran halten, dass die richtige Antwort an erster Stelle steht.
 - Materielles Recht (Stoff des Ersten Examens) wird als bekannt vorausgesetzt. Folien, die materielle Inhalte nur zur Veranschaulichung nennen (z. B. Arten von Einwendungen und Einreden), werden allenfalls in einer Karte dazu verwertet, was in der jeweiligen Station zu prüfen ist.
 - Bereits bekannte Grundlagen wie die einzelnen Zulässigkeitsvoraussetzungen nur gebündelt als Schema abfragen. Einzelheiten nur, wenn das Quellmaterial Sonderfälle oder Sonderprobleme behandelt.
 - Dopplungen mit bereits vorhandenen Karten vermeiden: Vor dem Erstellen prüfen, ob der Inhalt schon abgefragt wird; neue Aspekte ggf. in die Erklärung der vorhandenen Karte aufnehmen (dann diese Karte als geändert mit ausgeben).
+- Keine zu grundlegenden Karten (z. B. Zweck der Parteivernehmung, Grundprinzip der Relationstechnik, Definition des Beweisantritts). Abgefragt wird, was im Zweiten Examen nicht selbstverständlich ist.
+- Fachbegriffe exakt verwenden (z. B. „Replikstation“ statt „Replik“, „vor der mündlichen Verhandlung“ statt „ohne mündliche Verhandlung“, wenn § 358a ZPO gemeint ist).
+- Parteineutral formulieren, wo eine Regel für beide Parteien gilt („Wille der Partei“, nicht „des Klägers“).
+- Den Gegenstand der Frage inhaltlich benennen, nicht nur per Norm („Antrag auf schriftliche Begutachtung vor Anhängigkeit (§ 485 II ZPO)“, nicht nur „Antrag nach § 485 II ZPO“).
+- Die Frage so fassen, dass keine falsche Antwort über eine andere Norm oder Konstellation doch zutrifft (z. B. Vernehmung der beweispflichtigen Partei: § 447 ZPO auf Antrag, aber auch § 448 ZPO von Amts wegen). Notwendige Prämissen gehören in die Frage (z. B. „streitige Haupttatsache“), damit eine falsche Antwort nicht mit einer ohnehin gegebenen Bedingung spielt.
+- Bei Fallgruppen-Zuordnungen klarstellen, dass nach der Zuordnung gefragt ist, wenn die Einzelbeispiele im Ergebnis gleich behandelt werden (z. B. alle Fallgruppen führen zur Ablehnung des Beweisantrags).
+- Falsche Antworten dürfen gern kniffliger sein, damit sich die Lösung aus Wissen und nicht aus logischem Ausschluss ergibt; weiterhin keine Finten und keine extreme Ähnlichkeit, insbesondere bei Zahlen.
 - Kartenzahl nicht ausufern lassen: jede relevante Information verwerten, aber keine redundanten Karten.
 - Bleiben Fragen offen, die dazu führen, dass eine Information nicht verwertet werden kann, diese im Chat dem Nutzer vorlegen.
 
@@ -89,6 +96,15 @@ Schreiben nur daran halten, dass die richtige Antwort an erster Stelle steht.
 - `niedrig` für ca. 25 %: nur einfachste Informationen oder für das Zweite Examen wenig wichtige Nischenthemen.
 - `normal` für den Rest (Standard).
 - Maßstab ist allein der Inhalt; die Prozentwerte sind Richtwerte, keine festen Grenzen.
+
+- Zusätzlich gilt: Wissen, das Klausuren und/oder den Aktenvortrag betrifft, ist vorwiegend `hoch` oder `normal`. Wissen, das in typische Klausuren oder Aktenvorträge des Zweiten Examens schon schematisch nicht hineinpasst und nur für mündliche Nachfragen taugt (insbesondere Einzelheiten zum Ablauf der mündlichen Verhandlung und sonstige Praxisdetails), ist vorwiegend `normal` oder `niedrig`; `hoch` nur bei wirklich wichtigem Wissen.
+
+## Kartenformat „Begriffe“
+
+- Verlangt die Antwort eine bloße Aufzählung (Schema, Ablauf, Prüfungsreihenfolge, Liste von Beispielen, Voraussetzungen oder Merkmalen), ist das Format „Begriffe“ nach `docs/KARTEN-VORLAGE-BEGRIFFE.md` zu verwenden.
+- `reihenfolge: true`, wenn die Reihenfolge Lerninhalt ist (Schemata, Abläufe, Aufbau); sonst `false`.
+- Richtige Begriffe knapp als Stichworte; je nach Anzahl der richtigen Begriffe etwa zwei bis vier falsche Begriffe, knifflig, aber keine Finte (keine bloßen Umformulierungen richtiger Begriffe, keine Begriffe, die in anderer Lesart ebenfalls richtig wären).
+- Zuordnungen (A: x; B: y) und Gegenüberstellungen bleiben normale Karten mit vier Antworten.
 
 ## Kontrolle vor der Ausgabe
 

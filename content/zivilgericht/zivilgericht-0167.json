@@ -1,13 +1,20 @@
 {
   "id": "zivilgericht-0167",
   "gebiet": "zivilgericht",
-  "prio": "normal",
+  "prio": "niedrig",
+  "typ": "begriffe",
+  "reihenfolge": false,
   "frage": "Welche formellen Mindestanforderungen muss die Klageschrift für die Zustellung erfüllen?",
   "antworten": [
-    "Zustellfähige Anschrift, Unterschrift, erkennbarer Klagewille, deutsche Sprache",
-    "Zustellfähige Anschrift, Unterschrift, Schlüssigkeit, Streitwertangabe",
-    "Zuständiges Gericht, Prozessvollmacht, Beweisangebote, Unterschrift",
-    "Deutsche Sprache, Sachurteilsvoraussetzungen, Anlagen, Unterschrift"
+    "Zustellfähige Anschrift",
+    "Unterschrift",
+    "Erkennbarer Klagewille",
+    "Deutsche Sprache"
+  ],
+  "falsche": [
+    "Schlüssigkeit",
+    "Zuständigkeit",
+    "Beweisangebote"
   ],
   "erklaerung": "Die Mindestvoraussetzungen ergeben sich vor allem aus § 253 Abs. 2 ZPO: zustellungsfähige Anschrift des Beklagten, Unterschrift oder elektronisches Dokument i. S. v. § 130a ZPO, Feststellbarkeit, ob überhaupt Klage erhoben werden soll, Klageschrift in deutscher Sprache; ggf. Anwaltszwang nach § 78 ZPO.\n\nNicht erforderlich sind das Vorliegen der Sachurteilsvoraussetzungen und die Schlüssigkeit der Klage.",
   "ts": "2026-09-28T14:29:02.484490Z"

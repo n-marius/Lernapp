@@ -2,12 +2,18 @@
   "id": "zivilgericht-0107",
   "gebiet": "zivilgericht",
   "prio": "normal",
+  "typ": "begriffe",
+  "reihenfolge": false,
   "frage": "Welche Warnsignale im Aussageverhalten gibt es?",
   "antworten": [
-    "Übertriebene Bestimmtheit, Fluchtsymptom, verdächtige Verteidigung",
-    "Zugeben von Unsicherheiten, Selbstbelastungen, Korrekturen",
-    "Ungeordnete Erzählweise, Komplikationen, Nebendetails",
-    "Detailreichtum, Widerspruchsfreiheit, raum-zeitliche Bezüge"
+    "Übertriebene Bestimmtheit",
+    "Fluchtsymptom",
+    "Verdächtige Verteidigung"
+  ],
+  "falsche": [
+    "Selbstbelastung",
+    "Spontane Verbesserung",
+    "Ungeordnete Erzählweise"
   ],
   "erklaerung": "Warnsignale im Aussageverhalten sind übertriebene Bestimmtheit, das Fluchtsymptom (Ausweichen) und die verdächtige Verteidigung (Entrüstung, Vorwegverteidigung).\n\nWeitere negative Realkennzeichen (ÜE 6): abgesprochen wirkende Aussage (Übereinstimmung im Kern, Widersprüche am Rand), Abweichungen zwischen verschiedenen Vernehmungen, einstudierte, lineare Erzählweise, Bruch im Aussageverhalten, Selbstwiderspruch oder Widerspruch zum Vortrag der benennenden Partei, Beteuerung der Wahrheit, Entkräften des Gegenvortrags statt eigener Angaben, Gegenfragen, eigenes Interesse am Ausgang.",
   "ts": "2026-09-28T11:02:50.395Z"

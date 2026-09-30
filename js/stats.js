@@ -23,47 +23,57 @@ function daysSince(firstKey) {
   return days;
 }
 
-export function renderStats(container, events) {
+const USER_LABEL = { marius: "Marius", agnessa: "Agnessa" };
+
+// eventsByUser: { marius: [...], agnessa: [...] }. Zwei getrennte Diagramme
+// (Marius blau, Agnessa rosa, das des aktuellen Nutzers zuerst), beide mit
+// demselben Starttag (frühester Datenpunkt beider Nutzer). Der Durchschnitt
+// bezieht sich je Nutzer auf höchstens 14 Tage und höchstens auf so viele
+// Tage, wie dessen eigene Statistik zurückreicht.
+export function renderStats(container, eventsByUser, currentUser) {
   container.innerHTML = "";
 
-  if (events.length === 0) {
+  const users = ["marius", "agnessa"].sort((x, y) => (y === currentUser) - (x === currentUser));
+  const todayKey = dayKey(new Date().toISOString());
+  const firstKey = (events) => events.map((e) => dayKey(e.ts)).reduce((m, k) => (k < m ? k : m), todayKey);
+
+  if (users.every((u) => eventsByUser[u].length === 0)) {
     container.innerHTML = `
       <div class="empty">
         <p class="empty-title">Noch keine Daten</p>
-        <p class="empty-sub">Sobald du Karten bearbeitest, erscheint hier dein Verlauf.</p>
+        <p class="empty-sub">Sobald Karten bearbeitet werden, erscheint hier der Verlauf.</p>
       </div>`;
     return;
   }
 
-  const days = daysSince(events.map((e) => dayKey(e.ts)).reduce((m, k) => (k < m ? k : m)));
-  const counts = new Map();
-  for (const e of events) counts.set(dayKey(e.ts), (counts.get(dayKey(e.ts)) ?? 0) + 1);
-  const values = days.map((d) => counts.get(d) ?? 0);
-  const avgValues = values.slice(-DAYS_SHOWN);
-  const total = events.length;
-  const todayCount = values.at(-1);
+  const sharedDays = daysSince(users.map((u) => firstKey(eventsByUser[u])).reduce((m, k) => (k < m ? k : m)));
 
-  const count = document.createElement("p");
-  count.className = "stats-count";
-  count.textContent = `${total} ${total === 1 ? "Karte" : "Karten"} insgesamt bearbeitet`;
-  container.appendChild(count);
+  for (const user of users) {
+    const events = eventsByUser[user];
+    const counts = new Map();
+    for (const e of events) counts.set(dayKey(e.ts), (counts.get(dayKey(e.ts)) ?? 0) + 1);
+    const values = sharedDays.map((d) => counts.get(d) ?? 0);
+    const ownDays = daysSince(firstKey(events)).length;
+    const avgValues = values.slice(-Math.min(DAYS_SHOWN, ownDays));
+    const total = events.length;
 
-  const el = document.createElement("section");
-  el.className = "metric";
-  el.innerHTML = `
-    <div class="metric-head">
-      <span class="metric-name">Bearbeitete Karten pro Tag</span>
-      <span class="metric-value">${todayCount}<span class="metric-unit">heute</span></span>
-    </div>
-    <div class="metric-sub">Ø ${avg(avgValues)} pro Tag · ${avgValues.length === 1 ? "heute" : `letzte ${avgValues.length} Tage`}</div>`;
-  const svg = document.createElementNS(NS, "svg");
-  svg.classList.add("chart");
-  svg.dataset.values = JSON.stringify(values);
-  svg.dataset.labels = JSON.stringify(days.map((d) => d.slice(8, 10)));
-  el.appendChild(svg);
-  container.appendChild(el);
-
-  drawChart(svg);
+    const el = document.createElement("section");
+    el.className = "metric";
+    el.dataset.user = user;
+    el.innerHTML = `
+      <div class="metric-head">
+        <span class="metric-name">${USER_LABEL[user]} · Karten pro Tag</span>
+        <span class="metric-value">${values.at(-1)}<span class="metric-unit">heute</span></span>
+      </div>
+      <div class="metric-sub">Ø ${avg(avgValues)} pro Tag · ${avgValues.length === 1 ? "heute" : `letzte ${avgValues.length} Tage`} · ${total} ${total === 1 ? "Karte" : "Karten"} insgesamt</div>`;
+    const svg = document.createElementNS(NS, "svg");
+    svg.classList.add("chart");
+    svg.dataset.values = JSON.stringify(values);
+    svg.dataset.labels = JSON.stringify(sharedDays.map((d) => d.slice(8, 10)));
+    el.appendChild(svg);
+    container.appendChild(el);
+    drawChart(svg);
+  }
 }
 
 function drawChart(svg) {

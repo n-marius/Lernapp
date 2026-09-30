@@ -1,7 +1,7 @@
 {
   "id": "zivilgericht-0083",
   "gebiet": "zivilgericht",
-  "prio": "normal",
+  "prio": "niedrig",
   "frage": "Eine Partei beanstandet eine Frage an den Zeugen. Wer entscheidet wie?",
   "antworten": [
     "Gericht durch unanfechtbaren, zu verkündenden Beschluss",

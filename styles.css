@@ -841,6 +841,8 @@ button.row:active:not(:disabled), label.row:active { background: var(--surface-2
   border: 1px solid var(--line);
   background: var(--surface);
 }
+.metric[data-user="marius"] { --accent: var(--marius); --accent-tint: var(--marius-tint); }
+.metric[data-user="agnessa"] { --accent: var(--agnessa); --accent-tint: var(--agnessa-tint); }
 .metric-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
 .metric-name { font-size: 14px; font-weight: 600; color: var(--ink-2); }
 .metric-value { font-size: 26px; font-weight: 500; letter-spacing: -0.03em; font-variant-numeric: tabular-nums; }

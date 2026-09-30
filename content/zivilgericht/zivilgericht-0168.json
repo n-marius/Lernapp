@@ -1,7 +1,7 @@
 {
   "id": "zivilgericht-0168",
   "gebiet": "zivilgericht",
-  "prio": "hoch",
+  "prio": "normal",
   "frage": "Was darf und muss das Gericht prüfen, bevor es die Zustellung der Klage veranlasst?",
   "antworten": [
     "Vorschusszahlung und formelle Mindestanforderungen",

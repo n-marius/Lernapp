@@ -1,7 +1,7 @@
 {
   "id": "zivilgericht-0068",
   "gebiet": "zivilgericht",
-  "prio": "normal",
+  "prio": "niedrig",
   "frage": "Ist die uneidliche Falschaussage einer Partei bei der Parteivernehmung nach § 153 StGB strafbar?",
   "antworten": [
     "Nein, nur (versuchter) Prozessbetrug",

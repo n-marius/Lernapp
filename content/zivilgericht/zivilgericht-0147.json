@@ -2,12 +2,20 @@
   "id": "zivilgericht-0147",
   "gebiet": "zivilgericht",
   "prio": "hoch",
-  "frage": "In welcher Reihenfolge werden die Stationen der Relation geprüft?",
+  "typ": "begriffe",
+  "reihenfolge": true,
+  "frage": "Welche Stationen der Relation werden in welcher Reihenfolge geprüft?",
   "antworten": [
-    "Prozess-, Kläger-, Beklagten-, Beweis-, Tenorierungsstation",
-    "Kläger-, Beklagten-, Prozess-, Beweis-, Tenorierungsstation",
-    "Prozess-, Beweis-, Kläger-, Beklagten-, Tenorierungsstation",
-    "Prozess-, Kläger-, Beweis-, Beklagten-, Tenorierungsstation"
+    "Prozessstation",
+    "Klägerstation",
+    "Beklagtenstation",
+    "Beweisstation",
+    "Tenorierungsstation"
+  ],
+  "falsche": [
+    "Vollstreckungsstation",
+    "Anspruchsstation",
+    "Rechtsmittelstation"
   ],
   "erklaerung": "Grundstruktur der Relation: A. Sachbericht; B. Entscheidungsvorschlag (kurz); C. Prozessstation (Zulässigkeit); D. Klägerstation (Schlüssigkeit); E. Beklagtenstation (Erheblichkeit); F. Beweisstation; G. Tenorierungsstation (Hauptsache, Kosten, Vollstreckbarkeit).\n\nDie Kläger-, Beklagten- und Beweisstation bilden den zweiseitigen Aufbau der Begründetheit.",
   "ts": "2026-09-28T14:29:02.482951Z"

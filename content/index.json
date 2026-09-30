@@ -1,6 +1,6 @@
 {
-  "version": 8,
-  "contentHash": "bf781cd3dc20ad35",
+  "version": 9,
+  "contentHash": "fbd6dc5a10bf67e4",
   "cards": [
     {
       "id": "zivilgericht-0004",
@@ -21,12 +21,18 @@
       "id": "zivilgericht-0005",
       "gebiet": "zivilgericht",
       "prio": "hoch",
-      "frage": "Welche drei Fallgruppen der Ablehnung von Beweisanträgen gibt es?",
+      "frage": "Welche Fallgruppen der Ablehnung von Beweisanträgen gibt es?",
+      "typ": "begriffe",
+      "reihenfolge": false,
       "antworten": [
-        "Nicht ordnungsgemäßer Antrag, Unzulässigkeit, Überflüssigkeit",
-        "Verspätung, Verschleppungsabsicht, Unerreichbarkeit",
-        "Unzulässigkeit, Unbegründetheit, Unwirtschaftlichkeit",
-        "Fehlende Substantiierung, fehlender Vorschuss, Verspätung"
+        "Nicht ordnungsgemäßer Beweisantrag",
+        "Unzulässige Beweisaufnahme",
+        "Überflüssige Beweiserhebung"
+      ],
+      "falsche": [
+        "Verschleppungsabsicht",
+        "Unerreichbarkeit",
+        "Fehlender Kostenvorschuss"
       ],
       "erklaerung": "Die Rechtsprechung hat in Anlehnung an § 244 Abs. 3 StPO (heute S. 2 und 3) drei Fallgruppen entwickelt: (1) nicht ordnungsgemäßer Beweisantrag der beweisbelasteten Partei, (2) unzulässige Beweisaufnahme, (3) überflüssige Beweiserhebung.",
       "creator": null,
@@ -51,14 +57,19 @@
       "id": "zivilgericht-0007",
       "gebiet": "zivilgericht",
       "prio": "normal",
-      "frage": "Welche Beispiele nennt die Fallgruppe „nicht ordnungsgemäßer Beweisantrag“?",
+      "frage": "Welche Beispiele ordnet die Rechtsprechung der Fallgruppe „nicht ordnungsgemäßer Beweisantrag“ zu (nicht: unzulässige oder überflüssige Beweiserhebung)?",
+      "typ": "begriffe",
+      "reihenfolge": false,
       "antworten": [
-        "Zeuge N.N.; SV-Gutachten ohne Anknüpfungstatsachen",
-        "Verspätung nach § 296 ZPO; Ausforschungsbeweis",
-        "Heimlich aufgezeichnetes Telefonat; Vernehmung der eigenen Partei",
-        "Offenkundige Tatsache; zugestandene Tatsache"
+        "Zeuge N.N.",
+        "SV-Gutachten ohne Anknüpfungstatsachen"
       ],
-      "erklaerung": "Nicht ordnungsgemäß ist der Beweisantrag z. B. bei Benennung „Zeuge N.N.“ (nomen nominandum/nomen nescio) oder wenn es für die Einholung eines Sachverständigengutachtens an Anknüpfungstatsachen fehlt.",
+      "falsche": [
+        "Ausforschungsbeweis",
+        "Verspätetes Beweisangebot",
+        "Offenkundige Tatsache"
+      ],
+      "erklaerung": "Nicht ordnungsgemäß ist der Beweisantrag z. B. bei Benennung „Zeuge N.N.“ (nomen nominandum/nomen nescio) oder wenn es für die Einholung eines Sachverständigengutachtens an Anknüpfungstatsachen fehlt.\n\nAusforschungsbeweis und Verspätung gehören zur Fallgruppe der unzulässigen Beweisaufnahme, offenkundige Tatsachen zur überflüssigen Beweiserhebung.",
       "creator": null,
       "ts": "2026-09-28T11:02:50.395Z"
     },
@@ -66,14 +77,22 @@
       "id": "zivilgericht-0008",
       "gebiet": "zivilgericht",
       "prio": "normal",
-      "frage": "Welche Beispiele gehören zur Fallgruppe „unzulässige Beweisaufnahme“?",
+      "frage": "Welche Beispiele ordnet die Rechtsprechung der Fallgruppe „unzulässige Beweisaufnahme“ zu (nicht: nicht ordnungsgemäßer Antrag oder überflüssige Beweiserhebung)?",
+      "typ": "begriffe",
+      "reihenfolge": false,
       "antworten": [
-        "Ausforschung, Verspätung, eigene Partei ohne Zustimmung, Grundrechtsverstoß",
-        "Zeuge N.N., fehlende Anknüpfungstatsachen für ein SV-Gutachten",
-        "Offenkundige, zugestandene und nicht erhebliche Tatsachen",
-        "Bereits bewiesene Tatsachen und gesetzlich vermutete Tatsachen"
+        "Ausforschungsbeweis",
+        "Verspätung (§ 296 ZPO)",
+        "Eigene Partei ohne Zustimmung",
+        "Grundrechtsverletzung"
       ],
-      "erklaerung": "Unzulässig ist die Beweisaufnahme z. B. bei unzulässigem Ausforschungsbeweis, bei Verspätung gemäß § 296 ZPO, bei Vernehmung der eigenen Partei ohne Zustimmung des Gegners (§ 447 ZPO).\n\nFerner bei Verletzung eines verfassungsrechtlich geschützten Grundrechts, etwa Tonbandaufnahme eines heimlich aufgezeichneten Telefonats oder heimliches Mithören eines Telefonats durch einen Zeugen (BGH NJW 2003, 1727 ff.).",
+      "falsche": [
+        "Zeuge N.N.",
+        "Fehlende Anknüpfungstatsachen",
+        "Offenkundige Tatsache",
+        "Bereits bewiesene Tatsache"
+      ],
+      "erklaerung": "Unzulässig ist die Beweisaufnahme z. B. bei unzulässigem Ausforschungsbeweis, bei Verspätung gemäß § 296 ZPO, bei Vernehmung der eigenen Partei ohne Zustimmung des Gegners (§ 447 ZPO).\n\nFerner bei Verletzung eines verfassungsrechtlich geschützten Grundrechts, etwa Tonbandaufnahme eines heimlich aufgezeichneten Telefonats oder heimliches Mithören eines Telefonats durch einen Zeugen (BGH NJW 2003, 1727 ff.).\n\nAlle drei Fallgruppen führen zur Ablehnung des Beweisantrags; abgefragt ist hier nur die Zuordnung. Zeuge N.N. und fehlende Anknüpfungstatsachen betreffen den nicht ordnungsgemäßen Beweisantrag, offenkundige oder bereits bewiesene Tatsachen die überflüssige Beweiserhebung.",
       "creator": null,
       "ts": "2026-09-28T11:02:50.395Z"
     },
@@ -103,22 +122,22 @@
         "Nein, nur Beweisaufnahmen vor der mündlichen Verhandlung",
         "Ja, stets durch formellen Beweisbeschluss"
       ],
-      "erklaerung": "Jede Beweisaufnahme setzt eine entsprechende, zumindest stillschweigende gerichtliche Anordnung voraus.\n\nOhne mündliche Verhandlung: Verfügung nach § 273 ZPO (Ladung) oder Beweisbeschluss nach § 358a ZPO. Auf Grund oder in mündlicher Verhandlung: Beweisbeschluss nach §§ 358, 329 Abs. 1 S. 1 ZPO.",
+      "erklaerung": "Jede Beweisaufnahme setzt eine entsprechende, zumindest stillschweigende gerichtliche Anordnung voraus.\n\nVor der mündlichen Verhandlung: Verfügung nach § 273 ZPO (Ladung) oder Beweisbeschluss nach § 358a ZPO. Auf Grund oder in mündlicher Verhandlung: Beweisbeschluss nach §§ 358, 329 Abs. 1 S. 1 ZPO.",
       "creator": null,
       "ts": "2026-09-28T11:02:50.395Z"
     },
     {
       "id": "zivilgericht-0011",
       "gebiet": "zivilgericht",
-      "prio": "normal",
-      "frage": "Welche Anordnungsformen gibt es für eine Beweisaufnahme ohne mündliche Verhandlung?",
+      "prio": "niedrig",
+      "frage": "Welche Anordnungsformen gibt es für eine Beweisaufnahme vor der mündlichen Verhandlung?",
       "antworten": [
-        "Verfügung nach § 273 ZPO (Ladung); Beweisbeschluss nach § 358a ZPO",
-        "Beweisbeschluss nach §§ 358, 329 I 1 ZPO",
-        "Nur förmlicher Beweisbeschluss wie bei der Parteivernehmung (§ 450 ZPO)",
-        "Anordnung des persönlichen Erscheinens der Parteien (§ 141 ZPO)"
+        "Verfügung nach § 273 ZPO; Beweisbeschluss nach § 358a ZPO",
+        "Beweisbeschluss nach §§ 358, 329 I 1 ZPO; Verfügung nach § 272 ZPO",
+        "Förmlicher Beweisbeschluss nach § 450 ZPO; Anordnung nach § 144 ZPO",
+        "Anordnung nach § 141 ZPO; Beweisbeschluss nach § 359 ZPO"
       ],
-      "erklaerung": "Ohne mündliche Verhandlung kommt eine Verfügung nach § 273 ZPO (Ladung) oder ein Beweisbeschluss nach § 358a ZPO in Betracht.\n\nAuf Grund oder in mündlicher Verhandlung ergeht ein Beweisbeschluss nach §§ 358, 329 Abs. 1 S. 1 ZPO.",
+      "erklaerung": "Vor der mündlichen Verhandlung kommt eine Verfügung nach § 273 ZPO (Ladung) oder ein Beweisbeschluss nach § 358a ZPO in Betracht.\n\nAuf Grund oder in mündlicher Verhandlung ergeht ein Beweisbeschluss nach §§ 358, 329 Abs. 1 S. 1 ZPO.",
       "creator": null,
       "ts": "2026-09-28T11:02:50.395Z"
     },
@@ -276,14 +295,14 @@
       "id": "zivilgericht-0022",
       "gebiet": "zivilgericht",
       "prio": "normal",
-      "frage": "Ist über eine Haupttatsache Beweis zu erheben, wenn unstreitige oder bewiesene Indizien ihr Vorliegen belegen?",
+      "frage": "Ist über eine streitige Haupttatsache Beweis zu erheben, wenn unstreitige oder bewiesene Indizien ihr Vorliegen belegen?",
       "antworten": [
         "Nein, die Beweisaufnahme ist überflüssig",
         "Ja, Indizien ersetzen nie den Beweis der Haupttatsache",
-        "Ja, sofern der Gegner die Haupttatsache bestreitet",
-        "Nur wenn die Indizien in einer Urkunde festgehalten sind"
+        "Ja, wenn der Beweisführer Hauptbeweis angetreten hat",
+        "Nur wenn die Indizien urkundlich belegt sind"
       ],
-      "erklaerung": "Eine Beweisaufnahme ist überflüssig bei unstreitigen oder bewiesenen Hilfstatsachen, die das Vorhandensein der zu beweisenden Haupttatsache belegen.",
+      "erklaerung": "Eine Beweisaufnahme ist überflüssig bei unstreitigen oder bewiesenen Hilfstatsachen, die das Vorhandensein der zu beweisenden Haupttatsache belegen. Das gilt auch dann, wenn der Gegner die Haupttatsache ausdrücklich bestreitet.",
       "creator": null,
       "ts": "2026-09-28T11:02:50.395Z"
     },
@@ -299,21 +318,6 @@
         "§ 139 I ZPO"
       ],
       "erklaerung": "Nicht bestrittene Tatsachen gelten nach § 138 Abs. 3 ZPO als zugestanden; eine Beweisaufnahme ist überflüssig.\n\n§ 288 ZPO betrifft dagegen das ausdrückliche Geständnis.",
-      "creator": null,
-      "ts": "2026-09-28T11:02:50.395Z"
-    },
-    {
-      "id": "zivilgericht-0024",
-      "gebiet": "zivilgericht",
-      "prio": "niedrig",
-      "frage": "Ist über nicht entscheidungserhebliche Tatsachen Beweis zu erheben?",
-      "antworten": [
-        "Nein",
-        "Ja, wenn sie streitig sind",
-        "Ja, wenn eine Partei Beweis angeboten hat",
-        "Nur im Strengbeweis"
-      ],
-      "erklaerung": "Über nicht entscheidungserhebliche Tatsachen wird kein Beweis erhoben; die Beweisaufnahme ist überflüssig.\n\nDie Ablehnung eines entsprechenden Beweisantrags fällt in die Fallgruppe der überflüssigen Beweiserhebung.",
       "creator": null,
       "ts": "2026-09-28T11:02:50.395Z"
     },
@@ -366,12 +370,18 @@
       "id": "zivilgericht-0028",
       "gebiet": "zivilgericht",
       "prio": "hoch",
-      "frage": "In welchen Fällen ist Bestreiten nicht wirksam, sodass keine Beweisaufnahme erfolgt?",
+      "frage": "Welches Bestreiten ist nicht wirksam, sodass keine Beweisaufnahme erfolgt?",
+      "typ": "begriffe",
+      "reihenfolge": false,
       "antworten": [
-        "Pauschal trotz zumutbarer Substantiierung, unzulässig mit Nichtwissen, verspätet",
-        "Nur bei verspätetem Bestreiten; pauschales Bestreiten genügt stets",
-        "Bei jedem Bestreiten mit Nichtwissen, unabhängig von der Zulässigkeit",
-        "Nur wenn das Bestreiten nicht schriftsätzlich angekündigt wurde"
+        "Pauschal trotz zumutbarer Substantiierung",
+        "Unzulässig mit Nichtwissen",
+        "Verspätet"
+      ],
+      "falsche": [
+        "Qualifiziert mit Gegendarstellung",
+        "Zulässig mit Nichtwissen",
+        "Einfach bei pauschalem Gegenvortrag"
       ],
       "erklaerung": "Eine Beweisaufnahme ist überflüssig bei nicht wirksam bestrittenen Tatsachen. Pauschales Bestreiten ist unzureichend, wenn dem Beklagten nach der Sachlage ein substantiiertes Bestreiten möglich und zumutbar wäre.\n\nUnwirksam ist ferner das unzulässige Bestreiten mit Nichtwissen sowie das verspätete Bestreiten.",
       "creator": null,
@@ -419,21 +429,6 @@
         "Antrag auf Ortstermin ohne Angabe der Beweistatsache"
       ],
       "erklaerung": "Das Beweisangebot erfordert die Angabe des Gegenstands, der in Augenschein genommen werden soll, und die Mitteilung der zu beweisenden Tatsache (§ 371 ZPO); ggf. Antrag auf Frist zur Herbeischaffung.\n\nMöglich ist auch eine Anordnung durch das Gericht nach § 144 Abs. 1 ZPO aus freiem Ermessen.",
-      "creator": null,
-      "ts": "2026-09-28T11:02:50.395Z"
-    },
-    {
-      "id": "zivilgericht-0032",
-      "gebiet": "zivilgericht",
-      "prio": "niedrig",
-      "frage": "Was ist ein Beweisantritt?",
-      "antworten": [
-        "Anführen eines Beweismittels für eine bestimmte Behauptung",
-        "Gerichtliche Anordnung der Beweisaufnahme durch Beschluss",
-        "Jedes substantiierte Bestreiten einer gegnerischen Tatsache",
-        "Antrag auf Erlass eines förmlichen Beweisbeschlusses"
-      ],
-      "erklaerung": "Beweisantritt ist das Anführen eines Beweismittels für eine bestimmte Behauptung.",
       "creator": null,
       "ts": "2026-09-28T11:02:50.395Z"
     },
@@ -502,11 +497,17 @@
       "gebiet": "zivilgericht",
       "prio": "normal",
       "frage": "Was enthält ein förmlicher Beweisbeschluss (§ 359 ZPO)?",
+      "typ": "begriffe",
+      "reihenfolge": false,
       "antworten": [
-        "Beweistatsachen, Beweismittel, Partei, die sich darauf beruft",
-        "Beweistatsachen, vorläufige Beweiswürdigung, Beweislast",
-        "Beweismittel, Beweistermin und Höhe des Kostenvorschusses",
-        "Beweisthema, Beweislastverteilung, Rechtsmittelbelehrung"
+        "Streitige Beweistatsachen",
+        "Beweismittel mit Namen",
+        "Partei, die sich darauf beruft"
+      ],
+      "falsche": [
+        "Beweislastverteilung",
+        "Vorläufige Beweiswürdigung",
+        "Rechtsmittelbelehrung"
       ],
       "erklaerung": "Der Beweisbeschluss enthält nach § 359 ZPO: 1. die Bezeichnung der streitigen Tatsachen, über die Beweis zu erheben ist; 2. die Bezeichnung der Beweismittel unter Benennung der zu vernehmenden Zeugen und Sachverständigen oder der zu vernehmenden Partei; 3. die Bezeichnung der Partei, die sich auf das Beweismittel berufen hat.",
       "creator": null,
@@ -562,11 +563,17 @@
       "gebiet": "zivilgericht",
       "prio": "hoch",
       "frage": "Wie ist die Beweiswürdigung zu gliedern?",
+      "typ": "begriffe",
+      "reihenfolge": true,
       "antworten": [
-        "Inhalt/Ergiebigkeit, Überzeugungskraft, bei Zeugen Glaubwürdigkeit",
-        "Glaubwürdigkeit, Beweisinhalt, Beweislastentscheidung",
-        "Zulässigkeit des Beweismittels, Glaubwürdigkeit, Ergebnis",
-        "Beweisthema, Beweislast, Beweisergebnis, Beweiskosten"
+        "Beweisinhalt und -ergiebigkeit",
+        "Überzeugungskraft",
+        "Glaubwürdigkeit (nur Zeugen)"
+      ],
+      "falsche": [
+        "Beweislast",
+        "Zulässigkeit des Beweismittels",
+        "Beweisantritt"
       ],
       "erklaerung": "1. Beweisinhalt und Beweisergiebigkeit: Wiedergabe der für die Würdigung wesentlichen Aspekte (nicht zu lang); Frage, ob die streitige Tatsache durch das Beweismittel bestätigt wird.\n\n2. Überzeugungskraft des Beweismittels (bei Zeugen: Glaubhaftigkeit). 3. Nur bei Zeugen: Glaubwürdigkeit.",
       "creator": null,
@@ -576,12 +583,19 @@
       "id": "zivilgericht-0042",
       "gebiet": "zivilgericht",
       "prio": "normal",
-      "frage": "Welche „besonderen Beweisverfahren“ erfordern nach § 358 ZPO einen formellen Beweisbeschluss?",
+      "frage": "Welche besonderen Beweisverfahren erfordern nach § 358 ZPO einen förmlichen Beweisbeschluss?",
+      "typ": "begriffe",
+      "reihenfolge": false,
       "antworten": [
-        "Schriftl. SV-Gutachten, § 372a, schriftl. Zeugenaussage, Rechtshilfe",
-        "Jede Zeugen- und Sachverständigenvernehmung im Termin",
-        "Augenschein, Urkundenbeweis und Parteianhörung nach § 141",
-        "Mündliches SV-Gutachten, Augenschein und Zeugen im Termin"
+        "Schriftliches SV-Gutachten",
+        "Untersuchung nach § 372a ZPO",
+        "Schriftliche Zeugenaussage",
+        "Beweisaufnahme im Rechtshilfeweg"
+      ],
+      "falsche": [
+        "Mündliches SV-Gutachten im Termin",
+        "Augenschein im Termin",
+        "Parteianhörung"
       ],
       "erklaerung": "Besondere Beweisverfahren i. S. d. § 358 ZPO sind: (1) schriftliches Sachverständigengutachten, (2) Untersuchung nach § 372a ZPO, (3) schriftliche Zeugenaussage nach § 377 Abs. 3 ZPO, (4) Beweisaufnahme im Rechtshilfeweg.",
       "creator": null,
@@ -590,13 +604,20 @@
     {
       "id": "zivilgericht-0043",
       "gebiet": "zivilgericht",
-      "prio": "hoch",
-      "frage": "Wann muss ein formeller Beweisbeschluss (§ 359 ZPO) ergehen?",
+      "prio": "normal",
+      "frage": "In welchen Fällen muss ein förmlicher Beweisbeschluss ergehen?",
+      "typ": "begriffe",
+      "reihenfolge": false,
       "antworten": [
-        "Parteivernehmung, Vorlage durch Gegner, Beweisaufnahme vor mV, schriftliches Gutachten",
-        "Parteianhörung, Zeugenvernehmung im Termin, Augenschein, Vorlage durch Beweisführer",
-        "Jede Zeugenvernehmung, jeder Augenschein und jedes im Termin erstattete Gutachten",
-        "Nur auf Parteiantrag; sonst genügt stets ein formloser Beschluss des Gerichts"
+        "Parteivernehmung",
+        "Vorlageanordnung gegen den Gegner",
+        "Beweisaufnahme vor der mV",
+        "Schriftliches SV-Gutachten"
+      ],
+      "falsche": [
+        "Zeugenvernehmung im Termin",
+        "Augenschein im Termin",
+        "Parteianhörung"
       ],
       "erklaerung": "Ein formeller Beweisbeschluss muss ergehen bei Parteivernehmung (§ 450 Abs. 1 S. 1 ZPO), Anordnung einer Urkundenvorlage durch den Gegner (§ 425 ZPO), vor der mündlichen Verhandlung durchzuführender Beweisaufnahme (§ 358a ZPO) und nach § 358 ZPO für besondere Beweisverfahren. Zentral: Über § 358 ZPO ist insbesondere das schriftliche Sachverständigengutachten erfasst; ferner die Untersuchung nach § 372a ZPO, die schriftliche Zeugenaussage (§ 377 Abs. 3 ZPO) und die Beweisaufnahme im Rechtshilfeweg.\n\nIn allen anderen Fällen genügt ein formloser Beschluss, dem die Beweiserhebung unmittelbar folgt; ein formeller Beweisbeschluss ist allerdings unschädlich.",
       "creator": null,
@@ -665,13 +686,19 @@
     {
       "id": "zivilgericht-0048",
       "gebiet": "zivilgericht",
-      "prio": "niedrig",
+      "prio": "normal",
       "frage": "In welchen Verfahren genügt u. a. Glaubhaftmachung?",
+      "typ": "begriffe",
+      "reihenfolge": false,
       "antworten": [
-        "Arrest, einstweilige Verfügung, Wiedereinsetzung",
-        "Urkundenprozess, Mahnverfahren, Stufenklage",
-        "Schmerzensgeldklage, Räumungsklage, Feststellungsklage",
-        "Versäumnisurteil, Anerkenntnis, Klagerücknahme"
+        "Arrest",
+        "Einstweilige Verfügung",
+        "Wiedereinsetzung"
+      ],
+      "falsche": [
+        "Urkundenprozess",
+        "Mahnverfahren",
+        "Versäumnisurteil"
       ],
       "erklaerung": "Beispiele für die Glaubhaftmachung sind Arrest und einstweilige Verfügung (§§ 920 Abs. 2, 936 ZPO) sowie die Wiedereinsetzung (§ 236 ZPO).",
       "creator": null,
@@ -704,21 +731,6 @@
         "Feststellung, dass der Zeuge vereidigt wurde"
       ],
       "erklaerung": "Die Glaubwürdigkeit knüpft an die Persönlichkeit des Zeugen an und ist nur bei Zeugen zu prüfen. In der Klausur reicht der Hinweis, dass keine Anhaltspunkte bestehen, die Glaubwürdigkeit des Zeugen zu bezweifeln.",
-      "creator": null,
-      "ts": "2026-09-28T11:02:50.395Z"
-    },
-    {
-      "id": "zivilgericht-0051",
-      "gebiet": "zivilgericht",
-      "prio": "normal",
-      "frage": "Wann ist der Hauptbeweis geführt?",
-      "antworten": [
-        "Wenn das Gericht von der Beweistatsache überzeugt ist",
-        "Wenn die Tatsache überwiegend wahrscheinlich ist",
-        "Wenn der Gegner keinen Gegenbeweis angetreten hat",
-        "Wenn jede Möglichkeit des Gegenteils ausgeschlossen ist"
-      ],
-      "erklaerung": "Der Hauptbeweis wird von der beweisbelasteten Partei angetreten. Er ist geführt, wenn das Gericht vom Vorliegen der zu beweisenden Tatsache überzeugt ist.",
       "creator": null,
       "ts": "2026-09-28T11:02:50.395Z"
     },
@@ -831,14 +843,14 @@
       "id": "zivilgericht-0059",
       "gebiet": "zivilgericht",
       "prio": "hoch",
-      "frage": "Unter welchen Voraussetzungen ist die Vernehmung des Gegners nach § 445 I ZPO zulässig?",
+      "frage": "Welche Voraussetzungen stellt § 445 Abs. 1 ZPO für die Vernehmung des Gegners auf?",
       "antworten": [
-        "Auf Antrag, subsidiär; nicht, wenn Gegenteil erwiesen",
-        "Von Amts wegen bei gewisser Wahrscheinlichkeit der Tatsache",
-        "Auf Antrag und nur mit Einverständnis des Gegners",
-        "Erst nach Erhebung aller angebotenen, zulässigen Beweise"
+        "Antrag der beweisbelasteten Partei; subsidiär; nicht bei erwiesenem Gegenteil",
+        "Antrag der beweisbelasteten Partei und Einverständnis des Gegners",
+        "Antrag einer Partei nach Erhebung aller angebotenen Beweise",
+        "Antrag einer Partei und überwiegende Wahrscheinlichkeit der Tatsache"
       ],
-      "erklaerung": "§ 445 Abs. 1 ZPO: Vernehmung des Gegners auf Antrag. Subsidiär: Die beweisbelastete Partei hat den Beweis mit anderen Beweismitteln nicht vollständig geführt oder andere Beweismittel nicht vorgebracht.\n\nNicht zulässig, wenn das Gericht das Gegenteil für erwiesen erachtet (§ 445 Abs. 2 ZPO).",
+      "erklaerung": "§ 445 Abs. 1 ZPO: Vernehmung des Gegners auf Antrag. Subsidiär: Die beweisbelastete Partei hat den Beweis mit anderen Beweismitteln nicht vollständig geführt oder andere Beweismittel nicht vorgebracht.\n\nNicht zulässig, wenn das Gericht das Gegenteil für erwiesen erachtet (§ 445 Abs. 2 ZPO).\n\nUnabhängig davon ist nach § 448 ZPO eine Vernehmung von Amts wegen möglich.",
       "creator": null,
       "ts": "2026-09-28T11:02:50.395Z"
     },
@@ -846,14 +858,14 @@
       "id": "zivilgericht-0060",
       "gebiet": "zivilgericht",
       "prio": "hoch",
-      "frage": "Unter welchen Voraussetzungen kann die beweispflichtige Partei selbst vernommen werden (§ 447 ZPO)?",
+      "frage": "Welche Voraussetzungen stellt § 447 ZPO für die Vernehmung der beweispflichtigen Partei auf Antrag auf?",
       "antworten": [
-        "Auf Antrag und nur mit Einverständnis des Gegners",
-        "Von Amts wegen bei gewisser Wahrscheinlichkeit",
-        "Auf Antrag, wenn andere Beweismittel fehlen",
-        "Nie, die eigene Vernehmung ist unzulässig"
+        "Antrag und Einverständnis des Gegners",
+        "Antrag und Fehlen anderer Beweismittel",
+        "Antrag und gewisse Wahrscheinlichkeit der Tatsache",
+        "Antrag und Vorliegen einer Beweisnot"
       ],
-      "erklaerung": "§ 447 ZPO erlaubt die Vernehmung der beweispflichtigen Partei auf Antrag, jedoch nur mit Einverständnis des jeweiligen Gegners.\n\nFehlt die Zustimmung, ist die Beweisaufnahme unzulässig und der Beweisantrag abzulehnen.",
+      "erklaerung": "§ 447 ZPO erlaubt die Vernehmung der beweispflichtigen Partei auf Antrag, jedoch nur mit Einverständnis des Gegners. Fehlt die Zustimmung, ist die Beweisaufnahme nach § 447 ZPO unzulässig und der Beweisantrag abzulehnen.\n\nDaneben kann das Gericht eine oder beide Parteien, also auch die beweispflichtige, nach § 448 ZPO von Amts wegen vernehmen, wenn nach Erhebung aller angebotenen Beweise eine gewisse Wahrscheinlichkeit für die Tatsache spricht.",
       "creator": null,
       "ts": "2026-09-28T11:02:50.395Z"
     },
@@ -905,7 +917,7 @@
     {
       "id": "zivilgericht-0064",
       "gebiet": "zivilgericht",
-      "prio": "normal",
+      "prio": "niedrig",
       "frage": "Ist für die Parteivernehmung ein Beweisbeschluss erforderlich, und an wen ist zu laden?",
       "antworten": [
         "Ja, zwingend; Ladung an die Partei persönlich",
@@ -920,7 +932,7 @@
     {
       "id": "zivilgericht-0065",
       "gebiet": "zivilgericht",
-      "prio": "normal",
+      "prio": "niedrig",
       "frage": "Wie ist die Partei vor ihrer Vernehmung zu ermahnen und (sinnvollerweise) zu belehren?",
       "antworten": [
         "Ermahnung zur Wahrheit; Belehrung über Strafbarkeit und Weigerungsfolgen",
@@ -965,7 +977,7 @@
     {
       "id": "zivilgericht-0068",
       "gebiet": "zivilgericht",
-      "prio": "normal",
+      "prio": "niedrig",
       "frage": "Ist die uneidliche Falschaussage einer Partei bei der Parteivernehmung nach § 153 StGB strafbar?",
       "antworten": [
         "Nein, nur (versuchter) Prozessbetrug",
@@ -1008,30 +1020,23 @@
       "ts": "2026-09-28T11:02:50.395Z"
     },
     {
-      "id": "zivilgericht-0071",
-      "gebiet": "zivilgericht",
-      "prio": "niedrig",
-      "frage": "Welchem Zweck dient die Parteivernehmung?",
-      "antworten": [
-        "Aufklärung vergangener Tatsachen oder Zustände",
-        "Ermittlung des Parteiwillens für einen Vergleich",
-        "Klärung von Rechtsfragen",
-        "Ergänzung des Sachvortrags"
-      ],
-      "erklaerung": "Die Parteivernehmung dient der Aufklärung vergangener Tatsachen oder Zustände.",
-      "creator": null,
-      "ts": "2026-09-28T11:02:50.395Z"
-    },
-    {
       "id": "zivilgericht-0072",
       "gebiet": "zivilgericht",
       "prio": "normal",
       "frage": "Auf welche Beweismittel ist der Strengbeweis beschränkt?",
+      "typ": "begriffe",
+      "reihenfolge": false,
       "antworten": [
-        "Zeugen, Sachverständige, Augenschein, Urkunden, Parteivernehmung",
-        "Zeugen, Sachverständige, Urkunden, Parteianhörung, eidesstattliche Versicherung",
-        "Zeugen, Sachverständige, Augenschein, Urkunden, amtliche Auskunft",
-        "Zeugen, Urkunden, Parteivernehmung, Parteianhörung, Augenschein"
+        "Zeugen",
+        "Sachverständige",
+        "Augenschein",
+        "Urkunden",
+        "Parteivernehmung"
+      ],
+      "falsche": [
+        "Parteianhörung",
+        "Eidesstattliche Versicherung",
+        "Schriftsatzvortrag"
       ],
       "erklaerung": "Der Strengbeweis ist die Beweiserhebung im förmlichen ZPO-Verfahren (Beweisanordnung, Beweiserhebung in mündlicher Verhandlung).\n\nEr ist auf die fünf Beweismittel der ZPO beschränkt: Zeugen, Sachverständige, Augenschein, Urkunde, Parteivernehmung. Die Parteianhörung (§ 141 ZPO) ist kein Beweismittel.",
       "creator": null,
@@ -1072,11 +1077,17 @@
       "gebiet": "zivilgericht",
       "prio": "normal",
       "frage": "Was ist bei der Überzeugungskraft eines Sachverständigengutachtens zu prüfen?",
+      "typ": "begriffe",
+      "reihenfolge": false,
       "antworten": [
-        "Anknüpfungstatsachen, Sachkunde, Schlüssigkeit der Folgerungen",
-        "Glaubwürdigkeit des SV und Motiv zur Falschaussage",
-        "Echtheit des Gutachtens und gesetzliche Beweisregeln",
-        "Keine besondere Würdigung, da das Gericht gebunden ist"
+        "Zutreffende Anknüpfungstatsachen",
+        "Gebotene Sachkunde",
+        "Schlüssige Folgerungen"
+      ],
+      "falsche": [
+        "Glaubwürdigkeit des SV",
+        "Echtheit des Gutachtens",
+        "Beeidigung"
       ],
       "erklaerung": "Beim Sachverständigen ist zu prüfen: zutreffende Anknüpfungstatsachen (vollständig, richtig), Bewertung mit der gebotenen Sachkunde (zu vermuten) sowie Schlüssigkeit, Nachvollziehbarkeit und Überzeugungskraft der Schlussfolgerungen.\n\nAllgemein: Plausibilität, Überzeugungskraft, Nachvollziehbarkeit.",
       "creator": null,
@@ -1087,11 +1098,18 @@
       "gebiet": "zivilgericht",
       "prio": "normal",
       "frage": "Was ist bei der Würdigung einer Urkunde zu prüfen?",
+      "typ": "begriffe",
+      "reihenfolge": false,
       "antworten": [
-        "Urkunde, Echtheit, gesetzliche Beweisregeln, § 286",
-        "Allein die freie Überzeugung nach § 286 ZPO",
-        "Glaubhaftigkeit des Inhalts, Glaubwürdigkeit des Ausstellers",
-        "Keine besondere Würdigung; Urkunden beweisen stets voll"
+        "Urkundenqualität",
+        "Echtheit",
+        "Gesetzliche Beweisregeln",
+        "Vermutung der Vollständigkeit"
+      ],
+      "falsche": [
+        "Glaubwürdigkeit des Ausstellers",
+        "Beeidigung",
+        "Aussagekonstanz"
       ],
       "erklaerung": "Bei der Urkunde ist zu prüfen, ob eine Urkunde vorliegt, ob sie echt ist und welche gesetzlichen Beweisregeln (§§ 415 ff. ZPO) eingreifen.\n\nZusätzlich: Vermutung der Vollständigkeit und Richtigkeit der Erklärung (§ 286 ZPO).",
       "creator": null,
@@ -1177,11 +1195,19 @@
       "gebiet": "zivilgericht",
       "prio": "niedrig",
       "frage": "In welchen Schritten wird eine Zeugenaussage gewürdigt?",
+      "typ": "begriffe",
+      "reihenfolge": true,
       "antworten": [
-        "Realitätskriterien, Ausprägung, Baseline, Bewertung, Vergleich",
-        "Glaubwürdigkeit, Glaubhaftigkeit, Beweislastentscheidung",
-        "Baseline, Realitätskriterien, Beeidigung, Bewertung",
-        "Vergleich widerstreitender Aussagen, dann Beweislast"
+        "Realitätskriterien prüfen",
+        "Ausprägung der Signale",
+        "Baseline herausarbeiten",
+        "Bewertung der Aussage",
+        "Vergleich widerstreitender Aussagen"
+      ],
+      "falsche": [
+        "Beeidigung",
+        "Beweislastentscheidung",
+        "Glaubwürdigkeitsgutachten"
       ],
       "erklaerung": "1. Überprüfung der Aussage anhand von Realitätskriterien (Realitätskennzeichen und Warnsignale); 2. Ausprägung der einzelnen Signale; 3. Herausarbeiten der Baseline der Aussage; 4. Bewertung der Aussage; 5. Vergleich der widerstreitenden Aussagen.\n\nVertiefung: Nack, JA 1993, 161–168.",
       "creator": null,
@@ -1190,7 +1216,7 @@
     {
       "id": "zivilgericht-0083",
       "gebiet": "zivilgericht",
-      "prio": "normal",
+      "prio": "niedrig",
       "frage": "Eine Partei beanstandet eine Frage an den Zeugen. Wer entscheidet wie?",
       "antworten": [
         "Gericht durch unanfechtbaren, zu verkündenden Beschluss",
@@ -1222,11 +1248,17 @@
       "gebiet": "zivilgericht",
       "prio": "normal",
       "frage": "Welche allgemeinen Merkmale sind Realitätskennzeichen?",
+      "typ": "begriffe",
+      "reihenfolge": false,
       "antworten": [
-        "Detailreichtum, Widerspruchsfreiheit, ungeordnete Erzählweise",
-        "Übertriebene Genauigkeit, übertriebene Bestimmtheit, Stereotypie",
-        "Verallgemeinerungen, klischeehafter Zeitungsstil, vermutete Handlungsmotive",
-        "Entrüstung, Vorwegverteidigung, Ausweichen"
+        "Detailreichtum",
+        "Widerspruchsfreiheit",
+        "Ungeordnete Erzählweise"
+      ],
+      "falsche": [
+        "Übertriebene Genauigkeit",
+        "Stereotypie",
+        "Lineare Erzählweise"
       ],
       "erklaerung": "Allgemeine Merkmale als Realitätskennzeichen sind Detailreichtum, Widerspruchsfreiheit und ungeordnete Erzählweise.",
       "creator": null,
@@ -1237,11 +1269,18 @@
       "gebiet": "zivilgericht",
       "prio": "normal",
       "frage": "In welche Gruppen lassen sich Realitätskennzeichen einteilen?",
+      "typ": "begriffe",
+      "reihenfolge": false,
       "antworten": [
-        "Allgemeine, spezielle, motivationsbezogene Merkmale; Wiederholung",
-        "Strukturbruch, inhaltliche Signale, Aussageverhalten",
-        "Wahrnehmung, Erinnerung, Wiedergabe, Aussagebereitschaft",
-        "Glaubhaftigkeit, Glaubwürdigkeit, innere Beweiskraft, Baseline"
+        "Allgemeine Merkmale",
+        "Spezielle Inhalte",
+        "Motivationsbezogene Inhalte",
+        "Wiederholung der Aussage"
+      ],
+      "falsche": [
+        "Strukturbruch",
+        "Aussageverhalten",
+        "Baseline"
       ],
       "erklaerung": "Bei der Würdigung ist die Aussage zunächst anhand von Realitätskriterien auf ihren Wahrheitsgehalt zu überprüfen. Realitätskennzeichen sind allgemeine Merkmale, spezielle Inhalte, motivationsbezogene Inhalte sowie bei Wiederholung der Aussage deren Erweiterung und Ergänzung.\n\nStrukturbruch, inhaltliche Warnsignale und Warnsignale im Aussageverhalten sind dagegen Warnsignale.\n\nWeitere positive Realkennzeichen (ÜE 6): sprunghafte, detailreiche Erzählung, typische Erinnerungslücken und später einfallende Erinnerungsfetzen, Schilderung eigener Emotionen und Zweifel, Selbstbelastung, unbewusste Reflexe (z. B. Griff ins Gesicht bei geschildertem Schlag), wörtliche Zitate und direkte Rede.",
       "creator": null,
@@ -1252,11 +1291,18 @@
       "gebiet": "zivilgericht",
       "prio": "normal",
       "frage": "Welche motivationsbezogenen Inhalte sind Realitätskennzeichen?",
+      "typ": "begriffe",
+      "reihenfolge": false,
       "antworten": [
-        "Eingeräumte Lücken, Selbstbelastung, spontane Verbesserungen",
-        "Übertriebene Bestimmtheit, Entrüstung, Vorwegverteidigung",
-        "Verweigerung, Zurückhaltung und Ausweichen bei Nachfragen",
-        "Stereotype Wiederholung, klischeehafte Formulierungen"
+        "Zugeben von Erinnerungslücken",
+        "Zugeben von Unsicherheiten",
+        "Selbstbelastung",
+        "Spontane Verbesserung"
+      ],
+      "falsche": [
+        "Entrüstung",
+        "Vorwegverteidigung",
+        "Übertriebene Bestimmtheit"
       ],
       "erklaerung": "Motivationsbezogene Realitätskennzeichen sind das Zugeben von Erinnerungslücken, das Zugeben von Unsicherheiten, Selbstbelastungen und spontane Verbesserungen.",
       "creator": null,
@@ -1267,11 +1313,18 @@
       "gebiet": "zivilgericht",
       "prio": "normal",
       "frage": "Welche speziellen Inhalte sind Realitätskennzeichen?",
+      "typ": "begriffe",
+      "reihenfolge": false,
       "antworten": [
-        "Raum-Zeit-Verknüpfung, Interaktionen, Nebendetails, Komplikationen",
-        "Verallgemeinerungen, Stereotypie, übertriebene Genauigkeit",
-        "Glatter, geordneter Handlungsablauf ohne Komplikationen",
-        "Vermutete Handlungsmotive, blasse klischeehafte Schilderung"
+        "Raum-zeitliche Verknüpfung",
+        "Interaktionen und Gespräche",
+        "Nebensächliche Details",
+        "Komplikationen"
+      ],
+      "falsche": [
+        "Verallgemeinerungen",
+        "Vermutete Handlungsmotive",
+        "Glatter Handlungsablauf"
       ],
       "erklaerung": "Spezielle Inhalte als Realitätskennzeichen sind raum-zeitliche Verknüpfungen, Interaktionsschilderungen oder Wiedergabe von Gesprächen, ungewöhnliche oder nebensächliche Details sowie Komplikationen.",
       "creator": null,
@@ -1281,7 +1334,7 @@
       "id": "zivilgericht-0089",
       "gebiet": "zivilgericht",
       "prio": "hoch",
-      "frage": "Wie unterscheiden sich Beweissicherung (§ 485 I ZPO) und selbständiges Beweisverfahren nach § 485 II ZPO?",
+      "frage": "Wie unterscheiden sich Beweissicherung (§ 485 I ZPO) und vorprozessuale Begutachtung (§ 485 II ZPO) im selbständigen Beweisverfahren?",
       "antworten": [
         "Abs. 1: Beweissicherung, auch im Prozess; Abs. 2: vorprozessual, nur SV-Gutachten",
         "Abs. 1: nur vor Anhängigkeit; Abs. 2: nur während eines anhängigen Rechtsstreits",
@@ -1312,11 +1365,18 @@
       "gebiet": "zivilgericht",
       "prio": "normal",
       "frage": "Was muss der Antrag im selbständigen Beweisverfahren enthalten (§ 487 ZPO)?",
+      "typ": "begriffe",
+      "reihenfolge": false,
       "antworten": [
-        "Gegner, Beweistatsachen, Beweismittel, Glaubhaftmachung der Zulässigkeit",
-        "Klageantrag, Streitwert, Anspruchsbegründung, Kostenvorschuss",
-        "Name des gewünschten Sachverständigen und Gutachtenauftrag",
-        "Beweistatsachen, Streitwert und Nachweis der Vorschusszahlung"
+        "Bezeichnung des Gegners",
+        "Beweistatsachen",
+        "Beweismittel",
+        "Glaubhaftmachung von Zulässigkeit und Zuständigkeit"
+      ],
+      "falsche": [
+        "Klageantrag",
+        "Streitwertangabe",
+        "Vorschussnachweis"
       ],
       "erklaerung": "Nach § 487 ZPO muss der Antrag enthalten: 1. die Bezeichnung des Gegners; 2. die Bezeichnung der Tatsachen, über die Beweis erhoben werden soll; 3. die Benennung der Zeugen oder die Bezeichnung der übrigen nach § 485 ZPO zulässigen Beweismittel; 4. die Glaubhaftmachung der Tatsachen, die die Zulässigkeit des selbständigen Beweisverfahrens und die Zuständigkeit des Gerichts begründen sollen.",
       "creator": null,
@@ -1371,7 +1431,7 @@
       "id": "zivilgericht-0095",
       "gebiet": "zivilgericht",
       "prio": "normal",
-      "frage": "Fehlt das rechtliche Interesse (§ 485 II ZPO), wenn der Antragsgegner erklärt, ohnehin nicht freiwillig zu zahlen?",
+      "frage": "Fehlt das rechtliche Interesse für eine vorprozessuale Begutachtung (§ 485 II ZPO), wenn der Antragsgegner erklärt, ohnehin nicht freiwillig zu zahlen?",
       "antworten": [
         "Nein, die Feststellung kann trotzdem einen Rechtsstreit vermeiden",
         "Ja, dann kann das Verfahren keinen Rechtsstreit mehr vermeiden",
@@ -1401,7 +1461,7 @@
       "id": "zivilgericht-0097",
       "gebiet": "zivilgericht",
       "prio": "normal",
-      "frage": "An welches Gericht ist ein Antrag nach § 485 II ZPO vor Anhängigkeit zu richten?",
+      "frage": "An welches Gericht ist ein Antrag auf schriftliche Begutachtung vor Anhängigkeit (selbständiges Beweisverfahren, § 485 II ZPO) zu richten?",
       "antworten": [
         "Das Gericht, das für die Hauptsache zuständig wäre",
         "Stets das Amtsgericht, unabhängig vom Streitwert",
@@ -1430,13 +1490,22 @@
     {
       "id": "zivilgericht-0099",
       "gebiet": "zivilgericht",
-      "prio": "hoch",
+      "prio": "normal",
       "frage": "Wann ist eine Frage an den Zeugen unzulässig?",
+      "typ": "begriffe",
+      "reihenfolge": false,
       "antworten": [
-        "Verboten, schon beantwortet, keine Wahrnehmung, sachfremd, suggestiv/ausforschend",
-        "Nur wenn sie ein Zeugnisverweigerungsrecht des Zeugen berührt",
-        "Wenn sie von der Partei statt vom Prozessbevollmächtigten stammt",
-        "Wenn sie die Glaubwürdigkeit oder Beziehungen zu den Parteien betrifft"
+        "Gesetzlich verboten",
+        "Bereits beantwortet",
+        "Nicht auf Wahrnehmung gerichtet",
+        "Ohne Sachzusammenhang",
+        "Suggestivfrage",
+        "Ausforschungsfrage"
+      ],
+      "falsche": [
+        "Frage zur Glaubwürdigkeit",
+        "Frage nach Beziehung zu den Parteien",
+        "Frage durch die Partei selbst"
       ],
       "erklaerung": "Eine Frage ist unzulässig, wenn das Gesetz sie (§ 383 Abs. 3 ZPO) oder ihre Beantwortung (§ 376 ZPO) verbietet, wenn sie bereits beantwortet ist, wenn sie nicht auf tatsächliche Wahrnehmungen gerichtet ist, wenn sie in keinem Zusammenhang mit dem Gegenstand des Rechtsstreits steht oder wenn es sich um Suggestiv- oder Ausforschungsfragen handelt.\n\nFragen zu Umständen, die die Glaubwürdigkeit betreffen, sind dagegen zulässig (§ 395 Abs. 2 S. 2 ZPO).",
       "creator": null,
@@ -1507,11 +1576,18 @@
       "gebiet": "zivilgericht",
       "prio": "normal",
       "frage": "Wie ist der Urkundsbeweis zu prüfen?",
+      "typ": "begriffe",
+      "reihenfolge": true,
       "antworten": [
-        "Urkunde? Aussteller? Echtheit? Umfang der Beweiskraft",
-        "Echtheit? Glaubhaftigkeit? Glaubwürdigkeit des Ausstellers?",
-        "Beweiskraft? Urkunde? Aussteller? Beweislast?",
-        "Urkunde? Beweiskraft nach § 286? Beweislast?"
+        "Urkundenqualität",
+        "Aussteller",
+        "Echtheit",
+        "Umfang der Beweiskraft"
+      ],
+      "falsche": [
+        "Glaubhaftigkeit des Inhalts",
+        "Beweislast",
+        "Vorlage im Original"
       ],
       "erklaerung": "Prüfung: 1. Handelt es sich um eine Urkunde? 2. Wer erscheint als Aussteller (Behörde oder Privatperson)? Ist die Echtheit bestritten, und wenn ja, ist sie bewiesen? 3. Umfang der Beweiskraft, grds. vom Gesetz fest vorgegeben.",
       "creator": null,
@@ -1552,11 +1628,17 @@
       "gebiet": "zivilgericht",
       "prio": "normal",
       "frage": "Welche Warnsignale im Aussageverhalten gibt es?",
+      "typ": "begriffe",
+      "reihenfolge": false,
       "antworten": [
-        "Übertriebene Bestimmtheit, Fluchtsymptom, verdächtige Verteidigung",
-        "Zugeben von Unsicherheiten, Selbstbelastungen, Korrekturen",
-        "Ungeordnete Erzählweise, Komplikationen, Nebendetails",
-        "Detailreichtum, Widerspruchsfreiheit, raum-zeitliche Bezüge"
+        "Übertriebene Bestimmtheit",
+        "Fluchtsymptom",
+        "Verdächtige Verteidigung"
+      ],
+      "falsche": [
+        "Selbstbelastung",
+        "Spontane Verbesserung",
+        "Ungeordnete Erzählweise"
       ],
       "erklaerung": "Warnsignale im Aussageverhalten sind übertriebene Bestimmtheit, das Fluchtsymptom (Ausweichen) und die verdächtige Verteidigung (Entrüstung, Vorwegverteidigung).\n\nWeitere negative Realkennzeichen (ÜE 6): abgesprochen wirkende Aussage (Übereinstimmung im Kern, Widersprüche am Rand), Abweichungen zwischen verschiedenen Vernehmungen, einstudierte, lineare Erzählweise, Bruch im Aussageverhalten, Selbstwiderspruch oder Widerspruch zum Vortrag der benennenden Partei, Beteuerung der Wahrheit, Entkräften des Gegenvortrags statt eigener Angaben, Gegenfragen, eigenes Interesse am Ausgang.",
       "creator": null,
@@ -1567,11 +1649,20 @@
       "gebiet": "zivilgericht",
       "prio": "normal",
       "frage": "Welche inhaltlichen Warnsignale gibt es bei Zeugenaussagen?",
+      "typ": "begriffe",
+      "reihenfolge": false,
       "antworten": [
-        "Vermutete Motive, Verallgemeinerungen, Stereotypie, Klischeestil",
-        "Detailreichtum, ungeordnete Erzählweise, Komplikationen",
-        "Eingeräumte Erinnerungslücken, spontane Verbesserungen",
-        "Raum-zeitliche Verknüpfung, Gesprächswiedergabe, Interaktion"
+        "Vermutete Handlungsmotive",
+        "Verallgemeinerungen",
+        "Stereotypie",
+        "Klischeehafter Zeitungsstil",
+        "Verweigerung und Zurückhaltung",
+        "Übertriebene Genauigkeit"
+      ],
+      "falsche": [
+        "Komplikationen",
+        "Detailreichtum",
+        "Übertriebene Bestimmtheit"
       ],
       "erklaerung": "Warnsignale sind der Strukturbruch, inhaltliche Warnsignale und Warnsignale im Aussageverhalten.\n\nInhaltliche Warnsignale: vermutete Handlungsmotive, Verallgemeinerungen, Stereotypie (ständige Wiederholung), klischeehafter Zeitungsstil (blasse Schilderung), Verweigerung und Zurückhaltung (Nichtreaktion), übertriebene Genauigkeit.",
       "creator": null,
@@ -1580,7 +1671,7 @@
     {
       "id": "zivilgericht-0109",
       "gebiet": "zivilgericht",
-      "prio": "hoch",
+      "prio": "normal",
       "frage": "Was gilt nach § 395 ZPO für Belehrung und Vernehmung zur Person?",
       "antworten": [
         "Erst Ermahnung/Hinweis auf Eid, dann Personalien; Ordnungsvorschrift",
@@ -1610,7 +1701,7 @@
     {
       "id": "zivilgericht-0111",
       "gebiet": "zivilgericht",
-      "prio": "normal",
+      "prio": "niedrig",
       "frage": "Der Zeuge verweigert die Aussage. Wie wird darüber entschieden?",
       "antworten": [
         "Im Zwischenstreit durch Zwischenurteil",
@@ -1685,13 +1776,21 @@
     {
       "id": "zivilgericht-0116",
       "gebiet": "zivilgericht",
-      "prio": "normal",
+      "prio": "niedrig",
       "frage": "In welcher Reihenfolge wird der Zeuge befragt?",
+      "typ": "begriffe",
+      "reihenfolge": true,
       "antworten": [
-        "Vorsitz, Richter, PB Beweisführer, PB Gegner, Beweisführer, Gegner",
-        "Beweisführer, Gegner, PB Beweisführer, PB Gegner, Vorsitz, Richter",
-        "PB Beweisführer, Vorsitz, PB Gegner, Richter, Beweisführer, Gegner",
-        "Vorsitz, Gegner, Beweisführer; Prozessbevollmächtigte fragen nicht"
+        "Vorsitzender",
+        "Beisitzende Richter",
+        "PB des Beweisführers",
+        "PB des Beweisgegners",
+        "Beweisführer",
+        "Beweisgegner"
+      ],
+      "falsche": [
+        "Sachverständiger",
+        "Urkundsbeamter"
       ],
       "erklaerung": "Reihenfolge: (1) Vorsitzende(r), (2) übrige Richter bei Kammer oder Senat (§ 396 Abs. 3 ZPO), (3) Prozessbevollmächtigter des Beweisführers, (4) Prozessbevollmächtigter des Beweisgegners, (5) Beweisführer, (6) Beweisgegner (§ 397 Abs. 2 ZPO).",
       "creator": null,
@@ -1745,7 +1844,7 @@
     {
       "id": "zivilgericht-0120",
       "gebiet": "zivilgericht",
-      "prio": "normal",
+      "prio": "niedrig",
       "frage": "Ein geladener Zeuge ist nicht erschienen. Was ist zu veranlassen?",
       "antworten": [
         "Ordnungsmittel prüfen; Nichterscheinen protokollieren",
@@ -1790,7 +1889,7 @@
     {
       "id": "zivilgericht-0123",
       "gebiet": "zivilgericht",
-      "prio": "normal",
+      "prio": "niedrig",
       "frage": "Muss eine Zeugenaussage protokolliert werden?",
       "antworten": [
         "Grundsätzlich ja, außer im Bagatellverfahren",
@@ -1820,7 +1919,7 @@
     {
       "id": "zivilgericht-0125",
       "gebiet": "zivilgericht",
-      "prio": "normal",
+      "prio": "niedrig",
       "frage": "Wie ist der Zeuge zur Sache zu vernehmen (§ 396 ZPO)?",
       "antworten": [
         "Zusammenhängender Bericht, dann nötigenfalls Nachfragen",
@@ -1835,13 +1934,25 @@
     {
       "id": "zivilgericht-0126",
       "gebiet": "zivilgericht",
-      "prio": "hoch",
-      "frage": "Wie läuft die Zeugenvernehmung ab?",
+      "prio": "normal",
+      "frage": "Wie läuft die Zeugenvernehmung ab? Wähle die Schritte in der richtigen Reihenfolge.",
+      "typ": "begriffe",
+      "reihenfolge": true,
       "antworten": [
-        "Erscheinen, Belehrung, Einzelvernehmung, Person, ZVR, Sache, Protokoll, Eid, Entlassung",
-        "Erscheinen, Person, Belehrung, Sache, ZVR, Eid, Protokoll, Genehmigung, Entlassung",
-        "Belehrung, Erscheinen, Sache, Person, Protokoll, Eid, ZVR, Genehmigung, Entlassung",
-        "Erscheinen, Person, Sache, Einzelvernehmung, ZVR, Protokoll, Eid, Entschädigung"
+        "Erscheinen",
+        "Belehrung",
+        "Einzelvernehmung",
+        "Vernehmung zur Person",
+        "ggf. ZVR-Belehrung",
+        "Vernehmung zur Sache",
+        "Protokoll und Genehmigung",
+        "ggf. Beeidigung",
+        "Entlassung"
+      ],
+      "falsche": [
+        "Voreid vor der Aussage",
+        "Anhörung nach § 141 ZPO",
+        "Schlussvorträge"
       ],
       "erklaerung": "1. Erscheinen (sonst Ordnungsmittel prüfen, § 380 ZPO; Protokoll § 160 I Nr. 4 ZPO); 2. Belehrung aller erschienenen Zeugen (§ 395 I ZPO); 3. andere Zeugen verlassen den Saal (Einzelvernehmung, § 394 I ZPO); 4. Vernehmung zur Person (§ 395 II ZPO); 5. ggf. Belehrung über Zeugnisverweigerungsrecht (§ 383 II ZPO); 6. Aussagebereitschaft (ggf. § 387 ZPO).\n\n7. Vernehmung zur Sache (§§ 396, 397 ZPO); 8. Protokollierung durch den Vorsitzenden (§ 160 III Nr. 4 ZPO); 9. Genehmigung durch den Zeugen (§ 162 ZPO); 10. ggf. Eidesbelehrung und Beeidigung (§§ 391 ff. ZPO); 11. Entschädigung und Entlassung (§ 401 ZPO).",
       "creator": null,
@@ -1850,7 +1961,7 @@
     {
       "id": "zivilgericht-0127",
       "gebiet": "zivilgericht",
-      "prio": "hoch",
+      "prio": "normal",
       "frage": "Wann besteht ein Zeugnisverweigerungsrecht wegen Verwandtschaft oder Schwägerschaft (§ 383 I Nr. 3 ZPO)?",
       "antworten": [
         "Gerade Linie stets; Seitenlinie verwandt bis 3., verschwägert bis 2. Grad",
@@ -1865,13 +1976,25 @@
     {
       "id": "zivilgericht-0128",
       "gebiet": "zivilgericht",
-      "prio": "normal",
-      "frage": "Wie läuft die mündliche Verhandlung ab?",
+      "prio": "niedrig",
+      "frage": "Wie läuft die mündliche Verhandlung ab? Wähle die Schritte in der richtigen Reihenfolge.",
+      "typ": "begriffe",
+      "reihenfolge": true,
       "antworten": [
-        "Aufruf, Anwesenheit, Eröffnung, Güteverhandlung, Anträge, Erörterung, Beweisaufnahme, Schluss, Verkündung",
-        "Aufruf, Anträge, Anwesenheit, Eröffnung, Beweisaufnahme, Güteverhandlung, Erörterung, Schluss, Verkündung",
-        "Aufruf, Eröffnung, Beweisaufnahme, Anträge, Güteverhandlung, Erörterung, Anwesenheit, Schluss, Verkündung",
-        "Eröffnung, Güteverhandlung, Beweisaufnahme, Anwesenheit, Anträge, Verkündung, Erörterung, Schluss"
+        "Aufruf der Sache",
+        "Feststellung der Anwesenden",
+        "Eröffnung",
+        "ggf. Güteverhandlung",
+        "Stellen der Anträge",
+        "Erörterung",
+        "Beweisaufnahme",
+        "Verhandlung über Beweisergebnis",
+        "Schluss",
+        "Verkündung"
+      ],
+      "falsche": [
+        "Verlesen der Klageschrift",
+        "Rechtsmittelbelehrung"
       ],
       "erklaerung": "Aufruf der Sache (§ 220 Abs. 1 ZPO); Feststellung der Anwesenden (§ 160 Abs. 1 Nr. 4 ZPO); Eröffnung und Leitung durch den Vorsitzenden (§ 136 Abs. 1 ZPO); ggf. Güteverhandlung mit Erörterung, Fragen und Anhörung (§ 278 Abs. 2 ZPO); Stellen der Anträge (§ 137 Abs. 1 ZPO); Klärung von Tatsachen- und Rechtsfragen (§§ 137 Abs. 2, 4, 141, 139 Abs. 1 ZPO).\n\nBeweisaufnahme (§§ 279 Abs. 2, 284 ZPO); erneute Erörterung, auch des Beweisergebnisses (§ 279 Abs. 3 ZPO); Verhandlung über das Beweisergebnis (§ 285 Abs. 1 ZPO); Schluss (§ 136 Abs. 4 ZPO); Verkündung am Schluss der Sitzung oder in einem sofort anzuberaumenden Verkündungstermin (§ 310 Abs. 1 ZPO).",
       "creator": null,
@@ -1882,11 +2005,18 @@
       "gebiet": "zivilgericht",
       "prio": "niedrig",
       "frage": "Was wird im Aktenauszug erfasst?",
+      "typ": "begriffe",
+      "reihenfolge": false,
       "antworten": [
-        "Aktuelle Anträge, Tatsachen (streitig/unstreitig), Beweisangebote, Prozessdaten",
-        "Alle Anträge, Rechtsansichten, Beweiswürdigung und Entscheidungsvorschlag",
-        "Unstreitiger Sachverhalt, Anspruchsgrundlagen, Einwendungen und Tenor",
-        "Klageschrift und Klageerwiderung in vollständiger wörtlicher Abschrift"
+        "Aktuelle Anträge",
+        "Tatsachenvortrag streitig/unstreitig",
+        "Beweisangebote",
+        "Prozessuale Daten"
+      ],
+      "falsche": [
+        "Rechtsansichten",
+        "Überholte Anträge",
+        "Beweiswürdigung"
       ],
       "erklaerung": "Zweck des Aktenauszugs ist, das Parteivorbringen aus der Akte herauszufiltern und zu ordnen, damit darauf ein Sachbericht/Tatbestand aufbauen kann. Erfasst werden aktuelle Anträge (überholte aussondern), der Tatsachenvortrag in Abgrenzung zu Rechtsansichten, getrennt nach streitig und unstreitig, Beweisangebote sowie prozessuale Daten und Ereignisse.\n\nBewährt hat sich eine Tabelle mit zwei Spalten (Kläger/Beklagter, jeweils mit Blattzahl), am besten nach ein- bis zweimaligem Durchlesen der Akte.",
       "creator": null,
@@ -1927,50 +2057,49 @@
       "gebiet": "zivilgericht",
       "prio": "normal",
       "frage": "Welche Arten des Bestreitens gibt es?",
+      "typ": "begriffe",
+      "reihenfolge": false,
       "antworten": [
-        "Einfaches, qualifiziertes, mit Nichtwissen",
-        "Ausdrückliches, konkludentes und stillschweigendes",
-        "Pauschales, substantiiertes und verspätetes",
-        "Vorläufiges, endgültiges und bedingtes"
+        "Einfaches Bestreiten",
+        "Qualifiziertes Bestreiten",
+        "Bestreiten mit Nichtwissen"
+      ],
+      "falsche": [
+        "Konkludentes Geständnis",
+        "Hilfsweises Bestreiten",
+        "Rügeloses Einlassen"
       ],
       "erklaerung": "Einfaches Bestreiten ist die bloße Verneinung („Nein“); qualifiziertes Bestreiten enthält eine Gegendarstellung („Nein, sondern …“); Bestreiten mit Nichtwissen richtet sich nach § 138 Abs. 4 ZPO.\n\nNichtbestreiten ist einfach (ausdrücklich, konkludent, Schweigen; ggf. § 138 Abs. 3 ZPO) oder qualifiziert als Geständnis (§ 288 ZPO, ggf. Widerruf nach § 290 ZPO).",
       "creator": null,
       "ts": "2026-09-28T14:29:02.481509Z"
     },
     {
-      "id": "zivilgericht-0133",
-      "gebiet": "zivilgericht",
-      "prio": "niedrig",
-      "frage": "Welche Aufgaben hat der Zivilrichter im Verfahren?",
-      "antworten": [
-        "Sachverhalt erfassen/würdigen, Entscheidungsreife, Rechtsgespräch, Urteil",
-        "Sachverhalt von Amts wegen ermitteln, Beweise erheben, Parteien beraten, Urteil",
-        "Anträge sachdienlich fassen, Beweislast verteilen, Vergleich protokollieren, Urteil",
-        "Schriftsätze prüfen, Zeugen laden, Streitwert festsetzen, Vergleich, Urteil"
-      ],
-      "erklaerung": "Der Zivilrichter erfasst den vorgetragenen Sachverhalt, würdigt ihn tatsächlich und rechtlich und führt die Entscheidungsreife durch gezielte Maßnahmen herbei (Hinweise, Auflagen, Beweiserhebung).\n\nIm Rechtsgespräch macht er die vorläufige Rechtsauffassung des Gerichts bekannt und gibt Gelegenheit zur Stellungnahme, gütlichen Beilegung, Klagerücknahme, zum Anerkenntnis oder Verzicht. Am Ende steht das Urteil.",
-      "creator": null,
-      "ts": "2026-09-28T14:29:02.481576Z"
-    },
-    {
       "id": "zivilgericht-0134",
       "gebiet": "zivilgericht",
       "prio": "normal",
-      "frage": "Welche Fragen stellt die Beweisstation?",
+      "frage": "Welche Fragen prüft die Beweisstation in welcher Reihenfolge?",
+      "typ": "begriffe",
+      "reihenfolge": true,
       "antworten": [
-        "Beweisbedürftigkeit, Beweislast, Beweisantritt",
-        "Schlüssigkeit, Erheblichkeit, Zulässigkeit",
-        "Glaubwürdigkeit, Wahrscheinlichkeit, Beweislast",
-        "Zulässigkeit der Beweismittel, Kosten, Beweistermin"
+        "Beweiserheblichkeit",
+        "Beweisbedürftigkeit",
+        "Beweislast",
+        "Beweisantritt",
+        "Beweis geführt"
       ],
-      "erklaerung": "Die Beweisstation fragt: Auf welche Tatsachen kommt es an (streitig, entscheidungserheblich, beweisbedürftig)? Welche Partei muss sie beweisen? Liegt ein Beweisantritt dieser Partei vor?\n\nFehlt ein Beweisantritt, ergeht Urteil zulasten der beweisbelasteten Partei. Ist eine Beweisaufnahme erforderlich, folgt ein Beweisbeschluss, danach Beweiserhebung und Beweiswürdigung.",
+      "falsche": [
+        "Schlüssigkeit",
+        "Glaubhaftmachung",
+        "Zulässigkeit"
+      ],
+      "erklaerung": "Die Beweisstation fragt: Welche Tatsachen sind beweiserheblich (Ergebnis der Beklagtenstation)? Welche sind beweisbedürftig (streitig, nicht offenkundig usw.)? Welche Partei ist beweisbelastet? Hat sie Beweis angeboten? Ist der Beweis geführt?\n\nFehlt ein Beweisantritt, ergeht Urteil zulasten der beweisbelasteten Partei. Ist eine Beweisaufnahme erforderlich, folgt ein Beweisbeschluss, danach Beweiserhebung und Beweiswürdigung.",
       "creator": null,
       "ts": "2026-09-28T14:29:02.481652Z"
     },
     {
       "id": "zivilgericht-0135",
       "gebiet": "zivilgericht",
-      "prio": "hoch",
+      "prio": "normal",
       "frage": "Wie wird schriftsätzlicher Vortrag regelmäßig zum Gegenstand der mündlichen Verhandlung?",
       "antworten": [
         "Durch Stellen der Anträge als konkludente Bezugnahme",
@@ -2103,36 +2232,6 @@
       "ts": "2026-09-28T14:29:02.482624Z"
     },
     {
-      "id": "zivilgericht-0144",
-      "gebiet": "zivilgericht",
-      "prio": "niedrig",
-      "frage": "Welche Prozessgrundrechte hat der Zivilrichter zu beachten?",
-      "antworten": [
-        "Gesetzlicher Richter, rechtliches Gehör, effektiver Rechtsschutz, faires Verfahren, Gleichbehandlung",
-        "Gesetzlicher Richter, rechtliches Gehör, Öffentlichkeit, Mündlichkeit, Unmittelbarkeit",
-        "Dispositionsmaxime, Beibringungsgrundsatz, Mündlichkeit, Unmittelbarkeit, Konzentration",
-        "Rechtliches Gehör, Amtsermittlung, Unschuldsvermutung, faires Verfahren, Willkürverbot"
-      ],
-      "erklaerung": "Prozessgrundrechte sind: gesetzlicher Richter (Art. 101 Abs. 1 S. 2 GG), rechtliches Gehör (Art. 103 Abs. 1 GG), effektiver Rechtsschutz und faires Verfahren (Art. 2 Abs. 1, 20 GG) sowie Gleichbehandlung und Willkürverbot (Art. 3 Abs. 1 GG).\n\nDaneben sind während des gesamten Verfahrens die Prozessgrundsätze zu beachten.",
-      "creator": null,
-      "ts": "2026-09-28T14:29:02.482682Z"
-    },
-    {
-      "id": "zivilgericht-0145",
-      "gebiet": "zivilgericht",
-      "prio": "niedrig",
-      "frage": "Welche Prozessgrundsätze (Prozessmaximen) prägen den Zivilprozess?",
-      "antworten": [
-        "Disposition, Beibringung, Mündlichkeit, Unmittelbarkeit, rechtliches Gehör, Öffentlichkeit, Konzentration",
-        "Disposition, Amtsermittlung, Schriftlichkeit, Mittelbarkeit, rechtliches Gehör, Öffentlichkeit",
-        "Offizialmaxime, Beibringung, Mündlichkeit, Legalitätsprinzip, Öffentlichkeit, Konzentration",
-        "Disposition, Beibringung, Schriftlichkeit, Nichtöffentlichkeit, Beschleunigung, Unmittelbarkeit"
-      ],
-      "erklaerung": "Prozessgrundsätze sind Dispositionsmaxime, Beibringungsgrundsatz, Mündlichkeitsgrundsatz, Unmittelbarkeitsgrundsatz, rechtliches Gehör, Öffentlichkeitsgrundsatz sowie Konzentrationsmaxime bzw. Beschleunigungsgrundsatz.",
-      "creator": null,
-      "ts": "2026-09-28T14:29:02.482771Z"
-    },
-    {
       "id": "zivilgericht-0146",
       "gebiet": "zivilgericht",
       "prio": "normal",
@@ -2151,31 +2250,24 @@
       "id": "zivilgericht-0147",
       "gebiet": "zivilgericht",
       "prio": "hoch",
-      "frage": "In welcher Reihenfolge werden die Stationen der Relation geprüft?",
+      "frage": "Welche Stationen der Relation werden in welcher Reihenfolge geprüft?",
+      "typ": "begriffe",
+      "reihenfolge": true,
       "antworten": [
-        "Prozess-, Kläger-, Beklagten-, Beweis-, Tenorierungsstation",
-        "Kläger-, Beklagten-, Prozess-, Beweis-, Tenorierungsstation",
-        "Prozess-, Beweis-, Kläger-, Beklagten-, Tenorierungsstation",
-        "Prozess-, Kläger-, Beweis-, Beklagten-, Tenorierungsstation"
+        "Prozessstation",
+        "Klägerstation",
+        "Beklagtenstation",
+        "Beweisstation",
+        "Tenorierungsstation"
+      ],
+      "falsche": [
+        "Vollstreckungsstation",
+        "Anspruchsstation",
+        "Rechtsmittelstation"
       ],
       "erklaerung": "Grundstruktur der Relation: A. Sachbericht; B. Entscheidungsvorschlag (kurz); C. Prozessstation (Zulässigkeit); D. Klägerstation (Schlüssigkeit); E. Beklagtenstation (Erheblichkeit); F. Beweisstation; G. Tenorierungsstation (Hauptsache, Kosten, Vollstreckbarkeit).\n\nDie Kläger-, Beklagten- und Beweisstation bilden den zweiseitigen Aufbau der Begründetheit.",
       "creator": null,
       "ts": "2026-09-28T14:29:02.482951Z"
-    },
-    {
-      "id": "zivilgericht-0148",
-      "gebiet": "zivilgericht",
-      "prio": "niedrig",
-      "frage": "Was ist das Grundprinzip der Relationstechnik?",
-      "antworten": [
-        "Bei abweichenden Parteiversionen je ein Rechtsgutachten für jede Version",
-        "Ein Gutachten auf Basis des wahrscheinlichsten Sachverhalts",
-        "Ein Gutachten allein auf Basis des unstreitigen Sachverhalts",
-        "Ein Gutachten nach Beweislast ohne Blick auf streitige Tatsachen"
-      ],
-      "erklaerung": "Anders als im Studium muss sich der Richter den Sachverhalt selbst erarbeiten. Dazu dient die Relationstechnik: eine Gutachtentechnik, die auf schnellstem und kostengünstigstem Weg auf Grundlage des geordneten Tatsachenstoffs zur Entscheidung führen soll.\n\nGrundprinzip: Bei zwei verschiedenen Sachverhalten (Klägerversion und abweichende Beklagtenversion) sind auch zwei Rechtsgutachten zu erstellen.",
-      "creator": null,
-      "ts": "2026-09-28T14:29:02.483012Z"
     },
     {
       "id": "zivilgericht-0149",
@@ -2226,12 +2318,18 @@
       "id": "zivilgericht-0152",
       "gebiet": "zivilgericht",
       "prio": "normal",
-      "frage": "Wann ist Parteivorbringen unstreitig?",
+      "frage": "Wodurch wird Parteivorbringen unstreitig?",
+      "typ": "begriffe",
+      "reihenfolge": false,
       "antworten": [
-        "Bei übereinstimmender Schilderung, Geständnis, Nichtbestreiten",
-        "Nur bei einem ausdrücklichen und unwiderrufenen Geständnis",
-        "Wenn es durch eine vorgelegte Urkunde eindeutig belegt ist",
-        "Auch wenn der Gegner es zulässig mit Nichtwissen bestreitet"
+        "Übereinstimmende Schilderung",
+        "Geständnis",
+        "Nichtbestreiten"
+      ],
+      "falsche": [
+        "Urkundlicher Beleg",
+        "Bestreiten mit Nichtwissen",
+        "Beweisangebot des Gegners"
       ],
       "erklaerung": "Unstreitig ist Vorbringen, wenn die Parteien einen Geschehensablauf übereinstimmend schildern, der Gegner mit erkennbarem Willen ausdrücklich oder konkludent gesteht und nicht widerruft oder den Vortrag nicht bestreitet (§ 138 Abs. 3 ZPO).\n\nStreitig ist es, wenn der Gegner es ausdrücklich oder konkludent bestreitet.",
       "creator": null,
@@ -2256,12 +2354,21 @@
       "id": "zivilgericht-0154",
       "gebiet": "zivilgericht",
       "prio": "hoch",
-      "frage": "Wie ist der Tatbestand aufgebaut?",
+      "frage": "Wie ist der Tatbestand aufgebaut? Wähle die Teile in der richtigen Reihenfolge.",
+      "typ": "begriffe",
+      "reihenfolge": true,
       "antworten": [
-        "Einleitung, Unstreitiges, str. Kl., Anträge, str. Bekl., Prozessgeschichte",
-        "Einleitung, Anträge, Unstreitiges, str. Kl., str. Bekl., Prozessgeschichte",
-        "Einleitung, Unstreitiges, Anträge, str. Kl., str. Bekl., Prozessgeschichte",
-        "Einleitung, str. Kl., str. Bekl., Unstreitiges, Anträge, Prozessgeschichte"
+        "Einleitungssatz",
+        "Unstreitiges",
+        "Streitiger Klägervortrag",
+        "Anträge",
+        "Streitiger Beklagtenvortrag",
+        "Prozessgeschichte"
+      ],
+      "falsche": [
+        "Rechtsansichten des Gerichts",
+        "Beweiswürdigung",
+        "Anspruchsgrundlagen"
       ],
       "erklaerung": "Aufbau: Einleitungssatz; unstreitiger Sachverhalt; streitiger Klägervortrag; (kleine antragsbezogene Prozessgeschichte); Anträge des Klägers und des Beklagten; streitiger Beklagtenvortrag; ggf. Replik/Duplik; Prozessgeschichte, soweit entscheidungserheblich, ggf. auch vor den Anträgen.\n\nDer Einleitungssatz ist grds. überflüssig, aber unschädlich (A/G, A. 43).",
       "creator": null,
@@ -2272,11 +2379,17 @@
       "gebiet": "zivilgericht",
       "prio": "niedrig",
       "frage": "In welcher Reihenfolge wird der streitige Beklagtenvortrag dargestellt?",
+      "typ": "begriffe",
+      "reihenfolge": true,
       "antworten": [
-        "Streitige Tatsachen, dann rechtshindernde, rechtsvernichtende, rechtshemmende Einwendungen",
-        "Rechtshemmende, rechtsvernichtende, rechtshindernde Einwendungen, dann streitige Tatsachen",
-        "Rechtsvernichtende Einwendungen, streitige Tatsachen, dann rechtshindernde Einwendungen",
-        "Streitige Tatsachen, dann rechtshemmende, rechtshindernde, rechtsvernichtende Einwendungen"
+        "Streitige Tatsachen",
+        "Rechtshindernde Einwendungen",
+        "Rechtsvernichtende Einwendungen",
+        "Rechtshemmende Einreden"
+      ],
+      "falsche": [
+        "Unstreitige Tatsachen",
+        "Rechtsansichten"
       ],
       "erklaerung": "Der streitige Beklagtenvortrag wird im Konjunktiv (indirekte Rede) dargestellt; das Bestreiten folgt aus dem Zusammenhang (§ 138 Abs. 3 Hs. 2 ZPO).\n\nReihenfolge: streitige Tatsachen, danach Einreden und Einwendungen in der Reihenfolge rechtshindernd, rechtsvernichtend, rechtshemmend.",
       "creator": null,
@@ -2302,11 +2415,18 @@
       "gebiet": "zivilgericht",
       "prio": "niedrig",
       "frage": "Welche Grundsätze gelten für die Formulierung des Tatbestands?",
+      "typ": "begriffe",
+      "reihenfolge": false,
       "antworten": [
-        "Chronologisch, im Aktiv, ohne Wiederholungen, mit Bezugnahme auf Anlagen",
-        "Nach Wichtigkeit geordnet, im Passiv, mit vollständigen Anlagenzitaten",
-        "Nach Schriftsätzen geordnet, mit Wiederholung der Angaben des Rubrums",
-        "Nach Anspruchsgrundlagen geordnet, mit Hinweis auf Rechtsansichten"
+        "Chronologisch",
+        "Im Aktiv",
+        "Ohne Wiederholungen",
+        "Bezugnahme auf Anlagen"
+      ],
+      "falsche": [
+        "Im Passiv",
+        "Vollständige Anlagenzitate",
+        "Wiederholung des Rubrums"
       ],
       "erklaerung": "§ 313 Abs. 2 ZPO ist wörtlich zu nehmen: nur das Wesentliche, keine abgeschriebenen Schriftsätze. Im Tatbestand steht i. d. R. nichts, was für die Entscheidungsgründe nicht benötigt wird, und umgekehrt. Der unstreitige Teil ist chronologisch darzustellen; auf Anlagen ist Bezug zu nehmen, bei genauem Wortlaut (z. B. AGB) ggf. auszugsweise wörtlich zu zitieren.\n\nKeine Wiederholungen, auch nicht von Rubrumsangaben; kein Passiv und möglichst kein „man“, damit klar ist, wer gehandelt hat (besser: „Der Beklagte bot an, die Heizungsanlage zu liefern. Der Kläger erklärte sich einverstanden.“).",
       "creator": null,
@@ -2388,21 +2508,6 @@
       "ts": "2026-09-28T14:29:02.484112Z"
     },
     {
-      "id": "zivilgericht-0163",
-      "gebiet": "zivilgericht",
-      "prio": "niedrig",
-      "frage": "Welche Arten von Überlegungen stellt eine Partei vor Klageerhebung an?",
-      "antworten": [
-        "Persönliche, rechtliche und wirtschaftliche",
-        "Rechtliche, taktische und prozessökonomische",
-        "Materiellrechtliche, prozessuale und verfassungsrechtliche",
-        "Wirtschaftliche, steuerliche und versicherungsrechtliche"
-      ],
-      "erklaerung": "Persönlich: Prozessdauer, psychische Belastung, Auswirkungen auf die Beziehung zum Gegner. Rechtlich: Erfolgsaussichten (Zulässigkeit, Schlüssigkeit, Beweislage).\n\nWirtschaftlich: Kostenrisiko, Rechtsschutzversicherung, Prozesskostenhilfe, Vollstreckungsaussicht (Liquidität des Gegners).",
-      "creator": null,
-      "ts": "2026-09-28T14:29:02.484196Z"
-    },
-    {
       "id": "zivilgericht-0164",
       "gebiet": "zivilgericht",
       "prio": "niedrig",
@@ -2450,13 +2555,20 @@
     {
       "id": "zivilgericht-0167",
       "gebiet": "zivilgericht",
-      "prio": "normal",
+      "prio": "niedrig",
       "frage": "Welche formellen Mindestanforderungen muss die Klageschrift für die Zustellung erfüllen?",
+      "typ": "begriffe",
+      "reihenfolge": false,
       "antworten": [
-        "Zustellfähige Anschrift, Unterschrift, erkennbarer Klagewille, deutsche Sprache",
-        "Zustellfähige Anschrift, Unterschrift, Schlüssigkeit, Streitwertangabe",
-        "Zuständiges Gericht, Prozessvollmacht, Beweisangebote, Unterschrift",
-        "Deutsche Sprache, Sachurteilsvoraussetzungen, Anlagen, Unterschrift"
+        "Zustellfähige Anschrift",
+        "Unterschrift",
+        "Erkennbarer Klagewille",
+        "Deutsche Sprache"
+      ],
+      "falsche": [
+        "Schlüssigkeit",
+        "Zuständigkeit",
+        "Beweisangebote"
       ],
       "erklaerung": "Die Mindestvoraussetzungen ergeben sich vor allem aus § 253 Abs. 2 ZPO: zustellungsfähige Anschrift des Beklagten, Unterschrift oder elektronisches Dokument i. S. v. § 130a ZPO, Feststellbarkeit, ob überhaupt Klage erhoben werden soll, Klageschrift in deutscher Sprache; ggf. Anwaltszwang nach § 78 ZPO.\n\nNicht erforderlich sind das Vorliegen der Sachurteilsvoraussetzungen und die Schlüssigkeit der Klage.",
       "creator": null,
@@ -2465,7 +2577,7 @@
     {
       "id": "zivilgericht-0168",
       "gebiet": "zivilgericht",
-      "prio": "hoch",
+      "prio": "normal",
       "frage": "Was darf und muss das Gericht prüfen, bevor es die Zustellung der Klage veranlasst?",
       "antworten": [
         "Vorschusszahlung und formelle Mindestanforderungen",
@@ -2481,7 +2593,7 @@
       "id": "zivilgericht-0169",
       "gebiet": "zivilgericht",
       "prio": "hoch",
-      "frage": "Wann ist eine Abwendungsbefugnis nach § 711 ZPO auszusprechen?",
+      "frage": "Wann ist dem Schuldner eine Abwendungsbefugnis (Abwendung durch Sicherheitsleistung, § 711 ZPO) einzuräumen?",
       "antworten": [
         "Von Amts wegen in den Fällen des § 708 Nr. 4–11 ZPO",
         "Von Amts wegen in allen Fällen des § 708 ZPO",
@@ -2513,7 +2625,7 @@
       "prio": "normal",
       "frage": "Nach welchem Maßstab werden Prozessanträge ausgelegt?",
       "antworten": [
-        "Nach dem vernünftigen, interessengerechten Willen des Klägers",
+        "Nach dem vernünftigen, interessengerechten Willen der Partei",
         "Streng nach dem Wortlaut, ohne Rückgriff auf den Willen",
         "Nach der für den Beklagten günstigsten Lesart des Antrags",
         "Nach der Rechtsauffassung des Gerichts, ohne Antragsbindung"
@@ -2706,12 +2818,20 @@
       "id": "zivilgericht-0184",
       "gebiet": "zivilgericht",
       "prio": "normal",
-      "frage": "Wann ist die Sach- und Rechtslage in Kläger- und Beklagtenstation nicht voll zu prüfen?",
+      "frage": "Welche Bindungen schränken die Prüfung der Sach- und Rechtslage in Kläger- und Beklagtenstation ein?",
+      "typ": "begriffe",
+      "reihenfolge": false,
       "antworten": [
-        "Bei Anerkenntnis, Verzicht, Nebeninterventionswirkung oder bindender Verweisung",
-        "Bei Streitwertfestsetzung, PKH-Bewilligung oder gerichtlichem Hinweis",
-        "Bei Klageänderung, Parteiwechsel oder einfacher Streitgenossenschaft",
-        "Bei Vergleichsvorschlag des Gerichts oder gescheiterter Mediation"
+        "Anerkenntnis",
+        "Verzicht",
+        "Nebeninterventionswirkung",
+        "Bindende Verweisung",
+        "Vorbehaltsurteil"
+      ],
+      "falsche": [
+        "Streitwertbeschluss",
+        "PKH-Bewilligung",
+        "Richterlicher Hinweis"
       ],
       "erklaerung": "Neben § 308 ZPO kann das Gericht an frühere Entscheidungen oder Parteierklärungen gebunden sein: Nebeninterventionswirkung (§ 68 ZPO, ggf. i. V. m. § 74 ZPO), Vorbehaltsurteil (§ 302 ZPO), vorgegebener Entscheidungsumfang im Berufungsverfahren, Anerkenntnis (§ 307 ZPO), Verzicht (§ 306 ZPO), Rechtswegzuweisung (§ 17a GVG) und Verweisung (§ 281 ZPO), diese auch bei schwerwiegendem Rechtsfehler (§§ 17a Abs. 2 S. 3 GVG, 281 Abs. 2 S. 4 ZPO).\n\nFolge: Beim betreffenden Merkmal ist nur der Umfang der Bindung aufzuzeigen („Davon ist unabhängig von der Rechtslage auszugehen, wenn der Beklagte die Klageforderung wirksam anerkannt hat.“).",
       "creator": null,
@@ -2931,14 +3051,14 @@
       "id": "zivilgericht-0199",
       "gebiet": "zivilgericht",
       "prio": "normal",
-      "frage": "Wie lässt sich eine Replik vermeiden?",
+      "frage": "Wie lässt sich eine Replikstation vermeiden?",
       "antworten": [
         "Einrede bereits in der Klägerstation anhand des Unstreitigen erörtern",
         "Einrede erst in der Beweisstation zusammen mit dem Beweis prüfen",
         "Klägervortrag zur Einrede im Tatbestand nicht aufnehmen",
         "Einrede erst in der Tenorierungsstation berücksichtigen"
       ],
-      "erklaerung": "Replik und Duplik sollten möglichst vermieden werden, indem die Einrede bereits in der Klägerstation erörtert wird.\n\nBeispiel: Darlehensrückzahlung (§ 488 BGB); Beklagter rechnet auf; Kläger beruft sich auf Erlass der Gegenforderung; Beklagter ficht den Erlass an. In der Klägerstation wird die Aufrechnung geprüft (Erklärung und Gegenforderung unstreitig, Erlass unstreitig, nach Klägervortrag kein Anfechtungsgrund, also Erlass wirksam, Anspruch nicht erloschen). In der Beklagtenstation ist dann nur noch der streitige Anfechtungsgrund auf Erheblichkeit zu prüfen.",
+      "erklaerung": "Replik- und Duplikstation sollten möglichst vermieden werden, indem die Einrede bereits in der Klägerstation erörtert wird.\n\nBeispiel: Darlehensrückzahlung (§ 488 BGB); Beklagter rechnet auf; Kläger beruft sich auf Erlass der Gegenforderung; Beklagter ficht den Erlass an. In der Klägerstation wird die Aufrechnung geprüft (Erklärung und Gegenforderung unstreitig, Erlass unstreitig, nach Klägervortrag kein Anfechtungsgrund, also Erlass wirksam, Anspruch nicht erloschen). In der Beklagtenstation ist dann nur noch der streitige Anfechtungsgrund auf Erheblichkeit zu prüfen.",
       "creator": null,
       "ts": "2026-09-28T15:24:06.694807Z"
     },
@@ -2961,12 +3081,19 @@
       "id": "zivilgericht-0201",
       "gebiet": "zivilgericht",
       "prio": "normal",
-      "frage": "Wie wird eine betragsmäßige Sicherheit nach § 709 S. 1 ZPO bemessen?",
+      "frage": "Woraus setzt sich eine betragsmäßige Sicherheit (§ 709 S. 1 ZPO) zusammen?",
+      "typ": "begriffe",
+      "reihenfolge": false,
       "antworten": [
-        "Hauptforderung, Nebenforderungen, Kostenerstattung, zuzüglich 10–20 %",
-        "Hauptforderung zuzüglich pauschal 10 % ohne Nebenforderungen",
-        "Hauptforderung abzüglich bereits gezahlter Beträge und Kosten",
-        "Gebührenstreitwert zuzüglich der verauslagten Gerichtskosten"
+        "Hauptforderung",
+        "Nebenforderungen",
+        "Kostenerstattungsanspruch",
+        "Aufschlag von 10–20 %"
+      ],
+      "falsche": [
+        "Gerichtskostenvorschuss",
+        "Bereits gezahlte Beträge",
+        "Streitwert der Widerklage"
       ],
       "erklaerung": "Höhe und Art bestimmt das Gericht nach freiem Ermessen (§ 108 Abs. 1 ZPO; Bankbürgschaft oder Hinterlegung), bemessen am möglichen Vollstreckungsschaden des Schuldners (§ 717 Abs. 2 ZPO).\n\nAusgangspunkt ist die Hauptforderung; hinzu kommen alle vorläufig vollstreckbaren Nebenforderungen (Zinsen, vorgerichtliche Kosten) und der Kostenerstattungsanspruch; der Betrag wird für weitere Vollstreckungsschäden um 10–20 % erhöht.",
       "creator": null,
@@ -3021,12 +3148,19 @@
       "id": "zivilgericht-0205",
       "gebiet": "zivilgericht",
       "prio": "normal",
-      "frage": "Aus welchen Teilen besteht der Urteilstenor?",
+      "frage": "Aus welchen Teilen besteht der Urteilstenor (in Reihenfolge)?",
+      "typ": "begriffe",
+      "reihenfolge": true,
       "antworten": [
-        "Hauptsache, Kosten, vorläufige Vollstreckbarkeit, Berufungszulassung",
-        "Hauptsache, Streitwertfestsetzung, Kosten, Rechtsmittelbelehrung",
-        "Rubrum, Hauptsache, Kostenentscheidung, vorläufige Vollstreckbarkeit",
-        "Hauptsache, Kosten, Sicherheitsleistung, Rechtskraftvermerk"
+        "Hauptsache",
+        "Kosten",
+        "Vorläufige Vollstreckbarkeit",
+        "ggf. Berufungszulassung"
+      ],
+      "falsche": [
+        "Streitwert",
+        "Rechtsmittelbelehrung",
+        "Rubrum"
       ],
       "erklaerung": "Tenor: 1. Hauptsache und Nebenforderungen (z. B. Zinsen); 2. Kosten (§§ 91 ff. ZPO); 3. vorläufige Vollstreckbarkeit (§§ 708 ff. ZPO); 4. ggf. Berufungszulassung (§ 511 Abs. 4 ZPO), nur wenn die Beschwer 600 € nicht übersteigt.\n\nDer Tenor ist Grundlage der Zwangsvollstreckung, die in der Regel aus einer Ausfertigung ohne Tatbestand und Entscheidungsgründe erfolgt (§§ 317 Abs. 2 S. 2, 725, 754 ZPO); er bestimmt zudem die Rechtskraft (§ 322 Abs. 1 ZPO).",
       "creator": null,
@@ -3096,12 +3230,12 @@
       "id": "zivilgericht-0210",
       "gebiet": "zivilgericht",
       "prio": "hoch",
-      "frage": "Wann ist ein Urteil nach § 708 Nr. 11 ZPO ohne Sicherheitsleistung vorläufig vollstreckbar?",
+      "frage": "Bis zu welchen Wertgrenzen ist ein Urteil in vermögensrechtlichen Streitigkeiten ohne Sicherheitsleistung vorläufig vollstreckbar (§ 708 Nr. 11 ZPO)?",
       "antworten": [
         "Hauptsache bis 1.250 € oder nur Kosten bis 1.500 €",
-        "Bei allen Urteilen der Amtsgerichte ohne Wertgrenze",
-        "Bei Urteilen, gegen die nur Revision stattfindet",
-        "Bei jeder Klageabweisung, unabhängig von den Kosten"
+        "Hauptsache und Kosten jeweils bis 5.000 €",
+        "Hauptsache bis 10.000 €, Kosten ohne Grenze",
+        "Nur Kosten bis 2.500 €, Hauptsache nie"
       ],
       "erklaerung": "§ 708 Nr. 11 ZPO ist der wichtigste Fall der Vollstreckbarkeit ohne Sicherheitsleistung (mit Abwendungsbefugnis): vermögensrechtliche Streitigkeiten, wenn der Gegenstand der Verurteilung in der Hauptsache 1.250 € nicht übersteigt oder nur die Kostenentscheidung vollstreckbar ist und eine Vollstreckung von nicht mehr als 1.500 € ermöglicht.\n\nBeispiel Klageabweisung: Bei 5.000 € Streitwert liegen die erstattungsfähigen Anwaltskosten des Beklagten unter 1.500 € (§§ 708 Nr. 11, 711 ZPO), bei 9.000 € darüber (§ 709 ZPO). Faustregel: Die Grenze liegt bei ca. 7.500 € Streitwert.",
       "creator": null,
@@ -3157,11 +3291,18 @@
       "gebiet": "zivilgericht",
       "prio": "niedrig",
       "frage": "In welche Gruppen gliedern sich die Zulässigkeitsvoraussetzungen?",
+      "typ": "begriffe",
+      "reihenfolge": false,
       "antworten": [
-        "Partei-, gerichts-, klage-, streitgegenstandsbezogene; prozesshindernde Einreden",
-        "Allgemeine und besondere; jeweils nur auf Rüge zu prüfende Voraussetzungen",
-        "Sachurteils- und Prozesshandlungsvoraussetzungen; Rechtsschutzbedürfnis",
-        "Formelle und materielle Voraussetzungen; Schlüssigkeit als letzter Prüfungspunkt"
+        "Parteibezogene",
+        "Gerichtsbezogene",
+        "Klagebezogene",
+        "Streitgegenstandsbezogene",
+        "Prozesshindernde Einreden"
+      ],
+      "falsche": [
+        "Beweisbezogene",
+        "Anspruchsbezogene"
       ],
       "erklaerung": "Parteibezogen: Partei-, Prozess-, Prozessführungs-, Postulationsfähigkeit, ordnungsgemäße Vertretung. Gerichtsbezogen: deutsche Gerichtsbarkeit, internationale Zuständigkeit, Rechtsweg, sachliche, örtliche und funktionelle Zuständigkeit. Klagebezogen: ggf. außergerichtliches Güteverfahren, ordnungsgemäße Klageerhebung, Voraussetzungen besonderer Klagearten.\n\nStreitgegenstandsbezogen: keine entgegenstehende Rechtskraft, keine anderweitige Rechtshängigkeit, Rechtsschutzbedürfnis, Klagbarkeit. Prozesshindernde Einreden: Schiedsvereinbarung, mangelnde Prozesskostensicherheit, gewillkürte Einreden.",
       "creator": null,

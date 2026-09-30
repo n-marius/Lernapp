@@ -2,12 +2,18 @@
   "id": "zivilgericht-0005",
   "gebiet": "zivilgericht",
   "prio": "hoch",
-  "frage": "Welche drei Fallgruppen der Ablehnung von Beweisanträgen gibt es?",
+  "typ": "begriffe",
+  "reihenfolge": false,
+  "frage": "Welche Fallgruppen der Ablehnung von Beweisanträgen gibt es?",
   "antworten": [
-    "Nicht ordnungsgemäßer Antrag, Unzulässigkeit, Überflüssigkeit",
-    "Verspätung, Verschleppungsabsicht, Unerreichbarkeit",
-    "Unzulässigkeit, Unbegründetheit, Unwirtschaftlichkeit",
-    "Fehlende Substantiierung, fehlender Vorschuss, Verspätung"
+    "Nicht ordnungsgemäßer Beweisantrag",
+    "Unzulässige Beweisaufnahme",
+    "Überflüssige Beweiserhebung"
+  ],
+  "falsche": [
+    "Verschleppungsabsicht",
+    "Unerreichbarkeit",
+    "Fehlender Kostenvorschuss"
   ],
   "erklaerung": "Die Rechtsprechung hat in Anlehnung an § 244 Abs. 3 StPO (heute S. 2 und 3) drei Fallgruppen entwickelt: (1) nicht ordnungsgemäßer Beweisantrag der beweisbelasteten Partei, (2) unzulässige Beweisaufnahme, (3) überflüssige Beweiserhebung.",
   "ts": "2026-09-28T11:02:50.395Z"

@@ -2,12 +2,21 @@
   "id": "zivilgericht-0108",
   "gebiet": "zivilgericht",
   "prio": "normal",
+  "typ": "begriffe",
+  "reihenfolge": false,
   "frage": "Welche inhaltlichen Warnsignale gibt es bei Zeugenaussagen?",
   "antworten": [
-    "Vermutete Motive, Verallgemeinerungen, Stereotypie, Klischeestil",
-    "Detailreichtum, ungeordnete Erzählweise, Komplikationen",
-    "Eingeräumte Erinnerungslücken, spontane Verbesserungen",
-    "Raum-zeitliche Verknüpfung, Gesprächswiedergabe, Interaktion"
+    "Vermutete Handlungsmotive",
+    "Verallgemeinerungen",
+    "Stereotypie",
+    "Klischeehafter Zeitungsstil",
+    "Verweigerung und Zurückhaltung",
+    "Übertriebene Genauigkeit"
+  ],
+  "falsche": [
+    "Komplikationen",
+    "Detailreichtum",
+    "Übertriebene Bestimmtheit"
   ],
   "erklaerung": "Warnsignale sind der Strukturbruch, inhaltliche Warnsignale und Warnsignale im Aussageverhalten.\n\nInhaltliche Warnsignale: vermutete Handlungsmotive, Verallgemeinerungen, Stereotypie (ständige Wiederholung), klischeehafter Zeitungsstil (blasse Schilderung), Verweigerung und Zurückhaltung (Nichtreaktion), übertriebene Genauigkeit.",
   "ts": "2026-09-28T11:02:50.395Z"

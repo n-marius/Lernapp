@@ -1,7 +1,7 @@
 {
   "id": "zivilgericht-0127",
   "gebiet": "zivilgericht",
-  "prio": "hoch",
+  "prio": "normal",
   "frage": "Wann besteht ein Zeugnisverweigerungsrecht wegen Verwandtschaft oder Schwägerschaft (§ 383 I Nr. 3 ZPO)?",
   "antworten": [
     "Gerade Linie stets; Seitenlinie verwandt bis 3., verschwägert bis 2. Grad",

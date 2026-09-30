@@ -9,6 +9,6 @@
     "Nein, nur Beweisaufnahmen vor der mündlichen Verhandlung",
     "Ja, stets durch formellen Beweisbeschluss"
   ],
-  "erklaerung": "Jede Beweisaufnahme setzt eine entsprechende, zumindest stillschweigende gerichtliche Anordnung voraus.\n\nOhne mündliche Verhandlung: Verfügung nach § 273 ZPO (Ladung) oder Beweisbeschluss nach § 358a ZPO. Auf Grund oder in mündlicher Verhandlung: Beweisbeschluss nach §§ 358, 329 Abs. 1 S. 1 ZPO.",
+  "erklaerung": "Jede Beweisaufnahme setzt eine entsprechende, zumindest stillschweigende gerichtliche Anordnung voraus.\n\nVor der mündlichen Verhandlung: Verfügung nach § 273 ZPO (Ladung) oder Beweisbeschluss nach § 358a ZPO. Auf Grund oder in mündlicher Verhandlung: Beweisbeschluss nach §§ 358, 329 Abs. 1 S. 1 ZPO.",
   "ts": "2026-09-28T11:02:50.395Z"
 }

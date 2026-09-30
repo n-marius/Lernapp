@@ -2,12 +2,19 @@
   "id": "zivilgericht-0042",
   "gebiet": "zivilgericht",
   "prio": "normal",
-  "frage": "Welche „besonderen Beweisverfahren“ erfordern nach § 358 ZPO einen formellen Beweisbeschluss?",
+  "typ": "begriffe",
+  "reihenfolge": false,
+  "frage": "Welche besonderen Beweisverfahren erfordern nach § 358 ZPO einen förmlichen Beweisbeschluss?",
   "antworten": [
-    "Schriftl. SV-Gutachten, § 372a, schriftl. Zeugenaussage, Rechtshilfe",
-    "Jede Zeugen- und Sachverständigenvernehmung im Termin",
-    "Augenschein, Urkundenbeweis und Parteianhörung nach § 141",
-    "Mündliches SV-Gutachten, Augenschein und Zeugen im Termin"
+    "Schriftliches SV-Gutachten",
+    "Untersuchung nach § 372a ZPO",
+    "Schriftliche Zeugenaussage",
+    "Beweisaufnahme im Rechtshilfeweg"
+  ],
+  "falsche": [
+    "Mündliches SV-Gutachten im Termin",
+    "Augenschein im Termin",
+    "Parteianhörung"
   ],
   "erklaerung": "Besondere Beweisverfahren i. S. d. § 358 ZPO sind: (1) schriftliches Sachverständigengutachten, (2) Untersuchung nach § 372a ZPO, (3) schriftliche Zeugenaussage nach § 377 Abs. 3 ZPO, (4) Beweisaufnahme im Rechtshilfeweg.",
   "ts": "2026-09-28T11:02:50.395Z"

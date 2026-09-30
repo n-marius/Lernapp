@@ -2,12 +2,20 @@
   "id": "zivilgericht-0082",
   "gebiet": "zivilgericht",
   "prio": "niedrig",
+  "typ": "begriffe",
+  "reihenfolge": true,
   "frage": "In welchen Schritten wird eine Zeugenaussage gewürdigt?",
   "antworten": [
-    "Realitätskriterien, Ausprägung, Baseline, Bewertung, Vergleich",
-    "Glaubwürdigkeit, Glaubhaftigkeit, Beweislastentscheidung",
-    "Baseline, Realitätskriterien, Beeidigung, Bewertung",
-    "Vergleich widerstreitender Aussagen, dann Beweislast"
+    "Realitätskriterien prüfen",
+    "Ausprägung der Signale",
+    "Baseline herausarbeiten",
+    "Bewertung der Aussage",
+    "Vergleich widerstreitender Aussagen"
+  ],
+  "falsche": [
+    "Beeidigung",
+    "Beweislastentscheidung",
+    "Glaubwürdigkeitsgutachten"
   ],
   "erklaerung": "1. Überprüfung der Aussage anhand von Realitätskriterien (Realitätskennzeichen und Warnsignale); 2. Ausprägung der einzelnen Signale; 3. Herausarbeiten der Baseline der Aussage; 4. Bewertung der Aussage; 5. Vergleich der widerstreitenden Aussagen.\n\nVertiefung: Nack, JA 1993, 161–168.",
   "ts": "2026-09-28T11:02:50.395Z"

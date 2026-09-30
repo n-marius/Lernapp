@@ -1,7 +1,7 @@
 {
   "id": "zivilgericht-0120",
   "gebiet": "zivilgericht",
-  "prio": "normal",
+  "prio": "niedrig",
   "frage": "Ein geladener Zeuge ist nicht erschienen. Was ist zu veranlassen?",
   "antworten": [
     "Ordnungsmittel prüfen; Nichterscheinen protokollieren",

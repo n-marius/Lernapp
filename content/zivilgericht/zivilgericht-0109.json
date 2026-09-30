@@ -1,7 +1,7 @@
 {
   "id": "zivilgericht-0109",
   "gebiet": "zivilgericht",
-  "prio": "hoch",
+  "prio": "normal",
   "frage": "Was gilt nach § 395 ZPO für Belehrung und Vernehmung zur Person?",
   "antworten": [
     "Erst Ermahnung/Hinweis auf Eid, dann Personalien; Ordnungsvorschrift",

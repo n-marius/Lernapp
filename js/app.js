@@ -584,6 +584,7 @@ async function showFlashcardMode(gebiet, stufe, allowedPrios = new Set(PRIOS)) {
     wrongBtn.disabled = true;
     richtigBtn.disabled = true;
     fastBtn.disabled = true;
+    fastBtn.style.display = levels.has(cardKey(card)) ? "none" : "";
     renderFlashcard(stage, card, {
       onRevealed: () => { wrongBtn.disabled = false; richtigBtn.disabled = false; fastBtn.disabled = false; },
       prio: effectivePrio(card, prios),
@@ -705,6 +706,7 @@ async function showQuizMode(gebiet, stufe, allowedPrios = new Set(PRIOS)) {
     nextBtn.disabled = false;
     nextBtn.textContent = "Auflösen";
     fastBtn.disabled = true;
+    fastBtn.style.display = levels.has(cardKey(card)) ? "none" : "";
     quizController = renderAnswerCard(stage, card, {
       onAnswered: (result) => {
         outcome = result;
@@ -845,6 +847,7 @@ async function showAutoMode(mode, gebiet, allowedPrios = new Set(PRIOS)) {
   }
 
   function armCard(card) {
+    fastBtn.style.display = curLevels?.has(cardKey(card)) ? "none" : "";
     if (mode === "cards") {
       wrongBtn.disabled = true;
       richtigBtn.disabled = true;

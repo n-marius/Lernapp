@@ -207,7 +207,9 @@ laufen lassen.
   kleiner, quadratischer Knopf in hellerem Blau (`--blue`) mit doppeltem
   Pfeil nach oben („Direkt in Stufe 4“). Er nimmt seinen Platz **nur von
   „Richtig“** – „Falsch“ behält die volle linke Hälfte, die Trennung zwischen
-  Falsch und Richtig bleibt in der Bildschirmmitte. Der Knopf ist für Karten,
+  Falsch und Richtig bleibt in der Bildschirmmitte. Der Knopf wird **nur bei
+  der ersten Bearbeitung einer Karte** angezeigt (kein Stufeneintrag des
+  Nutzers vorhanden), sonst ausgeblendet (alle Modi). Der Knopf ist für Karten,
   die man schon sicher kann – er wird
   gleichzeitig mit Falsch/Richtig aktiv und zählt wie eine richtige Antwort
   für Statistik und Motivations-Einblendungen, setzt die Stufe aber ohne

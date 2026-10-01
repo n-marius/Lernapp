@@ -653,8 +653,8 @@ von echten Ereignissen einmalig anzuzeigen.
   HTML-Vorlage im Browser gerendert und als PNG abfotografiert wurde (in
   dieser Umgebung stand kein Werkzeug wie Inkscape oder ImageMagick zur
   Verfügung, dafür aber ein Browser mit echter Schriftdarstellung). Wer ein
-  anderes Icon möchte, kann `icons/icon-*.png` jederzeit ersetzen (gleiche
-  Dateinamen und Größen: 180, 192, 512, 512 maskable).
+  anderes Icon möchte, kann `icons/icon-*-vN.png` jederzeit ersetzen (neue Versionsnummer im Namen, siehe unten; gleiche
+  Größen: 180, 192, 512, 512 maskable).
 
 ## 11. Ausgegraute Elemente (sichtbar, deaktiviert)
 
@@ -717,3 +717,5 @@ diesem Kalendertag bearbeiteten Karten des Nutzers über alle Modi hinweg,
 also derselbe Wert wie „heute“ in der Statistik (Abschnitt 6; Tagesgrenze
 wie dort nach UTC-Datum der Ereignisse). Da er aus den synchronisierten
 Ereignissen berechnet wird, läuft er geräteübergreifend mit.
+
+**Icon-Dateinamen:** Wird das App-Icon geändert, bekommen die Dateien einen neuen Namen (`icons/icon-*-v2.png`, beim nächsten Mal `-v3` …) und alle Verweise (`index.html`, `manifest.webmanifest`, `sw.js`) werden angepasst. iOS merkt sich Home-Bildschirm-Symbole nach Adresse; bei gleichem Dateinamen erscheint sonst weiter das alte Symbol.

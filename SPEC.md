@@ -648,7 +648,7 @@ von echten Ereignissen einmalig anzuzeigen.
 - `APP_VERSION` in `sw.js` bei jeder Änderung an App-Dateien erhöhen, sonst
   erhalten installierte Geräte kein Update. Neue Dateien in `SHELL_FILES`
   ergänzen.
-- **Icons:** Dunkelblauer Hintergrund (`--marius`, #2a4f8f) mit einer weißen
+- **Icons:** Blauer Verlaufshintergrund wie beim App-Icon der Ukr-App (radialer Verlauf #2a64c4 → #14469a → #0a2c66, oben ein leichter Glanz; Vorlage dort: `tools/icon/icon-vorlage.html`) mit einer weißen
   Karteikarte, darin das Paragraphenzeichen „§“ – erzeugt, indem eine kleine
   HTML-Vorlage im Browser gerendert und als PNG abfotografiert wurde (in
   dieser Umgebung stand kein Werkzeug wie Inkscape oder ImageMagick zur

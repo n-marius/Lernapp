@@ -20,3 +20,4 @@
 - Wird der INHALT einer bestehenden Karte geändert (frage/antworten/falsche/erklaerung/typ), immer zusätzlich `korrigiert` (ISO-Zeitstempel, jetzt) setzen bzw. erneuern und danach die Datei mit der Quelle Feld für Feld gegenprüfen (nicht nur `prio`/Metadaten!). Sonst überdeckt eine ältere In-App-Korrektur (`cardEdits`) die neue Fassung (SPEC.md Abschnitt 3.2). Reine `prio`-Änderungen brauchen das nicht.
 - Der Nutzer ist Jurist, kein Programmierer: Anleitungen Schritt für Schritt, ohne Fachkürzel, auf Deutsch.
 - Ablauf: Änderungen direkt auf dem aktuellen Branch committen, wenn nicht ausdrücklich ein Pull Request gewünscht ist.
+- App-Icon ändern: immer neue Dateinamen vergeben (`icons/icon-*-v2.png` → `-v3` …) und `index.html`, `manifest.webmanifest`, `sw.js` anpassen – sonst zeigt iOS weiter das alte Symbol (SPEC.md).

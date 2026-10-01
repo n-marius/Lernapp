@@ -1,7 +1,7 @@
 // App-Shell: cache-first, Cache-Name enthält die App-Version (bei jeder Änderung erhöhen!).
 // content/index.json: network-first mit Cache-Fallback; alle gelisteten Karten sind darin
 // bereits enthalten (kein separater Abruf je Karte nötig).
-const APP_VERSION = "1.15.1";
+const APP_VERSION = "1.15.2";
 const SHELL_CACHE = `karteikarten-shell-${APP_VERSION}`;
 const CONTENT_CACHE = "karteikarten-content";
 const INDEX_URL = "content/index.json";
@@ -21,8 +21,8 @@ const SHELL_FILES = [
   "js/tokens.js",
   "fonts/literata-latin-opsz-normal.woff2",
   "fonts/inter-latin-wght-normal.woff2",
-  "icons/icon-180.png",
-  "icons/icon-192.png",
+  "icons/icon-180-v2.png",
+  "icons/icon-192-v2.png",
 ];
 
 self.addEventListener("install", (event) => {

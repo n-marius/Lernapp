@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Wie lautet der Hauptsachetenor, wenn sich nach zulässigem Einspruch ergibt, dass die Klage in vollem Umfang begründet ist?",
+  "antworten": [
+    "„Das Versäumnisurteil vom … wird aufrechterhalten.“ (§ 343 S. 1 ZPO)",
+    "„Der Einspruch wird zurückgewiesen.“",
+    "„Der Beklagte wird verurteilt, an den Kläger … zu zahlen.“",
+    "„Der Einspruch wird verworfen; das Versäumnisurteil bleibt bestehen.“"
+  ],
+  "erklaerung": "Stimmt die aufgrund der neuen Verhandlung zu erlassende Entscheidung mit dem VU überein, wird ausgesprochen, dass diese Entscheidung aufrechtzuerhalten ist (§ 343 S. 1 ZPO). Kosten: „Die weiteren Kosten des Rechtsstreits trägt der Beklagte.“ Die AG-Unterlagen stützen dies teils auf § 91 Abs. 1 ZPO, teils auf § 97 ZPO analog.",
+  "id": "zivilgericht-0310",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

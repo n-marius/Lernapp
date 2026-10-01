@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Welcher Sorgfaltsmaßstab gilt beim fehlenden Verschulden für die Partei und für ihren Prozessbevollmächtigten?",
+  "antworten": [
+    "Partei: übliche Sorgfalt einer ordentlichen Prozesspartei; Anwalt: berufsbedingt hohe Sorgfalt",
+    "Partei: eigenübliche Sorgfalt (§ 277 BGB); Anwalt: übliche Sorgfalt einer Prozesspartei",
+    "Partei und Anwalt: übliche Sorgfalt einer ordentlichen Prozesspartei",
+    "Partei: übliche Sorgfalt einer ordentlichen Prozesspartei; Anwalt: nur Vorsatz und grobe Fahrlässigkeit"
+  ],
+  "erklaerung": "Die Partei muss unverschuldet an der rechtzeitigen Vornahme der Prozesshandlung gehindert gewesen sein; sie muss sich das Verschulden ihres gesetzlichen Vertreters (§ 51 Abs. 2 ZPO) und Prozessbevollmächtigten (§ 85 Abs. 2 ZPO) zurechnen lassen. Maßstab ist § 276 Abs. 2 BGB, abzustellen auf die üblicherweise zu erwartende Sorgfalt einer ordentlichen Prozesspartei; bei zurechenbarem Anwaltsverschulden auf die standesübliche, berufsbedingt hohe Sorgfalt eines ordentlichen Rechtsanwalts.",
+  "id": "zivilgericht-0368",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Was gilt für das Versäumnisurteil nach Einlegung eines zulässigen Einspruchs?",
+  "antworten": [
+    "Es bleibt bestehen und ohne Sicherheit vollstreckbar; nur die Rechtskraft ist gehemmt",
+    "Es wird wirkungslos, bis über den Einspruch entschieden ist",
+    "Es bleibt bestehen, ist aber nur noch gegen Sicherheit vollstreckbar",
+    "Es bleibt bestehen; die Vollstreckung ist kraft Gesetzes eingestellt"
+  ],
+  "erklaerung": "Bei zulässigem Einspruch wird unverzüglich ein Einspruchstermin anberaumt (§ 341a ZPO). Das VU bleibt zunächst bestehen, nur die Rechtskraft wird gehemmt (§ 705 S. 2 ZPO). Die Zwangsvollstreckung bleibt ohne Sicherheitsleistung möglich, solange nicht auf Antrag eine Entscheidung nach §§ 719, 707 ZPO ergeht. Der Prozess wird in die Lage zurückversetzt, in der er sich vor der Säumnis befand (§ 342 ZPO).",
+  "id": "zivilgericht-0315",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

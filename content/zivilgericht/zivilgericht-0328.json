@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Prüft das Gericht nach übereinstimmender Erledigungserklärung, ob tatsächlich Erledigung eingetreten ist?",
+  "antworten": [
+    "Nein, der Prozess ist beendet; es wird nur noch über die Kosten entschieden",
+    "Ja, im Rahmen der Begründetheit einer Feststellungsklage",
+    "Ja, aber nur auf Rüge des Beklagten",
+    "Nein, es entscheidet aber noch über die Hauptsache durch Prozessurteil"
+  ],
+  "erklaerung": "Die übereinstimmende Erledigungserklärung beendet den Prozess; die Rechtshängigkeit erlischt. Es findet keine Prüfung statt, ob tatsächlich Erledigung vorliegt, und keine Fortführung der Hauptsache, insbesondere keine Beweisaufnahme. Der Anspruch kann theoretisch erneut eingeklagt werden (BGH NJW 1991, 2280).\n\nBereits ergangene, nicht rechtskräftige Urteile werden wirkungslos (§ 269 Abs. 3 S. 1 ZPO analog). Über die Kosten wird nach § 91a ZPO durch Beschluss entschieden.",
+  "id": "zivilgericht-0328",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

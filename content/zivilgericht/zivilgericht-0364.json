@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Welche Art Versäumnisurteil ergeht, wenn nach VU gegen den Beklagten und dessen Einspruch der Kläger säumig ist, gegen ihn ein VU ergeht und nach seinem Einspruch der Beklagte erneut säumig ist?",
+  "antworten": [
+    "Ein erstes VU: VU gegen den Kläger aufgehoben, erstes VU aufrechterhalten",
+    "Ein zweites VU: Einspruch des Beklagten verworfen",
+    "Ein erstes VU: Beklagter erneut zur Zahlung verurteilt",
+    "Ein zweites VU: beide Versäumnisurteile aufrechterhalten"
+  ],
+  "erklaerung": "Am 01.12. ergeht gegen den Beklagten ein (erstes) VU, da der Termin auf den Einspruch des Klägers anberaumt war: „Das Versäumnisurteil vom 01.11. wird aufgehoben. Das Versäumnisurteil vom 01.10. wird aufrecht erhalten. Die weiteren Kosten des Rechtsstreits trägt der Beklagte mit Ausnahme der Kosten, die durch die Säumnis des Klägers entstanden sind und dieser trägt.“ (§ 97 ZPO analog; § 708 Nr. 2 ZPO).\n\nWird später streitig verhandelt und ist die Klage teilweise begründet, sind die Versäumnisurteile jeweils insoweit aufrechtzuerhalten bzw. aufzuheben; die Parteien tragen vorab die Kosten ihrer Säumnis.",
+  "id": "zivilgericht-0364",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

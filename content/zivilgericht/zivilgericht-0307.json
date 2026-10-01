@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Kommt es für den Hauptsachetenor nach zulässigem Einspruch darauf an, ob das Versäumnisurteil prozessual ordnungsgemäß ergangen ist?",
+  "antworten": [
+    "Nein, nur darauf, ob es inhaltlich richtig ist; die Gesetzmäßigkeit ist nur für § 344 ZPO relevant",
+    "Ja, ein unrechtmäßiges VU ist stets aufzuheben",
+    "Ja, ein unrechtmäßiges VU ist aufzuheben und neu zu tenorieren",
+    "Nein, und auch für die Kostenentscheidung ist die Gesetzmäßigkeit ohne Bedeutung"
+  ],
+  "erklaerung": "Es kommt nicht darauf an, ob das VU zulässig war und prozessual ordnungsgemäß ergangen ist (etwa trotz Verteidigungsanzeige im schriftlichen Vorverfahren), sondern nur darauf, ob das aufgrund der neuen Verhandlung zu erlassende Endurteil zum selben Ergebnis kommt (T/P, § 343 Rn. 2).\n\nDie Gesetzmäßigkeit („in gesetzlicher Weise ergangen“) ist nur für die Säumniskosten nach § 344 ZPO zu prüfen; wird das VU ohnehin ganz aufrechterhalten, trägt der Beklagte die Kosten ohnehin.",
+  "id": "zivilgericht-0307",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

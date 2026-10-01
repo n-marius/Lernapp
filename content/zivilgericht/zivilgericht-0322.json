@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Welche Wirkung hat eine einseitige Erledigungserklärung des Beklagten, wenn der Kläger seinen Antrag aufrechterhält?",
+  "antworten": [
+    "Keine, der Beklagte kann den Streitgegenstand nicht bestimmen",
+    "Sie wandelt die Klage in eine Feststellungsklage um",
+    "Sie ist als Anerkenntnis auszulegen",
+    "Sie führt zur Kostenentscheidung nach § 91a ZPO"
+  ],
+  "erklaerung": "Der Beklagte kann den Streitgegenstand nicht bestimmen; seine einseitige „Erledigungserklärung“ ist unbeachtlich. Eine Auslegung als (Feststellungs-)Widerklage kommt i. d. R. nicht in Betracht. Das Gericht entscheidet über den fortbestehenden Klageantrag.",
+  "id": "zivilgericht-0322",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

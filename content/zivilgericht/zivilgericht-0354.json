@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Welche Folgen hat die Versäumung einer materiellen Ausschlussfrist einerseits und einer prozessualen Frist andererseits?",
+  "antworten": [
+    "Materiell: Rechtsverlust; prozessual: § 296 Abs. 1 bzw. §§ 230, 231 ZPO",
+    "Materiell: § 296 Abs. 1 ZPO; prozessual: Rechtsverlust",
+    "Materiell: Rechtsverlust; prozessual: stets Versäumnisurteil",
+    "Materiell: Wiedereinsetzung; prozessual: § 296 Abs. 2 ZPO"
+  ],
+  "erklaerung": "Eine Partei kann Fristen, rechtzeitigen Vortrag und Termine versäumen. Bei materiellen Ausschlussfristen (z. B. Anfechtungsfrist, § 124 BGB) tritt Rechtsverlust ein. Prozessuale Fristen sind vom Gericht gesetzte (z. B. § 276 Abs. 1 S. 2 ZPO) oder gesetzliche Fristen, insbesondere Notfristen (z. B. § 269 Abs. 2 S. 4 ZPO); Folge ist § 296 Abs. 1 bzw. §§ 230, 231 ZPO.",
+  "id": "zivilgericht-0354",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

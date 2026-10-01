@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Wer trägt die Kosten bei einem Verzichtsurteil (§ 306 ZPO)?",
+  "antworten": [
+    "Stets der Kläger (§ 91 ZPO)",
+    "Der Beklagte, wenn er keinen Anlass zur Klage gegeben hat (§ 93 ZPO)",
+    "Die Parteien je zur Hälfte (§ 92 ZPO)",
+    "Das Gericht entscheidet nach billigem Ermessen (§ 91a ZPO)"
+  ],
+  "erklaerung": "Der Klageverzicht ist die Prozesserklärung, dass auf den Klageanspruch verzichtet wird. Grundsätzlich gelten die Ausführungen zum Anerkenntnis entsprechend; die Kosten trägt aber immer der Kläger nach § 91 ZPO.",
+  "id": "zivilgericht-0335",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

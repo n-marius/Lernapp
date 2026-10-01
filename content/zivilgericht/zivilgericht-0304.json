@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Was unterscheidet ein echtes von einem unechten Versäumnisurteil?",
+  "antworten": [
+    "Echtes VU ergeht gegen den Säumigen wegen seiner Säumnis; unechtes VU ist ein kontradiktorisches Urteil bei Säumnis",
+    "Echtes VU ergeht gegen den Beklagten; unechtes VU ergeht gegen den Kläger",
+    "Echtes VU ergeht nach mündlicher Verhandlung; unechtes VU im schriftlichen Vorverfahren",
+    "Echtes VU ist ein erstes VU; unechtes VU ist ein zweites VU"
+  ],
+  "erklaerung": "Ein echtes VU i. S. d. §§ 330 ff. ZPO ist nur ein solches, das gegen die säumige Partei und aufgrund ihrer Säumnis erlassen wird. Ein unechtes VU ist ein normales kontradiktorisches Urteil (Endurteil), das zwar bei, aber nicht wegen der Säumnis einer Partei ergeht, z. B. die Abweisung der unschlüssigen Klage bei Säumnis des Beklagten (zuvor Hinweis!).",
+  "id": "zivilgericht-0304",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

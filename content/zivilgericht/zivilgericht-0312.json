@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Wie ist der Hauptsachetenor zu fassen, wenn sich nach zulässigem Einspruch ergibt, dass die Klage nur teilweise begründet ist?",
+  "antworten": [
+    "VU aufrechterhalten, soweit begründet; im Übrigen aufgehoben und Klage abgewiesen",
+    "VU insgesamt aufheben und den Hauptsachetenor neu fassen",
+    "VU aufrechterhalten; im Übrigen Klage abweisen, ohne das VU teilweise aufzuheben",
+    "VU insgesamt aufheben, Beklagten zur Zahlung des begründeten Betrags verurteilen, im Übrigen Klage abweisen"
+  ],
+  "erklaerung": "„Das Versäumnisurteil vom … wird aufrechterhalten, soweit der Beklagte darin verurteilt wurde, an den Kläger … zu zahlen. Im Übrigen wird das Versäumnisurteil aufgehoben und die Klage abgewiesen.“ Wegen des Rangs etwaiger Vollstreckungsmaßnahmen und des Wortlauts von § 343 ZPO darf der Hauptsachetenor nicht ganz aufgehoben und völlig neu tenoriert werden; der Tenor zu Kosten und Vollstreckbarkeit wird allerdings nicht aufrechterhalten.\n\nKosten: „Der Beklagte trägt die Kosten seiner Säumnis. Von den übrigen Kosten des Rechtsstreits trägt der Kläger 1/3 und der Beklagte 2/3.“ Vollstreckbarkeit: § 709 S. 1–3 ZPO für den Kläger und §§ 708 Nr. 11, 711 bzw. § 709 ZPO für den Beklagten kombinieren.",
+  "id": "zivilgericht-0312",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Steht § 337 ZPO einem Versäumnisurteil entgegen, wenn der Anwalt unverschuldet im Stau steht, das Gericht aber trotz Mobiltelefons nicht informiert?",
+  "antworten": [
+    "Nein, er hätte das Gericht informieren müssen, um eine Vertagung zu ermöglichen",
+    "Ja, da er den Stau nicht zu vertreten hat",
+    "Ja, wenn er rechtzeitig losgefahren ist",
+    "Nein, Verkehrsstaus sind stets einzuplanen"
+  ],
+  "erklaerung": "§ 337 ZPO steht dem Erlass eines VU nicht entgegen (BGH NJW 2006, 448 f.): Der Anwalt hat den Stau zwar nicht zu vertreten und ist rechtzeitig losgefahren, er war aber gehalten, das Gericht über das Mobiltelefon zu informieren, um ihm die Möglichkeit zur Vertagung (§ 337 ZPO) zu geben.",
+  "id": "zivilgericht-0356",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

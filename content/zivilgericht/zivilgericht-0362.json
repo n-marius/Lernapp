@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Muss eine im Termin erklärte einseitige Teilerledigungserklärung des Klägers dem säumigen Beklagten vor Erlass des VU nach § 335 Abs. 1 Nr. 3 ZPO mitgeteilt werden?",
+  "antworten": [
+    "Nein, der Feststellungsantrag ist als Minus im ursprünglichen Antrag enthalten",
+    "Ja, es muss ein neuer Termin bestimmt werden",
+    "Ja, da eine Klageänderung vorliegt",
+    "Nein, da § 335 ZPO bei Erledigungserklärungen nicht gilt"
+  ],
+  "erklaerung": "Erklärt der Kläger im Termin, der säumige Beklagte habe die Hauptforderung gezahlt, ist dies als einseitige (Teil-)Erledigungserklärung auszulegen; der Kläger ändert seinen Antrag insoweit in einen Feststellungsantrag (§ 264 Nr. 2 ZPO). Dieser muss dem Beklagten nicht nach § 335 Abs. 1 Nr. 3 ZPO zugestellt werden, und es ist kein neuer Termin zu bestimmen, denn der geänderte Antrag steckt als Minus im ursprünglichen Antrag.\n\nTenor: Verurteilung zu den Zinsen bis zum Zahlungsdatum; „Im Übrigen wird festgestellt, dass der Rechtsstreit in der Hauptsache erledigt ist.“",
+  "id": "zivilgericht-0362",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

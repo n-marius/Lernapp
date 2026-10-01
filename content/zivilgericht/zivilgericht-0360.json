@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wie lautet der Hauptsachetenor, wenn nach einem VU gegen den Kläger im Einspruchstermin der Beklagte säumig und die Klage schlüssig ist?",
+  "antworten": [
+    "„Das VU vom … wird aufgehoben. Der Beklagte wird verurteilt, …“",
+    "„Der Einspruch wird verworfen. Der Beklagte wird verurteilt, …“",
+    "„Das VU vom … wird aufrechterhalten. Der Beklagte wird verurteilt, …“",
+    "„Der Beklagte wird verurteilt, …“ ohne Ausspruch zum VU"
+  ],
+  "erklaerung": "Tenor: „Das Versäumnisurteil vom 01.10. wird aufgehoben. Der Beklagte wird verurteilt, an den Kläger 1.000,00 € zu zahlen. Der Beklagte trägt die Kosten des Rechtsstreits mit Ausnahme der Kosten der Säumnis des Klägers, die der Kläger zu tragen hat. Das Urteil ist vorläufig vollstreckbar.“ (§§ 91 Abs. 1, 344, 708 Nr. 2 ZPO).",
+  "id": "zivilgericht-0360",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

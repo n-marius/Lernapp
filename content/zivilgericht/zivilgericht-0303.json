@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Ergehen Beschlüsse nach vorgeschriebener mündlicher Verhandlung „Im Namen des Volkes“?",
+  "antworten": [
+    "Nein, da § 329 ZPO nicht auf § 311 Abs. 1 ZPO verweist",
+    "Ja, da § 329 ZPO auf § 311 Abs. 1 ZPO verweist",
+    "Ja, wenn sie Grundlage eines Vollstreckungstitels sind",
+    "Nein, außer bei Beschlüssen nach § 91a ZPO"
+  ],
+  "erklaerung": "Beschlüsse werden als solche überschrieben. Sie ergehen auch nach vorgeschriebener mündlicher Verhandlung nicht „Im Namen des Volkes“, da § 311 Abs. 1 ZPO in § 329 ZPO nicht zitiert wird. Im Übrigen ist § 329 ZPO die einzige Regelung zu Form und Inhalt; in der Praxis werden die Grundregeln des § 313 ZPO entsprechend angewandt, soweit sie passen.",
+  "id": "zivilgericht-0303",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "In welcher Form kann die übereinstimmende Erledigungserklärung abgegeben werden, und besteht Anwaltszwang?",
+  "antworten": [
+    "In der mündlichen Verhandlung, im Schriftsatz oder zu Protokoll der Geschäftsstelle; kein Anwaltszwang",
+    "In der mündlichen Verhandlung oder im Schriftsatz; Anwaltszwang vor dem LG",
+    "Nur in der mündlichen Verhandlung; Anwaltszwang vor dem LG",
+    "Im Schriftsatz oder zu Protokoll der Geschäftsstelle; Anwaltszwang nur für den Kläger"
+  ],
+  "erklaerung": "Die Erklärung kann in der mündlichen Verhandlung, durch Schriftsatz oder zu Protokoll der Geschäftsstelle abgegeben werden (§ 91a Abs. 1 S. 1 ZPO); der Anwaltszwang ist aufgehoben (§ 91a Abs. 1 S. 1 i. V. m. § 78 Abs. 3 ZPO). Erforderlich sind Erledigungserklärung des Klägers und Anschlusserklärung des Beklagten (jeweils Prozesshandlungen).",
+  "id": "zivilgericht-0327",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

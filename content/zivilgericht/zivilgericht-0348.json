@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Ist die Kostenauferlegung nach § 344 ZPO auch dann auszusprechen, wenn ungewiss ist, ob Säumnis-Mehrkosten entstanden sind?",
+  "antworten": [
+    "Ja, ob Mehrkosten entstanden sind, wird erst im Kostenfestsetzungsverfahren ermittelt",
+    "Nein, nur wenn feststeht, dass Mehrkosten entstanden sind",
+    "Nein, da nach h. M. nie Mehrkosten entstehen",
+    "Ja, das Gericht muss die Mehrkosten zugleich beziffern"
+  ],
+  "erklaerung": "Die Kostenauferlegung nach § 344 ZPO ist immer nötig, auch wenn der Anfall von Mehrkosten ungewiss ist. Ob tatsächlich Mehrkosten infolge der Säumnis entstanden sind, ermittelt erst der Rechtspfleger im Kostenfestsetzungsverfahren nach § 104 ZPO (KG, Beschl. v. 15.08.2008, 1 W 298/08).\n\nHintergrund: Dem Anwalt des Klägers entsteht zunächst eine halbe Terminsgebühr (Nr. 3105 VV RVG), die sich bei einem folgenden Verhandlungstermin auf eine reguläre Terminsgebühr erhöht; nach h. M. (str.) entstehen dann keine Mehrkosten.",
+  "id": "zivilgericht-0348",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

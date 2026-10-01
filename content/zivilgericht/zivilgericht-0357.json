@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Ist der Beklagte vor dem LG säumig, wenn er persönlich, aber ohne Rechtsanwalt im Termin erscheint?",
+  "antworten": [
+    "Ja, wegen des Anwaltszwangs (§ 78 Abs. 1 ZPO)",
+    "Nein, da er persönlich erschienen ist",
+    "Nein, sofern er zur Sache verhandelt",
+    "Ja, aber nur, wenn er sich nicht zur Sache äußert"
+  ],
+  "erklaerung": "Vor dem LG besteht Anwaltszwang (§ 78 Abs. 1 ZPO). Die persönlich anwesende, aber nicht durch einen zugelassenen Anwalt vertretene Partei ist säumig; auf Antrag ergeht ein Versäumnisurteil.",
+  "id": "zivilgericht-0357",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

@@ -1,0 +1,21 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "typ": "begriffe",
+  "reihenfolge": false,
+  "frage": "In welchen Fällen enthält ein Beschluss keine (gesonderte) Kostenentscheidung?",
+  "antworten": [
+    "Gesetzlicher Ausschluss der Kostenerstattung",
+    "Unselbständiger Beschluss",
+    "Kosten sind ohnehin Gegenstand des Beschlusses"
+  ],
+  "falsche": [
+    "Beschluss nach mündlicher Verhandlung",
+    "Beschluss ohne Begründung",
+    "Kurzes Rubrum"
+  ],
+  "erklaerung": "Ob eine Kostenentscheidung erforderlich ist, hängt davon ab, ob durch die Entscheidung erstattungsfähige Kosten entstehen. Keine Kostenentscheidung, wenn nach dem Gesetz Kostenerstattung unterbleibt (z. B. Streitwertbeschwerde, § 68 Abs. 3 GKG); sie erfolgt nur in selbständigen Beschlussverfahren bei abschließender Entscheidung (nicht bei Hinweis- oder Beweisbeschluss); eine gesonderte Kostenentscheidung unterbleibt, wenn die Kosten ohnehin Gegenstand des Beschlusses sind (§ 91a, § 269 Abs. 4 ZPO).",
+  "id": "zivilgericht-0300",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

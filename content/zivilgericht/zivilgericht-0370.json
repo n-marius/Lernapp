@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Welche Kostenfolge hat eine Klagerücknahme, wenn der Beklagte nach Rechtshängigkeit gezahlt hat?",
+  "antworten": [
+    "Der Kläger trägt die Kosten (§ 269 Abs. 3 S. 2 ZPO), ggf. Verzugsschaden in neuem Prozess",
+    "Billiges Ermessen nach § 269 Abs. 3 S. 3 ZPO",
+    "Der Beklagte trägt die Kosten, da er den Anlass gegeben hat",
+    "Kostenaufhebung entsprechend § 98 ZPO"
+  ],
+  "erklaerung": "Zahlt der Beklagte nach Rechtshängigkeit, hat der Kläger mehrere Reaktionsmöglichkeiten: Antrag weiter stellen (Abweisung als unbegründet wegen § 362 Abs. 1 BGB auf seine Kosten), Klagerücknahme (Kosten auf Antrag nach § 269 Abs. 3 S. 2 ZPO; Kosten ggf. als Verzugsschaden, § 286 BGB, in einem zweiten Prozess), Klageverzicht (Verzichtsurteil, Kosten nach § 91 ZPO), Nichtauftreten (VU nach § 330 ZPO) oder Erledigungserklärung.\n\n§ 269 Abs. 3 S. 3 ZPO greift nur, wenn der Anlass vor Rechtshängigkeit weggefallen ist.",
+  "id": "zivilgericht-0370",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

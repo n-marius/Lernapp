@@ -1,0 +1,22 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "typ": "begriffe",
+  "reihenfolge": true,
+  "frage": "In welcher Reihenfolge werden die Voraussetzungen eines Versäumnisurteils gegen den Beklagten (§ 331 ZPO) geprüft?",
+  "antworten": [
+    "Antrag",
+    "Zulässigkeit der Klage",
+    "Schlüssigkeit der Klage",
+    "Säumnis oder Nichtverhandeln",
+    "Kein Erlasshindernis"
+  ],
+  "falsche": [
+    "Erheblichkeit",
+    "Glaubhaftmachung"
+  ],
+  "erklaerung": "Antrag: Prozessantrag auf Erlass eines VU (§ 331 Abs. 1 S. 1 ZPO) und Sachantrag (Antrag aus der Klage). Ist die Klage unzulässig, wird sie durch Prozessurteil abgewiesen. Schlüssigkeit (arg. § 331 Abs. 1 S. 1 ZPO, Geständnisfiktion) = Begründetheit ausschließlich auf Grundlage des Klägervortrags; fehlt sie, wird die Klage durch „normales“ Sachurteil abgewiesen (kein VU, § 331 Abs. 2 Hs. 2 ZPO).\n\nSäumnis: fehlende Verteidigungsanzeige im schriftlichen Vorverfahren (§ 331 Abs. 3 ZPO), Nichterscheinen, fehlende ordnungsgemäße Vertretung (§ 78 ZPO), Nichtverhandeln (§ 333 ZPO). Erlasshindernisse: §§ 335, 337 ZPO.",
+  "id": "zivilgericht-0358",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

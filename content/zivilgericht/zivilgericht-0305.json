@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Was ist bei der vorläufigen Vollstreckbarkeit eines Urteils zu beachten, das ein Versäumnisurteil nach § 709 ZPO aufrechterhält?",
+  "antworten": [
+    "Ausspruch, dass die Vollstreckung aus dem VU nur gegen Leistung der Sicherheit fortgesetzt werden darf (§ 709 S. 3 ZPO)",
+    "Ausspruch, dass das VU ohne Sicherheit vollstreckbar bleibt (§ 708 Nr. 2 ZPO)",
+    "Ausspruch einer Abwendungsbefugnis für den Beklagten (§ 711 ZPO)",
+    "Kein Ausspruch, da das VU bereits vorläufig vollstreckbar ist"
+  ],
+  "erklaerung": "Bei Aufrechterhaltung des VU ist § 709 S. 3 ZPO zu beachten: „Das Urteil ist gegen Sicherheitsleistung in Höhe von 110 % des jeweils zu vollstreckenden Betrages vorläufig vollstreckbar. Die Vollstreckung aus dem Versäumnisurteil darf nur gegen Leistung dieser Sicherheit fortgesetzt werden.“\n\n§ 709 S. 3 ZPO gilt nur, wenn § 709 ZPO anwendbar ist, nicht z. B. bei § 708 Nr. 11 ZPO: Dort bleibt es bei der vorläufigen Vollstreckbarkeit ohne Sicherheit; es tritt nur die Abwendungsbefugnis hinzu, die ein Tätigwerden des Schuldners erfordert.",
+  "id": "zivilgericht-0305",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

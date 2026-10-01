@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Können Prozesshandlungen wegen Willensmängeln nach §§ 119 ff. BGB angefochten werden?",
+  "antworten": [
+    "Grundsätzlich nicht; Ausnahme nach den AG-Unterlagen: arglistige Täuschung",
+    "Ja, wie jede Willenserklärung",
+    "Grundsätzlich nicht; Ausnahme: Inhaltsirrtum",
+    "Ja, aber nur bis zum Schluss der mündlichen Verhandlung"
+  ],
+  "erklaerung": "Die Regeln des BGB über Willensmängel gelten für Prozesshandlungen nicht; eine Anfechtung nach §§ 119 ff. BGB scheidet daher aus (nach den AG-Unterlagen Ausnahme: arglistige Täuschung). Eine Prozesshandlung kann zugleich eine rechtsgeschäftliche Willenserklärung enthalten, muss es aber nicht (Beispiel: Aufrechnung).",
+  "id": "zivilgericht-0337",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

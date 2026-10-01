@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Ist vor einem zweiten Versäumnisurteil nach einem Vollstreckungsbescheid die Schlüssigkeit der Klage zu prüfen?",
+  "antworten": [
+    "Ja, zwingend nach § 700 Abs. 6 ZPO; sonst wird der VB aufgehoben",
+    "Nein, wie beim zweiten VU nach echtem erstem VU",
+    "Nein, da der VB bereits rechtskräftig ist",
+    "Ja, aber nur auf Rüge des Beklagten"
+  ],
+  "erklaerung": "Nach § 700 Abs. 6 ZPO darf der Einspruch nach § 345 ZPO nur verworfen werden, soweit die Voraussetzungen des § 331 Abs. 1, 2 Hs. 1 ZPO vorliegen; zu prüfen sind Verfahrensfehler bei Erlass des VB, Zulässigkeit und Schlüssigkeit der Klage (materielle Rechtslage allein auf Basis des Klägervortrags).\n\nBei unschlüssiger Klage (klausurrelevant) ergeht ein normales Urteil: „Der Vollstreckungsbescheid vom … wird aufgehoben und die Klage abgewiesen. Die Kosten des Rechtsstreits trägt der Kläger.“ (§ 91 ZPO, § 344 ZPO dann nicht; Vollstreckbarkeit §§ 708 Nr. 11, 711 bzw. § 709 S. 1, 2 ZPO). Bei Teilerfolg: „Zweites Versäumnis- und Endurteil“, Kosten §§ 92, 97 Abs. 1 ZPO analog.",
+  "id": "zivilgericht-0373",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

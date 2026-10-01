@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Was ist die einseitige Erledigungserklärung des Klägers nach h. M.?",
+  "antworten": [
+    "Eine Klageänderung in einen Antrag auf Feststellung der Erledigung (§ 264 Nr. 2 ZPO)",
+    "Eine teilweise Klagerücknahme mit Kostenantrag (§ 269 ZPO)",
+    "Ein Antrag auf Kostenentscheidung nach § 91a ZPO",
+    "Ein Verzicht auf den Klageanspruch (§ 306 ZPO)"
+  ],
+  "erklaerung": "Bei einseitiger Erledigungserklärung gilt § 91a ZPO nicht. Die Rechtshängigkeit wird nicht beendet; der ursprüngliche Klageantrag wandelt sich in ein Begehren auf Feststellung der Erledigung der Hauptsache (Klageänderungstheorie, § 264 Nr. 2 ZPO, h. M.).\n\nDas wird bei der Auslegung des Klageantrags erörtert (Relation: Auslegungsstation; Urteil: am Beginn der Entscheidungsgründe). Folge: Prüfung von Zulässigkeit und Begründetheit einer Feststellungsklage.",
+  "id": "zivilgericht-0324",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

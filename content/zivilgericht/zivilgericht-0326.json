@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Kommt es für die übereinstimmende Erledigung darauf an, welche Partei die Erledigung zuerst erklärt?",
+  "antworten": [
+    "Nein, die Reihenfolge der Erklärungen ist unerheblich",
+    "Ja, der Kläger muss zuerst erklären",
+    "Ja, der Beklagte muss zuerst erklären",
+    "Nein, sofern beide Erklärungen im selben Termin erfolgen"
+  ],
+  "erklaerung": "Die Reihenfolge der Erklärungen ist unerheblich. Erklärt zunächst der Beklagte die Erledigung und schließt sich der Kläger später an, liegt eine übereinstimmende Erledigung mit Kostenbeschluss nach § 91a ZPO vor.",
+  "id": "zivilgericht-0326",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

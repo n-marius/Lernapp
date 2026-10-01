@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wo ist die Wirksamkeit einer Teil-Klagerücknahme in den Entscheidungsgründen zu erörtern?",
+  "antworten": [
+    "Grundsätzlich am Anfang",
+    "Im Rahmen der Zulässigkeit",
+    "Im Rahmen der Begründetheit",
+    "Erst bei der Kostenentscheidung"
+  ],
+  "erklaerung": "Die Wirksamkeit der Klagerücknahme wird grundsätzlich am Anfang der Entscheidungsgründe dargestellt, da es bei wirksamer Rücknahme insoweit auf Zulässigkeit und Begründetheit nicht mehr ankommt. Auf die Zuständigkeit wirkt sich die Teilrücknahme wegen § 261 Abs. 3 Nr. 2 ZPO i. d. R. nicht aus. Kostenentscheidung: § 269 Abs. 3 S. 2 ZPO, i. d. R. gemischt.\n\nIm Rubrum hat die Rücknahme keine Auswirkungen; ein Streitgenosse, gegenüber dem oder durch den zurückgenommen wurde, bleibt genannt, da er an der Kostenentscheidung beteiligt ist.",
+  "id": "zivilgericht-0352",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

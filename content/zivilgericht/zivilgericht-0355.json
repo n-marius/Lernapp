@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Nach welchen Normen wird verspätetes Vorbringen nach Fristsetzung, ohne Fristsetzung und nach Schluss der mündlichen Verhandlung zurückgewiesen?",
+  "antworten": [
+    "§ 296 Abs. 1, § 296 Abs. 2, § 296a ZPO",
+    "§ 296 Abs. 2, § 296 Abs. 1, § 296a ZPO",
+    "§ 296 Abs. 1, § 282 ZPO, § 296 Abs. 2 ZPO",
+    "§ 282 ZPO, § 296 Abs. 1, § 296a ZPO"
+  ],
+  "erklaerung": "Grundsätzlich gilt die Prozessförderungspflicht (§ 282 ZPO). Verspätet vorgebrachte Angriffs- und Verteidigungsmittel bleiben unbeachtet: nach Fristsetzung nach § 296 Abs. 1 ZPO, ohne Fristsetzung nach § 296 Abs. 2 ZPO, nach Schluss der mündlichen Verhandlung nach § 296a ZPO.\n\nDie Nichterhebung verzichtbarer Rügen (z. B. §§ 39, 267 ZPO) kann zum Eintritt einer Fiktion und zu Kostennachteilen führen.",
+  "id": "zivilgericht-0355",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

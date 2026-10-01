@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Nach welchem Maßstab wird über die Kosten nach übereinstimmender Erledigung entschieden, wenn eine erforderliche Beweisaufnahme nicht mehr stattgefunden hat?",
+  "antworten": [
+    "Billiges Ermessen nach bisherigem Sach- und Streitstand; offener Ausgang führt i. d. R. zu Kostenteilung oder -aufhebung",
+    "Billiges Ermessen nach bisherigem Sach- und Streitstand; der Beweisbelastete trägt i. d. R. die Kosten",
+    "Unterliegensprinzip; das Gericht holt die Beweisaufnahme zur Kostenentscheidung nach",
+    "Billiges Ermessen; der Beklagte trägt i. d. R. die Kosten, da er erledigt hat"
+  ],
+  "erklaerung": "Maßstab ist billiges Ermessen unter Berücksichtigung des bisherigen Sach- und Streitstands (§ 91a Abs. 1 S. 1 ZPO): Die Erfolgsaussichten von Kläger und Beklagtem werden relationstechnisch ermittelt; Billigkeitsgesichtspunkte (z. B. freiwillige Erfüllung, Rechtsgedanke des § 93 ZPO) sind zu berücksichtigen, ebenso die Unzulässigkeit der Klage. Naheliegende hypothetische Entwicklungen können Element des Sachstands sein (z. B. ob der Kläger nach Hinweis auf Unzuständigkeit Verweisung beantragt hätte).\n\nFehlt eine Beweisaufnahme, ist das Ergebnis i. d. R. offen; die Kosten werden dann 50/50 geteilt oder gegeneinander aufgehoben.",
+  "id": "zivilgericht-0319",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

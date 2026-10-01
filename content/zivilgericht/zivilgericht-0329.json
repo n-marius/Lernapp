@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Nach welchem Maßstab richtet sich die Kostenentscheidung, wenn der Anlass zur Klage vor Rechtshängigkeit wegfällt und die Klage daraufhin zurückgenommen wird?",
+  "antworten": [
+    "Billiges Ermessen unter Berücksichtigung des bisherigen Sach- und Streitstands (§ 269 Abs. 3 S. 3 ZPO)",
+    "Stets Kostentragung durch den Kläger (§ 269 Abs. 3 S. 2 ZPO)",
+    "Stets Kostentragung durch den Beklagten (§ 93 ZPO entsprechend)",
+    "Kostenaufhebung (§ 92 Abs. 1 S. 2 ZPO)"
+  ],
+  "erklaerung": "Ist der Anlass zur Einreichung der Klage vor Rechtshängigkeit weggefallen und wird die Klage daraufhin zurückgenommen, bestimmt sich die Kostentragungspflicht nach billigem Ermessen unter Berücksichtigung des bisherigen Sach- und Streitstands; das gilt auch, wenn die Klage nicht zugestellt wurde (§ 269 Abs. 3 S. 3 ZPO).\n\nBeispiel: Klageeingang 05.01., Zahlung 15.01., Zustellung 16.01. Eine Erledigungserklärung scheidet aus, da die Erledigung nicht nach Rechtshängigkeit eintrat; die Klagerücknahme mit Kostenfolge nach § 269 Abs. 3 S. 3 ZPO ist die beste Lösung. Denkbar ist auch die Änderung in einen Feststellungsantrag auf Kostentragung des Beklagten als Verzugsschaden (Feststellungsinteresse str., bejahend BGH NJW 2013, 2201).",
+  "id": "zivilgericht-0329",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

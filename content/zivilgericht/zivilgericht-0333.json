@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wie wird über die Kosten einer vollständigen und einer teilweisen Klagerücknahme entschieden?",
+  "antworten": [
+    "Vollständig: auf Antrag durch Beschluss; teilweise: von Amts wegen im Urteil",
+    "Vollständig: von Amts wegen durch Beschluss; teilweise: auf Antrag im Urteil",
+    "Vollständig: auf Antrag durch Urteil; teilweise: von Amts wegen im Urteil",
+    "Beide: auf Antrag durch gesonderten Beschluss"
+  ],
+  "erklaerung": "Bei vollständiger Rücknahme entscheidet das Gericht über die Wirkungen nach § 269 Abs. 3 ZPO nur auf Antrag durch Beschluss (§ 269 Abs. 4 ZPO); die Begründung kann sich auf den Hinweis auf das Gesetz beschränken.\n\nBei teilweiser Rücknahme wird im Urteil von Amts wegen eine gemischte Kostenentscheidung getroffen (§ 269 Abs. 3 S. 2 ZPO i. V. m. §§ 91 ff. ZPO).",
+  "id": "zivilgericht-0333",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

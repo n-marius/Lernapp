@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Dürfen Prozesshandlungen unter einer Bedingung vorgenommen werden?",
+  "antworten": [
+    "Nein, zulässig sind nur innerprozessuale Bedingungen",
+    "Ja, sofern die Bedingung bis zum Schluss der mündlichen Verhandlung eintritt",
+    "Nein, auch innerprozessuale Bedingungen sind unzulässig",
+    "Ja, sofern der Gegner zustimmt"
+  ],
+  "erklaerung": "Prozesshandlungen sind bedingungsfeindlich, da die Prozesssituation eindeutig sein muss und keine Schwebezustände entstehen dürfen (z. B. keine bedingte Klageerhebung oder Rechtsmitteleinlegung). Zulässig sind aber innerprozessuale Bedingungen.",
+  "id": "zivilgericht-0339",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

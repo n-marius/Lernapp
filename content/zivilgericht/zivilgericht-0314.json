@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wie wird ein unzulässiger Einspruch beschieden?",
+  "antworten": [
+    "Verwerfung als unzulässig durch Urteil, auch ohne mündliche Verhandlung",
+    "Verwerfung als unzulässig durch Beschluss, auch ohne mündliche Verhandlung",
+    "Verwerfung als unzulässig durch Urteil, nur nach mündlicher Verhandlung",
+    "Zurückweisung als unbegründet durch Urteil nach mündlicher Verhandlung"
+  ],
+  "erklaerung": "Der unzulässige Einspruch wird als unzulässig verworfen (§ 341 Abs. 1 S. 2 ZPO). Die Entscheidung ergeht durch Urteil, das ohne vorherige mündliche Verhandlung ergehen kann (§ 341 Abs. 2 ZPO).",
+  "id": "zivilgericht-0314",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wie wird die vorläufige Vollstreckbarkeit eines Versäumnisurteils tenoriert?",
+  "antworten": [
+    "„Das Urteil ist vorläufig vollstreckbar.“ (§ 708 Nr. 2 ZPO)",
+    "Gegen Sicherheitsleistung in Höhe von 110 % (§ 709 ZPO)",
+    "Vorläufig vollstreckbar mit Abwendungsbefugnis (§§ 708 Nr. 11, 711 ZPO)",
+    "Gar nicht, da Versäumnisurteile sofort rechtskräftig werden"
+  ],
+  "erklaerung": "Versäumnisurteile sind nach § 708 Nr. 2 ZPO ohne Sicherheitsleistung und ohne Abwendungsbefugnis vorläufig vollstreckbar. Überschrift „Versäumnisurteil“ (§ 313b Abs. 1 S. 2 ZPO); Kosten nach § 91 Abs. 1 ZPO; Tatbestand und Entscheidungsgründe entbehrlich (§ 313b Abs. 1 S. 1 ZPO); Rechtsbehelfsbelehrung (§ 232 S. 1, 2 ZPO).",
+  "id": "zivilgericht-0363",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

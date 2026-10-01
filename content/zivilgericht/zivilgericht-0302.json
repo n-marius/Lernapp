@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wann muss ein Beschluss ein volles Rubrum (§ 313 Abs. 1 Nr. 1 ZPO) enthalten?",
+  "antworten": [
+    "Wenn er Grundlage eines Vollstreckungstitels ist und/oder zuzustellen ist",
+    "Wenn er nach mündlicher Verhandlung ergeht",
+    "Wenn er rechtsmittelfähig ist",
+    "Stets, da § 329 ZPO auf § 313 ZPO verweist"
+  ],
+  "erklaerung": "Grundsätzlich genügt ein kurzes Rubrum mit den Namen der Parteien bzw. Verfahrensbeteiligten („Egon Müller ./. Franz Meier“). Beschlüsse, die Grundlage eines Vollstreckungstitels sind und/oder zuzustellen sind, müssen zur Vermeidung von Verwechslungen ein volles Rubrum enthalten, z. B. der Kostenbeschluss nach § 91a ZPO (Vollstreckungstitel nach § 794 Abs. 1 Nr. 3 ZPO).\n\nEinleitung: „In dem Rechtsstreit …“, außerhalb des Erkenntnisverfahrens „In dem Verfahren …“, „In dem Prozesskostenhilfeverfahren …“, „In dem Vollstreckungsverfahren …“. Üblich ist die Angabe des Tags des Erlasses bzw. der mündlichen Verhandlung im Rubrum oder am Ende der Gründe.",
+  "id": "zivilgericht-0302",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

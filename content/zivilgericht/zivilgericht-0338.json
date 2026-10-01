@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Nach welchem Maßstab werden Prozesshandlungen ausgelegt, und ist eine Umdeutung möglich?",
+  "antworten": [
+    "Nach dem wirklichen Willen (§ 133 BGB entsprechend); Umdeutung entsprechend § 140 BGB möglich",
+    "Nach dem objektiven Wortlaut; Umdeutung ausgeschlossen",
+    "Nach dem wirklichen Willen (§ 133 BGB entsprechend); Umdeutung ausgeschlossen",
+    "Nach dem objektiven Wortlaut; Umdeutung entsprechend § 140 BGB möglich"
+  ],
+  "erklaerung": "Prozesshandlungen sind Handlungen oder Erklärungen einer Partei, deren Hauptwirkungen auf prozessualem Gebiet liegen. Sie werden entsprechend § 133 BGB nach dem wirklichen Willen der Partei ausgelegt; eine Umdeutung entsprechend § 140 BGB ist möglich.\n\nBeispiel: „B hat unter dem Eindruck der Beweisaufnahme gezahlt. Ein Urteil braucht daher gegen ihn nicht zu ergehen.“ ist als Erledigungserklärung auszulegen.",
+  "id": "zivilgericht-0338",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

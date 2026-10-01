@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Darf das VU bei Teilerfolg des Einspruchs „teilweise aufgehoben und wie folgt neu gefasst“ werden?",
+  "antworten": [
+    "Nach Anders/Gehle in komplizierten Fällen ja; in der Klausur nur im Notfall",
+    "Nein, dies verstößt stets gegen den Wortlaut des § 343 ZPO",
+    "Ja, dies ist der Regelfall und in der Klausur vorzugswürdig",
+    "Ja, aber nur, wenn das VU nicht gesetzmäßig ergangen ist"
+  ],
+  "erklaerung": "Aus Gründen der Verständlichkeit wird teilweise (Anders/Gehle) vertreten, man könne in komplizierten Fällen ohne Verletzung des Wortlauts von § 343 ZPO eine Neufassung vornehmen („Das Versäumnisurteil vom … wird teilweise aufgehoben und wie folgt neu gefasst: Der Beklagte wird verurteilt, …“). In der Klausur nur im Notfall von dieser Möglichkeit Gebrauch machen.",
+  "id": "zivilgericht-0311",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

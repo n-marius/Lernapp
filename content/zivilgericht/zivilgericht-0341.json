@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Welche Rechtsnatur hat der Prozessvergleich?",
+  "antworten": [
+    "Doppelnatur: materielles Rechtsgeschäft (§ 779 BGB) und Prozesshandlung",
+    "Reine Prozesshandlung mit materiell-rechtlicher Wirkung",
+    "Reines materielles Rechtsgeschäft, das zu Protokoll genommen wird",
+    "Gerichtliche Entscheidung auf übereinstimmenden Antrag"
+  ],
+  "erklaerung": "Der Prozessvergleich ist die gütliche Beilegung des Rechtsstreits durch gegenseitiges Nachgeben in Form eines materiell-rechtlichen Rechtsgeschäfts (vgl. § 779 BGB) und einer Prozesshandlung. Prozessualer und materiell-rechtlicher Teil bedingen sich in Wirkung und Wirksamkeit.\n\nEr ist Vollstreckungstitel (§ 794 Abs. 1 Nr. 1 ZPO), entfaltet aber keine materielle Rechtskraft, und beendet die Rechtshängigkeit unmittelbar (ex nunc).",
+  "id": "zivilgericht-0341",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

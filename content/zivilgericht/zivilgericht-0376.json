@@ -1,0 +1,22 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "typ": "begriffe",
+  "reihenfolge": false,
+  "frage": "Welche Voraussetzungen hat ein zweites Versäumnisurteil (§ 345 ZPO) nach einem echten ersten VU?",
+  "antworten": [
+    "Prozessantrag",
+    "Zulässiger Einspruch",
+    "Säumnis des Einspruchsführers im Einspruchstermin",
+    "Kein Erlasshindernis (§§ 335, 337 ZPO)"
+  ],
+  "falsche": [
+    "Schlüssigkeit der Klage",
+    "Zulässigkeit der Klage",
+    "Sachantrag des Gegners"
+  ],
+  "erklaerung": "Nach dem BGH sind Zulässigkeit und Schlüssigkeit der Klage keine Voraussetzungen des zweiten VU nach einem echten ersten VU: Umkehrschluss aus § 700 Abs. 6 ZPO; § 345 ZPO ist lex specialis zu § 342 ZPO; der Beklagte ist nicht schutzwürdig, da Zulässigkeit und Schlüssigkeit schon vor Erlass des ersten VU geprüft wurden; nach einer Säumnis ist die Partei zu besonders sorgfältiger Prozessführung angehalten.\n\nNach h. M. kann es im Einspruchstermin daher nicht zur Aufhebung des ersten VU kommen.",
+  "id": "zivilgericht-0376",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

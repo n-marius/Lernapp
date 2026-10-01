@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Wie lauten Hauptsache-, Kosten- und Vollstreckbarkeitstenor eines zweiten Versäumnisurteils?",
+  "antworten": [
+    "Einspruch verworfen; weitere Kosten der Beklagte (§ 97 ZPO analog); vorläufig vollstreckbar (§ 708 Nr. 2 ZPO)",
+    "VU aufrechterhalten; weitere Kosten der Beklagte (§ 91 ZPO); vorläufig vollstreckbar (§ 708 Nr. 2 ZPO)",
+    "Einspruch verworfen; weitere Kosten der Beklagte (§ 97 ZPO analog); gegen Sicherheit vollstreckbar (§ 709 S. 3 ZPO)",
+    "VU aufrechterhalten; weitere Kosten der Beklagte (§ 344 ZPO); vorläufig vollstreckbar (§ 708 Nr. 3 ZPO)"
+  ],
+  "erklaerung": "Tenor: „Der Einspruch des Beklagten gegen das Versäumnisurteil vom … wird verworfen. Die weiteren Kosten des Rechtsstreits trägt der Beklagte. Das Urteil ist vorläufig vollstreckbar.“ Kosten: § 97 Abs. 1 ZPO analog (Kosten eines Rechtsmittels). Vollstreckbarkeit: § 708 Nr. 2 ZPO gilt auch für das zweite VU. Tatbestand und Entscheidungsgründe sind nicht erforderlich (§ 313b Abs. 1, 2 ZPO).",
+  "id": "zivilgericht-0375",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

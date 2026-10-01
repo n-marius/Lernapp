@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Kann das Gericht die Widerrufsfrist eines Widerrufsvergleichs verlängern?",
+  "antworten": [
+    "Nein, es handelt sich um eine Parteifrist; nur die Parteien können sie verlängern",
+    "Ja, auf Antrag einer Partei nach § 224 Abs. 2 ZPO",
+    "Ja, aber nur einmal und nur mit Zustimmung des Gegners",
+    "Nein, auch die Parteien können sie nicht mehr verlängern"
+  ],
+  "erklaerung": "Beim Widerrufsvergleich wird ein Widerrufsvorbehalt in bestimmter Frist vereinbart; i. d. R. ist das Gericht Erklärungsempfänger. Der Prozessvergleich ist insoweit nicht bedingungsfeindlich. Die Widerrufsfrist ist eine Parteifrist, sodass der Richter sie nicht verlängern kann; die Parteien können sich aber auf eine Verlängerung verständigen.\n\nOb der rechtzeitige Widerruf als aufschiebende oder auflösende Bedingung wirkt, ist str.; nach dem BGH handelt es sich um eine aufschiebende Bedingung (NJW 1984, 312).",
+  "id": "zivilgericht-0365",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Bis wann kann ein Einspruch zurückgenommen werden, und wie werden die Folgen ausgesprochen?",
+  "antworten": [
+    "Bis zur Verkündung des Urteils auf den Einspruch; Folgen von Amts wegen durch Beschluss",
+    "Bis zum Beginn der mündlichen Verhandlung; Folgen auf Antrag durch Beschluss",
+    "Bis zur Verkündung des Urteils auf den Einspruch; Folgen auf Antrag durch Urteil",
+    "Bis zum Schluss der mündlichen Verhandlung; Folgen von Amts wegen durch Urteil"
+  ],
+  "erklaerung": "Die Rücknahme des Einspruchs ist in § 346 ZPO geregelt, der auf die Vorschriften über Verzicht und Rücknahme der Berufung (§§ 515, 516 ZPO) verweist. Sie ist bis zur Verkündung des auf den Einspruch ergehenden Urteils möglich; Folge sind Verlust des Rechtsbehelfs und Kostentragungspflicht (§ 516 Abs. 3 S. 1 ZPO). Die Wirkungen sind von Amts wegen durch Beschluss auszusprechen (§ 516 Abs. 3 S. 2 ZPO); ein Antrag des Gegners ist nicht erforderlich. Der Einspruchstermin wird aufgehoben (§ 227 ZPO).\n\nTenor: „Der Beklagte hat den Rechtsbehelf des Einspruchs gegen die Versäumnisurteile vom … verloren. Der Beklagte trägt die weiteren Kosten des Rechtsstreits …“",
+  "id": "zivilgericht-0317",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

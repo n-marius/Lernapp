@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Wonach bemisst sich nach dem BGH der Streitwert bei einseitiger Erledigungserklärung?",
+  "antworten": [
+    "Nach dem Kostenwert",
+    "Nach dem Hauptsachewert",
+    "Nach dem um 50 % gekürzten Hauptsachewert",
+    "Nach dem Wert des erledigenden Ereignisses"
+  ],
+  "erklaerung": "Der Streitwert ist streitig: Nach dem BGH ist der Kostenwert maßgeblich; a. A. Hauptsachewert; weitere Ansicht: Feststellungswert (ursprüngliche Klage abzüglich 50 %).",
+  "id": "zivilgericht-0325",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

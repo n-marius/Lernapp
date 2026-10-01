@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Ist gegen einen Kostenbeschluss nach § 91a ZPO bei einem Hauptsachewert von 195 Euro die sofortige Beschwerde statthaft?",
+  "antworten": [
+    "Nein, da der Hauptsachewert 600 Euro nicht übersteigt (§§ 91a Abs. 2 S. 2, 511 Abs. 2 Nr. 1 ZPO)",
+    "Ja, da es nur auf den Wert der Kosten ankommt (§ 567 Abs. 2 ZPO)",
+    "Ja, die sofortige Beschwerde ist stets statthaft (§ 91a Abs. 2 S. 1 ZPO)",
+    "Nein, Kostenbeschlüsse nach § 91a ZPO sind unanfechtbar"
+  ],
+  "erklaerung": "Gegen den Beschluss findet die sofortige Beschwerde statt (§§ 91a Abs. 2 S. 1, 567 ff. ZPO), nicht aber, wenn der Streitwert der Hauptsache den in § 511 ZPO genannten Betrag nicht übersteigt (§ 91a Abs. 2 S. 2 ZPO), also 600 Euro (§ 511 Abs. 2 Nr. 1 ZPO).\n\nStreitwert für die Zeit nach übereinstimmender Erledigungserklärung: nur noch die bis dahin entstandenen Kosten des Rechtsstreits.",
+  "id": "zivilgericht-0318",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

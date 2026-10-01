@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Wann gilt die Einwilligung des Beklagten in eine nach Beginn der mündlichen Verhandlung erklärte Klagerücknahme als erteilt?",
+  "antworten": [
+    "Bei fehlendem Widerspruch binnen zwei Wochen ab Zustellung, wenn zuvor auf diese Folge hingewiesen wurde",
+    "Bei fehlendem Widerspruch binnen zwei Wochen ab Zustellung, auch ohne vorherigen Hinweis",
+    "Bei fehlendem Widerspruch binnen eines Monats ab Zustellung, wenn zuvor auf diese Folge hingewiesen wurde",
+    "Bei fehlendem Widerspruch bis zum nächsten Termin, auch ohne vorherigen Hinweis"
+  ],
+  "erklaerung": "Nach Beginn der mündlichen Verhandlung (= Stellen der Anträge, § 137 Abs. 1 ZPO) ist die Einwilligung des Beklagten erforderlich (§ 269 Abs. 1 ZPO); die Rücknahme ist ihm deshalb zuzustellen (§ 269 Abs. 2 S. 3 ZPO).\n\nWiderspricht der Beklagte nicht innerhalb einer Notfrist von zwei Wochen seit der Zustellung, gilt seine Einwilligung als erteilt, wenn er zuvor auf diese Folge hingewiesen worden ist (§ 269 Abs. 2 S. 4 ZPO). Die Hinweispflicht des Gerichts ist zu beachten.",
+  "id": "zivilgericht-0330",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

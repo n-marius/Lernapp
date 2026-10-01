@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Wo ist eine wirksame Teil-Klagerücknahme im Tatbestand darzustellen?",
+  "antworten": [
+    "Am Ende der kleinen Prozessgeschichte vor den zuletzt gestellten Anträgen",
+    "Gar nicht, da die Rechtshängigkeit rückwirkend entfällt",
+    "In der großen Prozessgeschichte am Ende des Tatbestands",
+    "Im unstreitigen Sachverhalt vor dem streitigen Klägervortrag"
+  ],
+  "erklaerung": "Die wirksame Teil-Klagerücknahme muss trotz der grundsätzlich rückwirkenden Beendigung der Rechtshängigkeit im Tatbestand geschildert werden, wenn sie – wie im Regelfall – Auswirkung auf die Kostenentscheidung hat. Sie steht am Ende der kleinen Prozessgeschichte vor den zuletzt gestellten Anträgen („Mit Schriftsatz vom 03.01.2013 hat der Kläger die Klage in Höhe von 300,00 EUR teilweise zurückgenommen und beantragt nunmehr, …“).\n\nDarzustellen sind die prozessualen Erklärungen objektiv ohne rechtliche Wertung; ob die Rücknahme wirksam ist, ergibt sich erst aus den Entscheidungsgründen.",
+  "id": "zivilgericht-0353",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

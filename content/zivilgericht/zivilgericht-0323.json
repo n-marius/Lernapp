@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Woraus ergibt sich das Feststellungsinteresse (§ 256 Abs. 1 ZPO) bei einseitiger Erledigungserklärung?",
+  "antworten": [
+    "Der Kläger kann nur so der Kostenlast entgehen",
+    "Der Kläger braucht einen Titel für die erledigte Forderung",
+    "Der Beklagte hat die Erledigung bestritten und damit Anlass gegeben",
+    "Das Feststellungsinteresse ist bei Klageänderungen stets entbehrlich"
+  ],
+  "erklaerung": "Zulässigkeit der Feststellungsklage: Zuständigkeit, Zulässigkeit der Klageänderung (§§ 263, 264 Nr. 2 Alt. 2 ZPO), Feststellungsinteresse (§ 256 Abs. 1 ZPO). Das Feststellungsinteresse besteht, weil der Kläger bei fehlender Erledigungserklärung des Beklagten nur so der Kostenlast entgehen kann.",
+  "id": "zivilgericht-0323",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Gilt § 269 Abs. 3 S. 3 ZPO auch, wenn das erledigende Ereignis schon vor Anhängigkeit eintrat und der Kläger davon schuldlos erst nach Klageeinreichung erfährt?",
+  "antworten": [
+    "Ja (h. M.); nach a. A. ist nur die Änderung in eine Feststellungsklage möglich",
+    "Nein (h. M.); der Kläger trägt die Kosten nach § 269 Abs. 3 S. 2 ZPO",
+    "Nein (h. M.); möglich ist nur eine übereinstimmende Erledigungserklärung",
+    "Ja, aber nur bei Zustimmung des Beklagten"
+  ],
+  "erklaerung": "Nach h. M. gilt § 269 Abs. 3 S. 3 ZPO auch dann, wenn der Kläger schuldlos erst nach Einreichung der Klage von der Erledigung Kenntnis erhält (Zöller § 269 Rn. 18c). Nach a. A. ist nur eine Klageänderung in eine Feststellungsklage möglich (Elzer NJW 2002, 2006, 2008).",
+  "id": "zivilgericht-0331",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

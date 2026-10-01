@@ -1,0 +1,22 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "typ": "begriffe",
+  "reihenfolge": false,
+  "frage": "Gegen die Versäumung welcher Fristen ist Wiedereinsetzung möglich?",
+  "antworten": [
+    "Einspruchsfrist (§ 339 Abs. 1 ZPO)",
+    "Berufungsfrist (§ 517 ZPO)",
+    "Berufungsbegründungsfrist",
+    "Wiedereinsetzungsfrist (§ 234 ZPO)"
+  ],
+  "falsche": [
+    "Klageerwiderungsfrist (§ 276 Abs. 1 S. 2 ZPO)",
+    "Widerrufsfrist eines Vergleichs",
+    "Verjährungsfrist (§ 195 BGB)"
+  ],
+  "erklaerung": "Wiedereinsetzung ist möglich bei Versäumung einer Notfrist (ausdrücklich im Gesetz als solche bezeichnet, z. B. § 276 Abs. 1 S. 1, § 339 Abs. 1, § 517 ZPO), der Frist zur Begründung der Berufung, der Revision, der Nichtzulassungsbeschwerde oder der Rechtsbeschwerde sowie der Wiedereinsetzungsfrist (§ 234 ZPO), vgl. § 233 S. 1 ZPO.\n\nDie Klageerwiderungsfrist ist eine richterliche Frist, keine Notfrist; die Widerrufsfrist eines Vergleichs ist eine Parteifrist; die Verjährungsfrist ist eine materielle Frist.",
+  "id": "zivilgericht-0366",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

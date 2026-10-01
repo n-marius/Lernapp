@@ -1,6 +1,6 @@
 {
-  "version": 16,
-  "contentHash": "bbf8db78f8e9954b",
+  "version": 17,
+  "contentHash": "b5310221ab343159",
   "cards": [
     {
       "id": "zivilgericht-0004",
@@ -4639,6 +4639,1375 @@
       "erklaerung": "Das Gericht hat die Klage unverzüglich zuzustellen (§ 271 ZPO), und zwar durch die Geschäftsstelle (§ 168 Abs. 1 ZPO): entweder gegen Empfangsbekenntnis (§ 168 Abs. 1 S. 1 i. V. m. §§ 173 ff. ZPO) oder über die Post (§ 168 Abs. 1 S. 2 i. V. m. §§ 176 ff. ZPO). In Ausnahmefällen ist öffentliche Zustellung möglich (§ 185 ZPO). Die Zustellung ist in § 166 ZPO definiert.",
       "creator": null,
       "ts": "2026-09-30T20:18:26.029753Z"
+    },
+    {
+      "id": "zivilgericht-0297",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Was prüft das Gericht nach einem Anerkenntnis (§ 307 ZPO) noch?",
+      "antworten": [
+        "Nur die Sachurteilsvoraussetzungen, nicht mehr den Anspruch",
+        "Sachurteilsvoraussetzungen und Schlüssigkeit des Anspruchs",
+        "Nichts mehr, es ist an das Anerkenntnis gebunden",
+        "Nur die Schlüssigkeit, nicht die Sachurteilsvoraussetzungen"
+      ],
+      "erklaerung": "Das Anerkenntnis ist eine Prozesserklärung, mit der der prozessuale Anspruch anerkannt wird (Abgrenzung zum Geständnis, § 288 ZPO). Das Gericht ist gebunden und prüft den Anspruch nicht mehr; die Sachurteilsvoraussetzungen müssen aber vorliegen, sonst wird die Klage als unzulässig abgewiesen.\n\nDas Anerkenntnis ist bedingungsfeindlich, vorbehaltlos, unanfechtbar und grundsätzlich nur bei Restitutionsgrund widerruflich; es kann aber ggf. mit Einschränkungen erklärt werden (z. B. Zug-um-Zug-Beschränkung, BGH).",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0298",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Welche Kosten- und Vollstreckbarkeitsentscheidung trifft das Anerkenntnisurteil?",
+      "antworten": [
+        "Kosten nach § 93 ZPO, sonst § 91 ZPO; vorläufig vollstreckbar ohne Sicherheit (§ 708 Nr. 1 ZPO)",
+        "Kosten stets nach § 91 ZPO; vorläufig vollstreckbar ohne Sicherheit (§ 708 Nr. 1 ZPO)",
+        "Kosten nach § 93 ZPO, sonst § 91 ZPO; vorläufig vollstreckbar gegen Sicherheit (§ 709 ZPO)",
+        "Kosten stets nach § 93 ZPO; vorläufig vollstreckbar nach §§ 708 Nr. 11, 711 ZPO"
+      ],
+      "erklaerung": "Das Anerkenntnisurteil (§§ 313b, 311 Abs. 2 S. 3 ZPO) ist nach § 708 Nr. 1 ZPO ohne Sicherheit vorläufig vollstreckbar. Die Kostenentscheidung ergeht ggf. nach § 93 ZPO, sonst nach § 91 ZPO. Die Gerichtskosten ermäßigen sich auf eine 1,0-Gebühr (Nr. 1211 Nr. 2 KV GKG).",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0299",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Welche Beschlüsse sind zu begründen, und wie sind die Gründe gegliedert?",
+      "antworten": [
+        "Alle rechtsmittelfähigen; „Gründe“ mit I. Sachverhalt und II. Würdigung im Urteilsstil",
+        "Alle; „Tatbestand“ und „Entscheidungsgründe“ wie im Urteil",
+        "Alle rechtsmittelfähigen; „Gründe“ mit I. Würdigung und II. Sachverhalt",
+        "Nur Beschlüsse nach mündlicher Verhandlung; „Gründe“ ohne Untergliederung"
+      ],
+      "erklaerung": "Alle rechtsmittelfähigen Beschlüsse sind zu begründen, andere grundsätzlich nicht. Der Umfang hängt vom Einzelfall ab (§ 269 Abs. 4 ZPO: Hinweis auf das Gesetz ausreichend; § 91a ZPO: Sachverhaltsdarstellung und rechtliche Würdigung).\n\nEinheitliche Überschrift „Gründe“, unter I. Sachverhaltsdarstellung ähnlich wie im Tatbestand, unter II. rechtliche Würdigung im Urteilsstil, beginnend mit dem Endergebnis. Der Tenor ist stets eingerückt; Unterschriften erforderlich (§ 329 Abs. 1 S. 2 i. V. m. § 317 Abs. 2 S. 1 ZPO).",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0300",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "In welchen Fällen enthält ein Beschluss keine (gesonderte) Kostenentscheidung?",
+      "typ": "begriffe",
+      "reihenfolge": false,
+      "antworten": [
+        "Gesetzlicher Ausschluss der Kostenerstattung",
+        "Unselbständiger Beschluss",
+        "Kosten sind ohnehin Gegenstand des Beschlusses"
+      ],
+      "falsche": [
+        "Beschluss nach mündlicher Verhandlung",
+        "Beschluss ohne Begründung",
+        "Kurzes Rubrum"
+      ],
+      "erklaerung": "Ob eine Kostenentscheidung erforderlich ist, hängt davon ab, ob durch die Entscheidung erstattungsfähige Kosten entstehen. Keine Kostenentscheidung, wenn nach dem Gesetz Kostenerstattung unterbleibt (z. B. Streitwertbeschwerde, § 68 Abs. 3 GKG); sie erfolgt nur in selbständigen Beschlussverfahren bei abschließender Entscheidung (nicht bei Hinweis- oder Beweisbeschluss); eine gesonderte Kostenentscheidung unterbleibt, wenn die Kosten ohnehin Gegenstand des Beschlusses sind (§ 91a, § 269 Abs. 4 ZPO).",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0301",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wann entscheidet das erkennende Gericht durch Urteil, wann durch Beschluss?",
+      "antworten": [
+        "Urteil über den Streitgegenstand nach zwingender mündlicher Verhandlung, sonst Beschluss",
+        "Urteil über jede Frage nach mündlicher Verhandlung, sonst Beschluss",
+        "Urteil bei Rechtsmittelfähigkeit der Entscheidung, sonst Beschluss",
+        "Urteil über den Streitgegenstand, unabhängig von einer mündlichen Verhandlung, sonst Beschluss"
+      ],
+      "erklaerung": "Grundregel: Entscheidungen des erkennenden Gerichts über den Streitgegenstand nach zwingend vorgeschriebener mündlicher Verhandlung ergehen als Urteil, alle anderen als Beschluss. Ausnahmen: Urteil ohne mündliche Verhandlung nach §§ 128 Abs. 2, 331 Abs. 3, 341 Abs. 2 ZPO.\n\nVerfügungen sind Anordnungen gegenüber der Geschäftsstelle, meist prozessleitender Natur (vgl. §§ 216 Abs. 2, 227 Abs. 2, 229, 273 Abs. 2, 329 Abs. 2 S. 1 ZPO).",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0302",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wann muss ein Beschluss ein volles Rubrum (§ 313 Abs. 1 Nr. 1 ZPO) enthalten?",
+      "antworten": [
+        "Wenn er Grundlage eines Vollstreckungstitels ist und/oder zuzustellen ist",
+        "Wenn er nach mündlicher Verhandlung ergeht",
+        "Wenn er rechtsmittelfähig ist",
+        "Stets, da § 329 ZPO auf § 313 ZPO verweist"
+      ],
+      "erklaerung": "Grundsätzlich genügt ein kurzes Rubrum mit den Namen der Parteien bzw. Verfahrensbeteiligten („Egon Müller ./. Franz Meier“). Beschlüsse, die Grundlage eines Vollstreckungstitels sind und/oder zuzustellen sind, müssen zur Vermeidung von Verwechslungen ein volles Rubrum enthalten, z. B. der Kostenbeschluss nach § 91a ZPO (Vollstreckungstitel nach § 794 Abs. 1 Nr. 3 ZPO).\n\nEinleitung: „In dem Rechtsstreit …“, außerhalb des Erkenntnisverfahrens „In dem Verfahren …“, „In dem Prozesskostenhilfeverfahren …“, „In dem Vollstreckungsverfahren …“. Üblich ist die Angabe des Tags des Erlasses bzw. der mündlichen Verhandlung im Rubrum oder am Ende der Gründe.",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0303",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Ergehen Beschlüsse nach vorgeschriebener mündlicher Verhandlung „Im Namen des Volkes“?",
+      "antworten": [
+        "Nein, da § 329 ZPO nicht auf § 311 Abs. 1 ZPO verweist",
+        "Ja, da § 329 ZPO auf § 311 Abs. 1 ZPO verweist",
+        "Ja, wenn sie Grundlage eines Vollstreckungstitels sind",
+        "Nein, außer bei Beschlüssen nach § 91a ZPO"
+      ],
+      "erklaerung": "Beschlüsse werden als solche überschrieben. Sie ergehen auch nach vorgeschriebener mündlicher Verhandlung nicht „Im Namen des Volkes“, da § 311 Abs. 1 ZPO in § 329 ZPO nicht zitiert wird. Im Übrigen ist § 329 ZPO die einzige Regelung zu Form und Inhalt; in der Praxis werden die Grundregeln des § 313 ZPO entsprechend angewandt, soweit sie passen.",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0304",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Was unterscheidet ein echtes von einem unechten Versäumnisurteil?",
+      "antworten": [
+        "Echtes VU ergeht gegen den Säumigen wegen seiner Säumnis; unechtes VU ist ein kontradiktorisches Urteil bei Säumnis",
+        "Echtes VU ergeht gegen den Beklagten; unechtes VU ergeht gegen den Kläger",
+        "Echtes VU ergeht nach mündlicher Verhandlung; unechtes VU im schriftlichen Vorverfahren",
+        "Echtes VU ist ein erstes VU; unechtes VU ist ein zweites VU"
+      ],
+      "erklaerung": "Ein echtes VU i. S. d. §§ 330 ff. ZPO ist nur ein solches, das gegen die säumige Partei und aufgrund ihrer Säumnis erlassen wird. Ein unechtes VU ist ein normales kontradiktorisches Urteil (Endurteil), das zwar bei, aber nicht wegen der Säumnis einer Partei ergeht, z. B. die Abweisung der unschlüssigen Klage bei Säumnis des Beklagten (zuvor Hinweis!).",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0305",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Was ist bei der vorläufigen Vollstreckbarkeit eines Urteils zu beachten, das ein Versäumnisurteil nach § 709 ZPO aufrechterhält?",
+      "antworten": [
+        "Ausspruch, dass die Vollstreckung aus dem VU nur gegen Leistung der Sicherheit fortgesetzt werden darf (§ 709 S. 3 ZPO)",
+        "Ausspruch, dass das VU ohne Sicherheit vollstreckbar bleibt (§ 708 Nr. 2 ZPO)",
+        "Ausspruch einer Abwendungsbefugnis für den Beklagten (§ 711 ZPO)",
+        "Kein Ausspruch, da das VU bereits vorläufig vollstreckbar ist"
+      ],
+      "erklaerung": "Bei Aufrechterhaltung des VU ist § 709 S. 3 ZPO zu beachten: „Das Urteil ist gegen Sicherheitsleistung in Höhe von 110 % des jeweils zu vollstreckenden Betrages vorläufig vollstreckbar. Die Vollstreckung aus dem Versäumnisurteil darf nur gegen Leistung dieser Sicherheit fortgesetzt werden.“\n\n§ 709 S. 3 ZPO gilt nur, wenn § 709 ZPO anwendbar ist, nicht z. B. bei § 708 Nr. 11 ZPO: Dort bleibt es bei der vorläufigen Vollstreckbarkeit ohne Sicherheit; es tritt nur die Abwendungsbefugnis hinzu, die ein Tätigwerden des Schuldners erfordert.",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0306",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Wie sind die Entscheidungsgründe nach zulässigem Einspruch gegen ein Versäumnisurteil aufgebaut?",
+      "typ": "begriffe",
+      "reihenfolge": true,
+      "antworten": [
+        "Gesamtergebnis",
+        "Wirkung des Einspruchs (§ 342 ZPO)",
+        "Zulässigkeit des Einspruchs",
+        "Zulässigkeit der Klage",
+        "Begründetheit der Klage"
+      ],
+      "falsche": [
+        "Rechtmäßigkeit des Versäumnisurteils",
+        "Schlüssigkeit im Zeitpunkt der Säumnis"
+      ],
+      "erklaerung": "Formulierungsvorschlag: „Die Klage ist zulässig und begründet. Durch den Einspruch des Beklagten vom … ist der Prozess gemäß § 342 ZPO in die Lage vor Eintritt der Säumnis zurückversetzt worden. Der Einspruch war zulässig. Dieser ist statthaft … Zudem ist er form- und fristgerecht eingelegt worden … Die Klage ist zulässig … Die Klage ist begründet …“ (alternativer Vorschlag bei Anders/Gehle, H Rn. 23).\n\nIm Gutachten: Prozessstation mit 1) Zulässigkeit des Einspruchs, 2) Zulässigkeit der Klage; dann Kläger-, Beklagten-, Beweis- und Tenorierungsstation.",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0307",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Kommt es für den Hauptsachetenor nach zulässigem Einspruch darauf an, ob das Versäumnisurteil prozessual ordnungsgemäß ergangen ist?",
+      "antworten": [
+        "Nein, nur darauf, ob es inhaltlich richtig ist; die Gesetzmäßigkeit ist nur für § 344 ZPO relevant",
+        "Ja, ein unrechtmäßiges VU ist stets aufzuheben",
+        "Ja, ein unrechtmäßiges VU ist aufzuheben und neu zu tenorieren",
+        "Nein, und auch für die Kostenentscheidung ist die Gesetzmäßigkeit ohne Bedeutung"
+      ],
+      "erklaerung": "Es kommt nicht darauf an, ob das VU zulässig war und prozessual ordnungsgemäß ergangen ist (etwa trotz Verteidigungsanzeige im schriftlichen Vorverfahren), sondern nur darauf, ob das aufgrund der neuen Verhandlung zu erlassende Endurteil zum selben Ergebnis kommt (T/P, § 343 Rn. 2).\n\nDie Gesetzmäßigkeit („in gesetzlicher Weise ergangen“) ist nur für die Säumniskosten nach § 344 ZPO zu prüfen; wird das VU ohnehin ganz aufrechterhalten, trägt der Beklagte die Kosten ohnehin.",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0308",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Was muss die kleine Prozessgeschichte im Tatbestand nach Einspruch gegen ein Versäumnisurteil enthalten?",
+      "antworten": [
+        "Ursprünglichen Klageantrag, VU, Datum seiner Zustellung und des Eingangs des Einspruchs",
+        "Ursprünglichen Klageantrag, VU, Datum seiner Verkündung und die Einspruchsbegründung",
+        "Nur das VU und das Datum des Eingangs des Einspruchs",
+        "VU, Gründe der Säumnis und Datum des Einspruchstermins"
+      ],
+      "erklaerung": "„Der Kläger hat ursprünglich beantragt, … Auf diesen Antrag ist in der Sitzung vom … gegen den Beklagten ein Versäumnisurteil ergangen. Gegen dieses Versäumnisurteil, das dem Beklagten am … zugestellt worden ist, hat er mit einem am … bei Gericht eingegangenen Anwaltsschriftsatz Einspruch eingelegt und diesen begründet.“\n\nDer Klägerantrag lautet nunmehr auf Aufrechterhaltung des VU, der Beklagtenantrag auf Aufhebung des VU und Klageabweisung.",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0309",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Wie lautet der Tenor, wenn sich nach zulässigem Einspruch gegen ein gesetzmäßig ergangenes VU ergibt, dass die Klage unbegründet ist?",
+      "antworten": [
+        "VU aufgehoben und Klage abgewiesen; Beklagter trägt Säumniskosten, im Übrigen Kläger",
+        "VU aufgehoben; Kläger trägt die Kosten des Rechtsstreits",
+        "Klage abgewiesen; Kläger trägt die Kosten des Rechtsstreits",
+        "VU aufgehoben und Klage abgewiesen; Kläger trägt die Kosten einschließlich der Säumniskosten"
+      ],
+      "erklaerung": "„Das Versäumnisurteil vom … wird aufgehoben und die Klage abgewiesen.“ (§ 343 S. 2 ZPO; die Klageabweisung nicht vergessen). „Der Beklagte trägt die Kosten seiner Säumnis, die übrigen Kosten des Rechtsstreits trägt der Kläger.“ (§§ 91, 344 ZPO).\n\nVollstreckbarkeit für den Beklagten bzgl. seiner Prozesskosten sowie für den Kläger wegen der Kosten des § 344 ZPO jeweils nach §§ 708 Nr. 11, 711 bzw. § 709 S. 1, 2 ZPO.",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0310",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Wie lautet der Hauptsachetenor, wenn sich nach zulässigem Einspruch ergibt, dass die Klage in vollem Umfang begründet ist?",
+      "antworten": [
+        "„Das Versäumnisurteil vom … wird aufrechterhalten.“ (§ 343 S. 1 ZPO)",
+        "„Der Einspruch wird zurückgewiesen.“",
+        "„Der Beklagte wird verurteilt, an den Kläger … zu zahlen.“",
+        "„Der Einspruch wird verworfen; das Versäumnisurteil bleibt bestehen.“"
+      ],
+      "erklaerung": "Stimmt die aufgrund der neuen Verhandlung zu erlassende Entscheidung mit dem VU überein, wird ausgesprochen, dass diese Entscheidung aufrechtzuerhalten ist (§ 343 S. 1 ZPO). Kosten: „Die weiteren Kosten des Rechtsstreits trägt der Beklagte.“ Die AG-Unterlagen stützen dies teils auf § 91 Abs. 1 ZPO, teils auf § 97 ZPO analog.",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0311",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Darf das VU bei Teilerfolg des Einspruchs „teilweise aufgehoben und wie folgt neu gefasst“ werden?",
+      "antworten": [
+        "Nach Anders/Gehle in komplizierten Fällen ja; in der Klausur nur im Notfall",
+        "Nein, dies verstößt stets gegen den Wortlaut des § 343 ZPO",
+        "Ja, dies ist der Regelfall und in der Klausur vorzugswürdig",
+        "Ja, aber nur, wenn das VU nicht gesetzmäßig ergangen ist"
+      ],
+      "erklaerung": "Aus Gründen der Verständlichkeit wird teilweise (Anders/Gehle) vertreten, man könne in komplizierten Fällen ohne Verletzung des Wortlauts von § 343 ZPO eine Neufassung vornehmen („Das Versäumnisurteil vom … wird teilweise aufgehoben und wie folgt neu gefasst: Der Beklagte wird verurteilt, …“). In der Klausur nur im Notfall von dieser Möglichkeit Gebrauch machen.",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0312",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Wie ist der Hauptsachetenor zu fassen, wenn sich nach zulässigem Einspruch ergibt, dass die Klage nur teilweise begründet ist?",
+      "antworten": [
+        "VU aufrechterhalten, soweit begründet; im Übrigen aufgehoben und Klage abgewiesen",
+        "VU insgesamt aufheben und den Hauptsachetenor neu fassen",
+        "VU aufrechterhalten; im Übrigen Klage abweisen, ohne das VU teilweise aufzuheben",
+        "VU insgesamt aufheben, Beklagten zur Zahlung des begründeten Betrags verurteilen, im Übrigen Klage abweisen"
+      ],
+      "erklaerung": "„Das Versäumnisurteil vom … wird aufrechterhalten, soweit der Beklagte darin verurteilt wurde, an den Kläger … zu zahlen. Im Übrigen wird das Versäumnisurteil aufgehoben und die Klage abgewiesen.“ Wegen des Rangs etwaiger Vollstreckungsmaßnahmen und des Wortlauts von § 343 ZPO darf der Hauptsachetenor nicht ganz aufgehoben und völlig neu tenoriert werden; der Tenor zu Kosten und Vollstreckbarkeit wird allerdings nicht aufrechterhalten.\n\nKosten: „Der Beklagte trägt die Kosten seiner Säumnis. Von den übrigen Kosten des Rechtsstreits trägt der Kläger 1/3 und der Beklagte 2/3.“ Vollstreckbarkeit: § 709 S. 1–3 ZPO für den Kläger und §§ 708 Nr. 11, 711 bzw. § 709 ZPO für den Beklagten kombinieren.",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0313",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Welche Kosten- und Vollstreckbarkeitsnormen gelten für das Urteil, das den Einspruch als unzulässig verwirft?",
+      "antworten": [
+        "§ 97 Abs. 1 ZPO analog; § 708 Nr. 3 ZPO ohne Abwendungsbefugnis",
+        "§ 91 ZPO; § 708 Nr. 3 ZPO mit Abwendungsbefugnis (§ 711 ZPO)",
+        "§ 97 Abs. 1 ZPO analog; § 708 Nr. 2 ZPO mit Abwendungsbefugnis",
+        "§ 344 ZPO; § 709 S. 1 ZPO"
+      ],
+      "erklaerung": "Tenor: „Der Einspruch des Beklagten gegen das Versäumnisurteil des Amtsgerichts X (Az.) vom … wird als unzulässig verworfen. Der Beklagte trägt die weiteren Kosten des Rechtsstreits. Das Urteil ist vorläufig vollstreckbar.“\n\nKosten: § 97 Abs. 1 ZPO analog (Kosten eines erfolglosen Rechtsmittels trägt der Rechtsmittelführer). Vollstreckbarkeit: § 708 Nr. 3 ZPO, auf den § 711 ZPO nicht anwendbar ist. Tatbestand und Entscheidungsgründe sind grundsätzlich erforderlich; im Beispiel des AG-Urteils über 500 Euro ist ein Tatbestand nach § 313a Abs. 1 S. 1 ZPO entbehrlich.",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0314",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wie wird ein unzulässiger Einspruch beschieden?",
+      "antworten": [
+        "Verwerfung als unzulässig durch Urteil, auch ohne mündliche Verhandlung",
+        "Verwerfung als unzulässig durch Beschluss, auch ohne mündliche Verhandlung",
+        "Verwerfung als unzulässig durch Urteil, nur nach mündlicher Verhandlung",
+        "Zurückweisung als unbegründet durch Urteil nach mündlicher Verhandlung"
+      ],
+      "erklaerung": "Der unzulässige Einspruch wird als unzulässig verworfen (§ 341 Abs. 1 S. 2 ZPO). Die Entscheidung ergeht durch Urteil, das ohne vorherige mündliche Verhandlung ergehen kann (§ 341 Abs. 2 ZPO).",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0315",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Was gilt für das Versäumnisurteil nach Einlegung eines zulässigen Einspruchs?",
+      "antworten": [
+        "Es bleibt bestehen und ohne Sicherheit vollstreckbar; nur die Rechtskraft ist gehemmt",
+        "Es wird wirkungslos, bis über den Einspruch entschieden ist",
+        "Es bleibt bestehen, ist aber nur noch gegen Sicherheit vollstreckbar",
+        "Es bleibt bestehen; die Vollstreckung ist kraft Gesetzes eingestellt"
+      ],
+      "erklaerung": "Bei zulässigem Einspruch wird unverzüglich ein Einspruchstermin anberaumt (§ 341a ZPO). Das VU bleibt zunächst bestehen, nur die Rechtskraft wird gehemmt (§ 705 S. 2 ZPO). Die Zwangsvollstreckung bleibt ohne Sicherheitsleistung möglich, solange nicht auf Antrag eine Entscheidung nach §§ 719, 707 ZPO ergeht. Der Prozess wird in die Lage zurückversetzt, in der er sich vor der Säumnis befand (§ 342 ZPO).",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0316",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Welche Zulässigkeitsvoraussetzungen hat der Einspruch gegen ein Versäumnisurteil?",
+      "antworten": [
+        "Statthaftigkeit (§ 338), Notfrist von zwei Wochen ab Zustellung (§ 339), Form (§ 340 ZPO)",
+        "Statthaftigkeit (§ 338), Notfrist von einem Monat ab Zustellung (§ 339), Form (§ 340 ZPO)",
+        "Statthaftigkeit (§ 338), Frist von zwei Wochen ab Verkündung (§ 339), Begründung (§ 340 ZPO)",
+        "Beschwer, Notfrist von zwei Wochen ab Verkündung (§ 339), Form (§ 340 ZPO)"
+      ],
+      "erklaerung": "Rechtsbehelf gegen das echte VU ist nur der Einspruch (§§ 338, 514 Abs. 1 ZPO). Das Gericht prüft dessen Zulässigkeit von Amts wegen (§ 341 Abs. 1 S. 1 ZPO); der Einspruch ist der Gegenpartei zuzustellen (§ 340a ZPO). Voraussetzungen: Statthaftigkeit (§ 338 ZPO), Frist von zwei Wochen ab Zustellung des VU (§ 339 ZPO; Notfrist, ggf. Wiedereinsetzung), Form (§ 340 ZPO).",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0317",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Bis wann kann ein Einspruch zurückgenommen werden, und wie werden die Folgen ausgesprochen?",
+      "antworten": [
+        "Bis zur Verkündung des Urteils auf den Einspruch; Folgen von Amts wegen durch Beschluss",
+        "Bis zum Beginn der mündlichen Verhandlung; Folgen auf Antrag durch Beschluss",
+        "Bis zur Verkündung des Urteils auf den Einspruch; Folgen auf Antrag durch Urteil",
+        "Bis zum Schluss der mündlichen Verhandlung; Folgen von Amts wegen durch Urteil"
+      ],
+      "erklaerung": "Die Rücknahme des Einspruchs ist in § 346 ZPO geregelt, der auf die Vorschriften über Verzicht und Rücknahme der Berufung (§§ 515, 516 ZPO) verweist. Sie ist bis zur Verkündung des auf den Einspruch ergehenden Urteils möglich; Folge sind Verlust des Rechtsbehelfs und Kostentragungspflicht (§ 516 Abs. 3 S. 1 ZPO). Die Wirkungen sind von Amts wegen durch Beschluss auszusprechen (§ 516 Abs. 3 S. 2 ZPO); ein Antrag des Gegners ist nicht erforderlich. Der Einspruchstermin wird aufgehoben (§ 227 ZPO).\n\nTenor: „Der Beklagte hat den Rechtsbehelf des Einspruchs gegen die Versäumnisurteile vom … verloren. Der Beklagte trägt die weiteren Kosten des Rechtsstreits …“",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0318",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Ist gegen einen Kostenbeschluss nach § 91a ZPO bei einem Hauptsachewert von 195 Euro die sofortige Beschwerde statthaft?",
+      "antworten": [
+        "Nein, da der Hauptsachewert 600 Euro nicht übersteigt (§§ 91a Abs. 2 S. 2, 511 Abs. 2 Nr. 1 ZPO)",
+        "Ja, da es nur auf den Wert der Kosten ankommt (§ 567 Abs. 2 ZPO)",
+        "Ja, die sofortige Beschwerde ist stets statthaft (§ 91a Abs. 2 S. 1 ZPO)",
+        "Nein, Kostenbeschlüsse nach § 91a ZPO sind unanfechtbar"
+      ],
+      "erklaerung": "Gegen den Beschluss findet die sofortige Beschwerde statt (§§ 91a Abs. 2 S. 1, 567 ff. ZPO), nicht aber, wenn der Streitwert der Hauptsache den in § 511 ZPO genannten Betrag nicht übersteigt (§ 91a Abs. 2 S. 2 ZPO), also 600 Euro (§ 511 Abs. 2 Nr. 1 ZPO).\n\nStreitwert für die Zeit nach übereinstimmender Erledigungserklärung: nur noch die bis dahin entstandenen Kosten des Rechtsstreits.",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0319",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Nach welchem Maßstab wird über die Kosten nach übereinstimmender Erledigung entschieden, wenn eine erforderliche Beweisaufnahme nicht mehr stattgefunden hat?",
+      "antworten": [
+        "Billiges Ermessen nach bisherigem Sach- und Streitstand; offener Ausgang führt i. d. R. zu Kostenteilung oder -aufhebung",
+        "Billiges Ermessen nach bisherigem Sach- und Streitstand; der Beweisbelastete trägt i. d. R. die Kosten",
+        "Unterliegensprinzip; das Gericht holt die Beweisaufnahme zur Kostenentscheidung nach",
+        "Billiges Ermessen; der Beklagte trägt i. d. R. die Kosten, da er erledigt hat"
+      ],
+      "erklaerung": "Maßstab ist billiges Ermessen unter Berücksichtigung des bisherigen Sach- und Streitstands (§ 91a Abs. 1 S. 1 ZPO): Die Erfolgsaussichten von Kläger und Beklagtem werden relationstechnisch ermittelt; Billigkeitsgesichtspunkte (z. B. freiwillige Erfüllung, Rechtsgedanke des § 93 ZPO) sind zu berücksichtigen, ebenso die Unzulässigkeit der Klage. Naheliegende hypothetische Entwicklungen können Element des Sachstands sein (z. B. ob der Kläger nach Hinweis auf Unzuständigkeit Verweisung beantragt hätte).\n\nFehlt eine Beweisaufnahme, ist das Ergebnis i. d. R. offen; die Kosten werden dann 50/50 geteilt oder gegeneinander aufgehoben.",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0320",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wodurch kann sich der Beklagte der Erledigungserklärung des Klägers anschließen?",
+      "antworten": [
+        "Auch durch Nichtwiderspruch nach Hinweis (§ 91a Abs. 1 S. 2 ZPO) oder bloßen Kostenantrag",
+        "Nur durch ausdrückliche Erklärung in der mündlichen Verhandlung",
+        "Nur durch ausdrückliche schriftliche Erklärung",
+        "Auch durch Nichtwiderspruch ohne vorherigen Hinweis oder durch Klageabweisungsantrag"
+      ],
+      "erklaerung": "Für die Anschlusserklärung reicht aus, dass der Beklagte nicht widerspricht (§ 91a Abs. 1 S. 2 ZPO: Notfrist von zwei Wochen seit Zustellung des Schriftsatzes, wenn er zuvor auf diese Folge hingewiesen worden ist) oder nur einen Kostenantrag stellt.\n\nGibt der Beklagte keine Erklärung ab, prüft das Gericht, ob die Voraussetzungen des § 91a Abs. 1 S. 2 ZPO erfüllt sind; dann wird seine Zustimmung ersetzt. Sonst liegt eine einseitige Erledigungserklärung vor bzw. das Gericht holt den Hinweis nach und wartet die Notfrist ab.",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0321",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Welche Voraussetzungen hat die Begründetheit des Antrags auf Feststellung der Erledigung?",
+      "typ": "begriffe",
+      "reihenfolge": true,
+      "antworten": [
+        "Zulässigkeit der ursprünglichen Klage",
+        "Begründetheit der ursprünglichen Klage",
+        "Erledigendes Ereignis nach Rechtshängigkeit",
+        "Dadurch Unzulässigkeit oder Unbegründetheit der Klage"
+      ],
+      "falsche": [
+        "Zustimmung des Beklagten",
+        "Erledigendes Ereignis nach Anhängigkeit"
+      ],
+      "erklaerung": "Die Feststellungsklage ist begründet, wenn die ursprüngliche Klage zulässig und begründet war und durch ein erledigendes Ereignis nach Rechtshängigkeit unzulässig oder unbegründet geworden ist. Bei Erledigung durch Aufrechnung kommt es auf den Zeitpunkt der Aufrechnungserklärung an.\n\nTenor bei Erfolg: „Es wird festgestellt, dass der Rechtsstreit in der Hauptsache erledigt ist. Die Kosten des Rechtsstreits trägt der Beklagte.“ nebst Ausspruch zur vorläufigen Vollstreckbarkeit wegen der Kosten; sonst: „Die Klage wird abgewiesen.“",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0322",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Welche Wirkung hat eine einseitige Erledigungserklärung des Beklagten, wenn der Kläger seinen Antrag aufrechterhält?",
+      "antworten": [
+        "Keine, der Beklagte kann den Streitgegenstand nicht bestimmen",
+        "Sie wandelt die Klage in eine Feststellungsklage um",
+        "Sie ist als Anerkenntnis auszulegen",
+        "Sie führt zur Kostenentscheidung nach § 91a ZPO"
+      ],
+      "erklaerung": "Der Beklagte kann den Streitgegenstand nicht bestimmen; seine einseitige „Erledigungserklärung“ ist unbeachtlich. Eine Auslegung als (Feststellungs-)Widerklage kommt i. d. R. nicht in Betracht. Das Gericht entscheidet über den fortbestehenden Klageantrag.",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0323",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Woraus ergibt sich das Feststellungsinteresse (§ 256 Abs. 1 ZPO) bei einseitiger Erledigungserklärung?",
+      "antworten": [
+        "Der Kläger kann nur so der Kostenlast entgehen",
+        "Der Kläger braucht einen Titel für die erledigte Forderung",
+        "Der Beklagte hat die Erledigung bestritten und damit Anlass gegeben",
+        "Das Feststellungsinteresse ist bei Klageänderungen stets entbehrlich"
+      ],
+      "erklaerung": "Zulässigkeit der Feststellungsklage: Zuständigkeit, Zulässigkeit der Klageänderung (§§ 263, 264 Nr. 2 Alt. 2 ZPO), Feststellungsinteresse (§ 256 Abs. 1 ZPO). Das Feststellungsinteresse besteht, weil der Kläger bei fehlender Erledigungserklärung des Beklagten nur so der Kostenlast entgehen kann.",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0324",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Was ist die einseitige Erledigungserklärung des Klägers nach h. M.?",
+      "antworten": [
+        "Eine Klageänderung in einen Antrag auf Feststellung der Erledigung (§ 264 Nr. 2 ZPO)",
+        "Eine teilweise Klagerücknahme mit Kostenantrag (§ 269 ZPO)",
+        "Ein Antrag auf Kostenentscheidung nach § 91a ZPO",
+        "Ein Verzicht auf den Klageanspruch (§ 306 ZPO)"
+      ],
+      "erklaerung": "Bei einseitiger Erledigungserklärung gilt § 91a ZPO nicht. Die Rechtshängigkeit wird nicht beendet; der ursprüngliche Klageantrag wandelt sich in ein Begehren auf Feststellung der Erledigung der Hauptsache (Klageänderungstheorie, § 264 Nr. 2 ZPO, h. M.).\n\nDas wird bei der Auslegung des Klageantrags erörtert (Relation: Auslegungsstation; Urteil: am Beginn der Entscheidungsgründe). Folge: Prüfung von Zulässigkeit und Begründetheit einer Feststellungsklage.",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0325",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Wonach bemisst sich nach dem BGH der Streitwert bei einseitiger Erledigungserklärung?",
+      "antworten": [
+        "Nach dem Kostenwert",
+        "Nach dem Hauptsachewert",
+        "Nach dem um 50 % gekürzten Hauptsachewert",
+        "Nach dem Wert des erledigenden Ereignisses"
+      ],
+      "erklaerung": "Der Streitwert ist streitig: Nach dem BGH ist der Kostenwert maßgeblich; a. A. Hauptsachewert; weitere Ansicht: Feststellungswert (ursprüngliche Klage abzüglich 50 %).",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0326",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Kommt es für die übereinstimmende Erledigung darauf an, welche Partei die Erledigung zuerst erklärt?",
+      "antworten": [
+        "Nein, die Reihenfolge der Erklärungen ist unerheblich",
+        "Ja, der Kläger muss zuerst erklären",
+        "Ja, der Beklagte muss zuerst erklären",
+        "Nein, sofern beide Erklärungen im selben Termin erfolgen"
+      ],
+      "erklaerung": "Die Reihenfolge der Erklärungen ist unerheblich. Erklärt zunächst der Beklagte die Erledigung und schließt sich der Kläger später an, liegt eine übereinstimmende Erledigung mit Kostenbeschluss nach § 91a ZPO vor.",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0327",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "In welcher Form kann die übereinstimmende Erledigungserklärung abgegeben werden, und besteht Anwaltszwang?",
+      "antworten": [
+        "In der mündlichen Verhandlung, im Schriftsatz oder zu Protokoll der Geschäftsstelle; kein Anwaltszwang",
+        "In der mündlichen Verhandlung oder im Schriftsatz; Anwaltszwang vor dem LG",
+        "Nur in der mündlichen Verhandlung; Anwaltszwang vor dem LG",
+        "Im Schriftsatz oder zu Protokoll der Geschäftsstelle; Anwaltszwang nur für den Kläger"
+      ],
+      "erklaerung": "Die Erklärung kann in der mündlichen Verhandlung, durch Schriftsatz oder zu Protokoll der Geschäftsstelle abgegeben werden (§ 91a Abs. 1 S. 1 ZPO); der Anwaltszwang ist aufgehoben (§ 91a Abs. 1 S. 1 i. V. m. § 78 Abs. 3 ZPO). Erforderlich sind Erledigungserklärung des Klägers und Anschlusserklärung des Beklagten (jeweils Prozesshandlungen).",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0328",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Prüft das Gericht nach übereinstimmender Erledigungserklärung, ob tatsächlich Erledigung eingetreten ist?",
+      "antworten": [
+        "Nein, der Prozess ist beendet; es wird nur noch über die Kosten entschieden",
+        "Ja, im Rahmen der Begründetheit einer Feststellungsklage",
+        "Ja, aber nur auf Rüge des Beklagten",
+        "Nein, es entscheidet aber noch über die Hauptsache durch Prozessurteil"
+      ],
+      "erklaerung": "Die übereinstimmende Erledigungserklärung beendet den Prozess; die Rechtshängigkeit erlischt. Es findet keine Prüfung statt, ob tatsächlich Erledigung vorliegt, und keine Fortführung der Hauptsache, insbesondere keine Beweisaufnahme. Der Anspruch kann theoretisch erneut eingeklagt werden (BGH NJW 1991, 2280).\n\nBereits ergangene, nicht rechtskräftige Urteile werden wirkungslos (§ 269 Abs. 3 S. 1 ZPO analog). Über die Kosten wird nach § 91a ZPO durch Beschluss entschieden.",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0329",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Nach welchem Maßstab richtet sich die Kostenentscheidung, wenn der Anlass zur Klage vor Rechtshängigkeit wegfällt und die Klage daraufhin zurückgenommen wird?",
+      "antworten": [
+        "Billiges Ermessen unter Berücksichtigung des bisherigen Sach- und Streitstands (§ 269 Abs. 3 S. 3 ZPO)",
+        "Stets Kostentragung durch den Kläger (§ 269 Abs. 3 S. 2 ZPO)",
+        "Stets Kostentragung durch den Beklagten (§ 93 ZPO entsprechend)",
+        "Kostenaufhebung (§ 92 Abs. 1 S. 2 ZPO)"
+      ],
+      "erklaerung": "Ist der Anlass zur Einreichung der Klage vor Rechtshängigkeit weggefallen und wird die Klage daraufhin zurückgenommen, bestimmt sich die Kostentragungspflicht nach billigem Ermessen unter Berücksichtigung des bisherigen Sach- und Streitstands; das gilt auch, wenn die Klage nicht zugestellt wurde (§ 269 Abs. 3 S. 3 ZPO).\n\nBeispiel: Klageeingang 05.01., Zahlung 15.01., Zustellung 16.01. Eine Erledigungserklärung scheidet aus, da die Erledigung nicht nach Rechtshängigkeit eintrat; die Klagerücknahme mit Kostenfolge nach § 269 Abs. 3 S. 3 ZPO ist die beste Lösung. Denkbar ist auch die Änderung in einen Feststellungsantrag auf Kostentragung des Beklagten als Verzugsschaden (Feststellungsinteresse str., bejahend BGH NJW 2013, 2201).",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0330",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Wann gilt die Einwilligung des Beklagten in eine nach Beginn der mündlichen Verhandlung erklärte Klagerücknahme als erteilt?",
+      "antworten": [
+        "Bei fehlendem Widerspruch binnen zwei Wochen ab Zustellung, wenn zuvor auf diese Folge hingewiesen wurde",
+        "Bei fehlendem Widerspruch binnen zwei Wochen ab Zustellung, auch ohne vorherigen Hinweis",
+        "Bei fehlendem Widerspruch binnen eines Monats ab Zustellung, wenn zuvor auf diese Folge hingewiesen wurde",
+        "Bei fehlendem Widerspruch bis zum nächsten Termin, auch ohne vorherigen Hinweis"
+      ],
+      "erklaerung": "Nach Beginn der mündlichen Verhandlung (= Stellen der Anträge, § 137 Abs. 1 ZPO) ist die Einwilligung des Beklagten erforderlich (§ 269 Abs. 1 ZPO); die Rücknahme ist ihm deshalb zuzustellen (§ 269 Abs. 2 S. 3 ZPO).\n\nWiderspricht der Beklagte nicht innerhalb einer Notfrist von zwei Wochen seit der Zustellung, gilt seine Einwilligung als erteilt, wenn er zuvor auf diese Folge hingewiesen worden ist (§ 269 Abs. 2 S. 4 ZPO). Die Hinweispflicht des Gerichts ist zu beachten.",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0331",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Gilt § 269 Abs. 3 S. 3 ZPO auch, wenn das erledigende Ereignis schon vor Anhängigkeit eintrat und der Kläger davon schuldlos erst nach Klageeinreichung erfährt?",
+      "antworten": [
+        "Ja (h. M.); nach a. A. ist nur die Änderung in eine Feststellungsklage möglich",
+        "Nein (h. M.); der Kläger trägt die Kosten nach § 269 Abs. 3 S. 2 ZPO",
+        "Nein (h. M.); möglich ist nur eine übereinstimmende Erledigungserklärung",
+        "Ja, aber nur bei Zustimmung des Beklagten"
+      ],
+      "erklaerung": "Nach h. M. gilt § 269 Abs. 3 S. 3 ZPO auch dann, wenn der Kläger schuldlos erst nach Einreichung der Klage von der Erledigung Kenntnis erhält (Zöller § 269 Rn. 18c). Nach a. A. ist nur eine Klageänderung in eine Feststellungsklage möglich (Elzer NJW 2002, 2006, 2008).",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0332",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "In welcher Form kann die Klage zurückgenommen werden?",
+      "antworten": [
+        "In der mündlichen Verhandlung zu Protokoll oder durch Einreichung eines Schriftsatzes",
+        "Nur durch Einreichung eines Schriftsatzes",
+        "Nur in der mündlichen Verhandlung zu Protokoll",
+        "Durch Erklärung gegenüber dem Beklagten oder dem Gericht"
+      ],
+      "erklaerung": "Die Klagerücknahme ist eine einseitige Prozesshandlung des Klägers gegenüber dem Gericht (§ 269 Abs. 2 S. 1 ZPO). Sie erfolgt in der mündlichen Verhandlung (Aufnahme ins Protokoll, die gesondert zu genehmigen ist, §§ 160 Abs. 3 Nr. 8, 162 ZPO) oder durch Einreichung eines Schriftsatzes (§ 269 Abs. 2 S. 2 ZPO).",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0333",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wie wird über die Kosten einer vollständigen und einer teilweisen Klagerücknahme entschieden?",
+      "antworten": [
+        "Vollständig: auf Antrag durch Beschluss; teilweise: von Amts wegen im Urteil",
+        "Vollständig: von Amts wegen durch Beschluss; teilweise: auf Antrag im Urteil",
+        "Vollständig: auf Antrag durch Urteil; teilweise: von Amts wegen im Urteil",
+        "Beide: auf Antrag durch gesonderten Beschluss"
+      ],
+      "erklaerung": "Bei vollständiger Rücknahme entscheidet das Gericht über die Wirkungen nach § 269 Abs. 3 ZPO nur auf Antrag durch Beschluss (§ 269 Abs. 4 ZPO); die Begründung kann sich auf den Hinweis auf das Gesetz beschränken.\n\nBei teilweiser Rücknahme wird im Urteil von Amts wegen eine gemischte Kostenentscheidung getroffen (§ 269 Abs. 3 S. 2 ZPO i. V. m. §§ 91 ff. ZPO).",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0334",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Welche Wirkungen hat eine wirksame Klagerücknahme?",
+      "typ": "begriffe",
+      "reihenfolge": false,
+      "antworten": [
+        "Wegfall der Rechtshängigkeit",
+        "Wirkungslosigkeit ergangener Urteile",
+        "Kostentragungspflicht des Klägers",
+        "Einrede der Kostenerstattung bei neuer Klage"
+      ],
+      "falsche": [
+        "Rechtskraft der Abweisung",
+        "Verlust des Klagerechts",
+        "Kostenaufhebung"
+      ],
+      "erklaerung": "Mit der Rücknahme entfällt die Rechtshängigkeit (§ 269 Abs. 3 S. 1 ZPO); bisher ergangene, nicht rechtskräftige Urteile (VU, Teilurteil) werden wirkungslos. Der Kläger kann den Streitgegenstand erneut vor Gericht bringen. Er trägt die Kosten (§ 269 Abs. 3 S. 2 ZPO). Bei erneuter Klage kann der Beklagte die Einlassung verweigern, bis ihm die Kosten erstattet sind (§ 269 Abs. 6 ZPO).",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0335",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Wer trägt die Kosten bei einem Verzichtsurteil (§ 306 ZPO)?",
+      "antworten": [
+        "Stets der Kläger (§ 91 ZPO)",
+        "Der Beklagte, wenn er keinen Anlass zur Klage gegeben hat (§ 93 ZPO)",
+        "Die Parteien je zur Hälfte (§ 92 ZPO)",
+        "Das Gericht entscheidet nach billigem Ermessen (§ 91a ZPO)"
+      ],
+      "erklaerung": "Der Klageverzicht ist die Prozesserklärung, dass auf den Klageanspruch verzichtet wird. Grundsätzlich gelten die Ausführungen zum Anerkenntnis entsprechend; die Kosten trägt aber immer der Kläger nach § 91 ZPO.",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0336",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wie lang sind Ladungsfrist (§ 217 ZPO) im Anwaltsprozess und Einlassungsfrist (§ 274 Abs. 3 S. 1 ZPO)?",
+      "antworten": [
+        "Ladungsfrist mindestens eine Woche; Einlassungsfrist mindestens zwei Wochen",
+        "Ladungsfrist mindestens drei Tage; Einlassungsfrist mindestens eine Woche",
+        "Ladungsfrist mindestens zwei Wochen; Einlassungsfrist mindestens eine Woche",
+        "Ladungsfrist mindestens eine Woche; Einlassungsfrist mindestens ein Monat"
+      ],
+      "erklaerung": "Die Ladungsfrist beträgt in Anwaltsprozessen mindestens eine Woche, in anderen Prozessen mindestens drei Tage (§ 217 ZPO). Zwischen der Zustellung der Klageschrift und dem Termin zur mündlichen Verhandlung muss ein Zeitraum von mindestens zwei Wochen liegen (Einlassungsfrist, § 274 Abs. 3 S. 1 ZPO). Ihre Nichteinhaltung ist ein Erlasshindernis nach § 335 Abs. 1 Nr. 2 bzw. Nr. 3 ZPO.",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0337",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Können Prozesshandlungen wegen Willensmängeln nach §§ 119 ff. BGB angefochten werden?",
+      "antworten": [
+        "Grundsätzlich nicht; Ausnahme nach den AG-Unterlagen: arglistige Täuschung",
+        "Ja, wie jede Willenserklärung",
+        "Grundsätzlich nicht; Ausnahme: Inhaltsirrtum",
+        "Ja, aber nur bis zum Schluss der mündlichen Verhandlung"
+      ],
+      "erklaerung": "Die Regeln des BGB über Willensmängel gelten für Prozesshandlungen nicht; eine Anfechtung nach §§ 119 ff. BGB scheidet daher aus (nach den AG-Unterlagen Ausnahme: arglistige Täuschung). Eine Prozesshandlung kann zugleich eine rechtsgeschäftliche Willenserklärung enthalten, muss es aber nicht (Beispiel: Aufrechnung).",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0338",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Nach welchem Maßstab werden Prozesshandlungen ausgelegt, und ist eine Umdeutung möglich?",
+      "antworten": [
+        "Nach dem wirklichen Willen (§ 133 BGB entsprechend); Umdeutung entsprechend § 140 BGB möglich",
+        "Nach dem objektiven Wortlaut; Umdeutung ausgeschlossen",
+        "Nach dem wirklichen Willen (§ 133 BGB entsprechend); Umdeutung ausgeschlossen",
+        "Nach dem objektiven Wortlaut; Umdeutung entsprechend § 140 BGB möglich"
+      ],
+      "erklaerung": "Prozesshandlungen sind Handlungen oder Erklärungen einer Partei, deren Hauptwirkungen auf prozessualem Gebiet liegen. Sie werden entsprechend § 133 BGB nach dem wirklichen Willen der Partei ausgelegt; eine Umdeutung entsprechend § 140 BGB ist möglich.\n\nBeispiel: „B hat unter dem Eindruck der Beweisaufnahme gezahlt. Ein Urteil braucht daher gegen ihn nicht zu ergehen.“ ist als Erledigungserklärung auszulegen.",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0339",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Dürfen Prozesshandlungen unter einer Bedingung vorgenommen werden?",
+      "antworten": [
+        "Nein, zulässig sind nur innerprozessuale Bedingungen",
+        "Ja, sofern die Bedingung bis zum Schluss der mündlichen Verhandlung eintritt",
+        "Nein, auch innerprozessuale Bedingungen sind unzulässig",
+        "Ja, sofern der Gegner zustimmt"
+      ],
+      "erklaerung": "Prozesshandlungen sind bedingungsfeindlich, da die Prozesssituation eindeutig sein muss und keine Schwebezustände entstehen dürfen (z. B. keine bedingte Klageerhebung oder Rechtsmitteleinlegung). Zulässig sind aber innerprozessuale Bedingungen.",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0340",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Mit welchem Rechtsbehelf kann ein Prozessvergleich über künftig fällig werdende Leistungen bei Wegfall der Geschäftsgrundlage angepasst werden?",
+      "antworten": [
+        "Abänderungsklage (§ 323a ZPO)",
+        "Vollstreckungsabwehrklage (§ 767 ZPO)",
+        "Fortsetzung des alten Prozesses (§ 216 ZPO)",
+        "Restitutionsklage (§ 580 ZPO)"
+      ],
+      "erklaerung": "§ 323a ZPO stellt klar, dass ein Beteiligter im Wege des Abänderungsantrags eine Korrektur der Vereinbarungen verlangen kann, wenn die Geschäftsgrundlage für die Verpflichtung zu künftig fällig werdenden Leistungen sich verändert hat oder weggefallen ist (vgl. Schultheiß, JuS 2015, 318).",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0341",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Welche Rechtsnatur hat der Prozessvergleich?",
+      "antworten": [
+        "Doppelnatur: materielles Rechtsgeschäft (§ 779 BGB) und Prozesshandlung",
+        "Reine Prozesshandlung mit materiell-rechtlicher Wirkung",
+        "Reines materielles Rechtsgeschäft, das zu Protokoll genommen wird",
+        "Gerichtliche Entscheidung auf übereinstimmenden Antrag"
+      ],
+      "erklaerung": "Der Prozessvergleich ist die gütliche Beilegung des Rechtsstreits durch gegenseitiges Nachgeben in Form eines materiell-rechtlichen Rechtsgeschäfts (vgl. § 779 BGB) und einer Prozesshandlung. Prozessualer und materiell-rechtlicher Teil bedingen sich in Wirkung und Wirksamkeit.\n\nEr ist Vollstreckungstitel (§ 794 Abs. 1 Nr. 1 ZPO), entfaltet aber keine materielle Rechtskraft, und beendet die Rechtshängigkeit unmittelbar (ex nunc).",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0342",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wie sind die Kosten eines Prozessvergleichs verteilt, wenn die Parteien keine Regelung getroffen haben?",
+      "antworten": [
+        "Sie gelten als gegeneinander aufgehoben (§ 98 ZPO)",
+        "Das Gericht entscheidet nach billigem Ermessen (§ 91a ZPO entsprechend)",
+        "Sie werden nach dem Verhältnis des Nachgebens verteilt (§ 92 ZPO)",
+        "Der Kläger trägt sie entsprechend § 269 Abs. 3 S. 2 ZPO"
+      ],
+      "erklaerung": "Eine Kostenentscheidung des Gerichts ist nur nach § 98 ZPO zu treffen, wenn die Parteien keine Regelung getroffen haben: Die Kosten des Vergleichs und, soweit nicht rechtskräftig über sie entschieden ist, des Rechtsstreits gelten dann als gegeneinander aufgehoben.\n\nDer Vergleich reduziert die Gerichtskosten auf eine 1,0-Gebühr (Nr. 1211 Nr. 3 KV GKG); die Rechtsanwälte erhalten eine Einigungsgebühr (Nr. 1000 VV RVG).",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0343",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Welche materiell-rechtlichen Voraussetzungen hat ein Prozessvergleich?",
+      "typ": "begriffe",
+      "reihenfolge": false,
+      "antworten": [
+        "Streitiges Rechtsverhältnis",
+        "Gegenseitiges Nachgeben",
+        "Dispositionsbefugnis der Parteien",
+        "Kein Irrtum über die Vergleichsgrundlage"
+      ],
+      "falsche": [
+        "Rechtshängigkeit des Vergleichsgegenstands",
+        "Schriftform nach § 126 BGB",
+        "Gerichtliche Billigung des Inhalts"
+      ],
+      "erklaerung": "Erforderlich ist ein Vertragsschluss mit dem Inhalt des § 779 BGB (streitiges Rechtsverhältnis, Beilegung durch gegenseitiges Nachgeben); allgemeine Vorschriften dürfen nicht entgegenstehen (z. B. §§ 104 ff., 119 ff., 134 BGB); die Parteien müssen dispositionsbefugt sein (im Familienrecht z. B. Kindeswohl und elterliche Sorge nicht dispositiv); kein Unwirksamkeitsgrund nach § 779 Abs. 1 BGB.\n\nEine erforderliche notarielle Beurkundung (z. B. § 311b Abs. 1 S. 1 BGB) wird durch die gerichtliche Protokollierung ersetzt (§ 127a BGB).",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0344",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Welche Folge hat die nachträgliche materiell-rechtliche Unwirksamkeit eines Prozessvergleichs (z. B. Aufhebungsvertrag) nach dem BGH?",
+      "antworten": [
+        "Nur die materielle Seite ist unwirksam; der Prozess bleibt beendet, Geltendmachung im neuen Prozess",
+        "Der Vergleich ist wegen seiner Doppelnatur insgesamt unwirksam; der alte Prozess wird fortgesetzt",
+        "Nur die prozessuale Seite ist unwirksam; der alte Prozess wird fortgesetzt",
+        "Der Vergleich bleibt insgesamt wirksam; Anpassung nur durch Abänderungsklage"
+      ],
+      "erklaerung": "Anfängliche materiell-rechtliche Unwirksamkeit (z. B. Anfechtung, § 142 Abs. 1 BGB) macht den Prozessvergleich wegen seiner Doppelnatur insgesamt unwirksam.\n\nBei nachträglicher Unwirksamkeit (z. B. Aufhebungsvertrag, Störung der Geschäftsgrundlage) ist str.: Nach BAG/Teil der Lit. ist der Vergleich wegen der Doppelnatur unwirksam; nach BGH/Teil der Lit. ist nur die materiell-rechtliche Seite unwirksam, die prozessuale bleibt wirksam, der Prozess ist beendet und die Unwirksamkeit in einem neuen Prozess geltend zu machen.",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0345",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Welche Folge hat die prozessuale Unwirksamkeit eines Prozessvergleichs (z. B. fehlende Protokollierung)?",
+      "antworten": [
+        "Der alte Prozess bleibt rechtshängig; über die Wirksamkeit wird im alten Prozess entschieden",
+        "Der Prozess ist beendet; die Unwirksamkeit ist in einem neuen Prozess geltend zu machen",
+        "Der alte Prozess bleibt rechtshängig; über die Wirksamkeit wird in einem neuen Prozess entschieden",
+        "Der Vergleich bleibt als Vollstreckungstitel wirksam, bis er aufgehoben wird"
+      ],
+      "erklaerung": "Bei prozessualer Unwirksamkeit (z. B. fehlende Protokollierung, fehlende Postulationsfähigkeit) bleibt der alte Prozess rechtshängig; es besteht keine Vollstreckbarkeit. Bei Streit über die Wirksamkeit entscheidet das Gericht im alten Prozess über dessen Beendigung: Ist er beendet, wird der Antrag auf Anberaumung eines neuen Termins als unzulässig abgewiesen bzw. die Erledigung durch Prozessurteil festgestellt; sonst neuer Termin (§ 216 ZPO), ggf. Zwischenurteil (§ 303 ZPO).\n\nOb die Unwirksamkeit auch die materiell-rechtliche Seite erfasst, ist durch Auslegung im Einzelfall zu ermitteln (§ 139 BGB).",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0346",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Welche prozessualen Voraussetzungen hat ein Prozessvergleich?",
+      "typ": "begriffe",
+      "reihenfolge": false,
+      "antworten": [
+        "Abschluss vor einem deutschen Gericht",
+        "Anhängigkeit eines Streitverfahrens",
+        "Erfassung des Streitgegenstands",
+        "Prozesshandlungsvoraussetzungen",
+        "Protokollierung oder § 278 Abs. 6 ZPO"
+      ],
+      "falsche": [
+        "Rechtshängigkeit der Hauptsache",
+        "Zustimmung des Gerichts",
+        "Notarielle Beurkundung"
+      ],
+      "erklaerung": "Prozessuale Voraussetzungen: Abschluss durch die Parteien vor einem deutschen Gericht; Anhängigkeit eines Streitverfahrens (auch PKH-Verfahren oder selbständiges Beweisverfahren); der Streitgegenstand des anhängigen Verfahrens muss erfasst sein (Einbeziehung nicht rechtshängiger Ansprüche, „Mehrvergleich“, und Dritter möglich); allgemeine Prozesshandlungsvoraussetzungen; bei mündlicher Verhandlung Protokollierung (§§ 160 Abs. 3 Nr. 1, 162 ZPO), ohne mündliche Verhandlung § 278 Abs. 6 ZPO.\n\nAbgrenzung: Der Anwaltsvergleich (§§ 796a ff. ZPO) setzt keinen anhängigen Prozess voraus und dient der Vermeidung eines Rechtsstreits.",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0347",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Welche Folgen kann die Säumnis in der mündlichen Verhandlung haben?",
+      "typ": "begriffe",
+      "reihenfolge": false,
+      "antworten": [
+        "Versäumnisurteil",
+        "Entscheidung nach Lage der Akten",
+        "Ruhen des Verfahrens",
+        "Vertagung"
+      ],
+      "falsche": [
+        "Präklusion",
+        "Klagerücknahmefiktion",
+        "Wiedereinsetzung"
+      ],
+      "erklaerung": "Folgen der Säumnis in der mündlichen Verhandlung: ggf. Versäumnisurteil (§§ 330 ff. ZPO), Entscheidung nach Lage der Akten (§§ 331a, 251a ZPO), Anordnung des Ruhens des Verfahrens (§ 251a Abs. 3 ZPO) oder Vertagung (§ 227 ZPO).",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0348",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Ist die Kostenauferlegung nach § 344 ZPO auch dann auszusprechen, wenn ungewiss ist, ob Säumnis-Mehrkosten entstanden sind?",
+      "antworten": [
+        "Ja, ob Mehrkosten entstanden sind, wird erst im Kostenfestsetzungsverfahren ermittelt",
+        "Nein, nur wenn feststeht, dass Mehrkosten entstanden sind",
+        "Nein, da nach h. M. nie Mehrkosten entstehen",
+        "Ja, das Gericht muss die Mehrkosten zugleich beziffern"
+      ],
+      "erklaerung": "Die Kostenauferlegung nach § 344 ZPO ist immer nötig, auch wenn der Anfall von Mehrkosten ungewiss ist. Ob tatsächlich Mehrkosten infolge der Säumnis entstanden sind, ermittelt erst der Rechtspfleger im Kostenfestsetzungsverfahren nach § 104 ZPO (KG, Beschl. v. 15.08.2008, 1 W 298/08).\n\nHintergrund: Dem Anwalt des Klägers entsteht zunächst eine halbe Terminsgebühr (Nr. 3105 VV RVG), die sich bei einem folgenden Verhandlungstermin auf eine reguläre Terminsgebühr erhöht; nach h. M. (str.) entstehen dann keine Mehrkosten.",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0349",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Wann ist im streitigen Urteil nach Einspruch die Gesetzmäßigkeit des ersten VU für § 344 ZPO zu prüfen?",
+      "antworten": [
+        "Wenn das VU nicht ganz aufrechterhalten wird (§ 343 S. 2 ZPO)",
+        "Stets, auch wenn das VU ganz aufrechterhalten wird",
+        "Nur auf Rüge des Beklagten",
+        "Nur wenn das VU im schriftlichen Vorverfahren ergangen ist"
+      ],
+      "erklaerung": "Die Frage der Säumnis ist bei Einspruch gegen ein VU nur für die Kostenentscheidung nach § 344 ZPO wichtig. Grundsätzlich gelten §§ 91, 92 ZPO; daneben ist § 344 ZPO zu prüfen, wenn das VU nicht ohnehin ganz aufrechterhalten wird, also ein Fall des § 343 S. 2 ZPO vorliegt (sonst § 97 ZPO analog).\n\nZu prüfen ist, ob das VU „in gesetzlicher Weise ergangen“ ist: Zulässigkeit und Schlüssigkeit (§§ 330, 331 ZPO), Säumnis (§§ 335, 337 ZPO; aus § 337 ZPO folgt, dass ein rechtmäßiges VU verschuldete Säumnis voraussetzt). Fehlt das, wird „ganz normal“ nach §§ 91 ff. ZPO entschieden. Umfang der Säumniskosten: halbe Terminsgebühr (Nr. 3105 VV RVG), Auslagen für den Termin.",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0350",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Was ist bei der Kostenentscheidung im Urteil nach übereinstimmender Teilerledigung zu beachten?",
+      "antworten": [
+        "Gesamtquote aus § 91 und § 91a ZPO; der § 91a-Teil ist gesondert zu begründen",
+        "Gesonderter Kostenbeschluss für den erledigten Teil neben dem Urteil",
+        "Kostenentscheidung nur nach § 91 ZPO über den Rest; der erledigte Teil bleibt unberücksichtigt",
+        "Gesamtquote aus § 91 und § 91a ZPO; eine Begründung des § 91a-Teils ist entbehrlich"
+      ],
+      "erklaerung": "Entscheidungsgründe: Klarstellung im Obersatz, dass in der Sache nur noch über einen Teil des ursprünglichen Streitgegenstands zu entscheiden ist; Wirksamkeit der Teilerledigung nur sofern problematisch; Zulässigkeit und Begründetheit der restlichen Klage; gemischte Kostenentscheidung mit Gesamtquote („Die Kostenentscheidung ergibt sich aus § 91 Abs. 1 ZPO und § 91a ZPO.“), wobei die § 91a-Entscheidung gesondert zu begründen ist.\n\nDie §§ 708 ff. ZPO sind auf die gesamten Kosten anzuwenden; eine Ausklammerung der auf den erledigten Teil entfallenden Kosten (§ 794 Abs. 1 Nr. 3 ZPO) erscheint nicht angebracht. Bei einseitiger Teilerledigung: teilweise Feststellungsklage, im Übrigen Leistungsklage.",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0351",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wie ist eine übereinstimmende Teilerledigung im Tatbestand darzustellen?",
+      "antworten": [
+        "In der kleinen Prozessgeschichte vor den zuletzt gestellten Anträgen zum Rest",
+        "Gar nicht, da insoweit keine Rechtshängigkeit mehr besteht",
+        "Im unstreitigen Sachverhalt",
+        "In der großen Prozessgeschichte am Ende"
+      ],
+      "erklaerung": "Aufbau: Unstreitiges, streitiges Klägervorbringen, kleine Prozessgeschichte („Ursprünglich hat der Kläger beantragt, den Beklagten zu verurteilen, … Die Parteien haben jedoch übereinstimmend den Rechtsstreit in Höhe von … betreffend … für erledigt erklärt. Der Kläger beantragt zuletzt:“), neue Anträge zum Rest, streitiges Beklagtenvorbringen, Prozessgeschichte.\n\nRechtshängig bleibt nur der verbleibende Antrag (§ 261 Abs. 3 Nr. 2 ZPO); die Teilerledigung wird aber in der einheitlichen Kostenentscheidung berücksichtigt.",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0352",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wo ist die Wirksamkeit einer Teil-Klagerücknahme in den Entscheidungsgründen zu erörtern?",
+      "antworten": [
+        "Grundsätzlich am Anfang",
+        "Im Rahmen der Zulässigkeit",
+        "Im Rahmen der Begründetheit",
+        "Erst bei der Kostenentscheidung"
+      ],
+      "erklaerung": "Die Wirksamkeit der Klagerücknahme wird grundsätzlich am Anfang der Entscheidungsgründe dargestellt, da es bei wirksamer Rücknahme insoweit auf Zulässigkeit und Begründetheit nicht mehr ankommt. Auf die Zuständigkeit wirkt sich die Teilrücknahme wegen § 261 Abs. 3 Nr. 2 ZPO i. d. R. nicht aus. Kostenentscheidung: § 269 Abs. 3 S. 2 ZPO, i. d. R. gemischt.\n\nIm Rubrum hat die Rücknahme keine Auswirkungen; ein Streitgenosse, gegenüber dem oder durch den zurückgenommen wurde, bleibt genannt, da er an der Kostenentscheidung beteiligt ist.",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0353",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Wo ist eine wirksame Teil-Klagerücknahme im Tatbestand darzustellen?",
+      "antworten": [
+        "Am Ende der kleinen Prozessgeschichte vor den zuletzt gestellten Anträgen",
+        "Gar nicht, da die Rechtshängigkeit rückwirkend entfällt",
+        "In der großen Prozessgeschichte am Ende des Tatbestands",
+        "Im unstreitigen Sachverhalt vor dem streitigen Klägervortrag"
+      ],
+      "erklaerung": "Die wirksame Teil-Klagerücknahme muss trotz der grundsätzlich rückwirkenden Beendigung der Rechtshängigkeit im Tatbestand geschildert werden, wenn sie – wie im Regelfall – Auswirkung auf die Kostenentscheidung hat. Sie steht am Ende der kleinen Prozessgeschichte vor den zuletzt gestellten Anträgen („Mit Schriftsatz vom 03.01.2013 hat der Kläger die Klage in Höhe von 300,00 EUR teilweise zurückgenommen und beantragt nunmehr, …“).\n\nDarzustellen sind die prozessualen Erklärungen objektiv ohne rechtliche Wertung; ob die Rücknahme wirksam ist, ergibt sich erst aus den Entscheidungsgründen.",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0354",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Welche Folgen hat die Versäumung einer materiellen Ausschlussfrist einerseits und einer prozessualen Frist andererseits?",
+      "antworten": [
+        "Materiell: Rechtsverlust; prozessual: § 296 Abs. 1 bzw. §§ 230, 231 ZPO",
+        "Materiell: § 296 Abs. 1 ZPO; prozessual: Rechtsverlust",
+        "Materiell: Rechtsverlust; prozessual: stets Versäumnisurteil",
+        "Materiell: Wiedereinsetzung; prozessual: § 296 Abs. 2 ZPO"
+      ],
+      "erklaerung": "Eine Partei kann Fristen, rechtzeitigen Vortrag und Termine versäumen. Bei materiellen Ausschlussfristen (z. B. Anfechtungsfrist, § 124 BGB) tritt Rechtsverlust ein. Prozessuale Fristen sind vom Gericht gesetzte (z. B. § 276 Abs. 1 S. 2 ZPO) oder gesetzliche Fristen, insbesondere Notfristen (z. B. § 269 Abs. 2 S. 4 ZPO); Folge ist § 296 Abs. 1 bzw. §§ 230, 231 ZPO.",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0355",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Nach welchen Normen wird verspätetes Vorbringen nach Fristsetzung, ohne Fristsetzung und nach Schluss der mündlichen Verhandlung zurückgewiesen?",
+      "antworten": [
+        "§ 296 Abs. 1, § 296 Abs. 2, § 296a ZPO",
+        "§ 296 Abs. 2, § 296 Abs. 1, § 296a ZPO",
+        "§ 296 Abs. 1, § 282 ZPO, § 296 Abs. 2 ZPO",
+        "§ 282 ZPO, § 296 Abs. 1, § 296a ZPO"
+      ],
+      "erklaerung": "Grundsätzlich gilt die Prozessförderungspflicht (§ 282 ZPO). Verspätet vorgebrachte Angriffs- und Verteidigungsmittel bleiben unbeachtet: nach Fristsetzung nach § 296 Abs. 1 ZPO, ohne Fristsetzung nach § 296 Abs. 2 ZPO, nach Schluss der mündlichen Verhandlung nach § 296a ZPO.\n\nDie Nichterhebung verzichtbarer Rügen (z. B. §§ 39, 267 ZPO) kann zum Eintritt einer Fiktion und zu Kostennachteilen führen.",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0356",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Steht § 337 ZPO einem Versäumnisurteil entgegen, wenn der Anwalt unverschuldet im Stau steht, das Gericht aber trotz Mobiltelefons nicht informiert?",
+      "antworten": [
+        "Nein, er hätte das Gericht informieren müssen, um eine Vertagung zu ermöglichen",
+        "Ja, da er den Stau nicht zu vertreten hat",
+        "Ja, wenn er rechtzeitig losgefahren ist",
+        "Nein, Verkehrsstaus sind stets einzuplanen"
+      ],
+      "erklaerung": "§ 337 ZPO steht dem Erlass eines VU nicht entgegen (BGH NJW 2006, 448 f.): Der Anwalt hat den Stau zwar nicht zu vertreten und ist rechtzeitig losgefahren, er war aber gehalten, das Gericht über das Mobiltelefon zu informieren, um ihm die Möglichkeit zur Vertagung (§ 337 ZPO) zu geben.",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0357",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Ist der Beklagte vor dem LG säumig, wenn er persönlich, aber ohne Rechtsanwalt im Termin erscheint?",
+      "antworten": [
+        "Ja, wegen des Anwaltszwangs (§ 78 Abs. 1 ZPO)",
+        "Nein, da er persönlich erschienen ist",
+        "Nein, sofern er zur Sache verhandelt",
+        "Ja, aber nur, wenn er sich nicht zur Sache äußert"
+      ],
+      "erklaerung": "Vor dem LG besteht Anwaltszwang (§ 78 Abs. 1 ZPO). Die persönlich anwesende, aber nicht durch einen zugelassenen Anwalt vertretene Partei ist säumig; auf Antrag ergeht ein Versäumnisurteil.",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0358",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "In welcher Reihenfolge werden die Voraussetzungen eines Versäumnisurteils gegen den Beklagten (§ 331 ZPO) geprüft?",
+      "typ": "begriffe",
+      "reihenfolge": true,
+      "antworten": [
+        "Antrag",
+        "Zulässigkeit der Klage",
+        "Schlüssigkeit der Klage",
+        "Säumnis oder Nichtverhandeln",
+        "Kein Erlasshindernis"
+      ],
+      "falsche": [
+        "Erheblichkeit",
+        "Glaubhaftmachung"
+      ],
+      "erklaerung": "Antrag: Prozessantrag auf Erlass eines VU (§ 331 Abs. 1 S. 1 ZPO) und Sachantrag (Antrag aus der Klage). Ist die Klage unzulässig, wird sie durch Prozessurteil abgewiesen. Schlüssigkeit (arg. § 331 Abs. 1 S. 1 ZPO, Geständnisfiktion) = Begründetheit ausschließlich auf Grundlage des Klägervortrags; fehlt sie, wird die Klage durch „normales“ Sachurteil abgewiesen (kein VU, § 331 Abs. 2 Hs. 2 ZPO).\n\nSäumnis: fehlende Verteidigungsanzeige im schriftlichen Vorverfahren (§ 331 Abs. 3 ZPO), Nichterscheinen, fehlende ordnungsgemäße Vertretung (§ 78 ZPO), Nichtverhandeln (§ 333 ZPO). Erlasshindernisse: §§ 335, 337 ZPO.",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0359",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Welche Umstände hindern den Erlass eines Versäumnisurteils?",
+      "typ": "begriffe",
+      "reihenfolge": false,
+      "antworten": [
+        "Fehlender Nachweis einer behebbaren Sachurteilsvoraussetzung",
+        "Keine ordnungsgemäße Ladung",
+        "Keine rechtzeitige Mitteilung von Vorbringen",
+        "Unverschuldete Verhinderung"
+      ],
+      "falsche": [
+        "Unschlüssigkeit der Klage",
+        "Unzulässigkeit der Klage",
+        "Fehlende Klageerwiderung"
+      ],
+      "erklaerung": "Erlasshindernisse (§§ 335, 337 ZPO): fehlender Nachweis einer Sachurteilsvoraussetzung, falls der Mangel behebbar ist (§ 335 Abs. 1 Nr. 1 ZPO; falls nicht behebbar: klageabweisendes Prozessurteil); keine ordnungsgemäße Ladung des Säumigen (§ 335 Abs. 1 Nr. 2, §§ 214 ff. ZPO); nicht rechtzeitige Mitteilung von Angriffs- und Verteidigungsmitteln gegenüber dem Säumigen (§ 335 Abs. 1 Nr. 3, §§ 132, 274 Abs. 3 ZPO); unverschuldete Verhinderung (§ 337 S. 1 ZPO).\n\nUnzulässigkeit und Unschlüssigkeit hindern kein VU im Sinne eines Erlasshindernisses, sondern führen zur Klageabweisung durch Prozess- bzw. Sachurteil.",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0360",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wie lautet der Hauptsachetenor, wenn nach einem VU gegen den Kläger im Einspruchstermin der Beklagte säumig und die Klage schlüssig ist?",
+      "antworten": [
+        "„Das VU vom … wird aufgehoben. Der Beklagte wird verurteilt, …“",
+        "„Der Einspruch wird verworfen. Der Beklagte wird verurteilt, …“",
+        "„Das VU vom … wird aufrechterhalten. Der Beklagte wird verurteilt, …“",
+        "„Der Beklagte wird verurteilt, …“ ohne Ausspruch zum VU"
+      ],
+      "erklaerung": "Tenor: „Das Versäumnisurteil vom 01.10. wird aufgehoben. Der Beklagte wird verurteilt, an den Kläger 1.000,00 € zu zahlen. Der Beklagte trägt die Kosten des Rechtsstreits mit Ausnahme der Kosten der Säumnis des Klägers, die der Kläger zu tragen hat. Das Urteil ist vorläufig vollstreckbar.“ (§§ 91 Abs. 1, 344, 708 Nr. 2 ZPO).",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0361",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "In welcher Reihenfolge werden die Voraussetzungen eines Versäumnisurteils gegen den Kläger (§ 330 ZPO) geprüft?",
+      "typ": "begriffe",
+      "reihenfolge": true,
+      "antworten": [
+        "Antrag",
+        "Zulässigkeit der Klage",
+        "Säumnis oder Nichtverhandeln",
+        "Kein Erlasshindernis"
+      ],
+      "falsche": [
+        "Schlüssigkeit der Klage",
+        "Erheblichkeit"
+      ],
+      "erklaerung": "Beim VU gegen den Kläger wird keine Schlüssigkeit geprüft. Ist die Klage unzulässig, wird sie durch Prozessurteil abgewiesen (unechtes VU). Sonst ergeht ein echtes klageabweisendes Versäumnisurteil („Die Klage wird abgewiesen. Der Kläger trägt die Kosten des Rechtsstreits. Das Urteil ist vorläufig vollstreckbar.“; §§ 91 Abs. 1, 708 Nr. 2 ZPO).",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0362",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Muss eine im Termin erklärte einseitige Teilerledigungserklärung des Klägers dem säumigen Beklagten vor Erlass des VU nach § 335 Abs. 1 Nr. 3 ZPO mitgeteilt werden?",
+      "antworten": [
+        "Nein, der Feststellungsantrag ist als Minus im ursprünglichen Antrag enthalten",
+        "Ja, es muss ein neuer Termin bestimmt werden",
+        "Ja, da eine Klageänderung vorliegt",
+        "Nein, da § 335 ZPO bei Erledigungserklärungen nicht gilt"
+      ],
+      "erklaerung": "Erklärt der Kläger im Termin, der säumige Beklagte habe die Hauptforderung gezahlt, ist dies als einseitige (Teil-)Erledigungserklärung auszulegen; der Kläger ändert seinen Antrag insoweit in einen Feststellungsantrag (§ 264 Nr. 2 ZPO). Dieser muss dem Beklagten nicht nach § 335 Abs. 1 Nr. 3 ZPO zugestellt werden, und es ist kein neuer Termin zu bestimmen, denn der geänderte Antrag steckt als Minus im ursprünglichen Antrag.\n\nTenor: Verurteilung zu den Zinsen bis zum Zahlungsdatum; „Im Übrigen wird festgestellt, dass der Rechtsstreit in der Hauptsache erledigt ist.“",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0363",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wie wird die vorläufige Vollstreckbarkeit eines Versäumnisurteils tenoriert?",
+      "antworten": [
+        "„Das Urteil ist vorläufig vollstreckbar.“ (§ 708 Nr. 2 ZPO)",
+        "Gegen Sicherheitsleistung in Höhe von 110 % (§ 709 ZPO)",
+        "Vorläufig vollstreckbar mit Abwendungsbefugnis (§§ 708 Nr. 11, 711 ZPO)",
+        "Gar nicht, da Versäumnisurteile sofort rechtskräftig werden"
+      ],
+      "erklaerung": "Versäumnisurteile sind nach § 708 Nr. 2 ZPO ohne Sicherheitsleistung und ohne Abwendungsbefugnis vorläufig vollstreckbar. Überschrift „Versäumnisurteil“ (§ 313b Abs. 1 S. 2 ZPO); Kosten nach § 91 Abs. 1 ZPO; Tatbestand und Entscheidungsgründe entbehrlich (§ 313b Abs. 1 S. 1 ZPO); Rechtsbehelfsbelehrung (§ 232 S. 1, 2 ZPO).",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0364",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Welche Art Versäumnisurteil ergeht, wenn nach VU gegen den Beklagten und dessen Einspruch der Kläger säumig ist, gegen ihn ein VU ergeht und nach seinem Einspruch der Beklagte erneut säumig ist?",
+      "antworten": [
+        "Ein erstes VU: VU gegen den Kläger aufgehoben, erstes VU aufrechterhalten",
+        "Ein zweites VU: Einspruch des Beklagten verworfen",
+        "Ein erstes VU: Beklagter erneut zur Zahlung verurteilt",
+        "Ein zweites VU: beide Versäumnisurteile aufrechterhalten"
+      ],
+      "erklaerung": "Am 01.12. ergeht gegen den Beklagten ein (erstes) VU, da der Termin auf den Einspruch des Klägers anberaumt war: „Das Versäumnisurteil vom 01.11. wird aufgehoben. Das Versäumnisurteil vom 01.10. wird aufrecht erhalten. Die weiteren Kosten des Rechtsstreits trägt der Beklagte mit Ausnahme der Kosten, die durch die Säumnis des Klägers entstanden sind und dieser trägt.“ (§ 97 ZPO analog; § 708 Nr. 2 ZPO).\n\nWird später streitig verhandelt und ist die Klage teilweise begründet, sind die Versäumnisurteile jeweils insoweit aufrechtzuerhalten bzw. aufzuheben; die Parteien tragen vorab die Kosten ihrer Säumnis.",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0365",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Kann das Gericht die Widerrufsfrist eines Widerrufsvergleichs verlängern?",
+      "antworten": [
+        "Nein, es handelt sich um eine Parteifrist; nur die Parteien können sie verlängern",
+        "Ja, auf Antrag einer Partei nach § 224 Abs. 2 ZPO",
+        "Ja, aber nur einmal und nur mit Zustimmung des Gegners",
+        "Nein, auch die Parteien können sie nicht mehr verlängern"
+      ],
+      "erklaerung": "Beim Widerrufsvergleich wird ein Widerrufsvorbehalt in bestimmter Frist vereinbart; i. d. R. ist das Gericht Erklärungsempfänger. Der Prozessvergleich ist insoweit nicht bedingungsfeindlich. Die Widerrufsfrist ist eine Parteifrist, sodass der Richter sie nicht verlängern kann; die Parteien können sich aber auf eine Verlängerung verständigen.\n\nOb der rechtzeitige Widerruf als aufschiebende oder auflösende Bedingung wirkt, ist str.; nach dem BGH handelt es sich um eine aufschiebende Bedingung (NJW 1984, 312).",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0366",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Gegen die Versäumung welcher Fristen ist Wiedereinsetzung möglich?",
+      "typ": "begriffe",
+      "reihenfolge": false,
+      "antworten": [
+        "Einspruchsfrist (§ 339 Abs. 1 ZPO)",
+        "Berufungsfrist (§ 517 ZPO)",
+        "Berufungsbegründungsfrist",
+        "Wiedereinsetzungsfrist (§ 234 ZPO)"
+      ],
+      "falsche": [
+        "Klageerwiderungsfrist (§ 276 Abs. 1 S. 2 ZPO)",
+        "Widerrufsfrist eines Vergleichs",
+        "Verjährungsfrist (§ 195 BGB)"
+      ],
+      "erklaerung": "Wiedereinsetzung ist möglich bei Versäumung einer Notfrist (ausdrücklich im Gesetz als solche bezeichnet, z. B. § 276 Abs. 1 S. 1, § 339 Abs. 1, § 517 ZPO), der Frist zur Begründung der Berufung, der Revision, der Nichtzulassungsbeschwerde oder der Rechtsbeschwerde sowie der Wiedereinsetzungsfrist (§ 234 ZPO), vgl. § 233 S. 1 ZPO.\n\nDie Klageerwiderungsfrist ist eine richterliche Frist, keine Notfrist; die Widerrufsfrist eines Vergleichs ist eine Parteifrist; die Verjährungsfrist ist eine materielle Frist.",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0367",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Muss sich die Partei bei der Wiedereinsetzung das Verschulden von Kanzleimitarbeitern ihres Prozessbevollmächtigten zurechnen lassen?",
+      "antworten": [
+        "Nein, in Betracht kommt aber ein zurechenbares Organisationsverschulden des Anwalts",
+        "Ja, nach § 85 Abs. 2 ZPO wie eigenes Verschulden des Anwalts",
+        "Ja, nach § 278 BGB als Erfüllungsgehilfen",
+        "Nein, und ein Organisationsverschulden des Anwalts ist ebenfalls unbeachtlich"
+      ],
+      "erklaerung": "Das Verschulden unselbständig handelnden Hilfspersonals des Prozessbevollmächtigten muss sich die Partei nicht zurechnen lassen. In Betracht kommt aber ein zurechenbares Organisationsverschulden, wenn der Anwalt sein Personal nicht hinreichend sorgfältig ausgewählt, angewiesen oder überwacht hat (BeckOK ZPO/Wendtland, § 233 Rn. 22).\n\nBeispiel: klare Anweisung an eine langjährig zuverlässige Mitarbeiterin, die die Übermittlung einmalig vergisst – gut vertretbar kein Organisationsverschulden. Die Umstände werden regelmäßig durch eidesstattliche Versicherung der Hilfsperson glaubhaft gemacht.",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0368",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Welcher Sorgfaltsmaßstab gilt beim fehlenden Verschulden für die Partei und für ihren Prozessbevollmächtigten?",
+      "antworten": [
+        "Partei: übliche Sorgfalt einer ordentlichen Prozesspartei; Anwalt: berufsbedingt hohe Sorgfalt",
+        "Partei: eigenübliche Sorgfalt (§ 277 BGB); Anwalt: übliche Sorgfalt einer Prozesspartei",
+        "Partei und Anwalt: übliche Sorgfalt einer ordentlichen Prozesspartei",
+        "Partei: übliche Sorgfalt einer ordentlichen Prozesspartei; Anwalt: nur Vorsatz und grobe Fahrlässigkeit"
+      ],
+      "erklaerung": "Die Partei muss unverschuldet an der rechtzeitigen Vornahme der Prozesshandlung gehindert gewesen sein; sie muss sich das Verschulden ihres gesetzlichen Vertreters (§ 51 Abs. 2 ZPO) und Prozessbevollmächtigten (§ 85 Abs. 2 ZPO) zurechnen lassen. Maßstab ist § 276 Abs. 2 BGB, abzustellen auf die üblicherweise zu erwartende Sorgfalt einer ordentlichen Prozesspartei; bei zurechenbarem Anwaltsverschulden auf die standesübliche, berufsbedingt hohe Sorgfalt eines ordentlichen Rechtsanwalts.",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0369",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Welche Voraussetzungen hat die Wiedereinsetzung in den vorigen Stand?",
+      "typ": "begriffe",
+      "reihenfolge": false,
+      "antworten": [
+        "Antrag",
+        "Versäumung einer Frist nach § 233 S. 1 ZPO",
+        "Fehlendes Verschulden",
+        "Glaubhaftmachung"
+      ],
+      "falsche": [
+        "Zustimmung des Gegners",
+        "Vollbeweis der Verhinderung",
+        "Hinweis des Gerichts"
+      ],
+      "erklaerung": "Voraussetzungen: Antrag (§ 236 ZPO), Versäumung einer Frist nach § 233 S. 1 ZPO, fehlendes Verschulden, Glaubhaftmachung (§§ 236 Abs. 2 S. 1, 294 ZPO). Der Antrag ist innerhalb der Frist des § 234 ZPO zu stellen.",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0370",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Welche Kostenfolge hat eine Klagerücknahme, wenn der Beklagte nach Rechtshängigkeit gezahlt hat?",
+      "antworten": [
+        "Der Kläger trägt die Kosten (§ 269 Abs. 3 S. 2 ZPO), ggf. Verzugsschaden in neuem Prozess",
+        "Billiges Ermessen nach § 269 Abs. 3 S. 3 ZPO",
+        "Der Beklagte trägt die Kosten, da er den Anlass gegeben hat",
+        "Kostenaufhebung entsprechend § 98 ZPO"
+      ],
+      "erklaerung": "Zahlt der Beklagte nach Rechtshängigkeit, hat der Kläger mehrere Reaktionsmöglichkeiten: Antrag weiter stellen (Abweisung als unbegründet wegen § 362 Abs. 1 BGB auf seine Kosten), Klagerücknahme (Kosten auf Antrag nach § 269 Abs. 3 S. 2 ZPO; Kosten ggf. als Verzugsschaden, § 286 BGB, in einem zweiten Prozess), Klageverzicht (Verzichtsurteil, Kosten nach § 91 ZPO), Nichtauftreten (VU nach § 330 ZPO) oder Erledigungserklärung.\n\n§ 269 Abs. 3 S. 3 ZPO greift nur, wenn der Anlass vor Rechtshängigkeit weggefallen ist.",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0371",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Ergeht ein zweites VU, wenn der Beklagte im Einspruchstermin erscheint, aber in einem anschließend bestimmten Beweistermin säumig ist?",
+      "antworten": [
+        "Nein, es ergeht ein zweites erstes VU, das das bisherige VU aufrechterhält",
+        "Ja, da er bereits einmal säumig war",
+        "Nein, es wird nach Lage der Akten entschieden",
+        "Ja, sofern der Beweistermin im Einspruchstermin bestimmt wurde"
+      ],
+      "erklaerung": "Ein zweites VU setzt die Säumnis im Einspruchstermin voraus. Erscheint der Beklagte dort und ist er erst im späteren Beweistermin säumig, ergeht ein (zweites) erstes VU, dessen Tenor auf Aufrechterhaltung des bereits ergangenen VU lautet; Rechtsbehelf: Einspruch (§ 338 ZPO).\n\nAnders bei bloßer Vertagung des Einspruchstermins: Bei Säumnis in dem Termin, auf den die Verhandlung vertagt ist, ist ein zweites VU möglich (§ 345 Alt. 2 ZPO).",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0372",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Welche Überschrift trägt das Urteil, wenn der Beklagte im Einspruchstermin säumig ist und der Kläger die Klage nach Erlass des ersten VU erweitert hat?",
+      "antworten": [
+        "„Versäumnisteil- und 2. Versäumnisurteil“",
+        "„2. Versäumnisurteil“",
+        "„Versäumnis- und Endurteil“",
+        "„Teilurteil und 2. Versäumnisurteil“"
+      ],
+      "erklaerung": "Hinsichtlich der ursprünglichen Klage beantragt der Kläger ein zweites VU, hinsichtlich der Klageerweiterung ein erstes VU. Überschrift: „Versäumnisteil- und 2. Versäumnisurteil“. Tenor: „Der Einspruch gegen das VU vom … wird verworfen. Der Beklagte wird verurteilt, an den Kläger weitere 1.000,00 € zu zahlen. Die weiteren Kosten des Rechtsstreits trägt der Beklagte.“ (§ 91 und § 97 ZPO analog; § 708 Nr. 2 ZPO).",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0373",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Ist vor einem zweiten Versäumnisurteil nach einem Vollstreckungsbescheid die Schlüssigkeit der Klage zu prüfen?",
+      "antworten": [
+        "Ja, zwingend nach § 700 Abs. 6 ZPO; sonst wird der VB aufgehoben",
+        "Nein, wie beim zweiten VU nach echtem erstem VU",
+        "Nein, da der VB bereits rechtskräftig ist",
+        "Ja, aber nur auf Rüge des Beklagten"
+      ],
+      "erklaerung": "Nach § 700 Abs. 6 ZPO darf der Einspruch nach § 345 ZPO nur verworfen werden, soweit die Voraussetzungen des § 331 Abs. 1, 2 Hs. 1 ZPO vorliegen; zu prüfen sind Verfahrensfehler bei Erlass des VB, Zulässigkeit und Schlüssigkeit der Klage (materielle Rechtslage allein auf Basis des Klägervortrags).\n\nBei unschlüssiger Klage (klausurrelevant) ergeht ein normales Urteil: „Der Vollstreckungsbescheid vom … wird aufgehoben und die Klage abgewiesen. Die Kosten des Rechtsstreits trägt der Kläger.“ (§ 91 ZPO, § 344 ZPO dann nicht; Vollstreckbarkeit §§ 708 Nr. 11, 711 bzw. § 709 S. 1, 2 ZPO). Bei Teilerfolg: „Zweites Versäumnis- und Endurteil“, Kosten §§ 92, 97 Abs. 1 ZPO analog.",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0374",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Welcher Rechtsbehelf ist gegen ein zweites Versäumnisurteil statthaft?",
+      "antworten": [
+        "Berufung, gestützt darauf, dass keine schuldhafte Säumnis vorlag (§§ 345, 514 Abs. 2 S. 1 ZPO)",
+        "Einspruch, gestützt darauf, dass keine schuldhafte Säumnis vorlag (§ 338 ZPO)",
+        "Berufung mit uneingeschränkter Überprüfung (§ 511 ZPO)",
+        "Kein Rechtsbehelf, das zweite VU ist unanfechtbar"
+      ],
+      "erklaerung": "Das zweite VU ist ein echtes Versäumnisurteil. Gegen es ist kein Einspruch statthaft (§ 345 ZPO), sondern nur die Berufung mit der Begründung, dass kein Fall schuldhafter Säumnis vorlag (§ 514 Abs. 2 S. 1 ZPO).",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0375",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Wie lauten Hauptsache-, Kosten- und Vollstreckbarkeitstenor eines zweiten Versäumnisurteils?",
+      "antworten": [
+        "Einspruch verworfen; weitere Kosten der Beklagte (§ 97 ZPO analog); vorläufig vollstreckbar (§ 708 Nr. 2 ZPO)",
+        "VU aufrechterhalten; weitere Kosten der Beklagte (§ 91 ZPO); vorläufig vollstreckbar (§ 708 Nr. 2 ZPO)",
+        "Einspruch verworfen; weitere Kosten der Beklagte (§ 97 ZPO analog); gegen Sicherheit vollstreckbar (§ 709 S. 3 ZPO)",
+        "VU aufrechterhalten; weitere Kosten der Beklagte (§ 344 ZPO); vorläufig vollstreckbar (§ 708 Nr. 3 ZPO)"
+      ],
+      "erklaerung": "Tenor: „Der Einspruch des Beklagten gegen das Versäumnisurteil vom … wird verworfen. Die weiteren Kosten des Rechtsstreits trägt der Beklagte. Das Urteil ist vorläufig vollstreckbar.“ Kosten: § 97 Abs. 1 ZPO analog (Kosten eines Rechtsmittels). Vollstreckbarkeit: § 708 Nr. 2 ZPO gilt auch für das zweite VU. Tatbestand und Entscheidungsgründe sind nicht erforderlich (§ 313b Abs. 1, 2 ZPO).",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0376",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Welche Voraussetzungen hat ein zweites Versäumnisurteil (§ 345 ZPO) nach einem echten ersten VU?",
+      "typ": "begriffe",
+      "reihenfolge": false,
+      "antworten": [
+        "Prozessantrag",
+        "Zulässiger Einspruch",
+        "Säumnis des Einspruchsführers im Einspruchstermin",
+        "Kein Erlasshindernis (§§ 335, 337 ZPO)"
+      ],
+      "falsche": [
+        "Schlüssigkeit der Klage",
+        "Zulässigkeit der Klage",
+        "Sachantrag des Gegners"
+      ],
+      "erklaerung": "Nach dem BGH sind Zulässigkeit und Schlüssigkeit der Klage keine Voraussetzungen des zweiten VU nach einem echten ersten VU: Umkehrschluss aus § 700 Abs. 6 ZPO; § 345 ZPO ist lex specialis zu § 342 ZPO; der Beklagte ist nicht schutzwürdig, da Zulässigkeit und Schlüssigkeit schon vor Erlass des ersten VU geprüft wurden; nach einer Säumnis ist die Partei zu besonders sorgfältiger Prozessführung angehalten.\n\nNach h. M. kann es im Einspruchstermin daher nicht zur Aufhebung des ersten VU kommen.",
+      "creator": null,
+      "korrigiert": "2026-10-01T12:21:46.072678Z",
+      "ts": "2026-10-01T12:21:46.072678Z"
     }
   ]
 }

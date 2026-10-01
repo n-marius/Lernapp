@@ -1,0 +1,22 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "typ": "begriffe",
+  "reihenfolge": false,
+  "frage": "Welche Folgen kann die Säumnis in der mündlichen Verhandlung haben?",
+  "antworten": [
+    "Versäumnisurteil",
+    "Entscheidung nach Lage der Akten",
+    "Ruhen des Verfahrens",
+    "Vertagung"
+  ],
+  "falsche": [
+    "Präklusion",
+    "Klagerücknahmefiktion",
+    "Wiedereinsetzung"
+  ],
+  "erklaerung": "Folgen der Säumnis in der mündlichen Verhandlung: ggf. Versäumnisurteil (§§ 330 ff. ZPO), Entscheidung nach Lage der Akten (§§ 331a, 251a ZPO), Anordnung des Ruhens des Verfahrens (§ 251a Abs. 3 ZPO) oder Vertagung (§ 227 ZPO).",
+  "id": "zivilgericht-0347",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

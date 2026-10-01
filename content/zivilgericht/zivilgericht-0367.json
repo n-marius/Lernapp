@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Muss sich die Partei bei der Wiedereinsetzung das Verschulden von Kanzleimitarbeitern ihres Prozessbevollmächtigten zurechnen lassen?",
+  "antworten": [
+    "Nein, in Betracht kommt aber ein zurechenbares Organisationsverschulden des Anwalts",
+    "Ja, nach § 85 Abs. 2 ZPO wie eigenes Verschulden des Anwalts",
+    "Ja, nach § 278 BGB als Erfüllungsgehilfen",
+    "Nein, und ein Organisationsverschulden des Anwalts ist ebenfalls unbeachtlich"
+  ],
+  "erklaerung": "Das Verschulden unselbständig handelnden Hilfspersonals des Prozessbevollmächtigten muss sich die Partei nicht zurechnen lassen. In Betracht kommt aber ein zurechenbares Organisationsverschulden, wenn der Anwalt sein Personal nicht hinreichend sorgfältig ausgewählt, angewiesen oder überwacht hat (BeckOK ZPO/Wendtland, § 233 Rn. 22).\n\nBeispiel: klare Anweisung an eine langjährig zuverlässige Mitarbeiterin, die die Übermittlung einmalig vergisst – gut vertretbar kein Organisationsverschulden. Die Umstände werden regelmäßig durch eidesstattliche Versicherung der Hilfsperson glaubhaft gemacht.",
+  "id": "zivilgericht-0367",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

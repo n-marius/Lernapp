@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Welche Kosten- und Vollstreckbarkeitsentscheidung trifft das Anerkenntnisurteil?",
+  "antworten": [
+    "Kosten nach § 93 ZPO, sonst § 91 ZPO; vorläufig vollstreckbar ohne Sicherheit (§ 708 Nr. 1 ZPO)",
+    "Kosten stets nach § 91 ZPO; vorläufig vollstreckbar ohne Sicherheit (§ 708 Nr. 1 ZPO)",
+    "Kosten nach § 93 ZPO, sonst § 91 ZPO; vorläufig vollstreckbar gegen Sicherheit (§ 709 ZPO)",
+    "Kosten stets nach § 93 ZPO; vorläufig vollstreckbar nach §§ 708 Nr. 11, 711 ZPO"
+  ],
+  "erklaerung": "Das Anerkenntnisurteil (§§ 313b, 311 Abs. 2 S. 3 ZPO) ist nach § 708 Nr. 1 ZPO ohne Sicherheit vorläufig vollstreckbar. Die Kostenentscheidung ergeht ggf. nach § 93 ZPO, sonst nach § 91 ZPO. Die Gerichtskosten ermäßigen sich auf eine 1,0-Gebühr (Nr. 1211 Nr. 2 KV GKG).",
+  "id": "zivilgericht-0298",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

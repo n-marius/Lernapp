@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Welche Folge hat die nachträgliche materiell-rechtliche Unwirksamkeit eines Prozessvergleichs (z. B. Aufhebungsvertrag) nach dem BGH?",
+  "antworten": [
+    "Nur die materielle Seite ist unwirksam; der Prozess bleibt beendet, Geltendmachung im neuen Prozess",
+    "Der Vergleich ist wegen seiner Doppelnatur insgesamt unwirksam; der alte Prozess wird fortgesetzt",
+    "Nur die prozessuale Seite ist unwirksam; der alte Prozess wird fortgesetzt",
+    "Der Vergleich bleibt insgesamt wirksam; Anpassung nur durch Abänderungsklage"
+  ],
+  "erklaerung": "Anfängliche materiell-rechtliche Unwirksamkeit (z. B. Anfechtung, § 142 Abs. 1 BGB) macht den Prozessvergleich wegen seiner Doppelnatur insgesamt unwirksam.\n\nBei nachträglicher Unwirksamkeit (z. B. Aufhebungsvertrag, Störung der Geschäftsgrundlage) ist str.: Nach BAG/Teil der Lit. ist der Vergleich wegen der Doppelnatur unwirksam; nach BGH/Teil der Lit. ist nur die materiell-rechtliche Seite unwirksam, die prozessuale bleibt wirksam, der Prozess ist beendet und die Unwirksamkeit in einem neuen Prozess geltend zu machen.",
+  "id": "zivilgericht-0344",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

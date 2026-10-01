@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Mit welchem Rechtsbehelf kann ein Prozessvergleich über künftig fällig werdende Leistungen bei Wegfall der Geschäftsgrundlage angepasst werden?",
+  "antworten": [
+    "Abänderungsklage (§ 323a ZPO)",
+    "Vollstreckungsabwehrklage (§ 767 ZPO)",
+    "Fortsetzung des alten Prozesses (§ 216 ZPO)",
+    "Restitutionsklage (§ 580 ZPO)"
+  ],
+  "erklaerung": "§ 323a ZPO stellt klar, dass ein Beteiligter im Wege des Abänderungsantrags eine Korrektur der Vereinbarungen verlangen kann, wenn die Geschäftsgrundlage für die Verpflichtung zu künftig fällig werdenden Leistungen sich verändert hat oder weggefallen ist (vgl. Schultheiß, JuS 2015, 318).",
+  "id": "zivilgericht-0340",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

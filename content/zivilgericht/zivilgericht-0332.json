@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "In welcher Form kann die Klage zurückgenommen werden?",
+  "antworten": [
+    "In der mündlichen Verhandlung zu Protokoll oder durch Einreichung eines Schriftsatzes",
+    "Nur durch Einreichung eines Schriftsatzes",
+    "Nur in der mündlichen Verhandlung zu Protokoll",
+    "Durch Erklärung gegenüber dem Beklagten oder dem Gericht"
+  ],
+  "erklaerung": "Die Klagerücknahme ist eine einseitige Prozesshandlung des Klägers gegenüber dem Gericht (§ 269 Abs. 2 S. 1 ZPO). Sie erfolgt in der mündlichen Verhandlung (Aufnahme ins Protokoll, die gesondert zu genehmigen ist, §§ 160 Abs. 3 Nr. 8, 162 ZPO) oder durch Einreichung eines Schriftsatzes (§ 269 Abs. 2 S. 2 ZPO).",
+  "id": "zivilgericht-0332",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

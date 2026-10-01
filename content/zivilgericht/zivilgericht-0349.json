@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Wann ist im streitigen Urteil nach Einspruch die Gesetzmäßigkeit des ersten VU für § 344 ZPO zu prüfen?",
+  "antworten": [
+    "Wenn das VU nicht ganz aufrechterhalten wird (§ 343 S. 2 ZPO)",
+    "Stets, auch wenn das VU ganz aufrechterhalten wird",
+    "Nur auf Rüge des Beklagten",
+    "Nur wenn das VU im schriftlichen Vorverfahren ergangen ist"
+  ],
+  "erklaerung": "Die Frage der Säumnis ist bei Einspruch gegen ein VU nur für die Kostenentscheidung nach § 344 ZPO wichtig. Grundsätzlich gelten §§ 91, 92 ZPO; daneben ist § 344 ZPO zu prüfen, wenn das VU nicht ohnehin ganz aufrechterhalten wird, also ein Fall des § 343 S. 2 ZPO vorliegt (sonst § 97 ZPO analog).\n\nZu prüfen ist, ob das VU „in gesetzlicher Weise ergangen“ ist: Zulässigkeit und Schlüssigkeit (§§ 330, 331 ZPO), Säumnis (§§ 335, 337 ZPO; aus § 337 ZPO folgt, dass ein rechtmäßiges VU verschuldete Säumnis voraussetzt). Fehlt das, wird „ganz normal“ nach §§ 91 ff. ZPO entschieden. Umfang der Säumniskosten: halbe Terminsgebühr (Nr. 3105 VV RVG), Auslagen für den Termin.",
+  "id": "zivilgericht-0349",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

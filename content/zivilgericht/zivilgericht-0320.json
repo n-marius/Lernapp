@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wodurch kann sich der Beklagte der Erledigungserklärung des Klägers anschließen?",
+  "antworten": [
+    "Auch durch Nichtwiderspruch nach Hinweis (§ 91a Abs. 1 S. 2 ZPO) oder bloßen Kostenantrag",
+    "Nur durch ausdrückliche Erklärung in der mündlichen Verhandlung",
+    "Nur durch ausdrückliche schriftliche Erklärung",
+    "Auch durch Nichtwiderspruch ohne vorherigen Hinweis oder durch Klageabweisungsantrag"
+  ],
+  "erklaerung": "Für die Anschlusserklärung reicht aus, dass der Beklagte nicht widerspricht (§ 91a Abs. 1 S. 2 ZPO: Notfrist von zwei Wochen seit Zustellung des Schriftsatzes, wenn er zuvor auf diese Folge hingewiesen worden ist) oder nur einen Kostenantrag stellt.\n\nGibt der Beklagte keine Erklärung ab, prüft das Gericht, ob die Voraussetzungen des § 91a Abs. 1 S. 2 ZPO erfüllt sind; dann wird seine Zustimmung ersetzt. Sonst liegt eine einseitige Erledigungserklärung vor bzw. das Gericht holt den Hinweis nach und wartet die Notfrist ab.",
+  "id": "zivilgericht-0320",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

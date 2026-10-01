@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wie ist eine übereinstimmende Teilerledigung im Tatbestand darzustellen?",
+  "antworten": [
+    "In der kleinen Prozessgeschichte vor den zuletzt gestellten Anträgen zum Rest",
+    "Gar nicht, da insoweit keine Rechtshängigkeit mehr besteht",
+    "Im unstreitigen Sachverhalt",
+    "In der großen Prozessgeschichte am Ende"
+  ],
+  "erklaerung": "Aufbau: Unstreitiges, streitiges Klägervorbringen, kleine Prozessgeschichte („Ursprünglich hat der Kläger beantragt, den Beklagten zu verurteilen, … Die Parteien haben jedoch übereinstimmend den Rechtsstreit in Höhe von … betreffend … für erledigt erklärt. Der Kläger beantragt zuletzt:“), neue Anträge zum Rest, streitiges Beklagtenvorbringen, Prozessgeschichte.\n\nRechtshängig bleibt nur der verbleibende Antrag (§ 261 Abs. 3 Nr. 2 ZPO); die Teilerledigung wird aber in der einheitlichen Kostenentscheidung berücksichtigt.",
+  "id": "zivilgericht-0351",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Was muss die kleine Prozessgeschichte im Tatbestand nach Einspruch gegen ein Versäumnisurteil enthalten?",
+  "antworten": [
+    "Ursprünglichen Klageantrag, VU, Datum seiner Zustellung und des Eingangs des Einspruchs",
+    "Ursprünglichen Klageantrag, VU, Datum seiner Verkündung und die Einspruchsbegründung",
+    "Nur das VU und das Datum des Eingangs des Einspruchs",
+    "VU, Gründe der Säumnis und Datum des Einspruchstermins"
+  ],
+  "erklaerung": "„Der Kläger hat ursprünglich beantragt, … Auf diesen Antrag ist in der Sitzung vom … gegen den Beklagten ein Versäumnisurteil ergangen. Gegen dieses Versäumnisurteil, das dem Beklagten am … zugestellt worden ist, hat er mit einem am … bei Gericht eingegangenen Anwaltsschriftsatz Einspruch eingelegt und diesen begründet.“\n\nDer Klägerantrag lautet nunmehr auf Aufrechterhaltung des VU, der Beklagtenantrag auf Aufhebung des VU und Klageabweisung.",
+  "id": "zivilgericht-0308",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

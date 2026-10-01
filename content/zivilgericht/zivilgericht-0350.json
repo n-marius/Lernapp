@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Was ist bei der Kostenentscheidung im Urteil nach übereinstimmender Teilerledigung zu beachten?",
+  "antworten": [
+    "Gesamtquote aus § 91 und § 91a ZPO; der § 91a-Teil ist gesondert zu begründen",
+    "Gesonderter Kostenbeschluss für den erledigten Teil neben dem Urteil",
+    "Kostenentscheidung nur nach § 91 ZPO über den Rest; der erledigte Teil bleibt unberücksichtigt",
+    "Gesamtquote aus § 91 und § 91a ZPO; eine Begründung des § 91a-Teils ist entbehrlich"
+  ],
+  "erklaerung": "Entscheidungsgründe: Klarstellung im Obersatz, dass in der Sache nur noch über einen Teil des ursprünglichen Streitgegenstands zu entscheiden ist; Wirksamkeit der Teilerledigung nur sofern problematisch; Zulässigkeit und Begründetheit der restlichen Klage; gemischte Kostenentscheidung mit Gesamtquote („Die Kostenentscheidung ergibt sich aus § 91 Abs. 1 ZPO und § 91a ZPO.“), wobei die § 91a-Entscheidung gesondert zu begründen ist.\n\nDie §§ 708 ff. ZPO sind auf die gesamten Kosten anzuwenden; eine Ausklammerung der auf den erledigten Teil entfallenden Kosten (§ 794 Abs. 1 Nr. 3 ZPO) erscheint nicht angebracht. Bei einseitiger Teilerledigung: teilweise Feststellungsklage, im Übrigen Leistungsklage.",
+  "id": "zivilgericht-0350",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

@@ -1,0 +1,23 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "typ": "begriffe",
+  "reihenfolge": false,
+  "frage": "Welche prozessualen Voraussetzungen hat ein Prozessvergleich?",
+  "antworten": [
+    "Abschluss vor einem deutschen Gericht",
+    "Anhängigkeit eines Streitverfahrens",
+    "Erfassung des Streitgegenstands",
+    "Prozesshandlungsvoraussetzungen",
+    "Protokollierung oder § 278 Abs. 6 ZPO"
+  ],
+  "falsche": [
+    "Rechtshängigkeit der Hauptsache",
+    "Zustimmung des Gerichts",
+    "Notarielle Beurkundung"
+  ],
+  "erklaerung": "Prozessuale Voraussetzungen: Abschluss durch die Parteien vor einem deutschen Gericht; Anhängigkeit eines Streitverfahrens (auch PKH-Verfahren oder selbständiges Beweisverfahren); der Streitgegenstand des anhängigen Verfahrens muss erfasst sein (Einbeziehung nicht rechtshängiger Ansprüche, „Mehrvergleich“, und Dritter möglich); allgemeine Prozesshandlungsvoraussetzungen; bei mündlicher Verhandlung Protokollierung (§§ 160 Abs. 3 Nr. 1, 162 ZPO), ohne mündliche Verhandlung § 278 Abs. 6 ZPO.\n\nAbgrenzung: Der Anwaltsvergleich (§§ 796a ff. ZPO) setzt keinen anhängigen Prozess voraus und dient der Vermeidung eines Rechtsstreits.",
+  "id": "zivilgericht-0346",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

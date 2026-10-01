@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Welcher Rechtsbehelf ist gegen ein zweites Versäumnisurteil statthaft?",
+  "antworten": [
+    "Berufung, gestützt darauf, dass keine schuldhafte Säumnis vorlag (§§ 345, 514 Abs. 2 S. 1 ZPO)",
+    "Einspruch, gestützt darauf, dass keine schuldhafte Säumnis vorlag (§ 338 ZPO)",
+    "Berufung mit uneingeschränkter Überprüfung (§ 511 ZPO)",
+    "Kein Rechtsbehelf, das zweite VU ist unanfechtbar"
+  ],
+  "erklaerung": "Das zweite VU ist ein echtes Versäumnisurteil. Gegen es ist kein Einspruch statthaft (§ 345 ZPO), sondern nur die Berufung mit der Begründung, dass kein Fall schuldhafter Säumnis vorlag (§ 514 Abs. 2 S. 1 ZPO).",
+  "id": "zivilgericht-0374",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

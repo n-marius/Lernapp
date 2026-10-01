@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Ergeht ein zweites VU, wenn der Beklagte im Einspruchstermin erscheint, aber in einem anschließend bestimmten Beweistermin säumig ist?",
+  "antworten": [
+    "Nein, es ergeht ein zweites erstes VU, das das bisherige VU aufrechterhält",
+    "Ja, da er bereits einmal säumig war",
+    "Nein, es wird nach Lage der Akten entschieden",
+    "Ja, sofern der Beweistermin im Einspruchstermin bestimmt wurde"
+  ],
+  "erklaerung": "Ein zweites VU setzt die Säumnis im Einspruchstermin voraus. Erscheint der Beklagte dort und ist er erst im späteren Beweistermin säumig, ergeht ein (zweites) erstes VU, dessen Tenor auf Aufrechterhaltung des bereits ergangenen VU lautet; Rechtsbehelf: Einspruch (§ 338 ZPO).\n\nAnders bei bloßer Vertagung des Einspruchstermins: Bei Säumnis in dem Termin, auf den die Verhandlung vertagt ist, ist ein zweites VU möglich (§ 345 Alt. 2 ZPO).",
+  "id": "zivilgericht-0371",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

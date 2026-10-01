@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Welche Beschlüsse sind zu begründen, und wie sind die Gründe gegliedert?",
+  "antworten": [
+    "Alle rechtsmittelfähigen; „Gründe“ mit I. Sachverhalt und II. Würdigung im Urteilsstil",
+    "Alle; „Tatbestand“ und „Entscheidungsgründe“ wie im Urteil",
+    "Alle rechtsmittelfähigen; „Gründe“ mit I. Würdigung und II. Sachverhalt",
+    "Nur Beschlüsse nach mündlicher Verhandlung; „Gründe“ ohne Untergliederung"
+  ],
+  "erklaerung": "Alle rechtsmittelfähigen Beschlüsse sind zu begründen, andere grundsätzlich nicht. Der Umfang hängt vom Einzelfall ab (§ 269 Abs. 4 ZPO: Hinweis auf das Gesetz ausreichend; § 91a ZPO: Sachverhaltsdarstellung und rechtliche Würdigung).\n\nEinheitliche Überschrift „Gründe“, unter I. Sachverhaltsdarstellung ähnlich wie im Tatbestand, unter II. rechtliche Würdigung im Urteilsstil, beginnend mit dem Endergebnis. Der Tenor ist stets eingerückt; Unterschriften erforderlich (§ 329 Abs. 1 S. 2 i. V. m. § 317 Abs. 2 S. 1 ZPO).",
+  "id": "zivilgericht-0299",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

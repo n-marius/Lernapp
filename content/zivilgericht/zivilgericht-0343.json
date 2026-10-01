@@ -1,0 +1,22 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "typ": "begriffe",
+  "reihenfolge": false,
+  "frage": "Welche materiell-rechtlichen Voraussetzungen hat ein Prozessvergleich?",
+  "antworten": [
+    "Streitiges Rechtsverhältnis",
+    "Gegenseitiges Nachgeben",
+    "Dispositionsbefugnis der Parteien",
+    "Kein Irrtum über die Vergleichsgrundlage"
+  ],
+  "falsche": [
+    "Rechtshängigkeit des Vergleichsgegenstands",
+    "Schriftform nach § 126 BGB",
+    "Gerichtliche Billigung des Inhalts"
+  ],
+  "erklaerung": "Erforderlich ist ein Vertragsschluss mit dem Inhalt des § 779 BGB (streitiges Rechtsverhältnis, Beilegung durch gegenseitiges Nachgeben); allgemeine Vorschriften dürfen nicht entgegenstehen (z. B. §§ 104 ff., 119 ff., 134 BGB); die Parteien müssen dispositionsbefugt sein (im Familienrecht z. B. Kindeswohl und elterliche Sorge nicht dispositiv); kein Unwirksamkeitsgrund nach § 779 Abs. 1 BGB.\n\nEine erforderliche notarielle Beurkundung (z. B. § 311b Abs. 1 S. 1 BGB) wird durch die gerichtliche Protokollierung ersetzt (§ 127a BGB).",
+  "id": "zivilgericht-0343",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

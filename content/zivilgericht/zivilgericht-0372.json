@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Welche Überschrift trägt das Urteil, wenn der Beklagte im Einspruchstermin säumig ist und der Kläger die Klage nach Erlass des ersten VU erweitert hat?",
+  "antworten": [
+    "„Versäumnisteil- und 2. Versäumnisurteil“",
+    "„2. Versäumnisurteil“",
+    "„Versäumnis- und Endurteil“",
+    "„Teilurteil und 2. Versäumnisurteil“"
+  ],
+  "erklaerung": "Hinsichtlich der ursprünglichen Klage beantragt der Kläger ein zweites VU, hinsichtlich der Klageerweiterung ein erstes VU. Überschrift: „Versäumnisteil- und 2. Versäumnisurteil“. Tenor: „Der Einspruch gegen das VU vom … wird verworfen. Der Beklagte wird verurteilt, an den Kläger weitere 1.000,00 € zu zahlen. Die weiteren Kosten des Rechtsstreits trägt der Beklagte.“ (§ 91 und § 97 ZPO analog; § 708 Nr. 2 ZPO).",
+  "id": "zivilgericht-0372",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Was prüft das Gericht nach einem Anerkenntnis (§ 307 ZPO) noch?",
+  "antworten": [
+    "Nur die Sachurteilsvoraussetzungen, nicht mehr den Anspruch",
+    "Sachurteilsvoraussetzungen und Schlüssigkeit des Anspruchs",
+    "Nichts mehr, es ist an das Anerkenntnis gebunden",
+    "Nur die Schlüssigkeit, nicht die Sachurteilsvoraussetzungen"
+  ],
+  "erklaerung": "Das Anerkenntnis ist eine Prozesserklärung, mit der der prozessuale Anspruch anerkannt wird (Abgrenzung zum Geständnis, § 288 ZPO). Das Gericht ist gebunden und prüft den Anspruch nicht mehr; die Sachurteilsvoraussetzungen müssen aber vorliegen, sonst wird die Klage als unzulässig abgewiesen.\n\nDas Anerkenntnis ist bedingungsfeindlich, vorbehaltlos, unanfechtbar und grundsätzlich nur bei Restitutionsgrund widerruflich; es kann aber ggf. mit Einschränkungen erklärt werden (z. B. Zug-um-Zug-Beschränkung, BGH).",
+  "id": "zivilgericht-0297",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wann entscheidet das erkennende Gericht durch Urteil, wann durch Beschluss?",
+  "antworten": [
+    "Urteil über den Streitgegenstand nach zwingender mündlicher Verhandlung, sonst Beschluss",
+    "Urteil über jede Frage nach mündlicher Verhandlung, sonst Beschluss",
+    "Urteil bei Rechtsmittelfähigkeit der Entscheidung, sonst Beschluss",
+    "Urteil über den Streitgegenstand, unabhängig von einer mündlichen Verhandlung, sonst Beschluss"
+  ],
+  "erklaerung": "Grundregel: Entscheidungen des erkennenden Gerichts über den Streitgegenstand nach zwingend vorgeschriebener mündlicher Verhandlung ergehen als Urteil, alle anderen als Beschluss. Ausnahmen: Urteil ohne mündliche Verhandlung nach §§ 128 Abs. 2, 331 Abs. 3, 341 Abs. 2 ZPO.\n\nVerfügungen sind Anordnungen gegenüber der Geschäftsstelle, meist prozessleitender Natur (vgl. §§ 216 Abs. 2, 227 Abs. 2, 229, 273 Abs. 2, 329 Abs. 2 S. 1 ZPO).",
+  "id": "zivilgericht-0301",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wie lang sind Ladungsfrist (§ 217 ZPO) im Anwaltsprozess und Einlassungsfrist (§ 274 Abs. 3 S. 1 ZPO)?",
+  "antworten": [
+    "Ladungsfrist mindestens eine Woche; Einlassungsfrist mindestens zwei Wochen",
+    "Ladungsfrist mindestens drei Tage; Einlassungsfrist mindestens eine Woche",
+    "Ladungsfrist mindestens zwei Wochen; Einlassungsfrist mindestens eine Woche",
+    "Ladungsfrist mindestens eine Woche; Einlassungsfrist mindestens ein Monat"
+  ],
+  "erklaerung": "Die Ladungsfrist beträgt in Anwaltsprozessen mindestens eine Woche, in anderen Prozessen mindestens drei Tage (§ 217 ZPO). Zwischen der Zustellung der Klageschrift und dem Termin zur mündlichen Verhandlung muss ein Zeitraum von mindestens zwei Wochen liegen (Einlassungsfrist, § 274 Abs. 3 S. 1 ZPO). Ihre Nichteinhaltung ist ein Erlasshindernis nach § 335 Abs. 1 Nr. 2 bzw. Nr. 3 ZPO.",
+  "id": "zivilgericht-0336",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

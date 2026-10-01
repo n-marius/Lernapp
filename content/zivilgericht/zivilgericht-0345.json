@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Welche Folge hat die prozessuale Unwirksamkeit eines Prozessvergleichs (z. B. fehlende Protokollierung)?",
+  "antworten": [
+    "Der alte Prozess bleibt rechtshängig; über die Wirksamkeit wird im alten Prozess entschieden",
+    "Der Prozess ist beendet; die Unwirksamkeit ist in einem neuen Prozess geltend zu machen",
+    "Der alte Prozess bleibt rechtshängig; über die Wirksamkeit wird in einem neuen Prozess entschieden",
+    "Der Vergleich bleibt als Vollstreckungstitel wirksam, bis er aufgehoben wird"
+  ],
+  "erklaerung": "Bei prozessualer Unwirksamkeit (z. B. fehlende Protokollierung, fehlende Postulationsfähigkeit) bleibt der alte Prozess rechtshängig; es besteht keine Vollstreckbarkeit. Bei Streit über die Wirksamkeit entscheidet das Gericht im alten Prozess über dessen Beendigung: Ist er beendet, wird der Antrag auf Anberaumung eines neuen Termins als unzulässig abgewiesen bzw. die Erledigung durch Prozessurteil festgestellt; sonst neuer Termin (§ 216 ZPO), ggf. Zwischenurteil (§ 303 ZPO).\n\nOb die Unwirksamkeit auch die materiell-rechtliche Seite erfasst, ist durch Auslegung im Einzelfall zu ermitteln (§ 139 BGB).",
+  "id": "zivilgericht-0345",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

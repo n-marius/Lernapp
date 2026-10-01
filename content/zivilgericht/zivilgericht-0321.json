@@ -1,0 +1,21 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "typ": "begriffe",
+  "reihenfolge": true,
+  "frage": "Welche Voraussetzungen hat die Begründetheit des Antrags auf Feststellung der Erledigung?",
+  "antworten": [
+    "Zulässigkeit der ursprünglichen Klage",
+    "Begründetheit der ursprünglichen Klage",
+    "Erledigendes Ereignis nach Rechtshängigkeit",
+    "Dadurch Unzulässigkeit oder Unbegründetheit der Klage"
+  ],
+  "falsche": [
+    "Zustimmung des Beklagten",
+    "Erledigendes Ereignis nach Anhängigkeit"
+  ],
+  "erklaerung": "Die Feststellungsklage ist begründet, wenn die ursprüngliche Klage zulässig und begründet war und durch ein erledigendes Ereignis nach Rechtshängigkeit unzulässig oder unbegründet geworden ist. Bei Erledigung durch Aufrechnung kommt es auf den Zeitpunkt der Aufrechnungserklärung an.\n\nTenor bei Erfolg: „Es wird festgestellt, dass der Rechtsstreit in der Hauptsache erledigt ist. Die Kosten des Rechtsstreits trägt der Beklagte.“ nebst Ausspruch zur vorläufigen Vollstreckbarkeit wegen der Kosten; sonst: „Die Klage wird abgewiesen.“",
+  "id": "zivilgericht-0321",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

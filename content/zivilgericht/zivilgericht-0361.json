@@ -1,0 +1,21 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "typ": "begriffe",
+  "reihenfolge": true,
+  "frage": "In welcher Reihenfolge werden die Voraussetzungen eines Versäumnisurteils gegen den Kläger (§ 330 ZPO) geprüft?",
+  "antworten": [
+    "Antrag",
+    "Zulässigkeit der Klage",
+    "Säumnis oder Nichtverhandeln",
+    "Kein Erlasshindernis"
+  ],
+  "falsche": [
+    "Schlüssigkeit der Klage",
+    "Erheblichkeit"
+  ],
+  "erklaerung": "Beim VU gegen den Kläger wird keine Schlüssigkeit geprüft. Ist die Klage unzulässig, wird sie durch Prozessurteil abgewiesen (unechtes VU). Sonst ergeht ein echtes klageabweisendes Versäumnisurteil („Die Klage wird abgewiesen. Der Kläger trägt die Kosten des Rechtsstreits. Das Urteil ist vorläufig vollstreckbar.“; §§ 91 Abs. 1, 708 Nr. 2 ZPO).",
+  "id": "zivilgericht-0361",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

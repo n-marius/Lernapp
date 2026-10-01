@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wie sind die Kosten eines Prozessvergleichs verteilt, wenn die Parteien keine Regelung getroffen haben?",
+  "antworten": [
+    "Sie gelten als gegeneinander aufgehoben (§ 98 ZPO)",
+    "Das Gericht entscheidet nach billigem Ermessen (§ 91a ZPO entsprechend)",
+    "Sie werden nach dem Verhältnis des Nachgebens verteilt (§ 92 ZPO)",
+    "Der Kläger trägt sie entsprechend § 269 Abs. 3 S. 2 ZPO"
+  ],
+  "erklaerung": "Eine Kostenentscheidung des Gerichts ist nur nach § 98 ZPO zu treffen, wenn die Parteien keine Regelung getroffen haben: Die Kosten des Vergleichs und, soweit nicht rechtskräftig über sie entschieden ist, des Rechtsstreits gelten dann als gegeneinander aufgehoben.\n\nDer Vergleich reduziert die Gerichtskosten auf eine 1,0-Gebühr (Nr. 1211 Nr. 3 KV GKG); die Rechtsanwälte erhalten eine Einigungsgebühr (Nr. 1000 VV RVG).",
+  "id": "zivilgericht-0342",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Welche Kosten- und Vollstreckbarkeitsnormen gelten für das Urteil, das den Einspruch als unzulässig verwirft?",
+  "antworten": [
+    "§ 97 Abs. 1 ZPO analog; § 708 Nr. 3 ZPO ohne Abwendungsbefugnis",
+    "§ 91 ZPO; § 708 Nr. 3 ZPO mit Abwendungsbefugnis (§ 711 ZPO)",
+    "§ 97 Abs. 1 ZPO analog; § 708 Nr. 2 ZPO mit Abwendungsbefugnis",
+    "§ 344 ZPO; § 709 S. 1 ZPO"
+  ],
+  "erklaerung": "Tenor: „Der Einspruch des Beklagten gegen das Versäumnisurteil des Amtsgerichts X (Az.) vom … wird als unzulässig verworfen. Der Beklagte trägt die weiteren Kosten des Rechtsstreits. Das Urteil ist vorläufig vollstreckbar.“\n\nKosten: § 97 Abs. 1 ZPO analog (Kosten eines erfolglosen Rechtsmittels trägt der Rechtsmittelführer). Vollstreckbarkeit: § 708 Nr. 3 ZPO, auf den § 711 ZPO nicht anwendbar ist. Tatbestand und Entscheidungsgründe sind grundsätzlich erforderlich; im Beispiel des AG-Urteils über 500 Euro ist ein Tatbestand nach § 313a Abs. 1 S. 1 ZPO entbehrlich.",
+  "id": "zivilgericht-0313",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Wie lautet der Tenor, wenn sich nach zulässigem Einspruch gegen ein gesetzmäßig ergangenes VU ergibt, dass die Klage unbegründet ist?",
+  "antworten": [
+    "VU aufgehoben und Klage abgewiesen; Beklagter trägt Säumniskosten, im Übrigen Kläger",
+    "VU aufgehoben; Kläger trägt die Kosten des Rechtsstreits",
+    "Klage abgewiesen; Kläger trägt die Kosten des Rechtsstreits",
+    "VU aufgehoben und Klage abgewiesen; Kläger trägt die Kosten einschließlich der Säumniskosten"
+  ],
+  "erklaerung": "„Das Versäumnisurteil vom … wird aufgehoben und die Klage abgewiesen.“ (§ 343 S. 2 ZPO; die Klageabweisung nicht vergessen). „Der Beklagte trägt die Kosten seiner Säumnis, die übrigen Kosten des Rechtsstreits trägt der Kläger.“ (§§ 91, 344 ZPO).\n\nVollstreckbarkeit für den Beklagten bzgl. seiner Prozesskosten sowie für den Kläger wegen der Kosten des § 344 ZPO jeweils nach §§ 708 Nr. 11, 711 bzw. § 709 S. 1, 2 ZPO.",
+  "id": "zivilgericht-0309",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

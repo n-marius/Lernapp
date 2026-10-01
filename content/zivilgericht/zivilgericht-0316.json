@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Welche Zulässigkeitsvoraussetzungen hat der Einspruch gegen ein Versäumnisurteil?",
+  "antworten": [
+    "Statthaftigkeit (§ 338), Notfrist von zwei Wochen ab Zustellung (§ 339), Form (§ 340 ZPO)",
+    "Statthaftigkeit (§ 338), Notfrist von einem Monat ab Zustellung (§ 339), Form (§ 340 ZPO)",
+    "Statthaftigkeit (§ 338), Frist von zwei Wochen ab Verkündung (§ 339), Begründung (§ 340 ZPO)",
+    "Beschwer, Notfrist von zwei Wochen ab Verkündung (§ 339), Form (§ 340 ZPO)"
+  ],
+  "erklaerung": "Rechtsbehelf gegen das echte VU ist nur der Einspruch (§§ 338, 514 Abs. 1 ZPO). Das Gericht prüft dessen Zulässigkeit von Amts wegen (§ 341 Abs. 1 S. 1 ZPO); der Einspruch ist der Gegenpartei zuzustellen (§ 340a ZPO). Voraussetzungen: Statthaftigkeit (§ 338 ZPO), Frist von zwei Wochen ab Zustellung des VU (§ 339 ZPO; Notfrist, ggf. Wiedereinsetzung), Form (§ 340 ZPO).",
+  "id": "zivilgericht-0316",
+  "ts": "2026-10-01T12:21:46.072678Z",
+  "korrigiert": "2026-10-01T12:21:46.072678Z"
+}

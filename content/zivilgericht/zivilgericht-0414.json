@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wie kann die Sicherheitsleistung tenoriert werden, wenn der Kläger mit einer Herausgabe- und einer Zahlungsklage obsiegt?",
+  "antworten": [
+    "Herausgabe: bezifferter Betrag (Wert zzgl. 10 %); im Übrigen 110 % des jeweils zu vollstreckenden Betrags",
+    "Insgesamt 110 % des jeweils zu vollstreckenden Betrags",
+    "Herausgabe: 110 % des Werts; Zahlung und Kosten: bezifferter Gesamtbetrag",
+    "Insgesamt nur bezifferter Betrag aus Herausgabewert zzgl. 10 %"
+  ],
+  "erklaerung": "Zwei Möglichkeiten: (1) Die gesamte Sicherheit wird ausgerechnet (Wert der Hauptsache + Gerichtsgebühren + Rechtsanwaltskosten + 10 % Sicherheitszuschlag, gerundet). (2) Die Sicherheit wird nur für die Herausgabe ausgerechnet (§ 709 S. 1 ZPO), im Übrigen gilt § 709 S. 2 ZPO.\n\nFormulierung zu (2): „Das Urteil ist hinsichtlich der Herausgabe gegen Sicherheitsleistung in Höhe von 5.500 €, im Übrigen gegen Sicherheitsleistung in Höhe von 110 % des jeweils zu vollstreckenden Betrages vorläufig vollstreckbar.“ Für den Streitwert werden die Werte addiert (§ 39 Abs. 1 GKG, § 5 ZPO; Herausgabe § 6 ZPO).",
+  "id": "zivilgericht-0414",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

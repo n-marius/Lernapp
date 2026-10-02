@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Welche Überschrift erhält das Urteil, wenn gegen zwei säumige Beklagte nur hinsichtlich eines Beklagten ein Versäumnisurteil ergeht und die Klage gegen den anderen als unschlüssig abgewiesen wird?",
+  "antworten": [
+    "„Teil-Versäumnis- und Endurteil“ (oder „… und Schlussurteil“)",
+    "„Versäumnisurteil“",
+    "„Teilurteil“",
+    "„Versäumnis- und Zwischenurteil“"
+  ],
+  "erklaerung": "Gegen den Beklagten zu 1) ergeht ein echtes Teil-Versäumnisurteil, gegen den Beklagten zu 2) bei unschlüssiger Klage ein unechtes Teil-Versäumnisurteil (kontradiktorisches Endurteil). Überschrift: „Teil-Versäumnis- und Endurteil“ oder „Teil-Versäumnis- und Schlussurteil“. Tenor: „Der Beklagte zu 1) wird verurteilt, an den Kläger 525,- € zu zahlen. Im Übrigen wird die Klage abgewiesen.“",
+  "id": "zivilgericht-0412",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

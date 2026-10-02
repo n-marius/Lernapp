@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Was kann Gegenstand einer Feststellungsklage nach § 256 Abs. 1 ZPO sein?",
+  "antworten": [
+    "Rechtliche Beziehungen, nicht Tatsachen, unselbständige Elemente oder Vorfragen eines Anspruchs",
+    "Rechtliche Beziehungen und entscheidungserhebliche Tatsachen",
+    "Jede Rechtsfrage, an deren Klärung ein Interesse besteht",
+    "Nur Ansprüche, die noch nicht fällig sind"
+  ],
+  "erklaerung": "Festgestellt werden kann das Bestehen oder Nichtbestehen eines Rechtsverhältnisses oder die Echtheit oder Unechtheit einer Urkunde. Rechtsverhältnis ist eine aus dem Sachverhalt abgeleitete rechtliche Beziehung von Personen untereinander oder zu einem Gegenstand, aus der ein subjektives Recht folgt. Nicht feststellbar sind Tatsachen, unselbständige Elemente oder Vorfragen eines Anspruchs (problematisch: Annahmeverzug). Das Rechtsverhältnis ist im Antrag genau zu bezeichnen (§ 253 Abs. 2 Nr. 2 ZPO).",
+  "id": "zivilgericht-0385",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Wie wird die Kostenquote bei Teil-Klagerücknahme vor der mündlichen Verhandlung nach der h. M. (Mehrkostenmethode) berechnet?",
+  "antworten": [
+    "Differenz zwischen tatsächlichen Kosten und Kosten bei sofortiger Klage über den Restbetrag im Verhältnis zu den tatsächlichen Kosten",
+    "Verlustquote des Klägers für jede tatsächlich angefallene Kostenposition einzeln, ins Verhältnis zu den Gesamtkosten gesetzt",
+    "Verhältnis des zurückgenommenen Betrags zum ursprünglichen Streitwert",
+    "Verhältnis der Kosten bei sofortiger Klage über den Restbetrag zu den tatsächlichen Kosten"
+  ],
+  "erklaerung": "Mehrkostenmethode (h. M., OLG Schleswig MDR 2008, 353): Es werden die Kosten berechnet, die entstanden wären, wenn der Kläger gleich den geringeren Betrag eingeklagt hätte. Die Differenz zu den tatsächlich entstandenen Kosten („Mehrkosten“ durch überhöhte Klage) wird ins Verhältnis zu den tatsächlichen Kosten gesetzt; dieser Anteil trifft den Kläger (Beispiel: 948 € / 2.901 € ≈ 33 %).\n\nQuotenmethode: Die Verlustquote des Klägers wird für jede tatsächlich angefallene Position einzeln angesetzt und die Summe ins Verhältnis zu den Gesamtkosten gesetzt (Beispiel: ≈ 38 %). Die gemischte Kostenentscheidung ergeht von Amts wegen im Urteil. Klausurtipp: bei Zeitknappheit schätzen; Taschenrechner sind im Examen nicht gestattet.",
+  "id": "zivilgericht-0406",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

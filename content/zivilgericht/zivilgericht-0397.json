@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wann entfällt das Interesse an einer negativen Feststellungsklage, wenn der Beklagte wegen desselben Anspruchs Leistungswiderklage erhebt?",
+  "antworten": [
+    "Wenn die Leistungsklage nicht mehr einseitig zurückgenommen werden kann; nur soweit die Streitgegenstände übereinstimmen",
+    "Sofort mit Erhebung der Leistungsklage, insgesamt",
+    "Wenn die Leistungsklage rechtskräftig entschieden ist",
+    "Gar nicht, da die negative Feststellungsklage vorrangig erhoben wurde"
+  ],
+  "erklaerung": "Das Interesse entfällt grundsätzlich, wenn eine Leistungsklage über den Anspruch erhoben wird. Da der Beklagte so jede Feststellungsklage unzulässig machen könnte, lässt die Rechtsprechung es erst entfallen, wenn die Leistungsklage nicht mehr einseitig zurückgenommen werden kann (Antragstellung in der mündlichen Verhandlung). Der Kläger sollte dann insoweit für erledigt erklären.\n\nBeispiel: Feststellung, dass ein Mietverhältnis nicht mehr besteht; Widerklage auf Miete für Juli und August. Nur in Höhe der Widerklage liegt derselbe Streitgegenstand vor; im Übrigen bleibt die Feststellungsklage zulässig, da die Rechtskraft des Leistungsurteils künftige Mieten nicht erfasst.",
+  "id": "zivilgericht-0397",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

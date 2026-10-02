@@ -1,0 +1,23 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "typ": "begriffe",
+  "reihenfolge": false,
+  "frage": "Welche Voraussetzungen hat eine parteierweiternde Drittwiderklage nach der Rechtsprechung?",
+  "antworten": [
+    "Erhebung durch den Beklagten",
+    "Auch gegen den Kläger gerichtet",
+    "Rechtlicher Zusammenhang",
+    "Streitgenossenschaft der Widerbeklagten",
+    "Einwilligung des Dritten oder Sachdienlichkeit"
+  ],
+  "falsche": [
+    "Erhebung durch den Streithelfer",
+    "Zustimmung des Klägers",
+    "Gleicher Wohnsitz der Widerbeklagten"
+  ],
+  "erklaerung": "Die Rechtsprechung hält die Drittwiderklage für zulässig und wendet die Regeln über den Parteibeitritt an (vgl. Lühl, JA 2015, 374): Die Widerklage muss vom Beklagten ausgehen, nicht von einem Streithelfer; sie muss sich auch gegen den Kläger richten; rechtlicher Zusammenhang zwischen Klage und Widerklage gegen sämtliche Widerbeklagte; Streitgenossenschaft der Widerbeklagten (§§ 59, 60 ZPO); Einwilligung des Dritten oder Sachdienlichkeit (§§ 263, 267 ZPO).\n\nBeispiel: Unfallgegner B erhebt gegen den Kläger und dessen Haftpflichtversicherung Widerklage auf Ersatz seines Schadens.",
+  "id": "zivilgericht-0379",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

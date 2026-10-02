@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wie kann entschieden werden, wenn die Klageforderung entscheidungsreif ist, die zur Aufrechnung gestellte Gegenforderung aber noch nicht?",
+  "antworten": [
+    "Vorbehaltsurteil (§ 302 ZPO) mit Vorbehalt der Entscheidung über die Aufrechnung",
+    "Teilurteil über die Klageforderung (§ 301 ZPO)",
+    "Grundurteil über die Klageforderung (§ 304 ZPO)",
+    "Zwischenurteil über die Klageforderung (§ 303 ZPO)"
+  ],
+  "erklaerung": "Hat der Beklagte die Aufrechnung erklärt und ist nur die Verhandlung über die Klageforderung entscheidungsreif, kann ein Vorbehaltsurteil ergehen (§ 302 ZPO). Tenor: Verurteilung, Kosten, vorläufige Vollstreckbarkeit (§ 709 ZPO) und „Die Entscheidung über die Aufrechnungsforderung des Beklagten iHv 7.000 € bleibt vorbehalten.“\n\nIm Nachverfahren in derselben Instanz wird das Vorbehaltsurteil durch Schlussurteil für vorbehaltlos erklärt oder aufgehoben; es besteht Bindungswirkung (§ 318 ZPO). Daneben gibt es das Vorbehaltsurteil im Urkundenprozess (§ 599 ZPO).",
+  "id": "zivilgericht-0413",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

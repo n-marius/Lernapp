@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Wie werden nach der Baumbach’schen Formel die Gerichtskosten und die außergerichtlichen Kosten des Klägers verteilt?",
+  "antworten": [
+    "Nach Verlustanteilen an einem fiktiven Streitwert aus der Summe der Einzelstreitwerte je Beklagtem",
+    "Nach Verlustanteilen am tatsächlichen Gebührenstreitwert",
+    "Nach Kopfteilen unter allen Beteiligten",
+    "Nach dem Verhältnis des Unterliegens des Klägers gegenüber dem am höchsten verklagten Beklagten"
+  ],
+  "erklaerung": "Bei unterschiedlichem Verfahrensausgang gegenüber mehreren Beklagten werden §§ 91, 92 ZPO kombiniert angewandt. Für die Gerichtskosten und die Anwaltskosten des Klägers wird ein fiktiver Streitwert gebildet (z. B. 2 × 525 € = 1.050 €); dann wird einzeln betrachtet, in welchem Umfang der Kläger gegenüber dem jeweiligen Beklagten verloren hat.\n\nBeispiel (Klage gegen B1 erfolgreich, gegen B2 abgewiesen): „Die Gerichtskosten und außergerichtlichen Kosten des Klägers tragen der Kläger und der Beklagte zu 1) je zur Hälfte. Die außergerichtlichen Kosten des Beklagten zu 2) trägt der Kläger. Die außergerichtlichen Kosten des Beklagten zu 1) trägt dieser selbst.“ Klausurtipp: Tenor aus Thomas/Putzo § 100 Rn. 15.",
+  "id": "zivilgericht-0378",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

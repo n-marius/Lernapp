@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Wie bemisst sich der Gebührenstreitwert einer Räumungsklage des Wohnraumvermieters?",
+  "antworten": [
+    "Nach dem Jahresbetrag der Miete ohne Nebenkostenvorauszahlungen (§ 41 Abs. 2 S. 1, Abs. 1 S. 2 GKG)",
+    "Nach dem dreifachen Jahresbetrag der Miete (§ 9 ZPO)",
+    "Nach dem Verkehrswert der Wohnung (§ 6 ZPO)",
+    "Nach dem Jahresbetrag der Miete einschließlich Nebenkostenvorauszahlungen (§ 41 Abs. 1 S. 1 GKG)"
+  ],
+  "erklaerung": "Für die Räumung ist nach § 41 Abs. 2 S. 1 i. V. m. Abs. 1 GKG das für ein Jahr zu zahlende Entgelt maßgeblich, im Beispiel 12 × 450 € Kaltmiete = 5.400 €; vorauszuzahlende Nebenkosten bleiben außer Betracht.",
+  "id": "zivilgericht-0404",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

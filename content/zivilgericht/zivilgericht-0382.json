@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Wozu dient die Feststellung, dass sich der Beklagte im Annahmeverzug befindet, und wozu die Feststellung, dass ein Anspruch aus vorsätzlicher unerlaubter Handlung herrührt?",
+  "antworten": [
+    "Annahmeverzug: Vollstreckung Zug um Zug (§§ 756, 765 ZPO); Vorsatzdelikt: § 850f Abs. 2 ZPO, § 302 Nr. 1 InsO",
+    "Annahmeverzug: Verzugszinsen (§ 288 BGB); Vorsatzdelikt: § 850f Abs. 2 ZPO, § 302 Nr. 1 InsO",
+    "Annahmeverzug: Vollstreckung Zug um Zug (§§ 756, 765 ZPO); Vorsatzdelikt: Schmerzensgeld (§ 253 Abs. 2 BGB)",
+    "Annahmeverzug: Gefahrübergang (§ 300 BGB); Vorsatzdelikt: 30-jährige Verjährung (§ 197 BGB)"
+  ],
+  "erklaerung": "Tenorbeispiele (Kaiser, NJW 2015, 1286): „Es wird festgestellt, dass … sich der Beklagte mit der Annahme der in Ziffer 1 bezeichneten Zug-um-Zug-Leistung im Verzug befindet.“ (wegen §§ 756, 765 ZPO); „… der in Ziffer 1 bezeichnete Anspruch aus einer vorsätzlichen unerlaubten Handlung des Beklagten herrührt.“ (wegen § 850f Abs. 2 ZPO; § 302 Nr. 1 InsO).\n\nWeitere: Ersatzpflicht für künftige materielle und immaterielle Schäden aus einem Unfallereignis, soweit nicht auf Sozialversicherungsträger oder Dritte übergegangen; Fortbestehen eines Mietverhältnisses trotz Kündigung.",
+  "id": "zivilgericht-0382",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Wann besteht das Feststellungsinteresse (§ 256 Abs. 1 ZPO) bei einer negativen Feststellungsklage, und wann fehlt es allgemein?",
+  "antworten": [
+    "Bei Berühmung durch den Beklagten; es fehlt, wenn ein einfacherer Weg (v. a. Leistungsklage) zum Ziel führt",
+    "Bei jedem Streit über ein Rechtsverhältnis; es fehlt nur bei Rechtsmissbrauch",
+    "Bei Berühmung durch den Beklagten; es fehlt nie, da negative Feststellungsklagen privilegiert sind",
+    "Bei drohender Verjährung; es fehlt, wenn der Kläger eine Leistungsklage erheben könnte"
+  ],
+  "erklaerung": "Feststellungsinteresse = Interesse an alsbaldiger Feststellung: Recht oder Rechtslage des Klägers sind mit einer Unsicherheit belastet, und das Urteil ist geeignet, sie zu klären. Bei der negativen Feststellungsklage liegt es nur vor, wenn sich der Beklagte eines Anspruchs oder Rechts berühmt. Es fehlt, wenn ein einfacherer Weg zum gleichen Ziel führt (Vorrang der Leistungsklage), da das Feststellungsurteil keinen Vollstreckungstitel schafft und einen zweiten Prozess erfordern würde.",
+  "id": "zivilgericht-0384",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

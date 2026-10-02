@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Wie geht der Beklagte zweckmäßig vor, wenn er die Klageforderung bestreitet und eine sie übersteigende Gegenforderung hat?",
+  "antworten": [
+    "Bestreiten, hilfsweise Aufrechnung, Eventualwiderklage, soweit die Gegenforderung nicht durch die Aufrechnung verbraucht ist",
+    "Unbedingte Aufrechnung und Widerklage wegen des überschießenden Teils",
+    "Widerklage über die gesamte Gegenforderung ohne Aufrechnung",
+    "Bestreiten und Geltendmachung der Gegenforderung in einem gesonderten Prozess"
+  ],
+  "erklaerung": "Zweckmäßig: Klageabweisung beantragen und die Klageforderung bestreiten, hilfsweise mit der Gegenforderung in Höhe der Klageforderung aufrechnen und wegen derselben Gegenforderung Widerklage über den vollen Betrag unter der innerprozessualen Bedingung erheben, dass und soweit die Gegenforderung nicht durch die Hilfsaufrechnung verbraucht ist.\n\nAm AG ist für die sachliche Zuständigkeit § 5 ZPO zu beachten; ist für die Widerklage das LG zuständig, gilt § 506 ZPO.",
+  "id": "zivilgericht-0388",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

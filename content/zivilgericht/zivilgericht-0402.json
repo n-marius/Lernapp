@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Wie wird die Höhe der Abwendungssicherheit nach § 711 S. 1 ZPO bei einem Räumungsurteil bemessen?",
+  "antworten": [
+    "Mietausfall während der mutmaßlichen Dauer des Berufungsverfahrens zzgl. Kosten (Faustformel: 6 Monatsmieten)",
+    "Jahresbetrag der Miete zzgl. 10 % (§ 41 GKG)",
+    "110 % des aufgrund des Urteils vollstreckbaren Betrags",
+    "Verkehrswert der Wohnung zzgl. 10 %"
+  ],
+  "erklaerung": "Die Räumung ist nach §§ 708 Nr. 7, 711 S. 1 ZPO ohne Sicherheit vorläufig vollstreckbar, mit Abwendungsbefugnis. Bemessen wird sie nach dem Mietausfall während der mutmaßlichen Dauer des Berufungsverfahrens und grundsätzlich auch den Kosten; Faustformel 6 Monate × Monatsmiete (im Beispiel 6 × 500 € = 3.000 €).\n\n„Der Beklagte kann die Vollstreckung wegen der Räumung gegen Sicherheitsleistung in Höhe von 3.000,- € abwenden, wenn nicht der Kläger vor der Vollstreckung Sicherheit in gleicher Höhe leistet.“",
+  "id": "zivilgericht-0402",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

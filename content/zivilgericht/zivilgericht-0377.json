@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wie werden nach der Baumbach’schen Formel die außergerichtlichen Kosten eines Beklagten verteilt?",
+  "antworten": [
+    "Nur zwischen ihm und dem Kläger nach dem Ausgang ihres Prozessrechtsverhältnisses",
+    "Nach Verlustanteilen am fiktiven Gesamtstreitwert",
+    "Nach Kopfteilen unter allen Beklagten",
+    "Stets vollständig durch die unterliegende Partei des Gesamtrechtsstreits"
+  ],
+  "erklaerung": "Die außergerichtlichen Kosten jedes Beklagten werden nur im Verhältnis zwischen ihm und dem Kläger verteilt, nach dem Ausgang dieses Prozessrechtsverhältnisses.\n\nBeispiel (Klage gegen B1 und B2 als Gesamtschuldner über 4.000 €; B1 und B2 gesamtschuldnerisch zu 2.000 €, B1 allein zu weiteren 1.000 € verurteilt): „Die Gerichtskosten und außergerichtlichen Kosten des K tragen K zu 3/8, B1 und B2 als Gesamtschuldner zu ½ und B1 allein zu weiteren 1/8. Die außergerichtlichen Kosten des B1 trägt K zu ¼. Die außergerichtlichen Kosten des B2 trägt K zu ½. Im Übrigen tragen die Parteien ihre Kosten selbst.“",
+  "id": "zivilgericht-0377",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

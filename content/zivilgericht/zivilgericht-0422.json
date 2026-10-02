@@ -1,0 +1,25 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "typ": "begriffe",
+  "reihenfolge": true,
+  "frage": "Wie ist der Tatbestand aufgebaut, wenn Klage und Widerklage einen gemeinsamen Sachverhalt betreffen?",
+  "antworten": [
+    "Einleitungssatz",
+    "Unstreitiges zu Klage und Widerklage",
+    "Streitiger Klägervortrag",
+    "ggf. kleine Prozessgeschichte",
+    "Anträge zu Klage und Widerklage",
+    "Streitiger Beklagtenvortrag",
+    "ggf. Erwiderung auf die Widerklage",
+    "Prozessgeschichte"
+  ],
+  "falsche": [
+    "Überleitungssatz zur Widerklage",
+    "Unstreitiges zur Widerklage gesondert"
+  ],
+  "erklaerung": "Gemeinsamer Sachverhalt: Einleitungssatz („Klage und Widerklage betreffen …“), unstreitiger Sachverhalt zu Klage und Widerklage, streitiger Klägervortrag zu beiden, ggf. antragsbezogene kleine Prozessgeschichte, Anträge (Klageantrag, Klageabweisungsantrag, Widerklageantrag, Widerklageabweisungsantrag), streitiger Beklagtenvortrag zu beiden, ggf. Erwiderung des Klägers auf die Widerklage, Prozessgeschichte.\n\nBei unterschiedlichen Sachverhalten werden Klage und Widerklage nacheinander dargestellt, verbunden durch einen Überleitungssatz.",
+  "id": "zivilgericht-0422",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

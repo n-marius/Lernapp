@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Wie ist mit einer Widerklage zu verfahren, die erst nach Rücknahme der Klage erhoben wird?",
+  "antworten": [
+    "Sie ist unzulässig; Folge nach den AG-Unterlagen: Abtrennung (§ 145 ZPO), nicht Abweisung",
+    "Sie ist zulässig, da es nur auf Anhängigkeit ankommt",
+    "Sie wird als unzulässig abgewiesen",
+    "Sie wird als selbständige Klage in einem neuen Verfahren an das zuständige Gericht verwiesen"
+  ],
+  "erklaerung": "Eine Widerklage kann nur erhoben werden, wenn und solange die Klage rechtshängig ist. Die Erhebung nach erfolgter Klagerücknahme ist als Widerklage unzulässig; Folge ist nach den AG-Unterlagen die Abtrennung nach § 145 ZPO, nicht die Abweisung.",
+  "id": "zivilgericht-0420",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

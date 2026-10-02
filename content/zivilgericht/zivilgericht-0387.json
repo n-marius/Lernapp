@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Ist ein der Feststellungsklage stattgebendes Urteil für vorläufig vollstreckbar zu erklären?",
+  "antworten": [
+    "Ja, hinsichtlich der Kosten",
+    "Nein, da es keinen vollstreckbaren Inhalt hat",
+    "Ja, hinsichtlich der Hauptsache und der Kosten",
+    "Nur auf Antrag des Klägers"
+  ],
+  "erklaerung": "Das Feststellungsurteil ist in der Hauptsache nicht vollstreckbar, hinsichtlich der Kosten aber für vorläufig vollstreckbar zu erklären.",
+  "id": "zivilgericht-0387",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

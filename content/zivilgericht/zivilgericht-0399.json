@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Was stellt ein Urteil, das eine negative Feststellungsklage abweist, rechtskräftig fest?",
+  "antworten": [
+    "Das Bestehen des Rechtsverhältnisses",
+    "Nur, dass das Nichtbestehen nicht bewiesen ist",
+    "Das Nichtbestehen des Rechtsverhältnisses",
+    "Nichts, da Abweisungen keine Rechtskraft entfalten"
+  ],
+  "erklaerung": "Bei der negativen Feststellungsklage erwächst bei Stattgabe das Nichtbestehen, bei Klageabweisung das Bestehen des Rechtsverhältnisses in Rechtskraft (Umkehrung gegenüber der positiven Feststellungsklage).",
+  "id": "zivilgericht-0399",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

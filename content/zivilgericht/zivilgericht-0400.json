@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Hemmt die negative Feststellungsklage des Schuldners die Verjährung des Anspruchs des beklagten Gläubigers?",
+  "antworten": [
+    "Nein",
+    "Ja, nach § 204 Abs. 1 Nr. 1 BGB",
+    "Ja, sobald der Gläubiger Klageabweisung beantragt",
+    "Ja, wenn die Klage abgewiesen wird"
+  ],
+  "erklaerung": "Eine Verjährungshemmung zugunsten des verklagten Gläubigers nach § 204 Abs. 1 Nr. 1 BGB findet nicht statt; der Gläubiger muss ggf. selbst Leistungs(wider)klage erheben.",
+  "id": "zivilgericht-0400",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

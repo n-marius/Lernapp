@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Werden bei einer Klagehäufung die Werte der Verurteilungen für die Grenze des § 708 Nr. 11 ZPO zusammengerechnet?",
+  "antworten": [
+    "Ja, außer für Anträge, die schon nach § 708 Nr. 1–10 ZPO ohne Sicherheit vollstreckbar sind",
+    "Nein, jeder Antrag wird gesondert betrachtet",
+    "Ja, ausnahmslos einschließlich der nach § 708 Nr. 1–10 ZPO privilegierten Anträge",
+    "Nein, maßgeblich ist allein der Gebührenstreitwert"
+  ],
+  "erklaerung": "Bei Klagehäufung erfolgt für § 708 Nr. 11 ZPO eine Zusammenrechnung, außer wenn für einen Antrag schon nach § 708 Nr. 1–10 ZPO die Sicherheitsleistung entfällt. Beispiel: Räumung nach §§ 708 Nr. 7, 711 S. 1 ZPO; daneben Zahlung von 1.200 € nach §§ 708 Nr. 11, 711 S. 1, 2 ZPO.",
+  "id": "zivilgericht-0415",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

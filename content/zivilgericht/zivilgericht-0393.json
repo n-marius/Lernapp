@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Ist eine isolierte Drittwiderklage zulässig, die sich nur gegen einen bisher nicht beteiligten Dritten richtet?",
+  "antworten": [
+    "Grundsätzlich nicht; ausnahmsweise bei enger tatsächlicher und rechtlicher Verknüpfung ohne Verletzung schutzwürdiger Interessen des Dritten",
+    "Ja, unter denselben Voraussetzungen wie jede Drittwiderklage",
+    "Nein, ausnahmslos",
+    "Grundsätzlich ja; unzulässig nur bei fehlender Konnexität"
+  ],
+  "erklaerung": "Die isolierte Drittwiderklage ist grundsätzlich unzulässig, es sei denn, die Sachverhalte sind tatsächlich und rechtlich eng miteinander verknüpft und schutzwürdige Interessen des Drittwiderbeklagten werden nicht verletzt (BGH NJW 2007, 1753).\n\nBeispiel: A tritt seinen Unfallschadensersatzanspruch an seine Frau F ab, die B verklagt und A als Zeugen benennt. B erhebt Drittwiderklage gegen A auf Feststellung, dass der abgetretene Anspruch nicht besteht.",
+  "id": "zivilgericht-0393",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

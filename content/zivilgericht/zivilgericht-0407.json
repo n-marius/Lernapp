@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wie ist zu tenorieren, wenn der Kläger nach mündlicher Verhandlung und Beweisaufnahme die Hälfte der Klage zurücknimmt und mit dem Rest obsiegt?",
+  "antworten": [
+    "Kostenaufhebung oder hälftige Teilung (§ 92 Abs. 1 i. V. m. § 269 Abs. 3 S. 2 ZPO)",
+    "Kläger trägt die Kosten (§ 269 Abs. 3 S. 2 ZPO)",
+    "Beklagter trägt die Kosten (§ 91 ZPO)",
+    "Kostenentscheidung nur auf Antrag durch Beschluss (§ 269 Abs. 4 ZPO)"
+  ],
+  "erklaerung": "Bei Reduzierung des Streitwerts (Teil-Klagerücknahme, Teil-Anerkenntnis, Teil-Erledigung) wird eine einheitliche Kostenquote gebildet (gemischte Kostenentscheidung). Sind sämtliche Kosten bereits vor der Teilrücknahme entstanden, entspricht die Quote dem Verhältnis der Werte. Die Teilrücknahme ermäßigt die Gerichtsgebühren nicht, da Nr. 1211 KV GKG nur für die vollständige Rücknahme gilt.\n\nDer Kläger trägt die Kosten der Teilrücknahme (§ 269 Abs. 3 S. 2 ZPO), der Beklagte die des Verlusts der übrigen Hälfte; Vorschlag: Kostenaufhebung oder Kostentragung zu je ½.",
+  "id": "zivilgericht-0407",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

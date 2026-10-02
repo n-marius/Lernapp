@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Welche verjährungsrechtlichen Wirkungen hat eine erfolgreiche positive Feststellungsklage?",
+  "antworten": [
+    "Hemmung (§ 204 Abs. 1 Nr. 1 BGB) und 30-jährige Verjährung des festgestellten Anspruchs (§ 197 Abs. 1 Nr. 3 BGB)",
+    "Neubeginn der Verjährung (§ 212 BGB) und 30-jährige Verjährung",
+    "Hemmung (§ 204 Abs. 1 Nr. 1 BGB), aber keine Änderung der Verjährungsfrist",
+    "Keine, da das Feststellungsurteil keinen Leistungstitel schafft"
+  ],
+  "erklaerung": "Die Feststellungsklage hemmt die Verjährung (§ 204 Abs. 1 Nr. 1 BGB) bis 6 Monate nach Abschluss des Verfahrens (§ 204 Abs. 2 BGB). Für den festgestellten Anspruch gilt die 30-jährige Frist (§ 197 Abs. 1 Nr. 3 BGB). Praktische Bedeutung insbesondere bei sich entwickelnden Schadensfällen: Feststellung der Haftung dem Grunde nach bei Ungewissheit über die Höhe.",
+  "id": "zivilgericht-0386",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

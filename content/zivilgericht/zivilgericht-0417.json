@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Wann werden Klage und Widerklage für den Gebührenstreitwert nicht addiert?",
+  "antworten": [
+    "Wenn sie denselben Gegenstand betreffen, die Zuerkennung des einen Anspruchs also die Aberkennung des anderen bedingt",
+    "Wenn die Widerklage konnex ist",
+    "Wenn die Widerklage niedriger ist als die Klage",
+    "Wenn Klage und Widerklage auf demselben Lebenssachverhalt beruhen"
+  ],
+  "erklaerung": "Grundsatz: Addition von Klage und Widerklage (§ 45 Abs. 1 S. 1 GKG). Ausnahme: keine Addition, wenn sie denselben Gegenstand betreffen; dann ist der höhere Wert maßgeblich (§ 45 Abs. 1 S. 3 GKG). Derselbe Gegenstand liegt vor, wenn sich die Ansprüche so ausschließen, dass die Zuerkennung des einen notwendig die Aberkennung des anderen bedingt, das Gericht also nicht beiden Anträgen stattgeben kann (h. M., BGH NJW-RR 2003, 713).\n\nBeispiel: Kaufpreisklage über 5.000 € und Widerklage auf Feststellung der Nichtigkeit des Kaufvertrags → Gebührenstreitwert 5.000 €. Die Kostenquote folgt dem Grundsatz der Einheitlichkeit (Verlust jeder Partei im Verhältnis zum fiktiven Streitwert aus Klage und Widerklage; im Beispiel bei 2.500 € Zuspruch: K ¼, B ¾).",
+  "id": "zivilgericht-0417",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

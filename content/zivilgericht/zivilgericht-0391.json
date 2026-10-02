@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wann kann ein Grundurteil (§ 304 ZPO) ergehen, und wie ist es anfechtbar?",
+  "antworten": [
+    "Wenn Grund und Betrag streitig sind; Rechtsmittel wie gegen ein Endurteil",
+    "Wenn nur der Betrag streitig ist; nicht selbständig anfechtbar",
+    "Wenn Grund und Betrag streitig sind; nicht selbständig anfechtbar",
+    "Wenn nur der Grund streitig ist; Rechtsmittel wie gegen ein Endurteil"
+  ],
+  "erklaerung": "Ist ein Anspruch nach Grund und Betrag streitig, kann das Gericht über den Grund vorab entscheiden (§ 304 Abs. 1 ZPO). Das Urteil ist hinsichtlich der Rechtsmittel als Endurteil anzusehen (§ 304 Abs. 2 ZPO). Es bietet sich an bei schwierigen Haftungsfragen, wenn die Höhe eine umfangreiche oder teure Beweisaufnahme erfordert; nach Klärung des Grundes ist oft eine Einigung möglich.",
+  "id": "zivilgericht-0391",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

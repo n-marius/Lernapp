@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Wie sind ein Zwischenurteil über die bejahte Zulässigkeit der Klage (§ 280 ZPO) und ein Zwischenurteil über einen Zwischenstreit nach § 303 ZPO anfechtbar?",
+  "antworten": [
+    "§ 280 ZPO: wie ein Endurteil; § 303 ZPO: nicht selbständig",
+    "§ 280 ZPO: nicht selbständig; § 303 ZPO: wie ein Endurteil",
+    "Beide: mit sofortiger Beschwerde",
+    "Beide: nicht selbständig"
+  ],
+  "erklaerung": "Zwischenurteile nach § 303 ZPO über Vorfragen, meist prozessuale Streitpunkte, sind nicht selbständig anfechtbar (selten, T/P § 303 Rn. 2), z. B. Gewährung der Wiedereinsetzung (§ 238 Abs. 1 S. 2 ZPO), Streit über die Wirksamkeit der Klagerücknahme, Anordnung der Prozesskostensicherheit (§ 110 ZPO). Das Zwischenurteil über die bejahte Zulässigkeit (§ 280 ZPO) fällt nicht unter § 303 ZPO und ist wie ein Endurteil anfechtbar.\n\nZwischenurteile gegenüber Dritten: sofortige Beschwerde (Zulassung der Nebenintervention, § 71 Abs. 2 ZPO; Zeugnisverweigerung, § 387 Abs. 3 ZPO). Grundurteile: Rechtsmittel wie gegen Endurteile (§ 304 Abs. 2 ZPO).",
+  "id": "zivilgericht-0427",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

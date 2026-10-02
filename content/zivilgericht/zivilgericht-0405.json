@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wie ist eine negative Zwischenfeststellungswiderklage auszulegen, mit der der Beklagte gegenüber einer offenen Teilklage feststellen lassen will, dass er überhaupt nichts schuldet?",
+  "antworten": [
+    "Nur auf den den eingeklagten Teil übersteigenden Betrag",
+    "Auf die gesamte Forderung einschließlich des eingeklagten Teils",
+    "Als bloßer Klageabweisungsantrag",
+    "Als unzulässig, da ein Feststellungsinteresse fehlt"
+  ],
+  "erklaerung": "Bei der Teilklage (offen wie verdeckt) erstreckt sich die materielle Rechtskraft nur auf den entschiedenen Teil (Zöller Vor § 322 Rn. 47 f.). In Höhe des eingeklagten Teils besteht ein identischer Streitgegenstand (anderweitige Rechtshängigkeit); der Widerklageantrag ist daher so auszulegen, dass er sich nur auf den übersteigenden Betrag bezieht. Nach § 256 Abs. 2 ZPO genügt Vorgreiflichkeit; sie liegt vor, weil das Bestehen der Gesamtforderung in den Gründen der Hauptklage ohnehin zu prüfen ist.\n\nBerühmt sich der Kläger mehrerer Forderungen, muss er klarstellen, welche zu welchem Teil eingeklagt wird; sonst liegt eine unzulässige alternative Klagehäufung vor.",
+  "id": "zivilgericht-0405",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

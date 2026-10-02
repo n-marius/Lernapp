@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Wie ist ein feststehendes Mitverschulden des Klägers im Grundurteil zu berücksichtigen?",
+  "antworten": [
+    "Die Haftungsquote ist in den Tenor aufzunehmen („dem Grunde nach zu 2/3 gerechtfertigt“)",
+    "Es bleibt dem Betragsverfahren vorbehalten",
+    "Es wird nur in den Entscheidungsgründen festgestellt",
+    "Es schließt ein Grundurteil aus"
+  ],
+  "erklaerung": "Tenor: „Die Klage ist dem Grunde nach zu 2/3 gerechtfertigt.“ Die Haftungsgrenze muss in den Tenor aufgenommen werden, weil das Mitverschulden den Grund des Anspruchs betrifft. Das Grundurteil enthält keine Kostenentscheidung und keinen Ausspruch zur vorläufigen Vollstreckbarkeit.",
+  "id": "zivilgericht-0390",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

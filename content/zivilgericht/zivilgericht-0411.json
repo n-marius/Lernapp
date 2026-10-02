@@ -1,0 +1,21 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "typ": "begriffe",
+  "reihenfolge": false,
+  "frage": "Welche Voraussetzungen hat ein Teilurteil (§ 301 ZPO)?",
+  "antworten": [
+    "Teilbarer Streitgegenstand",
+    "Keine Gefahr widersprechender Entscheidungen",
+    "Entscheidungsreife des Teils"
+  ],
+  "falsche": [
+    "Antrag einer Partei",
+    "Zustimmung der Parteien",
+    "Rechtskraft des übrigen Teils"
+  ],
+  "erklaerung": "Voraussetzungen: teilbarer Streitgegenstand, ausgeschlossene Divergenzgefahr, Entscheidungsreife des Teils. Erforderlich z. B. bei Anerkenntnisteilurteil, Versäumnisteilurteil und Stufenklage (§ 254 ZPO). Der Erlass kann unterbleiben, wenn das Gericht ihn nach Lage der Sache nicht für angemessen erachtet (§ 301 Abs. 2 ZPO).\n\nÜber einen Teil eines einheitlichen Anspruchs, der nach Grund und Höhe streitig ist, kann durch Teilurteil nur entschieden werden, wenn zugleich ein Grundurteil über den restlichen Teil ergeht (§ 301 Abs. 1 S. 2 ZPO).",
+  "id": "zivilgericht-0411",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

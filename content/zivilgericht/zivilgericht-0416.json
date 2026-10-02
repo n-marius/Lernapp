@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Ist das LG für eine Widerklage wegen rückständiger Wohnraummiete gegenüber einer Darlehensklage zuständig?",
+  "antworten": [
+    "Nein (§ 33 Abs. 2 i. V. m. § 40 Abs. 2 Nr. 2 ZPO); Trennung und Verweisung an das AG auf Antrag",
+    "Ja, da § 5 ZPO den höheren Wert entscheiden lässt",
+    "Ja, wenn die Forderungen konnex sind",
+    "Nein; die Widerklage ist ohne Verweisungsmöglichkeit als unzulässig abzuweisen"
+  ],
+  "erklaerung": "Der Gerichtsstand der Widerklage gilt nicht, wenn für eine Klage wegen des Gegenanspruchs eine Zuständigkeitsvereinbarung nach § 40 Abs. 2 ZPO unzulässig ist (§ 33 Abs. 2 ZPO). Für Wohnraummiete besteht eine ausschließliche Zuständigkeit (§ 29a ZPO, § 23 Nr. 2 lit. a GVG; vgl. § 40 Abs. 2 S. 1 Nr. 2 ZPO). Folge: Trennung (§ 145 ZPO) und Verweisung der Widerklage an das AG auf Antrag.",
+  "id": "zivilgericht-0416",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

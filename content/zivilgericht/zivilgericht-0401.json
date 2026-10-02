@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Wie wird entschieden, wenn eine possessorische Klage (§ 861 BGB) und eine petitorische Widerklage gleichzeitig entscheidungsreif und beide begründet sind?",
+  "antworten": [
+    "Abweisung der Klage und Zuspruch der Widerklage (§ 864 Abs. 2 BGB analog)",
+    "Zuspruch der Klage und Abweisung der Widerklage (§ 863 BGB)",
+    "Zuspruch von Klage und Widerklage",
+    "Aussetzung der Widerklage bis zur Rechtskraft über die Klage"
+  ],
+  "erklaerung": "Gegen einen possessorischen Anspruch aus Besitz (§ 861 BGB) kann widerklagend ein Recht zum Besitz geltend gemacht werden (z. B. Feststellung, dass der Beklagte Eigentümer der entzogenen Sache ist). Sind beide Klagen gleichzeitig entscheidungsreif, findet § 864 Abs. 2 BGB analog Anwendung (Erlöschen der Besitzansprüche): Die Klage wird abgewiesen, der Widerklage stattgegeben (Anders/Gehle M 20 ff.; Oberheim Rn. 1241).",
+  "id": "zivilgericht-0401",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

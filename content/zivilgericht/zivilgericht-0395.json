@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wie haften mehrere unterliegende Kläger einerseits und mehrere als Gesamtschuldner verurteilte Beklagte andererseits für die Kosten?",
+  "antworten": [
+    "Kläger nach Kopfteilen (§ 100 Abs. 1 ZPO); Beklagte als Gesamtschuldner (§ 100 Abs. 4 ZPO)",
+    "Kläger als Gesamtschuldner (§ 100 Abs. 4 ZPO); Beklagte nach Kopfteilen (§ 100 Abs. 1 ZPO)",
+    "Beide nach Kopfteilen (§ 100 Abs. 1 ZPO)",
+    "Beide als Gesamtschuldner (§ 100 Abs. 4 ZPO)"
+  ],
+  "erklaerung": "Bei unterschiedlicher Prozessentwicklung ist eine Einzelbetrachtung der jeweiligen Prozessrechtsverhältnisse nötig. Bei gleichmäßigem Obsiegen/Unterliegen gilt: mehrere unterliegende Kläger haften nach Kopfteilen (§ 100 Abs. 1 ZPO; „Die Kläger tragen die Kosten des Rechtsstreits.“ bzw. „… je zur Hälfte.“). Mehrere Beklagte haften als Gesamtschuldner, wenn sie als Gesamtschuldner verurteilt werden (§ 100 Abs. 4 ZPO); Ausnahme § 100 Abs. 3 ZPO.",
+  "id": "zivilgericht-0395",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

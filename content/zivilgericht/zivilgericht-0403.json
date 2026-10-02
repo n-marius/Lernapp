@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Wie hoch ist der Streitwert einer positiven und einer negativen Feststellungsklage im Verhältnis zum Hauptsachewert?",
+  "antworten": [
+    "Positiv: 80 %; negativ: 100 %",
+    "Positiv: 100 %; negativ: 80 %",
+    "Beide: 80 %",
+    "Positiv: 50 %; negativ: 100 %"
+  ],
+  "erklaerung": "Positive Feststellungsklage: i. d. R. Abschlag von 20 % auf den Hauptsachewert (§ 48 Abs. 1 GKG i. V. m. § 3 ZPO), da das Feststellungsurteil nicht vollstreckbar ist und in seinen Wirkungen hinter einem Leistungsurteil zurückbleibt.\n\nNegative Feststellungsklage: kein Abschlag, da die Rechtskraftwirkung mit der eines klageabweisenden Leistungsurteils vergleichbar ist.",
+  "id": "zivilgericht-0403",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

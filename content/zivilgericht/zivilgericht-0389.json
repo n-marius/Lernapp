@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Kann ein Grundurteil ergehen, wenn neben dem bezifferten Leistungsantrag die Feststellung der Ersatzpflicht für künftige Schäden beantragt ist?",
+  "antworten": [
+    "Ja, als Grund- und Teilurteil mit Feststellung der Haftung, wenn die Voraussetzungen des Feststellungsantrags vorliegen",
+    "Nein, wegen der Gefahr widersprechender Entscheidungen ausnahmslos",
+    "Ja, als Grundurteil auch über den Feststellungsantrag",
+    "Nein, der Feststellungsantrag muss zuvor abgetrennt werden"
+  ],
+  "erklaerung": "Über den unbezifferten Feststellungsantrag kann kein Grundurteil ergehen; ein bloßes Teil-Grundurteil über den Leistungsantrag birgt i. d. R. Divergenzgefahr. Liegen aber alle Voraussetzungen des Feststellungsantrags vor (insbesondere Grund zur Annahme weiterer Schäden), kann über ihn durch Teilurteil zugleich mit dem Grundurteil entschieden werden.\n\nTenor: „1.) Die Klage ist dem Grunde nach zu 2/3 gerechtfertigt. 2.) Es wird festgestellt, dass der Beklagte verpflichtet ist, dem Kläger sämtliche weiteren zukünftigen Schäden, die kausal aus dem Unfall resultieren, zu 2/3 zu erstatten. 3.) Die Kostenentscheidung bleibt dem Endurteil vorbehalten.“",
+  "id": "zivilgericht-0389",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

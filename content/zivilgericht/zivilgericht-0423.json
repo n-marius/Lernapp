@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Wie ist der Tatbestand aufgebaut, wenn Klage und Widerklage unterschiedliche Sachverhalte betreffen?",
+  "antworten": [
+    "Klage vollständig (bis zum Beklagtenvortrag), dann Überleitungssatz und Widerklage vollständig",
+    "Gemeinsames Unstreitiges, dann alle Anträge, dann gemeinsames Streitiges",
+    "Zuerst die Widerklage, dann die Klage",
+    "Klage und Widerklage je Abschnitt (Unstreitiges, Streitiges, Anträge) abwechselnd"
+  ],
+  "erklaerung": "Einleitungssatz zu Klage und Widerklage; Unstreitiges zur Klage; streitiger Klägervortrag zur Klage; ggf. kleine Prozessgeschichte; Anträge zur Klage; streitiger Beklagtenvortrag zur Klage; Überleitungssatz („Der Widerklage liegt nachfolgender Sachverhalt zugrunde.“); Unstreitiges zur Widerklage; streitiger Beklagtenvortrag zur Widerklage; Anträge zur Widerklage; streitiger Klägervortrag zur Widerklage; Prozessgeschichte.",
+  "id": "zivilgericht-0423",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

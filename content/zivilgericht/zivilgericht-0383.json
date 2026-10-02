@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Darf die Prüfung des Feststellungsinteresses offenbleiben, wenn die Feststellungsklage jedenfalls unbegründet ist?",
+  "antworten": [
+    "Ja, ausnahmsweise, wenn seine Feststellung eine umfangreiche materiell-rechtliche Prüfung erfordert",
+    "Nein, wegen des prozessualen Vorrangs der Zulässigkeit",
+    "Ja, stets, da es keine Zulässigkeitsvoraussetzung ist",
+    "Nein, eine unzulässige Feststellungsklage darf nie als unbegründet abgewiesen werden"
+  ],
+  "erklaerung": "Grundsätzlich werden die Voraussetzungen des § 256 Abs. 1 ZPO in der Prozessstation/Zulässigkeit geprüft; das rechtliche Interesse ist eine Zulässigkeitsvoraussetzung eigener Art (Ausprägung des Rechtsschutzbedürfnisses). Ausnahme: Sind die Voraussetzungen nur nach umfangreicher materiell-rechtlicher Prüfung festzustellen, erfolgt die Prüfung im Rahmen der Begründetheit (Einschränkung des prozessualen Vorrangs). Der BGH (NJW 1969, 2015) hat die Abweisung als unbegründet unter Offenlassen der Zulässigkeit unbeanstandet gelassen.",
+  "id": "zivilgericht-0383",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

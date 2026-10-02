@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Muss ein Geschädigter, dessen Schaden teilweise schon entstanden und bezifferbar ist, dessen weitere Entstehung aber zu erwarten ist, Leistungs- und Feststellungsklage kombinieren?",
+  "antworten": [
+    "Nein, er kann insgesamt auf Feststellung klagen",
+    "Ja, wegen des Vorrangs der Leistungsklage",
+    "Ja, sonst ist die gesamte Feststellungsklage unzulässig",
+    "Nein, er muss insgesamt auf Leistung klagen und Mehrforderungen später nachschieben"
+  ],
+  "erklaerung": "Der Kläger ist nicht gehalten, seine Klage in eine Leistungs- und eine Feststellungsklage aufzuspalten, wenn bei Klageerhebung ein Teil des Schadens schon entstanden, die Entstehung weiteren Schadens aber noch zu erwarten ist. Einzelne bereits entstandene Schadenspositionen stellen lediglich einen Schadensteil in diesem Sinne dar (BGH, Urt. v. 19.4.2016 – VI ZR 506/14).",
+  "id": "zivilgericht-0381",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

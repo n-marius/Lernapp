@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Welche Vorteile hat die Geltendmachung des Schadensersatzanspruchs aus § 717 Abs. 2 ZPO im anhängigen Rechtsstreit (Inzidentwiderklage)?",
+  "antworten": [
+    "Kein § 506 ZPO; Rechtshängigkeit (und Zinsbeginn) ab Zahlung bzw. Leistung",
+    "Kein Gerichtskostenvorschuss; Rechtshängigkeit ab Erlass des Urteils",
+    "Kein Anwaltszwang; Rechtshängigkeit ab Zustellung der Widerklage",
+    "Kein § 506 ZPO; Rechtshängigkeit ab Zustellung der Widerklage"
+  ],
+  "erklaerung": "Der durch Vollstreckung aus einem später aufgehobenen Urteil Geschädigte kann eine gewöhnliche Klage erheben oder Eventualwiderklage, gewöhnlich oder privilegiert nach § 717 Abs. 2 S. 1, 2 ZPO. Privilegierung: kein § 506 ZPO, da der Anspruch „in dem anhängigen Rechtsstreit“ geltend gemacht wird; statt § 261 Abs. 2 ZPO gilt der Anspruch als zur Zeit der Zahlung oder Leistung rechtshängig geworden (§ 717 Abs. 2 S. 2 ZPO), was für die Zinsen bedeutsam ist.",
+  "id": "zivilgericht-0392",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

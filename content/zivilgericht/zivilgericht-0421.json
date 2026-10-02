@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Wie wird der Zuständigkeitsstreitwert bei Klage und Widerklage bestimmt?",
+  "antworten": [
+    "Keine Addition (§ 5 Hs. 2 ZPO); jede Klage für sich, der höhere Wert entscheidet",
+    "Addition von Klage und Widerklage (§ 5 Hs. 1 ZPO)",
+    "Addition nach § 45 Abs. 1 S. 1 GKG",
+    "Maßgeblich ist allein der Wert der Klage"
+  ],
+  "erklaerung": "Für den Zuständigkeitsstreitwert werden Klage und Widerklage nicht addiert (§ 5 ZPO); anders für den Gebührenstreitwert (§ 45 GKG). Der höhere Wert ist entscheidend: Das LG ist bei einer Klage über 20.000 € auch für eine Widerklage über 500 € zuständig (h. M., T/P § 5 Rn. 6).\n\nIst für die Widerklage am AG das LG zuständig, wird nach § 506 ZPO auf Antrag verwiesen (nachträgliche sachliche Unzuständigkeit).",
+  "id": "zivilgericht-0421",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Welchem Zweck dient eine Zwischenfeststellungsklage oder -widerklage (§ 256 Abs. 2 ZPO)?",
+  "antworten": [
+    "Ausdehnung der Rechtskraft auf ein vorgreifliches Rechtsverhältnis",
+    "Feststellung streitiger Tatsachen vor der Beweisaufnahme",
+    "Vorabentscheidung über den Anspruchsgrund",
+    "Sicherung der Vollstreckung vor Rechtskraft"
+  ],
+  "erklaerung": "Die Zwischenfeststellungsklage kann nicht isoliert, sondern nur zusätzlich als Klagehäufung oder Widerklage erhoben werden. Sie ist eine privilegierte Form der Feststellungsklage: Ein rechtliches Interesse ist nicht erforderlich; das festzustellende Rechtsverhältnis muss aber vorgreiflich sein, d. h. die Entscheidung des Rechtsstreits muss ganz oder teilweise von seinem Bestehen oder Nichtbestehen abhängen. Ziel ist die Ausdehnung der Rechtskraft auf sonst nicht erfasste entscheidungserhebliche Vorfragen.",
+  "id": "zivilgericht-0426",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

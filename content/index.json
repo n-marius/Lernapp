@@ -1,6 +1,6 @@
 {
-  "version": 17,
-  "contentHash": "b5310221ab343159",
+  "version": 18,
+  "contentHash": "065131968629cc31",
   "cards": [
     {
       "id": "zivilgericht-0004",
@@ -6008,6 +6008,852 @@
       "creator": null,
       "korrigiert": "2026-10-01T12:21:46.072678Z",
       "ts": "2026-10-01T12:21:46.072678Z"
+    },
+    {
+      "id": "zivilgericht-0377",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wie werden nach der Baumbach’schen Formel die außergerichtlichen Kosten eines Beklagten verteilt?",
+      "antworten": [
+        "Nur zwischen ihm und dem Kläger nach dem Ausgang ihres Prozessrechtsverhältnisses",
+        "Nach Verlustanteilen am fiktiven Gesamtstreitwert",
+        "Nach Kopfteilen unter allen Beklagten",
+        "Stets vollständig durch die unterliegende Partei des Gesamtrechtsstreits"
+      ],
+      "erklaerung": "Die außergerichtlichen Kosten jedes Beklagten werden nur im Verhältnis zwischen ihm und dem Kläger verteilt, nach dem Ausgang dieses Prozessrechtsverhältnisses.\n\nBeispiel (Klage gegen B1 und B2 als Gesamtschuldner über 4.000 €; B1 und B2 gesamtschuldnerisch zu 2.000 €, B1 allein zu weiteren 1.000 € verurteilt): „Die Gerichtskosten und außergerichtlichen Kosten des K tragen K zu 3/8, B1 und B2 als Gesamtschuldner zu ½ und B1 allein zu weiteren 1/8. Die außergerichtlichen Kosten des B1 trägt K zu ¼. Die außergerichtlichen Kosten des B2 trägt K zu ½. Im Übrigen tragen die Parteien ihre Kosten selbst.“",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0378",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Wie werden nach der Baumbach’schen Formel die Gerichtskosten und die außergerichtlichen Kosten des Klägers verteilt?",
+      "antworten": [
+        "Nach Verlustanteilen an einem fiktiven Streitwert aus der Summe der Einzelstreitwerte je Beklagtem",
+        "Nach Verlustanteilen am tatsächlichen Gebührenstreitwert",
+        "Nach Kopfteilen unter allen Beteiligten",
+        "Nach dem Verhältnis des Unterliegens des Klägers gegenüber dem am höchsten verklagten Beklagten"
+      ],
+      "erklaerung": "Bei unterschiedlichem Verfahrensausgang gegenüber mehreren Beklagten werden §§ 91, 92 ZPO kombiniert angewandt. Für die Gerichtskosten und die Anwaltskosten des Klägers wird ein fiktiver Streitwert gebildet (z. B. 2 × 525 € = 1.050 €); dann wird einzeln betrachtet, in welchem Umfang der Kläger gegenüber dem jeweiligen Beklagten verloren hat.\n\nBeispiel (Klage gegen B1 erfolgreich, gegen B2 abgewiesen): „Die Gerichtskosten und außergerichtlichen Kosten des Klägers tragen der Kläger und der Beklagte zu 1) je zur Hälfte. Die außergerichtlichen Kosten des Beklagten zu 2) trägt der Kläger. Die außergerichtlichen Kosten des Beklagten zu 1) trägt dieser selbst.“ Klausurtipp: Tenor aus Thomas/Putzo § 100 Rn. 15.",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0379",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Welche Voraussetzungen hat eine parteierweiternde Drittwiderklage nach der Rechtsprechung?",
+      "typ": "begriffe",
+      "reihenfolge": false,
+      "antworten": [
+        "Erhebung durch den Beklagten",
+        "Auch gegen den Kläger gerichtet",
+        "Rechtlicher Zusammenhang",
+        "Streitgenossenschaft der Widerbeklagten",
+        "Einwilligung des Dritten oder Sachdienlichkeit"
+      ],
+      "falsche": [
+        "Erhebung durch den Streithelfer",
+        "Zustimmung des Klägers",
+        "Gleicher Wohnsitz der Widerbeklagten"
+      ],
+      "erklaerung": "Die Rechtsprechung hält die Drittwiderklage für zulässig und wendet die Regeln über den Parteibeitritt an (vgl. Lühl, JA 2015, 374): Die Widerklage muss vom Beklagten ausgehen, nicht von einem Streithelfer; sie muss sich auch gegen den Kläger richten; rechtlicher Zusammenhang zwischen Klage und Widerklage gegen sämtliche Widerbeklagte; Streitgenossenschaft der Widerbeklagten (§§ 59, 60 ZPO); Einwilligung des Dritten oder Sachdienlichkeit (§§ 263, 267 ZPO).\n\nBeispiel: Unfallgegner B erhebt gegen den Kläger und dessen Haftpflichtversicherung Widerklage auf Ersatz seines Schadens.",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0380",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Ist eine Widerklage unter einer Bedingung zulässig?",
+      "antworten": [
+        "Ja, unter einer innerprozessualen Bedingung; eine hilfsweise Drittwiderklage ist aber unzulässig",
+        "Nein, Prozesshandlungen sind bedingungsfeindlich",
+        "Ja, unter jeder Bedingung, auch als hilfsweise Drittwiderklage",
+        "Ja, aber nur bei Zustimmung des Klägers"
+      ],
+      "erklaerung": "Die Widerklage kann unter eine innerprozessuale Bedingung gestellt werden (Eventualwiderklage); eine hilfsweise Drittwiderklage ist nicht zulässig. Der Kläger kann seinerseits eine hilfsweise Wider-Widerklage erheben, die von einer mit der Verteidigung gegen die Widerklage zusammenhängenden Bedingung abhängt.",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0381",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Muss ein Geschädigter, dessen Schaden teilweise schon entstanden und bezifferbar ist, dessen weitere Entstehung aber zu erwarten ist, Leistungs- und Feststellungsklage kombinieren?",
+      "antworten": [
+        "Nein, er kann insgesamt auf Feststellung klagen",
+        "Ja, wegen des Vorrangs der Leistungsklage",
+        "Ja, sonst ist die gesamte Feststellungsklage unzulässig",
+        "Nein, er muss insgesamt auf Leistung klagen und Mehrforderungen später nachschieben"
+      ],
+      "erklaerung": "Der Kläger ist nicht gehalten, seine Klage in eine Leistungs- und eine Feststellungsklage aufzuspalten, wenn bei Klageerhebung ein Teil des Schadens schon entstanden, die Entstehung weiteren Schadens aber noch zu erwarten ist. Einzelne bereits entstandene Schadenspositionen stellen lediglich einen Schadensteil in diesem Sinne dar (BGH, Urt. v. 19.4.2016 – VI ZR 506/14).",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0382",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Wozu dient die Feststellung, dass sich der Beklagte im Annahmeverzug befindet, und wozu die Feststellung, dass ein Anspruch aus vorsätzlicher unerlaubter Handlung herrührt?",
+      "antworten": [
+        "Annahmeverzug: Vollstreckung Zug um Zug (§§ 756, 765 ZPO); Vorsatzdelikt: § 850f Abs. 2 ZPO, § 302 Nr. 1 InsO",
+        "Annahmeverzug: Verzugszinsen (§ 288 BGB); Vorsatzdelikt: § 850f Abs. 2 ZPO, § 302 Nr. 1 InsO",
+        "Annahmeverzug: Vollstreckung Zug um Zug (§§ 756, 765 ZPO); Vorsatzdelikt: Schmerzensgeld (§ 253 Abs. 2 BGB)",
+        "Annahmeverzug: Gefahrübergang (§ 300 BGB); Vorsatzdelikt: 30-jährige Verjährung (§ 197 BGB)"
+      ],
+      "erklaerung": "Tenorbeispiele (Kaiser, NJW 2015, 1286): „Es wird festgestellt, dass … sich der Beklagte mit der Annahme der in Ziffer 1 bezeichneten Zug-um-Zug-Leistung im Verzug befindet.“ (wegen §§ 756, 765 ZPO); „… der in Ziffer 1 bezeichnete Anspruch aus einer vorsätzlichen unerlaubten Handlung des Beklagten herrührt.“ (wegen § 850f Abs. 2 ZPO; § 302 Nr. 1 InsO).\n\nWeitere: Ersatzpflicht für künftige materielle und immaterielle Schäden aus einem Unfallereignis, soweit nicht auf Sozialversicherungsträger oder Dritte übergegangen; Fortbestehen eines Mietverhältnisses trotz Kündigung.",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0383",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Darf die Prüfung des Feststellungsinteresses offenbleiben, wenn die Feststellungsklage jedenfalls unbegründet ist?",
+      "antworten": [
+        "Ja, ausnahmsweise, wenn seine Feststellung eine umfangreiche materiell-rechtliche Prüfung erfordert",
+        "Nein, wegen des prozessualen Vorrangs der Zulässigkeit",
+        "Ja, stets, da es keine Zulässigkeitsvoraussetzung ist",
+        "Nein, eine unzulässige Feststellungsklage darf nie als unbegründet abgewiesen werden"
+      ],
+      "erklaerung": "Grundsätzlich werden die Voraussetzungen des § 256 Abs. 1 ZPO in der Prozessstation/Zulässigkeit geprüft; das rechtliche Interesse ist eine Zulässigkeitsvoraussetzung eigener Art (Ausprägung des Rechtsschutzbedürfnisses). Ausnahme: Sind die Voraussetzungen nur nach umfangreicher materiell-rechtlicher Prüfung festzustellen, erfolgt die Prüfung im Rahmen der Begründetheit (Einschränkung des prozessualen Vorrangs). Der BGH (NJW 1969, 2015) hat die Abweisung als unbegründet unter Offenlassen der Zulässigkeit unbeanstandet gelassen.",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0384",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Wann besteht das Feststellungsinteresse (§ 256 Abs. 1 ZPO) bei einer negativen Feststellungsklage, und wann fehlt es allgemein?",
+      "antworten": [
+        "Bei Berühmung durch den Beklagten; es fehlt, wenn ein einfacherer Weg (v. a. Leistungsklage) zum Ziel führt",
+        "Bei jedem Streit über ein Rechtsverhältnis; es fehlt nur bei Rechtsmissbrauch",
+        "Bei Berühmung durch den Beklagten; es fehlt nie, da negative Feststellungsklagen privilegiert sind",
+        "Bei drohender Verjährung; es fehlt, wenn der Kläger eine Leistungsklage erheben könnte"
+      ],
+      "erklaerung": "Feststellungsinteresse = Interesse an alsbaldiger Feststellung: Recht oder Rechtslage des Klägers sind mit einer Unsicherheit belastet, und das Urteil ist geeignet, sie zu klären. Bei der negativen Feststellungsklage liegt es nur vor, wenn sich der Beklagte eines Anspruchs oder Rechts berühmt. Es fehlt, wenn ein einfacherer Weg zum gleichen Ziel führt (Vorrang der Leistungsklage), da das Feststellungsurteil keinen Vollstreckungstitel schafft und einen zweiten Prozess erfordern würde.",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0385",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Was kann Gegenstand einer Feststellungsklage nach § 256 Abs. 1 ZPO sein?",
+      "antworten": [
+        "Rechtliche Beziehungen, nicht Tatsachen, unselbständige Elemente oder Vorfragen eines Anspruchs",
+        "Rechtliche Beziehungen und entscheidungserhebliche Tatsachen",
+        "Jede Rechtsfrage, an deren Klärung ein Interesse besteht",
+        "Nur Ansprüche, die noch nicht fällig sind"
+      ],
+      "erklaerung": "Festgestellt werden kann das Bestehen oder Nichtbestehen eines Rechtsverhältnisses oder die Echtheit oder Unechtheit einer Urkunde. Rechtsverhältnis ist eine aus dem Sachverhalt abgeleitete rechtliche Beziehung von Personen untereinander oder zu einem Gegenstand, aus der ein subjektives Recht folgt. Nicht feststellbar sind Tatsachen, unselbständige Elemente oder Vorfragen eines Anspruchs (problematisch: Annahmeverzug). Das Rechtsverhältnis ist im Antrag genau zu bezeichnen (§ 253 Abs. 2 Nr. 2 ZPO).",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0386",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Welche verjährungsrechtlichen Wirkungen hat eine erfolgreiche positive Feststellungsklage?",
+      "antworten": [
+        "Hemmung (§ 204 Abs. 1 Nr. 1 BGB) und 30-jährige Verjährung des festgestellten Anspruchs (§ 197 Abs. 1 Nr. 3 BGB)",
+        "Neubeginn der Verjährung (§ 212 BGB) und 30-jährige Verjährung",
+        "Hemmung (§ 204 Abs. 1 Nr. 1 BGB), aber keine Änderung der Verjährungsfrist",
+        "Keine, da das Feststellungsurteil keinen Leistungstitel schafft"
+      ],
+      "erklaerung": "Die Feststellungsklage hemmt die Verjährung (§ 204 Abs. 1 Nr. 1 BGB) bis 6 Monate nach Abschluss des Verfahrens (§ 204 Abs. 2 BGB). Für den festgestellten Anspruch gilt die 30-jährige Frist (§ 197 Abs. 1 Nr. 3 BGB). Praktische Bedeutung insbesondere bei sich entwickelnden Schadensfällen: Feststellung der Haftung dem Grunde nach bei Ungewissheit über die Höhe.",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0387",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Ist ein der Feststellungsklage stattgebendes Urteil für vorläufig vollstreckbar zu erklären?",
+      "antworten": [
+        "Ja, hinsichtlich der Kosten",
+        "Nein, da es keinen vollstreckbaren Inhalt hat",
+        "Ja, hinsichtlich der Hauptsache und der Kosten",
+        "Nur auf Antrag des Klägers"
+      ],
+      "erklaerung": "Das Feststellungsurteil ist in der Hauptsache nicht vollstreckbar, hinsichtlich der Kosten aber für vorläufig vollstreckbar zu erklären.",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0388",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Wie geht der Beklagte zweckmäßig vor, wenn er die Klageforderung bestreitet und eine sie übersteigende Gegenforderung hat?",
+      "antworten": [
+        "Bestreiten, hilfsweise Aufrechnung, Eventualwiderklage, soweit die Gegenforderung nicht durch die Aufrechnung verbraucht ist",
+        "Unbedingte Aufrechnung und Widerklage wegen des überschießenden Teils",
+        "Widerklage über die gesamte Gegenforderung ohne Aufrechnung",
+        "Bestreiten und Geltendmachung der Gegenforderung in einem gesonderten Prozess"
+      ],
+      "erklaerung": "Zweckmäßig: Klageabweisung beantragen und die Klageforderung bestreiten, hilfsweise mit der Gegenforderung in Höhe der Klageforderung aufrechnen und wegen derselben Gegenforderung Widerklage über den vollen Betrag unter der innerprozessualen Bedingung erheben, dass und soweit die Gegenforderung nicht durch die Hilfsaufrechnung verbraucht ist.\n\nAm AG ist für die sachliche Zuständigkeit § 5 ZPO zu beachten; ist für die Widerklage das LG zuständig, gilt § 506 ZPO.",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0389",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Kann ein Grundurteil ergehen, wenn neben dem bezifferten Leistungsantrag die Feststellung der Ersatzpflicht für künftige Schäden beantragt ist?",
+      "antworten": [
+        "Ja, als Grund- und Teilurteil mit Feststellung der Haftung, wenn die Voraussetzungen des Feststellungsantrags vorliegen",
+        "Nein, wegen der Gefahr widersprechender Entscheidungen ausnahmslos",
+        "Ja, als Grundurteil auch über den Feststellungsantrag",
+        "Nein, der Feststellungsantrag muss zuvor abgetrennt werden"
+      ],
+      "erklaerung": "Über den unbezifferten Feststellungsantrag kann kein Grundurteil ergehen; ein bloßes Teil-Grundurteil über den Leistungsantrag birgt i. d. R. Divergenzgefahr. Liegen aber alle Voraussetzungen des Feststellungsantrags vor (insbesondere Grund zur Annahme weiterer Schäden), kann über ihn durch Teilurteil zugleich mit dem Grundurteil entschieden werden.\n\nTenor: „1.) Die Klage ist dem Grunde nach zu 2/3 gerechtfertigt. 2.) Es wird festgestellt, dass der Beklagte verpflichtet ist, dem Kläger sämtliche weiteren zukünftigen Schäden, die kausal aus dem Unfall resultieren, zu 2/3 zu erstatten. 3.) Die Kostenentscheidung bleibt dem Endurteil vorbehalten.“",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0390",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Wie ist ein feststehendes Mitverschulden des Klägers im Grundurteil zu berücksichtigen?",
+      "antworten": [
+        "Die Haftungsquote ist in den Tenor aufzunehmen („dem Grunde nach zu 2/3 gerechtfertigt“)",
+        "Es bleibt dem Betragsverfahren vorbehalten",
+        "Es wird nur in den Entscheidungsgründen festgestellt",
+        "Es schließt ein Grundurteil aus"
+      ],
+      "erklaerung": "Tenor: „Die Klage ist dem Grunde nach zu 2/3 gerechtfertigt.“ Die Haftungsgrenze muss in den Tenor aufgenommen werden, weil das Mitverschulden den Grund des Anspruchs betrifft. Das Grundurteil enthält keine Kostenentscheidung und keinen Ausspruch zur vorläufigen Vollstreckbarkeit.",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0391",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wann kann ein Grundurteil (§ 304 ZPO) ergehen, und wie ist es anfechtbar?",
+      "antworten": [
+        "Wenn Grund und Betrag streitig sind; Rechtsmittel wie gegen ein Endurteil",
+        "Wenn nur der Betrag streitig ist; nicht selbständig anfechtbar",
+        "Wenn Grund und Betrag streitig sind; nicht selbständig anfechtbar",
+        "Wenn nur der Grund streitig ist; Rechtsmittel wie gegen ein Endurteil"
+      ],
+      "erklaerung": "Ist ein Anspruch nach Grund und Betrag streitig, kann das Gericht über den Grund vorab entscheiden (§ 304 Abs. 1 ZPO). Das Urteil ist hinsichtlich der Rechtsmittel als Endurteil anzusehen (§ 304 Abs. 2 ZPO). Es bietet sich an bei schwierigen Haftungsfragen, wenn die Höhe eine umfangreiche oder teure Beweisaufnahme erfordert; nach Klärung des Grundes ist oft eine Einigung möglich.",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0392",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Welche Vorteile hat die Geltendmachung des Schadensersatzanspruchs aus § 717 Abs. 2 ZPO im anhängigen Rechtsstreit (Inzidentwiderklage)?",
+      "antworten": [
+        "Kein § 506 ZPO; Rechtshängigkeit (und Zinsbeginn) ab Zahlung bzw. Leistung",
+        "Kein Gerichtskostenvorschuss; Rechtshängigkeit ab Erlass des Urteils",
+        "Kein Anwaltszwang; Rechtshängigkeit ab Zustellung der Widerklage",
+        "Kein § 506 ZPO; Rechtshängigkeit ab Zustellung der Widerklage"
+      ],
+      "erklaerung": "Der durch Vollstreckung aus einem später aufgehobenen Urteil Geschädigte kann eine gewöhnliche Klage erheben oder Eventualwiderklage, gewöhnlich oder privilegiert nach § 717 Abs. 2 S. 1, 2 ZPO. Privilegierung: kein § 506 ZPO, da der Anspruch „in dem anhängigen Rechtsstreit“ geltend gemacht wird; statt § 261 Abs. 2 ZPO gilt der Anspruch als zur Zeit der Zahlung oder Leistung rechtshängig geworden (§ 717 Abs. 2 S. 2 ZPO), was für die Zinsen bedeutsam ist.",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0393",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Ist eine isolierte Drittwiderklage zulässig, die sich nur gegen einen bisher nicht beteiligten Dritten richtet?",
+      "antworten": [
+        "Grundsätzlich nicht; ausnahmsweise bei enger tatsächlicher und rechtlicher Verknüpfung ohne Verletzung schutzwürdiger Interessen des Dritten",
+        "Ja, unter denselben Voraussetzungen wie jede Drittwiderklage",
+        "Nein, ausnahmslos",
+        "Grundsätzlich ja; unzulässig nur bei fehlender Konnexität"
+      ],
+      "erklaerung": "Die isolierte Drittwiderklage ist grundsätzlich unzulässig, es sei denn, die Sachverhalte sind tatsächlich und rechtlich eng miteinander verknüpft und schutzwürdige Interessen des Drittwiderbeklagten werden nicht verletzt (BGH NJW 2007, 1753).\n\nBeispiel: A tritt seinen Unfallschadensersatzanspruch an seine Frau F ab, die B verklagt und A als Zeugen benennt. B erhebt Drittwiderklage gegen A auf Feststellung, dass der abgetretene Anspruch nicht besteht.",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0394",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wann besteht ein rechtlicher Zusammenhang (Konnexität) zwischen Klage und Widerklage?",
+      "typ": "begriffe",
+      "reihenfolge": false,
+      "antworten": [
+        "Herleitung aus demselben Tatbestand",
+        "Bedingungsverhältnis der Tatbestände",
+        "Wirtschaftlich einheitliches Lebensverhältnis"
+      ],
+      "falsche": [
+        "Bloß tatsächlicher Zusammenhang",
+        "Gleichartigkeit der Forderungen",
+        "Identität des Rechtsgrundes"
+      ],
+      "erklaerung": "Erforderlich ist ein rechtlicher Zusammenhang; ein bloß tatsächlicher genügt nicht. Der Begriff ist weit und unter Berücksichtigung wirtschaftlicher Zusammenhänge zu verstehen (vgl. § 273 BGB; BGH NJW 1975, 1228); Identität des Rechtsgrundes ist nicht erforderlich.\n\nFallgruppen: derselbe Tatbestand (z. B. wechselseitige Schadensersatzansprüche aus einem Verkehrsunfall; überschießender Teil einer zur Aufrechnung gestellten Forderung); verschiedene Tatbestände im Bedingungsverhältnis (Anspruch aus Wirksamkeit, Gegenanspruch aus Unwirksamkeit desselben Vertrags); wirtschaftlich zusammengehöriges Lebensverhältnis (z. B. Verträge im Rahmen laufender Geschäftsbeziehungen; Kaufpreis und Erstattung von Mängelbeseitigungsaufwand). BeckOK ZPO/Toussaint § 33 Rn. 12 f.",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0395",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wie haften mehrere unterliegende Kläger einerseits und mehrere als Gesamtschuldner verurteilte Beklagte andererseits für die Kosten?",
+      "antworten": [
+        "Kläger nach Kopfteilen (§ 100 Abs. 1 ZPO); Beklagte als Gesamtschuldner (§ 100 Abs. 4 ZPO)",
+        "Kläger als Gesamtschuldner (§ 100 Abs. 4 ZPO); Beklagte nach Kopfteilen (§ 100 Abs. 1 ZPO)",
+        "Beide nach Kopfteilen (§ 100 Abs. 1 ZPO)",
+        "Beide als Gesamtschuldner (§ 100 Abs. 4 ZPO)"
+      ],
+      "erklaerung": "Bei unterschiedlicher Prozessentwicklung ist eine Einzelbetrachtung der jeweiligen Prozessrechtsverhältnisse nötig. Bei gleichmäßigem Obsiegen/Unterliegen gilt: mehrere unterliegende Kläger haften nach Kopfteilen (§ 100 Abs. 1 ZPO; „Die Kläger tragen die Kosten des Rechtsstreits.“ bzw. „… je zur Hälfte.“). Mehrere Beklagte haften als Gesamtschuldner, wenn sie als Gesamtschuldner verurteilt werden (§ 100 Abs. 4 ZPO); Ausnahme § 100 Abs. 3 ZPO.",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0396",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Tritt Erledigung der Hauptsache ein, wenn der Beklagte nur zur Abwendung der Zwangsvollstreckung aus einem vorläufig vollstreckbaren Urteil leistet?",
+      "antworten": [
+        "Nein",
+        "Ja, da die Forderung durch Erfüllung erlischt",
+        "Ja, aber nur bei Leistung nach Rechtskraft",
+        "Nein, es sei denn, der Kläger erklärt die Erledigung"
+      ],
+      "erklaerung": "Erledigung tritt nicht ein, wenn (nur) zur Abwendung der Zwangsvollstreckung geleistet wird (T/P § 91a Rn. 4 unter Hinweis auf BGH NJW 1994, 942). Auch eine erfolgreiche Zwangsvollstreckung erledigt den Rechtsstreit nicht.",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0397",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wann entfällt das Interesse an einer negativen Feststellungsklage, wenn der Beklagte wegen desselben Anspruchs Leistungswiderklage erhebt?",
+      "antworten": [
+        "Wenn die Leistungsklage nicht mehr einseitig zurückgenommen werden kann; nur soweit die Streitgegenstände übereinstimmen",
+        "Sofort mit Erhebung der Leistungsklage, insgesamt",
+        "Wenn die Leistungsklage rechtskräftig entschieden ist",
+        "Gar nicht, da die negative Feststellungsklage vorrangig erhoben wurde"
+      ],
+      "erklaerung": "Das Interesse entfällt grundsätzlich, wenn eine Leistungsklage über den Anspruch erhoben wird. Da der Beklagte so jede Feststellungsklage unzulässig machen könnte, lässt die Rechtsprechung es erst entfallen, wenn die Leistungsklage nicht mehr einseitig zurückgenommen werden kann (Antragstellung in der mündlichen Verhandlung). Der Kläger sollte dann insoweit für erledigt erklären.\n\nBeispiel: Feststellung, dass ein Mietverhältnis nicht mehr besteht; Widerklage auf Miete für Juli und August. Nur in Höhe der Widerklage liegt derselbe Streitgegenstand vor; im Übrigen bleibt die Feststellungsklage zulässig, da die Rechtskraft des Leistungsurteils künftige Mieten nicht erfasst.",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0398",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Wer trägt bei der negativen Feststellungsklage die Darlegungs- und Beweislast für die anspruchsbegründenden Tatsachen?",
+      "antworten": [
+        "Der Beklagte als behaupteter Gläubiger",
+        "Der Kläger als Angreifer",
+        "Der Kläger, da er das Nichtbestehen behauptet",
+        "Wer die Unsicherheit verursacht hat"
+      ],
+      "erklaerung": "Die Darlegungs- und Beweislast kehrt sich durch den Wechsel der Parteistellung nicht um (BGH NJW 1993, 1716): Der Beklagte als behaupteter Gläubiger trägt sie für die anspruchsbegründenden Tatsachen, der Kläger als Schuldner für Gegenrechte.\n\nRelation: In der Klägerstation ist zu prüfen, ob der Anspruch des Beklagten nach dem Klägervortrag nicht besteht (z. B. Zahlung behauptet); in der Beklagtenstation erhebliches Vorbringen (z. B. Bestreiten der Zahlung).",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0399",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Was stellt ein Urteil, das eine negative Feststellungsklage abweist, rechtskräftig fest?",
+      "antworten": [
+        "Das Bestehen des Rechtsverhältnisses",
+        "Nur, dass das Nichtbestehen nicht bewiesen ist",
+        "Das Nichtbestehen des Rechtsverhältnisses",
+        "Nichts, da Abweisungen keine Rechtskraft entfalten"
+      ],
+      "erklaerung": "Bei der negativen Feststellungsklage erwächst bei Stattgabe das Nichtbestehen, bei Klageabweisung das Bestehen des Rechtsverhältnisses in Rechtskraft (Umkehrung gegenüber der positiven Feststellungsklage).",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0400",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Hemmt die negative Feststellungsklage des Schuldners die Verjährung des Anspruchs des beklagten Gläubigers?",
+      "antworten": [
+        "Nein",
+        "Ja, nach § 204 Abs. 1 Nr. 1 BGB",
+        "Ja, sobald der Gläubiger Klageabweisung beantragt",
+        "Ja, wenn die Klage abgewiesen wird"
+      ],
+      "erklaerung": "Eine Verjährungshemmung zugunsten des verklagten Gläubigers nach § 204 Abs. 1 Nr. 1 BGB findet nicht statt; der Gläubiger muss ggf. selbst Leistungs(wider)klage erheben.",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0401",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Wie wird entschieden, wenn eine possessorische Klage (§ 861 BGB) und eine petitorische Widerklage gleichzeitig entscheidungsreif und beide begründet sind?",
+      "antworten": [
+        "Abweisung der Klage und Zuspruch der Widerklage (§ 864 Abs. 2 BGB analog)",
+        "Zuspruch der Klage und Abweisung der Widerklage (§ 863 BGB)",
+        "Zuspruch von Klage und Widerklage",
+        "Aussetzung der Widerklage bis zur Rechtskraft über die Klage"
+      ],
+      "erklaerung": "Gegen einen possessorischen Anspruch aus Besitz (§ 861 BGB) kann widerklagend ein Recht zum Besitz geltend gemacht werden (z. B. Feststellung, dass der Beklagte Eigentümer der entzogenen Sache ist). Sind beide Klagen gleichzeitig entscheidungsreif, findet § 864 Abs. 2 BGB analog Anwendung (Erlöschen der Besitzansprüche): Die Klage wird abgewiesen, der Widerklage stattgegeben (Anders/Gehle M 20 ff.; Oberheim Rn. 1241).",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0402",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Wie wird die Höhe der Abwendungssicherheit nach § 711 S. 1 ZPO bei einem Räumungsurteil bemessen?",
+      "antworten": [
+        "Mietausfall während der mutmaßlichen Dauer des Berufungsverfahrens zzgl. Kosten (Faustformel: 6 Monatsmieten)",
+        "Jahresbetrag der Miete zzgl. 10 % (§ 41 GKG)",
+        "110 % des aufgrund des Urteils vollstreckbaren Betrags",
+        "Verkehrswert der Wohnung zzgl. 10 %"
+      ],
+      "erklaerung": "Die Räumung ist nach §§ 708 Nr. 7, 711 S. 1 ZPO ohne Sicherheit vorläufig vollstreckbar, mit Abwendungsbefugnis. Bemessen wird sie nach dem Mietausfall während der mutmaßlichen Dauer des Berufungsverfahrens und grundsätzlich auch den Kosten; Faustformel 6 Monate × Monatsmiete (im Beispiel 6 × 500 € = 3.000 €).\n\n„Der Beklagte kann die Vollstreckung wegen der Räumung gegen Sicherheitsleistung in Höhe von 3.000,- € abwenden, wenn nicht der Kläger vor der Vollstreckung Sicherheit in gleicher Höhe leistet.“",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0403",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Wie hoch ist der Streitwert einer positiven und einer negativen Feststellungsklage im Verhältnis zum Hauptsachewert?",
+      "antworten": [
+        "Positiv: 80 %; negativ: 100 %",
+        "Positiv: 100 %; negativ: 80 %",
+        "Beide: 80 %",
+        "Positiv: 50 %; negativ: 100 %"
+      ],
+      "erklaerung": "Positive Feststellungsklage: i. d. R. Abschlag von 20 % auf den Hauptsachewert (§ 48 Abs. 1 GKG i. V. m. § 3 ZPO), da das Feststellungsurteil nicht vollstreckbar ist und in seinen Wirkungen hinter einem Leistungsurteil zurückbleibt.\n\nNegative Feststellungsklage: kein Abschlag, da die Rechtskraftwirkung mit der eines klageabweisenden Leistungsurteils vergleichbar ist.",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0404",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Wie bemisst sich der Gebührenstreitwert einer Räumungsklage des Wohnraumvermieters?",
+      "antworten": [
+        "Nach dem Jahresbetrag der Miete ohne Nebenkostenvorauszahlungen (§ 41 Abs. 2 S. 1, Abs. 1 S. 2 GKG)",
+        "Nach dem dreifachen Jahresbetrag der Miete (§ 9 ZPO)",
+        "Nach dem Verkehrswert der Wohnung (§ 6 ZPO)",
+        "Nach dem Jahresbetrag der Miete einschließlich Nebenkostenvorauszahlungen (§ 41 Abs. 1 S. 1 GKG)"
+      ],
+      "erklaerung": "Für die Räumung ist nach § 41 Abs. 2 S. 1 i. V. m. Abs. 1 GKG das für ein Jahr zu zahlende Entgelt maßgeblich, im Beispiel 12 × 450 € Kaltmiete = 5.400 €; vorauszuzahlende Nebenkosten bleiben außer Betracht.",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0405",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wie ist eine negative Zwischenfeststellungswiderklage auszulegen, mit der der Beklagte gegenüber einer offenen Teilklage feststellen lassen will, dass er überhaupt nichts schuldet?",
+      "antworten": [
+        "Nur auf den den eingeklagten Teil übersteigenden Betrag",
+        "Auf die gesamte Forderung einschließlich des eingeklagten Teils",
+        "Als bloßer Klageabweisungsantrag",
+        "Als unzulässig, da ein Feststellungsinteresse fehlt"
+      ],
+      "erklaerung": "Bei der Teilklage (offen wie verdeckt) erstreckt sich die materielle Rechtskraft nur auf den entschiedenen Teil (Zöller Vor § 322 Rn. 47 f.). In Höhe des eingeklagten Teils besteht ein identischer Streitgegenstand (anderweitige Rechtshängigkeit); der Widerklageantrag ist daher so auszulegen, dass er sich nur auf den übersteigenden Betrag bezieht. Nach § 256 Abs. 2 ZPO genügt Vorgreiflichkeit; sie liegt vor, weil das Bestehen der Gesamtforderung in den Gründen der Hauptklage ohnehin zu prüfen ist.\n\nBerühmt sich der Kläger mehrerer Forderungen, muss er klarstellen, welche zu welchem Teil eingeklagt wird; sonst liegt eine unzulässige alternative Klagehäufung vor.",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0406",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Wie wird die Kostenquote bei Teil-Klagerücknahme vor der mündlichen Verhandlung nach der h. M. (Mehrkostenmethode) berechnet?",
+      "antworten": [
+        "Differenz zwischen tatsächlichen Kosten und Kosten bei sofortiger Klage über den Restbetrag im Verhältnis zu den tatsächlichen Kosten",
+        "Verlustquote des Klägers für jede tatsächlich angefallene Kostenposition einzeln, ins Verhältnis zu den Gesamtkosten gesetzt",
+        "Verhältnis des zurückgenommenen Betrags zum ursprünglichen Streitwert",
+        "Verhältnis der Kosten bei sofortiger Klage über den Restbetrag zu den tatsächlichen Kosten"
+      ],
+      "erklaerung": "Mehrkostenmethode (h. M., OLG Schleswig MDR 2008, 353): Es werden die Kosten berechnet, die entstanden wären, wenn der Kläger gleich den geringeren Betrag eingeklagt hätte. Die Differenz zu den tatsächlich entstandenen Kosten („Mehrkosten“ durch überhöhte Klage) wird ins Verhältnis zu den tatsächlichen Kosten gesetzt; dieser Anteil trifft den Kläger (Beispiel: 948 € / 2.901 € ≈ 33 %).\n\nQuotenmethode: Die Verlustquote des Klägers wird für jede tatsächlich angefallene Position einzeln angesetzt und die Summe ins Verhältnis zu den Gesamtkosten gesetzt (Beispiel: ≈ 38 %). Die gemischte Kostenentscheidung ergeht von Amts wegen im Urteil. Klausurtipp: bei Zeitknappheit schätzen; Taschenrechner sind im Examen nicht gestattet.",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0407",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wie ist zu tenorieren, wenn der Kläger nach mündlicher Verhandlung und Beweisaufnahme die Hälfte der Klage zurücknimmt und mit dem Rest obsiegt?",
+      "antworten": [
+        "Kostenaufhebung oder hälftige Teilung (§ 92 Abs. 1 i. V. m. § 269 Abs. 3 S. 2 ZPO)",
+        "Kläger trägt die Kosten (§ 269 Abs. 3 S. 2 ZPO)",
+        "Beklagter trägt die Kosten (§ 91 ZPO)",
+        "Kostenentscheidung nur auf Antrag durch Beschluss (§ 269 Abs. 4 ZPO)"
+      ],
+      "erklaerung": "Bei Reduzierung des Streitwerts (Teil-Klagerücknahme, Teil-Anerkenntnis, Teil-Erledigung) wird eine einheitliche Kostenquote gebildet (gemischte Kostenentscheidung). Sind sämtliche Kosten bereits vor der Teilrücknahme entstanden, entspricht die Quote dem Verhältnis der Werte. Die Teilrücknahme ermäßigt die Gerichtsgebühren nicht, da Nr. 1211 KV GKG nur für die vollständige Rücknahme gilt.\n\nDer Kläger trägt die Kosten der Teilrücknahme (§ 269 Abs. 3 S. 2 ZPO), der Beklagte die des Verlusts der übrigen Hälfte; Vorschlag: Kostenaufhebung oder Kostentragung zu je ½.",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0408",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Warum darf die Kostenquote bei einer Teil-Klagerücknahme vor der mündlichen Verhandlung nicht einfach nach dem Verhältnis des zurückgenommenen zum ursprünglichen Streitwert gebildet werden?",
+      "antworten": [
+        "Die Terminsgebühren fallen nur nach dem niedrigeren Streitwert an",
+        "Die Gerichtsgebühren ermäßigen sich nach Nr. 1211 KV GKG",
+        "Der Kläger trägt die Kosten der Rücknahme nur auf Antrag",
+        "Die Verfahrensgebühr fällt nur nach dem niedrigeren Streitwert an"
+      ],
+      "erklaerung": "Bei Rücknahme vor der mündlichen Verhandlung fallen die Terminsgebühren nur zu einem niedrigeren Streitwert an. Eine bloße Wertquote wäre daher unrichtig (Anders/Gehle A-198), kommt in der Praxis aber nicht selten vor. Vertreten werden die Quotenmethode und die Mehrkostenmethode (h. M.).",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0409",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Darf über eine auf Zahlungsverzug gestützte Räumungsklage durch Teilurteil entschieden werden, wenn über die gleichzeitig eingeklagten Mietrückstände wegen behaupteter Minderung noch Beweis zu erheben ist?",
+      "antworten": [
+        "Nein, wegen der Gefahr widersprechender Entscheidungen",
+        "Ja, wenn jedenfalls ein kündigungsrelevanter Rückstand feststeht",
+        "Ja, da Räumung und Zahlung verschiedene Streitgegenstände sind",
+        "Nein, da Räumungsklagen nicht teilbar sind"
+      ],
+      "erklaerung": "Ein solches Teilurteil ist unzulässig (BGH MDR 2008, 331): Bei der späteren Entscheidung über den Zahlungsanspruch ist das Gericht an die Feststellungen zum Zahlungsverzug im Teilurteil nicht gebunden. Das weitere Verfahren könnte ergeben, dass Minderung und Zurückbehaltungsrecht in solcher Höhe begründet sind, dass kündigungsrelevante Rückstände (§ 543 Abs. 2 Nr. 3 BGB) nicht bestanden – im Widerspruch zum Räumungsurteil.",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0410",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Was gilt für Kosten und vorläufige Vollstreckbarkeit in einem Teilurteil?",
+      "antworten": [
+        "Kostenentscheidung bleibt dem Schlussurteil vorbehalten; Ausspruch zur vorläufigen Vollstreckbarkeit",
+        "Anteilige Kostenentscheidung; Ausspruch zur vorläufigen Vollstreckbarkeit",
+        "Kostenentscheidung bleibt dem Schlussurteil vorbehalten; kein Ausspruch zur vorläufigen Vollstreckbarkeit",
+        "Anteilige Kostenentscheidung; kein Ausspruch zur vorläufigen Vollstreckbarkeit"
+      ],
+      "erklaerung": "Tenor (Beispiel): „Der Beklagte wird verurteilt, an den Kläger 2000 € zu zahlen. Die Kostenentscheidung bleibt dem Schlussurteil vorbehalten. Das Urteil ist vorläufig vollstreckbar gegen Sicherheitsleistung i. H. v. 110 % des jeweils zu vollstreckenden Betrages.“ Der Kostenvorbehalt folgt aus dem Grundsatz der Einheitlichkeit der Kostenentscheidung.",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0411",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Welche Voraussetzungen hat ein Teilurteil (§ 301 ZPO)?",
+      "typ": "begriffe",
+      "reihenfolge": false,
+      "antworten": [
+        "Teilbarer Streitgegenstand",
+        "Keine Gefahr widersprechender Entscheidungen",
+        "Entscheidungsreife des Teils"
+      ],
+      "falsche": [
+        "Antrag einer Partei",
+        "Zustimmung der Parteien",
+        "Rechtskraft des übrigen Teils"
+      ],
+      "erklaerung": "Voraussetzungen: teilbarer Streitgegenstand, ausgeschlossene Divergenzgefahr, Entscheidungsreife des Teils. Erforderlich z. B. bei Anerkenntnisteilurteil, Versäumnisteilurteil und Stufenklage (§ 254 ZPO). Der Erlass kann unterbleiben, wenn das Gericht ihn nach Lage der Sache nicht für angemessen erachtet (§ 301 Abs. 2 ZPO).\n\nÜber einen Teil eines einheitlichen Anspruchs, der nach Grund und Höhe streitig ist, kann durch Teilurteil nur entschieden werden, wenn zugleich ein Grundurteil über den restlichen Teil ergeht (§ 301 Abs. 1 S. 2 ZPO).",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0412",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Welche Überschrift erhält das Urteil, wenn gegen zwei säumige Beklagte nur hinsichtlich eines Beklagten ein Versäumnisurteil ergeht und die Klage gegen den anderen als unschlüssig abgewiesen wird?",
+      "antworten": [
+        "„Teil-Versäumnis- und Endurteil“ (oder „… und Schlussurteil“)",
+        "„Versäumnisurteil“",
+        "„Teilurteil“",
+        "„Versäumnis- und Zwischenurteil“"
+      ],
+      "erklaerung": "Gegen den Beklagten zu 1) ergeht ein echtes Teil-Versäumnisurteil, gegen den Beklagten zu 2) bei unschlüssiger Klage ein unechtes Teil-Versäumnisurteil (kontradiktorisches Endurteil). Überschrift: „Teil-Versäumnis- und Endurteil“ oder „Teil-Versäumnis- und Schlussurteil“. Tenor: „Der Beklagte zu 1) wird verurteilt, an den Kläger 525,- € zu zahlen. Im Übrigen wird die Klage abgewiesen.“",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0413",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wie kann entschieden werden, wenn die Klageforderung entscheidungsreif ist, die zur Aufrechnung gestellte Gegenforderung aber noch nicht?",
+      "antworten": [
+        "Vorbehaltsurteil (§ 302 ZPO) mit Vorbehalt der Entscheidung über die Aufrechnung",
+        "Teilurteil über die Klageforderung (§ 301 ZPO)",
+        "Grundurteil über die Klageforderung (§ 304 ZPO)",
+        "Zwischenurteil über die Klageforderung (§ 303 ZPO)"
+      ],
+      "erklaerung": "Hat der Beklagte die Aufrechnung erklärt und ist nur die Verhandlung über die Klageforderung entscheidungsreif, kann ein Vorbehaltsurteil ergehen (§ 302 ZPO). Tenor: Verurteilung, Kosten, vorläufige Vollstreckbarkeit (§ 709 ZPO) und „Die Entscheidung über die Aufrechnungsforderung des Beklagten iHv 7.000 € bleibt vorbehalten.“\n\nIm Nachverfahren in derselben Instanz wird das Vorbehaltsurteil durch Schlussurteil für vorbehaltlos erklärt oder aufgehoben; es besteht Bindungswirkung (§ 318 ZPO). Daneben gibt es das Vorbehaltsurteil im Urkundenprozess (§ 599 ZPO).",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0414",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wie kann die Sicherheitsleistung tenoriert werden, wenn der Kläger mit einer Herausgabe- und einer Zahlungsklage obsiegt?",
+      "antworten": [
+        "Herausgabe: bezifferter Betrag (Wert zzgl. 10 %); im Übrigen 110 % des jeweils zu vollstreckenden Betrags",
+        "Insgesamt 110 % des jeweils zu vollstreckenden Betrags",
+        "Herausgabe: 110 % des Werts; Zahlung und Kosten: bezifferter Gesamtbetrag",
+        "Insgesamt nur bezifferter Betrag aus Herausgabewert zzgl. 10 %"
+      ],
+      "erklaerung": "Zwei Möglichkeiten: (1) Die gesamte Sicherheit wird ausgerechnet (Wert der Hauptsache + Gerichtsgebühren + Rechtsanwaltskosten + 10 % Sicherheitszuschlag, gerundet). (2) Die Sicherheit wird nur für die Herausgabe ausgerechnet (§ 709 S. 1 ZPO), im Übrigen gilt § 709 S. 2 ZPO.\n\nFormulierung zu (2): „Das Urteil ist hinsichtlich der Herausgabe gegen Sicherheitsleistung in Höhe von 5.500 €, im Übrigen gegen Sicherheitsleistung in Höhe von 110 % des jeweils zu vollstreckenden Betrages vorläufig vollstreckbar.“ Für den Streitwert werden die Werte addiert (§ 39 Abs. 1 GKG, § 5 ZPO; Herausgabe § 6 ZPO).",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0415",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Werden bei einer Klagehäufung die Werte der Verurteilungen für die Grenze des § 708 Nr. 11 ZPO zusammengerechnet?",
+      "antworten": [
+        "Ja, außer für Anträge, die schon nach § 708 Nr. 1–10 ZPO ohne Sicherheit vollstreckbar sind",
+        "Nein, jeder Antrag wird gesondert betrachtet",
+        "Ja, ausnahmslos einschließlich der nach § 708 Nr. 1–10 ZPO privilegierten Anträge",
+        "Nein, maßgeblich ist allein der Gebührenstreitwert"
+      ],
+      "erklaerung": "Bei Klagehäufung erfolgt für § 708 Nr. 11 ZPO eine Zusammenrechnung, außer wenn für einen Antrag schon nach § 708 Nr. 1–10 ZPO die Sicherheitsleistung entfällt. Beispiel: Räumung nach §§ 708 Nr. 7, 711 S. 1 ZPO; daneben Zahlung von 1.200 € nach §§ 708 Nr. 11, 711 S. 1, 2 ZPO.",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0416",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Ist das LG für eine Widerklage wegen rückständiger Wohnraummiete gegenüber einer Darlehensklage zuständig?",
+      "antworten": [
+        "Nein (§ 33 Abs. 2 i. V. m. § 40 Abs. 2 Nr. 2 ZPO); Trennung und Verweisung an das AG auf Antrag",
+        "Ja, da § 5 ZPO den höheren Wert entscheiden lässt",
+        "Ja, wenn die Forderungen konnex sind",
+        "Nein; die Widerklage ist ohne Verweisungsmöglichkeit als unzulässig abzuweisen"
+      ],
+      "erklaerung": "Der Gerichtsstand der Widerklage gilt nicht, wenn für eine Klage wegen des Gegenanspruchs eine Zuständigkeitsvereinbarung nach § 40 Abs. 2 ZPO unzulässig ist (§ 33 Abs. 2 ZPO). Für Wohnraummiete besteht eine ausschließliche Zuständigkeit (§ 29a ZPO, § 23 Nr. 2 lit. a GVG; vgl. § 40 Abs. 2 S. 1 Nr. 2 ZPO). Folge: Trennung (§ 145 ZPO) und Verweisung der Widerklage an das AG auf Antrag.",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0417",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Wann werden Klage und Widerklage für den Gebührenstreitwert nicht addiert?",
+      "antworten": [
+        "Wenn sie denselben Gegenstand betreffen, die Zuerkennung des einen Anspruchs also die Aberkennung des anderen bedingt",
+        "Wenn die Widerklage konnex ist",
+        "Wenn die Widerklage niedriger ist als die Klage",
+        "Wenn Klage und Widerklage auf demselben Lebenssachverhalt beruhen"
+      ],
+      "erklaerung": "Grundsatz: Addition von Klage und Widerklage (§ 45 Abs. 1 S. 1 GKG). Ausnahme: keine Addition, wenn sie denselben Gegenstand betreffen; dann ist der höhere Wert maßgeblich (§ 45 Abs. 1 S. 3 GKG). Derselbe Gegenstand liegt vor, wenn sich die Ansprüche so ausschließen, dass die Zuerkennung des einen notwendig die Aberkennung des anderen bedingt, das Gericht also nicht beiden Anträgen stattgeben kann (h. M., BGH NJW-RR 2003, 713).\n\nBeispiel: Kaufpreisklage über 5.000 € und Widerklage auf Feststellung der Nichtigkeit des Kaufvertrags → Gebührenstreitwert 5.000 €. Die Kostenquote folgt dem Grundsatz der Einheitlichkeit (Verlust jeder Partei im Verhältnis zum fiktiven Streitwert aus Klage und Widerklage; im Beispiel bei 2.500 € Zuspruch: K ¼, B ¾).",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0418",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Ist die Konnexität (§ 33 ZPO) eine besondere Zulässigkeitsvoraussetzung der Widerklage?",
+      "antworten": [
+        "BGH: ja, Heilung nach § 295 ZPO; h. L.: nein, nur besonderer Gerichtsstand",
+        "BGH: nein, nur besonderer Gerichtsstand; h. L.: ja, Heilung nach § 295 ZPO",
+        "BGH und h. L.: ja, ohne Heilungsmöglichkeit",
+        "BGH und h. L.: nein, § 33 ZPO regelt nur die sachliche Zuständigkeit"
+      ],
+      "erklaerung": "BGH: Fehlt die Konnexität, ist die Widerklage unzulässig; Heilung nach § 295 ZPO möglich (nicht, wenn gerügt wurde).\n\nh. L.: Konnexität ist keine besondere Zulässigkeitsvoraussetzung; Zweck des § 33 ZPO ist die Prozessökonomie, er begründet nur einen besonderen Gerichtsstand. Die örtliche Zuständigkeit kann sich auch aus anderen Vorschriften (z. B. §§ 12, 13 ZPO) ergeben; Heilung über § 39 ZPO bei rügeloser Einlassung (beachte § 504 ZPO). Auf den rechtlichen Zusammenhang kommt es nach der h. L. nur an, wenn das Gericht für die Widerklage sonst örtlich nicht zuständig ist.",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0419",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wie ist zu entscheiden, wenn der Kläger die örtliche Zuständigkeit für eine nicht konnexe Widerklage rügt und der Beklagte keinen Verweisungsantrag stellt?",
+      "antworten": [
+        "Abweisung der Widerklage als unzulässig durch Prozessurteil",
+        "Abtrennung und Verweisung von Amts wegen (§§ 145 Abs. 2, 281 ZPO)",
+        "Entscheidung in der Sache, da § 39 ZPO greift",
+        "Aussetzung bis zur Entscheidung über die Klage"
+      ],
+      "erklaerung": "Fehlt die Konnexität, ist die Widerklage nach h. L. mangels örtlicher Zuständigkeit, nach dem BGH mangels besonderer Zulässigkeitsvoraussetzung unzulässig; eine Heilung (§ 39 bzw. § 295 ZPO) scheidet wegen der Rüge aus. Ohne Verweisungsantrag wird die Widerklage durch Prozessurteil abgewiesen.\n\nWäre Verweisung beantragt worden, wäre die Widerklage abgetrennt (§ 145 Abs. 2 ZPO) und an das Wohnsitzgericht des Klägers verwiesen worden (§ 281 ZPO).",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0420",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Wie ist mit einer Widerklage zu verfahren, die erst nach Rücknahme der Klage erhoben wird?",
+      "antworten": [
+        "Sie ist unzulässig; Folge nach den AG-Unterlagen: Abtrennung (§ 145 ZPO), nicht Abweisung",
+        "Sie ist zulässig, da es nur auf Anhängigkeit ankommt",
+        "Sie wird als unzulässig abgewiesen",
+        "Sie wird als selbständige Klage in einem neuen Verfahren an das zuständige Gericht verwiesen"
+      ],
+      "erklaerung": "Eine Widerklage kann nur erhoben werden, wenn und solange die Klage rechtshängig ist. Die Erhebung nach erfolgter Klagerücknahme ist als Widerklage unzulässig; Folge ist nach den AG-Unterlagen die Abtrennung nach § 145 ZPO, nicht die Abweisung.",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0421",
+      "gebiet": "zivilgericht",
+      "prio": "hoch",
+      "frage": "Wie wird der Zuständigkeitsstreitwert bei Klage und Widerklage bestimmt?",
+      "antworten": [
+        "Keine Addition (§ 5 Hs. 2 ZPO); jede Klage für sich, der höhere Wert entscheidet",
+        "Addition von Klage und Widerklage (§ 5 Hs. 1 ZPO)",
+        "Addition nach § 45 Abs. 1 S. 1 GKG",
+        "Maßgeblich ist allein der Wert der Klage"
+      ],
+      "erklaerung": "Für den Zuständigkeitsstreitwert werden Klage und Widerklage nicht addiert (§ 5 ZPO); anders für den Gebührenstreitwert (§ 45 GKG). Der höhere Wert ist entscheidend: Das LG ist bei einer Klage über 20.000 € auch für eine Widerklage über 500 € zuständig (h. M., T/P § 5 Rn. 6).\n\nIst für die Widerklage am AG das LG zuständig, wird nach § 506 ZPO auf Antrag verwiesen (nachträgliche sachliche Unzuständigkeit).",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0422",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Wie ist der Tatbestand aufgebaut, wenn Klage und Widerklage einen gemeinsamen Sachverhalt betreffen?",
+      "typ": "begriffe",
+      "reihenfolge": true,
+      "antworten": [
+        "Einleitungssatz",
+        "Unstreitiges zu Klage und Widerklage",
+        "Streitiger Klägervortrag",
+        "ggf. kleine Prozessgeschichte",
+        "Anträge zu Klage und Widerklage",
+        "Streitiger Beklagtenvortrag",
+        "ggf. Erwiderung auf die Widerklage",
+        "Prozessgeschichte"
+      ],
+      "falsche": [
+        "Überleitungssatz zur Widerklage",
+        "Unstreitiges zur Widerklage gesondert"
+      ],
+      "erklaerung": "Gemeinsamer Sachverhalt: Einleitungssatz („Klage und Widerklage betreffen …“), unstreitiger Sachverhalt zu Klage und Widerklage, streitiger Klägervortrag zu beiden, ggf. antragsbezogene kleine Prozessgeschichte, Anträge (Klageantrag, Klageabweisungsantrag, Widerklageantrag, Widerklageabweisungsantrag), streitiger Beklagtenvortrag zu beiden, ggf. Erwiderung des Klägers auf die Widerklage, Prozessgeschichte.\n\nBei unterschiedlichen Sachverhalten werden Klage und Widerklage nacheinander dargestellt, verbunden durch einen Überleitungssatz.",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0423",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Wie ist der Tatbestand aufgebaut, wenn Klage und Widerklage unterschiedliche Sachverhalte betreffen?",
+      "antworten": [
+        "Klage vollständig (bis zum Beklagtenvortrag), dann Überleitungssatz und Widerklage vollständig",
+        "Gemeinsames Unstreitiges, dann alle Anträge, dann gemeinsames Streitiges",
+        "Zuerst die Widerklage, dann die Klage",
+        "Klage und Widerklage je Abschnitt (Unstreitiges, Streitiges, Anträge) abwechselnd"
+      ],
+      "erklaerung": "Einleitungssatz zu Klage und Widerklage; Unstreitiges zur Klage; streitiger Klägervortrag zur Klage; ggf. kleine Prozessgeschichte; Anträge zur Klage; streitiger Beklagtenvortrag zur Klage; Überleitungssatz („Der Widerklage liegt nachfolgender Sachverhalt zugrunde.“); Unstreitiges zur Widerklage; streitiger Beklagtenvortrag zur Widerklage; Anträge zur Widerklage; streitiger Klägervortrag zur Widerklage; Prozessgeschichte.",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0424",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Was ist bei Tenor und Entscheidungsgründen eines Urteils über Klage und Widerklage zu beachten?",
+      "antworten": [
+        "Tenor nach Klage und Widerklage trennen; Gründe: Ergebnis beider vorweg, dann Klage, dann Widerklage",
+        "Einheitlicher Tenor ohne Trennung; Gründe: zuerst Widerklage, dann Klage",
+        "Tenor nach Klage und Widerklage trennen; Gründe: zuerst Zulässigkeit beider, dann Begründetheit beider",
+        "Einheitlicher Tenor ohne Trennung; Gründe: Ergebnis beider vorweg, dann Klage, dann Widerklage"
+      ],
+      "erklaerung": "Der Tenor muss erkennen lassen, inwieweit sich die Entscheidung auf Klage oder Widerklage bezieht („Auf die Klage wird der Beklagte verurteilt …; auf die Widerklage wird der Kläger verurteilt …“; „Die Klage und die Widerklage werden abgewiesen.“).\n\nEntscheidungsgründe: Ergebnis von Klage und Widerklage im Einleitungssatz voranstellen; dann Zulässigkeit und Begründetheit der Klage, Zulässigkeit und Begründetheit der Widerklage, prozessuale Nebenentscheidungen.",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0425",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Welche Folgen hat es, dass die Widerklage ein eigener Angriff und kein Verteidigungsmittel ist?",
+      "antworten": [
+        "Keine Präklusion nach § 296 Abs. 1, 2 ZPO; kein Gerichtskostenvorschuss (§ 12 Abs. 2 Nr. 1 GKG)",
+        "Präklusion nach § 296 Abs. 1, 2 ZPO möglich; kein Gerichtskostenvorschuss",
+        "Keine Präklusion; Gerichtskostenvorschuss erforderlich (§ 12 Abs. 1 GKG)",
+        "Präklusion möglich; Gerichtskostenvorschuss erforderlich"
+      ],
+      "erklaerung": "Mit der Widerklage löst sich der Beklagte von der Verteidigerrolle und geht zum Gegenangriff über; sie ist eine selbständige Klage innerhalb desselben Rechtsstreits. Als eigener Angriff unterliegt sie nicht der Präklusion nach § 296 Abs. 1, 2 ZPO und ist nicht vorschussabhängig (§ 12 Abs. 2 Nr. 1 GKG).",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0426",
+      "gebiet": "zivilgericht",
+      "prio": "normal",
+      "frage": "Welchem Zweck dient eine Zwischenfeststellungsklage oder -widerklage (§ 256 Abs. 2 ZPO)?",
+      "antworten": [
+        "Ausdehnung der Rechtskraft auf ein vorgreifliches Rechtsverhältnis",
+        "Feststellung streitiger Tatsachen vor der Beweisaufnahme",
+        "Vorabentscheidung über den Anspruchsgrund",
+        "Sicherung der Vollstreckung vor Rechtskraft"
+      ],
+      "erklaerung": "Die Zwischenfeststellungsklage kann nicht isoliert, sondern nur zusätzlich als Klagehäufung oder Widerklage erhoben werden. Sie ist eine privilegierte Form der Feststellungsklage: Ein rechtliches Interesse ist nicht erforderlich; das festzustellende Rechtsverhältnis muss aber vorgreiflich sein, d. h. die Entscheidung des Rechtsstreits muss ganz oder teilweise von seinem Bestehen oder Nichtbestehen abhängen. Ziel ist die Ausdehnung der Rechtskraft auf sonst nicht erfasste entscheidungserhebliche Vorfragen.",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
+    },
+    {
+      "id": "zivilgericht-0427",
+      "gebiet": "zivilgericht",
+      "prio": "niedrig",
+      "frage": "Wie sind ein Zwischenurteil über die bejahte Zulässigkeit der Klage (§ 280 ZPO) und ein Zwischenurteil über einen Zwischenstreit nach § 303 ZPO anfechtbar?",
+      "antworten": [
+        "§ 280 ZPO: wie ein Endurteil; § 303 ZPO: nicht selbständig",
+        "§ 280 ZPO: nicht selbständig; § 303 ZPO: wie ein Endurteil",
+        "Beide: mit sofortiger Beschwerde",
+        "Beide: nicht selbständig"
+      ],
+      "erklaerung": "Zwischenurteile nach § 303 ZPO über Vorfragen, meist prozessuale Streitpunkte, sind nicht selbständig anfechtbar (selten, T/P § 303 Rn. 2), z. B. Gewährung der Wiedereinsetzung (§ 238 Abs. 1 S. 2 ZPO), Streit über die Wirksamkeit der Klagerücknahme, Anordnung der Prozesskostensicherheit (§ 110 ZPO). Das Zwischenurteil über die bejahte Zulässigkeit (§ 280 ZPO) fällt nicht unter § 303 ZPO und ist wie ein Endurteil anfechtbar.\n\nZwischenurteile gegenüber Dritten: sofortige Beschwerde (Zulassung der Nebenintervention, § 71 Abs. 2 ZPO; Zeugnisverweigerung, § 387 Abs. 3 ZPO). Grundurteile: Rechtsmittel wie gegen Endurteile (§ 304 Abs. 2 ZPO).",
+      "creator": null,
+      "korrigiert": "2026-10-02T15:30:06.741353Z",
+      "ts": "2026-10-02T15:30:06.741353Z"
     }
   ]
 }

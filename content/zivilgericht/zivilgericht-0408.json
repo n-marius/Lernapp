@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Warum darf die Kostenquote bei einer Teil-Klagerücknahme vor der mündlichen Verhandlung nicht einfach nach dem Verhältnis des zurückgenommenen zum ursprünglichen Streitwert gebildet werden?",
+  "antworten": [
+    "Die Terminsgebühren fallen nur nach dem niedrigeren Streitwert an",
+    "Die Gerichtsgebühren ermäßigen sich nach Nr. 1211 KV GKG",
+    "Der Kläger trägt die Kosten der Rücknahme nur auf Antrag",
+    "Die Verfahrensgebühr fällt nur nach dem niedrigeren Streitwert an"
+  ],
+  "erklaerung": "Bei Rücknahme vor der mündlichen Verhandlung fallen die Terminsgebühren nur zu einem niedrigeren Streitwert an. Eine bloße Wertquote wäre daher unrichtig (Anders/Gehle A-198), kommt in der Praxis aber nicht selten vor. Vertreten werden die Quotenmethode und die Mehrkostenmethode (h. M.).",
+  "id": "zivilgericht-0408",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

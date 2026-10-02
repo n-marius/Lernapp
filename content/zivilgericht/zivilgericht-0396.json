@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Tritt Erledigung der Hauptsache ein, wenn der Beklagte nur zur Abwendung der Zwangsvollstreckung aus einem vorläufig vollstreckbaren Urteil leistet?",
+  "antworten": [
+    "Nein",
+    "Ja, da die Forderung durch Erfüllung erlischt",
+    "Ja, aber nur bei Leistung nach Rechtskraft",
+    "Nein, es sei denn, der Kläger erklärt die Erledigung"
+  ],
+  "erklaerung": "Erledigung tritt nicht ein, wenn (nur) zur Abwendung der Zwangsvollstreckung geleistet wird (T/P § 91a Rn. 4 unter Hinweis auf BGH NJW 1994, 942). Auch eine erfolgreiche Zwangsvollstreckung erledigt den Rechtsstreit nicht.",
+  "id": "zivilgericht-0396",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Wie ist zu entscheiden, wenn der Kläger die örtliche Zuständigkeit für eine nicht konnexe Widerklage rügt und der Beklagte keinen Verweisungsantrag stellt?",
+  "antworten": [
+    "Abweisung der Widerklage als unzulässig durch Prozessurteil",
+    "Abtrennung und Verweisung von Amts wegen (§§ 145 Abs. 2, 281 ZPO)",
+    "Entscheidung in der Sache, da § 39 ZPO greift",
+    "Aussetzung bis zur Entscheidung über die Klage"
+  ],
+  "erklaerung": "Fehlt die Konnexität, ist die Widerklage nach h. L. mangels örtlicher Zuständigkeit, nach dem BGH mangels besonderer Zulässigkeitsvoraussetzung unzulässig; eine Heilung (§ 39 bzw. § 295 ZPO) scheidet wegen der Rüge aus. Ohne Verweisungsantrag wird die Widerklage durch Prozessurteil abgewiesen.\n\nWäre Verweisung beantragt worden, wäre die Widerklage abgetrennt (§ 145 Abs. 2 ZPO) und an das Wohnsitzgericht des Klägers verwiesen worden (§ 281 ZPO).",
+  "id": "zivilgericht-0419",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

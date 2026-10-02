@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Was gilt für Kosten und vorläufige Vollstreckbarkeit in einem Teilurteil?",
+  "antworten": [
+    "Kostenentscheidung bleibt dem Schlussurteil vorbehalten; Ausspruch zur vorläufigen Vollstreckbarkeit",
+    "Anteilige Kostenentscheidung; Ausspruch zur vorläufigen Vollstreckbarkeit",
+    "Kostenentscheidung bleibt dem Schlussurteil vorbehalten; kein Ausspruch zur vorläufigen Vollstreckbarkeit",
+    "Anteilige Kostenentscheidung; kein Ausspruch zur vorläufigen Vollstreckbarkeit"
+  ],
+  "erklaerung": "Tenor (Beispiel): „Der Beklagte wird verurteilt, an den Kläger 2000 € zu zahlen. Die Kostenentscheidung bleibt dem Schlussurteil vorbehalten. Das Urteil ist vorläufig vollstreckbar gegen Sicherheitsleistung i. H. v. 110 % des jeweils zu vollstreckenden Betrages.“ Der Kostenvorbehalt folgt aus dem Grundsatz der Einheitlichkeit der Kostenentscheidung.",
+  "id": "zivilgericht-0410",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

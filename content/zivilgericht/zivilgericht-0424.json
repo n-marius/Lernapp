@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "niedrig",
+  "frage": "Was ist bei Tenor und Entscheidungsgründen eines Urteils über Klage und Widerklage zu beachten?",
+  "antworten": [
+    "Tenor nach Klage und Widerklage trennen; Gründe: Ergebnis beider vorweg, dann Klage, dann Widerklage",
+    "Einheitlicher Tenor ohne Trennung; Gründe: zuerst Widerklage, dann Klage",
+    "Tenor nach Klage und Widerklage trennen; Gründe: zuerst Zulässigkeit beider, dann Begründetheit beider",
+    "Einheitlicher Tenor ohne Trennung; Gründe: Ergebnis beider vorweg, dann Klage, dann Widerklage"
+  ],
+  "erklaerung": "Der Tenor muss erkennen lassen, inwieweit sich die Entscheidung auf Klage oder Widerklage bezieht („Auf die Klage wird der Beklagte verurteilt …; auf die Widerklage wird der Kläger verurteilt …“; „Die Klage und die Widerklage werden abgewiesen.“).\n\nEntscheidungsgründe: Ergebnis von Klage und Widerklage im Einleitungssatz voranstellen; dann Zulässigkeit und Begründetheit der Klage, Zulässigkeit und Begründetheit der Widerklage, prozessuale Nebenentscheidungen.",
+  "id": "zivilgericht-0424",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

@@ -1,0 +1,21 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "typ": "begriffe",
+  "reihenfolge": false,
+  "frage": "Wann besteht ein rechtlicher Zusammenhang (Konnexität) zwischen Klage und Widerklage?",
+  "antworten": [
+    "Herleitung aus demselben Tatbestand",
+    "Bedingungsverhältnis der Tatbestände",
+    "Wirtschaftlich einheitliches Lebensverhältnis"
+  ],
+  "falsche": [
+    "Bloß tatsächlicher Zusammenhang",
+    "Gleichartigkeit der Forderungen",
+    "Identität des Rechtsgrundes"
+  ],
+  "erklaerung": "Erforderlich ist ein rechtlicher Zusammenhang; ein bloß tatsächlicher genügt nicht. Der Begriff ist weit und unter Berücksichtigung wirtschaftlicher Zusammenhänge zu verstehen (vgl. § 273 BGB; BGH NJW 1975, 1228); Identität des Rechtsgrundes ist nicht erforderlich.\n\nFallgruppen: derselbe Tatbestand (z. B. wechselseitige Schadensersatzansprüche aus einem Verkehrsunfall; überschießender Teil einer zur Aufrechnung gestellten Forderung); verschiedene Tatbestände im Bedingungsverhältnis (Anspruch aus Wirksamkeit, Gegenanspruch aus Unwirksamkeit desselben Vertrags); wirtschaftlich zusammengehöriges Lebensverhältnis (z. B. Verträge im Rahmen laufender Geschäftsbeziehungen; Kaufpreis und Erstattung von Mängelbeseitigungsaufwand). BeckOK ZPO/Toussaint § 33 Rn. 12 f.",
+  "id": "zivilgericht-0394",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

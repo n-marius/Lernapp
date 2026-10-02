@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Welche Folgen hat es, dass die Widerklage ein eigener Angriff und kein Verteidigungsmittel ist?",
+  "antworten": [
+    "Keine Präklusion nach § 296 Abs. 1, 2 ZPO; kein Gerichtskostenvorschuss (§ 12 Abs. 2 Nr. 1 GKG)",
+    "Präklusion nach § 296 Abs. 1, 2 ZPO möglich; kein Gerichtskostenvorschuss",
+    "Keine Präklusion; Gerichtskostenvorschuss erforderlich (§ 12 Abs. 1 GKG)",
+    "Präklusion möglich; Gerichtskostenvorschuss erforderlich"
+  ],
+  "erklaerung": "Mit der Widerklage löst sich der Beklagte von der Verteidigerrolle und geht zum Gegenangriff über; sie ist eine selbständige Klage innerhalb desselben Rechtsstreits. Als eigener Angriff unterliegt sie nicht der Präklusion nach § 296 Abs. 1, 2 ZPO und ist nicht vorschussabhängig (§ 12 Abs. 2 Nr. 1 GKG).",
+  "id": "zivilgericht-0425",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

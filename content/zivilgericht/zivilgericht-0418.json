@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Ist die Konnexität (§ 33 ZPO) eine besondere Zulässigkeitsvoraussetzung der Widerklage?",
+  "antworten": [
+    "BGH: ja, Heilung nach § 295 ZPO; h. L.: nein, nur besonderer Gerichtsstand",
+    "BGH: nein, nur besonderer Gerichtsstand; h. L.: ja, Heilung nach § 295 ZPO",
+    "BGH und h. L.: ja, ohne Heilungsmöglichkeit",
+    "BGH und h. L.: nein, § 33 ZPO regelt nur die sachliche Zuständigkeit"
+  ],
+  "erklaerung": "BGH: Fehlt die Konnexität, ist die Widerklage unzulässig; Heilung nach § 295 ZPO möglich (nicht, wenn gerügt wurde).\n\nh. L.: Konnexität ist keine besondere Zulässigkeitsvoraussetzung; Zweck des § 33 ZPO ist die Prozessökonomie, er begründet nur einen besonderen Gerichtsstand. Die örtliche Zuständigkeit kann sich auch aus anderen Vorschriften (z. B. §§ 12, 13 ZPO) ergeben; Heilung über § 39 ZPO bei rügeloser Einlassung (beachte § 504 ZPO). Auf den rechtlichen Zusammenhang kommt es nach der h. L. nur an, wenn das Gericht für die Widerklage sonst örtlich nicht zuständig ist.",
+  "id": "zivilgericht-0418",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

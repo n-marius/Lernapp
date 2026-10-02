@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Wer trägt bei der negativen Feststellungsklage die Darlegungs- und Beweislast für die anspruchsbegründenden Tatsachen?",
+  "antworten": [
+    "Der Beklagte als behaupteter Gläubiger",
+    "Der Kläger als Angreifer",
+    "Der Kläger, da er das Nichtbestehen behauptet",
+    "Wer die Unsicherheit verursacht hat"
+  ],
+  "erklaerung": "Die Darlegungs- und Beweislast kehrt sich durch den Wechsel der Parteistellung nicht um (BGH NJW 1993, 1716): Der Beklagte als behaupteter Gläubiger trägt sie für die anspruchsbegründenden Tatsachen, der Kläger als Schuldner für Gegenrechte.\n\nRelation: In der Klägerstation ist zu prüfen, ob der Anspruch des Beklagten nach dem Klägervortrag nicht besteht (z. B. Zahlung behauptet); in der Beklagtenstation erhebliches Vorbringen (z. B. Bestreiten der Zahlung).",
+  "id": "zivilgericht-0398",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

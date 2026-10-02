@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "normal",
+  "frage": "Ist eine Widerklage unter einer Bedingung zulässig?",
+  "antworten": [
+    "Ja, unter einer innerprozessualen Bedingung; eine hilfsweise Drittwiderklage ist aber unzulässig",
+    "Nein, Prozesshandlungen sind bedingungsfeindlich",
+    "Ja, unter jeder Bedingung, auch als hilfsweise Drittwiderklage",
+    "Ja, aber nur bei Zustimmung des Klägers"
+  ],
+  "erklaerung": "Die Widerklage kann unter eine innerprozessuale Bedingung gestellt werden (Eventualwiderklage); eine hilfsweise Drittwiderklage ist nicht zulässig. Der Kläger kann seinerseits eine hilfsweise Wider-Widerklage erheben, die von einer mit der Verteidigung gegen die Widerklage zusammenhängenden Bedingung abhängt.",
+  "id": "zivilgericht-0380",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}

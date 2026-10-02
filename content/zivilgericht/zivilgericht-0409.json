@@ -1,0 +1,15 @@
+{
+  "gebiet": "zivilgericht",
+  "prio": "hoch",
+  "frage": "Darf über eine auf Zahlungsverzug gestützte Räumungsklage durch Teilurteil entschieden werden, wenn über die gleichzeitig eingeklagten Mietrückstände wegen behaupteter Minderung noch Beweis zu erheben ist?",
+  "antworten": [
+    "Nein, wegen der Gefahr widersprechender Entscheidungen",
+    "Ja, wenn jedenfalls ein kündigungsrelevanter Rückstand feststeht",
+    "Ja, da Räumung und Zahlung verschiedene Streitgegenstände sind",
+    "Nein, da Räumungsklagen nicht teilbar sind"
+  ],
+  "erklaerung": "Ein solches Teilurteil ist unzulässig (BGH MDR 2008, 331): Bei der späteren Entscheidung über den Zahlungsanspruch ist das Gericht an die Feststellungen zum Zahlungsverzug im Teilurteil nicht gebunden. Das weitere Verfahren könnte ergeben, dass Minderung und Zurückbehaltungsrecht in solcher Höhe begründet sind, dass kündigungsrelevante Rückstände (§ 543 Abs. 2 Nr. 3 BGB) nicht bestanden – im Widerspruch zum Räumungsurteil.",
+  "id": "zivilgericht-0409",
+  "ts": "2026-10-02T15:30:06.741353Z",
+  "korrigiert": "2026-10-02T15:30:06.741353Z"
+}
